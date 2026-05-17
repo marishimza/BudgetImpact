@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T16:53:57.518Z",
+  "lastUpdated": "2026-05-17T20:39:57.417Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -36,6 +36,131 @@
       "id": "suggestion-20260517-764",
       "timestamp": "2026-05-17T14:45:19.051Z",
       "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Foreign residents must notify ATO before disposing of Australian shares over $50m",
+      "description": "The Federal Budget introduces a new notification requirement for foreign residents disposing of shares and membership interests exceeding $50 million in value. Foreign residents must notify the ATO in the approved form before executing the transaction. The commencement date has been deferred until enabling legislation passes Parliament.",
+      "suggestion": "Add to budget-updates.json: Foreign resident share disposal notification requirement",
+      "source": "https://www.grantthornton.com.au/insights/federal-budget-2026-27/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260517-706",
+      "timestamp": "2026-05-17T20:39:47.157Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/businesses/strengthening-the-foreign-resident-cgt-regime"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Pre-1985 share holdings: ATO valuation reset confirmed for 1 July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Under the new CGT rules, assets acquired before 19 September 1985 will have their cost base reset to market value as at 30 June 2025. This change takes effect from 1 July 2027, ensuring older share holdings are taxed on genuine gains rather than nominal historical cost.",
+      "suggestion": "Add to budget-updates.json: Pre-1985 share holdings valuation reset",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260517-545",
+      "timestamp": "2026-05-17T20:39:47.157Z",
+      "status": "pending",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Division 296 draft legislation includes CGT relief provisions for SMSFs",
+      "description": "Treasury has released draft legislation for the Division 296 $3m super balance tax, including CGT relief provisions that allow SMSFs to reset the cost base of assets when restructuring to comply with the new rules. This relief prevents unintended tax consequences from被迫 realisation of assets during restructuring.",
+      "suggestion": "Add to budget-updates.json: Division 296 CGT relief for SMSF restructuring",
+      "source": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260517-657",
+      "timestamp": "2026-05-17T20:39:47.157Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Does the super performance test constrain fund investment choices?",
+      "description": "Industry experts warn the super performance test constrains funds by not accommodating investments like ESG, energy, venture capital and housing. This conflicts with government claims the test protects Australians from underperformance.",
+      "suggestion": "Add to debates.json: view_a from Superguide says experts warn the super performance test constrains funds because it 'doesn't cater for all investments, particularly ESG, energy, venture capital and housing', view_b from government budget documents emphasise the test's role in 'protecting Australians from persistent underperformance'",
+      "source": "https://www.superguide.com.au/super-booster/federal-budget-2026-overview",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260517-209",
+      "timestamp": "2026-05-17T20:39:47.157Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Budget CGT changes take effect from July 2027",
+      "description": "Media reports say negative gearing restrictions start 'from tonight' while CGT discount changes apply from July 2027. Need to verify the exact implementation dates for both components as they may be conflated.",
+      "suggestion": "Add to fact-checks.json: claim is that negative gearing restrictions and CGT changes have different effective dates, verdict is partially_verified because ABC reports restrictions start 'from this evening' (12 May 2026) while budget.gov.au confirms CGT changes begin 1 July 2027—these are distinct policies with different timelines that media may conflate.",
+      "source": "https://www.abc.net.au/news/2026-05-13/government-breaks-promise-with-restrictions-to-negative-gearing/10452234",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260517-311",
+      "timestamp": "2026-05-17T20:39:47.157Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Budget measure costs $6.4 billion over four years",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ABC reports a budget measure costs $6.4 billion over four years, but doesn't specify which measure. Could be misattributed if referring to combined CGT/negative gearing reforms rather than a specific policy.",
+      "suggestion": "Add to fact-checks.json: claim is [specific measure name and $6.4b cost], verdict is unclear because ABC article doesn't identify which specific measure the $6.4b figure refers to, requiring clarification from budget.gov.au documentation.",
+      "source": "https://www.abc.net.au/news/2026-05-13/federal-budget-2026-winners-and-losers/10450446",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260517-316",
+      "timestamp": "2026-05-17T20:39:47.157Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966"
+    },
+    {
+      "id": "suggestion-20260517-588",
+      "timestamp": "2026-05-17T20:39:47.157Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "id": "suggestion-20260517-198",
+      "timestamp": "2026-05-17T20:39:47.157Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes"
+    },
+    {
+      "id": "suggestion-20260517-501",
+      "timestamp": "2026-05-17T20:39:47.157Z",
+      "status": "pending",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Correction needed: New system applies to assets acquired 'after' 1 July 2027 - potential ambiguity in preposition",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Our site says: \"Assets acquired after 1 July 2027\". Recent sources say: \"The new CGT rules apply from 1 July 2027; the hybrid system already handles pre-1 July 2027 acquisitions, implying new rules apply from that date (on or after)\".",
+      "suggestion": "Update tax-rules.json or relevant content file to correct: New system applies to assets acquired 'after' 1 July 2027 - potential ambiguity in preposition. Source: https://www.theguardian.com/au",
+      "source": "https://www.theguardian.com/au",
+      "implementation_effort": "30_minutes",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+    },
+    {
+      "id": "suggestion-20260517-690",
+      "timestamp": "2026-05-17T20:39:47.157Z",
+      "status": "pending",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Correction needed: Temporal inconsistency between lastUpdated and cutoffDate",
+      "description": "Our site says: \"lastUpdated: 2026-05-17T00:00:00+10:00, cutoffDate: 2026-05-13T19:30:00+10:00\". Recent sources say: \"Budget announced 12 May 2026; data appears updated after cutoff date\".",
+      "suggestion": "Update tax-rules.json or relevant content file to correct: Temporal inconsistency between lastUpdated and cutoffDate. Source: N/A - internal data inconsistency",
+      "source": "N/A - internal data inconsistency",
+      "implementation_effort": "30_minutes",
+      "corroborated_by": "https://www.ato.gov.au/tax-and-super-professionals/for-tax-professionals/prepare-and-lodge/pre-filling-service/recurring-data-issues"
     }
   ],
   "implemented": [

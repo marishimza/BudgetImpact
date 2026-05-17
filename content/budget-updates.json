@@ -8,47 +8,7 @@
       "source": "parliament.gov.au",
       "title": "2026 Federal Budget officially tabled — CGT and negative gearing changes confirmed",
       "summary": "Treasurer Jim Chalmers has officially tabled the 2026 Federal Budget. The 50% CGT discount is abolished from 1 July 2027, replaced by CPI indexation plus a hard 30% minimum tax floor on net capital gains.",
-      "url": "https://www.aph.gov.au/Parliamentary_Business/Hansard",
-      "priority": "high"
-    },
-    {
-      "id": "update-002",
-      "date": "2026-05-16",
-      "tag": "Property",
-      "source": "abc.net.au",
-      "title": "Grandfathering explained: Which property investors keep their tax breaks",
-      "summary": "Properties purchased before Budget Night (7:30 PM, 13 May 2026) or new builds remain fully exempt. Existing properties bought after Budget Night lose negative gearing offsets against salary income.",
-      "url": "https://www.abc.net.au/news/australia-budget-2026-property-investors-grandfathering-explained-2026-05-16",
-      "priority": "high"
-    },
-    {
-      "id": "update-003",
-      "date": "2026-05-16",
-      "tag": "ASX",
-      "source": "asx.com.au",
-      "title": "Pre-1985 share holdings: ATO valuation reset confirmed for 1 July 2027",
-      "summary": "Shares purchased before 20 September 1985 will have their cost base reset via ATO market valuation on 1 July 2027, ending the 42-year legacy CGT exemption.",
-      "url": "https://www.asx.com.au/company-announcements",
-      "priority": "high"
-    },
-    {
-      "id": "update-004",
-      "date": "2026-05-15",
-      "tag": "Analysis",
-      "source": "afr.com",
-      "title": "Economists warn 30% minimum CGT floor will push retirees into higher tax brackets",
-      "summary": "Several economists have raised concerns that the strict 30% minimum tax floor will disproportionately impact retirees who historically timed asset sales to minimise tax in lower-income years.",
-      "url": "https://www.afr.com/policy/economy/economists-warn-30pc-minimum-cgt-floor-will-push-retirees-into-higher-tax-brackets-2026-05-15",
-      "priority": "medium"
-    },
-    {
-      "id": "update-005",
-      "date": "2026-05-15",
-      "tag": "Superannuation",
-      "source": "ato.gov.au",
-      "title": "SMSFs confirmed exempt: Retain one-third CGT discount under new rules",
-      "summary": "The ATO has confirmed Self-Managed Superannuation Funds are completely excluded from the CGT discount removal. SMSFs retain their existing one-third discount, maintaining a significant tax advantage.",
-      "url": "https://www.ato.gov.au/General/New-legislation/In-detail/Topics/Treasury-Laws-Amendment-2026-Tax-Reform/CGT-discount-changes",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Hansard/Hansards",
       "priority": "high"
     },
     {
@@ -58,68 +18,28 @@
       "source": "realestate.com.au",
       "title": "New builds remain fully exempt — developer lobby claims budget favours supply",
       "summary": "Newly constructed residential properties are exempt from both the negative gearing and CGT changes. Property developer lobbies say this is a deliberate policy to encourage housing supply.",
-      "url": "https://www.realestate.com.au/news/new-builds-exempt-budget-2026-property-investors",
-      "priority": "medium"
-    },
-    {
-      "id": "update-007",
-      "date": "2026-05-14",
-      "tag": "Parliament",
-      "source": "parliament.gov.au",
-      "title": "Opposition flags Senate challenge — legislation not yet passed into law",
-      "summary": "The Coalition has flagged it will challenge key provisions of the CGT and negative gearing changes in the Senate. These measures are not yet law and must pass both houses of parliament.",
-      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/bd/bd2526",
-      "priority": "high"
-    },
-    {
-      "id": "update-008",
-      "date": "2026-05-13",
-      "tag": "Budget",
-      "source": "treasury.gov.au",
-      "title": "Budget Night: Full text of Treasurer's speech released",
-      "summary": "The full transcript of Treasurer Chalmers' Budget Night address is available. Key tax changes take effect 1 July 2027, with a grandfathering cut-off of 7:30 PM on 13 May 2026.",
-      "url": "https://budget.gov.au/2026-27/content/speech.htm",
-      "priority": "high"
-    },
-    {
-      "id": "update-009",
-      "date": "2026-03-01",
-      "tag": "Superannuation",
-      "source": "pitcher.com.au",
-      "title": "Division 296 super tax: $3m threshold applies from 1 July 2026",
-      "summary": "Division 296 legislation was passed in March 2026 and will commence from 1 July 2026, introducing an additional 15% tax on superannuation earnings for accounts exceeding $3 million. The new tax affects both SMSF and APRA-regulated fund members with balances above this threshold, representing a significant change for high-balance superannuation accounts.",
-      "url": "https://www.pitcher.com.au/insights/division-296-super-tax-3m-threshold-2026",
-      "priority": "high"
-    },
-    {
-      "id": "update-010",
-      "date": "2026-05-12",
-      "tag": "Budget",
-      "source": "theguardian.com",
-      "title": "Trust tax treatment reform flagged — Government indicates plan to shift burden from income to assets",
-      "summary": "The 2026 Budget signals potential reforms to the tax treatment of trusts, with the Government indicating a broader shift away from taxing incomes towards taxing assets. Labor has stated the plan aims to rebalance the tax system by targeting distribution arrangements commonly used by high-net-worth individuals to minimise tax on investment earnings.",
-      "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-budget-2026-trust-tax-reform-asset-testing",
+      "url": "https://www.realestate.com.au/news/",
       "priority": "medium"
     },
     {
       "id": "update-011",
       "date": "2026-05-17",
       "tag": "Parliament",
-      "source": "aph.gov.au",
-      "title": "Senate Referrals Committee announces inquiry into tax reform legislation",
-      "summary": "The Senate Economics References Committee has established an inquiry into the Treasury Laws Amendment (2026 Tax Reform) Bill 2026. The inquiry will examine the CGT changes, negative gearing modifications, and their impact on housing affordability.",
-      "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate_Committees/Economics_Committee/Inquiries",
+      "source": "parliament.gov.au",
+      "title": "Bills introduced in Parliament for CGT and negative gearing reforms",
+      "summary": "Two bills have been introduced to implement the CGT discount changes and negative gearing modifications. The legislation is scheduled for debate next week.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills",
       "priority": "high"
     },
     {
       "id": "update-012",
-      "date": "2026-05-11",
-      "tag": "Analysis",
-      "source": "treasury.gov.au",
-      "title": "Treasury modelling reveals housing market impact of CGT changes over 10-year horizon",
-      "summary": "Internal Treasury modelling provides projections on how the CGT changes will impact property values, rental availability, and housing affordability over a decade. The analysis suggests a gradual market adjustment rather than sudden price collapse.",
-      "url": "https://treasury.gov.au/consultation/cgt-reform-modelling",
-      "priority": "medium"
+      "date": "2026-05-17",
+      "tag": "Superannuation",
+      "source": "heffron.com.au",
+      "title": "Division 296 CGT relief for SMSF restructuring",
+      "summary": "Treasury has released draft legislation for the Division 296 $3m super balance tax, including CGT relief provisions that allow SMSFs to reset the cost base of assets when restructuring to comply with the new rules. This relief prevents unintended tax consequences from forced realisation of assets during restructuring.",
+      "url": "https://www.heffron.com.au/news/",
+      "priority": "high"
     }
   ]
 }

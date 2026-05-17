@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQs — AusBudget2026</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans">
+
+  <header class="border-b border-slate-800 bg-slate-950/90 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-3xl mx-auto px-6 py-4 flex items-center gap-4">
+      <a href="../../index.html" class="text-slate-500 hover:text-white transition-colors text-sm">← AusBudget2026</a>
+      <div class="w-px h-4 bg-slate-800"></div>
+      <span class="text-slate-300 font-bold text-sm">FAQs</span>
+    </div>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-6 py-10">
+
+    <div class="mb-8">
+      <h1 class="text-3xl font-black text-white">Frequently Asked Questions</h1>
+      <p class="text-slate-400 mt-2">The most common budget questions — answered clearly with official sources.</p>
+    </div>
+
+    <div id="faq-list" class="space-y-3">
+      <div class="text-slate-600 text-sm">Loading FAQs...</div>
+    </div>
+
+  </main>
+
+  <footer class="border-t border-slate-800 mt-16 py-8 px-6 text-center text-xs text-slate-600">
+    <p>Not financial advice. Consult a registered accountant for advice specific to your situation.</p>
+  </footer>
+
+  <script>
+    const catColors = { CGT: 'text-amber-400', Property: 'text-red-400', Superannuation: 'text-purple-400', Parliament: 'text-slate-400' };
+
+    async function loadFAQs() {
+      try {
+        const res = await fetch('../../content/faqs.json');
+        const data = await res.json();
+        const list = document.getElementById('faq-list');
+
+        list.innerHTML = data.faqs.map(faq => `
+          <details class="group bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
+            <summary class="p-5 cursor-pointer list-none flex items-start justify-between gap-4 hover:bg-slate-800/30 transition-colors">
+              <div>
+                <span class="text-xs font-bold uppercase tracking-wider ${catColors[faq.category] || 'text-slate-400'} mr-2">${faq.category}</span>
+                <span class="font-semibold text-white text-sm">${faq.question}</span>
+              </div>
+              <span class="text-slate-600 group-open:rotate-180 transition-transform flex-shrink-0 mt-0.5">▼</span>
+            </summary>
+            <div class="px-5 pb-5 text-sm text-slate-400 leading-relaxed border-t border-slate-800 pt-4">
+              ${faq.answer}
+              ${faq.verified ? '<div class="mt-3 text-xs text-emerald-500">✅ Verified against official sources</div>' : ''}
+            </div>
+          </details>
+        `).join('');
+      } catch (e) {
+        document.getElementById('faq-list').innerHTML = '<div class="text-slate-600 text-sm">Failed to load FAQs.</div>';
+      }
+    }
+    loadFAQs();
+  </script>
+</body>
+</html>

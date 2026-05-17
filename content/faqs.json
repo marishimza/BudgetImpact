@@ -1,0 +1,61 @@
+{
+  "lastUpdated": "2026-05-17T00:00:00+10:00",
+  "faqs": [
+    {
+      "id": "faq-001",
+      "question": "When do the new CGT rules take effect?",
+      "answer": "The new CPI indexation rules and 30% minimum tax floor take effect from 1 July 2027, provided the legislation passes parliament. This is not yet law — it requires a Senate vote.",
+      "category": "CGT",
+      "verified": true
+    },
+    {
+      "id": "faq-002",
+      "question": "I already own an investment property. Am I affected by the negative gearing changes?",
+      "answer": "If you owned the property (or had a contract signed) before 7:30 PM on Budget Night (13 May 2026), you are fully grandfathered. Your negative gearing deductions remain exactly as they are today.",
+      "category": "Property",
+      "verified": true
+    },
+    {
+      "id": "faq-003",
+      "question": "Is my SMSF affected by the new CGT rules?",
+      "answer": "No. Self-Managed Super Funds are completely exempt. They retain the existing one-third CGT discount and are not subject to the 30% minimum tax floor.",
+      "category": "Superannuation",
+      "verified": true
+    },
+    {
+      "id": "faq-004",
+      "question": "What is CPI indexation and how does it work?",
+      "answer": "CPI indexation adjusts your asset's cost base for inflation. If you paid $100,000 for shares and inflation has been 2.5% per year for 10 years, your adjusted cost base is approximately $128,000. You only pay tax on the real gain above that — not the inflation component.",
+      "category": "CGT",
+      "verified": true
+    },
+    {
+      "id": "faq-005",
+      "question": "What is the 30% minimum tax floor?",
+      "answer": "It means your effective tax rate on net capital gains will never fall below 30%, regardless of your total income. Previously, retirees could time asset sales to low-income years and pay very little CGT. The floor closes this strategy.",
+      "category": "CGT",
+      "verified": true
+    },
+    {
+      "id": "faq-006",
+      "question": "Can I still negatively gear a new investment property?",
+      "answer": "Yes. New builds (newly constructed residential properties) retain full negative gearing regardless of when you buy. The restriction only applies to established (pre-existing) homes purchased after Budget Night.",
+      "category": "Property",
+      "verified": true
+    },
+    {
+      "id": "faq-007",
+      "question": "What happens to shares I bought before the 1985 CGT exemption date?",
+      "answer": "If you hold assets purchased before 20 September 1985, their full CGT exemption ends on 1 July 2027. The ATO will establish a new cost base via market valuation on that date. Any gains after 1 July 2027 will be taxed under the new CPI indexation rules.",
+      "category": "CGT",
+      "verified": true
+    },
+    {
+      "id": "faq-008",
+      "question": "Are these changes definitely going ahead?",
+      "answer": "Not yet. Budget announcements are proposals, not law. They must be legislated through parliament. The Opposition has flagged a Senate challenge. Always speak to a registered accountant before making financial decisions based on these changes.",
+      "category": "Parliament",
+      "verified": true
+    }
+  ]
+}

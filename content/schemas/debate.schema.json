@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Debates",
+  "type": "object",
+  "required": ["debates"],
+  "properties": {
+    "debates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "slug", "title", "category", "type", "summary", "view_a", "view_b"],
+        "properties": {
+          "id": { "type": "string" },
+          "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "title": { "type": "string", "minLength": 10 },
+          "category": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": ["factual_dispute", "policy_disagreement", "interpretation_difference", "projection_disagreement"]
+          },
+          "summary": { "type": "string" },
+          "view_a": {
+            "type": "object",
+            "required": ["label", "argument", "sources"],
+            "properties": {
+              "label": { "type": "string" },
+              "argument": { "type": "string" },
+              "sources": {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            }
+          },
+          "view_b": {
+            "type": "object",
+            "required": ["label", "argument", "sources"],
+            "properties": {
+              "label": { "type": "string" },
+              "argument": { "type": "string" },
+              "sources": {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            }
+          },
+          "verdict": {
+            "type": ["string", "null"],
+            "description": "Null until resolved by subsequent reporting"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "lastUpdated": "2026-05-17T00:00:00+10:00",
+  "calculators": [
+    {
+      "id": "calc-cgt-shares",
+      "slug": "cgt-shares",
+      "title": "Share CGT Calculator",
+      "description": "Compare your capital gains tax under old 50% discount vs new CPI indexation + 30% floor rules.",
+      "inputs": [
+        { "id": "purchase_price", "label": "Purchase Price ($)", "type": "number", "default": 50000 },
+        { "id": "sale_price", "label": "Sale Price ($)", "type": "number", "default": 150000 },
+        { "id": "cpi_rate", "label": "Annual CPI Rate (%)", "type": "number", "default": 2.5 },
+        { "id": "hold_years", "label": "Years Held", "type": "number", "default": 10 },
+        { "id": "marginal_rate", "label": "Your Marginal Tax Rate (%)", "type": "number", "default": 37 }
+      ]
+    },
+    {
+      "id": "calc-cgt-property",
+      "slug": "cgt-property",
+      "title": "Property CGT Calculator",
+      "description": "Calculate your capital gains tax liability on an investment property under old vs new rules.",
+      "inputs": [
+        { "id": "purchase_price", "label": "Purchase Price ($)", "type": "number", "default": 500000 },
+        { "id": "sale_price", "label": "Sale Price ($)", "type": "number", "default": 800000 },
+        { "id": "cpi_rate", "label": "Annual CPI Rate (%)", "type": "number", "default": 2.5 },
+        { "id": "hold_years", "label": "Years Held", "type": "number", "default": 10 },
+        { "id": "marginal_rate", "label": "Your Marginal Tax Rate (%)", "type": "number", "default": 37 }
+      ]
+    },
+    {
+      "id": "calc-negative-gearing",
+      "slug": "negative-gearing",
+      "title": "Negative Gearing Impact Calculator",
+      "description": "See how much tax benefit you lose if you buy an established property post-budget.",
+      "inputs": [
+        { "id": "salary", "label": "Annual Salary ($)", "type": "number", "default": 160000 },
+        { "id": "rental_loss", "label": "Annual Rental Loss ($)", "type": "number", "default": 10000 },
+        { "id": "marginal_rate", "label": "Marginal Tax Rate (%)", "type": "number", "default": 37 }
+      ]
+    }
+  ]
+}

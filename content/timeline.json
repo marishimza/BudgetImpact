@@ -1,0 +1,60 @@
+{
+  "lastUpdated": "2026-05-17T00:00:00+10:00",
+  "events": [
+    {
+      "id": "t-001",
+      "date": "2026-05-13",
+      "time": "19:30",
+      "label": "Budget Night Cut-Off",
+      "description": "Grandfathering cut-off for negative gearing. Properties under contract before this time retain full deductions.",
+      "status": "past",
+      "category": "Property",
+      "significance": "critical"
+    },
+    {
+      "id": "t-002",
+      "date": "2026-05-13",
+      "label": "Budget Tabled",
+      "description": "Treasurer Jim Chalmers tables the 2026 Federal Budget in the House of Representatives.",
+      "status": "past",
+      "category": "Parliament",
+      "significance": "critical"
+    },
+    {
+      "id": "t-003",
+      "date": "2026-06-01",
+      "label": "Legislation Expected to be Introduced",
+      "description": "Government expected to introduce enabling legislation for CGT and negative gearing changes into parliament.",
+      "status": "upcoming",
+      "category": "Parliament",
+      "significance": "high"
+    },
+    {
+      "id": "t-004",
+      "date": "2026-08-01",
+      "label": "Senate Committee Review",
+      "description": "Senate Economics Committee expected to review tax legislation. Opposition may propose amendments.",
+      "status": "upcoming",
+      "category": "Parliament",
+      "significance": "high"
+    },
+    {
+      "id": "t-005",
+      "date": "2026-12-31",
+      "label": "Legislation Pass Deadline (Target)",
+      "description": "Government aims to have legislation passed by end of 2026 to give taxpayers clarity before the 1 July 2027 start date.",
+      "status": "upcoming",
+      "category": "Parliament",
+      "significance": "high"
+    },
+    {
+      "id": "t-006",
+      "date": "2027-07-01",
+      "label": "New Rules Take Effect",
+      "description": "CPI indexation replaces 50% CGT discount. 30% minimum tax floor commences. Negative gearing quarantine for post-budget established homes begins. Pre-1985 asset cost bases reset.",
+      "status": "upcoming",
+      "category": "All",
+      "significance": "critical"
+    }
+  ]
+}

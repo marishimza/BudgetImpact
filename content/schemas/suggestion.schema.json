@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Suggestion",
+  "type": "object",
+  "required": ["id", "timestamp", "priority", "type", "title", "description", "suggestion"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^suggestion-\\d{8}-\\d{3}$",
+      "description": "Unique suggestion ID, e.g. suggestion-20260517-001"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 UTC timestamp when suggestion was created"
+    },
+    "priority": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "type": {
+      "type": "string",
+      "enum": ["content_update", "new_page", "debate_page", "fact_check", "calculator_update", "ux_improvement", "timeline_update", "faq_update"]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 200
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10
+    },
+    "suggestion": {
+      "type": "string",
+      "description": "Specific actionable instruction for the Builder Agent"
+    },
+    "source": {
+      "type": "string",
+      "description": "URL or identifier of the source that prompted this suggestion"
+    },
+    "implementation_effort": {
+      "type": "string",
+      "enum": ["15_minutes", "30_minutes", "1_hour", "2_hours", "4_hours"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["pending", "implemented", "skipped", "needs_manual_review"],
+      "default": "pending"
+    },
+    "status_reason": {
+      "type": "string",
+      "description": "Reason for skipping or flagging for manual review"
+    },
+    "implemented_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the Builder Agent implemented this suggestion"
+    },
+    "conflicting_views": {
+      "type": "array",
+      "description": "Used for debate_page type — conflicting views detected",
+      "items": {
+        "type": "object",
+        "required": ["source", "view"],
+        "properties": {
+          "source": { "type": "string" },
+          "view": { "type": "string" }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

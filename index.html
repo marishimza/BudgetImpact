@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AusBudget2026 — Australian Federal Budget Tracker</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    .version-badge { font-size: 0.65rem; }
+    .news-card:hover { transform: translateY(-2px); transition: transform 0.15s; }
+    .status-verified { color: #22c55e; }
+    .status-disputed { color: #ef4444; }
+    .status-partial  { color: #f59e0b; }
+    .status-unclear  { color: #94a3b8; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans">
+
+  <!-- HEADER -->
+  <header class="border-b border-slate-800 bg-slate-950/90 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-2 h-8 bg-red-500 rounded-full"></div>
+        <div>
+          <h1 class="text-xl font-black tracking-tight text-white">AusBudget<span class="text-red-400">2026</span></h1>
+          <p class="text-xs text-slate-500 leading-none">Australian Federal Budget Tracker</p>
+        </div>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm text-slate-400">
+        <a href="pages/property-tax/index.html" class="hover:text-white transition-colors">Property Tax</a>
+        <a href="pages/stock-tax/index.html" class="hover:text-white transition-colors">ASX Shares</a>
+        <a href="pages/tools/index.html" class="hover:text-white transition-colors">Calculators</a>
+        <a href="pages/debate/index.html" class="hover:text-white transition-colors">Debates</a>
+        <a href="pages/fact-checks/index.html" class="hover:text-white transition-colors">Fact Checks</a>
+        <a href="pages/news/index.html" class="hover:text-white transition-colors">News</a>
+        <a href="archive/index.html" class="text-slate-600 hover:text-slate-400 transition-colors text-xs border border-slate-800 px-3 py-1 rounded-full">📋 Version History</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO BANNER -->
+  <section class="border-b border-slate-800 bg-gradient-to-br from-slate-950 via-red-950/10 to-slate-950 py-12 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="flex items-start gap-4">
+        <span class="bg-red-500 text-white text-xs font-bold uppercase tracking-widest px-3 py-1 rounded mt-1">Live Tracker</span>
+        <div>
+          <h2 class="text-4xl md:text-5xl font-black leading-tight text-white max-w-4xl">
+            Jim Chalmers' 2026 Budget — <span class="text-red-400">Breaking Down Every Tax Change</span>
+          </h2>
+          <p class="text-slate-400 text-lg mt-3 max-w-3xl">
+            Independent analysis of the biggest tax overhaul in 25 years. CGT discount abolished, negative gearing reformed, and the ASX share market reshaped. Updated every 6 hours by AI.
+          </p>
+          <div class="flex items-center gap-4 mt-4 text-xs text-slate-500">
+            <span id="last-updated">Updated: loading...</span>
+            <span>•</span>
+            <a href="archive/index.html" class="hover:text-slate-400 transition-colors">View site version history →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="max-w-7xl mx-auto px-6 py-10 space-y-12">
+
+    <!-- TOPIC CARDS -->
+    <section>
+      <h3 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-5">Key Topics</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+        <a href="pages/property-tax/index.html" class="group bg-slate-900 border border-slate-800 hover:border-red-900/60 rounded-xl p-6 transition-all">
+          <div class="text-xs font-bold uppercase tracking-wider text-red-400 mb-2">Property</div>
+          <h4 class="text-lg font-black text-white group-hover:text-red-100 transition-colors">Negative Gearing & Property CGT</h4>
+          <p class="text-sm text-slate-400 mt-2 leading-relaxed">How the new rules affect investment property owners, developers, and first-home buyers differently.</p>
+          <div class="mt-4 flex items-center gap-2 text-xs text-slate-600">
+            <span>Calculators</span><span>•</span><span>Debates</span><span>•</span><span>Fact Checks</span>
+          </div>
+        </a>
+
+        <a href="pages/stock-tax/index.html" class="group bg-slate-900 border border-slate-800 hover:border-sky-900/60 rounded-xl p-6 transition-all">
+          <div class="text-xs font-bold uppercase tracking-wider text-sky-400 mb-2">ASX Shares</div>
+          <h4 class="text-lg font-black text-white group-hover:text-sky-100 transition-colors">New CGT Rules for Share Portfolios</h4>
+          <p class="text-sm text-slate-400 mt-2 leading-relaxed">The 50% discount is gone. How indexation and the 30% floor affects your long-held ASX positions.</p>
+          <div class="mt-4 flex items-center gap-2 text-xs text-slate-600">
+            <span>Calculators</span><span>•</span><span>Debates</span><span>•</span><span>Strategy</span>
+          </div>
+        </a>
+
+        <a href="pages/tools/index.html" class="group bg-slate-900 border border-slate-800 hover:border-emerald-900/60 rounded-xl p-6 transition-all">
+          <div class="text-xs font-bold uppercase tracking-wider text-emerald-400 mb-2">Tools</div>
+          <h4 class="text-lg font-black text-white group-hover:text-emerald-100 transition-colors">Tax Impact Calculators</h4>
+          <p class="text-sm text-slate-400 mt-2 leading-relaxed">Enter your numbers. See exactly how much more you'll pay under the new CGT and negative gearing rules.</p>
+          <div class="mt-4 flex items-center gap-2 text-xs text-slate-600">
+            <span>CGT Calculator</span><span>•</span><span>Gearing Calculator</span>
+          </div>
+        </a>
+
+        <a href="pages/debate/index.html" class="group bg-slate-900 border border-slate-800 hover:border-purple-900/60 rounded-xl p-6 transition-all">
+          <div class="text-xs font-bold uppercase tracking-wider text-purple-400 mb-2">Debates</div>
+          <h4 class="text-lg font-black text-white group-hover:text-purple-100 transition-colors">The Policy Debates</h4>
+          <p class="text-sm text-slate-400 mt-2 leading-relaxed">Where experts disagree. Side-by-side views on the most contested budget changes.</p>
+          <div class="mt-4 flex items-center gap-2 text-xs text-slate-600">
+            <span id="debate-count">Loading...</span> open debates
+          </div>
+        </a>
+
+        <a href="pages/fact-checks/index.html" class="group bg-slate-900 border border-slate-800 hover:border-amber-900/60 rounded-xl p-6 transition-all">
+          <div class="text-xs font-bold uppercase tracking-wider text-amber-400 mb-2">Fact Checks</div>
+          <h4 class="text-lg font-black text-white group-hover:text-amber-100 transition-colors">Claim Verification Centre</h4>
+          <p class="text-sm text-slate-400 mt-2 leading-relaxed">Headlines verified against official sources. Rated: Verified, Partially True, Disputed, or Unclear.</p>
+          <div class="mt-4 flex items-center gap-2 text-xs text-slate-600">
+            <span id="factcheck-count">Loading...</span> claims verified
+          </div>
+        </a>
+
+        <a href="pages/timeline/index.html" class="group bg-slate-900 border border-slate-800 hover:border-slate-700 rounded-xl p-6 transition-all">
+          <div class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Timeline</div>
+          <h4 class="text-lg font-black text-white group-hover:text-slate-200 transition-colors">Implementation Timeline</h4>
+          <p class="text-sm text-slate-400 mt-2 leading-relaxed">Key dates when new tax rules kick in. What's already law, what still needs parliament.</p>
+          <div class="mt-4 flex items-center gap-2 text-xs text-slate-600">
+            <span>Next key date: 1 July 2027</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- LATEST NEWS -->
+    <section>
+      <div class="flex items-center justify-between mb-5">
+        <h3 class="text-xs font-bold uppercase tracking-widest text-slate-500">Latest Updates</h3>
+        <a href="pages/news/index.html" class="text-xs text-slate-600 hover:text-slate-400 transition-colors">View all →</a>
+      </div>
+      <div id="news-feed" class="space-y-3">
+        <div class="text-slate-600 text-sm">Loading latest updates...</div>
+      </div>
+    </section>
+
+    <!-- YOUTUBE VIDEOS -->
+    <section class="border-t border-slate-800 pt-10">
+      <h3 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-5">Video Explainers</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <a href="https://youtube.com" target="_blank" rel="noopener" class="group bg-slate-900 border border-slate-800 hover:border-red-900/50 rounded-xl p-6 flex items-start gap-4 transition-all">
+          <div class="w-12 h-12 bg-red-500/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-red-500/20 transition-colors">
+            <svg class="w-5 h-5 text-red-400" fill="currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.28 8.28 0 004.84 1.55V6.79a4.85 4.85 0 01-1.07-.1z"/></svg>
+          </div>
+          <div>
+            <div class="text-xs text-slate-500 uppercase tracking-wider mb-1">YouTube</div>
+            <h4 class="font-bold text-white group-hover:text-red-200 transition-colors">Property Tax Overhaul Explained</h4>
+            <p class="text-sm text-slate-400 mt-1">Negative gearing, CGT changes & what it means for property investors.</p>
+          </div>
+        </a>
+        <a href="https://youtube.com" target="_blank" rel="noopener" class="group bg-slate-900 border border-slate-800 hover:border-sky-900/50 rounded-xl p-6 flex items-start gap-4 transition-all">
+          <div class="w-12 h-12 bg-sky-500/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-sky-500/20 transition-colors">
+            <svg class="w-5 h-5 text-sky-400" fill="currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.28 8.28 0 004.84 1.55V6.79a4.85 4.85 0 01-1.07-.1z"/></svg>
+          </div>
+          <div>
+            <div class="text-xs text-slate-500 uppercase tracking-wider mb-1">YouTube</div>
+            <h4 class="font-bold text-white group-hover:text-sky-200 transition-colors">New CGT Rules for ASX Shares</h4>
+            <p class="text-sm text-slate-400 mt-1">The shift from 50% discount to CPI indexation — what it means for your portfolio.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- SITE BUILT BY AI BADGE -->
+    <section class="border-t border-slate-800 pt-8">
+      <div class="bg-slate-900/50 border border-slate-800 rounded-xl p-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+        <div>
+          <div class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-1">About This Site</div>
+          <p class="text-sm text-slate-400 max-w-2xl">This website is autonomously built and maintained by AI agents. Content is researched, written, and updated every 6 hours. Pages evolve over time as new information becomes available.</p>
+        </div>
+        <a href="archive/index.html" class="flex-shrink-0 bg-slate-800 hover:bg-slate-700 transition-colors border border-slate-700 rounded-lg px-4 py-2 text-sm text-slate-300 whitespace-nowrap">
+          📋 View Version History
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-800 mt-16 py-8 px-6 text-center text-xs text-slate-600">
+    <p>AusBudget2026 — Independent AI-powered analysis. Not financial advice. Verify all information with a registered accountant.</p>
+    <p class="mt-2">Content automatically updated. <a href="archive/index.html" class="hover:text-slate-400 transition-colors">Site version history</a> available.</p>
+  </footer>
+
+  <script>
+    // Load content from JSON files
+    async function loadContent() {
+      try {
+        // Load news feed
+        const newsRes = await fetch('content/budget-updates.json');
+        const newsData = await newsRes.json();
+
+        const feed = document.getElementById('news-feed');
+        feed.innerHTML = newsData.items.slice(0, 5).map(item => `
+          <a href="${item.url || '#'}" target="_blank" rel="noopener"
+             class="news-card bg-slate-900 border border-slate-800 hover:border-slate-700 rounded-lg p-4 flex items-start gap-4 block transition-all">
+            <div class="flex-shrink-0 w-16 text-center">
+              <div class="text-xs text-slate-600">${formatDate(item.date)}</div>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="text-xs font-bold uppercase tracking-wider ${tagColor(item.tag)}">${item.tag}</span>
+                <span class="text-xs text-slate-600">${item.source}</span>
+              </div>
+              <h4 class="font-semibold text-white text-sm leading-snug">${item.title}</h4>
+              <p class="text-xs text-slate-400 mt-1 leading-relaxed">${item.summary}</p>
+            </div>
+          </a>
+        `).join('');
+
+        document.getElementById('last-updated').textContent = `Updated: ${formatDate(newsData.lastUpdated)}`;
+
+        // Load debate count
+        const debatesRes = await fetch('content/debates.json');
+        const debatesData = await debatesRes.json();
+        document.getElementById('debate-count').textContent = debatesData.debates.length;
+
+        // Load fact check count
+        const fcRes = await fetch('content/fact-checks.json');
+        const fcData = await fcRes.json();
+        document.getElementById('factcheck-count').textContent = fcData.claims.length;
+
+      } catch (e) {
+        console.warn('Content load error:', e.message);
+      }
+    }
+
+    function formatDate(dateStr) {
+      if (!dateStr) return '—';
+      const d = new Date(dateStr);
+      return d.toLocaleDateString('en-AU', { day: 'numeric', month: 'short' });
+    }
+
+    function tagColor(tag) {
+      const map = {
+        'Property': 'text-red-400',
+        'ASX': 'text-sky-400',
+        'Budget': 'text-amber-400',
+        'Superannuation': 'text-purple-400',
+        'Parliament': 'text-slate-400',
+        'Analysis': 'text-emerald-400',
+      };
+      return map[tag] || 'text-slate-500';
+    }
+
+    loadContent();
+  </script>
+</body>
+</html>

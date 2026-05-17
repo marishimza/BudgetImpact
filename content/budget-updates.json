@@ -1,0 +1,85 @@
+{
+  "lastUpdated": "2026-05-17T00:00:00+10:00",
+  "items": [
+    {
+      "id": "update-001",
+      "date": "2026-05-17",
+      "tag": "Budget",
+      "source": "parliament.gov.au",
+      "title": "2026 Federal Budget officially tabled — CGT and negative gearing changes confirmed",
+      "summary": "Treasurer Jim Chalmers has officially tabled the 2026 Federal Budget. The 50% CGT discount is abolished from 1 July 2027, replaced by CPI indexation plus a hard 30% minimum tax floor on net capital gains.",
+      "url": "https://www.parliament.gov.au",
+      "priority": "high"
+    },
+    {
+      "id": "update-002",
+      "date": "2026-05-16",
+      "tag": "Property",
+      "source": "abc.net.au",
+      "title": "Grandfathering explained: Which property investors keep their tax breaks",
+      "summary": "Properties purchased before Budget Night (7:30 PM, 13 May 2026) or new builds remain fully exempt. Existing properties bought after Budget Night lose negative gearing offsets against salary income.",
+      "url": "https://www.abc.net.au",
+      "priority": "high"
+    },
+    {
+      "id": "update-003",
+      "date": "2026-05-16",
+      "tag": "ASX",
+      "source": "asx.com.au",
+      "title": "Pre-1985 share holdings: ATO valuation reset confirmed for 1 July 2027",
+      "summary": "Shares purchased before 20 September 1985 will have their cost base reset via ATO market valuation on 1 July 2027, ending the 42-year legacy CGT exemption.",
+      "url": "https://www.asx.com.au",
+      "priority": "high"
+    },
+    {
+      "id": "update-004",
+      "date": "2026-05-15",
+      "tag": "Analysis",
+      "source": "afr.com",
+      "title": "Economists warn 30% minimum CGT floor will push retirees into higher tax brackets",
+      "summary": "Several economists have raised concerns that the strict 30% minimum tax floor will disproportionately impact retirees who historically timed asset sales to minimise tax in lower-income years.",
+      "url": "https://www.afr.com",
+      "priority": "medium"
+    },
+    {
+      "id": "update-005",
+      "date": "2026-05-15",
+      "tag": "Superannuation",
+      "source": "ato.gov.au",
+      "title": "SMSFs confirmed exempt: Retain one-third CGT discount under new rules",
+      "summary": "The ATO has confirmed Self-Managed Superannuation Funds are completely excluded from the CGT discount removal. SMSFs retain their existing one-third discount, maintaining a significant tax advantage.",
+      "url": "https://www.ato.gov.au",
+      "priority": "high"
+    },
+    {
+      "id": "update-006",
+      "date": "2026-05-14",
+      "tag": "Property",
+      "source": "realestate.com.au",
+      "title": "New builds remain fully exempt — developer lobby claims budget favours supply",
+      "summary": "Newly constructed residential properties are exempt from both the negative gearing and CGT changes. Property developer lobbies say this is a deliberate policy to encourage housing supply.",
+      "url": "https://www.realestate.com.au",
+      "priority": "medium"
+    },
+    {
+      "id": "update-007",
+      "date": "2026-05-14",
+      "tag": "Parliament",
+      "source": "parliament.gov.au",
+      "title": "Opposition flags Senate challenge — legislation not yet passed into law",
+      "summary": "The Coalition has flagged it will challenge key provisions of the CGT and negative gearing changes in the Senate. These measures are not yet law and must pass both houses of parliament.",
+      "url": "https://www.parliament.gov.au",
+      "priority": "high"
+    },
+    {
+      "id": "update-008",
+      "date": "2026-05-13",
+      "tag": "Budget",
+      "source": "treasury.gov.au",
+      "title": "Budget Night: Full text of Treasurer's speech released",
+      "summary": "The full transcript of Treasurer Chalmers' Budget Night address is available. Key tax changes take effect 1 July 2027, with a grandfathering cut-off of 7:30 PM on 13 May 2026.",
+      "url": "https://www.treasury.gov.au",
+      "priority": "high"
+    }
+  ]
+}

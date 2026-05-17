@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Policy Debates — AusBudget2026</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans">
+
+  <header class="border-b border-slate-800 bg-slate-950/90 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <a href="../../index.html" class="text-slate-500 hover:text-white transition-colors text-sm">← AusBudget2026</a>
+        <div class="w-px h-4 bg-slate-800"></div>
+        <span class="text-purple-400 font-bold text-sm">Policy Debates</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-10">
+
+    <div class="mb-8">
+      <h1 class="text-3xl font-black text-white">Policy Debates</h1>
+      <p class="text-slate-400 mt-2 max-w-2xl">Where credible sources genuinely disagree. Each debate presents both sides with their cited arguments. AI-detected from news sources — updated automatically.</p>
+    </div>
+
+    <div id="debates-list" class="space-y-6">
+      <div class="text-slate-600 text-sm">Loading debates...</div>
+    </div>
+
+  </main>
+
+  <footer class="border-t border-slate-800 mt-16 py-8 px-6 text-center text-xs text-slate-600">
+    <p>Debates are identified by AI from conflicting credible sources. Not editorial opinion.</p>
+  </footer>
+
+  <script>
+    async function loadDebates() {
+      try {
+        const res = await fetch('../../content/debates.json');
+        const data = await res.json();
+        const list = document.getElementById('debates-list');
+
+        list.innerHTML = data.debates.map(d => `
+          <div class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
+            <div class="p-6 border-b border-slate-800">
+              <div class="flex items-center gap-3 mb-2">
+                <span class="text-xs font-bold uppercase tracking-wider text-purple-400">${d.category}</span>
+                <span class="text-xs text-slate-600 capitalize">${d.type.replace('_', ' ')}</span>
+              </div>
+              <h2 class="text-xl font-black text-white">${d.title}</h2>
+              <p class="text-sm text-slate-400 mt-2">${d.summary}</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-slate-800">
+              <div class="p-6">
+                <div class="text-xs font-bold uppercase tracking-wider text-red-400 mb-3">${d.view_a.label}</div>
+                <p class="text-sm text-slate-300 leading-relaxed">${d.view_a.argument}</p>
+                <div class="mt-4 flex flex-wrap gap-2">
+                  ${d.view_a.sources.map(s => `<span class="text-xs bg-slate-800 text-slate-500 px-2 py-0.5 rounded">${s}</span>`).join('')}
+                </div>
+              </div>
+              <div class="p-6">
+                <div class="text-xs font-bold uppercase tracking-wider text-emerald-400 mb-3">${d.view_b.label}</div>
+                <p class="text-sm text-slate-300 leading-relaxed">${d.view_b.argument}</p>
+                <div class="mt-4 flex flex-wrap gap-2">
+                  ${d.view_b.sources.map(s => `<span class="text-xs bg-slate-800 text-slate-500 px-2 py-0.5 rounded">${s}</span>`).join('')}
+                </div>
+              </div>
+            </div>
+          </div>
+        `).join('');
+
+      } catch (e) {
+        document.getElementById('debates-list').innerHTML = '<div class="text-slate-600 text-sm">Failed to load debates.</div>';
+      }
+    }
+    loadDebates();
+  </script>
+</body>
+</html>

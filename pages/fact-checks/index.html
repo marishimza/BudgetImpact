@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fact Checks — AusBudget2026</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans">
+
+  <header class="border-b border-slate-800 bg-slate-950/90 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <a href="../../index.html" class="text-slate-500 hover:text-white transition-colors text-sm">← AusBudget2026</a>
+        <div class="w-px h-4 bg-slate-800"></div>
+        <span class="text-amber-400 font-bold text-sm">Fact Checks</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-10">
+
+    <div class="mb-8">
+      <h1 class="text-3xl font-black text-white">Fact Check Centre</h1>
+      <p class="text-slate-400 mt-2 max-w-2xl">Budget claims verified against official sources. Each claim is rated and explained with citations.</p>
+      <div class="flex flex-wrap gap-3 mt-4">
+        <span class="flex items-center gap-1.5 text-xs text-emerald-400"><span class="w-2 h-2 bg-emerald-400 rounded-full"></span> Verified</span>
+        <span class="flex items-center gap-1.5 text-xs text-amber-400"><span class="w-2 h-2 bg-amber-400 rounded-full"></span> Partially True</span>
+        <span class="flex items-center gap-1.5 text-xs text-red-400"><span class="w-2 h-2 bg-red-400 rounded-full"></span> Disputed</span>
+        <span class="flex items-center gap-1.5 text-xs text-slate-400"><span class="w-2 h-2 bg-slate-400 rounded-full"></span> Unclear</span>
+      </div>
+    </div>
+
+    <div id="factchecks-list" class="space-y-4">
+      <div class="text-slate-600 text-sm">Loading fact checks...</div>
+    </div>
+
+  </main>
+
+  <footer class="border-t border-slate-800 mt-16 py-8 px-6 text-center text-xs text-slate-600">
+    <p>Fact checks are performed by AI against official government and credible news sources. Always verify with an accountant.</p>
+  </footer>
+
+  <script>
+    const verdictConfig = {
+      verified:       { label: '✅ Verified',        color: 'text-emerald-400', border: 'border-emerald-900/50', bg: 'bg-emerald-500/5' },
+      partially_true: { label: '⚠️ Partially True',  color: 'text-amber-400',   border: 'border-amber-900/50',  bg: 'bg-amber-500/5' },
+      disputed:       { label: '❌ Disputed',         color: 'text-red-400',     border: 'border-red-900/50',    bg: 'bg-red-500/5' },
+      unclear:        { label: '❓ Unclear',          color: 'text-slate-400',   border: 'border-slate-700',     bg: 'bg-slate-800/30' },
+    };
+
+    async function loadFactChecks() {
+      try {
+        const res = await fetch('../../content/fact-checks.json');
+        const data = await res.json();
+        const list = document.getElementById('factchecks-list');
+
+        list.innerHTML = data.claims.map(fc => {
+          const cfg = verdictConfig[fc.verdict] || verdictConfig.unclear;
+          return `
+            <div class="bg-slate-900 border ${cfg.border} rounded-xl overflow-hidden">
+              <div class="${cfg.bg} px-6 py-4 border-b border-slate-800/50">
+                <div class="flex items-start justify-between gap-4">
+                  <div>
+                    <div class="text-xs text-slate-500 uppercase tracking-wider mb-1">${fc.category}</div>
+                    <h2 class="font-bold text-white leading-snug">"${fc.claim}"</h2>
+                  </div>
+                  <span class="flex-shrink-0 text-sm font-bold ${cfg.color}">${cfg.label}</span>
+                </div>
+              </div>
+              <div class="p-6 space-y-4">
+                <div class="text-sm font-medium text-slate-200">${fc.short_explanation}</div>
+                <p class="text-sm text-slate-400 leading-relaxed">${fc.detailed_explanation}</p>
+                <div class="flex flex-wrap gap-2 pt-2">
+                  ${fc.sources.map(s => `
+                    <a href="${s.url}" target="_blank" rel="noopener"
+                       class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-400 px-2 py-1 rounded transition-colors flex items-center gap-1">
+                      ${s.type === 'official' ? '🏛️' : '📰'} ${s.name}
+                    </a>
+                  `).join('')}
+                </div>
+                <div class="text-xs text-slate-600 pt-1">Checked: ${fc.date_checked}</div>
+              </div>
+            </div>
+          `;
+        }).join('');
+
+      } catch (e) {
+        document.getElementById('factchecks-list').innerHTML = '<div class="text-slate-600 text-sm">Failed to load fact checks.</div>';
+      }
+    }
+    loadFactChecks();
+  </script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tax Calculators — AusBudget2026</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans">
+
+  <header class="border-b border-slate-800 bg-slate-950/90 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <a href="../../index.html" class="text-slate-500 hover:text-white transition-colors text-sm">← AusBudget2026</a>
+        <div class="w-px h-4 bg-slate-800"></div>
+        <span class="text-emerald-400 font-bold text-sm">Tax Calculators</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-6 py-10 space-y-10">
+
+    <div>
+      <h1 class="text-3xl font-black text-white">Tax Impact Calculators</h1>
+      <p class="text-slate-400 mt-2">Enter your numbers to see exactly how the new budget rules affect your tax bill. All calculations are client-side — no data is sent anywhere.</p>
+    </div>
+
+    <!-- CGT CALCULATOR -->
+    <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-6">
+      <div>
+        <div class="text-xs font-bold uppercase tracking-wider text-emerald-400 mb-1">Capital Gains Tax</div>
+        <h2 class="text-xl font-black text-white">Share / Property CGT Calculator</h2>
+        <p class="text-sm text-slate-400 mt-1">Compare your CGT bill under old 50% discount vs new CPI indexation + 30% floor.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <label class="block text-xs text-slate-500 mb-1">Purchase Price ($)</label>
+          <input id="cgt-purchase" type="number" value="50000" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500">
+        </div>
+        <div>
+          <label class="block text-xs text-slate-500 mb-1">Sale Price ($)</label>
+          <input id="cgt-sale" type="number" value="150000" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500">
+        </div>
+        <div>
+          <label class="block text-xs text-slate-500 mb-1">Annual CPI Rate (%)</label>
+          <input id="cgt-cpi" type="number" value="2.5" step="0.1" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500">
+        </div>
+        <div>
+          <label class="block text-xs text-slate-500 mb-1">Years Held</label>
+          <input id="cgt-years" type="number" value="10" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500">
+        </div>
+        <div class="md:col-span-2">
+          <label class="block text-xs text-slate-500 mb-1">Your Marginal Tax Rate (%)</label>
+          <input id="cgt-rate" type="number" value="37" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-emerald-500">
+        </div>
+      </div>
+
+      <button onclick="calculateCGT()" class="w-full bg-emerald-600 hover:bg-emerald-500 transition-colors rounded-lg py-2.5 text-sm font-bold text-white">
+        Calculate →
+      </button>
+
+      <div id="cgt-results" class="hidden space-y-4 pt-2 border-t border-slate-800">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="bg-slate-800/50 rounded-lg p-4">
+            <div class="text-xs text-slate-500 uppercase tracking-wider mb-2">Old System (50% Discount)</div>
+            <div class="text-2xl font-black text-emerald-400" id="cgt-old-tax">—</div>
+            <div class="text-xs text-slate-500 mt-1" id="cgt-old-detail">—</div>
+          </div>
+          <div class="bg-slate-800/50 rounded-lg p-4">
+            <div class="text-xs text-slate-500 uppercase tracking-wider mb-2">New System (CPI + 30% Floor)</div>
+            <div class="text-2xl font-black text-red-400" id="cgt-new-tax">—</div>
+            <div class="text-xs text-slate-500 mt-1" id="cgt-new-detail">—</div>
+          </div>
+        </div>
+        <div class="bg-red-500/5 border border-red-500/20 rounded-lg p-3 text-center">
+          <span class="text-sm text-slate-300">Extra tax under new rules: </span>
+          <span class="text-sm font-bold text-red-400" id="cgt-difference">—</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- NEGATIVE GEARING CALCULATOR -->
+    <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-6">
+      <div>
+        <div class="text-xs font-bold uppercase tracking-wider text-red-400 mb-1">Negative Gearing</div>
+        <h2 class="text-xl font-black text-white">Gearing Impact Calculator</h2>
+        <p class="text-sm text-slate-400 mt-1">See how much tax benefit you lose when buying an established property post-budget vs a grandfathered/new-build property.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <label class="block text-xs text-slate-500 mb-1">Annual Salary ($)</label>
+          <input id="ng-salary" type="number" value="160000" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-red-500">
+        </div>
+        <div>
+          <label class="block text-xs text-slate-500 mb-1">Annual Rental Loss ($)</label>
+          <input id="ng-loss" type="number" value="10000" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-red-500">
+        </div>
+        <div class="md:col-span-2">
+          <label class="block text-xs text-slate-500 mb-1">Your Marginal Tax Rate (%)</label>
+          <input id="ng-rate" type="number" value="37" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-red-500">
+        </div>
+      </div>
+
+      <button onclick="calculateNG()" class="w-full bg-red-600 hover:bg-red-500 transition-colors rounded-lg py-2.5 text-sm font-bold text-white">
+        Calculate →
+      </button>
+
+      <div id="ng-results" class="hidden space-y-4 pt-2 border-t border-slate-800">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="bg-slate-800/50 rounded-lg p-4">
+            <div class="text-xs text-slate-500 uppercase tracking-wider mb-2">With Gearing (Grandfathered)</div>
+            <div class="text-xs text-slate-400 mb-1">Taxable Income</div>
+            <div class="text-xl font-black text-emerald-400" id="ng-old-income">—</div>
+            <div class="text-xs text-slate-500 mt-2">Tax saving vs no property</div>
+            <div class="text-lg font-bold text-emerald-400" id="ng-old-saving">—</div>
+          </div>
+          <div class="bg-slate-800/50 rounded-lg p-4">
+            <div class="text-xs text-slate-500 uppercase tracking-wider mb-2">Without Gearing (Post-Budget)</div>
+            <div class="text-xs text-slate-400 mb-1">Taxable Income</div>
+            <div class="text-xl font-black text-red-400" id="ng-new-income">—</div>
+            <div class="text-xs text-slate-500 mt-2">Annual tax benefit lost</div>
+            <div class="text-lg font-bold text-red-400" id="ng-new-saving">$0</div>
+          </div>
+        </div>
+        <div class="bg-red-500/5 border border-red-500/20 rounded-lg p-3 text-center">
+          <span class="text-sm text-slate-300">Annual tax benefit lost for post-budget established buyers: </span>
+          <span class="text-sm font-bold text-red-400" id="ng-difference">—</span>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="border-t border-slate-800 mt-16 py-8 px-6 text-center text-xs text-slate-600">
+    <p>Estimates only. Tax laws are complex — consult a registered accountant for advice specific to your situation.</p>
+  </footer>
+
+  <script>
+    function fmt(n) {
+      return '$' + Math.round(n).toLocaleString('en-AU');
+    }
+
+    function calculateCGT() {
+      const purchase = parseFloat(document.getElementById('cgt-purchase').value) || 0;
+      const sale = parseFloat(document.getElementById('cgt-sale').value) || 0;
+      const cpiRate = parseFloat(document.getElementById('cgt-cpi').value) / 100 || 0.025;
+      const years = parseFloat(document.getElementById('cgt-years').value) || 10;
+      const marginalRate = parseFloat(document.getElementById('cgt-rate').value) / 100 || 0.37;
+
+      const totalGain = sale - purchase;
+
+      // Old system: 50% discount, taxed at marginal rate
+      const oldTaxableGain = totalGain * 0.5;
+      const oldTax = oldTaxableGain * marginalRate;
+
+      // New system: CPI indexation, 30% floor
+      const inflationFactor = Math.pow(1 + cpiRate, years);
+      const adjustedCostBase = purchase * inflationFactor;
+      const realGain = Math.max(0, sale - adjustedCostBase);
+      const newTaxBeforeFloor = realGain * marginalRate;
+      const floorTax = realGain * 0.30;
+      const newTax = Math.max(newTaxBeforeFloor, floorTax);
+
+      const diff = newTax - oldTax;
+
+      document.getElementById('cgt-old-tax').textContent = fmt(oldTax);
+      document.getElementById('cgt-old-detail').textContent = `Taxable gain: ${fmt(oldTaxableGain)} (50% of ${fmt(totalGain)})`;
+      document.getElementById('cgt-new-tax').textContent = fmt(newTax);
+      document.getElementById('cgt-new-detail').textContent = `Real gain: ${fmt(realGain)} | CPI adj: ${fmt(adjustedCostBase - purchase)}`;
+      document.getElementById('cgt-difference').textContent = diff > 0 ? `+${fmt(diff)}` : fmt(diff);
+
+      document.getElementById('cgt-results').classList.remove('hidden');
+    }
+
+    function calculateNG() {
+      const salary = parseFloat(document.getElementById('ng-salary').value) || 0;
+      const loss = parseFloat(document.getElementById('ng-loss').value) || 0;
+      const rate = parseFloat(document.getElementById('ng-rate').value) / 100 || 0.37;
+
+      const withGearing = salary - loss;
+      const saving = loss * rate;
+
+      document.getElementById('ng-old-income').textContent = fmt(withGearing);
+      document.getElementById('ng-old-saving').textContent = fmt(saving) + '/yr';
+      document.getElementById('ng-new-income').textContent = fmt(salary);
+      document.getElementById('ng-new-saving').textContent = '$0';
+      document.getElementById('ng-difference').textContent = fmt(saving) + '/yr';
+
+      document.getElementById('ng-results').classList.remove('hidden');
+    }
+  </script>
+</body>
+</html>

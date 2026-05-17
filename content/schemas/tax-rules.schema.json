@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TaxRules",
+  "type": "object",
+  "required": ["last_updated", "cgt", "negative_gearing"],
+  "properties": {
+    "last_updated": { "type": "string", "format": "date-time" },
+    "cgt": {
+      "type": "object",
+      "required": ["old_system", "new_system", "grandfathering"],
+      "properties": {
+        "old_system": {
+          "type": "object",
+          "required": ["discount_rate", "applies_to"],
+          "properties": {
+            "discount_rate": { "type": "number", "minimum": 0, "maximum": 1 },
+            "applies_to": { "type": "string" }
+          }
+        },
+        "new_system": {
+          "type": "object",
+          "required": ["floor_rate", "indexation_method", "effective_date"],
+          "properties": {
+            "floor_rate": { "type": "number", "minimum": 0, "maximum": 1 },
+            "indexation_method": { "type": "string" },
+            "effective_date": { "type": "string" }
+          }
+        },
+        "grandfathering": {
+          "type": "object",
+          "required": ["cutoff_date", "rules"],
+          "properties": {
+            "cutoff_date": { "type": "string" },
+            "rules": { "type": "string" }
+          }
+        }
+      }
+    },
+    "negative_gearing": {
+      "type": "object",
+      "required": ["new_builds", "established_properties"],
+      "properties": {
+        "new_builds": {
+          "type": "object",
+          "properties": {
+            "status": { "type": "string" },
+            "notes": { "type": "string" }
+          }
+        },
+        "established_properties": {
+          "type": "object",
+          "properties": {
+            "status": { "type": "string" },
+            "notes": { "type": "string" },
+            "grandfathered_cutoff": { "type": "string" }
+          }
+        }
+      }
+    },
+    "special_cases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "rule"],
+        "properties": {
+          "name": { "type": "string" },
+          "rule": { "type": "string" },
+          "status": { "type": "string" }
+        }
+      }
+    }
+  }
+}

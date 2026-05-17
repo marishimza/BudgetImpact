@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASX Share Tax Changes — AusBudget2026</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans">
+
+  <header class="border-b border-slate-800 bg-slate-950/90 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <a href="../../index.html" class="text-slate-500 hover:text-white transition-colors text-sm">← AusBudget2026</a>
+        <div class="w-px h-4 bg-slate-800"></div>
+        <span class="text-sky-400 font-bold text-sm">ASX Shares</span>
+      </div>
+      <a href="../../archive/index.html" class="text-xs text-slate-600 hover:text-slate-400 border border-slate-800 px-3 py-1 rounded-full transition-colors">📋 Version History</a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-10 space-y-12">
+
+    <!-- HERO -->
+    <div class="border-b border-slate-800 pb-8">
+      <span class="text-xs font-bold uppercase tracking-widest text-sky-400">ASX Share Portfolios</span>
+      <h1 class="text-4xl font-black text-white mt-2 leading-tight">New CGT Rules for<br>Australian Share Investors</h1>
+      <p class="text-slate-400 text-lg mt-3 max-w-3xl">The 50% CGT discount is gone for new share positions from 1 July 2027. Your portfolio's era of purchase determines which tax rules apply.</p>
+      <a href="https://youtube.com" target="_blank" rel="noopener" class="inline-flex items-center gap-2 mt-4 text-sm text-sky-400 hover:text-sky-300 transition-colors">
+        ▶ Watch the video explainer →
+      </a>
+    </div>
+
+    <!-- THREE ERAS -->
+    <section>
+      <h2 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-5">The Three Eras of Share Portfolios</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+        <div class="bg-slate-900 border border-red-900/40 rounded-xl p-6">
+          <div class="w-8 h-8 bg-red-500/10 text-red-400 flex items-center justify-center rounded-full font-bold text-sm mb-4">1</div>
+          <h3 class="font-bold text-white mb-1">Pre-1985 (Pre-CGT)</h3>
+          <div class="text-xs text-red-400 font-bold uppercase tracking-wider mb-3">Exemption Ending</div>
+          <p class="text-sm text-slate-400 leading-relaxed">Assets held since before 20 Sept 1985 lose their 42-year CGT exemption. Cost bases reset via ATO market valuation on 1 July 2027.</p>
+        </div>
+
+        <div class="bg-slate-900 border border-amber-900/40 rounded-xl p-6">
+          <div class="w-8 h-8 bg-amber-500/10 text-amber-400 flex items-center justify-center rounded-full font-bold text-sm mb-4">2</div>
+          <h3 class="font-bold text-white mb-1">Grandfathered Shares</h3>
+          <div class="text-xs text-amber-400 font-bold uppercase tracking-wider mb-3">Hybrid Rules</div>
+          <p class="text-sm text-slate-400 leading-relaxed">Shares bought before 1 July 2027. Old 50% discount applies to gains up to June 2027. New CPI indexation applies to gains after that date.</p>
+        </div>
+
+        <div class="bg-slate-900 border border-sky-900/40 rounded-xl p-6">
+          <div class="w-8 h-8 bg-sky-500/10 text-sky-400 flex items-center justify-center rounded-full font-bold text-sm mb-4">3</div>
+          <h3 class="font-bold text-white mb-1">Post-July 2027 Buys</h3>
+          <div class="text-xs text-sky-400 font-bold uppercase tracking-wider mb-3">Pure Indexation</div>
+          <p class="text-sm text-slate-400 leading-relaxed">Zero 50% discount. Gains adjusted for CPI inflation only. Hard 30% minimum tax floor on all net capital gains.</p>
+        </div>
+
+      </div>
+      <p class="text-xs text-slate-600 mt-3">Note: Margin lending interest deductions remain fully deductible against ordinary income under all pathways.</p>
+    </section>
+
+    <!-- SIDE BY SIDE MATH -->
+    <section>
+      <h2 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-5">Side-by-Side: $100,000 Profit on a Share Sale</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-6">
+          <div class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-4">Old System — 50% Discount</div>
+          <div class="space-y-3 font-mono text-sm">
+            <div class="flex justify-between border-b border-slate-800 pb-2">
+              <span class="text-slate-400 font-sans">Total Profit</span><span>$100,000</span>
+            </div>
+            <div class="flex justify-between border-b border-slate-800 pb-2 text-emerald-400">
+              <span class="text-slate-400 font-sans">50% Discount</span><span>−$50,000</span>
+            </div>
+            <div class="flex justify-between border-b border-slate-800 pb-2">
+              <span class="text-slate-400 font-sans">Taxable Gain</span><span>$50,000</span>
+            </div>
+            <div class="flex justify-between pt-2 font-bold text-base">
+              <span class="text-white font-sans">Tax Bill (30% bracket)</span>
+              <span class="text-emerald-400">$15,000</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-slate-900 border border-red-900/60 rounded-xl p-6">
+          <div class="text-xs font-bold uppercase tracking-wider text-red-400 mb-4">New System — CPI Indexation + 30% Floor</div>
+          <div class="space-y-3 font-mono text-sm">
+            <div class="flex justify-between border-b border-slate-800 pb-2">
+              <span class="text-slate-400 font-sans">Total Profit</span><span>$100,000</span>
+            </div>
+            <div class="flex justify-between border-b border-slate-800 pb-2 text-sky-400">
+              <span class="text-slate-400 font-sans">CPI Adjustment (e.g. 10%)</span><span>−$10,000</span>
+            </div>
+            <div class="flex justify-between border-b border-slate-800 pb-2">
+              <span class="text-slate-400 font-sans">Taxable Real Gain</span><span>$90,000</span>
+            </div>
+            <div class="flex justify-between pt-2 font-bold text-base">
+              <span class="text-white font-sans">Tax Bill (30% floor)</span>
+              <span class="text-red-400">$27,000</span>
+            </div>
+          </div>
+          <div class="mt-3 text-xs text-red-400/80 font-medium">+$12,000 more tax for the same market gain</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ROTATION TO DIVIDENDS -->
+    <section>
+      <h2 class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-5">The Strategic Shift — Franked Dividend Yield</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-6">
+          <h3 class="font-bold text-white mb-2">Growth Stocks Lose Appeal</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">With the 30% minimum floor, high-growth compounders become far less attractive. The asymmetric tax benefit of patient long-term capital is eliminated.</p>
+          <div class="text-xs text-red-400 font-bold uppercase tracking-wider mt-4">Capital Moving Out</div>
+        </div>
+
+        <div class="bg-gradient-to-br from-slate-900 to-emerald-950/20 border border-emerald-900/40 rounded-xl p-6">
+          <h3 class="font-bold text-emerald-400 mb-2">Franked Dividends Rule Supreme</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Cash dividend streams are untouched by these changes. Australian franked dividends averaging 4% yield with 100% franking credits remain highly tax-effective and bypass CGT entirely.</p>
+          <div class="text-xs text-emerald-400 font-bold uppercase tracking-wider mt-4">Capital Rotating In</div>
+        </div>
+
+      </div>
+      <p class="text-xs text-slate-600 mt-3">Market context: ASX blue chips average 4% yield vs 1.1% on the US S&P 500.</p>
+    </section>
+
+    <!-- LINKS -->
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <a href="../tools/index.html" class="bg-slate-900 border border-slate-800 hover:border-emerald-900 rounded-xl p-5 transition-all">
+        <div class="text-emerald-400 text-sm font-bold mb-1">Calculator →</div>
+        <p class="text-xs text-slate-400">Compare your CGT bill old vs new rules</p>
+      </a>
+      <a href="../debate/index.html" class="bg-slate-900 border border-slate-800 hover:border-purple-900 rounded-xl p-5 transition-all">
+        <div class="text-purple-400 text-sm font-bold mb-1">Debates →</div>
+        <p class="text-xs text-slate-400">Will indexation stifle Australian startups?</p>
+      </a>
+      <a href="../fact-checks/index.html" class="bg-slate-900 border border-slate-800 hover:border-amber-900 rounded-xl p-5 transition-all">
+        <div class="text-amber-400 text-sm font-bold mb-1">Fact Checks →</div>
+        <p class="text-xs text-slate-400">Is the 50% discount really gone for everyone?</p>
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-slate-800 mt-16 py-8 px-6 text-center text-xs text-slate-600">
+    <p>Not financial advice. Verify all information with a registered accountant before making investment decisions.</p>
+  </footer>
+
+</body>
+</html>

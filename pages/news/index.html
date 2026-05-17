@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Digest — AusBudget2026</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans">
+
+  <header class="border-b border-slate-800 bg-slate-950/90 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <a href="../../index.html" class="text-slate-500 hover:text-white transition-colors text-sm">← AusBudget2026</a>
+        <div class="w-px h-4 bg-slate-800"></div>
+        <span class="text-slate-300 font-bold text-sm">News Digest</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 py-10">
+
+    <div class="mb-8 flex items-start justify-between gap-4">
+      <div>
+        <h1 class="text-3xl font-black text-white">Budget News Digest</h1>
+        <p class="text-slate-400 mt-1 text-sm">AI-aggregated news. Updated every 6 hours. Sources linked.</p>
+      </div>
+      <span id="item-count" class="text-xs text-slate-600 mt-2">Loading...</span>
+    </div>
+
+    <!-- FILTER BUTTONS -->
+    <div class="flex flex-wrap gap-2 mb-6" id="filters">
+      <button onclick="filterNews('all')" data-filter="all" class="filter-btn active text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full border border-slate-700 text-slate-300 bg-slate-800">All</button>
+      <button onclick="filterNews('Property')" data-filter="Property" class="filter-btn text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full border border-slate-800 text-slate-500">Property</button>
+      <button onclick="filterNews('ASX')" data-filter="ASX" class="filter-btn text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full border border-slate-800 text-slate-500">ASX</button>
+      <button onclick="filterNews('Budget')" data-filter="Budget" class="filter-btn text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full border border-slate-800 text-slate-500">Budget</button>
+      <button onclick="filterNews('Parliament')" data-filter="Parliament" class="filter-btn text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full border border-slate-800 text-slate-500">Parliament</button>
+    </div>
+
+    <div id="news-list" class="space-y-3">
+      <div class="text-slate-600 text-sm">Loading news...</div>
+    </div>
+
+  </main>
+
+  <footer class="border-t border-slate-800 mt-16 py-8 px-6 text-center text-xs text-slate-600">
+    <p>News items are AI-summarised from public sources. Always read the original article for full context.</p>
+  </footer>
+
+  <script>
+    let allItems = [];
+    const tagColors = { Property: 'text-red-400', ASX: 'text-sky-400', Budget: 'text-amber-400', Parliament: 'text-slate-400', Analysis: 'text-emerald-400', Superannuation: 'text-purple-400' };
+
+    async function loadNews() {
+      try {
+        const res = await fetch('../../content/budget-updates.json');
+        const data = await res.json();
+        allItems = data.items;
+        document.getElementById('item-count').textContent = `${allItems.length} items`;
+        renderNews(allItems);
+      } catch (e) {
+        document.getElementById('news-list').innerHTML = '<div class="text-slate-600 text-sm">Failed to load news.</div>';
+      }
+    }
+
+    function renderNews(items) {
+      const list = document.getElementById('news-list');
+      list.innerHTML = items.map(item => `
+        <a href="${item.url || '#'}" target="_blank" rel="noopener"
+           class="news-item block bg-slate-900 border border-slate-800 hover:border-slate-700 rounded-xl p-5 transition-all"
+           data-tag="${item.tag}">
+          <div class="flex items-center gap-3 mb-2">
+            <span class="text-xs font-bold uppercase tracking-wider ${tagColors[item.tag] || 'text-slate-500'}">${item.tag}</span>
+            <span class="text-xs text-slate-600">${item.source}</span>
+            <span class="text-xs text-slate-600 ml-auto">${item.date}</span>
+          </div>
+          <h3 class="font-semibold text-white leading-snug">${item.title}</h3>
+          <p class="text-sm text-slate-400 mt-1.5 leading-relaxed">${item.summary}</p>
+        </a>
+      `).join('');
+    }
+
+    function filterNews(tag) {
+      document.querySelectorAll('.filter-btn').forEach(b => {
+        const active = b.dataset.filter === tag;
+        b.classList.toggle('bg-slate-800', active);
+        b.classList.toggle('text-slate-300', active);
+        b.classList.toggle('border-slate-700', active);
+        b.classList.toggle('text-slate-500', !active);
+        b.classList.toggle('border-slate-800', !active);
+      });
+      const filtered = tag === 'all' ? allItems : allItems.filter(i => i.tag === tag);
+      renderNews(filtered);
+    }
+
+    loadNews();
+  </script>
+</body>
+</html>

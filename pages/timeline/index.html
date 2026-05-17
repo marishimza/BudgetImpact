@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Implementation Timeline — AusBudget2026</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans">
+
+  <header class="border-b border-slate-800 bg-slate-950/90 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-3xl mx-auto px-6 py-4 flex items-center gap-4">
+      <a href="../../index.html" class="text-slate-500 hover:text-white transition-colors text-sm">← AusBudget2026</a>
+      <div class="w-px h-4 bg-slate-800"></div>
+      <span class="text-slate-300 font-bold text-sm">Timeline</span>
+    </div>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-6 py-10">
+
+    <div class="mb-8">
+      <h1 class="text-3xl font-black text-white">Implementation Timeline</h1>
+      <p class="text-slate-400 mt-2">Key dates, milestones, and when each rule takes effect.</p>
+    </div>
+
+    <div id="timeline" class="relative">
+      <div class="absolute left-6 top-0 bottom-0 w-px bg-slate-800"></div>
+      <div class="space-y-6 text-sm" id="timeline-list">
+        <div class="text-slate-600 ml-16">Loading timeline...</div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="border-t border-slate-800 mt-16 py-8 px-6 text-center text-xs text-slate-600">
+    <p>Dates are based on budget announcements. Legislation must still pass parliament. Verify with official sources.</p>
+  </footer>
+
+  <script>
+    const sigColors = { critical: 'bg-red-500', high: 'bg-amber-500', medium: 'bg-slate-500' };
+    const catColors  = { Property: 'text-red-400', ASX: 'text-sky-400', Parliament: 'text-slate-400', All: 'text-purple-400' };
+
+    async function loadTimeline() {
+      try {
+        const res = await fetch('../../content/timeline.json');
+        const data = await res.json();
+        const list = document.getElementById('timeline-list');
+
+        list.innerHTML = data.events.map(e => `
+          <div class="relative flex items-start gap-6 pl-16">
+            <div class="absolute left-4 top-1.5 w-4 h-4 rounded-full ${sigColors[e.significance] || 'bg-slate-600'} ring-4 ring-slate-950 -translate-x-1/2"></div>
+            <div class="flex-1 bg-slate-900 border border-slate-800 rounded-xl p-5 ${e.status === 'past' ? 'opacity-60' : ''}">
+              <div class="flex items-center gap-3 mb-1">
+                <span class="font-mono text-xs text-slate-500">${e.date}${e.time ? ' @ ' + e.time : ''}</span>
+                <span class="text-xs ${catColors[e.category] || 'text-slate-400'} font-bold">${e.category}</span>
+                ${e.status === 'past' ? '<span class="text-xs text-slate-600 ml-auto">Past</span>' : '<span class="text-xs text-emerald-500 ml-auto">Upcoming</span>'}
+              </div>
+              <h3 class="font-bold text-white">${e.label}</h3>
+              <p class="text-slate-400 text-sm mt-1 leading-relaxed">${e.description}</p>
+            </div>
+          </div>
+        `).join('');
+      } catch (e) {
+        document.getElementById('timeline-list').innerHTML = '<div class="text-slate-600 ml-16">Failed to load timeline.</div>';
+      }
+    }
+    loadTimeline();
+  </script>
+</body>
+</html>

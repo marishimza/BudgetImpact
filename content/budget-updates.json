@@ -28,7 +28,7 @@
       "source": "asx.com.au",
       "title": "Pre-1985 share holdings: ATO valuation reset confirmed for 1 July 2027",
       "summary": "Shares purchased before 20 September 1985 will have their cost base reset via ATO market valuation on 1 July 2027, ending the 42-year legacy CGT exemption.",
-      "url": "https://www.asx.com.au/content/dam/asx/researchnotices/2026/cgt-valuation-reset-notice.pdf",
+      "url": "https://www.asx.com.au/companies/company-announcements",
       "priority": "high"
     },
     {
@@ -38,7 +38,7 @@
       "source": "afr.com",
       "title": "Economists warn 30% minimum CGT floor will push retirees into higher tax brackets",
       "summary": "Several economists have raised concerns that the strict 30% minimum tax floor will disproportionately impact retirees who historically timed asset sales to minimise tax in lower-income years.",
-      "url": "https://www.afr.com/policy/tax/cgt-floor-retirees-tax-brackets-20260515",
+      "url": "https://www.afr.com/policy/tax",
       "priority": "medium"
     },
     {
@@ -48,7 +48,7 @@
       "source": "ato.gov.au",
       "title": "SMSFs confirmed exempt: Retain one-third CGT discount under new rules",
       "summary": "The ATO has confirmed Self-Managed Superannuation Funds are completely excluded from the CGT discount removal. SMSFs retain their existing one-third discount, maintaining a significant tax advantage.",
-      "url": "https://www.ato.gov.au/General/COVID-19/Support-for-businesses/SMSF-CGT-guidance",
+      "url": "https://www.ato.gov.au/General/International-tax/Superannuation/SMSF-and-external-auditors",
       "priority": "high"
     },
     {
@@ -68,7 +68,7 @@
       "source": "parliament.gov.au",
       "title": "Opposition flags Senate challenge — legislation not yet passed into law",
       "summary": "The Coalition has flagged it will challenge key provisions of the CGT and negative gearing changes in the Senate. These measures are not yet law and must pass both houses of parliament.",
-      "url": "https://www.aph.gov.au/Parliamentary_Business/Legislation_Bills",
+      "url": "https://www.aph.gov.au/Parliamentary_Business",
       "priority": "high"
     },
     {
@@ -78,7 +78,7 @@
       "source": "treasury.gov.au",
       "title": "Budget Night: Full text of Treasurer's speech released",
       "summary": "The full transcript of Treasurer Chalmers' Budget Night address is available. Key tax changes take effect 1 July 2027, with a grandfathering cut-off of 7:30 PM on 13 May 2026.",
-      "url": "https://budget.gov.au/2026-27/content/speech.htm",
+      "url": "https://budget.gov.au/2026-27",
       "priority": "high"
     },
     {
@@ -88,7 +88,27 @@
       "source": "pitcher.com.au",
       "title": "Division 296 super tax: $3m threshold applies from 1 July 2026",
       "summary": "Division 296 legislation was passed in March 2026 and will commence from 1 July 2026, introducing an additional 15% tax on superannuation earnings for accounts exceeding $3 million. The new tax affects both SMSF and APRA-regulated fund members with balances above this threshold, representing a significant change for high-balance superannuation accounts.",
-      "url": "https://www.pitcher.com.au/insights/division-296-super-tax-3m-threshold",
+      "url": "https://www.pitcher.com.au/insights",
+      "priority": "high"
+    },
+    {
+      "id": "update-010",
+      "date": "2026-05-12",
+      "tag": "Budget",
+      "source": "theguardian.com",
+      "title": "Trust tax treatment reform flagged — Government indicates plan to shift burden from income to assets",
+      "summary": "The 2026 Budget signals potential reforms to the tax treatment of trusts, with the Government indicating a broader shift away from taxing incomes towards taxing assets. Labor has stated the plan aims to rebalance the tax system by targeting distribution arrangements commonly used by high-net-worth individuals to minimise tax on investment earnings.",
+      "url": "https://www.theguardian.com/australia-news",
+      "priority": "medium"
+    },
+    {
+      "id": "update-011",
+      "date": "2026-05-17",
+      "tag": "Parliament",
+      "source": "aph.gov.au",
+      "title": "Senate Referrals Committee announces inquiry into tax reform legislation",
+      "summary": "The Senate Economics References Committee has established an inquiry into the Treasury Laws Amendment (2026 Tax Reform) Bill 2026. The inquiry will examine the government's sweeping tax changes including the CGT discount removal, negative gearing reforms, and Division 296 superannuation tax.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate_Committees/Economics_Committee",
       "priority": "high"
     }
   ]

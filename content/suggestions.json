@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T14:45:24.987Z",
+  "lastUpdated": "2026-05-17T14:50:14.969Z",
   "pending": [
     {
       "id": "suggestion-20260517-706",
@@ -64,48 +64,12 @@
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "Trust tax reform: Government signals changes to trust distributions",
-      "description": "The Budget signals potential reforms to tax treatment for trusts, with Labor stating the plan aims to rebalance the system away from taxing incomes and more towards taxing assets.",
-      "suggestion": "Add to budget-updates.json: Trust tax treatment reform flagged — Government indicates plan to shift burden from income to assets",
-      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260517-518",
-      "timestamp": "2026-05-17T14:45:19.051Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
       "title": "Listed Investment Vehicles: CGT changes and ETF implications explained",
       "description": "ASX analysis confirms proposed CGT reforms extend to Listed Investment Companies (LICs) and ETFs, with the article examining investment implications across share, ETF, and Listed Investment Vehicle investments.",
       "suggestion": "Add to budget-updates.json: LICs and ETFs included in CGT reform scope — ASX investor update details portfolio implications",
       "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
       "implementation_effort": "20_minutes",
       "id": "suggestion-20260517-420",
-      "timestamp": "2026-05-17T14:45:19.051Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Shareholder advocacy group criticises CGT reform process",
-      "description": "Australian Shareholders Association expresses concern about lack of proper consultation before major CGT changes were announced, calling for inflation indexation combined with modern averaging mechanism.",
-      "suggestion": "Add to budget-updates.json: ASA criticises CGT reform process — calls for averaging mechanism alongside indexation",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260517-216",
-      "timestamp": "2026-05-17T14:45:19.051Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will negative gearing and CGT changes actually improve housing affordability?",
-      "description": "The government claims restricting negative gearing and CGT discounts will help housing affordability by reducing investor demand for existing stock. The Coalition calls these changes 'toxic' and claims they will harm small business and growth investors. Property industry groups are divided - REIA praises the infrastructure spending but there are warnings about impacts on investors. The factual conflict is over whether these tax reforms will reduce housing costs or primarily harm certain investor groups.",
-      "suggestion": "Add to debates.json: Government/ALP (ABC, 9News) says reforms will address housing affordability by reducing investor demand for existing housing. Coalition (Guardian) claims changes are 'toxic' and will harm small business/growth investors, with shadow treasurer vowing to repeal if necessary.",
-      "source": "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260517-756",
       "timestamp": "2026-05-17T14:45:19.051Z",
       "status": "pending"
     },
@@ -124,18 +88,6 @@
     {
       "type": "fact_check",
       "priority": "medium",
-      "title": "Claim: Division 296 tax applies to super balances over $3 million",
-      "description": "The $3 million threshold for the Division 296 tax is commonly cited in media coverage. However,ATO indicates thresholds are indexed annually, so the actual threshold for 2026-27 may differ from the commonly cited $3 million figure. Multiple sources (BDO, Heffron) reference indexed thresholds but don't state the exact 2026-27 figure. This could lead to overstatement or understatement of the threshold.",
-      "suggestion": "Add to fact-checks.json: claim is $3m threshold, verdict is partially_true because thresholds are indexed annually and the 2026-27 threshold may be different. The indexed threshold should be verified against ATO's annual update.",
-      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260517-473",
-      "timestamp": "2026-05-17T14:45:19.051Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
       "title": "Claim: New minimum 30% tax rate on capital gains from July 2027",
       "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Headlines frequently cite a '30% minimum tax rate on capital gains' without clarifying this applies to real gains (after inflation indexation), not nominal gains. The budget.gov.au specifies 'minimum 30 per cent tax on gains from 1 July 2027' but this represents the floor rate on actual capital gains after accounting for inflation. Someone paying tax on a $100,000 gain might pay 30% on $40,000 (real gain) rather than on $100,000. The headline rate can be misleading.",
       "suggestion": "Add to fact-checks.json: claim is 30% minimum CGT rate applies to all gains, verdict is partially_true because the 30% minimum applies to real capital gains (after inflation adjustment), not nominal gains. The effective tax on nominal gains may be significantly lower depending on inflation and holding period.",
@@ -144,18 +96,6 @@
       "id": "suggestion-20260517-923",
       "timestamp": "2026-05-17T14:45:19.051Z",
       "status": "pending"
-    },
-    {
-      "id": "suggestion-20260517-443",
-      "timestamp": "2026-05-17T14:45:19.051Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -223,8 +163,75 @@
       "source": "https://www.stockspot.com.au/cgt-calculator/",
       "implementation_effort": "30_minutes",
       "implemented_at": "2026-05-17T14:28:38.876Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Trust tax reform: Government signals changes to trust distributions",
+      "description": "The Budget signals potential reforms to tax treatment for trusts, with Labor stating the plan aims to rebalance the system away from taxing incomes and more towards taxing assets.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform flagged — Government indicates plan to shift burden from income to assets",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260517-518",
+      "timestamp": "2026-05-17T14:45:19.051Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-17T14:47:35.001Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Shareholder advocacy group criticises CGT reform process",
+      "description": "Australian Shareholders Association expresses concern about lack of proper consultation before major CGT changes were announced, calling for inflation indexation combined with modern averaging mechanism.",
+      "suggestion": "Add to budget-updates.json: ASA criticises CGT reform process — calls for averaging mechanism alongside indexation",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260517-216",
+      "timestamp": "2026-05-17T14:45:19.051Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-17T14:48:58.570Z"
+    },
+    {
+      "id": "suggestion-20260517-443",
+      "timestamp": "2026-05-17T14:45:19.051Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-05-17T14:49:46.011Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will negative gearing and CGT changes actually improve housing affordability?",
+      "description": "The government claims restricting negative gearing and CGT discounts will help housing affordability by reducing investor demand for existing stock. The Coalition calls these changes 'toxic' and claims they will harm small business and growth investors. Property industry groups are divided - REIA praises the infrastructure spending but there are warnings about impacts on investors. The factual conflict is over whether these tax reforms will reduce housing costs or primarily harm certain investor groups.",
+      "suggestion": "Add to debates.json: Government/ALP (ABC, 9News) says reforms will address housing affordability by reducing investor demand for existing housing. Coalition (Guardian) claims changes are 'toxic' and will harm small business/growth investors, with shadow treasurer vowing to repeal if necessary.",
+      "source": "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260517-756",
+      "timestamp": "2026-05-17T14:45:19.051Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-17T14:50:07.595Z"
     }
   ],
-  "skipped": [],
+  "skipped": [
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Division 296 tax applies to super balances over $3 million",
+      "description": "The $3 million threshold for the Division 296 tax is commonly cited in media coverage. However,ATO indicates thresholds are indexed annually, so the actual threshold for 2026-27 may differ from the commonly cited $3 million figure. Multiple sources (BDO, Heffron) reference indexed thresholds but don't state the exact 2026-27 figure. This could lead to overstatement or understatement of the threshold.",
+      "suggestion": "Add to fact-checks.json: claim is $3m threshold, verdict is partially_true because thresholds are indexed annually and the 2026-27 threshold may be different. The indexed threshold should be verified against ATO's annual update.",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260517-473",
+      "timestamp": "2026-05-17T14:45:19.051Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return valid JSON",
+      "implemented_at": "2026-05-17T14:50:14.969Z"
+    }
+  ],
   "needs_manual_review": []
 }

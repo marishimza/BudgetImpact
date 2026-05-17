@@ -1,25 +1,52 @@
-{
-  "id": "debate-004",
-  "slug": "cgt-averaging-vs-indexation",
-  "title": "CGT averaging vs indexation: ASA calls for reform beyond inflation adjustment",
-  "category": "ASX / Investment",
-  "status": "active",
-  "type": "policy_disagreement",
-  "summary": "The Australian Shareholders Association supports inflation indexation but argues it doesn't address income bunching where long-term gains are realised in one year. ASA is calling for a modern averaging mechanism to be added to CGT reform.",
-  "view_a": {
-    "label": "Yes — reform needs both indexation and averaging",
-    "argument": "Indexation solves the inflation problem but leaves a critical gap: when investors hold assets for decades and sell them in a single year, their entire gain gets taxed at their top marginal rate. Averaging spreads the tax burden across the holding period, preventing punitive bills on gains that accumulated over many years. Both mechanisms are needed for comprehensive reform.",
-    "sources": [
-      "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors"
-    ]
+[
+  {
+    "id": "debate-004",
+    "slug": "cgt-averaging-vs-indexation",
+    "title": "CGT averaging vs indexation: ASA calls for reform beyond inflation adjustment",
+    "category": "ASX / Investment",
+    "status": "active",
+    "type": "policy_disagreement",
+    "summary": "The Australian Shareholders Association supports inflation indexation but argues it doesn't address income bunching where long-term gains are realised in one year. ASA is calling for a modern averaging mechanism to be added to CGT reform.",
+    "view_a": {
+      "label": "Yes — reform needs both indexation and averaging",
+      "argument": "Indexation solves the inflation problem but leaves a critical gap: when investors hold assets for decades and sell them in a single year, their entire gain gets taxed at their top marginal rate. Averaging spreads the tax burden across the holding period, preventing punitive bills on gains that accumulated over many years. Both mechanisms are needed for comprehensive reform.",
+      "sources": [
+        "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors"
+      ]
+    },
+    "view_b": {
+      "label": "No — indexation alone is sufficient",
+      "argument": "Inflation indexation addresses the fundamental flaw in the current system by taxing only real gains. Introducing averaging would add administrative complexity and create opportunities for tax avoidance. The government's approach focuses on the core issue without overcomplicating the tax treatment of capital gains.",
+      "sources": [
+        "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors"
+      ]
+    },
+    "verdict": null,
+    "date_added": "2026-05-17"
   },
-  "view_b": {
-    "label": "No — indexation alone is sufficient",
-    "argument": "Inflation indexation addresses the fundamental flaw in the current system by taxing only real gains. Introducing averaging would add administrative complexity and create opportunities for tax avoidance. The government's approach focuses on the core issue without overcomplicating the tax treatment of capital gains.",
-    "sources": [
-      "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors"
-    ]
-  },
-  "verdict": null,
-  "date_added": "2026-05-17"
-}
+  {
+    "id": "debate-005",
+    "slug": "negative-gearing-cgt-housing-affordability",
+    "title": "Will negative gearing and CGT changes actually improve housing affordability?",
+    "category": "Housing / Tax Reform",
+    "status": "active",
+    "type": "factual_dispute",
+    "summary": "The government claims restricting negative gearing and CGT discounts will help housing affordability by reducing investor demand for existing stock. The Coalition calls these changes 'toxic' and claims they will harm small business and growth investors. Property industry groups are divided - REIA praises the infrastructure spending but there are warnings about impacts on investors. The factual conflict is over whether these tax reforms will reduce housing costs or primarily harm certain investor groups.",
+    "view_a": {
+      "label": "Government/ALP — Reforms will address housing affordability",
+      "argument": "The government claims restricting negative gearing and CGT discounts will help housing affordability by reducing investor demand for existing housing. By making property investment less attractive, more housing stock would become available for owner-occupiers, easing price pressures.",
+      "sources": [
+        "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294"
+      ]
+    },
+    "view_b": {
+      "label": "Coalition — Changes are 'toxic' and harmful",
+      "argument": "The Coalition claims changes are 'toxic' and will harm small business and growth investors, with the shadow treasurer vowing to repeal if necessary. They argue these reforms will disproportionately affect mum-and-dad investors and discourage property investment, ultimately reducing housing supply.",
+      "sources": [
+        "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294"
+      ]
+    },
+    "verdict": null,
+    "date_added": "2026-05-17"
+  }
+]

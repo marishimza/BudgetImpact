@@ -1,68 +1,25 @@
 {
-  "lastUpdated": "2026-05-17T00:00:00+10:00",
-  "debates": [
-    {
-      "id": "debate-001",
-      "slug": "cgt-indexation-innovation",
-      "title": "Will CGT indexation stifle Australian innovation and startups?",
-      "category": "ASX / Investment",
-      "status": "active",
-      "type": "factual_conflict",
-      "summary": "Experts are divided on whether replacing the 50% CGT discount with CPI indexation will discourage long-term investment in high-growth companies and startups.",
-      "view_a": {
-        "label": "Yes — innovation will suffer",
-        "argument": "The 50% discount rewarded patient, long-term capital. Removing it specifically punishes high-growth outperformance — exactly the type of investment that funds startups and technology companies. When a stock 5x's over a decade, almost none of that gain is protected by CPI indexation. Founders and early investors will restructure offshore.",
-        "sources": ["avc.com", "startupaus.org", "afr.com"]
-      },
-      "view_b": {
-        "label": "No — it's a fair inflation adjustment",
-        "argument": "The old 50% discount was an arbitrary and blunt instrument that created a two-tiered tax system. CPI indexation is economically rational — it only taxes real gains, not inflation. The 30% minimum floor prevents aggressive tax minimisation that had nothing to do with encouraging innovation.",
-        "sources": ["treasury.gov.au", "grattan.edu.au", "abc.net.au"]
-      },
-      "verdict": null,
-      "date_added": "2026-05-17"
-    },
-    {
-      "id": "debate-002",
-      "slug": "negative-gearing-housing-supply",
-      "title": "Will removing negative gearing on established homes increase housing supply?",
-      "category": "Property",
-      "status": "active",
-      "type": "expert_opinion",
-      "summary": "The government argues restricting negative gearing to new builds will redirect investment capital into new housing supply. Critics say it will cause landlords to exit and rents to spike.",
-      "view_a": {
-        "label": "Yes — redirects capital to new supply",
-        "argument": "By making established homes less attractive and keeping full deductions for new builds, investors are incentivised to fund construction. More new homes = more supply = lower long-term prices. This is exactly the policy mechanism the government intended.",
-        "sources": ["treasury.gov.au", "grattan.edu.au", "housing.gov.au"]
-      },
-      "view_b": {
-        "label": "No — rents will spike as landlords exit",
-        "argument": "Most investors won't suddenly build new properties — they'll sell existing ones or exit the market entirely. The rental supply shrinks, vacancy rates fall, and rents spike. This happened in the 1980s when negative gearing was briefly removed.",
-        "sources": ["realestate.com.au", "reia.com.au", "propertycouncil.com.au"]
-      },
-      "verdict": null,
-      "date_added": "2026-05-17"
-    },
-    {
-      "id": "debate-003",
-      "slug": "retiree-30-percent-floor",
-      "title": "Is the 30% CGT minimum floor fair to retirees who timed asset sales to low-income years?",
-      "category": "Superannuation / Retirement",
-      "status": "active",
-      "type": "factual_conflict",
-      "summary": "A common tax strategy for retirees was to sell assets in low-income years to pay minimal CGT. The hard 30% floor eliminates this strategy entirely, regardless of total income.",
-      "view_a": {
-        "label": "Unfair — punishes legitimate planning",
-        "argument": "Retirees structured their finances over decades around the existing rules. Suddenly imposing a 30% minimum on gains from assets bought under the old system is retrospective in spirit, even if technically grandfathered. People near retirement have no time to adjust.",
-        "sources": ["ifa.com.au", "superguide.com.au", "smsf-association.com.au"]
-      },
-      "view_b": {
-        "label": "Fair — closes a high-earner loophole",
-        "argument": "The practice of deferring multi-million-dollar asset sales to 'low income' retirement years to pay minimal tax was always an aggressive minimisation strategy. The 30% floor ensures anyone with substantial capital gains contributes a fair minimum, regardless of timing.",
-        "sources": ["treasury.gov.au", "ato.gov.au", "taxinstitute.com.au"]
-      },
-      "verdict": null,
-      "date_added": "2026-05-17"
-    }
-  ]
+  "id": "debate-004",
+  "slug": "cgt-averaging-vs-indexation",
+  "title": "CGT averaging vs indexation: ASA calls for reform beyond inflation adjustment",
+  "category": "ASX / Investment",
+  "status": "active",
+  "type": "policy_disagreement",
+  "summary": "The Australian Shareholders Association supports inflation indexation but argues it doesn't address income bunching where long-term gains are realised in one year. ASA is calling for a modern averaging mechanism to be added to CGT reform.",
+  "view_a": {
+    "label": "Yes — reform needs both indexation and averaging",
+    "argument": "Indexation solves the inflation problem but leaves a critical gap: when investors hold assets for decades and sell them in a single year, their entire gain gets taxed at their top marginal rate. Averaging spreads the tax burden across the holding period, preventing punitive bills on gains that accumulated over many years. Both mechanisms are needed for comprehensive reform.",
+    "sources": [
+      "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors"
+    ]
+  },
+  "view_b": {
+    "label": "No — indexation alone is sufficient",
+    "argument": "Inflation indexation addresses the fundamental flaw in the current system by taxing only real gains. Introducing averaging would add administrative complexity and create opportunities for tax avoidance. The government's approach focuses on the core issue without overcomplicating the tax treatment of capital gains.",
+    "sources": [
+      "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors"
+    ]
+  },
+  "verdict": null,
+  "date_added": "2026-05-17"
 }

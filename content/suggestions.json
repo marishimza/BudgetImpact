@@ -1,18 +1,6 @@
 {
-  "lastUpdated": "2026-05-17T14:23:36.654Z",
+  "lastUpdated": "2026-05-17T14:28:38.877Z",
   "pending": [
-    {
-      "id": "suggestion-20260517-146",
-      "timestamp": "2026-05-17T14:23:36.653Z",
-      "status": "pending",
-      "priority": "high",
-      "type": "content_update",
-      "title": "Division 296 super tax: $3m threshold applies from 1 July 2026",
-      "description": "The $3m super balance tax (Division 296) legislation enacted in March 2026 will commence from 1 July 2026, meaning high-balance superannuation accounts will face additional 15% tax on earnings above this threshold.",
-      "suggestion": "Add to budget-updates.json: Note that Division 296 legislation was passed in March 2026 and commences 1 July 2026, affecting SMSF and APRA-regulated fund members with balances exceeding $3m.",
-      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
-      "implementation_effort": "10_minutes"
-    },
     {
       "id": "suggestion-20260517-706",
       "timestamp": "2026-05-17T14:23:36.653Z",
@@ -62,42 +50,6 @@
       "implementation_effort": "20_minutes"
     },
     {
-      "id": "suggestion-20260517-464",
-      "timestamp": "2026-05-17T14:23:36.653Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "debate_page",
-      "title": "CGT averaging vs indexation: ASA calls for reform beyond inflation adjustment",
-      "description": "The Australian Shareholders Association supports inflation indexation but argues it doesn't address income bunching where long-term gains are realised in one year. ASA is calling for a modern averaging mechanism to be added to CGT reform.",
-      "suggestion": "Add to debates.json: ASA's position that CGT reform should include averaging mechanism alongside indexation, creating a debate between government policy and investor advocate recommendations.",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260517-905",
-      "timestamp": "2026-05-17T14:23:36.653Z",
-      "status": "pending",
-      "priority": "high",
-      "type": "timeline_update",
-      "title": "Division 296 super tax commences 1 July 2026",
-      "description": "The $3m super balance tax (Division 296) officially takes effect from 1 July 2026, earlier than the 1 July 2027 date for CGT/negative gearing changes.",
-      "suggestion": "Add to timeline.json: 1 July 2026 entry for Division 296 tax commencement, listing it before the main CGT/negative gearing changes.",
-      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
-      "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260517-474",
-      "timestamp": "2026-05-17T14:23:36.653Z",
-      "status": "pending",
-      "priority": "high",
-      "type": "timeline_update",
-      "title": "Venture capital incentive expansion announced for July 2027",
-      "description": "Venture capital tax incentive expansion to align with modern valuations will be introduced from 1 July 2027, the same date as CGT and negative gearing changes.",
-      "suggestion": "Add to timeline.json: 1 July 2027 entry noting venture capital incentive expansion alongside CGT/negative gearing changes.",
-      "source": "https://www.superguide.com.au/super-booster/federal-budget-2026-overview",
-      "implementation_effort": "5_minutes"
-    },
-    {
       "id": "suggestion-20260517-513",
       "timestamp": "2026-05-17T14:23:36.653Z",
       "status": "pending",
@@ -108,21 +60,75 @@
       "suggestion": "Add to timeline.json: Note that foreign resident notification requirement has no fixed date, contingent on legislation passing.",
       "source": "https://www.grantthornton.com.au/insights/federal-budget-2026-27",
       "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
+    {
+      "id": "suggestion-20260517-146",
+      "timestamp": "2026-05-17T14:23:36.653Z",
+      "status": "implemented",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Division 296 super tax: $3m threshold applies from 1 July 2026",
+      "description": "The $3m super balance tax (Division 296) legislation enacted in March 2026 will commence from 1 July 2026, meaning high-balance superannuation accounts will face additional 15% tax on earnings above this threshold.",
+      "suggestion": "Add to budget-updates.json: Note that Division 296 legislation was passed in March 2026 and commences 1 July 2026, affecting SMSF and APRA-regulated fund members with balances exceeding $3m.",
+      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "implementation_effort": "10_minutes",
+      "implemented_at": "2026-05-17T14:26:55.455Z"
+    },
+    {
+      "id": "suggestion-20260517-464",
+      "timestamp": "2026-05-17T14:23:36.653Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "debate_page",
+      "title": "CGT averaging vs indexation: ASA calls for reform beyond inflation adjustment",
+      "description": "The Australian Shareholders Association supports inflation indexation but argues it doesn't address income bunching where long-term gains are realised in one year. ASA is calling for a modern averaging mechanism to be added to CGT reform.",
+      "suggestion": "Add to debates.json: ASA's position that CGT reform should include averaging mechanism alongside indexation, creating a debate between government policy and investor advocate recommendations.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-05-17T14:27:25.131Z"
+    },
+    {
+      "id": "suggestion-20260517-905",
+      "timestamp": "2026-05-17T14:23:36.653Z",
+      "status": "implemented",
+      "priority": "high",
+      "type": "timeline_update",
+      "title": "Division 296 super tax commences 1 July 2026",
+      "description": "The $3m super balance tax (Division 296) officially takes effect from 1 July 2026, earlier than the 1 July 2027 date for CGT/negative gearing changes.",
+      "suggestion": "Add to timeline.json: 1 July 2026 entry for Division 296 tax commencement, listing it before the main CGT/negative gearing changes.",
+      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "implementation_effort": "5_minutes",
+      "implemented_at": "2026-05-17T14:27:44.629Z"
+    },
+    {
+      "id": "suggestion-20260517-474",
+      "timestamp": "2026-05-17T14:23:36.653Z",
+      "status": "implemented",
+      "priority": "high",
+      "type": "timeline_update",
+      "title": "Venture capital incentive expansion announced for July 2027",
+      "description": "Venture capital tax incentive expansion to align with modern valuations will be introduced from 1 July 2027, the same date as CGT and negative gearing changes.",
+      "suggestion": "Add to timeline.json: 1 July 2027 entry noting venture capital incentive expansion alongside CGT/negative gearing changes.",
+      "source": "https://www.superguide.com.au/super-booster/federal-budget-2026-overview",
+      "implementation_effort": "5_minutes",
+      "implemented_at": "2026-05-17T14:27:59.849Z"
     },
     {
       "id": "suggestion-20260517-651",
       "timestamp": "2026-05-17T14:23:36.653Z",
-      "status": "pending",
+      "status": "implemented",
       "priority": "medium",
       "type": "fact_check",
       "title": "Is inflation indexation more favourable than 50% discount for long-held assets?",
       "description": "The change from 50% discount to inflation indexation requires verification. For assets held for long periods, indexation may result in a larger taxable gain than the current 50% discount, depending on inflation over the holding period. This contradicts assumptions that indexation is always better.",
       "suggestion": "Add to fact-checks.json: Clarify that inflation indexation does not guarantee a lower CGT outcome than the 50% discount. Provide examples showing when each approach is more favourable based on inflation rates and holding period.",
       "source": "https://www.stockspot.com.au/cgt-calculator/",
-      "implementation_effort": "30_minutes"
+      "implementation_effort": "30_minutes",
+      "implemented_at": "2026-05-17T14:28:38.876Z"
     }
   ],
-  "implemented": [],
   "skipped": [],
   "needs_manual_review": []
 }

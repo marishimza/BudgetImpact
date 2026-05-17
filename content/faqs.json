@@ -56,6 +56,13 @@
       "answer": "Not yet. Budget announcements are proposals, not law. They must be legislated through parliament. The Opposition has flagged a Senate challenge. Always speak to a registered accountant before making financial decisions based on these changes.",
       "category": "Parliament",
       "verified": true
+    },
+    {
+      "id": "faq-009",
+      "question": "How does inflation indexation affect CGT calculation?",
+      "answer": "The 50% CGT discount — which allowed taxpayers to halve their net capital gain before adding it to taxable income — is being replaced with <strong>inflation-based cost base indexation</strong>.<br><br>Under the new system, your asset's purchase price is adjusted for CPI inflation from the date of purchase to the date of sale. This means only the <em>real</em> purchasing power gain is taxable, not gains that merely track inflation. For example, if you bought shares for $50,000 and CPI rose 40% over your holding period, your indexed cost base would be $70,000 — even if the nominal gain was larger.<br><br><strong>Comparing the two approaches:</strong> The 50% discount provided a consistent benefit regardless of how long you held the asset. Inflation indexation grows more valuable the longer you hold, but only up to inflation. For assets held through low-inflation periods, the discount may have been more generous.<br><br><strong>The 'bunching' concern:</strong> The Australian Shareholders Association has noted that inflation indexation does not fully address <em>income bunching</em> — where investment gains accumulated over many years are all realised in a single tax year. A taxpayer who holds an asset for 20 years and sells it in one year will have all CPI-indexed gains taxed in that single year, potentially pushing them into a much higher tax bracket. Industry groups are calling for a <strong>capital gains averaging mechanism</strong> to smooth tax liability across multiple years, similar to how income averaging works for artists and authors. This has not been legislated.",
+      "category": "CGT",
+      "verified": true
     }
   ]
 }

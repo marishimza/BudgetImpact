@@ -1,16 +1,16 @@
 {
-  "id": "fc-006",
-  "slug": "inflation-indexation-better-than-50-percent-discount",
-  "claim": "Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets.",
+  "id": "fc-007",
+  "slug": "30-percent-minimum-cgt-rate-real-gains",
+  "claim": "From 1 July 2027, capital gains will be subject to a new minimum 30% tax rate on all gains.",
   "verdict": "partially_true",
   "verdict_label": "Partially True",
-  "short_explanation": "Inflation indexation does not guarantee a lower CGT liability. The 50% discount may be more favourable when inflation is high over the holding period, as indexation only adjusts the cost base upward, while the discount directly halves the total gain.",
-  "detailed_explanation": "While CPI indexation raises the cost base to reflect inflation, it doesn't reduce the taxable gain itself—only the discount method cuts the gain in half. With high inflation over extended periods, the indexed cost base may still leave a substantial taxable gain, making the 50% discount more advantageous in many scenarios.",
+  "short_explanation": "The 30% minimum rate applies to real capital gains after inflation indexation, not nominal gains. This means the effective tax rate on nominal gains may be substantially lower depending on inflation and the holding period.",
+  "detailed_explanation": "The headline '30% minimum tax on capital gains' can be misleading. The 30% floor rate applies to actual economic gains after accounting for inflation through indexation, not the nominal gain amount. For example, a $100,000 nominal gain might only be a $40,000 real gain after inflation adjustment, meaning tax would be 30% of $40,000 rather than $100,000. The effective tax rate on nominal gains can be significantly lower than 30% depending on inflation and how long the asset was held.",
   "sources": [
     {
-      "name": "Stockspot CGT Calculator",
-      "url": "https://www.stockspot.com.au/cgt-calculator/",
-      "type": "analysis"
+      "name": "Australian Government Budget - Tax Reform",
+      "url": "https://www.budget.gov.au/tax-reform",
+      "type": "official"
     }
   ],
   "date_checked": "2026-05-17",

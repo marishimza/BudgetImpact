@@ -1,9 +1,31 @@
 {
-  "id": "t-008",
-  "date": "2027-07-01",
-  "label": "Venture Capital Incentive Expansion",
-  "description": "Venture capital tax incentive expansion to align with modern valuations commences, aligning with CGT and negative gearing changes.",
-  "status": "upcoming",
-  "category": "Investment",
-  "significance": "high"
+  "events": [
+    {
+      "id": "t-008",
+      "date": "2027-07-01",
+      "label": "Venture Capital Incentive Expansion",
+      "description": "Venture capital tax incentive expansion to align with modern valuations commences, aligning with CGT and negative gearing changes.",
+      "status": "upcoming",
+      "category": "Investment",
+      "significance": "high"
+    },
+    {
+      "id": "t-009",
+      "date": "2027-06-30",
+      "label": "Foreign Resident $50m Notification Requirement",
+      "description": "The foreign resident $50m notification requirement has no fixed start date — commencement is deferred until the enabling legislation is passed by Parliament. Taxpayers should monitor legislative developments for the precise commencement date.",
+      "status": "upcoming",
+      "category": "Compliance",
+      "significance": "high"
+    },
+    {
+      "id": "t-010",
+      "date": "2026-05-01",
+      "label": "Foreign Resident Notification Legislation Pending",
+      "description": "Foreign resident ATO notification requirements for $50m+ transactions remain pending legislative passage. No fixed commencement date has been set; obligation will take effect upon Royal Assent of enabling legislation.",
+      "status": "upcoming",
+      "category": "Compliance",
+      "significance": "high"
+    }
+  ]
 }

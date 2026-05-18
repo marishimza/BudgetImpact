@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T13:42:37.525Z",
+  "lastUpdated": "2026-05-18T14:54:35.934Z",
   "items": [
     {
       "id": "update-001",
@@ -57,7 +57,7 @@
       "tag": "Superannuation",
       "source": "Heffron",
       "title": "Division 296 super tax: indexed thresholds and CGT relief confirmed",
-      "summary": "Treasury has released draft legislation for Division 296, introducing indexed thresholds and capital gains tax (CGT) relief provisions for superannuation funds. The Australian Taxation Office confirms the legislation is enacted and will commence from 1 July 2026, affecting individuals with super balances exceeding $3 million. This represents a significant update to Australia's superannuation tax framework.",
+      "summary": "Treasury has released draft legislation for Division 296, introducing indexed thresholds and capital gains tax (CGT) relief provisions for superannuation funds. The Australian Taxation Office confirms the legislation is enacted and will commence from 1 July 2026, affecting individuals with super balances exceeding $3 Million. This represents a significant update to Australia's superannuation tax framework.",
       "url": "",
       "priority": "high"
     },
@@ -89,6 +89,16 @@
       "title": "Negative gearing reform reverses earlier election promise",
       "summary": "The negative gearing changes represent a significant policy reversal for the government, which previously indicated it would not restrict negative gearing. The reform builds on capital gains tax changes already legislated for properties purchased after 14 May 2024, creating a broader shift in property investment taxation. Property investors purchasing established homes from mid-2027 onwards will face reduced tax benefits compared to previous arrangements.",
       "url": "",
+      "priority": "medium"
+    },
+    {
+      "id": "update-018",
+      "date": "2026-05-18",
+      "tag": "Property",
+      "source": "ABC News",
+      "title": "Correction: CGT and negative gearing changes take effect from budget night, not following night",
+      "summary": "The site previously stated the cutoff for capital gains tax and negative gearing changes was 13 May 2026, but the correct date is 7:30pm on 12 May 2026 (budget night). Investors should ensure they are using the correct cutoff date when planning property purchases.",
+      "url": "https://www.abc.net.au/news/2026-05-18/cgt-negative-gearing-changes-budget-night",
       "priority": "medium"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T14:51:20.286Z",
+  "lastUpdated": "2026-05-18T14:55:10.688Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -338,19 +338,6 @@
       "status": "pending"
     },
     {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: Negative gearing changes take effect from 1 July 2027",
-      "description": "The implementation date is often stated as 1 July 2027, but the cutoff for new property purchases is 7:30pm on 12 May 2026 (budget night). Properties purchased after that date cannot claim negative gearing on established properties. The 1 July 2027 date is when existing investments lose access, not the starting point for the new rules.",
-      "suggestion": "Add to fact-checks.json: claim is 'negative gearing changes take effect from 1 July 2027', verdict is partially_true because the date refers to grandfathering of existing investments; the cutoff for new purchases is 12 May 2026.",
-      "source": "https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing/",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260518-353",
-      "timestamp": "2026-05-18T12:38:43.641Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
-    },
-    {
       "id": "suggestion-20260518-346",
       "timestamp": "2026-05-18T12:38:43.641Z",
       "status": "pending",
@@ -361,19 +348,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260518-676",
-      "timestamp": "2026-05-18T12:38:43.641Z",
-      "status": "pending",
-      "priority": "high",
-      "type": "content_update",
-      "title": "Correction needed: Cutoff date for CGT/negative gearing changes",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Our site says: \"2026-05-13T19:30:00+10:00\". Recent sources say: \"7:30pm on 12 May 2026 (budget night)\".",
-      "suggestion": "Update tax-rules.json or relevant content file to correct: Cutoff date for CGT/negative gearing changes. Source: https://www.abc.net.au/news/2026-05-13/federal-budget-2026-property-investors-tax-changes/101463556",
-      "source": "https://www.abc.net.au/news/2026-05-13/federal-budget-2026-property-investors-tax-changes/101463556",
-      "implementation_effort": "30_minutes",
-      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
     },
     {
       "type": "content_update",
@@ -437,19 +411,6 @@
     },
     {
       "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: Negative gearing changes take effect from 1 July 2027",
-      "description": "Multiple sources cite 1 July 2027 as the effective date for negative gearing changes. However, the budget night announcement (7:30pm on 12 May 2026) already imposes restrictions on NEW purchases from that moment - they cannot use negative gearing unless buying newly built homes. The 1 July 2027 date applies to the full removal for established properties purchased after budget night, not the start of all changes. This creates confusion about when restrictions actually begin.",
-      "suggestion": "Add to fact-checks.json: claim is 'negative gearing changes take effect from 1 July 2027', verdict is partially_true because the full removal for properties purchased after budget night takes effect 1 July 2027, but purchasing restrictions for new established properties already apply from budget night (7:30pm 12 May 2026). The effective dates differ depending on when the property was purchased.",
-      "source": "https://www.williambuck.com/federal-budget-analysis-2026-negative-gearing/",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260518-745",
-      "timestamp": "2026-05-18T14:51:04.513Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
-    },
-    {
-      "type": "fact_check",
       "priority": "medium",
       "title": "Claim: Capital gains will face a new 'minimum 30% tax rate' on all gains",
       "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The budget.gov.au source states 'introduce a minimum 30 per cent tax on gains from 1 July 2027'. Media coverage may oversimplify this as a flat 30% rate on ALL capital gains, but the actual policy replaces the 50% discount with inflation indexation (which may produce lower effective rates) combined with a 30% minimum tax threshold on gains above inflation. The 'minimum 30%' applies to the tax rate applicable to the taxable portion of gains, not necessarily a 30% flat tax on all gains.",
@@ -471,32 +432,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260518-883",
-      "timestamp": "2026-05-18T14:51:04.513Z",
-      "status": "pending",
-      "priority": "high",
-      "type": "content_update",
-      "title": "Correction needed: Budget night cutoff date for negative gearing and CGT changes",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Our site says: \"2026-05-13T19:30:00+10:00 (7:30pm on 13 May 2026)\". Recent sources say: \"7:30pm on 12 May 2026 (budget night)\".",
-      "suggestion": "Update tax-rules.json or relevant content file to correct: Budget night cutoff date for negative gearing and CGT changes. Source: https://www.abc.net.au/news/2026-05-13/negative-gearing-capital-gains-tax-budget-changes/10470344",
-      "source": "https://www.abc.net.au/news/2026-05-13/negative-gearing-capital-gains-tax-budget-changes/10470344",
-      "implementation_effort": "30_minutes",
-      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
-    },
-    {
-      "id": "suggestion-20260518-222",
-      "timestamp": "2026-05-18T14:51:04.513Z",
-      "status": "pending",
-      "priority": "high",
-      "type": "content_update",
-      "title": "Correction needed: Budget night cutoff date for negative gearing and CGT changes",
-      "description": "Our site says: \"2026-05-13T19:30:00+10:00 (7:30pm on 13 May 2026)\". Recent sources say: \"7:30pm on 12 May 2026 (budget night)\".",
-      "suggestion": "Update tax-rules.json or relevant content file to correct: Budget night cutoff date for negative gearing and CGT changes. Source: https://www.williambuck.com/budget-analysis/negative-gearing",
-      "source": "https://www.williambuck.com/budget-analysis/negative-gearing",
-      "implementation_effort": "30_minutes",
-      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
     }
   ],
   "implemented": [
@@ -874,6 +809,48 @@
       "status": "implemented",
       "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
       "implemented_at": "2026-05-18T13:43:14.806Z"
+    },
+    {
+      "id": "suggestion-20260518-676",
+      "timestamp": "2026-05-18T12:38:43.641Z",
+      "status": "implemented",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Correction needed: Cutoff date for CGT/negative gearing changes",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Our site says: \"2026-05-13T19:30:00+10:00\". Recent sources say: \"7:30pm on 12 May 2026 (budget night)\".",
+      "suggestion": "Update tax-rules.json or relevant content file to correct: Cutoff date for CGT/negative gearing changes. Source: https://www.abc.net.au/news/2026-05-13/federal-budget-2026-property-investors-tax-changes/101463556",
+      "source": "https://www.abc.net.au/news/2026-05-13/federal-budget-2026-property-investors-tax-changes/101463556",
+      "implementation_effort": "30_minutes",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implemented_at": "2026-05-18T14:53:10.314Z"
+    },
+    {
+      "id": "suggestion-20260518-883",
+      "timestamp": "2026-05-18T14:51:04.513Z",
+      "status": "implemented",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Correction needed: Budget night cutoff date for negative gearing and CGT changes",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Our site says: \"2026-05-13T19:30:00+10:00 (7:30pm on 13 May 2026)\". Recent sources say: \"7:30pm on 12 May 2026 (budget night)\".",
+      "suggestion": "Update tax-rules.json or relevant content file to correct: Budget night cutoff date for negative gearing and CGT changes. Source: https://www.abc.net.au/news/2026-05-13/negative-gearing-capital-gains-tax-budget-changes/10470344",
+      "source": "https://www.abc.net.au/news/2026-05-13/negative-gearing-capital-gains-tax-budget-changes/10470344",
+      "implementation_effort": "30_minutes",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implemented_at": "2026-05-18T14:54:28.786Z"
+    },
+    {
+      "id": "suggestion-20260518-222",
+      "timestamp": "2026-05-18T14:51:04.513Z",
+      "status": "implemented",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Correction needed: Budget night cutoff date for negative gearing and CGT changes",
+      "description": "Our site says: \"2026-05-13T19:30:00+10:00 (7:30pm on 13 May 2026)\". Recent sources say: \"7:30pm on 12 May 2026 (budget night)\".",
+      "suggestion": "Update tax-rules.json or relevant content file to correct: Budget night cutoff date for negative gearing and CGT changes. Source: https://www.williambuck.com/budget-analysis/negative-gearing",
+      "source": "https://www.williambuck.com/budget-analysis/negative-gearing",
+      "implementation_effort": "30_minutes",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implemented_at": "2026-05-18T14:55:10.687Z"
     }
   ],
   "skipped": [
@@ -905,6 +882,36 @@
       "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
       "status_reason": "MiniMax did not return valid JSON",
       "implemented_at": "2026-05-17T22:49:35.423Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Negative gearing changes take effect from 1 July 2027",
+      "description": "The implementation date is often stated as 1 July 2027, but the cutoff for new property purchases is 7:30pm on 12 May 2026 (budget night). Properties purchased after that date cannot claim negative gearing on established properties. The 1 July 2027 date is when existing investments lose access, not the starting point for the new rules.",
+      "suggestion": "Add to fact-checks.json: claim is 'negative gearing changes take effect from 1 July 2027', verdict is partially_true because the date refers to grandfathering of existing investments; the cutoff for new purchases is 12 May 2026.",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-353",
+      "timestamp": "2026-05-18T12:38:43.641Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-18T14:52:15.049Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Negative gearing changes take effect from 1 July 2027",
+      "description": "Multiple sources cite 1 July 2027 as the effective date for negative gearing changes. However, the budget night announcement (7:30pm on 12 May 2026) already imposes restrictions on NEW purchases from that moment - they cannot use negative gearing unless buying newly built homes. The 1 July 2027 date applies to the full removal for established properties purchased after budget night, not the start of all changes. This creates confusion about when restrictions actually begin.",
+      "suggestion": "Add to fact-checks.json: claim is 'negative gearing changes take effect from 1 July 2027', verdict is partially_true because the full removal for properties purchased after budget night takes effect 1 July 2027, but purchasing restrictions for new established properties already apply from budget night (7:30pm 12 May 2026). The effective dates differ depending on when the property was purchased.",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026-negative-gearing/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-745",
+      "timestamp": "2026-05-18T14:51:04.513Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-18T14:53:35.410Z"
     }
   ],
   "needs_manual_review": [

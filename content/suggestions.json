@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T14:55:10.688Z",
+  "lastUpdated": "2026-05-18T16:45:55.340Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -432,6 +432,116 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ASX analysis: How CGT changes affect ETF and Listed Investment Vehicle investors",
+      "description": "The Australian Securities Exchange has published detailed analysis on how the capital gains tax reforms will impact investors in ETFs, Listed Investment Companies (LICs), and Listed Investment Trusts (LITs). The article covers indexation treatment, the 30% minimum tax rate, and transitional rules for existing holdings.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details CGT impact on ETF and Listed Investment Vehicle investors — 50% discount replaced by inflation indexation with 30% minimum rate from 1 July 2027",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-620",
+      "timestamp": "2026-05-18T16:45:48.124Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "The Guardian data analysis: 56% of CGT concession benefits top 1% of income earners",
+      "description": "The Guardian Australia has published a data-driven analysis with charts showing that more than half of the capital gains tax discount benefit goes to the top 1% of income earners. The article accompanies the budget CGT reforms with distribution analysis.",
+      "suggestion": "Add to budget-updates.json: The Guardian analysis — more than half of CGT discount benefits went to top 1% of income earners, based on latest ATO data",
+      "source": "https://www.theguardian.com/news/2026/may/13/australia-federal-budget-2026-tax-capital-gains-negative-gearing-housing-one-big-chart",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-764",
+      "timestamp": "2026-05-18T16:45:48.124Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG budget breakdown: $47.5m allocated to Treasury and ATO for CGT implementation",
+      "description": "KPMG's Federal Budget 2026-27 analysis reveals the government has allocated $47.5 million over four years (plus $3.9 million per year ongoing) to fund the Treasury and ATO to implement the tax reform changes, including compliance and administration activities.",
+      "suggestion": "Add to budget-updates.json: KPMG Budget Analysis — Government allocates $47.5m over four years ($3.9m per year ongoing) to Treasury and ATO for CGT reform implementation",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-978",
+      "timestamp": "2026-05-18T16:45:48.124Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "CGT discount: preserved for all properties or eliminated for established homes?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The government's budget materials state investors can 'choose' the 50% CGT discount or new arrangements, while critics and media characterize this as eliminating the discount for established properties. This is a factual conflict about what the policy actually does - whether the 50% discount is fully replaced or remains available as an option.",
+      "suggestion": "Add to debates.json: view_a from budget.gov.au says investors can 'choose the 50 per cent CGT discount or the new arrangements', implying the discount remains available; view_b from abc.net.au and theguardian.com characterize this as the government breaking a promise by restricting/eliminating the CGT discount, with Coalition labeling changes 'toxic'",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-578",
+      "timestamp": "2026-05-18T16:45:48.124Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative deliver 65,000 homes?",
+      "description": "REIA President Jacob Caine explicitly claims the infrastructure initiative is 'expected to enable around 65,000 additional homes.' This specific numerical projection conflicts with broader skepticism about whether government housing programs can achieve targeted dwelling numbers, and whether the causal link is supported by evidence.",
+      "suggestion": "Add to debates.json: view_a from apimagazine.com.au (REIA President Jacob Caine) claims the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes'; view_b from commbank.com.au describes the policy design as intended to 'reduce investor demand for existing housing stock' without endorsing the specific 65,000 figure, suggesting the REIA projection may be optimistic",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-974",
+      "timestamp": "2026-05-18T16:45:48.124Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: The 50% CGT discount is being replaced by inflation indexation",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources state the 50% discount is being 'replaced' by inflation indexation. However, the official budget.gov.au states the new system includes BOTH indexation AND a minimum 30% tax rate on gains. Claiming it's simply 'replaced by indexation' omits the minimum tax floor component, which could mislead taxpayers about their actual tax obligations.",
+      "suggestion": "Add to fact-checks.json: claim is 'replaced by inflation indexation', verdict is partially_true because the reform combines indexation with a minimum 30% tax rate—not a simple one-for-one replacement. Sources: budget.gov.au confirms minimum 30% rate; abc.net.au and stockspot.com.au mention both components.",
+      "source": "https://budget.gov.au/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-864",
+      "timestamp": "2026-05-18T16:45:48.124Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "low",
+      "title": "Claim: Division 296 tax commences 1 July 2026",
+      "description": "Multiple sources confirm the Division 296 ($3m super balance tax) legislation enacted in March 2026 commences from 1 July 2026. However, this is not a budget announcement—it was separate legislation. Some may incorrectly attribute this timing to the 2026-27 Budget when it was already law.",
+      "suggestion": "Add to fact-checks.json: claim is 'Division 296 tax commences 1 July 2026 as part of the budget', verdict is disputed because this is a separate legislation enacted March 2026, not a budget measure. However, the timing aligns with the budget year. Sources: ato.gov.au confirms law status; pitch.com.au confirms commencement date.",
+      "source": "https://ato.gov.au/better-targeted-super-concessions",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260518-434",
+      "timestamp": "2026-05-18T16:45:48.124Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260518-589",
+      "timestamp": "2026-05-18T16:45:48.124Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "id": "suggestion-20260518-126",
+      "timestamp": "2026-05-18T16:45:48.124Z",
+      "status": "pending",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Correction needed: Budget night cutoff date for new purchases",
+      "description": "Our site says: \"2026-05-13T19:30:00+10:00 (13 May 2026 at 7:30pm AEST)\". Recent sources say: \"7:30pm on 12 May 2026 (budget night was Tuesday 12 May 2026)\".",
+      "suggestion": "Update tax-rules.json or relevant content file to correct: Budget night cutoff date for new purchases. Source: https://www.abc.net.au/news/2026-05-13/negative-gearing-capital-gains-tax-changes-budget-2026",
+      "source": "https://www.abc.net.au/news/2026-05-13/negative-gearing-capital-gains-tax-changes-budget-2026",
+      "implementation_effort": "30_minutes",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
     }
   ],
   "implemented": [

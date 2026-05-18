@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T21:02:51.730Z",
+  "lastUpdated": "2026-05-18T22:55:48.820Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -160,30 +160,6 @@
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "ASX analysis details CGT changes for ETF and Listed Investment Vehicle investors",
-      "description": "The ASX published an investor update analysing how the proposed CGT reforms affect investors in ETFs and Listed Investment Vehicles (LIVs), noting that share market investors have been undercompensated for inflation impacts under current CGT settings.",
-      "suggestion": "Add to budget-updates.json: ASX analysis of CGT changes for ETF and Listed Investment Vehicle investors — highlighting how inflation indexation and new minimum 30% tax floor apply to these investment vehicles",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260518-472",
-      "timestamp": "2026-05-18T12:30:51.984Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Australian Shareholders Association calls for capital gains averaging alongside indexation",
-      "description": "The ASA has publicly called for any CGT reform to include both indexation and a modern averaging mechanism to address income bunching, where many years of gains are realised in a single tax year. The association also notes it would have preferred proper consultation before the changes were announced.",
-      "suggestion": "Add to budget-updates.json: ASA calls for capital gains averaging mechanism alongside indexation — raising concern about income bunching for investors who realise gains in a single tax year",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260518-251",
-      "timestamp": "2026-05-18T12:30:51.984Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
       "title": "Division 296 super tax legislation details: indexed thresholds and CGT relief confirmed",
       "description": "Following the March 2026 enactment of Division 296 legislation, the ATO confirms the tax on super balances exceeding $3m commences 1 July 2026. Draft legislation includes indexed thresholds and CGT relief provisions for SMSFs.",
       "suggestion": "Add to budget-updates.json: Division 296 legislation details confirmed — indexed thresholds, CGT relief provisions for SMSFs, and 15% tax on earnings above $3m threshold from 1 July 2026",
@@ -214,19 +190,6 @@
       "id": "suggestion-20260518-249",
       "timestamp": "2026-05-18T12:30:51.984Z",
       "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: The 50% CGT discount is being replaced by inflation indexation",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources (stockspot.com.au, theguardian.com) state the 50% CGT discount is being 'replaced' by inflation indexation. However, budget.gov.au clarifies the change is: (1) replacing the 50% discount with a discount 'based on inflation' AND (2) introducing a minimum 30% tax on gains. This is a compound change, not a simple 1-for-1 swap. Media may oversimplify by suggesting indexation fully replaces the discount, ignoring the minimum tax floor.",
-      "suggestion": "Add to fact-checks.json: claim is '50% discount being replaced by inflation indexation' — verdict is partially_true because the actual reform has two components: (1) discount based on inflation replaces the 50% discount, AND (2) a minimum 30% tax on gains from 1 July 2027. Sources need clarification on both elements.",
-      "source": "https://budget.gov.au/tax-reform",
-      "implementation_effort": "20_minutes",
-      "id": "suggestion-20260518-269",
-      "timestamp": "2026-05-18T12:30:51.984Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base"
     },
     {
       "type": "fact_check",
@@ -529,19 +492,6 @@
       "status": "pending"
     },
     {
-      "type": "debate_page",
-      "priority": "high",
-      "title": "Will negative gearing reform actually improve housing affordability?",
-      "description": "LSJ cites economists claiming negative gearing is 'the key reason' for housing affordability and rental crises. Meanwhile, CommBank analysis frames the change as 'designed to reduce investor demand for existing housing stock'—implying it will help. These sources make conflicting causal claims about whether restricting negative gearing to new builds will meaningfully improve affordability.",
-      "suggestion": "Add to debates.json: view_a from LSJ (citing economists) says negative gearing restrictions address the 'key reason' for housing crisis, view_b from CommBank says change is designed to reduce demand for existing stock (implying effect on prices/affordability).",
-      "source": "https://lsj.com.au/articles/federal-budget-2026-limits-to-negative-gearing-and-capital-gains-tax-reform/",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260518-662",
-      "timestamp": "2026-05-18T21:02:34.579Z",
-      "status": "pending",
-      "corroborated_by": "https://www.smh.com.au/politics/federal/spooked-investors-could-see-house-prices-sink-after-big-budget-changes-20260513-p5zwb4.html"
-    },
-    {
       "type": "fact_check",
       "priority": "high",
       "title": "Claim: Capital gains will face a new 'minimum 30% tax rate' on all gains",
@@ -577,19 +527,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260518-767",
-      "timestamp": "2026-05-18T21:02:34.579Z",
-      "status": "pending",
-      "priority": "high",
-      "type": "content_update",
-      "title": "Correction needed: Budget delivery date vs cutoff date",
-      "description": "Our site says: \"Cutoff date is 2026-05-13T19:30:00+10:00 (the day after the budget was delivered)\". Recent sources say: \"Budget delivered on Tuesday 12 May 2026; negative gearing changes apply to properties purchased after 7:30pm on 12 May 2026\".",
-      "suggestion": "Update tax-rules.json or relevant content file to correct: Budget delivery date vs cutoff date. Source: https://budget.gov.au/content-2026-27/documents/budgetspeech.pdf, https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing",
-      "source": "https://budget.gov.au/content-2026-27/documents/budgetspeech.pdf, https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing",
-      "implementation_effort": "30_minutes",
-      "corroborated_by": "https://www.abc.net.au/news/2025-03-24/when-is-federal-budget-2025-why-does-it-matter/105081304"
     }
   ],
   "implemented": [
@@ -1050,6 +987,33 @@
       "timestamp": "2026-05-18T11:38:24.529Z",
       "status": "implemented",
       "implemented_at": "2026-05-18T17:56:27.268Z"
+    },
+    {
+      "id": "suggestion-20260518-767",
+      "timestamp": "2026-05-18T21:02:34.579Z",
+      "status": "implemented",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Correction needed: Budget delivery date vs cutoff date",
+      "description": "Our site says: \"Cutoff date is 2026-05-13T19:30:00+10:00 (the day after the budget was delivered)\". Recent sources say: \"Budget delivered on Tuesday 12 May 2026; negative gearing changes apply to properties purchased after 7:30pm on 12 May 2026\".",
+      "suggestion": "Update tax-rules.json or relevant content file to correct: Budget delivery date vs cutoff date. Source: https://budget.gov.au/content-2026-27/documents/budgetspeech.pdf, https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing",
+      "source": "https://budget.gov.au/content-2026-27/documents/budgetspeech.pdf, https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing",
+      "implementation_effort": "30_minutes",
+      "corroborated_by": "https://www.abc.net.au/news/2025-03-24/when-is-federal-budget-2025-why-does-it-matter/105081304",
+      "implemented_at": "2026-05-18T22:54:50.222Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Australian Shareholders Association calls for capital gains averaging alongside indexation",
+      "description": "The ASA has publicly called for any CGT reform to include both indexation and a modern averaging mechanism to address income bunching, where many years of gains are realised in a single tax year. The association also notes it would have preferred proper consultation before the changes were announced.",
+      "suggestion": "Add to budget-updates.json: ASA calls for capital gains averaging mechanism alongside indexation — raising concern about income bunching for investors who realise gains in a single tax year",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-251",
+      "timestamp": "2026-05-18T12:30:51.984Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-18T22:55:38.480Z"
     }
   ],
   "skipped": [
@@ -1140,6 +1104,50 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-05-18T17:55:55.195Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "Will negative gearing reform actually improve housing affordability?",
+      "description": "LSJ cites economists claiming negative gearing is 'the key reason' for housing affordability and rental crises. Meanwhile, CommBank analysis frames the change as 'designed to reduce investor demand for existing housing stock'—implying it will help. These sources make conflicting causal claims about whether restricting negative gearing to new builds will meaningfully improve affordability.",
+      "suggestion": "Add to debates.json: view_a from LSJ (citing economists) says negative gearing restrictions address the 'key reason' for housing crisis, view_b from CommBank says change is designed to reduce demand for existing stock (implying effect on prices/affordability).",
+      "source": "https://lsj.com.au/articles/federal-budget-2026-limits-to-negative-gearing-and-capital-gains-tax-reform/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-662",
+      "timestamp": "2026-05-18T21:02:34.579Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.smh.com.au/politics/federal/spooked-investors-could-see-house-prices-sink-after-big-budget-changes-20260513-p5zwb4.html",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-18T22:54:30.565Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis details CGT changes for ETF and Listed Investment Vehicle investors",
+      "description": "The ASX published an investor update analysing how the proposed CGT reforms affect investors in ETFs and Listed Investment Vehicles (LIVs), noting that share market investors have been undercompensated for inflation impacts under current CGT settings.",
+      "suggestion": "Add to budget-updates.json: ASX analysis of CGT changes for ETF and Listed Investment Vehicle investors — highlighting how inflation indexation and new minimum 30% tax floor apply to these investment vehicles",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-472",
+      "timestamp": "2026-05-18T12:30:51.984Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-18T22:54:58.142Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: The 50% CGT discount is being replaced by inflation indexation",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources (stockspot.com.au, theguardian.com) state the 50% CGT discount is being 'replaced' by inflation indexation. However, budget.gov.au clarifies the change is: (1) replacing the 50% discount with a discount 'based on inflation' AND (2) introducing a minimum 30% tax on gains. This is a compound change, not a simple 1-for-1 swap. Media may oversimplify by suggesting indexation fully replaces the discount, ignoring the minimum tax floor.",
+      "suggestion": "Add to fact-checks.json: claim is '50% discount being replaced by inflation indexation' — verdict is partially_true because the actual reform has two components: (1) discount based on inflation replaces the 50% discount, AND (2) a minimum 30% tax on gains from 1 July 2027. Sources need clarification on both elements.",
+      "source": "https://budget.gov.au/tax-reform",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260518-269",
+      "timestamp": "2026-05-18T12:30:51.984Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-18T22:55:48.820Z"
     }
   ],
   "needs_manual_review": [

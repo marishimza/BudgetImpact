@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T17:56:01.577Z",
+  "lastUpdated": "2026-05-18T22:55:07.197Z",
   "items": [
     {
       "id": "update-001",
@@ -8,7 +8,7 @@
       "source": "parliament.gov.au",
       "title": "2026 Federal Budget officially tabled — CGT and negative gearing changes confirmed",
       "summary": "Treasurer Jim Chalmers has officially tabled the 2026 Federal Budget. The 50% CGT discount is abolished from 1 July 2027, replaced by CPI indexation plus a hard 30% minimum tax floor on net capital gains.",
-      "url": "https://www.aph.gov.au/Parliamentary_Business/Hansard",
+      "url": "https://budget.gov.au/content-2026-27/documents/budgetspeech.pdf",
       "priority": "high"
     },
     {
@@ -95,10 +95,10 @@
       "id": "update-018",
       "date": "2026-05-18",
       "tag": "Property",
-      "source": "ABC News",
-      "title": "Correction: CGT and negative gearing changes take effect from budget night, not following night",
-      "summary": "The site previously stated the cutoff for capital gains tax changes was 13 May 2026, but the correct cutoff is 7:30pm on 12 May 2026 (budget night). This one-day difference is significant for property investors timing their purchases.",
-      "url": "",
+      "source": "Australian Shareholders' Association",
+      "title": "Federal Budget 2026-27: What It Means for Australian Investors",
+      "summary": "The site previously stated the cutoff for capital gains tax changes was 13 May 2026, but the correct cutoff is 7:30pm on 12 May 2026 (budget night). This correction aligns with official budget documentation. The Australian Shareholders' Association provides analysis of how the 2026-27 Federal Budget changes affect investors, including modifications to negative gearing rules and CGT provisions.",
+      "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
       "priority": "high"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T13:43:14.806Z",
+  "lastUpdated": "2026-05-18T14:51:20.286Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -372,6 +372,129 @@
       "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Our site says: \"2026-05-13T19:30:00+10:00\". Recent sources say: \"7:30pm on 12 May 2026 (budget night)\".",
       "suggestion": "Update tax-rules.json or relevant content file to correct: Cutoff date for CGT/negative gearing changes. Source: https://www.abc.net.au/news/2026-05-13/federal-budget-2026-property-investors-tax-changes/101463556",
       "source": "https://www.abc.net.au/news/2026-05-13/federal-budget-2026-property-investors-tax-changes/101463556",
+      "implementation_effort": "30_minutes",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASA calls for capital gains averaging alongside indexation reform",
+      "description": "The Australian Shareholders Association has publicly stated it would have preferred proper consultation before CGT changes were announced and is calling for a capital gains averaging mechanism to complement indexation. This represents a formal stakeholder response from the retail investor peak body to the Budget reforms.",
+      "suggestion": "Add to budget-updates.json: Australian Shareholders Association calls for capital gains averaging mechanism alongside indexation to address income bunching concerns where many years of gains are realised in a single tax year.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-915",
+      "timestamp": "2026-05-18T14:51:04.513Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury data: 56% of ASX 200 share gains over 10 years attributable to inflation",
+      "description": "Budget papers included Treasury analysis showing that 56% of asset price growth for ASX 200 shares held for 10 years to March 2026 was attributable to inflation. This data underpins the government's rationale that the current CGT discount overcompensates investors and must be reformed to tax only real gains.",
+      "suggestion": "Add to budget-updates.json: Treasury data shows 56% of ASX 200 share price growth over 10 years to March 2026 was inflation, supporting the government's case that current CGT settings overcompensate investors for inflationary gains.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-969",
+      "timestamp": "2026-05-18T14:51:04.513Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis details CGT impact on ETFs and Listed Investment Vehicles",
+      "description": "The ASX published an investor update specifically addressing how the proposed CGT changes affect investors in exchange-traded funds (ETFs) and Listed Investment Vehicles (LIVs), providing guidance distinct from the property and direct shares coverage.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details how CGT changes affect investors in ETFs and Listed Investment Vehicles, separate from direct property and share investments.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-819",
+      "timestamp": "2026-05-18T14:51:04.513Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "The Government claims its $2 billion infrastructure initiative will enable around 65,000 additional homes. This is a specific numerical projection that could be tested against expert analysis of infrastructure-to-housing pipeline timelines and construction capacity constraints.",
+      "suggestion": "Add to debates.json: view_a from REIA President Jacob Caine (API Magazine) claims the initiative is 'expected to enable around 65,000 additional homes'; view_b from housing economists may project lower delivery rates given infrastructure lead times and construction sector capacity.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-799",
+      "timestamp": "2026-05-18T14:51:04.513Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Are Labor's negative gearing changes a 'broken promise' or legitimate policy evolution?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ABC News explicitly frames the changes as the government 'break[ing] promise' on negative gearing. The PM and government members defend this as legitimate policy evolution responding to changed circumstances. This is a factual debate about whether the 2019 election commitment specifically promised no future changes versus a moral claim.",
+      "suggestion": "Add to debates.json: view_a from ABC News says 'Government breaks promise with restrictions to negative gearing'; view_b from PM Albanese and government sources argue this represents legitimate policy evolution rather than promise-breaking, given changed economic circumstances since 2019.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-612",
+      "timestamp": "2026-05-18T14:51:04.513Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Negative gearing changes take effect from 1 July 2027",
+      "description": "Multiple sources cite 1 July 2027 as the effective date for negative gearing changes. However, the budget night announcement (7:30pm on 12 May 2026) already imposes restrictions on NEW purchases from that moment - they cannot use negative gearing unless buying newly built homes. The 1 July 2027 date applies to the full removal for established properties purchased after budget night, not the start of all changes. This creates confusion about when restrictions actually begin.",
+      "suggestion": "Add to fact-checks.json: claim is 'negative gearing changes take effect from 1 July 2027', verdict is partially_true because the full removal for properties purchased after budget night takes effect 1 July 2027, but purchasing restrictions for new established properties already apply from budget night (7:30pm 12 May 2026). The effective dates differ depending on when the property was purchased.",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026-negative-gearing/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-745",
+      "timestamp": "2026-05-18T14:51:04.513Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a new 'minimum 30% tax rate' on all gains",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The budget.gov.au source states 'introduce a minimum 30 per cent tax on gains from 1 July 2027'. Media coverage may oversimplify this as a flat 30% rate on ALL capital gains, but the actual policy replaces the 50% discount with inflation indexation (which may produce lower effective rates) combined with a 30% minimum tax threshold on gains above inflation. The 'minimum 30%' applies to the tax rate applicable to the taxable portion of gains, not necessarily a 30% flat tax on all gains.",
+      "suggestion": "Add to fact-checks.json: claim is 'capital gains face a new minimum 30% tax rate on all gains', verdict is partially_true because while a 30% minimum rate threshold is introduced, the 50% discount is replaced by inflation indexation (potentially resulting in lower effective rates for long-held assets), and the new minimum applies to the taxable portion after indexation adjustments, not as a flat rate on total gains.",
+      "source": "https://budget.gov.au/2026-27/tax-reform",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260518-815",
+      "timestamp": "2026-05-18T14:51:04.513Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260518-886",
+      "timestamp": "2026-05-18T14:51:04.513Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "id": "suggestion-20260518-883",
+      "timestamp": "2026-05-18T14:51:04.513Z",
+      "status": "pending",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Correction needed: Budget night cutoff date for negative gearing and CGT changes",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Our site says: \"2026-05-13T19:30:00+10:00 (7:30pm on 13 May 2026)\". Recent sources say: \"7:30pm on 12 May 2026 (budget night)\".",
+      "suggestion": "Update tax-rules.json or relevant content file to correct: Budget night cutoff date for negative gearing and CGT changes. Source: https://www.abc.net.au/news/2026-05-13/negative-gearing-capital-gains-tax-budget-changes/10470344",
+      "source": "https://www.abc.net.au/news/2026-05-13/negative-gearing-capital-gains-tax-budget-changes/10470344",
+      "implementation_effort": "30_minutes",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
+    },
+    {
+      "id": "suggestion-20260518-222",
+      "timestamp": "2026-05-18T14:51:04.513Z",
+      "status": "pending",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Correction needed: Budget night cutoff date for negative gearing and CGT changes",
+      "description": "Our site says: \"2026-05-13T19:30:00+10:00 (7:30pm on 13 May 2026)\". Recent sources say: \"7:30pm on 12 May 2026 (budget night)\".",
+      "suggestion": "Update tax-rules.json or relevant content file to correct: Budget night cutoff date for negative gearing and CGT changes. Source: https://www.williambuck.com/budget-analysis/negative-gearing",
+      "source": "https://www.williambuck.com/budget-analysis/negative-gearing",
       "implementation_effort": "30_minutes",
       "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
     }
@@ -850,6 +973,17 @@
       "description": "HTTP 404",
       "suggestion": "Investigate https://marishimza.github.io/BudgetImpact/faqs — page failed health check. Check deployment and content files.",
       "source": "https://marishimza.github.io/BudgetImpact/faqs"
+    },
+    {
+      "id": "health-1779115880286-yqi9",
+      "timestamp": "2026-05-18T14:51:20.286Z",
+      "status": "needs_manual_review",
+      "priority": "high",
+      "type": "site_health",
+      "title": "[HEALTH] $%7Bitem.Url%20||%20' page: HTTP 404",
+      "description": "HTTP 404",
+      "suggestion": "Investigate https://marishimza.github.io/BudgetImpact/$%7Bitem.url%20||%20'#'} — page failed health check. Check deployment and content files.",
+      "source": "https://marishimza.github.io/BudgetImpact/$%7Bitem.url%20||%20'#'}"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T08:04:04.860Z",
+  "lastUpdated": "2026-05-18T11:38:32.348Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -125,6 +125,79 @@
     {
       "id": "suggestion-20260518-387",
       "timestamp": "2026-05-18T06:05:26.604Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASA calls for capital gains averaging mechanism alongside indexation",
+      "description": "The Australian Shareholders Association is advocating for an averaging mechanism to address income bunching concerns where gains realised in a single tax year could push taxpayers into higher brackets. ASA supports indexation but wants complementary reform.",
+      "suggestion": "Add to budget-updates.json: 'ASA recommends averaging mechanism for CGT reform to address income bunching where multi-year gains are taxed in a single year'",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-834",
+      "timestamp": "2026-05-18T11:38:24.529Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: CGT changes affect ETF and Listed Investment Vehicle investors",
+      "description": "The Australian Securities Exchange published investor guidance on how the proposed CGT and negative gearing reforms impact holders of ETFs, Listed Investment Companies (LICs), and Listed Investment Trusts (LITs).",
+      "suggestion": "Add to budget-updates.json: 'ASX publishes investor guidance on CGT impact for ETF and Listed Investment Vehicle holders'",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-530",
+      "timestamp": "2026-05-18T11:38:24.529Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Division 296 super tax legislation enacted, commences 1 July 2026",
+      "description": "The Better Targeted Super Concessions legislation (Division 296) passed in March 2026 and will apply from 1 July 2026. Taxpayers with super balances exceeding $3m will pay 15% tax on earnings above the $3m threshold.",
+      "suggestion": "Add to budget-updates.json: 'Division 296 high-balance super tax ($3m threshold) commences 1 July 2026 per enacted legislation'",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-109",
+      "timestamp": "2026-05-18T11:38:24.529Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: The 50% CGT discount is being 'replaced' by cost base indexation",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources describe the CGT reform as a simple replacement of the 50% discount with inflation indexation. However, budget.gov.au states the reform includes BOTH indexation AND a 'minimum 30 per cent tax on gains' from 1 July 2027. This dual-component change may be oversimplified in media coverage, potentially omitting either the indexation or the 30% minimum tax floor.",
+      "suggestion": "Add to fact-checks.json: claim is partially_true because the reform has two components - inflation-based indexation AND a 30% minimum tax on capital gains - not just indexation alone",
+      "source": "https://budget.gov.au/publications/budget-overview.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-129",
+      "timestamp": "2026-05-18T11:38:24.529Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Negative gearing changes take effect from 1 July 2027",
+      "description": "Many sources state the negative gearing changes start from 1 July 2027. However, williambuck.com and abc.net.au indicate that new property purchases AFTER 7:30pm on 12 May 2026 are immediately ineligible for negative gearing (unless newly built). The 1 July 2027 date may refer to when existing negatively-geared properties lose their benefits, while new purchases face immediate restrictions. This timing distinction could be misquoted.",
+      "suggestion": "Add to fact-checks.json: claim is partially_true because while existing negatively-geared properties retain benefits until 1 July 2027, NEW purchases after budget night (7:30pm 12 May 2026) are immediately ineligible for established properties",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-818",
+      "timestamp": "2026-05-18T11:38:24.529Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260518-905",
+      "timestamp": "2026-05-18T11:38:24.529Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

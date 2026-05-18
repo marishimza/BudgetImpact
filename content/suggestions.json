@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T12:31:01.110Z",
+  "lastUpdated": "2026-05-18T12:38:55.597Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -327,6 +327,118 @@
       "source": "https://www.abc.net.au/news/2026-05-13/government-breaks-promise-restrictions-negative-gearing-cgt-budget/101465398",
       "implementation_effort": "30_minutes",
       "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Venture capital tax incentives expanded from July 2027",
+      "description": "The 2026-27 Federal Budget expands venture capital tax incentives, with changes scheduled to take effect from July 2027. The measure builds on existing venture capital frameworks to support early-stage innovation and investment.",
+      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expanded from July 2027 — the budget extends incentives to support startup and innovation investment, with implementation from July 2027.",
+      "source": "https://austax.tools/tax-insights/federal-budget-2026-summary/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-161",
+      "timestamp": "2026-05-18T12:38:43.641Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: CGT changes affect ETF and Listed Investment Vehicle investors",
+      "description": "ASX published analysis on how the capital gains tax changes will affect investors in exchange-traded funds (ETFs) and Listed Investment Vehicles (LIVs). The analysis considers the practical implications for retail investors holding these products through the tax changes.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details CGT changes for ETF and Listed Investment Vehicle investors — practical implications for retail investors assessed.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-703",
+      "timestamp": "2026-05-18T12:38:43.641Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Division 296 super tax: indexed thresholds and CGT relief confirmed",
+      "description": "Treasury released draft legislation for Division 296 tax with indexed thresholds and CGT relief provisions. The ATO confirms the legislation is enacted and commences from 1 July 2026, applying to super balances exceeding $3 million.",
+      "suggestion": "Add to budget-updates.json: Division 296 super tax draft legislation released — indexed thresholds and CGT relief confirmed, legislation enacted and commences 1 July 2026.",
+      "source": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-881",
+      "timestamp": "2026-05-18T12:38:43.641Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "Will the 2026 negative gearing and CGT reforms survive a change of government?",
+      "description": "The Coalition has explicitly committed to repealing the negative gearing and CGT changes if elected, creating a factual conflict with government assertions that these are durable structural reforms. This debate examines whether these measures will actually be implemented or will be reversed.",
+      "suggestion": "Add to debates.json: The Coalition (Tim Wilson via ABC News and The Guardian, 13 May 2026) commits to repealing negative gearing and CGT changes, calling them 'toxic'. Meanwhile, the Government (Treasurer Jim Chalmers via Budget.gov.au) presents these as permanent structural reforms to take effect from 1 July 2027. These represent conflicting claims about whether these tax changes will actually become law.",
+      "source": "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-153",
+      "timestamp": "2026-05-18T12:38:43.641Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is Labor's negative gearing reform a 'broken promise' or legitimate policy evolution?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The ABC characterizes the changes as breaking a promise, while the Government frames them as necessary policy evolution. This debate examines the factual basis for each claim and whether previous commitments were explicit or conditional.",
+      "suggestion": "Add to debates.json: ABC News (12 May 2026) states 'The government has calculated the popularity of curbing negative gearing and the CGT discount... will be worth the damage to trust of breaking another promise.' Meanwhile, Budget.gov.au frames the restrictions as 'focus tax support on new supply' - a policy rationale, not a promise kept. The conflict is whether Labor explicitly promised NOT to restrict negative gearing, or whether the changes represent legitimate evolution of housing policy.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-831",
+      "timestamp": "2026-05-18T12:38:43.641Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: The 50% CGT discount is being replaced by inflation indexation",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple media sources report this as a simple replacement, but the official Budget position includes a minimum 30% tax rate on top of indexation. This oversimplifies the change from a discount to an inflation-adjusted cost base calculation with a floor rate.",
+      "suggestion": "Add to fact-checks.json: claim is '50% CGT discount replaced by inflation indexation', verdict is partially_true because indexation replaces the discount mechanism, but the minimum 30% tax rate is equally significant and often omitted in summaries.",
+      "source": "https://www.budget.gov.au/publication/budget-2026-27",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-836",
+      "timestamp": "2026-05-18T12:38:43.641Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Negative gearing changes take effect from 1 July 2027",
+      "description": "The implementation date is often stated as 1 July 2027, but the cutoff for new property purchases is 7:30pm on 12 May 2026 (budget night). Properties purchased after that date cannot claim negative gearing on established properties. The 1 July 2027 date is when existing investments lose access, not the starting point for the new rules.",
+      "suggestion": "Add to fact-checks.json: claim is 'negative gearing changes take effect from 1 July 2027', verdict is partially_true because the date refers to grandfathering of existing investments; the cutoff for new purchases is 12 May 2026.",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-353",
+      "timestamp": "2026-05-18T12:38:43.641Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+    },
+    {
+      "id": "suggestion-20260518-346",
+      "timestamp": "2026-05-18T12:38:43.641Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "id": "suggestion-20260518-676",
+      "timestamp": "2026-05-18T12:38:43.641Z",
+      "status": "pending",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Correction needed: Cutoff date for CGT/negative gearing changes",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Our site says: \"2026-05-13T19:30:00+10:00\". Recent sources say: \"7:30pm on 12 May 2026 (budget night)\".",
+      "suggestion": "Update tax-rules.json or relevant content file to correct: Cutoff date for CGT/negative gearing changes. Source: https://www.abc.net.au/news/2026-05-13/federal-budget-2026-property-investors-tax-changes/101463556",
+      "source": "https://www.abc.net.au/news/2026-05-13/federal-budget-2026-property-investors-tax-changes/101463556",
+      "implementation_effort": "30_minutes",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
     }
   ],
   "implemented": [
@@ -667,5 +779,72 @@
       "implemented_at": "2026-05-17T22:49:35.423Z"
     }
   ],
-  "needs_manual_review": []
+  "needs_manual_review": [
+    {
+      "id": "health-1779107935597-jy42",
+      "timestamp": "2026-05-18T12:38:55.597Z",
+      "status": "needs_manual_review",
+      "priority": "high",
+      "type": "site_health",
+      "title": "[HEALTH] Fact Checks JSON: Missing \"claims\" array. Found keys: id, slug, claim, verdict, verdict_label, sho",
+      "description": "Missing \"claims\" array. Found keys: id, slug, claim, verdict, verdict_label, short_explanation, detailed_explanation, sources, date_checked, category",
+      "suggestion": "Repair content/fact-checks.json in the BudgetImpact repo: ensure it has { \"lastUpdated\": \"...\", \"claims\": [...] } structure with at least one item.",
+      "source": ""
+    },
+    {
+      "id": "health-1779107935597-nadh",
+      "timestamp": "2026-05-18T12:38:55.597Z",
+      "status": "needs_manual_review",
+      "priority": "high",
+      "type": "site_health",
+      "title": "[HEALTH] Fact Checks page: HTTP 404",
+      "description": "HTTP 404",
+      "suggestion": "Investigate https://marishimza.github.io/BudgetImpact/fact-checks — page failed health check. Check deployment and content files.",
+      "source": "https://marishimza.github.io/BudgetImpact/fact-checks"
+    },
+    {
+      "id": "health-1779107935597-94rw",
+      "timestamp": "2026-05-18T12:38:55.597Z",
+      "status": "needs_manual_review",
+      "priority": "high",
+      "type": "site_health",
+      "title": "[HEALTH] Policy Debates page: HTTP 404",
+      "description": "HTTP 404",
+      "suggestion": "Investigate https://marishimza.github.io/BudgetImpact/debates — page failed health check. Check deployment and content files.",
+      "source": "https://marishimza.github.io/BudgetImpact/debates"
+    },
+    {
+      "id": "health-1779107935597-ym0x",
+      "timestamp": "2026-05-18T12:38:55.597Z",
+      "status": "needs_manual_review",
+      "priority": "high",
+      "type": "site_health",
+      "title": "[HEALTH] News Digest page: HTTP 404",
+      "description": "HTTP 404",
+      "suggestion": "Investigate https://marishimza.github.io/BudgetImpact/news — page failed health check. Check deployment and content files.",
+      "source": "https://marishimza.github.io/BudgetImpact/news"
+    },
+    {
+      "id": "health-1779107935597-qgk0",
+      "timestamp": "2026-05-18T12:38:55.597Z",
+      "status": "needs_manual_review",
+      "priority": "high",
+      "type": "site_health",
+      "title": "[HEALTH] Timeline page: HTTP 404",
+      "description": "HTTP 404",
+      "suggestion": "Investigate https://marishimza.github.io/BudgetImpact/timeline — page failed health check. Check deployment and content files.",
+      "source": "https://marishimza.github.io/BudgetImpact/timeline"
+    },
+    {
+      "id": "health-1779107935597-yg23",
+      "timestamp": "2026-05-18T12:38:55.597Z",
+      "status": "needs_manual_review",
+      "priority": "high",
+      "type": "site_health",
+      "title": "[HEALTH] FAQs page: HTTP 404",
+      "description": "HTTP 404",
+      "suggestion": "Investigate https://marishimza.github.io/BudgetImpact/faqs — page failed health check. Check deployment and content files.",
+      "source": "https://marishimza.github.io/BudgetImpact/faqs"
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T14:54:35.934Z",
+  "lastUpdated": "2026-05-18T17:56:01.577Z",
   "items": [
     {
       "id": "update-001",
@@ -97,9 +97,9 @@
       "tag": "Property",
       "source": "ABC News",
       "title": "Correction: CGT and negative gearing changes take effect from budget night, not following night",
-      "summary": "The site previously stated the cutoff for capital gains tax and negative gearing changes was 13 May 2026, but the correct date is 7:30pm on 12 May 2026 (budget night). Investors should ensure they are using the correct cutoff date when planning property purchases.",
-      "url": "https://www.abc.net.au/news/2026-05-18/cgt-negative-gearing-changes-budget-night",
-      "priority": "medium"
+      "summary": "The site previously stated the cutoff for capital gains tax changes was 13 May 2026, but the correct cutoff is 7:30pm on 12 May 2026 (budget night). This one-day difference is significant for property investors timing their purchases.",
+      "url": "",
+      "priority": "high"
     }
   ]
 }

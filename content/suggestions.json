@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T16:45:55.340Z",
+  "lastUpdated": "2026-05-18T17:56:27.268Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -99,19 +99,6 @@
     },
     {
       "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: The 50% CGT discount is being replaced by cost base indexation",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple commercial sources (NAB, etc.) describe the CGT reform as replacing the 50% discount with 'cost base indexation.' However, the official budget.gov.au states the reform will introduce 'a discount based on inflation.' These are technically different mechanisms: indexation adjusts the purchase price for inflation (applied at time of sale), while an inflation-based discount applies a discount to gains attributable to inflation. This distinction could result in different tax outcomes for investors, and media may be oversimplifying the actual reform mechanism.",
-      "suggestion": "Add to fact-checks.json: claim is 'replaced by cost base indexation', verdict is partially_true/disputed because the official budget describes an 'inflation-based discount' which may work differently from traditional cost base indexation. The exact calculation method is subject to legislation.",
-      "source": "https://budget.gov.au/2026-27/content/tax-reform.htm",
-      "implementation_effort": "45_minutes",
-      "id": "suggestion-20260518-737",
-      "timestamp": "2026-05-18T06:05:26.603Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base"
-    },
-    {
-      "type": "fact_check",
       "priority": "medium",
       "title": "Claim: Capital gains will face a new 'minimum 30% tax rate'",
       "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The budget states a 'minimum 30 per cent tax on gains' will apply from July 2027. However, for individual taxpayers, capital gains are added to ordinary income and taxed at marginal rates. The 30% minimum would primarily affect entities like trusts or companies. The framing as a universal 'minimum tax rate on all gains' may mislead individual investors about their actual tax treatment.",
@@ -133,30 +120,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASA calls for capital gains averaging mechanism alongside indexation",
-      "description": "The Australian Shareholders Association is advocating for an averaging mechanism to address income bunching concerns where gains realised in a single tax year could push taxpayers into higher brackets. ASA supports indexation but wants complementary reform.",
-      "suggestion": "Add to budget-updates.json: 'ASA recommends averaging mechanism for CGT reform to address income bunching where multi-year gains are taxed in a single year'",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260518-834",
-      "timestamp": "2026-05-18T11:38:24.529Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis: CGT changes affect ETF and Listed Investment Vehicle investors",
-      "description": "The Australian Securities Exchange published investor guidance on how the proposed CGT and negative gearing reforms impact holders of ETFs, Listed Investment Companies (LICs), and Listed Investment Trusts (LITs).",
-      "suggestion": "Add to budget-updates.json: 'ASX publishes investor guidance on CGT impact for ETF and Listed Investment Vehicle holders'",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260518-530",
-      "timestamp": "2026-05-18T11:38:24.529Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -435,19 +398,6 @@
     },
     {
       "type": "content_update",
-      "priority": "high",
-      "title": "ASX analysis: How CGT changes affect ETF and Listed Investment Vehicle investors",
-      "description": "The Australian Securities Exchange has published detailed analysis on how the capital gains tax reforms will impact investors in ETFs, Listed Investment Companies (LICs), and Listed Investment Trusts (LITs). The article covers indexation treatment, the 30% minimum tax rate, and transitional rules for existing holdings.",
-      "suggestion": "Add to budget-updates.json: ASX analysis details CGT impact on ETF and Listed Investment Vehicle investors — 50% discount replaced by inflation indexation with 30% minimum rate from 1 July 2027",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260518-620",
-      "timestamp": "2026-05-18T16:45:48.124Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784"
-    },
-    {
-      "type": "content_update",
       "priority": "medium",
       "title": "The Guardian data analysis: 56% of CGT concession benefits top 1% of income earners",
       "description": "The Guardian Australia has published a data-driven analysis with charts showing that more than half of the capital gains tax discount benefit goes to the top 1% of income earners. The article accompanies the budget CGT reforms with distribution analysis.",
@@ -529,19 +479,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260518-126",
-      "timestamp": "2026-05-18T16:45:48.124Z",
-      "status": "pending",
-      "priority": "high",
-      "type": "content_update",
-      "title": "Correction needed: Budget night cutoff date for new purchases",
-      "description": "Our site says: \"2026-05-13T19:30:00+10:00 (13 May 2026 at 7:30pm AEST)\". Recent sources say: \"7:30pm on 12 May 2026 (budget night was Tuesday 12 May 2026)\".",
-      "suggestion": "Update tax-rules.json or relevant content file to correct: Budget night cutoff date for new purchases. Source: https://www.abc.net.au/news/2026-05-13/negative-gearing-capital-gains-tax-changes-budget-2026",
-      "source": "https://www.abc.net.au/news/2026-05-13/negative-gearing-capital-gains-tax-changes-budget-2026",
-      "implementation_effort": "30_minutes",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
     }
   ],
   "implemented": [
@@ -961,6 +898,47 @@
       "implementation_effort": "30_minutes",
       "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
       "implemented_at": "2026-05-18T14:55:10.687Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ASX analysis: How CGT changes affect ETF and Listed Investment Vehicle investors",
+      "description": "The Australian Securities Exchange has published detailed analysis on how the capital gains tax reforms will impact investors in ETFs, Listed Investment Companies (LICs), and Listed Investment Trusts (LITs). The article covers indexation treatment, the 30% minimum tax rate, and transitional rules for existing holdings.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details CGT impact on ETF and Listed Investment Vehicle investors — 50% discount replaced by inflation indexation with 30% minimum rate from 1 July 2027",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-620",
+      "timestamp": "2026-05-18T16:45:48.124Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implemented_at": "2026-05-18T17:54:54.581Z"
+    },
+    {
+      "id": "suggestion-20260518-126",
+      "timestamp": "2026-05-18T16:45:48.124Z",
+      "status": "implemented",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Correction needed: Budget night cutoff date for new purchases",
+      "description": "Our site says: \"2026-05-13T19:30:00+10:00 (13 May 2026 at 7:30pm AEST)\". Recent sources say: \"7:30pm on 12 May 2026 (budget night was Tuesday 12 May 2026)\".",
+      "suggestion": "Update tax-rules.json or relevant content file to correct: Budget night cutoff date for new purchases. Source: https://www.abc.net.au/news/2026-05-13/negative-gearing-capital-gains-tax-changes-budget-2026",
+      "source": "https://www.abc.net.au/news/2026-05-13/negative-gearing-capital-gains-tax-changes-budget-2026",
+      "implementation_effort": "30_minutes",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implemented_at": "2026-05-18T17:55:35.908Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: CGT changes affect ETF and Listed Investment Vehicle investors",
+      "description": "The Australian Securities Exchange published investor guidance on how the proposed CGT and negative gearing reforms impact holders of ETFs, Listed Investment Companies (LICs), and Listed Investment Trusts (LITs).",
+      "suggestion": "Add to budget-updates.json: 'ASX publishes investor guidance on CGT impact for ETF and Listed Investment Vehicle holders'",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-530",
+      "timestamp": "2026-05-18T11:38:24.529Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-18T17:56:27.268Z"
     }
   ],
   "skipped": [
@@ -1022,6 +1000,35 @@
       "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-05-18T14:53:35.410Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: The 50% CGT discount is being replaced by cost base indexation",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple commercial sources (NAB, etc.) describe the CGT reform as replacing the 50% discount with 'cost base indexation.' However, the official budget.gov.au states the reform will introduce 'a discount based on inflation.' These are technically different mechanisms: indexation adjusts the purchase price for inflation (applied at time of sale), while an inflation-based discount applies a discount to gains attributable to inflation. This distinction could result in different tax outcomes for investors, and media may be oversimplifying the actual reform mechanism.",
+      "suggestion": "Add to fact-checks.json: claim is 'replaced by cost base indexation', verdict is partially_true/disputed because the official budget describes an 'inflation-based discount' which may work differently from traditional cost base indexation. The exact calculation method is subject to legislation.",
+      "source": "https://budget.gov.au/2026-27/content/tax-reform.htm",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260518-737",
+      "timestamp": "2026-05-18T06:05:26.603Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-18T17:55:46.211Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASA calls for capital gains averaging mechanism alongside indexation",
+      "description": "The Australian Shareholders Association is advocating for an averaging mechanism to address income bunching concerns where gains realised in a single tax year could push taxpayers into higher brackets. ASA supports indexation but wants complementary reform.",
+      "suggestion": "Add to budget-updates.json: 'ASA recommends averaging mechanism for CGT reform to address income bunching where multi-year gains are taxed in a single year'",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-834",
+      "timestamp": "2026-05-18T11:38:24.529Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-18T17:55:55.195Z"
     }
   ],
   "needs_manual_review": [

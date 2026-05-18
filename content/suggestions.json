@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T17:56:27.268Z",
+  "lastUpdated": "2026-05-18T21:02:51.730Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -479,6 +479,117 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Budget allocates $47.5m to Treasury and ATO for CGT reform implementation",
+      "description": "KPMG budget analysis reveals the government will provide $47.5 million over four years (with $3.9 million per year ongoing) to fund Treasury and ATO implementation of the capital gains tax changes, indicating significant administrative investment in the reform rollout.",
+      "suggestion": "Add to budget-updates.json: KPMG budget breakdown: $47.5m allocated to Treasury and ATO for CGT implementation",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-227",
+      "timestamp": "2026-05-18T21:02:34.579Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis details CGT impact on ETFs and Listed Investment Vehicles",
+      "description": "The ASX published detailed investor guidance on how the proposed CGT changes affect exchange-traded funds (ETFs) and Listed Investment Vehicles (LIVs), providing specific technical analysis for these investor categories not covered elsewhere.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details CGT changes for ETF and Listed Investment Vehicle investors",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-212",
+      "timestamp": "2026-05-18T21:02:34.579Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Australian Shareholders Association calls for capital gains averaging alongside indexation",
+      "description": "The ASA has publicly called for any CGT reform to include both indexation and a modern averaging mechanism, arguing this addresses income bunching where many years of gains are realised in a single tax year. The ASA preferred proper consultation before the changes were announced.",
+      "suggestion": "Add to budget-updates.json: ASA calls for capital gains averaging alongside indexation reform",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-171",
+      "timestamp": "2026-05-18T21:02:34.579Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the CGT discount being eliminated, replaced, or preserved with a choice?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] There's conflicting information about what happens to the 50% CGT discount. Budget.gov.au suggests investors can 'choose' between the 50% discount or new arrangements (implying preservation), while some media reports describe it as being 'replaced' by indexation. This is a factual discrepancy about the mechanics of the reform.",
+      "suggestion": "Add to debates.json: view_a from budget.gov.au says investors can 'choose' the 50% CGT discount or new arrangements (preserving choice), view_b from Guardian/other sources describes the 50% discount being replaced by inflation indexation (elimination of discount).",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-244",
+      "timestamp": "2026-05-18T21:02:34.579Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "Will negative gearing reform actually improve housing affordability?",
+      "description": "LSJ cites economists claiming negative gearing is 'the key reason' for housing affordability and rental crises. Meanwhile, CommBank analysis frames the change as 'designed to reduce investor demand for existing housing stock'—implying it will help. These sources make conflicting causal claims about whether restricting negative gearing to new builds will meaningfully improve affordability.",
+      "suggestion": "Add to debates.json: view_a from LSJ (citing economists) says negative gearing restrictions address the 'key reason' for housing crisis, view_b from CommBank says change is designed to reduce demand for existing stock (implying effect on prices/affordability).",
+      "source": "https://lsj.com.au/articles/federal-budget-2026-limits-to-negative-gearing-and-capital-gains-tax-reform/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-662",
+      "timestamp": "2026-05-18T21:02:34.579Z",
+      "status": "pending",
+      "corroborated_by": "https://www.smh.com.au/politics/federal/spooked-investors-could-see-house-prices-sink-after-big-budget-changes-20260513-p5zwb4.html"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Capital gains will face a new 'minimum 30% tax rate' on all gains",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The budget.gov.au states a minimum 30% tax on gains from 1 July 2027, but this conflicts with the claim that the discount is being replaced by 'inflation indexation.' These are two separate mechanisms - indexation adjusts the cost base for inflation (reducing taxable gain), while a minimum tax rate sets a floor. Media may conflate these, creating confusion about whether the 30% is a tax rate floor, a new minimum tax on the gain after indexation, or something else entirely.",
+      "suggestion": "Add to fact-checks.json: claim is partially_true, verdict is disputed because the 30% appears to be a new minimum tax rate floor on capital gains (separate from indexation), but it remains unclear whether this applies to all asset classes equally and whether indexation could result in gains below 30% being taxed at a lower effective rate.",
+      "source": "https://budget.gov.au/tax-reform",
+      "implementation_effort": "1_hour",
+      "id": "suggestion-20260518-180",
+      "timestamp": "2026-05-18T21:02:34.579Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Negative gearing changes affect 'all' established property investors from 1 July 2027",
+      "description": "Multiple sources state negative gearing will be removed 'from 1 July 2027 for established properties.' However, William Buck specifies this applies to properties purchased after 7:30pm on 12 May 2026. This is a critical distinction - properties purchased before that date may retain negative gearing benefits, meaning the change is not retroactive to all existing investors.",
+      "suggestion": "Add to fact-checks.json: claim is partially_true, verdict is disputed because negative gearing restrictions apply only to NEW purchases of established properties after 7:30pm 12 May 2026, not to all established property investors regardless of purchase date.",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260518-833",
+      "timestamp": "2026-05-18T21:02:34.579Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260518-294",
+      "timestamp": "2026-05-18T21:02:34.579Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "id": "suggestion-20260518-767",
+      "timestamp": "2026-05-18T21:02:34.579Z",
+      "status": "pending",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Correction needed: Budget delivery date vs cutoff date",
+      "description": "Our site says: \"Cutoff date is 2026-05-13T19:30:00+10:00 (the day after the budget was delivered)\". Recent sources say: \"Budget delivered on Tuesday 12 May 2026; negative gearing changes apply to properties purchased after 7:30pm on 12 May 2026\".",
+      "suggestion": "Update tax-rules.json or relevant content file to correct: Budget delivery date vs cutoff date. Source: https://budget.gov.au/content-2026-27/documents/budgetspeech.pdf, https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing",
+      "source": "https://budget.gov.au/content-2026-27/documents/budgetspeech.pdf, https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing",
+      "implementation_effort": "30_minutes",
+      "corroborated_by": "https://www.abc.net.au/news/2025-03-24/when-is-federal-budget-2025-why-does-it-matter/105081304"
     }
   ],
   "implemented": [

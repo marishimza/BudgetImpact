@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T12:38:55.597Z",
+  "lastUpdated": "2026-05-18T13:43:14.806Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -159,19 +159,6 @@
       "status": "pending"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Division 296 super tax legislation enacted, commences 1 July 2026",
-      "description": "The Better Targeted Super Concessions legislation (Division 296) passed in March 2026 and will apply from 1 July 2026. Taxpayers with super balances exceeding $3m will pay 15% tax on earnings above the $3m threshold.",
-      "suggestion": "Add to budget-updates.json: 'Division 296 high-balance super tax ($3m threshold) commences 1 July 2026 per enacted legislation'",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260518-109",
-      "timestamp": "2026-05-18T11:38:24.529Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
-    },
-    {
       "type": "fact_check",
       "priority": "medium",
       "title": "Claim: The 50% CGT discount is being 'replaced' by cost base indexation",
@@ -303,32 +290,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "id": "suggestion-20260518-758",
-      "timestamp": "2026-05-18T12:30:51.984Z",
-      "status": "pending",
-      "priority": "high",
-      "type": "content_update",
-      "title": "Correction needed: Cutoff date for new property purchases and negative gearing changes",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Our site says: \"cutoffDate: 2026-05-13T19:30:00+10:00 (13 May 2026)\". Recent sources say: \"Changes apply to properties purchased after 7:30pm on 12 May 2026 (budget night, a day earlier)\".",
-      "suggestion": "Update tax-rules.json or relevant content file to correct: Cutoff date for new property purchases and negative gearing changes. Source: https://www.abc.net.au/news/2026-05-13/government-breaks-promise-restrictions-negative-gearing-cgt-budget/101465398",
-      "source": "https://www.abc.net.au/news/2026-05-13/government-breaks-promise-restrictions-negative-gearing-cgt-budget/101465398",
-      "implementation_effort": "30_minutes",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
-    },
-    {
-      "id": "suggestion-20260518-190",
-      "timestamp": "2026-05-18T12:30:51.984Z",
-      "status": "pending",
-      "priority": "high",
-      "type": "content_update",
-      "title": "Correction needed: Missing negative gearing reform",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Our site says: \"No mention of negative gearing changes\". Recent sources say: \"New property purchases will not be eligible to use negative gearing unless it is a newly built home, effective from 1 July 2027 for established properties purchased after 7:30pm on 12 May 2026\".",
-      "suggestion": "Update tax-rules.json or relevant content file to correct: Missing negative gearing reform. Source: https://www.abc.net.au/news/2026-05-13/government-breaks-promise-restrictions-negative-gearing-cgt-budget/101465398",
-      "source": "https://www.abc.net.au/news/2026-05-13/government-breaks-promise-restrictions-negative-gearing-cgt-budget/101465398",
-      "implementation_effort": "30_minutes",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
-    },
-    {
       "type": "content_update",
       "priority": "medium",
       "title": "Venture capital tax incentives expanded from July 2027",
@@ -351,32 +312,6 @@
       "id": "suggestion-20260518-703",
       "timestamp": "2026-05-18T12:38:43.641Z",
       "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Division 296 super tax: indexed thresholds and CGT relief confirmed",
-      "description": "Treasury released draft legislation for Division 296 tax with indexed thresholds and CGT relief provisions. The ATO confirms the legislation is enacted and commences from 1 July 2026, applying to super balances exceeding $3 million.",
-      "suggestion": "Add to budget-updates.json: Division 296 super tax draft legislation released — indexed thresholds and CGT relief confirmed, legislation enacted and commences 1 July 2026.",
-      "source": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260518-881",
-      "timestamp": "2026-05-18T12:38:43.641Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
-    },
-    {
-      "type": "debate_page",
-      "priority": "high",
-      "title": "Will the 2026 negative gearing and CGT reforms survive a change of government?",
-      "description": "The Coalition has explicitly committed to repealing the negative gearing and CGT changes if elected, creating a factual conflict with government assertions that these are durable structural reforms. This debate examines whether these measures will actually be implemented or will be reversed.",
-      "suggestion": "Add to debates.json: The Coalition (Tim Wilson via ABC News and The Guardian, 13 May 2026) commits to repealing negative gearing and CGT changes, calling them 'toxic'. Meanwhile, the Government (Treasurer Jim Chalmers via Budget.gov.au) presents these as permanent structural reforms to take effect from 1 July 2027. These represent conflicting claims about whether these tax changes will actually become law.",
-      "source": "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260518-153",
-      "timestamp": "2026-05-18T12:38:43.641Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
     },
     {
       "type": "debate_page",
@@ -746,6 +681,76 @@
       "status": "implemented",
       "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/foreign-residents-and-capital-gains-tax/foreign-resident-capital-gains-withholding",
       "implemented_at": "2026-05-18T08:04:04.860Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Division 296 super tax legislation enacted, commences 1 July 2026",
+      "description": "The Better Targeted Super Concessions legislation (Division 296) passed in March 2026 and will apply from 1 July 2026. Taxpayers with super balances exceeding $3m will pay 15% tax on earnings above the $3m threshold.",
+      "suggestion": "Add to budget-updates.json: 'Division 296 high-balance super tax ($3m threshold) commences 1 July 2026 per enacted legislation'",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-109",
+      "timestamp": "2026-05-18T11:38:24.529Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-05-18T13:41:04.030Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Division 296 super tax: indexed thresholds and CGT relief confirmed",
+      "description": "Treasury released draft legislation for Division 296 tax with indexed thresholds and CGT relief provisions. The ATO confirms the legislation is enacted and commences from 1 July 2026, applying to super balances exceeding $3 million.",
+      "suggestion": "Add to budget-updates.json: Division 296 super tax draft legislation released — indexed thresholds and CGT relief confirmed, legislation enacted and commences 1 July 2026.",
+      "source": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-881",
+      "timestamp": "2026-05-18T12:38:43.641Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-05-18T13:41:40.594Z"
+    },
+    {
+      "id": "suggestion-20260518-758",
+      "timestamp": "2026-05-18T12:30:51.984Z",
+      "status": "implemented",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Correction needed: Cutoff date for new property purchases and negative gearing changes",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Our site says: \"cutoffDate: 2026-05-13T19:30:00+10:00 (13 May 2026)\". Recent sources say: \"Changes apply to properties purchased after 7:30pm on 12 May 2026 (budget night, a day earlier)\".",
+      "suggestion": "Update tax-rules.json or relevant content file to correct: Cutoff date for new property purchases and negative gearing changes. Source: https://www.abc.net.au/news/2026-05-13/government-breaks-promise-restrictions-negative-gearing-cgt-budget/101465398",
+      "source": "https://www.abc.net.au/news/2026-05-13/government-breaks-promise-restrictions-negative-gearing-cgt-budget/101465398",
+      "implementation_effort": "30_minutes",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implemented_at": "2026-05-18T13:42:17.436Z"
+    },
+    {
+      "id": "suggestion-20260518-190",
+      "timestamp": "2026-05-18T12:30:51.984Z",
+      "status": "implemented",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Correction needed: Missing negative gearing reform",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Our site says: \"No mention of negative gearing changes\". Recent sources say: \"New property purchases will not be eligible to use negative gearing unless it is a newly built home, effective from 1 July 2027 for established properties purchased after 7:30pm on 12 May 2026\".",
+      "suggestion": "Update tax-rules.json or relevant content file to correct: Missing negative gearing reform. Source: https://www.abc.net.au/news/2026-05-13/government-breaks-promise-restrictions-negative-gearing-cgt-budget/101465398",
+      "source": "https://www.abc.net.au/news/2026-05-13/government-breaks-promise-restrictions-negative-gearing-cgt-budget/101465398",
+      "implementation_effort": "30_minutes",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implemented_at": "2026-05-18T13:42:59.230Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "Will the 2026 negative gearing and CGT reforms survive a change of government?",
+      "description": "The Coalition has explicitly committed to repealing the negative gearing and CGT changes if elected, creating a factual conflict with government assertions that these are durable structural reforms. This debate examines whether these measures will actually be implemented or will be reversed.",
+      "suggestion": "Add to debates.json: The Coalition (Tim Wilson via ABC News and The Guardian, 13 May 2026) commits to repealing negative gearing and CGT changes, calling them 'toxic'. Meanwhile, the Government (Treasurer Jim Chalmers via Budget.gov.au) presents these as permanent structural reforms to take effect from 1 July 2027. These represent conflicting claims about whether these tax changes will actually become law.",
+      "source": "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-153",
+      "timestamp": "2026-05-18T12:38:43.641Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implemented_at": "2026-05-18T13:43:14.806Z"
     }
   ],
   "skipped": [

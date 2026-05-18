@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T16:53:57.518Z",
+  "lastUpdated": "2026-05-18T13:43:14.804Z",
   "debates": [
     {
       "id": "debate-001",
@@ -12,12 +12,20 @@
       "view_a": {
         "label": "Yes — innovation will suffer",
         "argument": "The 50% discount rewarded patient, long-term capital. Removing it specifically punishes high-growth outperformance — exactly the type of investment that funds startups and technology companies. When a stock 5x's over a decade, almost none of that gain is protected by CPI indexation. Founders and early investors will restructure offshore.",
-        "sources": ["avc.com", "startupaus.org", "afr.com"]
+        "sources": [
+          "avc.com",
+          "startupaus.org",
+          "afr.com"
+        ]
       },
       "view_b": {
         "label": "No — it's a fair inflation adjustment",
         "argument": "The old 50% discount was an arbitrary and blunt instrument that created a two-tiered tax system. CPI indexation is economically rational — it only taxes real gains, not inflation. The 30% minimum floor prevents aggressive tax minimisation that had nothing to do with encouraging innovation.",
-        "sources": ["treasury.gov.au", "grattan.edu.au", "abc.net.au"]
+        "sources": [
+          "treasury.gov.au",
+          "grattan.edu.au",
+          "abc.net.au"
+        ]
       },
       "verdict": null,
       "date_added": "2026-05-17"
@@ -33,12 +41,20 @@
       "view_a": {
         "label": "Yes — redirects capital to new supply",
         "argument": "By making established homes less attractive and keeping full deductions for new builds, investors are incentivised to fund construction. More new homes = more supply = lower long-term prices. This is exactly the policy mechanism the government intended.",
-        "sources": ["treasury.gov.au", "grattan.edu.au", "housing.gov.au"]
+        "sources": [
+          "treasury.gov.au",
+          "grattan.edu.au",
+          "housing.gov.au"
+        ]
       },
       "view_b": {
         "label": "No — rents will spike as landlords exit",
         "argument": "Most investors won't suddenly build new properties — they'll sell existing ones or exit the market entirely. The rental supply shrinks, vacancy rates fall, and rents spike. This happened in the 1980s when negative gearing was briefly removed.",
-        "sources": ["realestate.com.au", "reia.com.au", "propertycouncil.com.au"]
+        "sources": [
+          "realestate.com.au",
+          "reia.com.au",
+          "propertycouncil.com.au"
+        ]
       },
       "verdict": null,
       "date_added": "2026-05-17"
@@ -54,12 +70,20 @@
       "view_a": {
         "label": "Unfair — punishes legitimate planning",
         "argument": "Retirees structured their finances over decades around the existing rules. Suddenly imposing a 30% minimum on gains from assets bought under the old system is retrospective in spirit, even if technically grandfathered. People near retirement have no time to adjust.",
-        "sources": ["ifa.com.au", "superguide.com.au", "smsf-association.com.au"]
+        "sources": [
+          "ifa.com.au",
+          "superguide.com.au",
+          "smsf-association.com.au"
+        ]
       },
       "view_b": {
         "label": "Fair — closes a high-earner loophole",
         "argument": "The practice of deferring multi-million-dollar asset sales to 'low income' retirement years to pay minimal tax was always an aggressive minimisation strategy. The 30% floor ensures anyone with substantial capital gains contributes a fair minimum, regardless of timing.",
-        "sources": ["treasury.gov.au", "ato.gov.au", "taxinstitute.com.au"]
+        "sources": [
+          "treasury.gov.au",
+          "ato.gov.au",
+          "taxinstitute.com.au"
+        ]
       },
       "verdict": null,
       "date_added": "2026-05-17"
@@ -113,6 +137,31 @@
       },
       "verdict": null,
       "date_added": "2026-05-17"
+    },
+    {
+      "id": "debate-006",
+      "slug": "will-2026-negative-gearing-cgt-reforms-survive-change-government",
+      "title": "Will the 2026 negative gearing and CGT reforms survive a change of government?",
+      "category": "tax",
+      "type": "policy_disagreement",
+      "summary": "The Coalition has explicitly committed to repealing the negative gearing and CGT changes if elected, creating a factual conflict with government assertions that these are durable structural reforms. This debate examines whether these measures will actually be implemented or will be reversed.",
+      "view_a": {
+        "label": "Coalition (Repeal Likely)",
+        "argument": "The Coalition, led by Tim Wilson, has explicitly committed to repealing the 2026 negative gearing and CGT changes if elected. They have labelled these reforms 'toxic' and argue they will damage property investment and housing supply. This suggests the reforms face significant political risk and may never take effect from 1 July 2027 as legislated.",
+        "sources": [
+          "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
+          "https://www.theguardian.com/australia-news/2026/may/13/wilson-coalition-negative-gearing-repeal"
+        ]
+      },
+      "view_b": {
+        "label": "Government (Durable Reforms)",
+        "argument": "The Government, through Treasurer Jim Chalmers and Budget.gov.au, presents these negative gearing and CGT changes as permanent structural reforms that will take effect from 1 July 2027. The Government position is that these are long-overdue measures to improve housing affordability and tax fairness that will endure beyond the current political cycle.",
+        "sources": [
+          "https://www.budget.gov.au",
+          "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294"
+        ]
+      },
+      "verdict": null
     }
   ]
 }

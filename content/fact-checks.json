@@ -1,18 +1,174 @@
 {
-  "id": "fc-008",
-  "slug": "6-4-billion-budget-measure-unidentified",
-  "claim": "A specific budget measure costs $6.4 billion over four years.",
-  "verdict": "unclear",
-  "verdict_label": "Unclear",
-  "short_explanation": "ABC News reported a $6.4 billion figure but did not identify which specific budget measure this refers to, making verification impossible without official budget documentation.",
-  "detailed_explanation": "An ABC News article (13 May 2026) references a budget measure costing $6.4 billion over four years but fails to specify which policy. This could potentially refer to combined CGT and negative gearing reform costs, or another specific measure. Without clarification from official budget.gov.au documentation, the attribution cannot be verified.",
-  "sources": [
+  "lastUpdated": "2026-05-18T12:37:14.000Z",
+  "claims": [
     {
-      "name": "ABC News - Federal Budget 2026: Winners and Losers",
-      "url": "https://www.abc.net.au/news/2026-05-13/federal-budget-2026-winners-and-losers/10450446",
-      "type": "news"
+      "id": "fc-001",
+      "slug": "50-percent-discount-abolished",
+      "claim": "The 50% Capital Gains Tax discount has been completely abolished for all Australians.",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "Abolished for assets acquired after 1 July 2027 only. Pre-existing assets use a hybrid system. SMSFs are fully exempt.",
+      "detailed_explanation": "The 50% CGT discount is not abolished for everyone. It applies only to assets acquired after 1 July 2027. Assets already held will use a hybrid calculation \u2014 the old 50% discount applies to gains accrued up to 30 June 2027, and CPI indexation applies after that date. Self-Managed Superannuation Funds (SMSFs) are entirely excluded and retain their one-third discount.",
+      "sources": [
+        {
+          "name": "Treasury Budget Papers 2026",
+          "url": "https://www.treasury.gov.au",
+          "type": "official"
+        },
+        {
+          "name": "ATO CGT Guidance",
+          "url": "https://www.ato.gov.au",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-05-17",
+      "category": "CGT"
+    },
+    {
+      "id": "fc-002",
+      "slug": "negative-gearing-fully-abolished",
+      "claim": "Negative gearing has been fully abolished in Australia.",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "Negative gearing is NOT abolished. It is restricted for new buyers of established homes only. Three distinct pathways still allow deductions.",
+      "detailed_explanation": "Negative gearing has not been abolished. Existing property investors keep full deductions. New investors buying established homes post-budget lose the ability to offset rental losses against salary income (losses are quarantined). Investors in new builds retain full negative gearing. Three distinct rules apply depending on when and what you bought.",
+      "sources": [
+        {
+          "name": "Treasury Negative Gearing FAQ",
+          "url": "https://www.treasury.gov.au",
+          "type": "official"
+        },
+        {
+          "name": "ATO Property Investment Guide",
+          "url": "https://www.ato.gov.au",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-05-17",
+      "category": "Property"
+    },
+    {
+      "id": "fc-003",
+      "slug": "smsf-exempt-cgt-changes",
+      "claim": "Self-Managed Super Funds (SMSFs) are completely exempt from the new CGT changes.",
+      "verdict": "verified",
+      "verdict_label": "Verified",
+      "short_explanation": "Confirmed. SMSFs retain the existing one-third CGT discount and are not subject to the 30% minimum floor or indexation rules.",
+      "detailed_explanation": "The Treasury and ATO have confirmed SMSFs are carved out entirely from the new CGT framework. SMSFs continue to use the existing one-third discount on long-held assets. The 30% minimum tax floor does not apply to SMSF asset disposals. This is a deliberate policy exclusion to protect retirement savings structures.",
+      "sources": [
+        {
+          "name": "ATO SMSF CGT Guidance",
+          "url": "https://www.ato.gov.au",
+          "type": "official"
+        },
+        {
+          "name": "SMSF Association Statement",
+          "url": "https://www.smsf-association.com.au",
+          "type": "industry"
+        }
+      ],
+      "date_checked": "2026-05-17",
+      "category": "Superannuation"
+    },
+    {
+      "id": "fc-004",
+      "slug": "pre-1985-assets-exemption-ending",
+      "claim": "Assets purchased before 1985 will lose their full CGT exemption.",
+      "verdict": "verified",
+      "verdict_label": "Verified",
+      "short_explanation": "Confirmed. Pre-CGT assets (bought before 20 Sept 1985) will have their cost base reset via ATO market valuation on 1 July 2027, ending 42 years of CGT exemption.",
+      "detailed_explanation": "Assets acquired before 20 September 1985 \u2014 including share portfolios \u2014 have historically been exempt from Capital Gains Tax entirely. Under the 2026 budget, this legacy exemption ends. The ATO will establish a market valuation of these assets on 1 July 2027 to set a new cost base. Any gains after that date will be subject to the new CPI indexation and 30% floor rules.",
+      "sources": [
+        {
+          "name": "Treasury Budget Papers 2026",
+          "url": "https://www.treasury.gov.au",
+          "type": "official"
+        },
+        {
+          "name": "ATO Pre-CGT Assets",
+          "url": "https://www.ato.gov.au",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-05-17",
+      "category": "CGT"
+    },
+    {
+      "id": "fc-005",
+      "slug": "changes-not-yet-law",
+      "claim": "These budget changes are already law and will definitely take effect on 1 July 2027.",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "NOT yet law. Budget measures must pass both houses of parliament. Opposition has flagged a Senate challenge. Consult an accountant before making decisions.",
+      "detailed_explanation": "Budget announcements are not law. They require legislation to be passed by both the House of Representatives and the Senate. The Coalition opposition has indicated it will challenge key provisions in the Senate. Until legislation passes, these remain proposed changes only. Always verify the legal status of any tax change with a registered accountant before adjusting your financial strategy.",
+      "sources": [
+        {
+          "name": "Parliament of Australia",
+          "url": "https://www.parliament.gov.au",
+          "type": "official"
+        },
+        {
+          "name": "Treasury Bill Status",
+          "url": "https://www.treasury.gov.au",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-05-17",
+      "category": "Parliament"
+    },
+    {
+      "id": "fc-006",
+      "slug": "inflation-indexation-better-than-50-percent-discount",
+      "claim": "Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets.",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "Inflation indexation does not guarantee a lower CGT liability. The 50% discount may be more favourable when inflation is high over the holding period, as indexation only adjusts the cost base upward, while the discount directly halves the total gain.",
+      "detailed_explanation": "While CPI indexation raises the cost base to reflect inflation, it doesn't reduce the taxable gain itself\u2014only the discount method cuts the gain in half. With high inflation over extended periods, the indexed cost base may still leave a substantial taxable gain, making the 50% discount more advantageous in many scenarios.",
+      "sources": [
+        {
+          "name": "Stockspot CGT Calculator",
+          "url": "https://www.stockspot.com.au/cgt-calculator/",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-05-17",
+      "category": "CGT"
+    },
+    {
+      "id": "fc-007",
+      "slug": "30-percent-minimum-cgt-rate-real-gains",
+      "claim": "From 1 July 2027, capital gains will be subject to a new minimum 30% tax rate on all gains.",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The 30% minimum rate applies to real capital gains after inflation indexation, not nominal gains. This means the effective tax rate on nominal gains may be substantially lower depending on inflation and the holding period.",
+      "detailed_explanation": "The headline '30% minimum tax on capital gains' can be misleading. The 30% floor rate applies to actual economic gains after accounting for inflation through indexation, not the nominal gain amount. For example, a $100,000 nominal gain might only be a $40,000 real gain after inflation adjustment, meaning tax would be 30% of $40,000 rather than $100,000. The effective tax rate on nominal gains can be significantly lower than 30% depending on inflation and how long the asset was held.",
+      "sources": [
+        {
+          "name": "Australian Government Budget - Tax Reform",
+          "url": "https://www.budget.gov.au/tax-reform",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-05-17",
+      "category": "CGT"
+    },
+    {
+      "id": "fc-008",
+      "slug": "6-4-billion-budget-measure-unidentified",
+      "claim": "A specific budget measure costs $6.4 billion over four years.",
+      "verdict": "unclear",
+      "verdict_label": "Unclear",
+      "short_explanation": "ABC News reported a $6.4 billion figure but did not identify which specific budget measure this refers to, making verification impossible without official budget documentation.",
+      "detailed_explanation": "An ABC News article (13 May 2026) references a budget measure costing $6.4 billion over four years but fails to specify which policy. This could potentially refer to combined CGT and negative gearing reform costs, or another specific measure. Without clarification from official budget.gov.au documentation, the attribution cannot be verified.",
+      "sources": [
+        {
+          "name": "ABC News - Federal Budget 2026: Winners and Losers",
+          "url": "https://www.abc.net.au/news/2026-05-13/federal-budget-2026-winners-and-losers/10450446",
+          "type": "news"
+        }
+      ],
+      "date_checked": "2026-05-18",
+      "category": "Budget"
     }
-  ],
-  "date_checked": "2026-05-18",
-  "category": "Budget"
+  ]
 }

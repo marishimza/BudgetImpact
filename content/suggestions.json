@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T12:41:03.834Z",
+  "lastUpdated": "2026-05-19T16:45:51.405Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -639,6 +639,80 @@
     {
       "id": "suggestion-20260519-812",
       "timestamp": "2026-05-19T10:55:22.786Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Budget confirms minimum 30% tax on capital gains from July 2027",
+      "description": "The official Budget website confirms the Government will introduce a minimum 30% tax on capital gains, replacing the 50% CGT discount with inflation-based indexation from 1 July 2027.",
+      "suggestion": "Add to budget-updates.json: Budget.gov.au confirms minimum 30% tax on capital gains from 1 July 2027, with 50% CGT discount replaced by inflation indexation.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260519-653",
+      "timestamp": "2026-05-19T16:45:43.369Z",
+      "status": "pending",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury data: Inflation accounts for 56% of ASX 200 share gains over decade",
+      "description": "ABC News reports Treasury data showing that inflation comprised 56% of asset price growth for ASX 200 shares held for 10 years to March 2026, forming part of the justification for CGT reform.",
+      "suggestion": "Add to budget-updates.json: Treasury data cited in Budget shows inflation made up 56% of ASX 200 share price growth over 10 years to March 2026.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260519-461",
+      "timestamp": "2026-05-19T16:45:43.369Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2025-07-01/asx-200-gains-10-per-cent-over-financial-year-2025/105479398"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Australian Shareholders Association calls for capital gains averaging alongside indexation",
+      "description": "ASA has publicly called for CGT reform to include both cost base indexation AND a modern averaging mechanism to address income bunching where gains are realised in a single tax year, arguing this was needed before any major change.",
+      "suggestion": "Add to budget-updates.json: ASA calls for capital gains averaging alongside indexation reform, noting the reform may not address income bunching where gains are realised in a single year.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260519-860",
+      "timestamp": "2026-05-19T16:45:43.369Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Budget CGT changes take effect from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources cite 1 July 2027 as the commencement date for CGT and negative gearing changes. However, Budget.gov.au states the CGT reform introduces 'a minimum 30 per cent tax on gains from 1 July 2027.' This could be misquoted as ALL capital gains being subject to a flat 30% rate, when the actual mechanism is cost base indexation (not a simple rate replacement). The 'minimum' wording suggests complexity that simple headlines may not capture.",
+      "suggestion": "Add to fact-checks.json: claim is partially true, verdict is disputed because the reform replaces the 50% discount with inflation indexation, not a blanket 30% rate. The 'minimum 30%' language creates misleading headlines.",
+      "source": "https://budget.gov.au/info/budget-2026-27/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260519-449",
+      "timestamp": "2026-05-19T16:45:43.369Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "low",
+      "title": "Claim: Budget allocates $47.5 million for CGT implementation",
+      "description": "KPMG's budget analysis states the government will provide '$47.5 million over four years from 2026–27 (and $3.9 million per year ongoing) to the Treasury and the ATO' for CGT reform implementation. This specific figure should be verified against official Budget Paper No. 2 or Treasury portfolio statements.",
+      "suggestion": "Add to fact-checks.json: verify KPMG's $47.5m figure against official budget documentation. This appears in KPMG's independent analysis but has not been confirmed against budget papers.",
+      "source": "https://kpmg.com/au/en/home/industries/tax/federal-budget-2026-27.html",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260519-579",
+      "timestamp": "2026-05-19T16:45:43.369Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260519-508",
+      "timestamp": "2026-05-19T16:45:43.369Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

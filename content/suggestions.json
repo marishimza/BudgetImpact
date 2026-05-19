@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T10:55:34.253Z",
+  "lastUpdated": "2026-05-19T12:41:03.834Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -250,18 +250,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis details CGT impact on ETFs and Listed Investment Vehicles",
-      "description": "The ASX published an investor update specifically addressing how the proposed CGT changes affect investors in exchange-traded funds (ETFs) and Listed Investment Vehicles (LIVs), providing guidance distinct from the property and direct shares coverage.",
-      "suggestion": "Add to budget-updates.json: ASX analysis details how CGT changes affect investors in ETFs and Listed Investment Vehicles, separate from direct property and share investments.",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260518-819",
-      "timestamp": "2026-05-18T14:51:04.513Z",
-      "status": "pending"
     },
     {
       "type": "debate_page",
@@ -614,19 +602,6 @@
     },
     {
       "type": "debate_page",
-      "priority": "high",
-      "title": "Will the Coalition successfully repeal the negative gearing and CGT changes if elected?",
-      "description": "The Coalition has committed to repealing the budget's tax reforms and labelled them 'toxic', but it's unclear if they have the numbers in the Senate given crossbench dynamics and One Nation's stance.",
-      "suggestion": "Add to debates.json: view_a from [The Guardian, May 13] Coalition will 'look to repeal the changes to negative gearing and capital gains tax if necessary' and calls them 'toxic', versus view_b from [The Guardian, May 13 live] One Nation's Pauline Hanson has commented, suggesting possible Senate crossbench complexity for repeal efforts.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260519-551",
-      "timestamp": "2026-05-19T10:55:22.786Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-15/coalition-to-repeal-labor-property-tax-changes/106681866"
-    },
-    {
-      "type": "debate_page",
       "priority": "medium",
       "title": "Is limiting negative gearing to new builds effective housing supply policy?",
       "description": "The Government says restricting negative gearing to new builds will 'focus tax support on new supply', but the Greens and some economists question whether this alone will address the housing crisis.",
@@ -672,45 +647,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260519-772",
-      "timestamp": "2026-05-19T10:55:22.786Z",
-      "status": "pending",
-      "priority": "high",
-      "type": "content_update",
-      "title": "Correction needed: Missing tax measure - Division 296 superannuation tax",
-      "description": "Our site says: \"No superannuation rules or Division 296 tax mentioned\". Recent sources say: \"Division 296 ($3m super balance tax) legislation enacted in March 2026 will commence from 1 July 2026\".",
-      "suggestion": "Update tax-rules.json or relevant content file to correct: Missing tax measure - Division 296 superannuation tax. Source: https://www.pitcherpartners.com.au/insights/federal-budget-2026-2027-what-it-means-for-australian-investors",
-      "source": "https://www.pitcherpartners.com.au/insights/federal-budget-2026-2027-what-it-means-for-australian-investors",
-      "implementation_effort": "30_minutes",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
-    },
-    {
-      "id": "suggestion-20260519-140",
-      "timestamp": "2026-05-19T10:55:22.786Z",
-      "status": "pending",
-      "priority": "high",
-      "type": "content_update",
-      "title": "Correction needed: Missing tax measure - Negative gearing restrictions",
-      "description": "Our site says: \"Only CGT rules provided; no negative gearing data\". Recent sources say: \"New property purchases will not be eligible to use negative gearing from 7:30pm on 12 May 2026 unless it is a newly built home (removal of access from 1 July 2027 for established properties purchased after this date)\".",
-      "suggestion": "Update tax-rules.json or relevant content file to correct: Missing tax measure - Negative gearing restrictions. Source: https://www.abc.net.au/news/2026-05-13/budget-capital-gains-tax-changes-property-shares/2026-05-13",
-      "source": "https://www.abc.net.au/news/2026-05-13/budget-capital-gains-tax-changes-property-shares/2026-05-13",
-      "implementation_effort": "30_minutes",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
-    },
-    {
-      "id": "suggestion-20260519-603",
-      "timestamp": "2026-05-19T10:55:22.786Z",
-      "status": "pending",
-      "priority": "high",
-      "type": "content_update",
-      "title": "Correction needed: Incomplete hybrid system description",
-      "description": "Our site says: \"Hybrid system description cuts off mid-sentence: 'Assets acquired before 1 July'\". Recent sources say: \"For assets acquired before 1 July 2027: old 50% discount applies to gains accrued up to 30 June 2027, new CPI indexation applies to gains after that date\".",
-      "suggestion": "Update tax-rules.json or relevant content file to correct: Incomplete hybrid system description. Source: https://www.abc.net.au/news/2026-05-13/budget-capital-gains-tax-changes-property-shares/2026-05-13",
-      "source": "https://www.abc.net.au/news/2026-05-13/budget-capital-gains-tax-changes-property-shares/2026-05-13",
-      "implementation_effort": "30_minutes",
-      "corroborated_by": "https://treasury.gov.au/policy-topics/taxation/hybrid-mismatch-rules"
     }
   ],
   "implemented": [
@@ -1238,6 +1174,19 @@
       "timestamp": "2026-05-18T12:38:43.641Z",
       "status": "implemented",
       "implemented_at": "2026-05-19T07:49:50.155Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis details CGT impact on ETFs and Listed Investment Vehicles",
+      "description": "The ASX published an investor update specifically addressing how the proposed CGT changes affect investors in exchange-traded funds (ETFs) and Listed Investment Vehicles (LIVs), providing guidance distinct from the property and direct shares coverage.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details how CGT changes affect investors in ETFs and Listed Investment Vehicles, separate from direct property and share investments.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-819",
+      "timestamp": "2026-05-18T14:51:04.513Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-19T12:41:03.834Z"
     }
   ],
   "skipped": [
@@ -1386,6 +1335,21 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-05-19T07:50:03.093Z"
+    },
+    {
+      "id": "suggestion-20260519-772",
+      "timestamp": "2026-05-19T10:55:22.786Z",
+      "status": "skipped",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Correction needed: Missing tax measure - Division 296 superannuation tax",
+      "description": "Our site says: \"No superannuation rules or Division 296 tax mentioned\". Recent sources say: \"Division 296 ($3m super balance tax) legislation enacted in March 2026 will commence from 1 July 2026\".",
+      "suggestion": "Update tax-rules.json or relevant content file to correct: Missing tax measure - Division 296 superannuation tax. Source: https://www.pitcherpartners.com.au/insights/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "source": "https://www.pitcherpartners.com.au/insights/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "implementation_effort": "30_minutes",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-19T12:38:22.651Z"
     }
   ],
   "needs_manual_review": [
@@ -1477,6 +1441,48 @@
       "id": "suggestion-20260518-969",
       "timestamp": "2026-05-18T14:51:04.513Z",
       "status": "needs_manual_review",
+      "status_reason": "Item count shrank from 11 to 10 in content/budget-updates.json"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "Will the Coalition successfully repeal the negative gearing and CGT changes if elected?",
+      "description": "The Coalition has committed to repealing the budget's tax reforms and labelled them 'toxic', but it's unclear if they have the numbers in the Senate given crossbench dynamics and One Nation's stance.",
+      "suggestion": "Add to debates.json: view_a from [The Guardian, May 13] Coalition will 'look to repeal the changes to negative gearing and capital gains tax if necessary' and calls them 'toxic', versus view_b from [The Guardian, May 13 live] One Nation's Pauline Hanson has commented, suggesting possible Senate crossbench complexity for repeal efforts.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260519-551",
+      "timestamp": "2026-05-19T10:55:22.786Z",
+      "status": "needs_manual_review",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-15/coalition-to-repeal-labor-property-tax-changes/106681866",
+      "status_reason": "Item count shrank from 6 to 4 in content/debates.json"
+    },
+    {
+      "id": "suggestion-20260519-140",
+      "timestamp": "2026-05-19T10:55:22.786Z",
+      "status": "needs_manual_review",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Correction needed: Missing tax measure - Negative gearing restrictions",
+      "description": "Our site says: \"Only CGT rules provided; no negative gearing data\". Recent sources say: \"New property purchases will not be eligible to use negative gearing from 7:30pm on 12 May 2026 unless it is a newly built home (removal of access from 1 July 2027 for established properties purchased after this date)\".",
+      "suggestion": "Update tax-rules.json or relevant content file to correct: Missing tax measure - Negative gearing restrictions. Source: https://www.abc.net.au/news/2026-05-13/budget-capital-gains-tax-changes-property-shares/2026-05-13",
+      "source": "https://www.abc.net.au/news/2026-05-13/budget-capital-gains-tax-changes-property-shares/2026-05-13",
+      "implementation_effort": "30_minutes",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "status_reason": "Item count shrank from 11 to 10 in content/budget-updates.json"
+    },
+    {
+      "id": "suggestion-20260519-603",
+      "timestamp": "2026-05-19T10:55:22.786Z",
+      "status": "needs_manual_review",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Correction needed: Incomplete hybrid system description",
+      "description": "Our site says: \"Hybrid system description cuts off mid-sentence: 'Assets acquired before 1 July'\". Recent sources say: \"For assets acquired before 1 July 2027: old 50% discount applies to gains accrued up to 30 June 2027, new CPI indexation applies to gains after that date\".",
+      "suggestion": "Update tax-rules.json or relevant content file to correct: Incomplete hybrid system description. Source: https://www.abc.net.au/news/2026-05-13/budget-capital-gains-tax-changes-property-shares/2026-05-13",
+      "source": "https://www.abc.net.au/news/2026-05-13/budget-capital-gains-tax-changes-property-shares/2026-05-13",
+      "implementation_effort": "30_minutes",
+      "corroborated_by": "https://treasury.gov.au/policy-topics/taxation/hybrid-mismatch-rules",
       "status_reason": "Item count shrank from 11 to 10 in content/budget-updates.json"
     }
   ]

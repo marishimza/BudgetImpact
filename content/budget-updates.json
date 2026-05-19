@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T07:46:05.049Z",
+  "lastUpdated": "2026-05-19T12:40:33.644Z",
   "items": [
     {
       "id": "update-001",
@@ -110,6 +110,16 @@
       "summary": "ASX published analysis on how the capital gains tax changes will affect investors in exchange-traded funds (ETFs) and Listed Investment Vehicles (LIVs). The analysis considers the practical implications for retail investors holding these products through the tax changes, providing guidance on how the 2026 Federal Budget measures may impact their portfolio returns and tax obligations.",
       "url": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
       "priority": "high"
+    },
+    {
+      "id": "update-020",
+      "date": "2026-05-19",
+      "tag": "ASX",
+      "source": "ASX.com.au",
+      "title": "ASX analysis details CGT impact on ETFs and Listed Investment Vehicles",
+      "summary": "The ASX has published specific guidance for investors in exchange-traded funds (ETFs) and Listed Investment Vehicles (LIVs) addressing how the proposed CGT changes differ from those affecting direct property and share investments. The update clarifies the treatment of reinvested dividends and managed fund conversions for retail investors holding these products through superannuation or non-superannuation accounts.",
+      "url": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "priority": "medium"
     }
   ]
 }

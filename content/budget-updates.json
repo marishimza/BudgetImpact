@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T12:40:33.644Z",
+  "lastUpdated": "2026-05-19T18:01:05.284Z",
   "items": [
     {
       "id": "update-001",
@@ -119,6 +119,16 @@
       "title": "ASX analysis details CGT impact on ETFs and Listed Investment Vehicles",
       "summary": "The ASX has published specific guidance for investors in exchange-traded funds (ETFs) and Listed Investment Vehicles (LIVs) addressing how the proposed CGT changes differ from those affecting direct property and share investments. The update clarifies the treatment of reinvested dividends and managed fund conversions for retail investors holding these products through superannuation or non-superannuation accounts.",
       "url": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "priority": "medium"
+    },
+    {
+      "id": "update-021",
+      "date": "2026-05-19",
+      "tag": "Budget",
+      "source": "KPMG",
+      "title": "Budget allocates $47.5m to Treasury and ATO for CGT reform implementation",
+      "summary": "The government will provide $47.5 million over four years (with $3.9 million per year ongoing) to fund Treasury and ATO implementation of the capital gains tax changes. This represents a significant administrative investment in the CGT reform rollout. The funding demonstrates the government's commitment to ensuring effective implementation of the tax changes.",
+      "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
       "priority": "medium"
     }
   ]

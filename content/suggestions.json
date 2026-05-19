@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T16:45:51.405Z",
+  "lastUpdated": "2026-05-19T18:02:42.417Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -300,30 +300,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "The Guardian data analysis: 56% of CGT concession benefits top 1% of income earners",
-      "description": "The Guardian Australia has published a data-driven analysis with charts showing that more than half of the capital gains tax discount benefit goes to the top 1% of income earners. The article accompanies the budget CGT reforms with distribution analysis.",
-      "suggestion": "Add to budget-updates.json: The Guardian analysis — more than half of CGT discount benefits went to top 1% of income earners, based on latest ATO data",
-      "source": "https://www.theguardian.com/news/2026/may/13/australia-federal-budget-2026-tax-capital-gains-negative-gearing-housing-one-big-chart",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260518-764",
-      "timestamp": "2026-05-18T16:45:48.124Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "KPMG budget breakdown: $47.5m allocated to Treasury and ATO for CGT implementation",
-      "description": "KPMG's Federal Budget 2026-27 analysis reveals the government has allocated $47.5 million over four years (plus $3.9 million per year ongoing) to fund the Treasury and ATO to implement the tax reform changes, including compliance and administration activities.",
-      "suggestion": "Add to budget-updates.json: KPMG Budget Analysis — Government allocates $47.5m over four years ($3.9m per year ongoing) to Treasury and ATO for CGT reform implementation",
-      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260518-978",
-      "timestamp": "2026-05-18T16:45:48.124Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "CGT discount: preserved for all properties or eliminated for established homes?",
@@ -382,42 +358,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Budget allocates $47.5m to Treasury and ATO for CGT reform implementation",
-      "description": "KPMG budget analysis reveals the government will provide $47.5 million over four years (with $3.9 million per year ongoing) to fund Treasury and ATO implementation of the capital gains tax changes, indicating significant administrative investment in the reform rollout.",
-      "suggestion": "Add to budget-updates.json: KPMG budget breakdown: $47.5m allocated to Treasury and ATO for CGT implementation",
-      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260518-227",
-      "timestamp": "2026-05-18T21:02:34.579Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis details CGT impact on ETFs and Listed Investment Vehicles",
-      "description": "The ASX published detailed investor guidance on how the proposed CGT changes affect exchange-traded funds (ETFs) and Listed Investment Vehicles (LIVs), providing specific technical analysis for these investor categories not covered elsewhere.",
-      "suggestion": "Add to budget-updates.json: ASX analysis details CGT changes for ETF and Listed Investment Vehicle investors",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260518-212",
-      "timestamp": "2026-05-18T21:02:34.579Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Australian Shareholders Association calls for capital gains averaging alongside indexation",
-      "description": "The ASA has publicly called for any CGT reform to include both indexation and a modern averaging mechanism, arguing this addresses income bunching where many years of gains are realised in a single tax year. The ASA preferred proper consultation before the changes were announced.",
-      "suggestion": "Add to budget-updates.json: ASA calls for capital gains averaging alongside indexation reform",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260518-171",
-      "timestamp": "2026-05-18T21:02:34.579Z",
-      "status": "pending"
     },
     {
       "type": "debate_page",
@@ -1261,6 +1201,19 @@
       "timestamp": "2026-05-18T14:51:04.513Z",
       "status": "implemented",
       "implemented_at": "2026-05-19T12:41:03.834Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Budget allocates $47.5m to Treasury and ATO for CGT reform implementation",
+      "description": "KPMG budget analysis reveals the government will provide $47.5 million over four years (with $3.9 million per year ongoing) to fund Treasury and ATO implementation of the capital gains tax changes, indicating significant administrative investment in the reform rollout.",
+      "suggestion": "Add to budget-updates.json: KPMG budget breakdown: $47.5m allocated to Treasury and ATO for CGT implementation",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-227",
+      "timestamp": "2026-05-18T21:02:34.579Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-19T18:01:36.040Z"
     }
   ],
   "skipped": [
@@ -1558,6 +1511,58 @@
       "implementation_effort": "30_minutes",
       "corroborated_by": "https://treasury.gov.au/policy-topics/taxation/hybrid-mismatch-rules",
       "status_reason": "Item count shrank from 11 to 10 in content/budget-updates.json"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "The Guardian data analysis: 56% of CGT concession benefits top 1% of income earners",
+      "description": "The Guardian Australia has published a data-driven analysis with charts showing that more than half of the capital gains tax discount benefit goes to the top 1% of income earners. The article accompanies the budget CGT reforms with distribution analysis.",
+      "suggestion": "Add to budget-updates.json: The Guardian analysis — more than half of CGT discount benefits went to top 1% of income earners, based on latest ATO data",
+      "source": "https://www.theguardian.com/news/2026/may/13/australia-federal-budget-2026-tax-capital-gains-negative-gearing-housing-one-big-chart",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-764",
+      "timestamp": "2026-05-18T16:45:48.124Z",
+      "status": "needs_manual_review",
+      "status_reason": "Item count shrank from 12 to 10 in content/budget-updates.json"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG budget breakdown: $47.5m allocated to Treasury and ATO for CGT implementation",
+      "description": "KPMG's Federal Budget 2026-27 analysis reveals the government has allocated $47.5 million over four years (plus $3.9 million per year ongoing) to fund the Treasury and ATO to implement the tax reform changes, including compliance and administration activities.",
+      "suggestion": "Add to budget-updates.json: KPMG Budget Analysis — Government allocates $47.5m over four years ($3.9m per year ongoing) to Treasury and ATO for CGT reform implementation",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-978",
+      "timestamp": "2026-05-18T16:45:48.124Z",
+      "status": "needs_manual_review",
+      "status_reason": "Item count shrank from 12 to 10 in content/budget-updates.json"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis details CGT impact on ETFs and Listed Investment Vehicles",
+      "description": "The ASX published detailed investor guidance on how the proposed CGT changes affect exchange-traded funds (ETFs) and Listed Investment Vehicles (LIVs), providing specific technical analysis for these investor categories not covered elsewhere.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details CGT changes for ETF and Listed Investment Vehicle investors",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-212",
+      "timestamp": "2026-05-18T21:02:34.579Z",
+      "status": "needs_manual_review",
+      "status_reason": "Item count shrank from 13 to 10 in content/budget-updates.json"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Australian Shareholders Association calls for capital gains averaging alongside indexation",
+      "description": "The ASA has publicly called for any CGT reform to include both indexation and a modern averaging mechanism, arguing this addresses income bunching where many years of gains are realised in a single tax year. The ASA preferred proper consultation before the changes were announced.",
+      "suggestion": "Add to budget-updates.json: ASA calls for capital gains averaging alongside indexation reform",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-171",
+      "timestamp": "2026-05-18T21:02:34.579Z",
+      "status": "needs_manual_review",
+      "status_reason": "Item count shrank from 13 to 10 in content/budget-updates.json"
     }
   ]
 }

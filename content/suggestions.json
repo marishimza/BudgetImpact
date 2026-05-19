@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T18:02:42.417Z",
+  "lastUpdated": "2026-05-19T21:12:11.487Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -653,6 +653,103 @@
     {
       "id": "suggestion-20260519-508",
       "timestamp": "2026-05-19T16:45:43.369Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
+      "description": "Treasury data reveals that more than half of capital gains on ASX 200 shares over the past 10 years were attributable to inflationary gains rather than real value creation, supporting the government's rationale for CGT indexation reform.",
+      "suggestion": "Add to budget-updates.json: Treasury data showing inflation accounts for 56% of ASX 200 share gains over the past decade provides quantitative backing for the government's CGT indexation approach, replacing the 50% discount with inflation-adjusted cost bases.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260519-262",
+      "timestamp": "2026-05-19T21:12:05.621Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASA calls for capital gains averaging alongside indexation reform",
+      "description": "The Australian Shareholders Association has formally called on the government to include a capital gains averaging mechanism alongside the proposed inflation indexation reform, arguing the changes may not address income bunching where multi-year gains are realised in a single tax year.",
+      "suggestion": "Add to budget-updates.json: ASA formally calls for capital gains averaging mechanism alongside indexation reform, warning the current proposal may not adequately address income bunching issues for investors who realise large gains in a single year.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260519-342",
+      "timestamp": "2026-05-19T21:12:05.621Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Work-related expense instant deduction confirmed at $1,000",
+      "description": "The budget confirms a $1,000 instant tax deduction for work-related expenses, as announced in the lead-up to the 2025 election. The measure is expected to cost the budget $6.4 billion over four years.",
+      "suggestion": "Add to budget-updates.json: Budget confirms $1,000 instant tax deduction for work-related expenses as previously announced in lead-up to 2025 election, with $6.4 billion cost over four years.",
+      "source": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260519-468",
+      "timestamp": "2026-05-19T21:12:05.621Z",
+      "status": "pending",
+      "corroborated_by": "https://www.smh.com.au/money/saving/a-free-1000-not-quite-here-s-how-the-new-instant-tax-deduction-works-20260430-p5zslj.html"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Does the budget create a minimum 30% tax on ALL capital gains, or only on gains above inflation?",
+      "description": "Some sources report the budget introduces a 'minimum 30% tax rate' on all capital gains, while the actual budget measure appears to be inflation indexation of cost bases—a fundamentally different mechanism that would not impose a minimum rate on gains below inflation. This is a factual conflict about what the budget actually does, with significant tax planning implications.",
+      "suggestion": "Add to debates.json: View_a from Perpetual.com.au states the budget proposes 'major reforms including minimum tax on distributions from discretionary trusts' but does not explicitly confirm a minimum 30% CGT rate. View_b from multiple political sources claim 'capital gains will face a new minimum 30% tax rate on all gains.' The actual budget.gov.au description focuses on cost base indexation rather than a minimum rate floor, suggesting potential misrepresentation of the reform mechanism.",
+      "source": "https://www.perpetual.com.au/insights/federal-budget-2026/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260519-986",
+      "timestamp": "2026-05-19T21:12:05.621Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "low",
+      "title": "Is the Coalition's immigration cap proposal a direct response to budget housing measures?",
+      "description": "The Guardian reports the Coalition will 'tie intake to new housing builds' as a budget reply, while the budget itself focuses on tax reform to increase supply. These are separate policy responses to the same housing crisis, but sources frame them as causally connected rather than independent measures. This is less a factual conflict and more a difference in how observers weight competing explanations.",
+      "suggestion": "Add to debates.json: View_a from The Guardian (Taylor vows) frames the Coalition immigration cap as a 'budget reply' response to housing pressures. View_b from CBA analysis frames the budget tax changes as designed to 'reduce investor demand for existing housing stock while preserving tax support for new supply'—suggesting supply-side focus rather than demand-side immigration controls. The conflict is whether immigration or tax reform is the primary housing solution.",
+      "source": "https://www.theguardian.com/australia-news/live/2026-05-14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260519-834",
+      "timestamp": "2026-05-19T21:12:05.621Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a new 'minimum 30% tax rate' on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple media sources claim capital gains will face a minimum 30% tax rate. However, budget.gov.au specifies this applies to 'real capital gains' after inflation indexation. The phrasing 'on ALL gains' or 'minimum 30% on all capital gains' oversimplifies the mechanism - the actual taxable gain is reduced by inflation indexation first, then the 30% minimum applies to that adjusted amount. This could mislead taxpayers about their actual tax liability.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% applies to all capital gains', verdict is disputed because the 30% minimum applies to inflation-adjusted gains, not the full nominal gain. The reform uses indexation to calculate 'real' gains first.",
+      "source": "https://budget.gov.au/ content/tax-reform",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260519-397",
+      "timestamp": "2026-05-19T21:12:05.621Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: The 50% CGT discount is being 'replaced' by inflation indexation",
+      "description": "Many sources use 'replaced' when describing the shift from 50% CGT discount to inflation indexation. However, the actual policy structure may preserve choice - investors might still elect to use the 50% discount if it produces a better outcome. The Australian Shareholders Association specifically notes concerns about 'income bunching' and calls for both indexation AND averaging mechanisms. The word 'replaced' implies complete elimination of the old method, which may not be accurate.",
+      "suggestion": "Add to fact-checks.json: claim is '50% discount is fully replaced by indexation', verdict is partially_true because the reform may preserve the 50% discount as an alternative option for taxpayers. The exact mechanics of when indexation vs. discount applies need verification from the draft legislation.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-27-what-it-means-for-australian-investors",
+      "implementation_effort": "60_minutes",
+      "id": "suggestion-20260519-201",
+      "timestamp": "2026-05-19T21:12:05.621Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260519-241",
+      "timestamp": "2026-05-19T21:12:05.621Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

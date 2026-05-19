@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T22:55:07.197Z",
+  "lastUpdated": "2026-05-19T07:46:05.049Z",
   "items": [
     {
       "id": "update-001",
@@ -46,7 +46,7 @@
       "date": "2026-03-20",
       "tag": "Superannuation",
       "source": "Australian Taxation Office",
-      "title": "Division 296 high-balance super tax ($3m threshold) commences 1 July 2026 per enacted legislation",
+      "title": "Division 296 high-balance super tax ($3 m threshold) commences 1 July 2026 per enacted legislation",
       "summary": "The Better Targeted Super Concessions Act 2026 received Royal Assent on 20 March 2026, introducing Division 296 which imposes a 15% tax on superannuation earnings above the $3m threshold. Starting 1 July 2026, individuals with total superannuation balances exceeding $3m will be subject to this additional tax on their earnings. The ATO will administer the new tax regime through the existing superannuation system.",
       "url": "",
       "priority": "high"
@@ -97,8 +97,18 @@
       "tag": "Property",
       "source": "Australian Shareholders' Association",
       "title": "Federal Budget 2026-27: What It Means for Australian Investors",
-      "summary": "The site previously stated the cutoff for capital gains tax changes was 13 May 2026, but the correct cutoff is 7:30pm on 12 May 2026 (budget night). This correction aligns with official budget documentation. The Australian Shareholders' Association provides analysis of how the 2026-27 Federal Budget changes affect investors, including modifications to negative gearing rules and CGT provisions.",
-      "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "summary": "The site previously stated the cutoff for capital gains tax changes was 13 May 2026, but the correct cutoff is 7:30pm on 12 May 2026 (budget night).",
+      "url": "",
+      "priority": "medium"
+    },
+    {
+      "id": "update-019",
+      "date": "2026-05-19",
+      "tag": "ASX",
+      "source": "ASX",
+      "title": "ASX analysis: CGT changes affect ETF and Listed Investment Vehicle investors",
+      "summary": "ASX published analysis on how the capital gains tax changes will affect investors in exchange-traded funds (ETFs) and Listed Investment Vehicles (LIVs). The analysis considers the practical implications for retail investors holding these products through the tax changes, providing guidance on how the 2026 Federal Budget measures may impact their portfolio returns and tax obligations.",
+      "url": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
       "priority": "high"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T06:00:53.303Z",
+  "lastUpdated": "2026-05-19T07:51:08.160Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -216,30 +216,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Venture capital tax incentives expanded from July 2027",
-      "description": "The 2026-27 Federal Budget expands venture capital tax incentives, with changes scheduled to take effect from July 2027. The measure builds on existing venture capital frameworks to support early-stage innovation and investment.",
-      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expanded from July 2027 — the budget extends incentives to support startup and innovation investment, with implementation from July 2027.",
-      "source": "https://austax.tools/tax-insights/federal-budget-2026-summary/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260518-161",
-      "timestamp": "2026-05-18T12:38:43.641Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis: CGT changes affect ETF and Listed Investment Vehicle investors",
-      "description": "ASX published analysis on how the capital gains tax changes will affect investors in exchange-traded funds (ETFs) and Listed Investment Vehicles (LIVs). The analysis considers the practical implications for retail investors holding these products through the tax changes.",
-      "suggestion": "Add to budget-updates.json: ASX analysis details CGT changes for ETF and Listed Investment Vehicle investors — practical implications for retail investors assessed.",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260518-703",
-      "timestamp": "2026-05-18T12:38:43.641Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Is Labor's negative gearing reform a 'broken promise' or legitimate policy evolution?",
@@ -274,30 +250,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASA calls for capital gains averaging alongside indexation reform",
-      "description": "The Australian Shareholders Association has publicly stated it would have preferred proper consultation before CGT changes were announced and is calling for a capital gains averaging mechanism to complement indexation. This represents a formal stakeholder response from the retail investor peak body to the Budget reforms.",
-      "suggestion": "Add to budget-updates.json: Australian Shareholders Association calls for capital gains averaging mechanism alongside indexation to address income bunching concerns where many years of gains are realised in a single tax year.",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260518-915",
-      "timestamp": "2026-05-18T14:51:04.513Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Treasury data: 56% of ASX 200 share gains over 10 years attributable to inflation",
-      "description": "Budget papers included Treasury analysis showing that 56% of asset price growth for ASX 200 shares held for 10 years to March 2026 was attributable to inflation. This data underpins the government's rationale that the current CGT discount overcompensates investors and must be reformed to tax only real gains.",
-      "suggestion": "Add to budget-updates.json: Treasury data shows 56% of ASX 200 share price growth over 10 years to March 2026 was inflation, supporting the government's case that current CGT settings overcompensate investors for inflationary gains.",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260518-969",
-      "timestamp": "2026-05-18T14:51:04.513Z",
-      "status": "pending"
     },
     {
       "type": "content_update",
@@ -623,19 +575,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260519-144",
-      "timestamp": "2026-05-19T06:00:47.534Z",
-      "status": "pending",
-      "priority": "high",
-      "type": "content_update",
-      "title": "Correction needed: Hybrid system applicability for pre-July 2027 assets",
-      "description": "Our site says: \"Assets acquired before 1 July 2027 follow a hybrid calculation where old 50% discount applies to gains up to 30 June 2027 and new CPI indexation applies to gains after that date.\". Recent sources say: \"The current flat 50% CGT discount will be replaced (not continued) with indexation aligned to inflation. The new rules apply to real capital gains accruing from 1 July 2027, implying a complete replacement rather than a hybrid continuation.\".",
-      "suggestion": "Update tax-rules.json or relevant content file to correct: Hybrid system applicability for pre-July 2027 assets. Source: https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-federal-budget-explained",
-      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-federal-budget-explained",
-      "implementation_effort": "30_minutes",
-      "corroborated_by": "https://www.ato.gov.au/businesses-and-organisations/international-tax-for-business/in-detail/multinationals/hybrid-mismatch-rules"
     }
   ],
   "implemented": [
@@ -1123,6 +1062,46 @@
       "timestamp": "2026-05-18T12:30:51.984Z",
       "status": "implemented",
       "implemented_at": "2026-05-18T22:55:38.480Z"
+    },
+    {
+      "id": "suggestion-20260519-144",
+      "timestamp": "2026-05-19T06:00:47.534Z",
+      "status": "implemented",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Correction needed: Hybrid system applicability for pre-July 2027 assets",
+      "description": "Our site says: \"Assets acquired before 1 July 2027 follow a hybrid calculation where old 50% discount applies to gains up to 30 June 2027 and new CPI indexation applies to gains after that date.\". Recent sources say: \"The current flat 50% CGT discount will be replaced (not continued) with indexation aligned to inflation. The new rules apply to real capital gains accruing from 1 July 2027, implying a complete replacement rather than a hybrid continuation.\".",
+      "suggestion": "Update tax-rules.json or relevant content file to correct: Hybrid system applicability for pre-July 2027 assets. Source: https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-federal-budget-explained",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-federal-budget-explained",
+      "implementation_effort": "30_minutes",
+      "corroborated_by": "https://www.ato.gov.au/businesses-and-organisations/international-tax-for-business/in-detail/multinationals/hybrid-mismatch-rules",
+      "implemented_at": "2026-05-19T07:42:33.668Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Venture capital tax incentives expanded from July 2027",
+      "description": "The 2026-27 Federal Budget expands venture capital tax incentives, with changes scheduled to take effect from July 2027. The measure builds on existing venture capital frameworks to support early-stage innovation and investment.",
+      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expanded from July 2027 — the budget extends incentives to support startup and innovation investment, with implementation from July 2027.",
+      "source": "https://austax.tools/tax-insights/federal-budget-2026-summary/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-161",
+      "timestamp": "2026-05-18T12:38:43.641Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-19T07:45:54.415Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: CGT changes affect ETF and Listed Investment Vehicle investors",
+      "description": "ASX published analysis on how the capital gains tax changes will affect investors in exchange-traded funds (ETFs) and Listed Investment Vehicles (LIVs). The analysis considers the practical implications for retail investors holding these products through the tax changes.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details CGT changes for ETF and Listed Investment Vehicle investors — practical implications for retail investors assessed.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-703",
+      "timestamp": "2026-05-18T12:38:43.641Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-19T07:49:50.155Z"
     }
   ],
   "skipped": [
@@ -1257,6 +1236,20 @@
       "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-05-18T22:55:48.820Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASA calls for capital gains averaging alongside indexation reform",
+      "description": "The Australian Shareholders Association has publicly stated it would have preferred proper consultation before CGT changes were announced and is calling for a capital gains averaging mechanism to complement indexation. This represents a formal stakeholder response from the retail investor peak body to the Budget reforms.",
+      "suggestion": "Add to budget-updates.json: Australian Shareholders Association calls for capital gains averaging mechanism alongside indexation to address income bunching concerns where many years of gains are realised in a single tax year.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-915",
+      "timestamp": "2026-05-18T14:51:04.513Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-19T07:50:03.093Z"
     }
   ],
   "needs_manual_review": [
@@ -1336,6 +1329,19 @@
       "description": "HTTP 404",
       "suggestion": "Investigate https://marishimza.github.io/BudgetImpact/$%7Bitem.url%20||%20'#'} — page failed health check. Check deployment and content files.",
       "source": "https://marishimza.github.io/BudgetImpact/$%7Bitem.url%20||%20'#'}"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury data: 56% of ASX 200 share gains over 10 years attributable to inflation",
+      "description": "Budget papers included Treasury analysis showing that 56% of asset price growth for ASX 200 shares held for 10 years to March 2026 was attributable to inflation. This data underpins the government's rationale that the current CGT discount overcompensates investors and must be reformed to tax only real gains.",
+      "suggestion": "Add to budget-updates.json: Treasury data shows 56% of ASX 200 share price growth over 10 years to March 2026 was inflation, supporting the government's case that current CGT settings overcompensate investors for inflationary gains.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-969",
+      "timestamp": "2026-05-18T14:51:04.513Z",
+      "status": "needs_manual_review",
+      "status_reason": "Item count shrank from 11 to 10 in content/budget-updates.json"
     }
   ]
 }

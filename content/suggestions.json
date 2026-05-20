@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T21:12:11.487Z",
+  "lastUpdated": "2026-05-20T06:00:21.819Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -750,6 +750,88 @@
     {
       "id": "suggestion-20260519-241",
       "timestamp": "2026-05-19T21:12:05.621Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: CGT changes alter investment dynamics for ETFs and Listed Investment Vehicles",
+      "description": "The Australian Securities Exchange published investor guidance detailing how the 2026-27 budget CGT reforms specifically affect exchange-traded funds and Listed Investment Vehicles, including implications for cost base calculations and reporting requirements.",
+      "suggestion": "Add to budget-updates.json: ASX Investor Update analysis examines CGT reform impact on ETFs and Listed Investment Vehicles, noting how the transition from 50% discount to inflation indexation affects different investment structures.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260520-650",
+      "timestamp": "2026-05-20T06:00:17.268Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO confirms Division 296 tax commencement and earnings calculation methodology",
+      "description": "The Australian Taxation Office has published guidance confirming the Better Targeted Super Concessions legislation will commence 1 July 2026, specifying that 15% tax applies to earnings on super balances exceeding the $3 million threshold.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 legislation enacts 15% tax on earnings relating to total superannuation balance exceeding $3 million threshold from 1 July 2026.",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260520-197",
+      "timestamp": "2026-05-20T06:00:17.268Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Budget allocates $47.5 million to Treasury and ATO for CGT reform implementation",
+      "description": "KPMG's federal budget analysis confirms the government will provide $47.5 million over four years from 2026-27 (and $3.9 million per year ongoing) to support implementation of capital gains tax reforms by Treasury and the ATO.",
+      "suggestion": "Add to budget-updates.json: Budget allocates $47.5 million over four years to Treasury and ATO for CGT reform implementation and compliance support.",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260520-955",
+      "timestamp": "2026-05-20T06:00:17.268Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "CGT discount: choice or replacement?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget.gov.au states investors can 'choose' the 50% CGT discount or new arrangements, while Law Society Journal describes the discount as being 'replaced'. These are different factual characterizations of the same policy with different implications for investors - does the reform eliminate the discount or preserve it with an alternative option?",
+      "suggestion": "Add to debates.json: budget.gov.au says investors can 'choose the 50% CGT discount or the new arrangements' (preserving choice), while lsj.com.au describes the 50% discount as being 'replaced' (elimination framing)",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260520-427",
+      "timestamp": "2026-05-20T06:00:17.268Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "description": "Multiple sources claim a new minimum 30% tax rate applies to all capital gains. However, budget.gov.au and abc.net.au both specify the minimum applies to 'real' capital gains (gains above inflation). The 30% floor may only apply when the indexed cost base method produces an effective rate below 30%, not to gains generally.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% on ALL gains', verdict is partially_true because the minimum 30% applies to real/inflation-adjusted gains, not necessarily all nominal gains. Sources conflict on whether the floor activates when indexation produces a lower effective rate.",
+      "source": "https://www.budget.gov.au/tax-reform; https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-federal-budget-could-see-investment/",
+      "id": "suggestion-20260520-181",
+      "timestamp": "2026-05-20T06:00:17.268Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Negative gearing changes take effect from 1 July 2027 for all investors",
+      "description": "William Buck states changes apply 'from 1 July 2027' for properties purchased after budget night. However, ABC News states that 'from the evening of May 12 (budget night), new property purchases will not be eligible to use negative gearing unless it is a newly built home.' The William Buck source may be describing when the tax deduction benefit stops, not when the restriction begins. This creates a timing ambiguity.",
+      "suggestion": "Add to fact-checks.json: claim is 'changes take effect 1 July 2027', verdict is partially_true because the acquisition restriction begins immediately on budget night (May 12, 2026) while ongoing treatment changes apply from July 2027. Media may conflate these two different commencement dates.",
+      "source": "https://www.abc.net.au/news/2026-05-13/government-breaks-promise-with-restrictions-to-negative-gearing/; https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing/",
+      "id": "suggestion-20260520-542",
+      "timestamp": "2026-05-20T06:00:17.268Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260520-640",
+      "timestamp": "2026-05-20T06:00:17.268Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

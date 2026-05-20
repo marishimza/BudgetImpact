@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T07:42:53.416Z",
+  "lastUpdated": "2026-05-20T10:42:55.192Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -770,6 +770,92 @@
     {
       "id": "suggestion-20260520-640",
       "timestamp": "2026-05-20T06:00:17.268Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASA calls for capital gains averaging mechanism alongside indexation",
+      "description": "The Australian Shareholders Association has raised concerns that indexation alone may not address income bunching where gains accumulated over many years are realised in a single tax year. ASA is calling for a modern averaging mechanism to complement the CGT indexation changes and has criticised the lack of consultation before the announcement.",
+      "suggestion": "Add to budget-updates.json: ASA calls for capital gains averaging mechanism alongside indexation",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260520-383",
+      "timestamp": "2026-05-20T10:42:49.570Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO confirms Division 296 indexed thresholds and CGT relief details",
+      "description": "The ATO has confirmed the indexed thresholds for Division 296 tax and clarified that CGT relief provisions apply. The legislation enacted in March 2026 will commence from 1 July 2026, with the tax applying 15% on earnings relating to total superannuation balances exceeding the $3 million lift-start balance threshold.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260520-762",
+      "timestamp": "2026-05-20T10:42:49.570Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Foreign resident capital gains notification threshold remains at $50m",
+      "description": "Foreign residents disposing of shares and membership interests exceeding $50 million in value must notify the ATO before executing the transaction. The commencement date for these provisions has again been deferred until the legislation passes Parliament.",
+      "suggestion": "Add to budget-updates.json: Foreign resident capital gains notification threshold remains at $50m with legislation pending",
+      "source": "https://www.grantthornton.com.au/insights/federal-budget-2026-27/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260520-179",
+      "timestamp": "2026-05-20T10:42:49.570Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "CGT discount: replacement or choice between two options?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The official budget website states investors in new builds can 'choose the 50% CGT discount or the new arrangements', implying preservation of a choice. However, ABC News and Guardian articles characterize this as the government 'restricting' or replacing the CGT discount entirely. This is a factual dispute about whether the reform preserves an option or eliminates the existing discount.",
+      "suggestion": "Add to debates.json: budget.gov.au says investors can 'choose' between the 50% CGT discount or new arrangements, while abc.net.au describes 'restrictions to negative gearing and capital gains tax discount' and theguardian.com reports the Coalition will 'repeal' the changes. These represent different characterizations of whether the existing 50% discount is preserved or eliminated.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260520-700",
+      "timestamp": "2026-05-20T10:42:49.570Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-discount"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
+      "description": "Multiple sources mention a 30% minimum tax on capital gains, but ABC News specifically states it applies to 'real capital gains' (gains after inflation adjustment). The wording 'all gains' could mislead readers into thinking the 30% rate applies to total gains including inflation adjustments, when in fact the 30% floor appears to apply only to inflation-adjusted gains.",
+      "suggestion": "Add to fact-checks.json: claim is partially_true. The minimum 30% tax applies to real (inflation-adjusted) capital gains, not the full nominal gain. Someone with $100,000 nominal gain but $20,000 inflation adjustment would have $80,000 taxed at minimum 30%, not $100,000.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-federal-budget-could-see-investment-shift/10513398",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260520-124",
+      "timestamp": "2026-05-20T10:42:49.570Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: The 50% CGT discount is being 'replaced' by inflation indexation",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget.gov.au states the discount will be 'replaced' and sources like Stockspot use similar language. However, the exact mechanics matter: is the 50% discount completely eliminated for all assets, or does indexation provide an alternative calculation method? The Australian Shareholders Association notes indexation 'may help ensure investors are not taxed on inflationary gains' but doesn't suggest the discount is fully eliminated for all scenarios.",
+      "suggestion": "Add to fact-checks.json: claim needs clarification. The 50% discount is being modified rather than fully eliminated for all scenarios. For assets held for long periods, indexation may produce similar or better outcomes than the 50% discount for inflation protection, but the replacement's mechanics vary by asset type and holding period.",
+      "source": "https://www.budget.gov.au/budget-2026-27/tax-reform",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260520-108",
+      "timestamp": "2026-05-20T10:42:49.570Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260520-339",
+      "timestamp": "2026-05-20T10:42:49.570Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T12:21:02.138Z",
+  "lastUpdated": "2026-05-20T16:47:40.413Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -794,6 +794,104 @@
     {
       "id": "suggestion-20260520-339",
       "timestamp": "2026-05-20T10:42:49.570Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases Division 296 indexed thresholds and earnings calculation methodology for 2026-27",
+      "description": "The ATO has published detailed guidance confirming Division 296 tax commences 1 July 2026 with indexed thresholds ($3m base) and specifies that 15% tax applies on earnings relating to total superannuation balance exceeding the Lower Balance Threshold. The guidance confirms CGT relief provisions and calculation methodology for affected SMSF members.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and earnings calculation methodology — 15% tax applies to earnings above Lower Balance Threshold from 1 July 2026, with CGT relief confirmed for affected SMSF members",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260520-548",
+      "timestamp": "2026-05-20T16:47:32.450Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis details CGT reform investment implications for ETFs and Listed Investment Vehicles",
+      "description": "The ASX published an investor update analysing how the Budget's CGT and negative gearing changes affect investment in exchange-traded funds (ETFs) and Listed Investment Vehicles (LIVs). The analysis identifies how reforms may shift investment dynamics compared to direct property investment, covering implications across different asset classes.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details CGT impact on ETFs and Listed Investment Vehicles — examines how tax changes alter investment dynamics compared to direct property, with implications for share market investors",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260520-702",
+      "timestamp": "2026-05-20T16:47:32.450Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
+      "description": "Treasury analysis cited in coverage shows that inflation accounted for 56% of ASX 200 share gains over the past decade, providing context for the government's rationale to replace the flat 50% CGT discount with inflation indexation. This data underpins the claim that the 50% discount overcompensates investors for inflationary gains.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over decade — data cited as justification for replacing flat 50% CGT discount with inflation indexation",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260520-550",
+      "timestamp": "2026-05-20T16:47:32.450Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the Coalition's immigration cap proposal directly tied to the budget housing measures?",
+      "description": "The Guardian reports the Coalition will 'tie intake to new housing builds' as part of their budget reply, with Taylor stating immigration must be 'significantly below the Coalition's cap for several years.' This raises the question of whether this immigration proposal is a direct policy response to the budget's negative gearing/CGT changes, or a separate housing strategy. If tied together, the effectiveness of budget housing measures may be framed as dependent on immigration cuts, creating a linked debate about whether both policies are needed simultaneously.",
+      "suggestion": "Add to debates.json: The Guardian reports the Coalition 'promised to drastically cut immigration, and will tie intake to new housing builds' as a budget reply position. This creates a factual question about whether Coalition immigration policy is a direct response to the budget housing measures, potentially implying the negative gearing/CGT changes alone are insufficient for housing affordability.",
+      "source": "https://www.theguardian.com/australia-news/live/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260520-232",
+      "timestamp": "2026-05-20T16:47:32.450Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Does the super performance test protect members or constrain investment options?",
+      "description": "The budget overview from Superguide notes 'industry experts have warned that it constrains funds because it doesn't cater for all investments, particularly ESG, energy, venture capital and housing.' Meanwhile, Superguide itself states 'The super performance test has been in place for years, and has had some success in protecting Australians from persistent underperformance.' These represent competing assessments of the same policy mechanism - one framing it as protective, the other as restrictive to beneficial investment categories.",
+      "suggestion": "Add to debates.json: Superguide notes industry experts warn the super performance test 'constrains funds because it doesn't cater for all investments, particularly ESG, energy, venture capital and housing.' But Superguide also states the test 'has had some success in protecting Australians from persistent underperformance.' This creates a factual conflict about whether the performance test primarily protects members from poor returns or restricts beneficial investment diversification.",
+      "source": "https://www.superguide.com.au/super-booster/federal-budget-2026-overview",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260520-794",
+      "timestamp": "2026-05-20T16:47:32.450Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
+      "description": "Multiple media sources claim a 30% minimum tax applies to all capital gains. However, budget.gov.au and abc.net.au specify the minimum 30% applies to 'real capital gains' (gains above inflation), not nominal gains. The ABC source explicitly states 'minimum tax rate of 30pc applying to real capital gains'. This distinction is significant - assets held during high-inflation periods could have gains taxed below 30% if inflation is accounted for. The 'ALL gains' framing may be a significant oversimplification.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% applies to all gains', verdict is disputed because official sources specify the minimum applies only to real capital gains (above inflation), meaning nominal gains adjusted downward by inflation could be taxed at the individual's marginal rate, potentially below 30%.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-property-shares/2026-05-13",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260520-772",
+      "timestamp": "2026-05-20T16:47:32.450Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: The 50% CGT discount is being 'replaced' by inflation indexation",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget.gov.au states the 50% discount 'will be replaced' but the guardian.com coverage says the government 'will rebalance the system' - not eliminate it entirely. The ASX investor update article discusses how these changes 'might affect investors' suggesting ongoing flexibility. The stockspot source uses 'largely be replaced'. The phrasing 'replaced' implies the old method disappears entirely, but sources suggest there may still be choice or transition provisions.",
+      "suggestion": "Add to fact-checks.json: claim is '50% discount is fully replaced', verdict is partially_true because sources indicate 'largely replaced' or 'rebalanced' rather than complete elimination, and implementation details may preserve some choice mechanism.",
+      "source": "https://budget.gov.au/tax-reform",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260520-331",
+      "timestamp": "2026-05-20T16:47:32.450Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260520-490",
+      "timestamp": "2026-05-20T16:47:32.450Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

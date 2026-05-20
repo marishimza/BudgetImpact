@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T13:43:14.804Z",
+  "lastUpdated": "2026-05-20T12:18:21.629Z",
   "debates": [
     {
       "id": "debate-001",
@@ -159,6 +159,30 @@
         "sources": [
           "https://www.budget.gov.au",
           "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-007",
+      "slug": "cgt-discount-replacement-or-choice",
+      "title": "CGT discount: replacement or choice between two options?",
+      "category": "tax",
+      "type": "factual_dispute",
+      "summary": "The government's budget papers state that investors in new builds can 'choose' between the existing 50% CGT discount and new arrangements. However, some media outlets characterize this as the government 'restricting', 'repealing' or eliminating the CGT discount entirely. This represents a factual dispute about whether the reform preserves a choice or removes the existing discount for all scenarios.",
+      "view_a": {
+        "label": "Government: Choice preserved",
+        "argument": "The official budget website states that investors in new builds can 'choose the 50% CGT discount or the new arrangements', indicating the existing 50% discount remains available as an option for qualifying investments rather than being eliminated.",
+        "sources": [
+          "https://budget.gov.au/content/04-tax-reform.htm"
+        ]
+      },
+      "view_b": {
+        "label": "Media: Discount restricted or replaced",
+        "argument": "ABC News describes the changes as 'restrictions to negative gearing and capital gains tax discount' and the Guardian reports the Coalition will 'repeal' the changes, framing this as the government eliminating or significantly curtailing the existing discount rather than preserving a choice.",
+        "sources": [
+          "https://www.abc.net.au",
+          "https://www.theguardian.com"
         ]
       },
       "verdict": null

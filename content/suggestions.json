@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T10:42:55.192Z",
+  "lastUpdated": "2026-05-20T12:21:02.138Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -456,42 +456,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ABC News analysis: CGT discount replacement vs inflation indexation terminology",
-      "description": "ABC News clarifies the 50% flat CGT discount is being replaced with indexation aligned to inflation, with a minimum 30% tax rate applying from July 2027. This contrasts with simpler 'replacement' terminology used elsewhere.",
-      "suggestion": "Add to budget-updates.json: Clarify CGT reform: the 50% flat discount is being replaced with cost base indexation aligned to inflation, not simply abolished. A minimum 30% tax rate will apply to real capital gains from 1 July 2027.",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260519-394",
-      "timestamp": "2026-05-19T10:55:22.786Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Pitcher Partners: No major super measures but Division 296 commencing as enacted",
-      "description": "Pitcher Partners confirms the 2026-27 Budget introduced no major superannuation changes, but Division 296 tax (enacted in March 2026) will commence 1 July 2026 for balances exceeding $3 million.",
-      "suggestion": "Add to budget-updates.json: Division 296 high-balance super tax (enacted March 2026) commences 1 July 2026. No additional super measures in Budget 2026-27.",
-      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260519-528",
-      "timestamp": "2026-05-19T10:55:22.786Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Grant Thornton: Foreign resident capital gains threshold and ATO notification requirement",
-      "description": "Foreign residents disposing of shares or membership interests exceeding $50m must notify ATO before executing transaction. Legislation commencement deferred until Parliament passes the Bill.",
-      "suggestion": "Add to budget-updates.json: Foreign residents disposing of shares or membership interests above $50m must notify ATO before transaction completion. Commencement awaiting parliamentary passage.",
-      "source": "https://www.grantthornton.com.au/insights/federal-budget-2026-27/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260519-758",
-      "timestamp": "2026-05-19T10:55:22.786Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Is limiting negative gearing to new builds effective housing supply policy?",
@@ -814,32 +778,6 @@
       "id": "suggestion-20260520-179",
       "timestamp": "2026-05-20T10:42:49.570Z",
       "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "high",
-      "title": "CGT discount: replacement or choice between two options?",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The official budget website states investors in new builds can 'choose the 50% CGT discount or the new arrangements', implying preservation of a choice. However, ABC News and Guardian articles characterize this as the government 'restricting' or replacing the CGT discount entirely. This is a factual dispute about whether the reform preserves an option or eliminates the existing discount.",
-      "suggestion": "Add to debates.json: budget.gov.au says investors can 'choose' between the 50% CGT discount or new arrangements, while abc.net.au describes 'restrictions to negative gearing and capital gains tax discount' and theguardian.com reports the Coalition will 'repeal' the changes. These represent different characterizations of whether the existing 50% discount is preserved or eliminated.",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260520-700",
-      "timestamp": "2026-05-20T10:42:49.570Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-discount"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
-      "description": "Multiple sources mention a 30% minimum tax on capital gains, but ABC News specifically states it applies to 'real capital gains' (gains after inflation adjustment). The wording 'all gains' could mislead readers into thinking the 30% rate applies to total gains including inflation adjustments, when in fact the 30% floor appears to apply only to inflation-adjusted gains.",
-      "suggestion": "Add to fact-checks.json: claim is partially_true. The minimum 30% tax applies to real (inflation-adjusted) capital gains, not the full nominal gain. Someone with $100,000 nominal gain but $20,000 inflation adjustment would have $80,000 taxed at minimum 30%, not $100,000.",
-      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-federal-budget-could-see-investment-shift/10513398",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260520-124",
-      "timestamp": "2026-05-20T10:42:49.570Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax"
     },
     {
       "type": "fact_check",
@@ -1430,6 +1368,20 @@
       "timestamp": "2026-05-19T06:00:47.534Z",
       "status": "implemented",
       "implemented_at": "2026-05-20T07:41:32.349Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "CGT discount: replacement or choice between two options?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The official budget website states investors in new builds can 'choose the 50% CGT discount or the new arrangements', implying preservation of a choice. However, ABC News and Guardian articles characterize this as the government 'restricting' or replacing the CGT discount entirely. This is a factual dispute about whether the reform preserves an option or eliminates the existing discount.",
+      "suggestion": "Add to debates.json: budget.gov.au says investors can 'choose' between the 50% CGT discount or new arrangements, while abc.net.au describes 'restrictions to negative gearing and capital gains tax discount' and theguardian.com reports the Coalition will 'repeal' the changes. These represent different characterizations of whether the existing 50% discount is preserved or eliminated.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260520-700",
+      "timestamp": "2026-05-20T10:42:49.570Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-discount",
+      "implemented_at": "2026-05-20T12:18:21.632Z"
     }
   ],
   "skipped": [
@@ -1832,6 +1784,59 @@
       "implementation_effort": "15_minutes",
       "id": "suggestion-20260519-458",
       "timestamp": "2026-05-19T06:00:47.534Z",
+      "status": "needs_manual_review",
+      "status_reason": "Item count shrank from 14 to 10 in content/budget-updates.json"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
+      "description": "Multiple sources mention a 30% minimum tax on capital gains, but ABC News specifically states it applies to 'real capital gains' (gains after inflation adjustment). The wording 'all gains' could mislead readers into thinking the 30% rate applies to total gains including inflation adjustments, when in fact the 30% floor appears to apply only to inflation-adjusted gains.",
+      "suggestion": "Add to fact-checks.json: claim is partially_true. The minimum 30% tax applies to real (inflation-adjusted) capital gains, not the full nominal gain. Someone with $100,000 nominal gain but $20,000 inflation adjustment would have $80,000 taxed at minimum 30%, not $100,000.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-federal-budget-could-see-investment-shift/10513398",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260520-124",
+      "timestamp": "2026-05-20T10:42:49.570Z",
+      "status": "needs_manual_review",
+      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "status_reason": "Item count shrank from 8 to 6 in content/fact-checks.json"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ABC News analysis: CGT discount replacement vs inflation indexation terminology",
+      "description": "ABC News clarifies the 50% flat CGT discount is being replaced with indexation aligned to inflation, with a minimum 30% tax rate applying from July 2027. This contrasts with simpler 'replacement' terminology used elsewhere.",
+      "suggestion": "Add to budget-updates.json: Clarify CGT reform: the 50% flat discount is being replaced with cost base indexation aligned to inflation, not simply abolished. A minimum 30% tax rate will apply to real capital gains from 1 July 2027.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260519-394",
+      "timestamp": "2026-05-19T10:55:22.786Z",
+      "status": "needs_manual_review",
+      "status_reason": "Item count shrank from 14 to 10 in content/budget-updates.json"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Pitcher Partners: No major super measures but Division 296 commencing as enacted",
+      "description": "Pitcher Partners confirms the 2026-27 Budget introduced no major superannuation changes, but Division 296 tax (enacted in March 2026) will commence 1 July 2026 for balances exceeding $3 million.",
+      "suggestion": "Add to budget-updates.json: Division 296 high-balance super tax (enacted March 2026) commences 1 July 2026. No additional super measures in Budget 2026-27.",
+      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260519-528",
+      "timestamp": "2026-05-19T10:55:22.786Z",
+      "status": "needs_manual_review",
+      "status_reason": "Item count shrank from 14 to 10 in content/budget-updates.json"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Grant Thornton: Foreign resident capital gains threshold and ATO notification requirement",
+      "description": "Foreign residents disposing of shares or membership interests exceeding $50m must notify ATO before executing transaction. Legislation commencement deferred until Parliament passes the Bill.",
+      "suggestion": "Add to budget-updates.json: Foreign residents disposing of shares or membership interests above $50m must notify ATO before transaction completion. Commencement awaiting parliamentary passage.",
+      "source": "https://www.grantthornton.com.au/insights/federal-budget-2026-27/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260519-758",
+      "timestamp": "2026-05-19T10:55:22.786Z",
       "status": "needs_manual_review",
       "status_reason": "Item count shrank from 14 to 10 in content/budget-updates.json"
     }

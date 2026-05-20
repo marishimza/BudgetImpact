@@ -2,6 +2,18 @@
   "lastUpdated": "2026-05-17T00:00:00+10:00",
   "snapshots": [
     {
+      "snapshot_id": "snapshot-20260520-1221",
+      "timestamp": "2026-05-20T12:21:03.847Z",
+      "git_commit": "07e1d70518136916296485a380000a6651ab4898",
+      "pages_changed": [
+        "content/debates.json",
+        "content/suggestions.json"
+      ],
+      "suggestions_implemented": [
+        "suggestion-20260520-700"
+      ]
+    },
+    {
       "snapshot_id": "snapshot-20260520-0742",
       "timestamp": "2026-05-20T07:42:54.778Z",
       "git_commit": "4c7e12b4e3e80862de1cae0b718347acda048cd6",

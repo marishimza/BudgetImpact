@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T18:01:05.284Z",
+  "lastUpdated": "2026-05-20T07:40:53.278Z",
   "items": [
     {
       "id": "update-001",
@@ -129,6 +129,16 @@
       "title": "Budget allocates $47.5m to Treasury and ATO for CGT reform implementation",
       "summary": "The government will provide $47.5 million over four years (with $3.9 million per year ongoing) to fund Treasury and ATO implementation of the capital gains tax changes. This represents a significant administrative investment in the CGT reform rollout. The funding demonstrates the government's commitment to ensuring effective implementation of the tax changes.",
       "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "priority": "medium"
+    },
+    {
+      "id": "update-022",
+      "date": "2026-05-20",
+      "tag": "Budget",
+      "source": "Australian Shareholders Association",
+      "title": "ASA calls for capital gains averaging alongside indexation reform",
+      "summary": "The Australian Shareholders Association has publicly responded to the capital gains tax changes, calling for an averaging mechanism to address income bunching where gains realised in a single tax year could push investors into higher brackets. The ASA warned that the changes may cause significant issues for investors who hold assets for many years, and stated they preferred proper consultation before the changes were announced.",
+      "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
       "priority": "medium"
     }
   ]

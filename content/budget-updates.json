@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T07:40:53.278Z",
+  "lastUpdated": "2026-05-21T07:47:03.018Z",
   "items": [
     {
       "id": "update-001",
@@ -140,6 +140,16 @@
       "summary": "The Australian Shareholders Association has publicly responded to the capital gains tax changes, calling for an averaging mechanism to address income bunching where gains realised in a single tax year could push investors into higher brackets. The ASA warned that the changes may cause significant issues for investors who hold assets for many years, and stated they preferred proper consultation before the changes were announced.",
       "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
       "priority": "medium"
+    },
+    {
+      "id": "update-023",
+      "date": "2026-05-21",
+      "tag": "Budget",
+      "source": "budget.gov.au",
+      "title": "Budget confirms minimum 30% tax on capital gains from July 2027",
+      "summary": "The official Budget website confirms the Government will introduce a minimum 30% tax on capital gains, replacing the 50% CGT discount with inflation-based indexation from 1 July 2027. This reform represents a significant shift in how capital gains are taxed in Australia, affecting investors and property owners. The change will apply to assets acquired after the implementation date.",
+      "url": "https://budget.gov.au/content/04-tax-reform.htm",
+      "priority": "high"
     }
   ]
 }

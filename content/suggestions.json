@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T21:31:29.106Z",
+  "lastUpdated": "2026-05-21T06:02:25.046Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -988,6 +988,91 @@
     {
       "id": "suggestion-20260520-231",
       "timestamp": "2026-05-20T21:31:20.496Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis: Inflation accounts for 56% of ASX 200 share gains over decade",
+      "description": "Treasury analysis presented in Budget 2026 shows that inflation made up 56% of asset price growth for ASX 200 shares held for 10 years to March 2026, justifying the shift from CGT discount to inflation indexation.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis: Inflation accounts for 56% of ASX 200 share gains over decade",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260521-945",
+      "timestamp": "2026-05-21T06:02:18.960Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Negative gearing cutoff confirmed: 7:30pm on Budget Night for established properties",
+      "description": "The Federal Budget confirms that negative gearing changes apply from 7:30pm on 12 May 2026 - properties purchased after this time on Budget Night are not eligible for negative gearing unless newly built.",
+      "suggestion": "Add to budget-updates.json: Negative gearing cutoff confirmed: 7:30pm on Budget Night for established properties",
+      "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260521-812",
+      "timestamp": "2026-05-21T06:02:18.960Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will negative gearing and CGT changes actually improve housing affordability?",
+      "description": "The Law Society Journal claims these tax settings are 'the key reason for the housing affordability and rental crisis', implying the reforms will address affordability. However, The Guardian cites economists who believe home values will fall but notes 'Australia's persistent housing shortage means any fall would be short term', suggesting the reforms may not meaningfully improve long-term affordability. REIA's president calls the measures 'positive and necessary steps', while The Guardian's analysis implies the shortage persists despite the reforms.",
+      "suggestion": "Add to debates.json: view_a from Law Society Journal (lsj.com.au) says negative gearing and CGT discount are 'the key reason for the housing affordability and rental crisis' - framing reform as likely to improve affordability; view_b from The Guardian (theguardian.com) cites economists noting 'Australia's persistent housing shortage means any fall would be short term' - implying reforms don't address structural shortage",
+      "source": "https://lsj.com.au/articles/federal-budget-2026-limits-to-negative-gearing-and-capital-gains-tax-reform/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260521-121",
+      "timestamp": "2026-05-21T06:02:18.960Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Are Labor's negative gearing reforms a 'broken promise' or legitimate policy evolution?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ABC News explicitly frames this as the government breaking another promise, calculating 'the damage to trust' of breaking promises. However, some sources present this as legitimate policy reversal rather than broken commitment. This debate questions whether the government had a specific pre-election commitment being broken, or whether changing circumstances justify the reform.",
+      "suggestion": "Add to debates.json: view_a from ABC News (abc.net.au) says 'Government breaks promise with restrictions' and calculates 'the damage to trust of breaking another promise'; view_b from the government's own framing as legitimate policy evolution responding to housing market conditions",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260521-970",
+      "timestamp": "2026-05-21T06:02:18.960Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Capital gains will face a new 'minimum 30% tax rate' on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Media often reports a flat 30% minimum tax on ALL capital gains. However, the budget.gov.au source says the 50% CGT discount will be 'replaced with a discount based on inflation' - meaning only gains ABOVE inflation are taxed, not a flat 30% on the entire gain. The 30% appears to be a minimum RATE applied to inflation-adjusted gains, not a 30% tax on total gains. This oversimplification could mislead investors about their actual tax liability.",
+      "suggestion": "Add to fact-checks.json: claim is partially_true/misleading, verdict is disputed because the 30% minimum applies to inflation-adjusted gains, not all gains. With indexation, only gains above inflation are taxed at the minimum rate.",
+      "source": "https://budget.gov.au/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260521-287",
+      "timestamp": "2026-05-21T06:02:18.960Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Negative gearing has been 'fully abolished' for established properties",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple media reports suggest complete abolition of negative gearing for established properties. However, the actual policy (from ABC and William Buck sources) shows negative gearing is only restricted for NEW purchases of established properties purchased after 7:30pm on 12 May 2026. Existing property investors who already use negative gearing appear to retain those benefits. The claim of 'full abolition' is inaccurate.",
+      "suggestion": "Add to fact-checks.json: claim is partially_true, verdict is disputed because negative gearing is restricted (not abolished) for new purchases of established properties from the specified date. Existing investors likely retain existing benefits.",
+      "source": "https://www.abc.net.au/news/2026-05-13/government-breaks-promise-with-restrictions-to-negative-gearing/105146128",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260521-483",
+      "timestamp": "2026-05-21T06:02:18.960Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260521-431",
+      "timestamp": "2026-05-21T06:02:18.960Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

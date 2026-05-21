@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T16:35:43.514Z",
+  "lastUpdated": "2026-05-21T21:22:16.118Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1189,6 +1189,90 @@
     {
       "id": "suggestion-20260521-946",
       "timestamp": "2026-05-21T16:35:36.607Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis quantifies inflation impact on ASX 200 share gains",
+      "description": "Treasury analysis found that inflation accounts for 56% of ASX 200 share gains over the past decade, providing context for the CGT indexation reform.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis reveals inflation accounts for 56% of ASX 200 share gains over the decade, providing economic context for the CGT indexation changes.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260521-548",
+      "timestamp": "2026-05-21T21:22:10.699Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "low",
+      "title": "ASA urges capital gains averaging alongside indexation reform",
+      "description": "The Australian Shareholders Association is calling for a capital gains averaging mechanism to be introduced alongside the indexation changes, to address income bunching concerns.",
+      "suggestion": "Add to budget-updates.json: ASA calls for capital gains averaging mechanism alongside indexation reform to address income bunching where gains are realised in a single tax year.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260521-286",
+      "timestamp": "2026-05-21T21:22:10.699Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the Coalition successfully repeal Labor's negative gearing and CGT changes if elected?",
+      "description": "The Coalition has committed to repealing the budget's negative gearing and CGT reforms, but it's unclear whether they have the numbers in the Senate given crossbench complexity and whether they'd prioritise this over other agenda items. This matters because investors are making decisions based on policy uncertainty.",
+      "suggestion": "Add to debates.json: Coalition's Tim Wilson (The Guardian) says 'We'll repeal these measures if necessary.' However, the practical likelihood of full repeal through the Senate given crossbench composition is contested—the Guardian notes One Nation's Pauline Hanson also weighed in without clear alignment either way.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260521-377",
+      "timestamp": "2026-05-21T21:22:10.699Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is restricting negative gearing to new builds 'effective' housing supply policy or insufficient reform?",
+      "description": "The REIA calls the $2B infrastructure initiative 'positive and necessary' while the Greens call the overall package a 'damp squib' arguing it backs corporate profits over structural reform. The factual question is whether new-build-only negative gearing meaningfully addresses supply shortages or is too narrow to have impact.",
+      "suggestion": "Add to debates.json: REIA President Jacob Caine (API Magazine) says measures 'directly supporting new housing supply... were positive and necessary steps toward addressing Australia's housing shortage.' By contrast, the Greens (Discovery Alert) argued the government 'backed corporate profits over meaningful structural reform.'",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260521-820",
+      "timestamp": "2026-05-21T21:22:10.699Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources use this phrasing, but budget.gov.au states the 30% rate applies to 'real capital gains' (above inflation). The ABC News source clarifies it applies to 'real capital gains accruing from next July'. This distinction matters significantly - the minimum rate may only apply to gains above the inflation-adjusted cost base, not nominal gains. A claim that ALL capital gains face a minimum 30% rate could overstate the scope of the tax change.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% applies to ALL gains', verdict is disputed/unclear because official sources indicate it applies to real gains (above inflation), not nominal gains. The 30% rate appears to be a floor on the effective rate after indexation, not a blanket minimum tax on all capital gains.",
+      "source": "https://www.budget.gov.au/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260521-837",
+      "timestamp": "2026-05-21T21:22:10.699Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Budget allocates $47.5 million for CGT implementation",
+      "description": "KPMG reports a specific figure of $47.5 million over four years from 2026-27 (with $3.9 million per year ongoing) allocated to Treasury and the ATO for CGT reform. However, this appears to be a small administrative allocation rather than a measure costing billions. This could be confused with larger spending measures in the budget.",
+      "suggestion": "Add to fact-checks.json: claim that budget allocates $47.5 million for CGT implementation is partially_true/verified, but note this is administrative funding for Treasury/ATO, not a major spending measure. This figure could be misrepresented as a spending initiative rather than implementation costs.",
+      "source": "https://kpmg.com/au/en/home/insights/2026/05/australian-federal-budget-2026-2027.html",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260521-686",
+      "timestamp": "2026-05-21T21:22:10.699Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260521-456",
+      "timestamp": "2026-05-21T21:22:10.699Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

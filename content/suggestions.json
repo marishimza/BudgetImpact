@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T07:48:08.060Z",
+  "lastUpdated": "2026-05-21T11:00:09.549Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1008,6 +1008,90 @@
     {
       "id": "suggestion-20260521-431",
       "timestamp": "2026-05-21T06:02:18.960Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "New builds fully exempt from CGT changes under 2026 Budget",
+      "description": "The 2026-27 Budget confirms new residential properties remain fully exempt from CGT reforms, with investors able to choose between indexation and the existing 50% discount for qualifying newly constructed homes.",
+      "suggestion": "Add to budget-updates.json: New builds remain fully exempt from CGT changes — investors can choose between cost base indexation and the 50% discount for qualifying newly constructed homes",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260521-687",
+      "timestamp": "2026-05-21T11:00:00.282Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Division 296 super tax: indexed thresholds and CGT relief details confirmed by ATO",
+      "description": "The ATO has confirmed Division 296 tax commences 1 July 2026 with indexed thresholds, specifying the 15% tax on earnings above the $3 million balance threshold and confirming CGT relief provisions for affected SMSFs.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details — 15% tax on earnings above $3m threshold from 1 July 2026",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260521-736",
+      "timestamp": "2026-05-21T11:00:00.282Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Foreign resident capital gains notification threshold remains at $50m",
+      "description": "The Budget confirms foreign residents disposing of shares and membership interests exceeding $50 million must notify the ATO before executing transactions, with commencement deferred pending legislation passage.",
+      "suggestion": "Add to budget-updates.json: Foreign resident capital gains notification threshold remains at $50m — legislation pending",
+      "source": "https://www.grantthornton.com.au/insights/federal-budget-2026-27/",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260521-924",
+      "timestamp": "2026-05-21T11:00:00.282Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is Australia's housing crisis driven by negative gearing and CGT arrangements or by immigration levels?",
+      "description": "The Law Society Journal cites economists claiming negative gearing and CGT discount are 'the key reason' for housing affordability and rental crisis. Meanwhile, the Coalition's budget reply proposes tying immigration to housing builds, implying immigration-driven demand is the core problem. These are conflicting factual claims about causation that lead to fundamentally different policy responses.",
+      "suggestion": "Add to debates.json: Law Society Journal says economists claim negative gearing and CGT arrangements are 'the key reason' for housing crisis. Coalition (Guardian) says immigration must be 'significantly below' their cap and tied to housing builds, implying immigration is primary driver.",
+      "source": "https://lsj.com.au/articles/federal-budget-2026-limits-to-negative-gearing-and-capital-gains-tax-reform/; https://www.theguardian.com/australia-news/live/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260521-866",
+      "timestamp": "2026-05-21T11:00:00.282Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Negative gearing changes take effect from 1 July 2027 for 'all' established property investors",
+      "description": "The sources indicate a specific cutoff time: 7:30pm on 12 May 2026 (Budget Night). Properties purchased before this time may retain negative gearing benefits. This creates a specific transition point rather than a uniform July 2027 date for all investors. The claim 'from 1 July 2027 for all established property investors' could oversimplify the transition rules.",
+      "suggestion": "Add to fact-checks.json: claim is 'negative gearing changes apply uniformly from 1 July 2027 for all investors', verdict is partially_true because properties purchased before 7:30pm on 12 May 2026 may retain existing negative gearing access, with the 1 July 2027 date applying to properties purchased after that specific cutoff time.",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing/",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260521-520",
+      "timestamp": "2026-05-21T11:00:00.282Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Budget allocates $47.5 million for CGT implementation",
+      "description": "KPMG source states '$47.5 million over four years from 2026–27 (and $3.9 million per year ongoing)' to Treasury and the ATO. This is a specific verifiable figure. However, the exact purpose and breakdown of this funding could be misrepresented in media coverage.",
+      "suggestion": "Add to fact-checks.json: claim is 'budget allocates $47.5 million for CGT reform implementation', verdict is verified because official sources confirm $47.5 million over four years from 2026-27 (with $3.9 million ongoing) to Treasury and ATO.",
+      "source": "https://kpmg.com/au/en/home/topics/tax/2026-australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260521-183",
+      "timestamp": "2026-05-21T11:00:00.282Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260521-117",
+      "timestamp": "2026-05-21T11:00:00.282Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

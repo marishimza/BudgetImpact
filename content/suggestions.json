@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T11:00:09.549Z",
+  "lastUpdated": "2026-05-21T16:35:43.514Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1092,6 +1092,103 @@
     {
       "id": "suggestion-20260521-117",
       "timestamp": "2026-05-21T11:00:00.282Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
+      "description": "Treasury analysis underpinning the CGT reform found that inflation has represented a significant portion of nominal share price gains, providing context for why indexation rather than simple rate changes was chosen.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis underpinning the CGT reform found that inflation accounts for 56% of ASX 200 share gains over the past decade, supporting the government's rationale for indexation-based reform over other approaches.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260521-829",
+      "timestamp": "2026-05-21T16:35:36.606Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "New builds fully exempt from CGT changes under 2026 Budget",
+      "description": "Properties constructed after 7:30pm on Budget Night (12 May 2026) will retain access to the existing 50% CGT discount and negative gearing, with the changes applying only to established property purchases.",
+      "suggestion": "Add to budget-updates.json: New residential property constructions are fully exempt from the CGT changes. Properties purchased after 7:30pm on 12 May 2026 that are newly built will retain access to existing CGT discount arrangements and negative gearing rules.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260521-225",
+      "timestamp": "2026-05-21T16:35:36.607Z",
+      "status": "pending",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Foreign resident capital gains notification legislation deferred again",
+      "description": "The requirement for foreign residents disposing of shares and membership interests exceeding $50m to notify the ATO before executing transactions has been deferred until legislation passes Parliament.",
+      "suggestion": "Add to budget-updates.json: Foreign resident capital gains notification requirements (for disposals exceeding $50m) have been deferred again, with commencement dependent on legislation passing Parliament.",
+      "source": "https://www.grantthornton.com.au/insights/federal-budget-2026-27/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260521-888",
+      "timestamp": "2026-05-21T16:35:36.607Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the Coalition's immigration cap proposal a direct response to the budget housing measures?",
+      "description": "The Coalition has announced plans to drastically cut immigration and tie intake to new housing builds. This raises questions about whether immigration levels are the primary driver of housing stress, and whether this represents a competing explanation to the government's tax reform focus.",
+      "suggestion": "Add to debates.json: Government and housing analysts (ABC, The Guardian, Commonwealth Bank) frame the negative gearing and CGT reforms as the solution to housing affordability, arguing investor behavior and tax incentives drive the crisis. Coalition response (The Guardian's Taylor quotes) proposes immigration cuts tied to housing construction as an alternative structural fix, suggesting immigration rather than tax arrangements is the root cause.",
+      "source": "https://www.theguardian.com/australia-news/live/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260521-376",
+      "timestamp": "2026-05-21T16:35:36.607Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Are the Greens' 'damp squib' criticisms of the housing reforms factually justified?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Greens have characterised the negative gearing and CGT changes as inadequate ('damp squib'), arguing the government backed corporate profits over meaningful reform. This conflicts with government and industry claims that the measures are substantial and targeted.",
+      "suggestion": "Add to debates.json: The Greens (discoveryalert.com.au) say the reforms are insufficient and the government 'backed corporate profits.' Government/REIA (ABC, API Magazine, CommBank) argue the measures are substantial reforms that will redirect investor activity toward new supply while reducing demand for established housing.",
+      "source": "https://discoveryalert.com.au/australian-budget-negative-gearing-capital-gains-tax-changes/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260521-345",
+      "timestamp": "2026-05-21T16:35:36.607Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Division 296 super tax applies to balances over $3m",
+      "description": "Multiple sources reference the $3m threshold for Division 296 tax. The ATO source uses phrases like 'if your total... you will be subject to Division 296 tax' without explicitly stating the $3m threshold, while Pitcher Partners explicitly mentions '$3m super balance tax'. Need to verify if $3m is the exact threshold or if it's indexed/adjusted, and confirm the exact scope of what triggers the 15% tax.",
+      "suggestion": "Add to fact-checks.json: claim is that Division 296 tax applies above $3m threshold, verdict is partially_true because while $3m appears in some sources, the ATO and draft legislation may specify different indexed thresholds for different years. The threshold may adjust with inflation rather than being fixed at $3m.",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260521-505",
+      "timestamp": "2026-05-21T16:35:36.607Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face minimum 30% tax on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources (ABC, Budget.gov.au, Guardian) state that capital gains will be subject to a 'minimum 30% tax rate'. However, Budget.gov.au describes this as applying to 'real capital gains' (gains after inflation adjustment). This distinction matters—if indexation effectively eliminates tax on inflationary gains, the 30% rate only applies to real gains, not necessarily ALL gains as the claim suggests. The 'minimum 30%' framing could mislead if it implies a floor rate on total gain rather than real gain.",
+      "suggestion": "Add to fact-checks.json: claim is that ALL capital gains face a minimum 30% rate, verdict is disputed/partially_true because the 30% minimum appears to apply to real gains after indexation rather than total gains. Gains representing purely inflation would be taxed at 0% effectively. The 'minimum' framing is technically accurate for real gains but potentially misleading if interpreted as applying to total gain value.",
+      "source": "https://www.budget.gov.au/Tax-reform",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260521-839",
+      "timestamp": "2026-05-21T16:35:36.607Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260521-946",
+      "timestamp": "2026-05-21T16:35:36.607Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

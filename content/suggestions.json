@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T10:42:35.482Z",
+  "lastUpdated": "2026-05-22T12:18:30.748Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -598,54 +598,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis: CGT changes alter investment dynamics for ETFs and Listed Investment Vehicles",
-      "description": "The Australian Securities Exchange published investor guidance detailing how the 2026-27 budget CGT reforms specifically affect exchange-traded funds and Listed Investment Vehicles, including implications for cost base calculations and reporting requirements.",
-      "suggestion": "Add to budget-updates.json: ASX Investor Update analysis examines CGT reform impact on ETFs and Listed Investment Vehicles, noting how the transition from 50% discount to inflation indexation affects different investment structures.",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260520-650",
-      "timestamp": "2026-05-20T06:00:17.268Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO confirms Division 296 tax commencement and earnings calculation methodology",
-      "description": "The Australian Taxation Office has published guidance confirming the Better Targeted Super Concessions legislation will commence 1 July 2026, specifying that 15% tax applies to earnings on super balances exceeding the $3 million threshold.",
-      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 legislation enacts 15% tax on earnings relating to total superannuation balance exceeding $3 million threshold from 1 July 2026.",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260520-197",
-      "timestamp": "2026-05-20T06:00:17.268Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Budget allocates $47.5 million to Treasury and ATO for CGT reform implementation",
-      "description": "KPMG's federal budget analysis confirms the government will provide $47.5 million over four years from 2026-27 (and $3.9 million per year ongoing) to support implementation of capital gains tax reforms by Treasury and the ATO.",
-      "suggestion": "Add to budget-updates.json: Budget allocates $47.5 million over four years to Treasury and ATO for CGT reform implementation and compliance support.",
-      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260520-955",
-      "timestamp": "2026-05-20T06:00:17.268Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "CGT discount: choice or replacement?",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget.gov.au states investors can 'choose' the 50% CGT discount or new arrangements, while Law Society Journal describes the discount as being 'replaced'. These are different factual characterizations of the same policy with different implications for investors - does the reform eliminate the discount or preserve it with an alternative option?",
-      "suggestion": "Add to debates.json: budget.gov.au says investors can 'choose the 50% CGT discount or the new arrangements' (preserving choice), while lsj.com.au describes the 50% discount as being 'replaced' (elimination framing)",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260520-427",
-      "timestamp": "2026-05-20T06:00:17.268Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -1379,19 +1331,6 @@
       "status": "pending"
     },
     {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: Negative gearing changes affect 'all' established property investors from 1 July 2027",
-      "description": "Multiple sources (williambuck.com, abc.net.au) confirm negative gearing is REMOVED for established properties purchased AFTER 7:30pm on 12 May 2026 (budget night). The phrase 'all established property investors' from 1 July 2027 is misleading because investors who purchased established properties before that deadline likely retain existing negative gearing rights (grandfathering). The policy specifically targets NEW purchases, not existing investor positions.",
-      "suggestion": "Add to fact-checks.json: claim is 'negative gearing removed for all established property investors', verdict is disputed because the removal applies to purchases after 7:30pm budget night; prior purchases may be grandfathered.",
-      "source": "https://www.williambuck.com/federal-budget-analysis-2026",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260522-641",
-      "timestamp": "2026-05-22T10:42:25.759Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
-    },
-    {
       "id": "suggestion-20260522-983",
       "timestamp": "2026-05-22T10:42:25.759Z",
       "status": "pending",
@@ -2010,6 +1949,20 @@
       "status": "implemented",
       "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
       "implemented_at": "2026-05-22T07:39:18.787Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Negative gearing changes affect 'all' established property investors from 1 July 2027",
+      "description": "Multiple sources (williambuck.com, abc.net.au) confirm negative gearing is REMOVED for established properties purchased AFTER 7:30pm on 12 May 2026 (budget night). The phrase 'all established property investors' from 1 July 2027 is misleading because investors who purchased established properties before that deadline likely retain existing negative gearing rights (grandfathering). The policy specifically targets NEW purchases, not existing investor positions.",
+      "suggestion": "Add to fact-checks.json: claim is 'negative gearing removed for all established property investors', verdict is disputed because the removal applies to purchases after 7:30pm budget night; prior purchases may be grandfathered.",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260522-641",
+      "timestamp": "2026-05-22T10:42:25.759Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implemented_at": "2026-05-22T12:15:30.193Z"
     }
   ],
   "skipped": [
@@ -2580,6 +2533,58 @@
       "timestamp": "2026-05-19T21:12:05.621Z",
       "status": "needs_manual_review",
       "status_reason": "Item count shrank from 23 to 10 in content/budget-updates.json"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: CGT changes alter investment dynamics for ETFs and Listed Investment Vehicles",
+      "description": "The Australian Securities Exchange published investor guidance detailing how the 2026-27 budget CGT reforms specifically affect exchange-traded funds and Listed Investment Vehicles, including implications for cost base calculations and reporting requirements.",
+      "suggestion": "Add to budget-updates.json: ASX Investor Update analysis examines CGT reform impact on ETFs and Listed Investment Vehicles, noting how the transition from 50% discount to inflation indexation affects different investment structures.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260520-650",
+      "timestamp": "2026-05-20T06:00:17.268Z",
+      "status": "needs_manual_review",
+      "status_reason": "Item count shrank from 23 to 11 in content/budget-updates.json"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO confirms Division 296 tax commencement and earnings calculation methodology",
+      "description": "The Australian Taxation Office has published guidance confirming the Better Targeted Super Concessions legislation will commence 1 July 2026, specifying that 15% tax applies to earnings on super balances exceeding the $3 million threshold.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 legislation enacts 15% tax on earnings relating to total superannuation balance exceeding $3 million threshold from 1 July 2026.",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260520-197",
+      "timestamp": "2026-05-20T06:00:17.268Z",
+      "status": "needs_manual_review",
+      "status_reason": "Item count shrank from 23 to 3 in content/budget-updates.json"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Budget allocates $47.5 million to Treasury and ATO for CGT reform implementation",
+      "description": "KPMG's federal budget analysis confirms the government will provide $47.5 million over four years from 2026-27 (and $3.9 million per year ongoing) to support implementation of capital gains tax reforms by Treasury and the ATO.",
+      "suggestion": "Add to budget-updates.json: Budget allocates $47.5 million over four years to Treasury and ATO for CGT reform implementation and compliance support.",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260520-955",
+      "timestamp": "2026-05-20T06:00:17.268Z",
+      "status": "needs_manual_review",
+      "status_reason": "Item count shrank from 23 to 11 in content/budget-updates.json"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "CGT discount: choice or replacement?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget.gov.au states investors can 'choose' the 50% CGT discount or new arrangements, while Law Society Journal describes the discount as being 'replaced'. These are different factual characterizations of the same policy with different implications for investors - does the reform eliminate the discount or preserve it with an alternative option?",
+      "suggestion": "Add to debates.json: budget.gov.au says investors can 'choose the 50% CGT discount or the new arrangements' (preserving choice), while lsj.com.au describes the 50% discount as being 'replaced' (elimination framing)",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260520-427",
+      "timestamp": "2026-05-20T06:00:17.268Z",
+      "status": "needs_manual_review",
+      "status_reason": "Item count shrank from 8 to 4 in content/debates.json"
     }
   ]
 }

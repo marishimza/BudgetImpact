@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T12:37:14.000Z",
+  "lastUpdated": "2026-05-22T12:14:48.900Z",
   "claims": [
     {
       "id": "fc-001",
@@ -8,7 +8,7 @@
       "verdict": "partially_true",
       "verdict_label": "Partially True",
       "short_explanation": "Abolished for assets acquired after 1 July 2027 only. Pre-existing assets use a hybrid system. SMSFs are fully exempt.",
-      "detailed_explanation": "The 50% CGT discount is not abolished for everyone. It applies only to assets acquired after 1 July 2027. Assets already held will use a hybrid calculation \u2014 the old 50% discount applies to gains accrued up to 30 June 2027, and CPI indexation applies after that date. Self-Managed Superannuation Funds (SMSFs) are entirely excluded and retain their one-third discount.",
+      "detailed_explanation": "The 50% CGT discount is not abolished for everyone. It applies only to assets acquired after 1 July 2027. Assets already held will use a hybrid calculation — the old 50% discount applies to gains accrued up to 30 June 2027, and CPI indexation applies after that date. Self-Managed Superannuation Funds (SMSFs) are entirely excluded and retain their one-third discount.",
       "sources": [
         {
           "name": "Treasury Budget Papers 2026",
@@ -77,7 +77,7 @@
       "verdict": "verified",
       "verdict_label": "Verified",
       "short_explanation": "Confirmed. Pre-CGT assets (bought before 20 Sept 1985) will have their cost base reset via ATO market valuation on 1 July 2027, ending 42 years of CGT exemption.",
-      "detailed_explanation": "Assets acquired before 20 September 1985 \u2014 including share portfolios \u2014 have historically been exempt from Capital Gains Tax entirely. Under the 2026 budget, this legacy exemption ends. The ATO will establish a market valuation of these assets on 1 July 2027 to set a new cost base. Any gains after that date will be subject to the new CPI indexation and 30% floor rules.",
+      "detailed_explanation": "Assets acquired before 20 September 1985 — including share portfolios — have historically been exempt from Capital Gains Tax entirely. Under the 2026 budget, this legacy exemption ends. The ATO will establish a market valuation of these assets on 1 July 2027 to set a new cost base. Any gains after that date will be subject to the new CPI indexation and 30% floor rules.",
       "sources": [
         {
           "name": "Treasury Budget Papers 2026",
@@ -123,7 +123,7 @@
       "verdict": "partially_true",
       "verdict_label": "Partially True",
       "short_explanation": "Inflation indexation does not guarantee a lower CGT liability. The 50% discount may be more favourable when inflation is high over the holding period, as indexation only adjusts the cost base upward, while the discount directly halves the total gain.",
-      "detailed_explanation": "While CPI indexation raises the cost base to reflect inflation, it doesn't reduce the taxable gain itself\u2014only the discount method cuts the gain in half. With high inflation over extended periods, the indexed cost base may still leave a substantial taxable gain, making the 50% discount more advantageous in many scenarios.",
+      "detailed_explanation": "While CPI indexation raises the cost base to reflect inflation, it doesn't reduce the taxable gain itself—only the discount method cuts the gain in half. With high inflation over extended periods, the indexed cost base may still leave a substantial taxable gain, making the 50% discount more advantageous in many scenarios.",
       "sources": [
         {
           "name": "Stockspot CGT Calculator",
@@ -169,6 +169,29 @@
       ],
       "date_checked": "2026-05-18",
       "category": "Budget"
+    },
+    {
+      "id": "fc-009",
+      "slug": "negative-gearing-all-established-investors-misleading",
+      "claim": "Negative gearing removed for all established property investors from 1 July 2027",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "The claim overstates the scope. Negative gearing is removed only for established properties purchased AFTER 7:30pm on 12 May 2026. Investors who purchased before that deadline likely retain existing negative gearing rights through grandfathering.",
+      "detailed_explanation": "Multiple credible sources confirm that the government's negative gearing changes apply prospectively to new purchases, not retrospectively to existing investor positions. The policy specifically targets established properties purchased after the 7:30pm budget night announcement on 12 May 2026. Properties purchased prior to this deadline would likely be grandfathered, meaning existing investors retain their negative gearing entitlements. The phrase 'all established property investors' is therefore misleading — it should specify 'all NEW established property investors purchasing after the policy commencement date'.",
+      "sources": [
+        {
+          "name": "William Buck Federal Budget Analysis 2026",
+          "url": "https://www.williambuck.com/federal-budget-analysis-2026",
+          "type": "analysis"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au",
+          "type": "news"
+        }
+      ],
+      "date_checked": "2026-05-22",
+      "category": "tax"
     }
   ]
 }

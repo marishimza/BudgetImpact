@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T12:18:21.629Z",
+  "lastUpdated": "2026-05-22T07:39:05.321Z",
   "debates": [
     {
       "id": "debate-001",
@@ -183,6 +183,35 @@
         "sources": [
           "https://www.abc.net.au",
           "https://www.theguardian.com"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-008",
+      "slug": "negative-gearing-new-builds-housing-supply",
+      "title": "Will limiting negative gearing to new builds actually increase housing supply?",
+      "category": "housing",
+      "type": "factual_dispute",
+      "summary": "Two peak bodies clash over whether negative gearing reforms have been effective in boosting housing supply, with the property industry pointing to infrastructure spending as the actual driver of new homes while community sector advocates argue the tax policy change failed to deliver meaningful rental supply.",
+      "view_a": {
+        "label": "REIA Position",
+        "argument": "The Real Estate Institute of Australia argues that the $2 billion infrastructure initiative expected to enable around 65,000 additional homes represents the effective housing supply measure, not negative gearing changes. This suggests negative gearing limitations alone are insufficient to address housing supply.",
+        "sources": [
+          {
+            "name": "REIA via API Magazine",
+            "url": "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades"
+          }
+        ]
+      },
+      "view_b": {
+        "label": "ACOSS Position",
+        "argument": "The Australian Council of Social Service argues that negative gearing changes added little to rental supply, indicating the policy failed to work as intended to redirect investor demand toward new builds and increase overall housing availability.",
+        "sources": [
+          {
+            "name": "ACOSS via The Guardian",
+            "url": "https://www.theguardian.com"
+          }
         ]
       },
       "verdict": null

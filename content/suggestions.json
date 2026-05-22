@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T05:59:00.632Z",
+  "lastUpdated": "2026-05-22T07:40:39.369Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -504,18 +504,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Australian Shareholders Association calls for capital gains averaging alongside indexation",
-      "description": "ASA has publicly called for CGT reform to include both cost base indexation AND a modern averaging mechanism to address income bunching where gains are realised in a single tax year, arguing this was needed before any major change.",
-      "suggestion": "Add to budget-updates.json: ASA calls for capital gains averaging alongside indexation reform, noting the reform may not address income bunching where gains are realised in a single year.",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260519-860",
-      "timestamp": "2026-05-19T16:45:43.369Z",
-      "status": "pending"
-    },
-    {
       "type": "fact_check",
       "priority": "medium",
       "title": "Claim: Budget CGT changes take effect from July 2027",
@@ -550,30 +538,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
-      "description": "Treasury data reveals that more than half of capital gains on ASX 200 shares over the past 10 years were attributable to inflationary gains rather than real value creation, supporting the government's rationale for CGT indexation reform.",
-      "suggestion": "Add to budget-updates.json: Treasury data showing inflation accounts for 56% of ASX 200 share gains over the past decade provides quantitative backing for the government's CGT indexation approach, replacing the 50% discount with inflation-adjusted cost bases.",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260519-262",
-      "timestamp": "2026-05-19T21:12:05.621Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASA calls for capital gains averaging alongside indexation reform",
-      "description": "The Australian Shareholders Association has formally called on the government to include a capital gains averaging mechanism alongside the proposed inflation indexation reform, arguing the changes may not address income bunching where multi-year gains are realised in a single tax year.",
-      "suggestion": "Add to budget-updates.json: ASA formally calls for capital gains averaging mechanism alongside indexation reform, warning the current proposal may not adequately address income bunching issues for investors who realise large gains in a single year.",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260519-342",
-      "timestamp": "2026-05-19T21:12:05.621Z",
-      "status": "pending"
     },
     {
       "type": "debate_page",
@@ -1115,19 +1079,6 @@
     },
     {
       "type": "content_update",
-      "priority": "high",
-      "title": "New builds fully exempt from CGT changes under 2026 Budget",
-      "description": "Properties constructed after 7:30pm on Budget Night (12 May 2026) will retain access to the existing 50% CGT discount and negative gearing, with the changes applying only to established property purchases.",
-      "suggestion": "Add to budget-updates.json: New residential property constructions are fully exempt from the CGT changes. Properties purchased after 7:30pm on 12 May 2026 that are newly built will retain access to existing CGT discount arrangements and negative gearing rules.",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260521-225",
-      "timestamp": "2026-05-21T16:35:36.607Z",
-      "status": "pending",
-      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
-    },
-    {
-      "type": "content_update",
       "priority": "medium",
       "title": "Foreign resident capital gains notification legislation deferred again",
       "description": "The requirement for foreign residents disposing of shares and membership interests exceeding $50m to notify the ATO before executing transactions has been deferred until legislation passes Parliament.",
@@ -1318,19 +1269,6 @@
       "id": "suggestion-20260522-866",
       "timestamp": "2026-05-22T05:58:54.493Z",
       "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "high",
-      "title": "Will limiting negative gearing to new builds actually increase housing supply?",
-      "description": "Two credible sources make conflicting factual claims about whether the negative gearing reform will effectively increase housing supply. The REIA (peak property body) says infrastructure spending will enable 65,000 homes, implying negative gearing changes are not sufficient. ACOSS (community sector peak) claims negative gearing 'added little to rental supply', suggesting the policy has failed to work as intended. This conflict centers on whether the reform mechanism (redirecting investor demand to new builds) will actually produce additional housing.",
-      "suggestion": "Add to debates.json: view_a from REIA via apimagazine.com.au says '$2 billion infrastructure initiative expected to enable around 65,000 additional homes' was the effective housing supply measure, view_b from ACOSS via theguardian.com says negative gearing 'added little to rental supply'",
-      "source": "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260522-392",
-      "timestamp": "2026-05-22T05:58:54.493Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
     },
     {
       "type": "debate_page",
@@ -1973,6 +1911,20 @@
       "status": "implemented",
       "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
       "implemented_at": "2026-05-21T07:47:53.997Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "Will limiting negative gearing to new builds actually increase housing supply?",
+      "description": "Two credible sources make conflicting factual claims about whether the negative gearing reform will effectively increase housing supply. The REIA (peak property body) says infrastructure spending will enable 65,000 homes, implying negative gearing changes are not sufficient. ACOSS (community sector peak) claims negative gearing 'added little to rental supply', suggesting the policy has failed to work as intended. This conflict centers on whether the reform mechanism (redirecting investor demand to new builds) will actually produce additional housing.",
+      "suggestion": "Add to debates.json: view_a from REIA via apimagazine.com.au says '$2 billion infrastructure initiative expected to enable around 65,000 additional homes' was the effective housing supply measure, view_b from ACOSS via theguardian.com says negative gearing 'added little to rental supply'",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260522-392",
+      "timestamp": "2026-05-22T05:58:54.493Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implemented_at": "2026-05-22T07:39:18.787Z"
     }
   ],
   "skipped": [
@@ -2180,6 +2132,35 @@
       "corroborated_by": "https://www.abc.net.au/news/2025-07-01/asx-200-gains-10-per-cent-over-financial-year-2025/105479398",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-05-21T07:48:08.060Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "New builds fully exempt from CGT changes under 2026 Budget",
+      "description": "Properties constructed after 7:30pm on Budget Night (12 May 2026) will retain access to the existing 50% CGT discount and negative gearing, with the changes applying only to established property purchases.",
+      "suggestion": "Add to budget-updates.json: New residential property constructions are fully exempt from the CGT changes. Properties purchased after 7:30pm on 12 May 2026 that are newly built will retain access to existing CGT discount arrangements and negative gearing rules.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260521-225",
+      "timestamp": "2026-05-21T16:35:36.607Z",
+      "status": "skipped",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-22T07:38:46.301Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASA calls for capital gains averaging alongside indexation reform",
+      "description": "The Australian Shareholders Association has formally called on the government to include a capital gains averaging mechanism alongside the proposed inflation indexation reform, arguing the changes may not address income bunching where multi-year gains are realised in a single tax year.",
+      "suggestion": "Add to budget-updates.json: ASA formally calls for capital gains averaging mechanism alongside indexation reform, warning the current proposal may not adequately address income bunching issues for investors who realise large gains in a single year.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260519-342",
+      "timestamp": "2026-05-19T21:12:05.621Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-22T07:40:39.369Z"
     }
   ],
   "needs_manual_review": [
@@ -2488,6 +2469,32 @@
       "status": "needs_manual_review",
       "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
       "status_reason": "Item count shrank from 8 to 6 in content/fact-checks.json"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Australian Shareholders Association calls for capital gains averaging alongside indexation",
+      "description": "ASA has publicly called for CGT reform to include both cost base indexation AND a modern averaging mechanism to address income bunching where gains are realised in a single tax year, arguing this was needed before any major change.",
+      "suggestion": "Add to budget-updates.json: ASA calls for capital gains averaging alongside indexation reform, noting the reform may not address income bunching where gains are realised in a single year.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260519-860",
+      "timestamp": "2026-05-19T16:45:43.369Z",
+      "status": "needs_manual_review",
+      "status_reason": "Item count shrank from 23 to 11 in content/budget-updates.json"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
+      "description": "Treasury data reveals that more than half of capital gains on ASX 200 shares over the past 10 years were attributable to inflationary gains rather than real value creation, supporting the government's rationale for CGT indexation reform.",
+      "suggestion": "Add to budget-updates.json: Treasury data showing inflation accounts for 56% of ASX 200 share gains over the past decade provides quantitative backing for the government's CGT indexation approach, replacing the 50% discount with inflation-adjusted cost bases.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260519-262",
+      "timestamp": "2026-05-19T21:12:05.621Z",
+      "status": "needs_manual_review",
+      "status_reason": "Item count shrank from 23 to 10 in content/budget-updates.json"
     }
   ]
 }

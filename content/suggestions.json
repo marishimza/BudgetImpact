@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T16:15:44.033Z",
+  "lastUpdated": "2026-05-22T21:03:53.854Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1418,6 +1418,103 @@
     {
       "id": "suggestion-20260522-746",
       "timestamp": "2026-05-22T16:15:40.059Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "description": "Treasury analysis quantified that inflation accounted for 56% of ASX 200 share gains over the past decade, providing context for the CGT indexation reforms.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis quantified that inflation accounted for 56% of ASX 200 share gains over the past decade. This data underpins the government's rationale for replacing the flat 50% CGT discount with inflation indexation.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/australia-federal-budget-2026-tax-capital-gains-negative-gearing-housing-one-big-chart",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260522-409",
+      "timestamp": "2026-05-22T21:03:45.810Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2025-07-01/asx-200-gains-10-per-cent-over-financial-year-2025/105479398"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Senate refers Treasury Laws Amendment (More Housing, More Help) Bill 2026 to committee",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Senate has referred the Treasury Laws Amendment (More Housing, More Help) Bill 2026 to a parliamentary committee, which may delay implementation of negative gearing and CGT changes.",
+      "suggestion": "Add to budget-updates.json: The Senate has referred the Treasury Laws Amendment (More Housing, More Help) Bill 2026 to committee, with scrutiny scheduled for 25-26 May 2026 across Infrastructure, Transport, Regional Development and other portfolios.",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Senate_estimates/rrat/2026-27_Budget_estimates",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260522-525",
+      "timestamp": "2026-05-22T21:03:45.810Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Trust tax treatment reform signals shift from income to asset taxation",
+      "description": "The Government has signaled plans to reform trust tax treatment, shifting the burden from taxing incomes to taxing assets, as part of broader tax reform alongside CGT and negative gearing changes.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform flagged — the Government has indicated plans to shift the tax burden from income to assets as part of broader tax reform.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260522-321",
+      "timestamp": "2026-05-22T21:03:45.810Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Short-term property price impact: slump vs brief correction",
+      "description": "Credible sources offer conflicting predictions about the severity and nature of housing price movements following the 2026 Budget tax reforms. The Guardian reports economists believe 'home values are set for their first national slump since 2022,' while also noting 'Australia's persistent housing shortage means any fall would be short term.' Other sources suggest different assessments of whether this represents a significant slump or merely a brief correction, with implications for policy effectiveness and market intervention timing.",
+      "suggestion": "Add to debates.json: The Guardian reports economists project 'a national slump' for housing prices but call it 'short term.' Meanwhile CBA's housing outlook analysis suggests the changes are 'designed to reduce investor demand for existing housing stock' - implying measurable downward pressure. Other economic analyses may forecast different magnitudes and durations of price impacts.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260522-468",
+      "timestamp": "2026-05-22T21:03:45.810Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "The REIA President publicly states the government's $2B infrastructure program is 'expected to enable around 65,000 additional homes.' This specific projection conflicts with skepticism about whether infrastructure spending directly translates to housing completions, given construction timelines, local approval processes, and whether infrastructure is truly the binding constraint on housing supply.",
+      "suggestion": "Add to debates.json: view_a from API Magazine/REIA says the $2B infrastructure initiative will 'enable around 65,000 additional homes.' view_b from housing economists or industry critics may question whether infrastructure funding (rather than planning reform, labour, or materials) is the actual constraint, suggesting the figure is optimistic or conflates infrastructure spending with housing completions.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260522-439",
+      "timestamp": "2026-05-22T21:03:45.810Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources use 'minimum 30% tax rate' language without qualification. However, the ABC source clarifies it applies to 'real capital gains' (i.e., gains above inflation), not total nominal gains. This oversimplification could mislead investors into thinking all capital gains will be taxed at 30%, when in fact the inflation-adjusted portion may still receive favorable treatment.",
+      "suggestion": "Add to fact-checks.json: claim is partially_true, verdict is disputed because the 30% minimum applies to real (inflation-adjusted) capital gains, not necessarily all gains. Assets held for long periods with significant inflation may have their cost base indexed, meaning only gains above inflation face the 30% floor.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-property-shares/10475854",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260522-214",
+      "timestamp": "2026-05-22T21:03:45.810Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 super tax applies to balances over $3m'",
+      "description": "The ATO source mentions 'indexed thresholds' for Division 296 tax. The exact $3m figure may be a rounded approximation of the original threshold that adjusts annually with inflation. The claim oversimplifies the threshold as a fixed $3m when it may be indexed each year.",
+      "suggestion": "Add to fact-checks.json: claim needs clarification because the Division 296 threshold appears to be indexed annually. Verify whether the threshold is exactly $3m or an indexed figure for 2026-27 financial year.",
+      "source": "https://www.ato.gov.au/About-ATO/News-and-media/Media-releases/2026/Better-Targeted-Super-Concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260522-504",
+      "timestamp": "2026-05-22T21:03:45.810Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260522-815",
+      "timestamp": "2026-05-22T21:03:45.811Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

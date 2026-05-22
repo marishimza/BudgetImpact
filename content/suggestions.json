@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T07:40:39.369Z",
+  "lastUpdated": "2026-05-22T10:42:35.482Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1309,6 +1309,91 @@
     {
       "id": "suggestion-20260522-337",
       "timestamp": "2026-05-22T05:58:54.494Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis: Inflation accounts for 56% of ASX 200 share gains over decade",
+      "description": "Budget documents show investors in the Australian share market have been undercompensated for inflation impact. For ASX 200 shares held 10 years to March 2026, inflation made up 56% of asset price growth, supporting the rationale for CGT reform.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis quantifies inflation impact on ASX 200 share gains, showing 56% of asset price growth over 10 years was due to inflation",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260522-887",
+      "timestamp": "2026-05-22T10:42:25.759Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASA calls for capital gains averaging alongside indexation reform",
+      "description": "The Australian Shareholders' Association says indexation may not address income bunching where years of gains are realised in a single tax year. ASA is calling for any CGT reform to consider both indexation and a modern averaging mechanism, and would have preferred proper consultation before any major change was announced.",
+      "suggestion": "Add to budget-updates.json: ASA calls for capital gains averaging mechanism alongside indexation reform to address income bunching issues",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260522-554",
+      "timestamp": "2026-05-22T10:42:25.759Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "The government claims its $2 billion infrastructure initiative will enable approximately 65,000 additional homes. This is a specific quantitative claim that lacks independent verification - it appears to be the government's own projection rather than an independently assessed figure. Credible sources cite this number without confirming its methodology or feasibility.",
+      "suggestion": "Add to debates.json: REIA President Jacob Caine (via API Magazine) says the measure 'expected to enable around 65,000 additional homes' is 'positive and necessary.' However, this figure originates from the government's own budget projections without independent analysis of construction capacity, infrastructure bottlenecks, or feasibility from credible sources.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260522-663",
+      "timestamp": "2026-05-22T10:42:25.759Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Short-term housing price impact: slump vs brief correction",
+      "description": "Economists cited in The Guardian make conflicting predictions about the severity of housing price impacts from the negative gearing and CGT changes. One perspective expects a significant national slump (first since 2022), while another suggests any fall would be short-term due to persistent housing shortages. Both positions come from credible economic analysts but differ on whether the market impact will be substantial or mild.",
+      "suggestion": "Add to debates.json: The Guardian reports economists believe 'home values are set for their first national slump since 2022' due to CGT and negative gearing changes, while simultaneously noting 'Australia's persistent housing shortage means any fall would be short term' - creating an apparent contradiction between predicted severity and duration of price impacts.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260522-143",
+      "timestamp": "2026-05-22T10:42:25.759Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The claim omits critical nuance about how the 30% minimum tax works. The official budget.gov.au states 'a minimum 30 per cent tax on gains' but does not clarify this applies to gains after inflation indexation is applied. The actual tax payable depends on whether indexation produces a lower taxable gain than the 30% threshold. Media coverage often drops the 'minimum' qualifier and omits that gains are first adjusted for inflation, then taxed - potentially leading to an effective rate well below 30% for some assets.",
+      "suggestion": "Add to fact-checks.json: claim is 'all gains face exactly 30% minimum', verdict is disputed because the 30% applies to inflation-adjusted gains and may not represent the effective tax rate on the full capital gain.",
+      "source": "https://budget.gov.au/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260522-264",
+      "timestamp": "2026-05-22T10:42:25.759Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Negative gearing changes affect 'all' established property investors from 1 July 2027",
+      "description": "Multiple sources (williambuck.com, abc.net.au) confirm negative gearing is REMOVED for established properties purchased AFTER 7:30pm on 12 May 2026 (budget night). The phrase 'all established property investors' from 1 July 2027 is misleading because investors who purchased established properties before that deadline likely retain existing negative gearing rights (grandfathering). The policy specifically targets NEW purchases, not existing investor positions.",
+      "suggestion": "Add to fact-checks.json: claim is 'negative gearing removed for all established property investors', verdict is disputed because the removal applies to purchases after 7:30pm budget night; prior purchases may be grandfathered.",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260522-641",
+      "timestamp": "2026-05-22T10:42:25.759Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+    },
+    {
+      "id": "suggestion-20260522-983",
+      "timestamp": "2026-05-22T10:42:25.759Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

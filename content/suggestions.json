@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T05:33:55.918Z",
+  "lastUpdated": "2026-05-23T09:44:06.336Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1612,6 +1612,92 @@
     {
       "id": "suggestion-20260523-451",
       "timestamp": "2026-05-23T05:33:50.727Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Trust tax treatment reform flagged in Budget 2026",
+      "description": "The Government has indicated plans to reform trust tax treatment, shifting burden from income to assets. This is separate from CGT and negative gearing changes but signals broader tax reform direction.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform flagged — Government signals plan to shift burden from income to assets",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260523-910",
+      "timestamp": "2026-05-23T09:43:55.109Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Venture capital tax incentives expanded from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget 2026 includes expansion of venture capital tax incentives effective from July 2027, with new details on eligibility and investment thresholds.",
+      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expanded from July 2027 in budget measure",
+      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260523-971",
+      "timestamp": "2026-05-23T09:43:55.109Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
+      "description": "Budget analysis shows inflation comprised 56 per cent of asset price growth for ASX 200 shares held for 10 years to March 2026, providing data justification for CGT indexation reform.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260523-561",
+      "timestamp": "2026-05-23T09:43:55.109Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "Will CGT changes trigger a prolonged housing market slump or a brief correction?",
+      "description": "Economists and financial institutions are making conflicting forecasts about the property market impact of negative gearing and CGT reforms. One camp predicts a significant national slump in home values, while another suggests any price fall would be short-lived due to persistent housing shortage.",
+      "suggestion": "Add to debates.json: view_a from The Guardian (citing economists) says 'home values are set for their first national slump since 2022,' view_b from CBA/CommBank analysis suggests changes are designed to reduce demand while supply responses would limit downturn duration.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260523-910",
+      "timestamp": "2026-05-23T09:43:55.109Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-08/how-tax-reform-cgt-negative-gearing-changes-impacts-renters/106644610"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Capital gains will face a new 'minimum 30% tax rate' on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The budget.gov.au source describes replacing the 50% discount with inflation indexation and 'a minimum 30 per cent tax on gains from 1 July 2027.' However, media coverage frequently implies this applies universally to ALL capital gains. The official description suggests this minimum rate applies to the discounted/inflation-adjusted gains under the new system, not as a flat rate on all capital gains regardless of inflation adjustment. The 'minimum' qualifier suggests it's a floor within the new indexation framework, not a universal tax rate.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax on ALL gains applies universally', verdict is partially_true/disputed because the official budget description indicates this applies within the inflation-indexation framework for the discounted portion of gains, not as a blanket rate on all capital gains. The 30% appears to be the minimum tax rate applied to inflation-adjusted gains after the discount, not a universal rate.",
+      "source": "https://budget.gov.au/info/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260523-115",
+      "timestamp": "2026-05-23T09:43:55.109Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Negative gearing has been 'fully abolished' for all investors",
+      "description": "Multiple sources confirm negative gearing restrictions, but the William Buck and ABC sources clarify that the cutoff is specifically for 'established properties purchased after 7:30pm on 12 May 2026.' New property builds remain eligible for negative gearing. The claim of 'full abolition' misrepresents the policy as applying universally when it contains significant exemptions for new construction.",
+      "suggestion": "Add to fact-checks.json: claim is 'fully abolished for all investors', verdict is disputed because negative gearing restrictions apply only to established properties purchased after Budget Night (7:30pm, 12 May 2026). New builds remain eligible.",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026-negative-gearing",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260523-498",
+      "timestamp": "2026-05-23T09:43:55.109Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260523-851",
+      "timestamp": "2026-05-23T09:43:55.109Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T14:54:38.036Z",
+  "lastUpdated": "2026-05-23T20:39:52.545Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1783,6 +1783,91 @@
     {
       "id": "suggestion-20260523-164",
       "timestamp": "2026-05-23T14:54:32.219Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Budget 2026-27: Venture capital tax incentives expanded from July 2027",
+      "description": "The Budget includes expansion of venture capital tax incentives starting July 2027, complementing the broader shift from income taxation to asset taxation.",
+      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expanded from July 2027 in budget measure",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260523-489",
+      "timestamp": "2026-05-23T20:39:47.655Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis: Inflation accounts for 56% of ASX 200 share gains over decade",
+      "description": "Treasury analysis shows that inflation made up 56% of asset price growth for ASX 200 shares held for 10 years to March 2026, informing the rationale for CGT indexation reform.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis: inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260523-864",
+      "timestamp": "2026-05-23T20:39:47.655Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will restricting negative gearing to new builds increase or decrease rental supply?",
+      "description": "The REIA and Property Council of Australia predict that reducing investor incentives could decrease rental supply over time. However, the government and budget analysis claim the policy is designed to redirect capital toward new housing supply and reduce competition for established homes. These represent conflicting factual predictions about market outcomes.",
+      "suggestion": "Add to debates.json: view_a from REIA/Property Council (slateandsage.com.au) says reducing property investment attractiveness 'could reduce rental supply over time', view_b from budget.gov.au and commbank.com.au says the changes are 'designed to reshape incentives... directing capital toward new housing supply' and 'reduce competition for established homes'",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors; https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260523-774",
+      "timestamp": "2026-05-23T20:39:47.655Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will 2026 budget tax reforms cause a prolonged housing market slump or a brief correction?",
+      "description": "The Guardian reports economists forecasting 'the first national slump since 2022' with fear expected to weigh on property prices. However, other sources suggest any price fall would be short-term due to Australia's persistent housing shortage. These represent conflicting projections about market depth and duration.",
+      "suggestion": "Add to debates.json: view_a from The Guardian says 'economists believe home values are set for their first national slump since 2022', view_b from The Guardian (same article) notes 'Australia's persistent housing shortage means any fall would be short term'",
+      "source": "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260523-857",
+      "timestamp": "2026-05-23T20:39:47.655Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Division 296 super tax applies a 15% tax on all super balances over $3m'",
+      "description": "Multiple sources describe Division 296 as imposing a 15% tax on superannuation balances exceeding $3 million. However, the ATO clarifies this is incorrect—the 15% tax applies only to the 'earnings relating to your Total Superannuation Balance (TSB) that exceeds the Lump Sum Threshold (LSBT)', not to the entire balance over $3m. This is a significant oversimplification that could mislead high-balance super members about their actual tax liability.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all balances over $3m', verdict is disputed because the 15% tax only applies to the earnings/proportion exceeding the threshold, not the entire balance above $3m. The ATO and draft legislation confirm indexed thresholds and specify the tax applies to earnings above the LSBT.",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260523-431",
+      "timestamp": "2026-05-23T20:39:47.655Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Media frequently reports a 'minimum 30% tax rate' applying to all capital gains from July 2027. However, the budget.gov.au source indicates the 50% discount is being 'replaced by inflation indexation' with a minimum 30% tax on gains. This framing is ambiguous—the 'minimum 30%' may only apply to gains above inflation (i.e., real gains), not to nominal gains. Investors with gains below inflation might pay less or nothing, making the 'minimum on ALL gains' claim potentially misleading.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax rate on ALL capital gains', verdict is partially_true because the minimum applies to gains after indexation, and may only affect real gains above inflation. For assets where inflation equals or exceeds gains, the effective rate could be 0%. The 'minimum 30% on ALL gains' framing oversimplifies the indexation mechanism.",
+      "source": "https://budget.gov.au/2026-27/tax-reform",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260523-599",
+      "timestamp": "2026-05-23T20:39:47.655Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260523-258",
+      "timestamp": "2026-05-23T20:39:47.655Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

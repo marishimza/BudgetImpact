@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T09:44:06.336Z",
+  "lastUpdated": "2026-05-23T14:54:38.036Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1698,6 +1698,91 @@
     {
       "id": "suggestion-20260523-851",
       "timestamp": "2026-05-23T09:43:55.109Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis details CGT reform impact on ETF and Listed Investment Vehicle investors",
+      "description": "The ASX published an investor update analysing how the proposed CGT changes affect ETFs and Listed Investment Vehicles (LIVs), including practical implications for share market investors.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details CGT reform impact on ETF and Listed Investment Vehicle investors - The exchange's investor update examines how indexation and the 30% minimum tax floor apply to these investment vehicles, noting share market investors have been 'undercompensated' for inflation under current settings.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260523-111",
+      "timestamp": "2026-05-23T14:54:32.219Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Venture capital tax incentives expanded from July 2027 in budget measure",
+      "description": "Budget measure expands venture capital tax incentives, extending the program from 1 July 2027 as part of broader tax reform package.",
+      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expanded from July 2027 - Budget measure extends VC tax incentive program, part of the government's broader shift from taxing income to taxing assets.",
+      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260523-680",
+      "timestamp": "2026-05-23T14:54:32.219Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Foreign resident capital gains notification threshold remains at $50m",
+      "description": "Despite earlier expectations, foreign resident capital gains notification legislation has been deferred again, with the threshold remaining at $50 million.",
+      "suggestion": "Add to budget-updates.json: Foreign resident capital gains notification legislation deferred again - threshold stays at $50m; legislation not proceeding in this budget cycle despite earlier indications.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260523-283",
+      "timestamp": "2026-05-23T14:54:32.219Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the Coalition's pledge to repeal negative gearing and CGT changes affect investor behaviour and property market stability?",
+      "description": "The Coalition has vowed to repeal the negative gearing and CGT changes if elected, with Shadow Treasurer Tim Wilson stating they would 'look to repeal the changes' and Leader Angus Taylor labelling them 'toxic'. This creates a factual conflict about whether investors will act now on existing property (before July 2027 changes) to lock in current tax benefits, given uncertainty about whether the reforms will survive a change of government.",
+      "suggestion": "Add to debates.json: ABC News (May 13) reports the Coalition 'vows to fight' and 'will look to repeal the changes if necessary', while Budget.gov.au confirms changes take effect from 1 July 2027 with investors in new builds able to choose between 50% CGT discount or new arrangements. This creates a conflict about whether the policy uncertainty itself is causing investors to rush purchases now versus whether market actors are pricing in permanent reform.",
+      "source": "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260523-231",
+      "timestamp": "2026-05-23T14:54:32.219Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Division 296 super tax applies a 15% tax on all super balances over $3m'",
+      "description": "Multiple sources simplify Division 296 tax as applying a 15% rate to all superannuation balances above $3m. However, the official ATO source states the tax applies to 'the proportion of earnings relating to your TSB that exceeds the LSBT' (Low Balance Threshold). This means the 15% tax is on EARNINGS above the threshold, not the entire balance over $3m. This is a significant oversimplification that misrepresents the actual tax mechanics.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because the tax applies to earnings above the threshold, not the entire balance above $3m",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260523-868",
+      "timestamp": "2026-05-23T14:54:32.219Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget.gov.au states 'introduce a minimum 30 per cent tax on gains from 1 July 2027', but it's unclear whether this applies to ALL capital gains or only to gains above inflation after indexation is applied. The wording 'minimum 30%' suggests it's a floor rate, implying gains could still be adjusted for inflation first, potentially resulting in effective rates below 30% on real gains. The claim of 'ALL gains' being subject to this rate appears to oversimplify the interaction between indexation and the minimum rate.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax on ALL gains', verdict is partially_true because it appears to be a minimum floor rate that may apply after inflation indexation, not a 30% tax on gross gains",
+      "source": "https://budget.gov.au/tax-reform",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260523-374",
+      "timestamp": "2026-05-23T14:54:32.219Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260523-164",
+      "timestamp": "2026-05-23T14:54:32.219Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

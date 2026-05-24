@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T07:47:03.018Z",
+  "lastUpdated": "2026-05-24T11:11:41.536Z",
   "items": [
     {
       "id": "update-001",
@@ -229,6 +229,16 @@
       "title": "Budget confirms minimum 30% tax on capital gains from July 2027",
       "summary": "The official Budget website confirms the Government will introduce a minimum 30% tax on capital gains, replacing the 50% CGT discount with inflation-based indexation from 1 July 2027. This reform represents a significant shift in how capital gains are taxed in Australia, affecting investors and property owners. The change will apply to assets acquired after the implementation date.",
       "url": "https://budget.gov.au/content/04-tax-reform.htm",
+      "priority": "high"
+    },
+    {
+      "id": "update-024",
+      "date": "2026-05-13",
+      "tag": "ASX",
+      "source": "The Guardian",
+      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "summary": "Treasury analysis has quantified that inflation accounted for 56% of ASX 200 share gains over the past decade, providing crucial context for the government's proposed CGT indexation reforms. This data underpins the rationale for replacing the flat 50% CGT discount with inflation indexation, suggesting a significant portion of historical share price growth was illusory nominal appreciation rather than real returns.",
+      "url": "https://www.theguardian.com/australia-news/2026/may/13/australia-federal-budget-2026-tax-capital-gains-negative-gearing-housing-one-big-chart",
       "priority": "high"
     }
   ]

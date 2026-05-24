@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T20:39:52.545Z",
+  "lastUpdated": "2026-05-24T05:54:45.425Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1868,6 +1868,80 @@
     {
       "id": "suggestion-20260523-258",
       "timestamp": "2026-05-23T20:39:47.655Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes",
+      "description": "The ATO has released guidance confirming that investors holding shares acquired before 20 September 1985 can access a valuation reset to establish a new cost base ahead of the CGT discount reforms taking effect from 1 July 2027. This grandfathering arrangement allows legacy shareholders to potentially benefit from the new inflation-indexed cost base rules.",
+      "suggestion": "Add ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes",
+      "source": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-events-and-calculation-methods/cgt-events/creating-or-varying-a-cgt-coupon",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260524-531",
+      "timestamp": "2026-05-24T05:54:36.932Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis: Inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "description": "Treasury modelling has quantified that over the past decade, inflation accounted for 56% of total capital gains on ASX 200 shares. This data underpins the Government's rationale for replacing the flat 50% CGT discount with inflation indexation, arguing that investors should not pay tax on gains that merely compensate for inflation rather than real wealth creation.",
+      "suggestion": "Add Treasury analysis: Inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "source": "https://treasury.gov.au/review/review-of-the-australian-capital-gains-tax-regime",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260524-850",
+      "timestamp": "2026-05-24T05:54:36.932Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Senate refers Treasury Laws Amendment (More Housing, More Help) Bill 2026 to committee",
+      "description": "The Senate has referred the Treasury Laws Amendment (More Housing, More Help) Bill 2026 to a parliamentary committee for inquiry and report. This legislation contains the key negative gearing and CGT reforms. The referral means the legislation is still pending passage and subject to potential amendments through the parliamentary process.",
+      "suggestion": "Add Senate refers Treasury Laws Amendment (More Housing, More Help) Bill 2026 to committee",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Results?Number=eb52ba05-0db5-48c7-9c16-7f34b1b2d7f2",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260524-725",
+      "timestamp": "2026-05-24T05:54:36.932Z",
+      "status": "pending",
+      "corroborated_by": "https://treasury.gov.au/publication/p2026-744848"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will restricting negative gearing reduce or maintain rental supply?",
+      "description": "Property industry groups (REIA, Property Council) claim the reforms could reduce rental supply over time by making property investment less attractive. Community groups and housing advocates (ACOSS) counter that negative gearing 'added little to rental supply' historically, meaning the reforms won't meaningfully reduce rentals. This is a factual dispute about the causal relationship between negative gearing incentives and actual rental stock.",
+      "suggestion": "Add to debates.json: REIA and Property Council from slateandsage.com.au say reducing investment attractiveness 'could reduce rental supply over time', while Acoss policy director Jacqueline Phillips from theguardian.com says negative gearing 'added little to rental supply'",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors; https://www.theguardian.com/australia-news/2026/may/22/australia-negative-gearing-capital-gains-tax-housing-community-groups-urge-mps",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260524-434",
+      "timestamp": "2026-05-24T05:54:36.932Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources (ABC, ASX) describe the new minimum 30% tax as applying to 'all gains' or 'ALL gains' from July 2027. However, the official budget.gov.au states 'a minimum 30 per cent tax on gains' while abc.net.au's original reporting used the phrase 'real capital gains accruing' - suggesting the minimum applies to inflation-adjusted gains, not every dollar of gain. This is a significant distinction that could mislead taxpayers about their potential liability.",
+      "suggestion": "Add to fact-checks.json: claim is 'the minimum 30% applies to ALL capital gains', verdict is PARTIALLY_TRUE because the minimum 30% rate applies specifically to real (inflation-adjusted) capital gains, not to nominal gains. The inflation indexation adjustment reduces the taxable gain first, and then the minimum 30% floor applies to that reduced amount.",
+      "source": "https://www.budget.gov.au/tax-reform",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260524-877",
+      "timestamp": "2026-05-24T05:54:36.932Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax"
+    },
+    {
+      "id": "suggestion-20260524-254",
+      "timestamp": "2026-05-24T05:54:36.932Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T14:55:38.267Z",
+  "lastUpdated": "2026-05-24T20:43:23.887Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2042,74 +2042,93 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for investors",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ASX analysis details how CGT indexation versus minimum tax floor will create different outcomes for assets held long-term versus short-term, with transitional rules for assets purchased before 1 July 2027. Particularly relevant for Listed Investment Companies and ETFs with embedded gains.",
+      "suggestion": "Add to budget-updates.json: ASX investor update provides detailed breakdown of CGT reform impact on Listed Investment Vehicles and ETFs, explaining how the interaction between inflation indexation and 30% minimum tax creates different effective tax rates depending on holding period and asset type.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260524-632",
+      "timestamp": "2026-05-24T20:43:18.544Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Australian Shareholders Association calls for capital gains averaging alongside indexation",
+      "description": "ASA submission argues that inflation indexation alone doesn't address income bunching where multi-year gains are realised in a single tax year, calling for averaging mechanism to complement the proposed CGT reforms.",
+      "suggestion": "Add to budget-updates.json: Australian Shareholders Association formally calls on Treasury to include capital gains averaging mechanism alongside indexation reform, warning that without averaging, investors who hold assets for many years face cumulative tax disadvantage when realising gains.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260524-561",
+      "timestamp": "2026-05-24T20:43:18.544Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Guardian analysis: CGT concession benefits concentrated among top 1% of income earners",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Guardian reports that Treasury and ATO data shows the capital gains tax discount disproportionately benefits the highest income earners, with the top 1% capturing a significant share of the $55 billion annual concession.",
+      "suggestion": "Add to budget-updates.json: Guardian analysis details distributional impact of current CGT arrangements, citing data showing the 50% discount primarily benefits top income earners and questioning whether proposed reforms adequately address inequality or simply shift the burden.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260524-159",
+      "timestamp": "2026-05-24T20:43:18.544Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
+      "description": "Property industry groups predict reduced rental supply from the changes, while CommBank analysis suggests the policy design preserves rental supply by incentivizing new builds. This is a factual disagreement about predicted market outcomes, not just differing opinions.",
+      "suggestion": "Add to debates.json: REIA and Property Council of Australia (slateandsage.com.au) claim reducing property investment attractiveness 'could reduce rental supply over time', while CommBank (commbank.com.au) states the changes 'reduce investor demand for existing housing stock while preserving tax support for investment in new supply'",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors; https://www.commbank.com.au/articles/newsroom/2026/05/2026-budget-updated-housing-outlook.html",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260524-768",
+      "timestamp": "2026-05-24T20:43:18.544Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the CGT discount being replaced, eliminated, or preserved with a choice?",
+      "description": "Budget.gov.au states investors can 'choose' the 50% CGT discount or new arrangements, while multiple other sources describe the discount being 'replaced' or 'eliminated'. This is a factual conflict about what the policy actually does.",
+      "suggestion": "Add to debates.json: budget.gov.au says investors in new builds 'will be able to choose the 50% CGT discount or the new arrangements', while ABC, Guardian, and other sources describe the discount being replaced or eliminated entirely",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260524-592",
+      "timestamp": "2026-05-24T20:43:18.544Z",
+      "status": "pending"
+    },
     {
       "type": "fact_check",
       "priority": "medium",
-      "title": "Claim: New minimum 30% tax rate on capital gains from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Headlines frequently cite a '30% minimum tax rate on capital gains' without clarifying this applies to real gains (after inflation indexation), not nominal gains. The budget.gov.au specifies 'minimum 30 per cent tax on gains from 1 July 2027' but this represents the floor rate on actual capital gains after accounting for inflation. Someone paying tax on a $100,000 gain might pay 30% on $40,000 (real gain) rather than on $100,000. The headline rate can be misleading.",
-      "suggestion": "Add to fact-checks.json: claim is 30% minimum CGT rate applies to all gains, verdict is partially_true because the 30% minimum applies to real capital gains (after inflation adjustment), not nominal gains. The effective tax on nominal gains may be significantly lower depending on inflation and holding period.",
-      "source": "https://www.budget.gov.au/tax-reform",
+      "title": "Claim: 'Division 296 super tax applies a 15% tax on all super balances over $3m'",
+      "description": "Multiple sources reference Division 296 tax on super balances over $3m, but at least one source specifically states a '15% tax on all super balances over $3m'. This phrasing could be inaccurate because: (1) Division 296 taxes superannuation *earnings*, not the balance itself; (2) The $3m threshold applies to Total Superannuation Balance (TSB), not all accounts over $3m. The actual tax structure and rate needs verification against official legislation.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on balances over $3m', verdict is disputed because Division 296 taxes earnings not balances, and the $3m threshold is based on total superannuation balance rather than applying a blanket 15% rate to all accounts above that threshold.",
+      "source": "https://www.bdo.com.au/understanding-new-division-296-tax-changes",
       "implementation_effort": "30_minutes",
-      "id": "suggestion-20260517-923",
-      "timestamp": "2026-05-17T14:45:19.051Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-17T16:52:02.527Z"
+      "id": "suggestion-20260524-793",
+      "timestamp": "2026-05-24T20:43:18.544Z",
+      "status": "pending"
     },
     {
-      "id": "suggestion-20260517-706",
-      "timestamp": "2026-05-17T14:23:36.653Z",
-      "status": "implemented",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Foreign residents must notify ATO before selling Australian assets over $50m",
-      "description": "Foreign residents disposing of Australian shares and membership interests exceeding $50m in value must notify the ATO before executing the transaction. Commencement has been deferred until enabling legislation passes Parliament.",
-      "suggestion": "Add to budget-updates.json: Foreign resident notification requirement with $50m threshold and note that commencement depends on legislation passing.",
-      "source": "https://www.grantthornton.com.au/insights/federal-budget-2026-27",
-      "implementation_effort": "10_minutes",
-      "implemented_at": "2026-05-17T16:52:32.399Z"
-    },
-    {
-      "id": "suggestion-20260517-686",
-      "timestamp": "2026-05-17T14:23:36.653Z",
-      "status": "implemented",
-      "priority": "medium",
-      "type": "faq_update",
-      "title": "How does inflation indexation affect CGT calculation?",
-      "description": "The 50% CGT discount will be replaced with inflation-based indexation. The Australian Shareholders Association notes this may not address 'income bunching' where gains accumulated over many years are realised in a single tax year, and is calling for an averaging mechanism.",
-      "suggestion": "Add FAQ: Explain how inflation indexation works for CGT, what it means vs the 50% discount, and mention the potential 'bunching' issue for assets held for long periods.",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
-      "implementation_effort": "20_minutes",
-      "implemented_at": "2026-05-17T16:52:49.038Z"
-    },
-    {
-      "id": "suggestion-20260517-513",
-      "timestamp": "2026-05-17T14:23:36.653Z",
-      "status": "implemented",
+      "id": "suggestion-20260524-673",
+      "timestamp": "2026-05-24T20:43:18.544Z",
+      "status": "pending",
       "priority": "medium",
       "type": "timeline_update",
-      "title": "Foreign resident ATO notification deferred until legislation passes",
-      "description": "The foreign resident $50m notification requirement has no fixed start date — commencement is deferred until the enabling legislation is passed by Parliament.",
-      "suggestion": "Add to timeline.json: Note that foreign resident notification requirement has no fixed date, contingent on legislation passing.",
-      "source": "https://www.grantthornton.com.au/insights/federal-budget-2026-27",
-      "implementation_effort": "5_minutes",
-      "implemented_at": "2026-05-17T16:53:01.089Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Listed Investment Vehicles: CGT changes and ETF implications explained",
-      "description": "ASX analysis confirms proposed CGT reforms extend to Listed Investment Companies (LICs) and ETFs, with the article examining investment implications across share, ETF, and Listed Investment Vehicle investments.",
-      "suggestion": "Add to budget-updates.json: LICs and ETFs included in CGT reform scope — ASX investor update details portfolio implications",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "20_minutes",
-      "id": "suggestion-20260517-420",
-      "timestamp": "2026-05-17T14:45:19.051Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-17T16:53:57.518Z"
-    },
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "high",

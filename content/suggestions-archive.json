@@ -130,6 +130,71 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return valid JSON",
       "implemented_at": "2026-05-17T14:50:14.969Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: New minimum 30% tax rate on capital gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Headlines frequently cite a '30% minimum tax rate on capital gains' without clarifying this applies to real gains (after inflation indexation), not nominal gains. The budget.gov.au specifies 'minimum 30 per cent tax on gains from 1 July 2027' but this represents the floor rate on actual capital gains after accounting for inflation. Someone paying tax on a $100,000 gain might pay 30% on $40,000 (real gain) rather than on $100,000. The headline rate can be misleading.",
+      "suggestion": "Add to fact-checks.json: claim is 30% minimum CGT rate applies to all gains, verdict is partially_true because the 30% minimum applies to real capital gains (after inflation adjustment), not nominal gains. The effective tax on nominal gains may be significantly lower depending on inflation and holding period.",
+      "source": "https://www.budget.gov.au/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260517-923",
+      "timestamp": "2026-05-17T14:45:19.051Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-17T16:52:02.527Z"
+    },
+    {
+      "id": "suggestion-20260517-706",
+      "timestamp": "2026-05-17T14:23:36.653Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Foreign residents must notify ATO before selling Australian assets over $50m",
+      "description": "Foreign residents disposing of Australian shares and membership interests exceeding $50m in value must notify the ATO before executing the transaction. Commencement has been deferred until enabling legislation passes Parliament.",
+      "suggestion": "Add to budget-updates.json: Foreign resident notification requirement with $50m threshold and note that commencement depends on legislation passing.",
+      "source": "https://www.grantthornton.com.au/insights/federal-budget-2026-27",
+      "implementation_effort": "10_minutes",
+      "implemented_at": "2026-05-17T16:52:32.399Z"
+    },
+    {
+      "id": "suggestion-20260517-686",
+      "timestamp": "2026-05-17T14:23:36.653Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "faq_update",
+      "title": "How does inflation indexation affect CGT calculation?",
+      "description": "The 50% CGT discount will be replaced with inflation-based indexation. The Australian Shareholders Association notes this may not address 'income bunching' where gains accumulated over many years are realised in a single tax year, and is calling for an averaging mechanism.",
+      "suggestion": "Add FAQ: Explain how inflation indexation works for CGT, what it means vs the 50% discount, and mention the potential 'bunching' issue for assets held for long periods.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "implementation_effort": "20_minutes",
+      "implemented_at": "2026-05-17T16:52:49.038Z"
+    },
+    {
+      "id": "suggestion-20260517-513",
+      "timestamp": "2026-05-17T14:23:36.653Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Foreign resident ATO notification deferred until legislation passes",
+      "description": "The foreign resident $50m notification requirement has no fixed start date — commencement is deferred until the enabling legislation is passed by Parliament.",
+      "suggestion": "Add to timeline.json: Note that foreign resident notification requirement has no fixed date, contingent on legislation passing.",
+      "source": "https://www.grantthornton.com.au/insights/federal-budget-2026-27",
+      "implementation_effort": "5_minutes",
+      "implemented_at": "2026-05-17T16:53:01.089Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Listed Investment Vehicles: CGT changes and ETF implications explained",
+      "description": "ASX analysis confirms proposed CGT reforms extend to Listed Investment Companies (LICs) and ETFs, with the article examining investment implications across share, ETF, and Listed Investment Vehicle investments.",
+      "suggestion": "Add to budget-updates.json: LICs and ETFs included in CGT reform scope — ASX investor update details portfolio implications",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260517-420",
+      "timestamp": "2026-05-17T14:45:19.051Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-17T16:53:57.518Z"
     }
   ]
 }

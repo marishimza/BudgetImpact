@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T05:54:45.425Z",
+  "lastUpdated": "2026-05-24T09:48:31.540Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1942,6 +1942,103 @@
     {
       "id": "suggestion-20260524-254",
       "timestamp": "2026-05-24T05:54:36.932Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ABC analysis: CGT changes could shift investment from property to shares",
+      "description": "The ABC reports that capital gains tax changes may redirect investment away from property toward shares, as the current flat 50% discount is replaced with inflation-based indexation and a minimum 30% tax on real gains from July 2027.",
+      "suggestion": "Add to budget-updates.json: ABC analysis suggests CGT reform may drive investment shift from property to shares, as the 50% discount is replaced by inflation indexation and a minimum 30% tax on real capital gains.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260524-524",
+      "timestamp": "2026-05-24T09:48:26.399Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "William Buck: Federal Budget introduces significant reforms to negative gearing",
+      "description": "Accounting firm William Buck confirms negative gearing reforms restrict access to tax benefits from 1 July 2027 for established properties purchased after 7:30pm on budget night (12 May 2026), with new builds remaining exempt.",
+      "suggestion": "Add to budget-updates.json: William Buck analysis confirms negative gearing changes remove tax benefits from 1 July 2027 for established properties purchased after 7:30pm on 12 May 2026, with newly built homes remaining eligible.",
+      "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260524-821",
+      "timestamp": "2026-05-24T09:48:26.399Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "low",
+      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
+      "description": "Treasury analysis underpinning budget CGT reforms indicates that inflation has accounted for 56% of ASX 200 share gains over the past decade, providing context for the shift from flat CGT discount to inflation indexation.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over the past decade, supporting the case for replacing the flat 50% CGT discount with inflation-based indexation.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260524-806",
+      "timestamp": "2026-05-24T09:48:26.399Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will restricting negative gearing reduce or increase rental supply?",
+      "description": "Property industry groups (REIA, Property Council) warn that reducing investment attractiveness could reduce rental supply over time, while housing advocates (ACOSS) and the government claim negative gearing added little to rental supply and the changes will focus support on new supply. This is a core factual disagreement about whether the policy will improve or worsen rental availability.",
+      "suggestion": "Add to debates.json: Property industry (REIA/Property Council via slateandsage.com.au) says 'reducing attractiveness of residential property investment could reduce rental supply over time' vs ACOSS/government position (via theguardian.com) that negative gearing 'added little to rental supply' and changes are designed to increase supply by focusing on new builds.",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260524-256",
+      "timestamp": "2026-05-24T09:48:26.399Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the CGT discount being replaced, eliminated, or preserved with a choice?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The government Budget website states investors in new builds will be able to 'choose' between the 50% CGT discount or the new arrangements, implying preservation with choice. However, multiple media reports describe it as the discount being 'replaced' or eliminated for established properties. This is a factual conflict about what the policy actually does.",
+      "suggestion": "Add to debates.json: Budget.gov.au says investors 'will be able to choose the 50 per cent CGT discount or the new arrangements' (preserving choice) vs ABC News (abc.net.au) and other sources reporting it as restrictions that 'break promise' and eliminate/replace the discount for established properties.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260524-548",
+      "timestamp": "2026-05-24T09:48:26.399Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources quote the 30% minimum tax rate but conflict on whether it applies to ALL capital gains or only to real (inflation-adjusted) gains above inflation. The ABC states it applies to 'real capital gains' while budget.gov.au states it simply as 'minimum 30 per cent tax on gains'. This is a critical distinction that could mislead investors about their actual tax liability.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% applies to all gains', verdict is disputed because the policy specifies minimum 30% on real capital gains (gains above inflation), not total gains before indexation. The tax effectively starts at the individual's marginal rate or 30%, whichever is greater.",
+      "source": "https://www.budget.gov.au/Budget-2026-27/Tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260524-539",
+      "timestamp": "2026-05-24T09:48:26.399Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 super tax applies a 15% tax on all super balances over $3m'",
+      "description": "Wikipedia mentions an 'additional 40% tax rate' for balances higher than $10 million, suggesting Division 296 has tiered rates. However, ATO sources only mention 15% on earnings above the $3m threshold. This creates confusion about whether the 40% is a separate policy or a misquote of the effective combined rate.",
+      "suggestion": "Add to fact-checks.json: claim is 'Division 296 applies 15% flat rate on all balances over $3m', verdict is partially_true because the 15% applies to earnings on the amount exceeding $3m threshold only, not the entire balance. Some sources also reference a 40% rate for extremely high balances ($10m+) which may represent combined marginal effects or a separate measure not yet law.",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260524-147",
+      "timestamp": "2026-05-24T09:48:26.399Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260524-224",
+      "timestamp": "2026-05-24T09:48:26.399Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

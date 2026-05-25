@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T08:19:03.790Z",
+  "lastUpdated": "2026-05-25T11:43:35.675Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2159,77 +2159,106 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
+    },
     {
       "type": "content_update",
-      "priority": "high",
-      "title": "Division 296 super tax now law — ATO confirms 1 July 2026 commencement",
-      "description": "The ATO has confirmed that Division 296 (the $3m+ super balance tax) is now law and will commence from 1 July 2026. Individuals with a total superannuation balance exceeding $3m will be subject to an additional 15% tax on earnings related to the amount exceeding the threshold.",
-      "suggestion": "Add to budget-updates.json: Confirm Division 296 (Better Targeted Super Concessions) is law and commencing 1 July 2026 per ATO official guidance. Include link to ATO page for affected SMSF trustees and high-balance account holders.",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "medium",
+      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for investors",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ASX analysis identifies that CGT reforms create differential tax treatment between investors who bought before vs. after budget night, with transitional rules creating distinct outcomes for property and share investors.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details how CGT reform creates 'two-speed' tax treatment, with pre-budget investors retaining current CGT discount rules while post-budget investors face minimum 30% tax on inflation-adjusted gains from July 2027.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260518-102",
-      "timestamp": "2026-05-18T06:05:26.603Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implemented_at": "2026-05-18T07:58:44.043Z"
+      "id": "suggestion-20260525-124",
+      "timestamp": "2026-05-25T11:43:29.000Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Guardian analysis: CGT concession benefits concentrated among top 1% of income earners",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Guardian analysis finds that capital gains tax concessions disproportionately benefit the highest income earners, with the CGT discount concentrated among the top 1% of income earners in Australia.",
+      "suggestion": "Add to budget-updates.json: Guardian analysis reports that CGT concessions are concentrated among the top 1% of income earners, providing context on who benefits most from the current tax arrangements being reformed.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260525-690",
+      "timestamp": "2026-05-25T11:43:29.000Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Economists warn 30% minimum CGT floor will push retirees into higher tax brackets",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Economic analysis warns that the new minimum 30% tax on capital gains will affect retirees who realise property gains, potentially pushing some into higher effective tax brackets when combining superannuation drawdowns with capital gains.",
+      "suggestion": "Add to budget-updates.json: Economists warn that the 30% minimum CGT floor may push retirees into higher tax brackets, particularly those who combine superannuation drawdowns with property sales under the new rules from July 2027.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260525-255",
+      "timestamp": "2026-05-25T11:43:29.000Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the 2026 negative gearing and CGT reforms cause a prolonged property price slump or a brief correction?",
+      "description": "The Guardian reports economists forecast Australia's first national property price slump since 2022, with some linking this to budget tax changes weighing on sentiment. However, other analysis suggests any fall would be short-term due to persistent housing shortages. This conflict involves competing economic forecasts about the scale and duration of property market impacts.",
+      "suggestion": "Add to debates.json: The Guardian reports economists believe 'home values are set for their first national slump since 2022' with fear weighing on property prices. Meanwhile, other analysis suggests Australia's 'persistent housing shortage means any fall would be short term' - implying a brief correction rather than prolonged slump. These represent conflicting short-term price forecasts from credible sources.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260525-381",
+      "timestamp": "2026-05-25T11:43:29.000Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Are Labor's negative gearing and CGT changes a 'broken promise' or legitimate policy evolution?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Coalition (led by Shadow Treasurer Tim Wilson and Opposition Leader Angus Taylor) has labelled the changes 'toxic' and pledged to repeal them, framing it as a breach of trust. The Government frames the restrictions as calculated policy reform responding to housing affordability concerns. This conflict involves whether changed economic conditions and housing crisis severity justify reversing a previous electoral commitment.",
+      "suggestion": "Add to debates.json: The Coalition (via The Guardian, ABC) labels the changes 'toxic' and a 'broken promise' - Shadow Treasurer Tim Wilson said the Coalition would 'seek to defeat' and 'repeal these measures if necessary', framing it as 'broken trust built on bad faith'. Meanwhile, ABC and Government sources frame it as 'calculated' reform acknowledging that the popularity of curbing negative gearing will be 'worth the damage to trust' - suggesting changed circumstances justify the policy shift.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260525-725",
+      "timestamp": "2026-05-25T11:43:29.000Z",
+      "status": "pending"
     },
     {
       "type": "fact_check",
       "priority": "high",
-      "title": "Claim: Budget measure costs $6.4 billion over four years",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ABC reports a budget measure costs $6.4 billion over four years, but doesn't specify which measure. Could be misattributed if referring to combined CGT/negative gearing reforms rather than a specific policy.",
-      "suggestion": "Add to fact-checks.json: claim is [specific measure name and $6.4b cost], verdict is unclear because ABC article doesn't identify which specific measure the $6.4b figure refers to, requiring clarification from budget.gov.au documentation.",
-      "source": "https://www.abc.net.au/news/2026-05-13/federal-budget-2026-winners-and-losers/10450446",
+      "title": "Claim: Capital gains will face a new 'minimum 30% tax rate on ALL gains' from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources state this as a blanket rule, but official budget.gov.au says the discount will be 'replaced by an inflation-based discount' with a 'minimum 30% tax on gains'. This phrasing suggests ALL gains face a flat 30% minimum, but the minimum rate may only apply to the gain above inflation-adjusted costs. New builds have exemptions. The actual mechanism appears more nuanced than '30% on ALL gains'.",
+      "suggestion": "Add to fact-checks.json: claim is 'all capital gains face minimum 30% tax', verdict is partially_true because the 30% minimum applies to gains after inflation indexation (net gains), not as a floor rate on gross gains, and new builds have exemptions.",
+      "source": "https://www.budget.gov.au/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260525-382",
+      "timestamp": "2026-05-25T11:43:29.000Z",
+      "status": "pending",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Division 296 super tax applies a '15% tax on all super balances over $3m'",
+      "description": "Common media simplification describes this as 15% on the entire balance above $3m. However, ATO's official guidance states '15% on the proportion of earnings relating to your total superannuation balance (TSB) that exceeds the Low Balance Threshold (LSBT)'. This is fundamentally different - it's 15% on earnings attributable to amounts above the threshold, not 15% of the excess balance.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super over $3m', verdict is partially_true because the 15% applies to earnings on the excess amount, not to the excess balance itself.",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions",
       "implementation_effort": "20_minutes",
-      "id": "suggestion-20260517-316",
-      "timestamp": "2026-05-17T20:39:47.157Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966",
-      "implemented_at": "2026-05-18T07:59:30.938Z"
+      "id": "suggestion-20260525-698",
+      "timestamp": "2026-05-25T11:43:29.000Z",
+      "status": "pending"
     },
     {
-      "id": "suggestion-20260517-198",
-      "timestamp": "2026-05-17T20:39:47.157Z",
-      "status": "implemented",
+      "id": "suggestion-20260525-563",
+      "timestamp": "2026-05-25T11:43:29.000Z",
+      "status": "pending",
       "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
-      "implementation_effort": "15_minutes",
-      "implemented_at": "2026-05-18T08:01:20.951Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Division 296 draft legislation includes CGT relief for SMSF restructuring",
-      "description": "Treasury has released draft legislation for Division 296 that includes CGT relief provisions for SMSFs undergoing restructuring. The legislation addresses indexed thresholds and specific rules SMSFs must consider before the 1 July commencement date.",
-      "suggestion": "Add to budget-updates.json: Note that Division 296 draft legislation includes CGT relief mechanisms for SMSFs undertaking restructuring to comply with new rules. Reference Heffron's technical analysis of the draft legislation.",
-      "source": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260518-100",
-      "timestamp": "2026-05-18T06:05:26.603Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-18T08:03:13.432Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Foreign resident capital gains notification deferred again — legislation pending",
-      "description": "The government has again deferred the commencement date for provisions requiring foreign residents disposing of shares and membership interests exceeding $50m to notify the ATO before executing transactions. Legislation remains pending parliamentary passage.",
-      "suggestion": "Add to budget-updates.json: Update 'Foreign Resident Notification Legislation Pending' status. Legislation has been deferred again until passed by Parliament. Note this is a recurring deferral per Grant Thornton analysis.",
-      "source": "https://www.grantthornton.com.au/insights/federal-budget-2026-27/",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260518-529",
-      "timestamp": "2026-05-18T06:05:26.603Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/foreign-residents-and-capital-gains-tax/foreign-resident-capital-gains-withholding",
-      "implemented_at": "2026-05-18T08:04:04.860Z"
-    },
+      "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "high",

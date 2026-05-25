@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T06:18:04.025Z",
+  "lastUpdated": "2026-05-25T08:19:03.790Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -632,18 +632,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASA calls for capital gains averaging mechanism alongside indexation",
-      "description": "The Australian Shareholders Association has raised concerns that indexation alone may not address income bunching where gains accumulated over many years are realised in a single tax year. ASA is calling for a modern averaging mechanism to complement the CGT indexation changes and has criticised the lack of consultation before the announcement.",
-      "suggestion": "Add to budget-updates.json: ASA calls for capital gains averaging mechanism alongside indexation",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260520-383",
-      "timestamp": "2026-05-20T10:42:49.570Z",
-      "status": "pending"
     },
     {
       "type": "content_update",
@@ -1681,19 +1669,6 @@
     },
     {
       "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Division 296 super tax applies a 15% tax on all super balances over $3m'",
-      "description": "Multiple sources simplify Division 296 tax as applying a 15% rate to all superannuation balances above $3m. However, the official ATO source states the tax applies to 'the proportion of earnings relating to your TSB that exceeds the LSBT' (Low Balance Threshold). This means the 15% tax is on EARNINGS above the threshold, not the entire balance over $3m. This is a significant oversimplification that misrepresents the actual tax mechanics.",
-      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because the tax applies to earnings above the threshold, not the entire balance above $3m",
-      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260523-868",
-      "timestamp": "2026-05-23T14:54:32.219Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
-    },
-    {
-      "type": "fact_check",
       "priority": "medium",
       "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
       "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget.gov.au states 'introduce a minimum 30 per cent tax on gains from 1 July 2027', but it's unclear whether this applies to ALL capital gains or only to gains above inflation after indexation is applied. The wording 'minimum 30%' suggests it's a floor rate, implying gains could still be adjusted for inflation first, potentially resulting in effective rates below 30% on real gains. The claim of 'ALL gains' being subject to this rate appears to oversimplify the interaction between indexation and the minimum rate.",
@@ -1763,19 +1738,6 @@
       "id": "suggestion-20260523-857",
       "timestamp": "2026-05-23T20:39:47.655Z",
       "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Division 296 super tax applies a 15% tax on all super balances over $3m'",
-      "description": "Multiple sources describe Division 296 as imposing a 15% tax on superannuation balances exceeding $3 million. However, the ATO clarifies this is incorrect—the 15% tax applies only to the 'earnings relating to your Total Superannuation Balance (TSB) that exceeds the Lump Sum Threshold (LSBT)', not to the entire balance over $3m. This is a significant oversimplification that could mislead high-balance super members about their actual tax liability.",
-      "suggestion": "Add to fact-checks.json: claim is '15% tax on all balances over $3m', verdict is disputed because the 15% tax only applies to the earnings/proportion exceeding the threshold, not the entire balance above $3m. The ATO and draft legislation confirm indexed thresholds and specify the tax applies to earnings above the LSBT.",
-      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260523-431",
-      "timestamp": "2026-05-23T20:39:47.655Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
     },
     {
       "type": "fact_check",
@@ -1921,19 +1883,6 @@
       "id": "suggestion-20260524-548",
       "timestamp": "2026-05-24T09:48:26.399Z",
       "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources quote the 30% minimum tax rate but conflict on whether it applies to ALL capital gains or only to real (inflation-adjusted) gains above inflation. The ABC states it applies to 'real capital gains' while budget.gov.au states it simply as 'minimum 30 per cent tax on gains'. This is a critical distinction that could mislead investors about their actual tax liability.",
-      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% applies to all gains', verdict is disputed because the policy specifies minimum 30% on real capital gains (gains above inflation), not total gains before indexation. The tax effectively starts at the individual's marginal rate or 30%, whichever is greater.",
-      "source": "https://www.budget.gov.au/Budget-2026-27/Tax-reform",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260524-539",
-      "timestamp": "2026-05-24T09:48:26.399Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
     },
     {
       "type": "fact_check",
@@ -2126,19 +2075,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Treasury quantification: Inflation accounts for 56% of ASX 200 share gains over decade",
-      "description": "Treasury analysis quantifies the proportion of ASX 200 capital gains attributable to inflation over the past 10 years, providing context for the inflation-indexation CGT reform approach.",
-      "suggestion": "Add Treasury analysis finding: inflation accounts for 56% of ASX 200 share gains over the past decade, providing the analytical basis for replacing the 50% CGT discount with inflation indexation.",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260525-438",
-      "timestamp": "2026-05-25T06:17:57.276Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/news/2025-07-01/asx-200-gains-10-per-cent-over-financial-year-2025/105479398"
     },
     {
       "type": "content_update",
@@ -2622,6 +2558,20 @@
       "status": "implemented",
       "corroborated_by": "https://www.abc.net.au/news/2025-07-01/asx-200-gains-10-per-cent-over-financial-year-2025/105479398",
       "implemented_at": "2026-05-24T11:11:48.927Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Division 296 super tax applies a 15% tax on all super balances over $3m'",
+      "description": "Multiple sources describe Division 296 as imposing a 15% tax on superannuation balances exceeding $3 million. However, the ATO clarifies this is incorrect—the 15% tax applies only to the 'earnings relating to your Total Superannuation Balance (TSB) that exceeds the Lump Sum Threshold (LSBT)', not to the entire balance over $3m. This is a significant oversimplification that could mislead high-balance super members about their actual tax liability.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all balances over $3m', verdict is disputed because the 15% tax only applies to the earnings/proportion exceeding the threshold, not the entire balance above $3m. The ATO and draft legislation confirm indexed thresholds and specify the tax applies to earnings above the LSBT.",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260523-431",
+      "timestamp": "2026-05-23T20:39:47.655Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-05-25T08:17:31.429Z"
     }
   ],
   "skipped": [
@@ -3271,6 +3221,61 @@
       "status": "needs_manual_review",
       "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
       "status_reason": "Item count shrank from 9 to 8 in content/fact-checks.json"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury quantification: Inflation accounts for 56% of ASX 200 share gains over decade",
+      "description": "Treasury analysis quantifies the proportion of ASX 200 capital gains attributable to inflation over the past 10 years, providing context for the inflation-indexation CGT reform approach.",
+      "suggestion": "Add Treasury analysis finding: inflation accounts for 56% of ASX 200 share gains over the past decade, providing the analytical basis for replacing the 50% CGT discount with inflation indexation.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260525-438",
+      "timestamp": "2026-05-25T06:17:57.276Z",
+      "status": "needs_manual_review",
+      "corroborated_by": "https://www.abc.net.au/news/2025-07-01/asx-200-gains-10-per-cent-over-financial-year-2025/105479398",
+      "status_reason": "Item count shrank from 24 to 12 in content/budget-updates.json"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Division 296 super tax applies a 15% tax on all super balances over $3m'",
+      "description": "Multiple sources simplify Division 296 tax as applying a 15% rate to all superannuation balances above $3m. However, the official ATO source states the tax applies to 'the proportion of earnings relating to your TSB that exceeds the LSBT' (Low Balance Threshold). This means the 15% tax is on EARNINGS above the threshold, not the entire balance over $3m. This is a significant oversimplification that misrepresents the actual tax mechanics.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because the tax applies to earnings above the threshold, not the entire balance above $3m",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260523-868",
+      "timestamp": "2026-05-23T14:54:32.219Z",
+      "status": "needs_manual_review",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "status_reason": "Item count shrank from 9 to 6 in content/fact-checks.json"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources quote the 30% minimum tax rate but conflict on whether it applies to ALL capital gains or only to real (inflation-adjusted) gains above inflation. The ABC states it applies to 'real capital gains' while budget.gov.au states it simply as 'minimum 30 per cent tax on gains'. This is a critical distinction that could mislead investors about their actual tax liability.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% applies to all gains', verdict is disputed because the policy specifies minimum 30% on real capital gains (gains above inflation), not total gains before indexation. The tax effectively starts at the individual's marginal rate or 30%, whichever is greater.",
+      "source": "https://www.budget.gov.au/Budget-2026-27/Tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260524-539",
+      "timestamp": "2026-05-24T09:48:26.399Z",
+      "status": "needs_manual_review",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "status_reason": "Item count shrank from 10 to 6 in content/fact-checks.json"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASA calls for capital gains averaging mechanism alongside indexation",
+      "description": "The Australian Shareholders Association has raised concerns that indexation alone may not address income bunching where gains accumulated over many years are realised in a single tax year. ASA is calling for a modern averaging mechanism to complement the CGT indexation changes and has criticised the lack of consultation before the announcement.",
+      "suggestion": "Add to budget-updates.json: ASA calls for capital gains averaging mechanism alongside indexation",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260520-383",
+      "timestamp": "2026-05-20T10:42:49.570Z",
+      "status": "needs_manual_review",
+      "status_reason": "Item count shrank from 24 to 12 in content/budget-updates.json"
     }
   ]
 }

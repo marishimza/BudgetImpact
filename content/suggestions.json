@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T20:43:23.887Z",
+  "lastUpdated": "2026-05-25T06:18:04.025Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2126,64 +2126,106 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
+    },
     {
       "type": "content_update",
       "priority": "high",
-      "title": "Foreign residents must notify ATO before disposing of Australian shares over $50m",
-      "description": "The Federal Budget introduces a new notification requirement for foreign residents disposing of shares and membership interests exceeding $50 million in value. Foreign residents must notify the ATO in the approved form before executing the transaction. The commencement date has been deferred until enabling legislation passes Parliament.",
-      "suggestion": "Add to budget-updates.json: Foreign resident share disposal notification requirement",
-      "source": "https://www.grantthornton.com.au/insights/federal-budget-2026-27/",
+      "title": "Treasury quantification: Inflation accounts for 56% of ASX 200 share gains over decade",
+      "description": "Treasury analysis quantifies the proportion of ASX 200 capital gains attributable to inflation over the past 10 years, providing context for the inflation-indexation CGT reform approach.",
+      "suggestion": "Add Treasury analysis finding: inflation accounts for 56% of ASX 200 share gains over the past decade, providing the analytical basis for replacing the 50% CGT discount with inflation indexation.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260517-706",
-      "timestamp": "2026-05-17T20:39:47.157Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/businesses/strengthening-the-foreign-resident-cgt-regime",
-      "implemented_at": "2026-05-17T22:48:20.512Z"
-    },
-    {
-      "id": "suggestion-20260517-501",
-      "timestamp": "2026-05-17T20:39:47.157Z",
-      "status": "implemented",
-      "priority": "high",
-      "type": "content_update",
-      "title": "Correction needed: New system applies to assets acquired 'after' 1 July 2027 - potential ambiguity in preposition",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Our site says: \"Assets acquired after 1 July 2027\". Recent sources say: \"The new CGT rules apply from 1 July 2027; the hybrid system already handles pre-1 July 2027 acquisitions, implying new rules apply from that date (on or after)\".",
-      "suggestion": "Update tax-rules.json or relevant content file to correct: New system applies to assets acquired 'after' 1 July 2027 - potential ambiguity in preposition. Source: https://www.theguardian.com/au",
-      "source": "https://www.theguardian.com/au",
-      "implementation_effort": "30_minutes",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implemented_at": "2026-05-17T22:48:55.652Z"
-    },
-    {
-      "id": "suggestion-20260517-690",
-      "timestamp": "2026-05-17T20:39:47.157Z",
-      "status": "implemented",
-      "priority": "high",
-      "type": "content_update",
-      "title": "Correction needed: Temporal inconsistency between lastUpdated and cutoffDate",
-      "description": "Our site says: \"lastUpdated: 2026-05-17T00:00:00+10:00, cutoffDate: 2026-05-13T19:30:00+10:00\". Recent sources say: \"Budget announced 12 May 2026; data appears updated after cutoff date\".",
-      "suggestion": "Update tax-rules.json or relevant content file to correct: Temporal inconsistency between lastUpdated and cutoffDate. Source: N/A - internal data inconsistency",
-      "source": "N/A - internal data inconsistency",
-      "implementation_effort": "30_minutes",
-      "corroborated_by": "https://www.ato.gov.au/tax-and-super-professionals/for-tax-professionals/prepare-and-lodge/pre-filling-service/recurring-data-issues",
-      "implemented_at": "2026-05-17T22:49:29.899Z"
+      "id": "suggestion-20260525-438",
+      "timestamp": "2026-05-25T06:17:57.276Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2025-07-01/asx-200-gains-10-per-cent-over-financial-year-2025/105479398"
     },
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "Division 296 draft legislation includes CGT relief provisions for SMSFs",
-      "description": "Treasury has released draft legislation for the Division 296 $3m super balance tax, including CGT relief provisions that allow SMSFs to reset the cost base of assets when restructuring to comply with the new rules. This relief prevents unintended tax consequences from被迫 realisation of assets during restructuring.",
-      "suggestion": "Add to budget-updates.json: Division 296 CGT relief for SMSF restructuring",
-      "source": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
+      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for different investor types",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ASX investor update special edition identifies that CGT changes create different tax outcomes depending on asset type, with transitional rules and exemptions creating complexity for ETF and Listed Investment Vehicle investors.",
+      "suggestion": "Add ASX analysis detail: CGT reform creates 'two-speed' tax treatment for investors, with transitional arrangements and asset-type specific outcomes affecting ETFs and Listed Investment Vehicles differently.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260517-657",
-      "timestamp": "2026-05-17T20:39:47.157Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-17T22:49:44.360Z"
+      "id": "suggestion-20260525-814",
+      "timestamp": "2026-05-25T06:17:57.276Z",
+      "status": "pending"
     },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Venture capital tax incentives expanded from July 2027 in Budget 2026 measure",
+      "description": "Budget 2026 includes expansion of venture capital tax incentives commencing from 1 July 2027, providing early policy direction for startup ecosystem.",
+      "suggestion": "Add budget measure: venture capital tax incentives expanded from July 2027, complementing the CGT and negative gearing changes with targeted support for innovation investment.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260525-546",
+      "timestamp": "2026-05-25T06:17:57.276Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "The Government claims its $2 billion infrastructure initiative will enable around 65,000 additional homes, but there's no independent verification or challenge to this projection in the sources. REIA President Jacob Caine calls it a 'positive and necessary step' but doesn't confirm the 65,000 figure. This lacks the credible contradictory evidence needed for a genuine factual debate.",
+      "suggestion": "Add to debates.json: Need to find sources that specifically challenge or verify the 65,000 homes figure with different projections.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260525-357",
+      "timestamp": "2026-05-25T06:17:57.276Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is immigration or negative gearing the primary driver of Australia's housing crisis?",
+      "description": "The Coalition (Taylor) proposes drastically cutting immigration tied to new housing builds as the solution to housing affordability. Meanwhile, Law Society Journal cites economists claiming negative gearing and CGT discount arrangements are 'the key reason' for the housing crisis. These represent fundamentally different causal diagnoses from credible political and economic sources, each proposing different primary policy interventions.",
+      "suggestion": "Add to debates.json: view_a from Coalition (Taylor in Guardian) says immigration-driven demand is primary cause, view_b from Law Society Journal citing economists says negative gearing/CGT arrangements are the key reason for housing crisis",
+      "source": "https://www.theguardian.com/australia-news/live/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260525-836",
+      "timestamp": "2026-05-25T06:17:57.276Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains face a new 'minimum 30% tax rate on ALL gains' from July 2027",
+      "description": "Multiple sources state a 'minimum 30% tax rate' on capital gains, but ABC News clarifies this applies to 'real capital gains' (after inflation adjustment). Media headlines may oversimplify this as 30% on ALL nominal gains, when in reality only inflation-adjusted gains above inflation are subject to the 30% minimum. The indexation adjustment means the effective tax rate on nominal gains could be lower than 30%.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax on ALL capital gains', verdict is partially_true because the 30% minimum applies to REAL gains after inflation indexation, not nominal gains. The official budget.gov.au confirms a minimum 30% tax on gains from 1 July 2027, but ABC clarifies it applies to 'real capital gains', meaning nominal gains first have inflation deducted.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-federal-budget-could-shift-investment/10548308",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260525-978",
+      "timestamp": "2026-05-25T06:17:57.276Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'The 50% CGT discount is being REPLACED by inflation indexation (no choice)'",
+      "description": "William Buck states 'The 50% CGT discount is replaced by cost base indexation', but Stockspot says the discount would 'largely be replaced'. The wording matters - if the reform allows taxpayers to choose between the old 50% discount or the new indexed cost base (whichever results in lower tax), the claim that it's 'completely replaced' would be inaccurate.",
+      "suggestion": "Add to fact-checks.json: claim is '50% CGT discount is being replaced with no choice', verdict is unclear because sources differ on whether a choice/transition provisions exist. Some sources suggest 'largely replaced' and mention 'transitional rules', implying potential flexibility that the absolute 'replaced' claim may oversimplify.",
+      "source": "https://www.stockspot.com.au/cgt-calculator-australia-2026",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260525-157",
+      "timestamp": "2026-05-25T06:17:57.276Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260525-230",
+      "timestamp": "2026-05-25T06:17:57.276Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "high",
@@ -2583,21 +2625,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Pre-1985 share holdings: ATO valuation reset confirmed for 1 July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Under the new CGT rules, assets acquired before 19 September 1985 will have their cost base reset to market value as at 30 June 2025. This change takes effect from 1 July 2027, ensuring older share holdings are taxed on genuine gains rather than nominal historical cost.",
-      "suggestion": "Add to budget-updates.json: Pre-1985 share holdings valuation reset",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260517-545",
-      "timestamp": "2026-05-17T20:39:47.157Z",
-      "status": "skipped",
-      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
-      "status_reason": "MiniMax did not return valid JSON",
-      "implemented_at": "2026-05-17T22:49:35.423Z"
-    },
     {
       "type": "fact_check",
       "priority": "high",

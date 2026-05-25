@@ -195,6 +195,76 @@
       "timestamp": "2026-05-17T14:45:19.051Z",
       "status": "implemented",
       "implemented_at": "2026-05-17T16:53:57.518Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Foreign residents must notify ATO before disposing of Australian shares over $50m",
+      "description": "The Federal Budget introduces a new notification requirement for foreign residents disposing of shares and membership interests exceeding $50 million in value. Foreign residents must notify the ATO in the approved form before executing the transaction. The commencement date has been deferred until enabling legislation passes Parliament.",
+      "suggestion": "Add to budget-updates.json: Foreign resident share disposal notification requirement",
+      "source": "https://www.grantthornton.com.au/insights/federal-budget-2026-27/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260517-706",
+      "timestamp": "2026-05-17T20:39:47.157Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/businesses/strengthening-the-foreign-resident-cgt-regime",
+      "implemented_at": "2026-05-17T22:48:20.512Z"
+    },
+    {
+      "id": "suggestion-20260517-501",
+      "timestamp": "2026-05-17T20:39:47.157Z",
+      "status": "implemented",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Correction needed: New system applies to assets acquired 'after' 1 July 2027 - potential ambiguity in preposition",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Our site says: \"Assets acquired after 1 July 2027\". Recent sources say: \"The new CGT rules apply from 1 July 2027; the hybrid system already handles pre-1 July 2027 acquisitions, implying new rules apply from that date (on or after)\".",
+      "suggestion": "Update tax-rules.json or relevant content file to correct: New system applies to assets acquired 'after' 1 July 2027 - potential ambiguity in preposition. Source: https://www.theguardian.com/au",
+      "source": "https://www.theguardian.com/au",
+      "implementation_effort": "30_minutes",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implemented_at": "2026-05-17T22:48:55.652Z"
+    },
+    {
+      "id": "suggestion-20260517-690",
+      "timestamp": "2026-05-17T20:39:47.157Z",
+      "status": "implemented",
+      "priority": "high",
+      "type": "content_update",
+      "title": "Correction needed: Temporal inconsistency between lastUpdated and cutoffDate",
+      "description": "Our site says: \"lastUpdated: 2026-05-17T00:00:00+10:00, cutoffDate: 2026-05-13T19:30:00+10:00\". Recent sources say: \"Budget announced 12 May 2026; data appears updated after cutoff date\".",
+      "suggestion": "Update tax-rules.json or relevant content file to correct: Temporal inconsistency between lastUpdated and cutoffDate. Source: N/A - internal data inconsistency",
+      "source": "N/A - internal data inconsistency",
+      "implementation_effort": "30_minutes",
+      "corroborated_by": "https://www.ato.gov.au/tax-and-super-professionals/for-tax-professionals/prepare-and-lodge/pre-filling-service/recurring-data-issues",
+      "implemented_at": "2026-05-17T22:49:29.899Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Division 296 draft legislation includes CGT relief provisions for SMSFs",
+      "description": "Treasury has released draft legislation for the Division 296 $3m super balance tax, including CGT relief provisions that allow SMSFs to reset the cost base of assets when restructuring to comply with the new rules. This relief prevents unintended tax consequences from被迫 realisation of assets during restructuring.",
+      "suggestion": "Add to budget-updates.json: Division 296 CGT relief for SMSF restructuring",
+      "source": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260517-657",
+      "timestamp": "2026-05-17T20:39:47.157Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-17T22:49:44.360Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Pre-1985 share holdings: ATO valuation reset confirmed for 1 July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Under the new CGT rules, assets acquired before 19 September 1985 will have their cost base reset to market value as at 30 June 2025. This change takes effect from 1 July 2027, ensuring older share holdings are taxed on genuine gains rather than nominal historical cost.",
+      "suggestion": "Add to budget-updates.json: Pre-1985 share holdings valuation reset",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260517-545",
+      "timestamp": "2026-05-17T20:39:47.157Z",
+      "status": "skipped",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "status_reason": "MiniMax did not return valid JSON",
+      "implemented_at": "2026-05-17T22:49:35.423Z"
     }
   ]
 }

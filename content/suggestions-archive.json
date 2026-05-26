@@ -961,6 +961,46 @@
       "timestamp": "2026-05-19T16:45:43.369Z",
       "status": "needs_manual_review",
       "status_reason": "Item count shrank from 23 to 11 in content/budget-updates.json"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Budget allocates $47.5m to Treasury and ATO for CGT reform implementation",
+      "description": "KPMG budget analysis reveals the government will provide $47.5 million over four years (with $3.9 million per year ongoing) to fund Treasury and ATO implementation of the capital gains tax changes, indicating significant administrative investment in the reform rollout.",
+      "suggestion": "Add to budget-updates.json: KPMG budget breakdown: $47.5m allocated to Treasury and ATO for CGT implementation",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260518-227",
+      "timestamp": "2026-05-18T21:02:34.579Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-19T18:01:36.040Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Work-related expense instant deduction confirmed at $1,000",
+      "description": "The budget confirms a $1,000 instant tax deduction for work-related expenses, as announced in the lead-up to the 2025 election. The measure is expected to cost the budget $6.4 billion over four years.",
+      "suggestion": "Add to budget-updates.json: Budget confirms $1,000 instant tax deduction for work-related expenses as previously announced in lead-up to 2025 election, with $6.4 billion cost over four years.",
+      "source": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260519-468",
+      "timestamp": "2026-05-19T21:12:05.621Z",
+      "status": "needs_manual_review",
+      "corroborated_by": "https://www.smh.com.au/money/saving/a-free-1000-not-quite-here-s-how-the-new-instant-tax-deduction-works-20260430-p5zslj.html",
+      "status_reason": "Item count shrank from 13 to 10 in content/budget-updates.json"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
+      "description": "Treasury data reveals that more than half of capital gains on ASX 200 shares over the past 10 years were attributable to inflationary gains rather than real value creation, supporting the government's rationale for CGT indexation reform.",
+      "suggestion": "Add to budget-updates.json: Treasury data showing inflation accounts for 56% of ASX 200 share gains over the past decade provides quantitative backing for the government's CGT indexation approach, replacing the 50% discount with inflation-adjusted cost bases.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260519-262",
+      "timestamp": "2026-05-19T21:12:05.621Z",
+      "status": "needs_manual_review",
+      "status_reason": "Item count shrank from 23 to 10 in content/budget-updates.json"
     }
   ]
 }

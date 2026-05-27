@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T16:58:42.789Z",
+  "lastUpdated": "2026-05-27T21:46:31.453Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2794,6 +2794,103 @@
     {
       "id": "suggestion-20260527-331",
       "timestamp": "2026-05-27T16:58:38.452Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis details CGT reform impact on Listed Investment Vehicles",
+      "description": "ASX analysis specifically examines how CGT reform creates different tax treatments for Listed Investment Vehicles (LIVs) compared to other investments, identifying potential shifts in investor behaviour and portfolio allocation strategies.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details CGT reform impact on ETFs and Listed Investment Vehicles — analysis shows LIVs may face different effective tax treatment under indexation rules",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260527-928",
+      "timestamp": "2026-05-27T21:46:25.751Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Division 296 CGT relief for SMSFs explained by Heffron",
+      "description": "Heffron analysis confirms draft legislation includes specific CGT relief provisions for self-managed superannuation funds transitioning under Division 296, with indexed thresholds and timing rules clarified ahead of 1 July 2026 commencement.",
+      "suggestion": "Add to budget-updates.json: Heffron analysis details Division 296 CGT relief provisions for SMSFs under draft legislation",
+      "source": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260527-410",
+      "timestamp": "2026-05-27T21:46:25.751Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Working Australians Tax Offset details confirmed: $250 annual relief for workers",
+      "description": "Budget confirms new Working Australians Tax Offset providing $250 annual relief for workers, part of broader personal income tax cuts announced alongside CGT and negative gearing reforms. The offset targets low-to-middle income earners.",
+      "suggestion": "Add to budget-updates.json: Working Australians Tax Offset confirmed — $250 annual relief for workers as part of personal income tax reform package",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260527-974",
+      "timestamp": "2026-05-27T21:46:25.751Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "Will limiting negative gearing to new builds increase or decrease rental supply?",
+      "description": "The real estate industry (REIA, Property Council) warns that reducing property investment attractiveness could decrease rental supply over time. The government claims its policy focuses tax support on new supply to support longer-term rental stock. These represent conflicting factual predictions about market outcomes.",
+      "suggestion": "Add to debates.json: REIA and Property Council warn from slateandsage.com.au that limiting negative gearing 'could reduce rental supply over time'. Government claims from budget.gov.au the policy 'will focus tax support on new supply' to support rental stock. These are contradictory predictions about whether the policy will increase or decrease rental supply.",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260527-462",
+      "timestamp": "2026-05-27T21:46:25.751Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-08/how-tax-reform-cgt-negative-gearing-changes-impacts-renters/106644610"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the Coalition's pledge to repeal negative gearing and CGT changes affect investor behaviour and property market stability?",
+      "description": "The Coalition has vowed to 'repeal these measures if necessary' and labeled them 'toxic', but it remains unclear whether this political positioning creates actual market uncertainty or is standard opposition behaviour. Industry groups may have different views on whether investor behaviour is being affected.",
+      "suggestion": "Add to debates.json: Coalition (Tim Wilson) from theguardian.com vows to 'repeal these measures if necessary'. Meanwhile property industry from slateandsage.com.au and apimagazine.com.au expresses concerns about investor uncertainty. These represent different views on whether Coalition opposition creates market instability.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260527-744",
+      "timestamp": "2026-05-27T21:46:25.751Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources state a 'minimum 30% tax rate on capital gains' but budget.gov.au specifies this applies to 'real capital gains' (after inflation adjustment). ABC News explicitly states 'minimum tax rate of 30pc applying to real capital gains'. This distinction matters significantly - the 30% floor only applies to gains above inflation, not nominal gains. Media headlines suggesting all capital gains face a 30% minimum could be misleading.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% CGT applies to ALL gains', verdict is disputed because the minimum 30% rate only applies to real (inflation-adjusted) gains, not nominal gains",
+      "source": "https://budget.gov.au/content/tax-reform/index.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260527-990",
+      "timestamp": "2026-05-27T21:46:25.751Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Division 296 super tax applies to all superannuation balances exceeding $3 million",
+      "description": "Multiple sources state Division 296 applies to balances over $3m, but Heffron and ATO sources mention 'indexed thresholds' and BDO references 'new thresholds and rules'. The $3m threshold may be indexed annually for inflation rather than being a fixed figure. The ATO states 'if your total superannuation balance (TSB)... exceeds the LSBT' (Lifetime Superannuation Balance), suggesting the threshold may adjust yearly.",
+      "suggestion": "Add to fact-checks.json: claim is 'Division 296 applies to all balances over $3m (fixed)', verdict is partially_true/unclear because the $3m threshold may be indexed annually rather than fixed",
+      "source": "https://www.ato.gov.au/Super/Super-and-retirements/Your-superannuation-balance-and-tax/Better-targeted-super-concessions",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260527-316",
+      "timestamp": "2026-05-27T21:46:25.751Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260527-475",
+      "timestamp": "2026-05-27T21:46:25.751Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T11:11:41.536Z",
+  "lastUpdated": "2026-05-27T12:51:40.507Z",
   "items": [
     {
       "id": "update-001",
@@ -239,6 +239,16 @@
       "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over the past decade",
       "summary": "Treasury analysis has quantified that inflation accounted for 56% of ASX 200 share gains over the past decade, providing crucial context for the government's proposed CGT indexation reforms. This data underpins the rationale for replacing the flat 50% CGT discount with inflation indexation, suggesting a significant portion of historical share price growth was illusory nominal appreciation rather than real returns.",
       "url": "https://www.theguardian.com/australia-news/2026/may/13/australia-federal-budget-2026-tax-capital-gains-negative-gearing-housing-one-big-chart",
+      "priority": "high"
+    },
+    {
+      "id": "update-025",
+      "date": "2026-05-12",
+      "tag": "Budget",
+      "source": "The Guardian Australia",
+      "title": "Pre-budget announcement: Trust tax treatment reform flagged as Government signals shift from income to asset taxation",
+      "summary": "The Government has flagged significant reforms to trust tax treatment, signaling a fundamental shift from taxing income to taxing assets. The Treasurer indicated the plan would rebalance the tax system, moving away from income-based taxation. This reform forms part of broader tax changes announced alongside CGT adjustments and negative gearing restrictions in Budget 2026-27.",
+      "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
       "priority": "high"
     }
   ]

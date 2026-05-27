@@ -1107,6 +1107,47 @@
       "timestamp": "2026-05-20T10:42:49.570Z",
       "status": "needs_manual_review",
       "status_reason": "Item count shrank from 24 to 12 in content/budget-updates.json"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "CGT discount: replacement or choice between two options?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The official budget website states investors in new builds can 'choose the 50% CGT discount or the new arrangements', implying preservation of a choice. However, ABC News and Guardian articles characterize this as the government 'restricting' or replacing the CGT discount entirely. This is a factual dispute about whether the reform preserves an option or eliminates the existing discount.",
+      "suggestion": "Add to debates.json: budget.gov.au says investors can 'choose' between the 50% CGT discount or new arrangements, while abc.net.au describes 'restrictions to negative gearing and capital gains tax discount' and theguardian.com reports the Coalition will 'repeal' the changes. These represent different characterizations of whether the existing 50% discount is preserved or eliminated.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260520-700",
+      "timestamp": "2026-05-20T10:42:49.570Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-discount",
+      "implemented_at": "2026-05-20T12:18:21.632Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases Division 296 indexed thresholds and earnings calculation methodology for 2026-27",
+      "description": "The ATO has published detailed guidance confirming Division 296 tax commences 1 July 2026 with indexed thresholds ($3m base) and specifies that 15% tax applies on earnings relating to total superannuation balance exceeding the Lower Balance Threshold. The guidance confirms CGT relief provisions and calculation methodology for affected SMSF members.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and earnings calculation methodology — 15% tax applies to earnings above Lower Balance Threshold from 1 July 2026, with CGT relief confirmed for affected SMSF members",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260520-548",
+      "timestamp": "2026-05-20T16:47:32.450Z",
+      "status": "needs_manual_review",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "status_reason": "Item count shrank from 14 to 10 in content/budget-updates.json"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO confirms Division 296 indexed thresholds and CGT relief details",
+      "description": "The ATO has confirmed the indexed thresholds for Division 296 tax and clarified that CGT relief provisions apply. The legislation enacted in March 2026 will commence from 1 July 2026, with the tax applying 15% on earnings relating to total superannuation balances exceeding the $3 million lift-start balance threshold.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260520-762",
+      "timestamp": "2026-05-20T10:42:49.570Z",
+      "status": "needs_manual_review",
+      "status_reason": "Item count shrank from 25 to 12 in content/budget-updates.json"
     }
   ]
 }

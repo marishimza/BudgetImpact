@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T13:45:20.777Z",
+  "lastUpdated": "2026-05-28T18:33:18.623Z",
   "items": [
     {
       "id": "update-001",
@@ -280,6 +280,46 @@
       "summary": "Treasury analysis shows inflation accounted for 56% of ASX 200 share gains over the past decade, providing key data for the government's rationale to replace the flat 50% CGT discount with inflation indexation. The analysis underpins the government's claim that the existing 50% discount overcompensates investors for inflationary gains rather than genuine economic growth. This data has been cited as central justification for the proposed CGT reform in the 2026 budget.",
       "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
       "priority": "high"
+    },
+    {
+      "id": "update-029",
+      "date": "2026-05-28",
+      "tag": "Superannuation",
+      "source": "Australian Taxation Office",
+      "title": "Division 296 super tax: indexed thresholds and CGT relief details confirmed by ATO",
+      "summary": "The ATO has confirmed that Division 296 tax commences on 1 July 2026, introducing a 15% tax on superannuation earnings above the $3 million balance threshold. The agency has also clarified indexed threshold arrangements and confirmed capital gains tax (CGT) relief provisions for affected self-managed superannuation funds (SMSFs), providing certainty for trustees navigating the new requirements.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-030",
+      "date": "2026-05-28",
+      "tag": "Budget",
+      "source": "Australian Shareholders Association",
+      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
+      "summary": "Treasury analysis underpinning the CGT reform has found that inflation accounts for 56% of ASX 200 share gains over the past decade. This finding provides important context for why the government chose indexation-based reform rather than simple rate changes. The analysis supports the rationale that a significant portion of nominal capital gains are attributable to inflationary pressures rather than real value creation.",
+      "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "priority": "high"
+    },
+    {
+      "id": "update-031",
+      "date": "2026-05-28",
+      "tag": "Parliament",
+      "source": "Grant Thornton",
+      "title": "Foreign resident capital gains notification legislation deferred again",
+      "summary": "Foreign resident capital gains notification requirements for disposals exceeding $50m have been deferred again, with commencement now dependent on legislation passing Parliament. The requirement would have obligated foreign residents disposing of shares and membership interests to notify the ATO before executing transactions. This marks another deferral of the measure, which was originally announced in the 2020-21 Budget.",
+      "url": "https://www.grantthornton.com.au/insights/federal-budget-2026-27/",
+      "priority": "medium"
+    },
+    {
+      "id": "update-032",
+      "date": "2026-05-28",
+      "tag": "ASX",
+      "source": "Australian Shareholders Association",
+      "title": "Treasury analysis quantifies inflation impact on ASX 200 share gains",
+      "summary": "Treasury analysis has found that inflation accounts for 56% of ASX 200 share gains over the past decade, providing significant economic context for the Capital Gains Tax indexation reforms. The analysis highlights how nominal investment returns have been substantially inflated by general price increases rather than genuine wealth creation. This finding comes as the government proceeds with CGT indexation changes that will link gains to inflation-adjusted measures.",
+      "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "priority": "medium"
     }
   ]
 }

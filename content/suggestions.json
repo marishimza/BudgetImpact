@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T17:32:26.432Z",
+  "lastUpdated": "2026-05-28T18:33:18.624Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -888,18 +888,6 @@
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "Division 296 super tax: indexed thresholds and CGT relief details confirmed by ATO",
-      "description": "The ATO has confirmed Division 296 tax commences 1 July 2026 with indexed thresholds, specifying the 15% tax on earnings above the $3 million balance threshold and confirming CGT relief provisions for affected SMSFs.",
-      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details — 15% tax on earnings above $3m threshold from 1 July 2026",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260521-736",
-      "timestamp": "2026-05-21T11:00:00.282Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
       "title": "Foreign resident capital gains notification threshold remains at $50m",
       "description": "The Budget confirms foreign residents disposing of shares and membership interests exceeding $50 million must notify the ATO before executing transactions, with commencement deferred pending legislation passage.",
       "suggestion": "Add to budget-updates.json: Foreign resident capital gains notification threshold remains at $50m — legislation pending",
@@ -934,18 +922,6 @@
       "status": "pending"
     },
     {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Budget allocates $47.5 million for CGT implementation",
-      "description": "KPMG source states '$47.5 million over four years from 2026–27 (and $3.9 million per year ongoing)' to Treasury and the ATO. This is a specific verifiable figure. However, the exact purpose and breakdown of this funding could be misrepresented in media coverage.",
-      "suggestion": "Add to fact-checks.json: claim is 'budget allocates $47.5 million for CGT reform implementation', verdict is verified because official sources confirm $47.5 million over four years from 2026-27 (with $3.9 million ongoing) to Treasury and ATO.",
-      "source": "https://kpmg.com/au/en/home/topics/tax/2026-australian-federal-budget.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260521-183",
-      "timestamp": "2026-05-21T11:00:00.282Z",
-      "status": "pending"
-    },
-    {
       "id": "suggestion-20260521-117",
       "timestamp": "2026-05-21T11:00:00.282Z",
       "status": "pending",
@@ -956,30 +932,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
-      "description": "Treasury analysis underpinning the CGT reform found that inflation has represented a significant portion of nominal share price gains, providing context for why indexation rather than simple rate changes was chosen.",
-      "suggestion": "Add to budget-updates.json: Treasury analysis underpinning the CGT reform found that inflation accounts for 56% of ASX 200 share gains over the past decade, supporting the government's rationale for indexation-based reform over other approaches.",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260521-829",
-      "timestamp": "2026-05-21T16:35:36.606Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Foreign resident capital gains notification legislation deferred again",
-      "description": "The requirement for foreign residents disposing of shares and membership interests exceeding $50m to notify the ATO before executing transactions has been deferred until legislation passes Parliament.",
-      "suggestion": "Add to budget-updates.json: Foreign resident capital gains notification requirements (for disposals exceeding $50m) have been deferred again, with commencement dependent on legislation passing Parliament.",
-      "source": "https://www.grantthornton.com.au/insights/federal-budget-2026-27/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260521-888",
-      "timestamp": "2026-05-21T16:35:36.607Z",
-      "status": "pending"
     },
     {
       "type": "debate_page",
@@ -1040,18 +992,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Treasury analysis quantifies inflation impact on ASX 200 share gains",
-      "description": "Treasury analysis found that inflation accounts for 56% of ASX 200 share gains over the past decade, providing context for the CGT indexation reform.",
-      "suggestion": "Add to budget-updates.json: Treasury analysis reveals inflation accounts for 56% of ASX 200 share gains over the decade, providing economic context for the CGT indexation changes.",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260521-548",
-      "timestamp": "2026-05-21T21:22:10.699Z",
-      "status": "pending"
     },
     {
       "type": "content_update",
@@ -3254,6 +3194,58 @@
       "timestamp": "2026-05-20T16:47:32.450Z",
       "status": "implemented",
       "implemented_at": "2026-05-28T13:45:20.778Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Division 296 super tax: indexed thresholds and CGT relief details confirmed by ATO",
+      "description": "The ATO has confirmed Division 296 tax commences 1 July 2026 with indexed thresholds, specifying the 15% tax on earnings above the $3 million balance threshold and confirming CGT relief provisions for affected SMSFs.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details — 15% tax on earnings above $3m threshold from 1 July 2026",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260521-736",
+      "timestamp": "2026-05-21T11:00:00.282Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-28T18:32:29.896Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
+      "description": "Treasury analysis underpinning the CGT reform found that inflation has represented a significant portion of nominal share price gains, providing context for why indexation rather than simple rate changes was chosen.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis underpinning the CGT reform found that inflation accounts for 56% of ASX 200 share gains over the past decade, supporting the government's rationale for indexation-based reform over other approaches.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260521-829",
+      "timestamp": "2026-05-21T16:35:36.606Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-28T18:32:48.536Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Foreign resident capital gains notification legislation deferred again",
+      "description": "The requirement for foreign residents disposing of shares and membership interests exceeding $50m to notify the ATO before executing transactions has been deferred until legislation passes Parliament.",
+      "suggestion": "Add to budget-updates.json: Foreign resident capital gains notification requirements (for disposals exceeding $50m) have been deferred again, with commencement dependent on legislation passing Parliament.",
+      "source": "https://www.grantthornton.com.au/insights/federal-budget-2026-27/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260521-888",
+      "timestamp": "2026-05-21T16:35:36.607Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-28T18:33:04.602Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis quantifies inflation impact on ASX 200 share gains",
+      "description": "Treasury analysis found that inflation accounts for 56% of ASX 200 share gains over the past decade, providing context for the CGT indexation reform.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis reveals inflation accounts for 56% of ASX 200 share gains over the decade, providing economic context for the CGT indexation changes.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260521-548",
+      "timestamp": "2026-05-21T21:22:10.699Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-28T18:33:18.624Z"
     }
   ],
   "skipped": [
@@ -3300,6 +3292,20 @@
       "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-05-27T12:53:04.594Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Budget allocates $47.5 million for CGT implementation",
+      "description": "KPMG source states '$47.5 million over four years from 2026–27 (and $3.9 million per year ongoing)' to Treasury and the ATO. This is a specific verifiable figure. However, the exact purpose and breakdown of this funding could be misrepresented in media coverage.",
+      "suggestion": "Add to fact-checks.json: claim is 'budget allocates $47.5 million for CGT reform implementation', verdict is verified because official sources confirm $47.5 million over four years from 2026-27 (with $3.9 million ongoing) to Treasury and ATO.",
+      "source": "https://kpmg.com/au/en/home/topics/tax/2026-australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260521-183",
+      "timestamp": "2026-05-21T11:00:00.282Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-28T18:32:38.335Z"
     }
   ],
   "needs_manual_review": [

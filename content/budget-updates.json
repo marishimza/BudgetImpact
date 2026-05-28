@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T18:33:18.623Z",
+  "lastUpdated": "2026-05-28T23:10:38.398Z",
   "items": [
     {
       "id": "update-001",
@@ -320,6 +320,39 @@
       "summary": "Treasury analysis has found that inflation accounts for 56% of ASX 200 share gains over the past decade, providing significant economic context for the Capital Gains Tax indexation reforms. The analysis highlights how nominal investment returns have been substantially inflated by general price increases rather than genuine wealth creation. This finding comes as the government proceeds with CGT indexation changes that will link gains to inflation-adjusted measures.",
       "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
       "priority": "medium"
+    },
+    {
+      "id": "update-033",
+      "date": "2026-05-12",
+      "tag": [
+        "ASX",
+        "Budget"
+      ],
+      "source": "ABC News",
+      "title": "Treasury modelling: inflation accounted for 56% of ASX 200 share gains over decade",
+      "summary": "Treasury analysis published in the budget papers reveals that inflation accounted for 56% of asset price growth for ASX 200 shares held over the 10 years to March 2026. This empirical finding provides the basis for the government's proposal to replace the capital gains tax discount with inflation indexation. The modelling demonstrates that more than half of historical share gains can be attributed to inflationary pressures rather than real economic growth.",
+      "url": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "priority": "high"
+    },
+    {
+      "id": "update-034",
+      "date": "2026-05-28",
+      "tag": "Superannuation",
+      "source": "Australian Taxation Office",
+      "title": "ATO confirms Division 296 indexed thresholds and CGT relief details",
+      "summary": "The ATO has published guidance on Division 296 tax including indexed thresholds for the $3m balance threshold, methodology for calculating earnings on Total Superannuation Balance exceeding the threshold, and CGT relief provisions for SMSFs. The legislation was enacted in March 2026 and commences 1 July 2026. This provides definitive administrative guidance for affected super fund members.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-035",
+      "date": "2026-05-28",
+      "tag": "ASX|Budget",
+      "source": "The Guardian",
+      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
+      "summary": "Treasury analysis published in Budget 2026–27 documentation has quantified that approximately 56% of ASX 200 share gains over the past decade were attributable to inflationary effects rather than real economic growth. This data provides the quantitative foundation for the government's proposed CGT reform, replacing the 50% discount with inflation indexation to ensure only genuine capital gains are subject to tax.",
+      "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "priority": "high"
     }
   ]
 }

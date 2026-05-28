@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T13:45:20.778Z",
+  "lastUpdated": "2026-05-28T17:32:26.432Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3010,6 +3010,103 @@
     {
       "id": "suggestion-20260528-237",
       "timestamp": "2026-05-28T11:30:30.085Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO confirms Division 296 tax calculation details and indexed thresholds",
+      "description": "The ATO official page confirms that Division 296 tax applies 15% on the proportion of earnings relating to Total Superannuation Balance (TSB) that exceeds the Lower Superannuation Balance (LSBT), commencing 1 July 2026. Provides technical details on calculation methodology.",
+      "suggestion": "Add confirmed ATO technical details: Division 296 imposes 15% tax on earnings above the indexed $3m threshold, calculated based on Total Superannuation Balance. Legislation enacted March 2026 commences 1 July 2026.",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260528-832",
+      "timestamp": "2026-05-28T17:32:16.402Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ABC analysis: CGT changes could drive investment shift from property to shares",
+      "description": "ABC News analysis examines how capital gains tax reforms may redirect investment from residential property to shares and ETFs. Highlights the 50% discount replacement with inflation indexation and the 30% minimum tax on real capital gains from July 2027.",
+      "suggestion": "Add ABC analysis: Replacing the flat 50% CGT discount with inflation-aligned indexation and a minimum 30% tax on real gains from July 2027 may shift investor behaviour from property towards shares and ETFs.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260528-930",
+      "timestamp": "2026-05-28T17:32:16.402Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "NAB Budget Analysis: CGT discount replaced by cost base indexation",
+      "description": "NAB's Federal Budget analysis details how the 50% CGT discount is being replaced by cost base indexation with implications for individual and investment taxpayers. Confirms this is among the biggest personal tax changes in decades.",
+      "suggestion": "Add NAB analysis: The 50% CGT discount is being replaced by cost base indexation as part of the biggest personal tax changes in decades. Individual and investment taxpayers should review asset holding periods.",
+      "source": "https://business.nab.com.au/tag/federal-budget/2026-federal-budget--what-it-means-for-individuals",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260528-880",
+      "timestamp": "2026-05-28T17:32:16.402Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the CGT discount being eliminated, replaced, or preserved with a choice?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Budget and ABC News state investors can 'choose' between the 50% CGT discount or new arrangements. However, multiple sources (NAB, Guardian, ASA) describe the discount as being 'replaced' by indexation with no choice mentioned. This is a factual conflict about the structure of the reform.",
+      "suggestion": "Add to debates.json: Budget.gov.au says investors can 'choose' the 50% discount or new arrangements, while NAB and Guardian descriptions suggest indexation replaces the discount entirely with no choice provided for taxpayers.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm vs https://www.nab.com.au/content/dam/nab/documents/institutional/budget-2026-analysis.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260528-300",
+      "timestamp": "2026-05-28T17:32:16.402Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the 2026 budget tax reforms cause a prolonged housing market slump or a brief correction?",
+      "description": "NAB's revised forecast projects a 'brief correction not prolonged slump' following the negative gearing and CGT changes. However, other sources warn of potential market instability from investor behaviour changes and Coalition pledges to repeal the reforms. These represent conflicting market impact projections.",
+      "suggestion": "Add to debates.json: NAB Budget Analysis forecasts 'brief correction not prolonged slump', while concerns about Coalition repeal pledges and investor exit strategies suggest potential for more significant market disruption.",
+      "source": "https://www.superguide.com.au/super-booster/federal-budget-2026-overview vs https://parkerhadley.com.au/how-the-2026-australian-federal-budget-affects-property-investors/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260528-118",
+      "timestamp": "2026-05-28T17:32:16.402Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources make this claim, but the official budget.gov.au states the 50% CGT discount will be 'replaced with a discount based on inflation and introduce a minimum 30% tax on gains'. The ABC specifically clarifies it applies to 'real capital gains' (gains above inflation). This suggests the 30% minimum may only apply to gains above inflation-adjusted cost base, not nominal gains. The word 'ALL' in this claim could be misleading.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax on ALL gains', verdict is disputed because official budget documents and ABC analysis indicate the minimum rate applies to real capital gains (above inflation), not all nominal gains. The minimum floor ensures gains above inflation are taxed at minimum 30%, but nominal gains below inflation would not trigger this minimum.",
+      "source": "https://www.budget.gov.au/view/budget-papers.html/budget-2026-27/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260528-610",
+      "timestamp": "2026-05-28T17:32:16.402Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "This claim is widely repeated in the search results. However, the ATO source states the 15% tax applies to 'the proportion of earnings relating to your TSB that exceeds the LSBT' (Total Superannuation Balance exceeding the Low Balance Threshold). This phrasing suggests the tax applies to earnings on the amount ABOVE the threshold, not a 15% tax on the entire balance above $3m. This is a significant distinction that could result in overstating the tax impact.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances exceeding $3m', verdict is partially_true because Division 296 imposes 15% tax on EARNINGS attributable to balances above $3m threshold, not a flat 15% on the entire balance. The actual tax liability is lower than the claim implies.",
+      "source": "https://www.ato.gov.au/about-us/our-law/superannuation/improvements-to-super-concessions/better-targeted-super-concessions/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260528-330",
+      "timestamp": "2026-05-28T17:32:16.402Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260528-353",
+      "timestamp": "2026-05-28T17:32:16.402Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

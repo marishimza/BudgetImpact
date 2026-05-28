@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T21:46:31.453Z",
+  "lastUpdated": "2026-05-28T06:03:18.063Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2891,6 +2891,102 @@
     {
       "id": "suggestion-20260527-475",
       "timestamp": "2026-05-27T21:46:25.751Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis details CGT reform impact on ETFs and Listed Investment Vehicles",
+      "description": "The ASX published a comprehensive investor update examining how the proposed CGT changes affect investments in shares, exchange-traded funds (ETFs) and Listed Investment Vehicles (LIVs), including the 'two-speed' tax treatment implications.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details CGT reform impact on ETFs and Listed Investment Vehicles",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260528-557",
+      "timestamp": "2026-05-28T06:03:09.694Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASA calls for capital gains averaging alongside indexation reform",
+      "description": "The Australian Shareholders Association has publicly called for any CGT reform to include both indexation and a modern averaging mechanism to address income bunching where many years of gains are realised in a single tax year, expressing concern about lack of consultation.",
+      "suggestion": "Add to budget-updates.json: ASA calls for capital gains averaging alongside indexation reform",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260528-332",
+      "timestamp": "2026-05-28T06:03:09.694Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ABC Analysis: CGT changes could drive investment shift from property to shares",
+      "description": "ABC News analysis examining the budget data showing investors in the Australian share market have been undercompensated for inflation impact, with inflation making up 56% of asset price growth for ASX 200 shares held for 10 years.",
+      "suggestion": "Add to budget-updates.json: ABC analysis details how CGT changes could shift investment from property to shares",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260528-513",
+      "timestamp": "2026-05-28T06:03:09.694Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will restricting negative gearing reduce or increase rental supply?",
+      "description": "Acoss (community sector peak) claims negative gearing and CGT changes 'added little to rental supply' and will improve affordability, while the Real Estate Institute of Australia (REIA) and Property Council of Australia warn that reducing the attractiveness of residential property investment could reduce rental supply over time. This is a factual dispute about cause and effect with direct policy implications.",
+      "suggestion": "Add to debates.json: View A from The Guardian/Acoss says negative gearing 'added little to rental supply' (supports reform); View B from Slate & Sage/REIA/Property Council says restricting negative gearing could reduce rental supply (opposes reform)",
+      "source": "https://www.theguardian.com/australia-news/2026/may/22/australia-negative-gearing-capital-gains-tax-housing-community-groups-urge-mps",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260528-291",
+      "timestamp": "2026-05-28T06:03:09.694Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "low",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "API Magazine reports the Government claims its $2 billion infrastructure initiative will enable around 65,000 additional homes. However, the mechanism by which infrastructure spending translates to additional dwellings is contested, and no independent analysis of this projection is cited.",
+      "suggestion": "Add to debates.json: View A from budget.gov.au/APIA Magazine claims $2B infrastructure will deliver 65,000 additional homes; View B from other sources could challenge whether infrastructure spending directly produces this number of dwellings",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260528-131",
+      "timestamp": "2026-05-28T06:03:09.694Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "Multiple sources claim Division 296 applies a flat 15% tax on all super balances over $3m. However, the ATO states the 15% tax applies 'on the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning it's on the earnings attributable to the amount above the threshold, not the entire balance. This is a significant oversimplification that could mislead people about the scope of the tax.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because the 15% rate applies only to earnings on the portion exceeding the threshold, not the entire balance above $3m",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260528-243",
+      "timestamp": "2026-05-28T06:03:09.694Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Negative gearing has been fully abolished for all established property investors from 1 July 2027'",
+      "description": "Media often frames this as a blanket removal affecting all established property investors. However, William Buck specifies the changes apply 'for established properties purchased after 7:30pm on 12 May 2026', and ABC confirms 'new property purchases will not be eligible'. This suggests existing negatively-geared investments may be grandfathered. The claim overstates the universality of the change.",
+      "suggestion": "Add to fact-checks.json: claim is 'negative gearing fully abolished for all established property investors from 1 July 2027', verdict is partially_true/disputed because changes apply to NEW purchases of established properties after 7:30pm 12 May 2026, not all existing investors",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260528-911",
+      "timestamp": "2026-05-28T06:03:09.694Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260528-201",
+      "timestamp": "2026-05-28T06:03:09.694Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T18:33:18.624Z",
+  "lastUpdated": "2026-05-28T21:50:45.505Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3047,6 +3047,103 @@
     {
       "id": "suggestion-20260528-353",
       "timestamp": "2026-05-28T17:32:16.402Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury modelling: inflation accounted for 56% of ASX 200 share gains over decade",
+      "description": "Treasury analysis published in the budget papers shows that inflation made up 56% of asset price growth for ASX 200 shares held for 10 years to March 2026, providing the empirical basis for replacing the CGT discount with inflation indexation.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade | Source: ABC News quoting Treasury budget data",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260528-499",
+      "timestamp": "2026-05-28T21:50:39.019Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2026-02-25/asx-markets-business-live-news-feb25-2026/106384410"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "NAB revises housing forecast: brief correction not prolonged slump",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] NAB has revised its housing price forecast following the Budget, predicting a brief correction rather than a prolonged slump as a result of negative gearing and CGT changes.",
+      "suggestion": "Add to budget-updates.json: Short-term housing price impact: NAB revised forecast projects brief correction not slump | Source: business.nab.com.au",
+      "source": "https://business.nab.com.au/tag/federal-budget/2026-federal-budget--what-it-means-for-individuals",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260528-252",
+      "timestamp": "2026-05-28T21:50:39.019Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Budget allocates $47.5 million to Treasury and ATO for CGT reform implementation",
+      "description": "The government will provide $47.5 million over four years from 2026–27 (and $3.9 million per year ongoing) to the Treasury and the ATO to implement the CGT reform changes.",
+      "suggestion": "Add to budget-updates.json: Budget allocates $47.5 million for CGT reform implementation | Source: KPMG Federal Budget 2026/2027 analysis",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260528-416",
+      "timestamp": "2026-05-28T21:50:39.019Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will limiting negative gearing to new builds reduce or increase rental supply?",
+      "description": "Industry bodies (REIA and Property Council) warn that restricting negative gearing could reduce rental supply over time, while the Government claims its policy will increase housing supply by focusing tax support on new builds. This is a direct factual conflict about the rental market impact of the policy.",
+      "suggestion": "Add to debates.json: Real Estate Institute of Australia (REIA) and Property Council of Australia expressed concern that reducing the attractiveness of residential property investment could REDUCE rental supply over time (Slate & Sage). Government claims limiting negative gearing to new builds will focus tax support on new supply and increase housing availability (budget.gov.au).",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors; https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260528-425",
+      "timestamp": "2026-05-28T21:50:39.019Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "The Government claims its $2 billion infrastructure initiative will enable around 65,000 additional homes, but this projection lacks independent verification and industry bodies have only called the measure 'positive and necessary' without confirming the specific number.",
+      "suggestion": "Add to debates.json: budget.gov.au states the $2 billion infrastructure initiative is expected to enable around 65,000 additional homes. However, REIA President Jacob Caine (API Magazine) only called the measure 'positive and necessary' without confirming the 65,000 figure, suggesting the projection may be optimistic.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260528-496",
+      "timestamp": "2026-05-28T21:50:39.019Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Working Australians Tax Offset provides $250 annual relief for all workers",
+      "description": "Multiple pending suggestions reference a $250 annual tax relief for workers under the 'Working Australians Tax Offset.' This specific dollar amount appears frequently but lacks clear official budget documentation in the search results. Official budget.gov.au sources focus on CGT reforms, negative gearing changes, and Division 296 super tax rather than this specific offset. The claim may be misquoted or oversimplified depending on eligibility thresholds or actual scope.",
+      "suggestion": "Add to fact-checks.json: claim is '$250 annual Working Australians Tax Offset relief for workers', verdict is unclear because official budget.gov.au sources do not clearly document this specific figure, and verification against Treasury/Budget Paper No. 2 is needed.",
+      "source": "https://budget.gov.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260528-216",
+      "timestamp": "2026-05-28T21:50:39.019Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Budget allocates $47.5 million over four years from 2026-27 for Treasury and ATO CGT implementation",
+      "description": "KPMG's budget analysis states the Government will provide $47.5 million over four years from 2026–27 (and $3.9 million per year ongoing) to the Treasury and the ATO for CGT reform implementation. This is a specific funding figure that media outlets may misquote. The claim lacks clarity about whether this funding is exclusively for CGT implementation or covers broader tax administration changes, and whether the $3.9 million ongoing figure is correctly stated.",
+      "suggestion": "Add to fact-checks.json: claim is '$47.5 million over four years from 2026-27 for CGT implementation', verdict is partially_verified because KPMG cites this figure but official Budget Paper No. 2 documentation should confirm the exact allocation, purpose scope, and whether the $3.9 million ongoing figure is accurate.",
+      "source": "https://kpmg.com/au/en/home/insights/2026/05/australian-federal-budget-2026-2027.html",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260528-181",
+      "timestamp": "2026-05-28T21:50:39.019Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260528-350",
+      "timestamp": "2026-05-28T21:50:39.019Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

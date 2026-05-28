@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T12:51:40.507Z",
+  "lastUpdated": "2026-05-28T13:45:20.777Z",
   "items": [
     {
       "id": "update-001",
@@ -248,6 +248,36 @@
       "source": "The Guardian Australia",
       "title": "Pre-budget announcement: Trust tax treatment reform flagged as Government signals shift from income to asset taxation",
       "summary": "The Government has flagged significant reforms to trust tax treatment, signaling a fundamental shift from taxing income to taxing assets. The Treasurer indicated the plan would rebalance the tax system, moving away from income-based taxation. This reform forms part of broader tax changes announced alongside CGT adjustments and negative gearing restrictions in Budget 2026-27.",
+      "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "priority": "high"
+    },
+    {
+      "id": "update-026",
+      "date": "2026-05-27",
+      "tag": "Budget",
+      "source": "2026 Australian Federal Budget",
+      "title": "Working Australians Tax Offset: $250 annual relief confirmed for low-to-middle income workers",
+      "summary": "The 2026-27 Budget introduces a new Working Australians Tax Offset providing $250 annual tax relief for eligible workers earning approximately $20,000 to $67,000. The offset will be delivered through adjustments to tax withholding from 1 July 2026, reducing the tax burden for around 4 million low-to-middle income earners.",
+      "url": "https://budget.gov.au/content/04-tax-reform.htm",
+      "priority": "high"
+    },
+    {
+      "id": "update-027",
+      "date": "2026-05-28",
+      "tag": "Budget",
+      "source": "Grant Thornton Australia",
+      "title": "Foreign resident capital gains notification threshold remains at $50m",
+      "summary": "Foreign residents disposing of shares and membership interests exceeding $50 million in value must notify the ATO before executing the transaction. The commencement date for these provisions has again been deferred until the legislation passes Parliament. Taxpayers should ensure compliance procedures are in place pending the legislative update.",
+      "url": "https://www.grantthornton.com.au/insights/federal-budget-2026-27/",
+      "priority": "medium"
+    },
+    {
+      "id": "update-028",
+      "date": "2026-05-12",
+      "tag": "Budget",
+      "source": "The Guardian",
+      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
+      "summary": "Treasury analysis shows inflation accounted for 56% of ASX 200 share gains over the past decade, providing key data for the government's rationale to replace the flat 50% CGT discount with inflation indexation. The analysis underpins the government's claim that the existing 50% discount overcompensates investors for inflationary gains rather than genuine economic growth. This data has been cited as central justification for the proposed CGT reform in the 2026 budget.",
       "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
       "priority": "high"
     }

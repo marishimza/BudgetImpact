@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T07:39:05.321Z",
+  "lastUpdated": "2026-05-28T13:44:33.343Z",
   "debates": [
     {
       "id": "debate-001",
@@ -212,6 +212,29 @@
             "name": "ACOSS via The Guardian",
             "url": "https://www.theguardian.com"
           }
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-009",
+      "slug": "will-limiting-negative-gearing-to-new-builds-increase-or-decrease-rental-supply",
+      "title": "Will limiting negative gearing to new builds increase or decrease rental supply?",
+      "category": "housing_and_property",
+      "type": "projection_disagreement",
+      "summary": "The real estate industry warns that limiting negative gearing to new builds could reduce rental supply, while the government claims its policy will focus tax support on new supply to support longer-term rental stock. These represent conflicting predictions about market outcomes.",
+      "view_a": {
+        "label": "Industry warning: supply will decrease",
+        "argument": "The Real Estate Institute of Australia and Property Council warn that limiting negative gearing to new builds could reduce the attractiveness of property investment. If investors exit the market or reduce their portfolio growth, this could decrease rental supply over time, worsening affordability in the private rental market.",
+        "sources": [
+          "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors"
+        ]
+      },
+      "view_b": {
+        "label": "Government claim: supply will increase",
+        "argument": "The government claims its policy targets negative gearing relief to new construction only, which will direct investment into new supply rather than existing housing. The policy is designed to grow the overall rental stock over time to support renters in the long term.",
+        "sources": [
+          "https://www.budget.gov.au"
         ]
       },
       "verdict": null

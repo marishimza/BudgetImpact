@@ -2,6 +2,22 @@
   "lastUpdated": "2026-05-17T00:00:00+10:00",
   "snapshots": [
     {
+      "snapshot_id": "snapshot-20260529-2309",
+      "timestamp": "2026-05-29T23:09:43.947Z",
+      "git_commit": "4219d620052f38f10df2db696b7ff211072249c0",
+      "pages_changed": [
+        "content/budget-updates.json",
+        "content/suggestions.json"
+      ],
+      "suggestions_implemented": [
+        "suggestion-20260523-561",
+        "suggestion-20260523-111",
+        "suggestion-20260523-680",
+        "suggestion-20260523-283",
+        "suggestion-20260524-531"
+      ]
+    },
+    {
       "snapshot_id": "snapshot-20260529-1830",
       "timestamp": "2026-05-29T18:30:32.087Z",
       "git_commit": "556cb2e8f3a691cc090cdd15bdb0ee79733a1865",

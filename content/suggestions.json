@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T07:52:02.076Z",
+  "lastUpdated": "2026-05-29T11:20:26.858Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3126,23 +3126,72 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
+    },
     {
       "type": "debate_page",
       "priority": "high",
-      "title": "Will limiting negative gearing to new builds actually increase housing supply?",
-      "description": "Two credible sources make conflicting factual claims about whether the negative gearing reform will effectively increase housing supply. The REIA (peak property body) says infrastructure spending will enable 65,000 homes, implying negative gearing changes are not sufficient. ACOSS (community sector peak) claims negative gearing 'added little to rental supply', suggesting the policy has failed to work as intended. This conflict centers on whether the reform mechanism (redirecting investor demand to new builds) will actually produce additional housing.",
-      "suggestion": "Add to debates.json: view_a from REIA via apimagazine.com.au says '$2 billion infrastructure initiative expected to enable around 65,000 additional homes' was the effective housing supply measure, view_b from ACOSS via theguardian.com says negative gearing 'added little to rental supply'",
-      "source": "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "title": "Will the $2B infrastructure initiative deliver 65,000 additional homes?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The government projects its $2 billion infrastructure initiative will enable ~65,000 additional homes. Industry groups like REIA endorse this figure as 'positive and necessary,' but independent feasibility assessment is absent from news coverage. No source validates whether the modelling assumptions are realistic.",
+      "suggestion": "Add to debates.json: budget.gov.au states the $2B infrastructure initiative 'expected to enable around 65,000 additional homes' vs apimagazine.com.au REIA President Jacob Caine 'said measures that directly support new housing supply...expected to enable around 65,000 additional homes, were positive and necessary' — but neither source independently verifies whether this projection is achievable or how it was calculated",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
       "implementation_effort": "30_minutes",
-      "id": "suggestion-20260522-392",
-      "timestamp": "2026-05-22T05:58:54.493Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implemented_at": "2026-05-22T07:39:18.787Z"
+      "id": "suggestion-20260529-577",
+      "timestamp": "2026-05-29T11:20:21.035Z",
+      "status": "pending",
+      "corroborated_by": "https://www.smh.com.au/politics/federal/chalmers-doubles-down-on-housing-with-2-billion-for-roads-and-pipes-20260509-p5zv9w.html"
     },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is restricting negative gearing to new builds effective housing supply policy?",
+      "description": "The government restricts negative gearing to new builds from 1 July 2027, claiming this will focus tax support on new supply. However, industry bodies (REIA, Property Council) express concern that reducing investment attractiveness could reduce rental supply. Both are forward-looking claims without empirical validation from Australian context.",
+      "suggestion": "Add to debates.json: budget.gov.au limits negative gearing 'to focus tax support on new supply' vs slateandsage.com.au reporting REIA and Property Council of Australia expressed concern 'reducing the attractiveness of residential property investment could reduce rental supply over time'",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-828",
+      "timestamp": "2026-05-29T11:20:21.035Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources use the word 'ALL' when describing the 30% minimum tax rate on capital gains. However, ABC News specifically states the 30% floor applies to 'real capital gains' - meaning gains AFTER inflation adjustment. The phrase 'all gains' could mislead readers into thinking the 30% floor applies to nominal gains, when in fact it applies only to inflation-adjusted real gains. This is a significant distinction that affects how much tax investors actually pay.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax on ALL capital gains', verdict is disputed because the 30% minimum rate applies only to REAL (inflation-adjusted) capital gains, not nominal gains. The inflation indexation mechanism means investors are not taxed on inflationary gains, and the 30% floor applies only to gains above inflation.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-could-shift-investment-property-shares/10511698",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-360",
+      "timestamp": "2026-05-29T11:20:21.035Z",
+      "status": "pending",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million",
+      "description": "This claim frequently appears in media but is technically inaccurate. The ATO confirms Division 296 applies 15% tax on 'the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning only the investment earnings attributable to the portion of balance above $3m, NOT the entire balance above $3m. For example, someone with $4m super would only pay 15% tax on earnings attributable to the $1m above the threshold, not on the full $4m or even the $1m itself.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because the tax applies only to the earnings/returns on the portion of total superannuation balance exceeding $3m, not on the excess amount itself nor the entire balance.",
+      "source": "https://www.ato.gov.au/General/New-legislation/In-detail/Super-properties/Division-296---Better-targeted-super-concessions",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-952",
+      "timestamp": "2026-05-29T11:20:21.035Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
+    },
+    {
+      "id": "suggestion-20260529-802",
+      "timestamp": "2026-05-29T11:20:21.035Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "fact_check",
       "priority": "high",
@@ -3427,35 +3476,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "New builds fully exempt from CGT changes under 2026 Budget",
-      "description": "Properties constructed after 7:30pm on Budget Night (12 May 2026) will retain access to the existing 50% CGT discount and negative gearing, with the changes applying only to established property purchases.",
-      "suggestion": "Add to budget-updates.json: New residential property constructions are fully exempt from the CGT changes. Properties purchased after 7:30pm on 12 May 2026 that are newly built will retain access to existing CGT discount arrangements and negative gearing rules.",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260521-225",
-      "timestamp": "2026-05-21T16:35:36.607Z",
-      "status": "skipped",
-      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-05-22T07:38:46.301Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASA calls for capital gains averaging alongside indexation reform",
-      "description": "The Australian Shareholders Association has formally called on the government to include a capital gains averaging mechanism alongside the proposed inflation indexation reform, arguing the changes may not address income bunching where multi-year gains are realised in a single tax year.",
-      "suggestion": "Add to budget-updates.json: ASA formally calls for capital gains averaging mechanism alongside indexation reform, warning the current proposal may not adequately address income bunching issues for investors who realise large gains in a single year.",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260519-342",
-      "timestamp": "2026-05-19T21:12:05.621Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-05-22T07:40:39.369Z"
-    },
     {
       "type": "fact_check",
       "priority": "high",

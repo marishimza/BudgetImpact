@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T18:30:30.311Z",
+  "lastUpdated": "2026-05-29T21:45:17.328Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3154,6 +3154,66 @@
     {
       "id": "suggestion-20260529-336",
       "timestamp": "2026-05-29T17:27:05.211Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Labor's negative gearing reform: Broken promise or legitimate policy evolution?",
+      "description": "The ABC frames the changes as the government breaking another promise, while budget.gov.au and supporters frame it as legitimate tax reform targeting new housing supply. This is a factual conflict about framing vs substance.",
+      "suggestion": "Add to debates.json: view_a from ABC News (2026-05-12) characterizes changes as 'breaks promise with restrictions', view_b from budget.gov.au frames same changes as 'focus tax support on new supply' — legitimate policy refinement",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-146",
+      "timestamp": "2026-05-29T21:45:13.801Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Coalition immigration cap: Direct response to housing crisis or political opportunism?",
+      "description": "The Coalition has vowed to drastically cut immigration and tie intake to new housing builds as part of its budget reply, while the government argues its housing tax reforms are the primary solution. This represents conflicting policy diagnoses of what's driving the housing crisis.",
+      "suggestion": "Add to debates.json: view_a from Coalition (Taylor, 2026-05-14) proposes immigration cuts 'significantly below' existing caps as housing solution, view_b from housing advocates may argue tax reform is more targeted solution",
+      "source": "https://www.theguardian.com/australia-news/live/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-672",
+      "timestamp": "2026-05-29T21:45:13.801Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "Multiple sources quote the new 30% minimum CGT rate, but some claim it applies to ALL gains. However, the ABC source specifically states 'minimum tax rate of 30pc applying to real capital gains' (gains above inflation). The budget.gov.au source says the discount will be 'replaced with a discount based on inflation.' This suggests the 30% floor may only apply to REAL gains above inflation, not nominal gains. If true, this is a significant oversimplification.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax applies to ALL gains', verdict is disputed because the 30% floor appears to apply only to real capital gains (above inflation), not nominal gains, per official budget documents.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-property-shares/2026-05-13",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-162",
+      "timestamp": "2026-05-29T21:45:13.801Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "This claim is commonly cited but slightly imprecise. The ATO states Division 296 applies '15% on the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning it's a 15% tax on EARNINGS (not the balance itself) attributable to the portion of your Total Superannuation Balance above the threshold. A $3m balance doesn't incur $450,000 in extra tax; rather, the earnings attributed to amounts above $3m are taxed at 15%.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is partially_true but oversimplified because Division 296 taxes the proportion of earnings attributable to the excess balance, not the balance itself.",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260529-916",
+      "timestamp": "2026-05-29T21:45:13.801Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260529-709",
+      "timestamp": "2026-05-29T21:45:13.801Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

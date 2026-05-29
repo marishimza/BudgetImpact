@@ -1249,6 +1249,34 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-05-22T07:40:39.369Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Negative gearing changes affect 'all' established property investors from 1 July 2027",
+      "description": "Multiple sources (williambuck.com, abc.net.au) confirm negative gearing is REMOVED for established properties purchased AFTER 7:30pm on 12 May 2026 (budget night). The phrase 'all established property investors' from 1 July 2027 is misleading because investors who purchased established properties before that deadline likely retain existing negative gearing rights (grandfathering). The policy specifically targets NEW purchases, not existing investor positions.",
+      "suggestion": "Add to fact-checks.json: claim is 'negative gearing removed for all established property investors', verdict is disputed because the removal applies to purchases after 7:30pm budget night; prior purchases may be grandfathered.",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260522-641",
+      "timestamp": "2026-05-22T10:42:25.759Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implemented_at": "2026-05-22T12:15:30.193Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Division 296: ATO confirms indexed thresholds for 2026–27 implementation",
+      "description": "The ATO has published confirmed indexed threshold amounts for Division 296 tax, which applies to superannuation balances exceeding $3 million from 1 July 2026. The tax imposes 15% on earnings relating to the portion of total superannuation balance above the Lower Spouse BAS Threshold (LSBT).",
+      "suggestion": "Add Division 296 super tax: ATO confirms indexed thresholds for 2026-27 year",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260522-835",
+      "timestamp": "2026-05-22T16:15:40.059Z",
+      "status": "needs_manual_review",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "status_reason": "Item count shrank from 23 to 3 in content/budget-updates.json"
     }
   ]
 }

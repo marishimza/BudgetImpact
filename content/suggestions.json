@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T23:10:47.074Z",
+  "lastUpdated": "2026-05-29T06:05:46.127Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3082,6 +3082,104 @@
     {
       "id": "suggestion-20260528-350",
       "timestamp": "2026-05-28T21:50:39.019Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases detailed Division 296 calculation methodology and Total Superannuation Balance guidance",
+      "description": "The ATO has published comprehensive guidance on how Division 296 tax will be calculated, including the Total Superannuation Balance (TSB) measurement methodology, the $3m threshold application, and how earnings above the Low Balance Threshold (LSBT) are taxed at 15%. This confirms indexed thresholds for 2026-27 and CGT relief provisions for SMSFs.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 calculation methodology and indexed thresholds for 2026-27 — detailed TSB measurement guidance released",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260529-119",
+      "timestamp": "2026-05-29T06:05:39.809Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Budget Bills introduced to Parliament — Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged",
+      "description": "The formal budget legislation has been introduced to Parliament. The Treasury Laws Amendment (More Housing, More Help) Bill 2026 contains the CGT and negative gearing reforms and has been referred to a Senate committee for inquiry. This marks the official legislative path for the budget tax changes.",
+      "suggestion": "Add to budget-updates.json: Budget tax reform legislation formally introduced to Parliament — Treasury Laws Amendment Bill 2026 referred to Senate committee",
+      "source": "https://www.pm.gov.au/media/press-conference-parliament-house-canberra-25-may-2026",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260529-645",
+      "timestamp": "2026-05-29T06:05:39.809Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis reveals 'two-speed' CGT treatment for different investor types under reform package",
+      "description": "ASX Investor Update analysis details how CGT reforms create differential outcomes: SMSFs retain one-third discount on superannuation assets, listed investment vehicles face modified treatment, while direct share investors move to indexation-based cost bases. The analysis quantifies impacts across ETF, Listed Investment Company (LIC), and Listed Investment Trust (LIT) structures.",
+      "suggestion": "Add to budget-updates.json: ASX analysis reveals 'two-speed' CGT treatment — SMSFs, ETFs and Listed Investment Vehicles face differentiated outcomes under reform package",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260529-369",
+      "timestamp": "2026-05-29T06:05:39.809Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
+      "description": "Real conflict between industry groups (REIA, Property Council of Australia) warning that reduced investment attractiveness will shrink rental supply versus government-aligned economists who argue negative gearing restrictions improve affordability by directing investment toward new supply. This is a factual disagreement about cause and effect with different projections.",
+      "suggestion": "Add to debates.json: View A from REIA and Property Council of Australia (slateandsage.com.au) warns that reducing investment attractiveness will decrease rental supply over time. View B from Law Society Journal (lsj.com.au) citing economists who claim negative gearing is the key reason for the housing affordability and rental crisis, implying restrictions will improve outcomes.",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-850",
+      "timestamp": "2026-05-29T06:05:39.809Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-08/how-tax-reform-cgt-negative-gearing-changes-impacts-renters/106644610"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the Coalition successfully repeal Labor's negative gearing and CGT changes if elected?",
+      "description": "The Coalition has made a firm commitment to repeal these changes, but the factual question is whether they can and will follow through. This is a debate about political feasibility and implementation, not just political positioning.",
+      "suggestion": "Add to debates.json: View A from Coalition (tim Wilson via theguardian.com) states 'We will repeal these measures if necessary' and will 'look to defeat the changes'. View B (toop.com.au) suggests Bronte Manuel may provide counter-analysis or the grandfathering provisions complicate repeal prospects, creating uncertainty about whether repeal is politically or practically viable.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-556",
+      "timestamp": "2026-05-29T06:05:39.809Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple media sources report a flat 30% minimum tax on ALL capital gains. However, the official budget.gov.au states the reform replaces the 50% discount with 'inflation indexation' AND introduces a 'minimum 30 per cent tax on gains.' The interaction between indexation adjustment and the minimum rate is more complex than a flat 30% on all gains, and the 'on ALL gains' qualifier may be inaccurate for assets with inflation-adjusted cost bases.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum on ALL gains', verdict is disputed because the reform combines inflation indexation with a minimum floor—the 30% likely applies to real gains after inflation adjustment, not gross gains. Tax outcomes depend on inflation during the holding period.",
+      "source": "https://budget.gov.au/2026-27/content/tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-452",
+      "timestamp": "2026-05-29T06:05:39.809Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "This claim appears frequently in media coverage. The ATO's official guidance clarifies that Division 296 applies 15% tax 'on the proportion of earnings relating to your TSB that exceeds the LSBT' (Total Superannuation Balance above the Low Balance Threshold). This means the tax is on earnings, not on the entire balance. A $4 million balance doesn't incur 15% × $4M = $600,000 in tax—only the earnings attributable to amounts above the threshold.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on balances over $3m', verdict is partially_true because the 15% rate applies to earnings (not the full balance) attributable to amounts exceeding the threshold. The actual tax liability depends on the individual's TSB, income during the year, and how much of their balance sits above the threshold.",
+      "source": "https://www.ato.gov.au/individuals/super/super-and-taxing-concessions/better-targeted-super-concessions/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-784",
+      "timestamp": "2026-05-29T06:05:39.809Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260529-713",
+      "timestamp": "2026-05-29T06:05:39.810Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

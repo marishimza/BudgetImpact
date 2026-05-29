@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T23:10:38.398Z",
+  "lastUpdated": "2026-05-29T07:52:02.074Z",
   "items": [
     {
       "id": "update-001",
@@ -352,6 +352,26 @@
       "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
       "summary": "Treasury analysis published in Budget 2026–27 documentation has quantified that approximately 56% of ASX 200 share gains over the past decade were attributable to inflationary effects rather than real economic growth. This data provides the quantitative foundation for the government's proposed CGT reform, replacing the 50% discount with inflation indexation to ensure only genuine capital gains are subject to tax.",
       "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "priority": "high"
+    },
+    {
+      "id": "update-036",
+      "date": "2026-05-12",
+      "tag": "Budget",
+      "source": "The Guardian Australia",
+      "title": "Trust tax treatment reform flagged — Government signals plan to shift burden from income to assets",
+      "summary": "The 2026 Budget indicates the Government plans to reform trust tax treatment, shifting the burden away from taxing income and more towards taxing assets. This follows similar moves on negative gearing and CGT, forming part of a broader tax system rebalancing according to Treasurer Jim Chalmers. Details of the reform framework are expected to be released in coming months.",
+      "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "priority": "high"
+    },
+    {
+      "id": "update-037",
+      "date": "2026-05-29",
+      "tag": "Budget",
+      "source": "Australian Government Treasury",
+      "title": "Venture capital tax incentives expansion confirmed from July 2027",
+      "summary": "The 2026 Federal Budget confirms the expansion of venture capital tax incentives, with new settings commencing from 1 July 2027. This measure forms part of the broader tax reform agenda aimed at boosting investment in innovation and startups across Australia. The government expects the enhanced incentives to attract greater private capital to early-stage businesses and grow the startup ecosystem.",
+      "url": "https://budget.gov.au/content/04-tax-reform.htm",
       "priority": "high"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T13:44:33.343Z",
+  "lastUpdated": "2026-05-29T07:51:05.518Z",
   "debates": [
     {
       "id": "debate-001",
@@ -235,6 +235,52 @@
         "argument": "The government claims its policy targets negative gearing relief to new construction only, which will direct investment into new supply rather than existing housing. The policy is designed to grow the overall rental stock over time to support renters in the long term.",
         "sources": [
           "https://www.budget.gov.au"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-010",
+      "slug": "will-restricting-negative-gearing-to-new-builds-reduce-or-increase-rental-supply",
+      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "A factual disagreement about the projected effects of restricting negative gearing to new builds on rental supply. Industry groups warn that reduced investment attractiveness will shrink rental supply over time, while government-aligned economists argue the policy will improve affordability by directing investment toward new housing supply.",
+      "view_a": {
+        "label": "Supply will decrease",
+        "argument": "The Real Estate Institute of Australia (REIA) and Property Council of Australia warn that restricting negative gearing to new builds will reduce investment attractiveness, leading to a decrease in rental supply over time. These industry groups argue that investors will exit the market or reduce their property acquisitions, ultimately tightening rental availability and potentially increasing rents.",
+        "sources": [
+          "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors"
+        ]
+      },
+      "view_b": {
+        "label": "Supply will improve",
+        "argument": "The Law Society Journal cites economists who argue that negative gearing is a key driver of the housing affordability and rental crisis. These economists contend that restricting negative gearing will improve housing outcomes by redirecting investment toward new supply, increasing the overall housing stock and improving affordability for renters and buyers alike.",
+        "sources": [
+          "https://www.lsj.com.au"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-011",
+      "slug": "housing-price-impact-slump-vs-correction",
+      "title": "Short-term housing price impact: slump vs brief correction",
+      "category": "housing-economy",
+      "type": "projection_disagreement",
+      "summary": "Economists cited in The Guardian make conflicting predictions about the severity and duration of housing price impacts from negative gearing and CGT changes. One perspective expects a significant national slump (first since 2022), while another suggests any fall would be short-term due to persistent housing shortages. These positions differ on whether the market impact will be substantial or mild.",
+      "view_a": {
+        "label": "Significant National Slump",
+        "argument": "Economists predict home values are set for their first national slump since 2022 due to the negative gearing and CGT changes. This represents a substantial and meaningful market impact affecting property owners across the country.",
+        "sources": [
+          "The Guardian (May 21, 2026) - Source unavailable"
+        ]
+      },
+      "view_b": {
+        "label": "Short-term Correction",
+        "argument": "Australia's persistent housing shortage means any price fall would be short-term. The underlying supply constraints will support recovery, suggesting the market impact will be relatively mild and temporary rather than prolonged.",
+        "sources": [
+          "The Guardian (May 21, 2026) - Source unavailable"
         ]
       },
       "verdict": null

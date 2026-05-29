@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T18:30:30.309Z",
+  "lastUpdated": "2026-05-29T23:09:36.463Z",
   "items": [
     {
       "id": "update-001",
@@ -423,6 +423,60 @@
       "summary": "Budget 2026 includes expansion of venture capital tax incentives effective from July 2027, with new details on eligibility criteria and investment thresholds. The measure aims to encourage greater private investment in early-stage Australian businesses. Taxpayers and fund managers should review the updated requirements to ensure compliance when the changes take effect.",
       "url": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
       "priority": "medium"
+    },
+    {
+      "id": "update-043",
+      "date": "2026-05-12",
+      "tag": [
+        "ASX",
+        "Budget",
+        "Parliament"
+      ],
+      "source": "ABC News",
+      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
+      "summary": "Treasury analysis released with the Budget shows inflation comprised 56 per cent of asset price growth for ASX 200 shares held for 10 years to March 2026. The data provides empirical justification for the government's proposed capital gains tax indexation reforms, which would allow investors to adjust CGT for inflation. The analysis underscores the impact of inflationary pressures on long-term investment returns.",
+      "url": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "priority": "high"
+    },
+    {
+      "id": "update-044",
+      "date": "2026-05-29",
+      "tag": "ASX",
+      "source": "ASX",
+      "title": "ASX analysis details CGT reform impact on ETF and Listed Investment Vehicle investors",
+      "summary": "The ASX published an investor update analysing how the proposed CGT changes affect ETFs and Listed Investment Vehicles (LIVs), including practical implications for share market investors. The exchange's investor update examines how indexation and the 30% minimum tax floor apply to these investment vehicles, noting share market investors have been 'undercompensated' for inflation under current settings. This update provides essential guidance for investors navigating the proposed tax changes to capital gains.",
+      "url": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "priority": "high"
+    },
+    {
+      "id": "update-045",
+      "date": "2026-05-29",
+      "tag": "Budget",
+      "source": "Pitcher Partners",
+      "title": "Venture capital tax incentives expanded from July 2027 in budget measure",
+      "summary": "The federal budget has expanded venture capital tax incentives, extending the program from 1 July 2027 as part of a broader tax reform package. The measure reflects the government's shift from taxing income to taxing assets, providing enhanced incentives for venture capital investment. This expansion aims to support innovation and growth in the startup ecosystem.",
+      "url": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "priority": "high"
+    },
+    {
+      "id": "update-046",
+      "date": "2026-05-29",
+      "tag": "Parliament",
+      "source": "Australian Shareholders' Association",
+      "title": "Foreign resident capital gains notification threshold remains at $50m",
+      "summary": "The much-anticipated legislation to lower the foreign resident capital gains withholding notification threshold has been deferred again. The threshold will remain at $50 million for the foreseeable future, with the government confirming the changes will not proceed in this budget cycle. This comes despite earlier indications that the legislation would be introduced to target higher-value property transactions by foreign residents.",
+      "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "priority": "medium"
+    },
+    {
+      "id": "update-047",
+      "date": "2026-05-29",
+      "tag": "Property",
+      "source": "Australian Taxation Office",
+      "title": "ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes",
+      "summary": "The ATO has released guidance confirming that investors holding shares acquired before 20 September 1985 can access a valuation reset to establish a new cost base ahead of the CGT discount reforms taking effect from 1 July 2027. This grandfathering arrangement allows legacy shareholders to potentially benefit from the new inflation-indexed cost base rules. Taxpayers should review their pre-1985 share holdings and consider obtaining independent valuations before the changes take effect.",
+      "url": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-events-and-calculation-methods/cgt-events/creating-or-varying-a-cgt-coupon",
+      "priority": "high"
     }
   ]
 }

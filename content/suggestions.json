@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T17:27:11.704Z",
+  "lastUpdated": "2026-05-29T18:30:30.311Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1258,42 +1258,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "CGT reform could drive investment shift from property to shares, ABC analysis suggests",
-      "description": "ABC News analysis examining how the Budget's capital gains tax changes may redirect investor behaviour from residential property toward Australian shares. The analysis cites Treasury data showing inflation comprised 56% of ASX 200 share price growth over the decade to March 2026, arguing investors in shares have been 'undercompensated' by current CGT settings compared to property investors.",
-      "suggestion": "Add to budget-updates.json: ABC News analysis of how CGT changes may shift investment patterns from property to shares, citing Treasury data on inflation's share of ASX 200 returns",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260523-398",
-      "timestamp": "2026-05-23T05:33:50.727Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Guardian analysis: CGT concession benefits concentrated among top 1% of income earners",
-      "description": "The Guardian's analysis of Budget 2026 reveals that more than half of the capital gains tax discount benefit flows to the top 1% of income earners, based on the most recent available data. The article includes visualisations showing the distributional impact of CGT arrangements.",
-      "suggestion": "Add to budget-updates.json: Guardian analysis showing majority of CGT discount benefits concentrated among top 1% of income earners, with supporting chart data",
-      "source": "https://www.theguardian.com/news/2026/may/13/australia-federal-budget-2026-tax-capital-gains-negative-gearing-housing-one-big-chart",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260523-695",
-      "timestamp": "2026-05-23T05:33:50.727Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Pitcher Partners: Superannuation unchanged in Budget 2026 but broader tax reform ripple effects remain",
-      "description": "Accounting firm Pitcher Partners notes no major superannuation measures in Budget 2026, but highlights that the enacted Division 296 legislation (commencing 1 July 2026) will still impact high-balance SMSF members. The analysis examines broader tax reform context including CGT and negative gearing changes as interconnected policy shifts.",
-      "suggestion": "Add to budget-updates.json: Pitcher Partners analysis confirming no new super measures but outlining ongoing Division 296 impacts and broader tax reform context",
-      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260523-495",
-      "timestamp": "2026-05-23T05:33:50.727Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Is the Coalition's immigration cap proposal a direct response to budget housing measures?",
@@ -1319,19 +1283,6 @@
     },
     {
       "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Division 296 super tax applies a 15% tax on all super balances over $3m'",
-      "description": "Multiple sources state Division 296 applies to balances over $3m with a 15% tax. However, the ATO's own page clarifies it applies to 'the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning the 15% tax is on earnings/income above the threshold, not the entire balance. This is a significant distinction that could lead to overestimation of tax liability.",
-      "suggestion": "Add to fact-checks.json: claim is oversimplified, verdict is partially_true because the 15% applies to earnings above the threshold, not the entire balance exceeding $3m.",
-      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
-      "implementation_effort": "20_minutes",
-      "id": "suggestion-20260523-165",
-      "timestamp": "2026-05-23T05:33:50.727Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
-    },
-    {
-      "type": "fact_check",
       "priority": "medium",
       "title": "Claim: 'CGT discount is being REPLACED by inflation indexation (no choice)'",
       "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget.gov.au states 'replace the 50% CGT discount with a discount based on inflation' implying replacement. However, this oversimplifies the mechanism - investors may have flexibility in calculating cost basis (indexation vs. discount). The full elimination framing ignores grandfathering provisions and transitional arrangements that preserve the 50% discount for existing assets under certain conditions.",
@@ -1353,18 +1304,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Venture capital tax incentives expanded from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget 2026 includes expansion of venture capital tax incentives effective from July 2027, with new details on eligibility and investment thresholds.",
-      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expanded from July 2027 in budget measure",
-      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260523-971",
-      "timestamp": "2026-05-23T09:43:55.109Z",
-      "status": "pending"
     },
     {
       "type": "content_update",
@@ -3520,6 +3459,58 @@
       "timestamp": "2026-05-22T21:03:45.810Z",
       "status": "implemented",
       "implemented_at": "2026-05-29T12:46:24.475Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "CGT reform could drive investment shift from property to shares, ABC analysis suggests",
+      "description": "ABC News analysis examining how the Budget's capital gains tax changes may redirect investor behaviour from residential property toward Australian shares. The analysis cites Treasury data showing inflation comprised 56% of ASX 200 share price growth over the decade to March 2026, arguing investors in shares have been 'undercompensated' by current CGT settings compared to property investors.",
+      "suggestion": "Add to budget-updates.json: ABC News analysis of how CGT changes may shift investment patterns from property to shares, citing Treasury data on inflation's share of ASX 200 returns",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260523-398",
+      "timestamp": "2026-05-23T05:33:50.727Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-29T18:29:11.322Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Guardian analysis: CGT concession benefits concentrated among top 1% of income earners",
+      "description": "The Guardian's analysis of Budget 2026 reveals that more than half of the capital gains tax discount benefit flows to the top 1% of income earners, based on the most recent available data. The article includes visualisations showing the distributional impact of CGT arrangements.",
+      "suggestion": "Add to budget-updates.json: Guardian analysis showing majority of CGT discount benefits concentrated among top 1% of income earners, with supporting chart data",
+      "source": "https://www.theguardian.com/news/2026/may/13/australia-federal-budget-2026-tax-capital-gains-negative-gearing-housing-one-big-chart",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260523-695",
+      "timestamp": "2026-05-23T05:33:50.727Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-29T18:29:28.313Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Pitcher Partners: Superannuation unchanged in Budget 2026 but broader tax reform ripple effects remain",
+      "description": "Accounting firm Pitcher Partners notes no major superannuation measures in Budget 2026, but highlights that the enacted Division 296 legislation (commencing 1 July 2026) will still impact high-balance SMSF members. The analysis examines broader tax reform context including CGT and negative gearing changes as interconnected policy shifts.",
+      "suggestion": "Add to budget-updates.json: Pitcher Partners analysis confirming no new super measures but outlining ongoing Division 296 impacts and broader tax reform context",
+      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260523-495",
+      "timestamp": "2026-05-23T05:33:50.727Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-29T18:29:51.435Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Venture capital tax incentives expanded from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget 2026 includes expansion of venture capital tax incentives effective from July 2027, with new details on eligibility and investment thresholds.",
+      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expanded from July 2027 in budget measure",
+      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260523-971",
+      "timestamp": "2026-05-23T09:43:55.109Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-29T18:30:30.311Z"
     }
   ],
   "skipped": [
@@ -3624,6 +3615,21 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-05-29T12:46:05.971Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Division 296 super tax applies a 15% tax on all super balances over $3m'",
+      "description": "Multiple sources state Division 296 applies to balances over $3m with a 15% tax. However, the ATO's own page clarifies it applies to 'the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning the 15% tax is on earnings/income above the threshold, not the entire balance. This is a significant distinction that could lead to overestimation of tax liability.",
+      "suggestion": "Add to fact-checks.json: claim is oversimplified, verdict is partially_true because the 15% applies to earnings above the threshold, not the entire balance exceeding $3m.",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260523-165",
+      "timestamp": "2026-05-23T05:33:50.727Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-29T18:30:08.366Z"
     }
   ],
   "needs_manual_review": [

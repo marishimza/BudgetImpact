@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T12:46:24.474Z",
+  "lastUpdated": "2026-05-29T18:30:30.309Z",
   "items": [
     {
       "id": "update-001",
@@ -383,6 +383,46 @@
       "summary": "The Government has signalled plans to reform trust tax treatment, shifting the burden from taxing incomes to taxing assets as part of broader tax reform. The changes would work alongside proposed alterations to capital gains tax (CGT) and negative gearing policies. This represents a fundamental change in how investment structures are taxed in Australia.",
       "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
       "priority": "high"
+    },
+    {
+      "id": "update-039",
+      "date": "2026-05-12",
+      "tag": "ASX",
+      "source": "ABC News",
+      "title": "CGT reform could drive investment shift from property to shares, ABC analysis suggests",
+      "summary": "ABC News analysis examining how the Budget's capital gains tax changes may redirect investor behaviour from residential property toward Australian shares. The analysis cites Treasury data showing inflation comprised 56% of ASX 200 share price growth over the decade to March 2026, arguing investors in shares have been 'undercompensated' by current CGT settings compared to property investors.",
+      "url": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "priority": "medium"
+    },
+    {
+      "id": "update-040",
+      "date": "2026-05-13",
+      "tag": "Budget",
+      "source": "The Guardian",
+      "title": "Guardian analysis: CGT concession benefits concentrated among top 1% of income earners",
+      "summary": "The Guardian's analysis of Budget 2026 reveals that more than half of the capital gains tax discount benefit flows to the top 1% of income earners, based on the most recent available ATO data. The analysis includes interactive visualisations illustrating the distributional impact of CGT arrangements across income brackets. Researchers found the CGT discount disproportionately favours high-wealth individuals with property and share investments.",
+      "url": "https://www.theguardian.com/news/2026/may/13/australia-federal-budget-2026-tax-capital-gains-negative-gearing-housing-one-big-chart",
+      "priority": "high"
+    },
+    {
+      "id": "update-041",
+      "date": "2026-05-29",
+      "tag": "Superannuation",
+      "source": "Pitcher Partners",
+      "title": "Pitcher Partners: Superannuation unchanged in Budget 2026 but broader tax reform ripple effects remain",
+      "summary": "Accounting firm Pitcher Partners confirms no major superannuation measures were announced in Budget 2026, though the enacted Division 296 legislation will take effect from 1 July 2026 and continue to impact high-balance SMSF members. The analysis also examines broader tax reform context, noting that CGT changes and negative gearing modifications represent interconnected policy shifts affecting SMSF strategies.",
+      "url": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "priority": "high"
+    },
+    {
+      "id": "update-042",
+      "date": "2026-05-29",
+      "tag": "Budget",
+      "source": "Pitcher Partners",
+      "title": "Venture capital tax incentives expanded from July 2027",
+      "summary": "Budget 2026 includes expansion of venture capital tax incentives effective from July 2027, with new details on eligibility criteria and investment thresholds. The measure aims to encourage greater private investment in early-stage Australian businesses. Taxpayers and fund managers should review the updated requirements to ensure compliance when the changes take effect.",
+      "url": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "priority": "medium"
     }
   ]
 }

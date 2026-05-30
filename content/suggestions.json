@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T23:09:42.896Z",
+  "lastUpdated": "2026-05-30T05:42:04.754Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3154,6 +3154,91 @@
     {
       "id": "suggestion-20260529-709",
       "timestamp": "2026-05-29T21:45:13.801Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis reveals ETF and Listed Investment Vehicle investors face 'two-speed' CGT treatment",
+      "description": "The Australian Securities Exchange's investor update special edition examines how the CGT indexation changes create different outcomes for ETF investors versus Listed Investment Companies and Listed Investment Trusts. Analysis notes that investors in exchange-traded funds may retain different treatment compared to other listed vehicles.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details how CGT reform creates distinct tax treatment for ETF investors compared to Listed Investment Vehicles, potentially resulting in different outcomes for direct share investors versus fund structures.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260530-919",
+      "timestamp": "2026-05-30T05:41:56.853Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASA calls for capital gains averaging mechanism alongside indexation reform",
+      "description": "The Australian Shareholders Association has formally called on the Government to incorporate a capital gains averaging mechanism into the CGT reform package, arguing that indexation alone fails to address income bunching where gains accrued over many years are realised in a single tax year.",
+      "suggestion": "Add to budget-updates.json: ASA formally requests capital gains averaging be included alongside inflation indexation in CGT reform, warning that current proposal does not address income bunching concerns for investors who accumulate gains over extended periods.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260530-918",
+      "timestamp": "2026-05-30T05:41:56.853Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
+      "description": "Real estate industry bodies (REIA and Property Council) warn the policy will reduce rental supply as investors exit the market, while the government explicitly designed the measure to 'focus tax support on new supply' to increase housing stock. These represent conflicting factual predictions about the same policy's market effects.",
+      "suggestion": "Add to debates.json: REIA and Property Council of Australia from [slateandsage.com.au] and [apimagazine.com.au] warn that making property investment less attractive will reduce rental supply over time, contradicting the government rationale that limiting negative gearing to new builds from budget.gov.au 'focuses tax support on new supply' to increase housing availability.",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-446",
+      "timestamp": "2026-05-30T05:41:56.853Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-08/how-tax-reform-cgt-negative-gearing-changes-impacts-renters/106644610"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the Coalition's immigration cap proposal a direct response to budget housing measures?",
+      "description": "The Guardian flags a debate about whether the Coalition's immigration cap policy is a direct response to the budget's housing affordability measures (implying immigration drives housing crisis) or a separate policy approach (implying supply-side reforms are the primary solution).",
+      "suggestion": "Add to debates.json: Guardian analysis suggests the Coalition's immigration cap may be 'a direct response to budget housing measures' (from theguardian.com), contrasting with government emphasis on supply-side tax reform via negative gearing limits as the primary housing solution (from budget.gov.au).",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-728",
+      "timestamp": "2026-05-30T05:41:56.853Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources (ABC, ASX, Fool.com.au) frame the 30% minimum rate as applying to ALL capital gains. However, the official budget.gov.au description states the discount will be 'replaced with a discount based on inflation and introduce a minimum 30% tax on gains' - suggesting the 30% floor only applies to gains after indexation (i.e., real/inflation-adjusted gains). The distinction matters: a $100k gain with $40k inflation would face 30% tax on $60k, not $100k. This framing difference could mislead investors about their actual tax liability.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum applies to ALL gains', verdict is disputed because official budget description indicates the minimum applies to real gains after inflation adjustment, not nominal gains.",
+      "source": "https://budget.gov.au/2026-27/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-890",
+      "timestamp": "2026-05-30T05:41:56.853Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'The 50% CGT discount is being REPLACED by inflation indexation with no choice for taxpayers'",
+      "description": "NAB states 'replaced by cost base indexation', budget.gov.au says 'discount based on inflation', and ASX notes a 'two-speed' system. Media reporting varies between 'replacement with no choice' and nuanced descriptions of indexation preserving the discount structure differently. The ASA specifically calls for consultation and mentions 'averaging mechanism' suggesting some flexibility may exist. The William Buck source about the cutoff date (7:30pm on Budget Night) implies transitional provisions exist, contradicting 'no choice' framing.",
+      "suggestion": "Add to fact-checks.json: claim is 'discount replaced with no choice', verdict is partially_true because while the 50% discount is being replaced for new acquisitions, transitional provisions exist (cutoff at 7:30pm Budget Night) and the Government may provide indexation methodology choices.",
+      "source": "https://business.nab.com.au/2026-federal-budget-what-it-means-for-individuals-52567/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-447",
+      "timestamp": "2026-05-30T05:41:56.853Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260530-254",
+      "timestamp": "2026-05-30T05:41:56.853Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

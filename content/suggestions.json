@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T16:57:23.668Z",
+  "lastUpdated": "2026-05-30T20:44:02.718Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3238,6 +3238,104 @@
     {
       "id": "suggestion-20260530-660",
       "timestamp": "2026-05-30T14:59:21.286Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Trust tax treatment reform details confirmed — Government signals shift from income to asset taxation",
+      "description": "The Guardian reports that planned reforms to trust tax treatment will shift the taxation burden from income to assets, complementing CGT and negative gearing changes. This is a third major tax reform pillar alongside the capital gains and negative gearing changes.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform — Government signals plan to shift taxation burden from income to assets, complementing CGT and negative gearing changes. Legislation pending.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260530-940",
+      "timestamp": "2026-05-30T20:43:55.919Z",
+      "status": "pending",
+      "corroborated_by": "https://www.smh.com.au/politics/federal/how-this-budget-will-change-your-taxes-limiting-negative-gearing-cgt-and-new-taxes-on-trusts-20260508-p5zv1j.html"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Budget Bills formally introduced — Treasury Laws Amendment (More Housing, More Help) Bill 2026 lodged",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has been formally lodged in Parliament, containing the CGT and negative gearing legislative changes. The Bill is currently before the Senate and is subject to the Senate referral to the Economics References Committee.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged — Contains CGT indexation and negative gearing legislative changes. Currently before Senate.",
+      "source": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260530-291",
+      "timestamp": "2026-05-30T20:43:55.919Z",
+      "status": "pending",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Budget housing measures cost $6.4 billion over four years — ABC analysis",
+      "description": "ABC's Budget winners and losers analysis provides the first official costing figure for the housing measures package, including negative gearing changes, CGT reform and related housing initiatives.",
+      "suggestion": "Add to budget-updates.json: Budget housing measures cost $6.4 billion over four years — ABC confirms official costing for negative gearing and CGT reform package.",
+      "source": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260530-120",
+      "timestamp": "2026-05-30T20:43:55.919Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will limiting negative gearing to new builds reduce or increase rental supply?",
+      "description": "The government and CBA say the policy is designed to shift investor demand from established homes to new builds, targeting new supply. However, REIA and Property Council of Australia argue reducing investment attractiveness could reduce rental supply over time. This is a factual conflict about cause and effect rather than just differing opinions.",
+      "suggestion": "Add to debates.json: Government states limiting negative gearing to new builds will 'focus tax support on new supply' (budget.gov.au) and CBA analysis confirms change is 'designed to reduce investor demand for existing housing stock while preserving tax support for new supply' (commbank.com.au). However, REIA and Property Council warn reducing attractiveness of residential property investment could reduce rental supply over time (slateandsage.com.au, apimagazine.com.au).",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-767",
+      "timestamp": "2026-05-30T20:43:55.919Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "low",
+      "title": "Is the Coalition's immigration cap proposal a direct response to budget housing measures or separate policy?",
+      "description": "The Guardian reports the Coalition will tie immigration intake to new housing builds as part of their budget reply. The question is whether this represents a direct policy response to Labor's negative gearing/CGT changes, or a separate approach. Could involve factual conflict about sequencing and intent.",
+      "suggestion": "Add to debates.json: Coalition leader Angus Taylor says immigration 'will need to be significantly below the Coalition's cap for several years' to address housing (theguardian.com). This comes as part of budget reply, but whether it directly responds to housing tax reforms vs. represents separate immigration policy framing is contested.",
+      "source": "https://www.theguardian.com/australia-news/live/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-262",
+      "timestamp": "2026-05-30T20:43:55.919Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple media sources state that capital gains will face a 'minimum 30% tax rate on ALL gains' from July 2027. However, the official budget.gov.au source states the reform 'will replace the 50% CGT discount with a discount based on inflation and introduce a minimum 30% tax on gains.' The ASA specifically notes that 'indexation may help ensure investors are not taxed on inflationary gains, but it may not address income bunching where many years of gains are realised in a single tax year.' This suggests the 30% minimum may apply only to gains above inflation (after indexation), not to all gains universally. The framing 'on ALL gains' could be misleading.",
+      "suggestion": "Add to fact-checks.json: claim is partially_true because the 30% minimum appears to apply to gains above inflation, not necessarily to all capital gains after the indexation discount is applied.",
+      "source": "https://budget.gov.au/2026-27/content/cgs/assets/downloads/Fact-sheet-capital-gains-tax.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-757",
+      "timestamp": "2026-05-30T20:43:55.919Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "Multiple sources claim Division 296 imposes '15% tax on all super balances over $3m.' However, the ATO source clarifies that from 1 July 2026, individuals will be subject to '15% on the proportion of earnings relating to your TSB that exceeds the LSBT.' This means the 15% tax applies to the EARNINGS attributable to the balance above the threshold, not the entire balance above $3m. This is a significant distinction - someone with a $3.1m balance wouldn't pay 15% on the entire $100k over the threshold, only on the earnings portion attributable to that excess.",
+      "suggestion": "Add to fact-checks.json: claim is disputed/misleading because Division 296 taxes the earnings relating to the balance above the threshold, not the entire balance above $3m.",
+      "source": "https://www.ato.gov.au/about-ato/new-legislation/decisions-on-existing-legislation/better-targeted-super-concessions",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-398",
+      "timestamp": "2026-05-30T20:43:55.919Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260530-427",
+      "timestamp": "2026-05-30T20:43:55.919Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

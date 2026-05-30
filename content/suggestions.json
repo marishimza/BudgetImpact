@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T06:43:05.091Z",
+  "lastUpdated": "2026-05-30T09:51:32.777Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3185,6 +3185,103 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO confirms Division 296 indexed thresholds and CGT relief details",
+      "description": "The ATO has officially published details on the Division 296 superannuation tax thresholds for 2026–27, including indexed thresholds and CGT relief provisions for affected taxpayers.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260530-768",
+      "timestamp": "2026-05-30T09:51:25.751Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Budget confirms negative gearing cutoff: 7:30pm on Budget Night",
+      "description": "Properties purchased after 7:30pm on 12 May 2026 (Budget Night) for established residential property lose negative gearing benefits from 1 July 2027, while new builds remain fully exempt.",
+      "suggestion": "Add to budget-updates.json: Negative gearing cutoff confirmed: 7:30pm on Budget Night for established properties",
+      "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260530-980",
+      "timestamp": "2026-05-30T09:51:25.751Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "SMSF property confirmed exempt from negative gearing changes",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Negative gearing changes do not apply to property inside a superannuation fund, preserving SMSF property investment strategies while residential investor negative gearing is restricted to new builds only.",
+      "suggestion": "Add to budget-updates.json: SMSF property confirmed exempt from negative gearing changes — super fund property investments retain current tax treatment",
+      "source": "https://hudsonfinancialplanning.com.au/resources/education-reports/using-your-smsf-to-buy-property/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260530-719",
+      "timestamp": "2026-05-30T09:51:25.751Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will limiting negative gearing to new builds reduce or increase rental supply?",
+      "description": "The government claims restricting negative gearing to new builds will 'focus tax support on new supply' and encourage construction. However, the Real Estate Institute of Australia and Property Council of Australia have expressed concern that reducing the attractiveness of residential property investment could reduce rental supply over time. This is a factual conflict about the policy's supply-side effects.",
+      "suggestion": "Add to debates.json: Government view (budget.gov.au) claims limiting negative gearing to new builds 'focuses tax support on new supply' to increase housing availability. Industry view (slateandsage.com.au via REIA and Property Council of Australia) warns that reducing property investment attractiveness could reduce rental supply over time.",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-683",
+      "timestamp": "2026-05-30T09:51:25.751Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the 2026 negative gearing and CGT reforms survive a change of government?",
+      "description": "The Coalition has explicitly vowed to repeal the negative gearing and CGT changes if elected, labelling them 'toxic'. This creates uncertainty about whether the reforms will be implemented as announced, with credible sources making conflicting assessments of the political durability of these changes.",
+      "suggestion": "Add to debates.json: Coalition view (theguardian.com via Tim Wilson) states the Coalition 'would look to repeal the changes to negative gearing and capital gains tax if necessary' and labelled them 'toxic'. Government view (abc.net.au) frames the changes as calculated policy decisions despite political opposition.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-981",
+      "timestamp": "2026-05-30T09:51:25.751Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple media sources report a 'minimum 30% tax rate on ALL gains.' However, budget.gov.au states the change replaces the 50% discount with 'a discount based on inflation' and introduces a minimum 30% tax on gains. This wording suggests gains below inflation-adjusted thresholds may not face this minimum rate. The actual tax calculation appears to involve indexation (only real gains above inflation are taxed), not a flat 30% on total gains. The 'on ALL gains' qualifier may be inaccurate.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax applies to ALL gains', verdict is disputed because official budget documents indicate the 50% discount is replaced by inflation indexation, meaning only real (inflation-adjusted) capital gains are subject to the 30% minimum rate, not gross gains.",
+      "source": "https://budget.gov.au/content/tax-reform/index.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-703",
+      "timestamp": "2026-05-30T09:51:25.751Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim appears in pending suggestions and may oversimplify the comparison. While indexation adjusts cost bases for inflation, the 50% discount applies to the entire gain. Depending on the inflation rate during the holding period versus the taxpayer's marginal tax rate, the 50% discount could sometimes produce a lower effective tax rate. The ABC analysis shows inflation accounted for 56% of ASX 200 gains over 10 years, but this doesn't mean indexation is universally superior.",
+      "suggestion": "Add to fact-checks.json: claim is 'indexation always produces better CGT outcome than 50% discount', verdict is partially_true because while indexation generally benefits long-held assets in high-inflation periods, the outcome depends on individual circumstances including holding period, inflation rates, and marginal tax rate. For some taxpayers, the 50% discount may still be preferable.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-property-shares/10542050",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-905",
+      "timestamp": "2026-05-30T09:51:25.751Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260530-264",
+      "timestamp": "2026-05-30T09:51:25.751Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
     }
   ],
   "implemented": [
@@ -3803,34 +3900,6 @@
       "status": "needs_manual_review",
       "corroborated_by": "https://treasury.gov.au/publication/p2026-744848",
       "status_reason": "Item count shrank from 24 to 12 in content/budget-updates.json"
-    },
-    {
-      "type": "debate_page",
-      "priority": "high",
-      "title": "Will CGT changes trigger a prolonged housing market slump or a brief correction?",
-      "description": "Economists and financial institutions are making conflicting forecasts about the property market impact of negative gearing and CGT reforms. One camp predicts a significant national slump in home values, while another suggests any price fall would be short-lived due to persistent housing shortage.",
-      "suggestion": "Add to debates.json: view_a from The Guardian (citing economists) says 'home values are set for their first national slump since 2022,' view_b from CBA/CommBank analysis suggests changes are designed to reduce demand while supply responses would limit downturn duration.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260523-910",
-      "timestamp": "2026-05-23T09:43:55.109Z",
-      "status": "needs_manual_review",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-08/how-tax-reform-cgt-negative-gearing-changes-impacts-renters/106644610",
-      "status_reason": "Item count shrank from 8 to 4 in content/debates.json"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: Capital gains will face a new 'minimum 30% tax rate' on ALL gains from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The budget.gov.au source describes replacing the 50% discount with inflation indexation and 'a minimum 30 per cent tax on gains from 1 July 2027.' However, media coverage frequently implies this applies universally to ALL capital gains. The official description suggests this minimum rate applies to the discounted/inflation-adjusted gains under the new system, not as a flat rate on all capital gains regardless of inflation adjustment. The 'minimum' qualifier suggests it's a floor within the new indexation framework, not a universal tax rate.",
-      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax on ALL gains applies universally', verdict is partially_true/disputed because the official budget description indicates this applies within the inflation-indexation framework for the discounted portion of gains, not as a blanket rate on all capital gains. The 30% appears to be the minimum tax rate applied to inflation-adjusted gains after the discount, not a universal rate.",
-      "source": "https://budget.gov.au/info/tax-reform",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260523-115",
-      "timestamp": "2026-05-23T09:43:55.109Z",
-      "status": "needs_manual_review",
-      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
-      "status_reason": "Item count shrank from 9 to 8 in content/fact-checks.json"
     },
     {
       "type": "content_update",

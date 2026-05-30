@@ -1277,6 +1277,34 @@
       "status": "needs_manual_review",
       "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "status_reason": "Item count shrank from 23 to 3 in content/budget-updates.json"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "Will CGT changes trigger a prolonged housing market slump or a brief correction?",
+      "description": "Economists and financial institutions are making conflicting forecasts about the property market impact of negative gearing and CGT reforms. One camp predicts a significant national slump in home values, while another suggests any price fall would be short-lived due to persistent housing shortage.",
+      "suggestion": "Add to debates.json: view_a from The Guardian (citing economists) says 'home values are set for their first national slump since 2022,' view_b from CBA/CommBank analysis suggests changes are designed to reduce demand while supply responses would limit downturn duration.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260523-910",
+      "timestamp": "2026-05-23T09:43:55.109Z",
+      "status": "needs_manual_review",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-08/how-tax-reform-cgt-negative-gearing-changes-impacts-renters/106644610",
+      "status_reason": "Item count shrank from 8 to 4 in content/debates.json"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Capital gains will face a new 'minimum 30% tax rate' on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The budget.gov.au source describes replacing the 50% discount with inflation indexation and 'a minimum 30 per cent tax on gains from 1 July 2027.' However, media coverage frequently implies this applies universally to ALL capital gains. The official description suggests this minimum rate applies to the discounted/inflation-adjusted gains under the new system, not as a flat rate on all capital gains regardless of inflation adjustment. The 'minimum' qualifier suggests it's a floor within the new indexation framework, not a universal tax rate.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax on ALL gains applies universally', verdict is partially_true/disputed because the official budget description indicates this applies within the inflation-indexation framework for the discounted portion of gains, not as a blanket rate on all capital gains. The 30% appears to be the minimum tax rate applied to inflation-adjusted gains after the discount, not a universal rate.",
+      "source": "https://budget.gov.au/info/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260523-115",
+      "timestamp": "2026-05-23T09:43:55.109Z",
+      "status": "needs_manual_review",
+      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "status_reason": "Item count shrank from 9 to 8 in content/fact-checks.json"
     }
   ]
 }

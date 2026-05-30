@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T07:51:05.518Z",
+  "lastUpdated": "2026-05-30T06:42:26.422Z",
   "debates": [
     {
       "id": "debate-001",
@@ -281,6 +281,29 @@
         "argument": "Australia's persistent housing shortage means any price fall would be short-term. The underlying supply constraints will support recovery, suggesting the market impact will be relatively mild and temporary rather than prolonged.",
         "sources": [
           "The Guardian (May 21, 2026) - Source unavailable"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-012",
+      "slug": "negative-gearing-new-builds-rental-supply",
+      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
+      "category": "Housing",
+      "type": "projection_disagreement",
+      "summary": "Real estate industry bodies warn that restricting negative gearing to new builds will reduce rental supply as investors exit the market, while the government argues the policy will increase housing availability by directing tax support toward new construction.",
+      "view_a": {
+        "label": "Reduced rental supply",
+        "argument": "The Real Estate Institute of Australia (REIA) and Property Council of Australia warn that restricting negative gearing to new builds only will reduce rental supply over time. By making property investment less attractive, the policy risks triggering investor exit from the housing market, thereby decreasing the pool of rental properties available to tenants.",
+        "sources": [
+          "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors"
+        ]
+      },
+      "view_b": {
+        "label": "Increased rental supply",
+        "argument": "The government designed the measure to 'focus tax support on new supply', arguing that limiting negative gearing to newly constructed properties will increase housing stock. By directing tax incentives toward new construction rather than existing properties, the policy aims to expand the overall number of dwellings available in the rental market.",
+        "sources": [
+          "https://www.budget.gov.au"
         ]
       },
       "verdict": null

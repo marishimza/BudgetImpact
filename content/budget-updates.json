@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T23:09:36.463Z",
+  "lastUpdated": "2026-05-30T06:43:05.089Z",
   "items": [
     {
       "id": "update-001",
@@ -476,6 +476,26 @@
       "title": "ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes",
       "summary": "The ATO has released guidance confirming that investors holding shares acquired before 20 September 1985 can access a valuation reset to establish a new cost base ahead of the CGT discount reforms taking effect from 1 July 2027. This grandfathering arrangement allows legacy shareholders to potentially benefit from the new inflation-indexed cost base rules. Taxpayers should review their pre-1985 share holdings and consider obtaining independent valuations before the changes take effect.",
       "url": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-events-and-calculation-methods/cgt-events/creating-or-varying-a-cgt-coupon",
+      "priority": "high"
+    },
+    {
+      "id": "update-048",
+      "date": "2026-05-12",
+      "tag": "Property",
+      "source": "ABC News",
+      "title": "ABC analysis: CGT changes could shift investment from property to shares",
+      "summary": "The ABC reports that capital gains tax changes may redirect investment away from property toward shares. The current flat 50% discount is being replaced with inflation-based indexation and a minimum 30% tax on real gains from July 2027. Analysts suggest this reform could fundamentally alter investment behaviour across the property and share markets.",
+      "url": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "priority": "medium"
+    },
+    {
+      "id": "update-049",
+      "date": "2026-05-30",
+      "tag": "Property",
+      "source": "William Buck",
+      "title": "Federal Budget introduces significant reforms to negative gearing",
+      "summary": "Accounting firm William Buck confirms negative gearing reforms restrict access to tax benefits from 1 July 2027 for established properties purchased after 7:30pm on budget night (12 May 2026). New builds will remain exempt from the changes, allowing investors in newly constructed properties to continue claiming negative gearing deductions as before.",
+      "url": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
       "priority": "high"
     }
   ]

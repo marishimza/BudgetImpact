@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T11:17:36.102Z",
+  "lastUpdated": "2026-05-30T16:57:01.331Z",
   "items": [
     {
       "id": "update-001",
@@ -547,6 +547,36 @@
       "summary": "The ASX investor update special edition identifies that recent CGT changes create significantly different tax outcomes depending on asset type, with transitional rules and exemptions creating complexity for ETF and Listed Investment Vehicle (LIV) investors. The analysis highlights that investors holding different asset classes will face varying effective tax rates under the new arrangements, requiring careful planning to optimise tax positions.",
       "url": "",
       "priority": "high"
+    },
+    {
+      "id": "update-055",
+      "date": "2026-05-30",
+      "tag": "Budget",
+      "source": "budget.gov.au",
+      "title": "Venture capital tax incentives expanded from July 2027 in Budget 2026 measure",
+      "summary": "Budget 2026 includes expansion of venture capital tax incentives commencing from 1 July 2027, providing early policy direction for the startup ecosystem. The measure complements existing CGT and negative gearing changes with targeted support for innovation investment. This builds on Australia's venture capital tax incentive framework to encourage greater private investment in early-stage companies.",
+      "url": "https://budget.gov.au/content/04-tax-reform.htm",
+      "priority": "high"
+    },
+    {
+      "id": "update-056",
+      "date": "2026-05-30",
+      "tag": "ASX",
+      "source": "ASX",
+      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for investors",
+      "summary": "ASX analysis identifies that CGT reforms create differential tax treatment between investors who bought before versus after budget night, with transitional rules creating distinct outcomes for property and share investors. Pre-budget investors will retain current CGT discount rules, while post-budget investors face a minimum 30% tax on inflation-adjusted gains from July 2027. The reform effectively creates a two-speed tax treatment that will significantly impact investment decisions going forward.",
+      "url": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "priority": "high"
+    },
+    {
+      "id": "update-057",
+      "date": "2026-05-30",
+      "tag": "Budget",
+      "source": "The Guardian",
+      "title": "Guardian analysis: CGT concession benefits concentrated among top 1% of income earners",
+      "summary": "The Guardian analysis finds that capital gains tax concessions disproportionately benefit the highest income earners in Australia. The CGT discount is concentrated among the top 1% of income earners, highlighting the unequal distribution of tax benefits under current arrangements. This analysis provides important context for the tax reforms being implemented in the 2026 budget.",
+      "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-budget-2026-trust-tax-reform-asset-testing",
+      "priority": "medium"
     }
   ]
 }

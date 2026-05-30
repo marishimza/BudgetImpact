@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T12:46:01.776Z",
+  "lastUpdated": "2026-05-30T22:55:22.817Z",
   "claims": [
     {
       "id": "fc-001",
@@ -228,6 +228,24 @@
       ],
       "date_checked": "2026-05-29",
       "category": "superannuation"
+    },
+    {
+      "id": "fc-012",
+      "slug": "capital-gains-minimum-30-percent-tax-all-gains",
+      "claim": "30% minimum tax on ALL capital gains from July 2027",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "The claim oversimplifies the policy—the 50% discount is being replaced by inflation indexation, and a 30% minimum tax is introduced, but whether it applies uniformly to all gains remains legally unclear.",
+      "detailed_explanation": "Budget.gov.au indicates the 50% capital gains discount is being replaced by an inflation-linked indexation method. While a minimum 30% tax rate is introduced, whether this applies uniformly to ALL gains or only to gains above certain thresholds after indexation adjustments remains legally unclear. The phrasing 'on ALL gains' may be an oversimplification that doesn't account for potential exemptions, conditions, or thresholds embedded in the policy. Investors should seek professional legal advice as the precise application remains disputed.",
+      "sources": [
+        {
+          "name": "budget.gov.au",
+          "url": "https://budget.gov.au/content/tax-reform.htm",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-05-30",
+      "category": "tax"
     }
   ]
 }

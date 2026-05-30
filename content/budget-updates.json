@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T16:57:01.331Z",
+  "lastUpdated": "2026-05-30T22:55:31.944Z",
   "items": [
     {
       "id": "update-001",
@@ -577,6 +577,46 @@
       "summary": "The Guardian analysis finds that capital gains tax concessions disproportionately benefit the highest income earners in Australia. The CGT discount is concentrated among the top 1% of income earners, highlighting the unequal distribution of tax benefits under current arrangements. This analysis provides important context for the tax reforms being implemented in the 2026 budget.",
       "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-budget-2026-trust-tax-reform-asset-testing",
       "priority": "medium"
+    },
+    {
+      "id": "update-058",
+      "date": "2026-05-12",
+      "tag": "Budget",
+      "source": "The Guardian",
+      "title": "Trust tax treatment reform details confirmed — Government signals shift from income to asset taxation",
+      "summary": "The government has confirmed plans to reform trust tax treatment, shifting the taxation burden from income to assets. This represents a third major tax reform pillar alongside the previously announced capital gains and negative gearing changes. Legislation remains pending as the government works to implement this comprehensive tax reform package.",
+      "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-budget-2026-trust-tax-reform-asset-testing",
+      "priority": "high"
+    },
+    {
+      "id": "update-059",
+      "date": "2026-05-30",
+      "tag": "Parliament",
+      "source": "ABC News",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged",
+      "summary": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has been formally lodged in Parliament, containing the Capital Gains Tax (CGT) indexation changes and negative gearing legislative reforms announced in the federal budget. The Bill is currently before the Senate and has been referred to the Economics References Committee for examination.",
+      "url": null,
+      "priority": "high"
+    },
+    {
+      "id": "update-060",
+      "date": "2026-05-30",
+      "tag": "Superannuation",
+      "source": "Pitcher Partners",
+      "title": "Superannuation unchanged in Budget 2026 but broader tax reform ripple effects remain",
+      "summary": "While no major superannuation measures were announced in the 2026-27 Federal Budget, accounting firm Pitcher Partners highlights that the Division 296 legislation commencing 1 July 2026 and CGT changes will have significant ripple effects on self-managed super funds (SMSFs) and retirement planning strategies. SMSF trustees should review their investment structures and contribution strategies ahead of the upcoming legislative changes.",
+      "url": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "priority": "medium"
+    },
+    {
+      "id": "update-061",
+      "date": "2026-05-12",
+      "tag": "Budget",
+      "source": "The Guardian",
+      "title": "Guardian analysis: CGT concession benefits concentrated among top 1% of income earners",
+      "summary": "Analysis reveals that capital gains tax concessions disproportionately benefit the highest income earners, with the top 1% capturing the majority of these tax advantages. The report provides important distributional context for the federal budget's proposed CGT reforms and their impact on income inequality.",
+      "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "priority": "high"
     }
   ]
 }

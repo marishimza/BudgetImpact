@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T15:11:47.993Z",
+  "lastUpdated": "2026-05-31T17:02:07.090Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2015,19 +2015,6 @@
     },
     {
       "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
-      "description": "Multiple sources repeat this claim, but the ABC and budget.gov.au specify the 30% minimum applies to 'real' capital gains (i.e., gains above inflation after indexation). The claim may oversimplify by suggesting 30% applies to ALL gains including inflation-adjusted gains, when in reality indexation adjusts the cost base first, and the minimum floor only applies to inflation-adjusted gains.",
-      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax on ALL gains' - verdict is partially_true/misleading because the 30% floor applies to inflation-adjusted real gains after cost base indexation, not the nominal capital gain. Taxpayers with gains at or below inflation would owe no CGT.",
-      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-federal-budget/2026-05-13",
-      "implementation_effort": "45_minutes",
-      "id": "suggestion-20260527-887",
-      "timestamp": "2026-05-27T11:30:46.058Z",
-      "status": "pending",
-      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
-    },
-    {
-      "type": "fact_check",
       "priority": "medium",
       "title": "Claim: The 50% CGT discount is being 'replaced' by inflation indexation with no choice",
       "description": "Multiple sources state the 50% discount is simply 'replaced' by indexation, suggesting investors have no choice. However, William Buck mentions 'transitional rules' and there may be scenarios where the old 50% discount produces a better outcome for investors. The 'replacement' framing may oversimplify if investors can still benefit from the old rules in certain circumstances.",
@@ -2049,30 +2036,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Venture capital tax incentives expanded from July 2027 under Budget 2026 measures",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Budget 2026-27 includes expansion of venture capital tax incentives, with the changes commencing from 1 July 2027, designed to boost investment in early-stage Australian companies.",
-      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expanded from July 2027 as part of Budget 2026 measures",
-      "source": "https://budget.gov.au/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260527-447",
-      "timestamp": "2026-05-27T16:58:38.452Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO confirms pre-1985 share holdings valuation reset for 1 July 2027 CGT changes",
-      "description": "The ATO has confirmed that investors holding shares acquired before 1 July 1985 will need to obtain a valuation reset as at 30 June 2025 to apply the new inflation-indexed cost base under the CGT reforms from 1 July 2027.",
-      "suggestion": "Add to budget-updates.json: ATO confirms pre-1985 share holdings valuation reset for 1 July 2027 CGT changes",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260527-873",
-      "timestamp": "2026-05-27T16:58:38.452Z",
-      "status": "pending"
     },
     {
       "type": "debate_page",
@@ -2133,30 +2096,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis details CGT reform impact on Listed Investment Vehicles",
-      "description": "ASX analysis specifically examines how CGT reform creates different tax treatments for Listed Investment Vehicles (LIVs) compared to other investments, identifying potential shifts in investor behaviour and portfolio allocation strategies.",
-      "suggestion": "Add to budget-updates.json: ASX analysis details CGT reform impact on ETFs and Listed Investment Vehicles — analysis shows LIVs may face different effective tax treatment under indexation rules",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260527-928",
-      "timestamp": "2026-05-27T21:46:25.751Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Division 296 CGT relief for SMSFs explained by Heffron",
-      "description": "Heffron analysis confirms draft legislation includes specific CGT relief provisions for self-managed superannuation funds transitioning under Division 296, with indexed thresholds and timing rules clarified ahead of 1 July 2026 commencement.",
-      "suggestion": "Add to budget-updates.json: Heffron analysis details Division 296 CGT relief provisions for SMSFs under draft legislation",
-      "source": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260527-410",
-      "timestamp": "2026-05-27T21:46:25.751Z",
-      "status": "pending"
     },
     {
       "type": "content_update",
@@ -4071,6 +4010,59 @@
       "status": "implemented",
       "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base",
       "implemented_at": "2026-05-31T11:40:40.558Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "description": "Multiple sources repeat this claim, but the ABC and budget.gov.au specify the 30% minimum applies to 'real' capital gains (i.e., gains above inflation after indexation). The claim may oversimplify by suggesting 30% applies to ALL gains including inflation-adjusted gains, when in reality indexation adjusts the cost base first, and the minimum floor only applies to inflation-adjusted gains.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax on ALL gains' - verdict is partially_true/misleading because the 30% floor applies to inflation-adjusted real gains after cost base indexation, not the nominal capital gain. Taxpayers with gains at or below inflation would owe no CGT.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-federal-budget/2026-05-13",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260527-887",
+      "timestamp": "2026-05-27T11:30:46.058Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implemented_at": "2026-05-31T17:01:04.806Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Venture capital tax incentives expanded from July 2027 under Budget 2026 measures",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Budget 2026-27 includes expansion of venture capital tax incentives, with the changes commencing from 1 July 2027, designed to boost investment in early-stage Australian companies.",
+      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expanded from July 2027 as part of Budget 2026 measures",
+      "source": "https://budget.gov.au/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260527-447",
+      "timestamp": "2026-05-27T16:58:38.452Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-31T17:01:22.075Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis details CGT reform impact on Listed Investment Vehicles",
+      "description": "ASX analysis specifically examines how CGT reform creates different tax treatments for Listed Investment Vehicles (LIVs) compared to other investments, identifying potential shifts in investor behaviour and portfolio allocation strategies.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details CGT reform impact on ETFs and Listed Investment Vehicles — analysis shows LIVs may face different effective tax treatment under indexation rules",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260527-928",
+      "timestamp": "2026-05-27T21:46:25.751Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-31T17:01:45.821Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Division 296 CGT relief for SMSFs explained by Heffron",
+      "description": "Heffron analysis confirms draft legislation includes specific CGT relief provisions for self-managed superannuation funds transitioning under Division 296, with indexed thresholds and timing rules clarified ahead of 1 July 2026 commencement.",
+      "suggestion": "Add to budget-updates.json: Heffron analysis details Division 296 CGT relief provisions for SMSFs under draft legislation",
+      "source": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260527-410",
+      "timestamp": "2026-05-27T21:46:25.751Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-31T17:02:07.090Z"
     }
   ],
   "skipped": [
@@ -4275,6 +4267,20 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-05-31T07:41:37.422Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO confirms pre-1985 share holdings valuation reset for 1 July 2027 CGT changes",
+      "description": "The ATO has confirmed that investors holding shares acquired before 1 July 1985 will need to obtain a valuation reset as at 30 June 2025 to apply the new inflation-indexed cost base under the CGT reforms from 1 July 2027.",
+      "suggestion": "Add to budget-updates.json: ATO confirms pre-1985 share holdings valuation reset for 1 July 2027 CGT changes",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260527-873",
+      "timestamp": "2026-05-27T16:58:38.452Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-31T17:01:28.932Z"
     }
   ],
   "needs_manual_review": [

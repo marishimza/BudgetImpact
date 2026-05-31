@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T11:40:40.557Z",
+  "lastUpdated": "2026-05-31T17:01:04.805Z",
   "claims": [
     {
       "id": "fc-001",
@@ -282,6 +282,29 @@
       ],
       "date_checked": "2026-05-31",
       "category": "capital_gains_tax"
+    },
+    {
+      "id": "fc-015",
+      "slug": "capital-gains-tax-30-percent-minimum-floor-misleading",
+      "claim": "Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "verdict": "partially_true",
+      "verdict_label": "Partially true / Misleading",
+      "short_explanation": "The 30% minimum tax floor applies only to inflation-adjusted (real) capital gains after cost base indexation, not to nominal gains. Taxpayers whose gains are at or below inflation would owe no CGT.",
+      "detailed_explanation": "The claim oversimplifies the 2026 Budget changes to capital gains tax. Under the new rules taking effect July 2027, the 30% minimum tax rate applies to real capital gains—defined as gains above inflation after indexation adjusts the cost base. The indexation method adjusts the original purchase price for inflation, so if a property purchased for $500,000 is now worth $600,000 but inflation doubled prices, the indexed cost base may be $1,000,000, meaning there is no real gain and no CGT owed. The minimum floor only kicks in where the inflation-adjusted gain exceeds zero. This means the 30% rate does not apply to all nominal capital gains, and gains at or below inflation are not subject to this minimum.",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-federal-budget/2026-05-13",
+          "type": "news"
+        },
+        {
+          "name": "Australian Treasury - Budget 2026-27",
+          "url": "https://budget.gov.au/2026-27",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-05-31",
+      "category": "tax"
     }
   ]
 }

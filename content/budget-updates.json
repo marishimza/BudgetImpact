@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T11:40:13.362Z",
+  "lastUpdated": "2026-05-31T17:02:07.088Z",
   "items": [
     {
       "id": "update-001",
@@ -680,6 +680,26 @@
       "summary": "NAB has revised its housing forecast following the federal Budget, predicting a brief property market correction rather than a prolonged slump. The bank notes that negative gearing restrictions will only apply to established properties purchased after budget night, limiting the overall market impact. This suggests investor activity may stabilise sooner than initially feared.",
       "url": "https://www.nab.com.au/content/dam/nab/special-offers/budget-2026-27/NAB-Budget-2026-Outlook.pdf",
       "priority": "medium"
+    },
+    {
+      "id": "update-068",
+      "date": "2026-05-31",
+      "tag": "Budget",
+      "source": "Budget.gov.au",
+      "title": "Venture capital tax incentives expanded from July 2027 as part of Budget 2026 measures",
+      "summary": "The Budget 2026-27 includes expansion of venture capital tax incentives, with changes commencing from 1 July 2027. The measures are designed to boost investment in early-stage Australian companies by providing enhanced tax benefits for eligible venture capital investments.",
+      "url": "https://budget.gov.au/",
+      "priority": "medium"
+    },
+    {
+      "id": "update-069",
+      "date": "2026-05-31",
+      "tag": "Superannuation",
+      "source": "Heffron",
+      "title": "Division 296 CGT relief for SMSFs explained by Heffron",
+      "summary": "Heffron analysis confirms draft legislation includes specific CGT relief provisions for self-managed superannuation funds transitioning under Division 296, with indexed thresholds and timing rules clarified ahead of 1 July 2026 commencement. This guidance helps SMSF trustees understand how to manage the tax implications of the new Division 296 provisions.",
+      "url": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
+      "priority": "high"
     }
   ]
 }

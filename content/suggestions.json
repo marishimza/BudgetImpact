@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T20:48:44.702Z",
+  "lastUpdated": "2026-05-31T22:56:13.280Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2098,18 +2098,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Working Australians Tax Offset details confirmed: $250 annual relief for workers",
-      "description": "Budget confirms new Working Australians Tax Offset providing $250 annual relief for workers, part of broader personal income tax cuts announced alongside CGT and negative gearing reforms. The offset targets low-to-middle income earners.",
-      "suggestion": "Add to budget-updates.json: Working Australians Tax Offset confirmed — $250 annual relief for workers as part of personal income tax reform package",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260527-974",
-      "timestamp": "2026-05-27T21:46:25.751Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Will the Coalition's pledge to repeal negative gearing and CGT changes affect investor behaviour and property market stability?",
@@ -2156,42 +2144,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis details CGT reform impact on ETFs and Listed Investment Vehicles",
-      "description": "The ASX published a comprehensive investor update examining how the proposed CGT changes affect investments in shares, exchange-traded funds (ETFs) and Listed Investment Vehicles (LIVs), including the 'two-speed' tax treatment implications.",
-      "suggestion": "Add to budget-updates.json: ASX analysis details CGT reform impact on ETFs and Listed Investment Vehicles",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260528-557",
-      "timestamp": "2026-05-28T06:03:09.694Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASA calls for capital gains averaging alongside indexation reform",
-      "description": "The Australian Shareholders Association has publicly called for any CGT reform to include both indexation and a modern averaging mechanism to address income bunching where many years of gains are realised in a single tax year, expressing concern about lack of consultation.",
-      "suggestion": "Add to budget-updates.json: ASA calls for capital gains averaging alongside indexation reform",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260528-332",
-      "timestamp": "2026-05-28T06:03:09.694Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ABC Analysis: CGT changes could drive investment shift from property to shares",
-      "description": "ABC News analysis examining the budget data showing investors in the Australian share market have been undercompensated for inflation impact, with inflation making up 56% of asset price growth for ASX 200 shares held for 10 years.",
-      "suggestion": "Add to budget-updates.json: ABC analysis details how CGT changes could shift investment from property to shares",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260528-513",
-      "timestamp": "2026-05-28T06:03:09.694Z",
-      "status": "pending"
     },
     {
       "type": "debate_page",
@@ -3351,19 +3303,6 @@
       "status": "pending"
     },
     {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Division 296 tax is a flat 15% on all superannuation balances exceeding $3 million'",
-      "description": "Multiple sources state Division 296 'applies a 15% tax on all super balances exceeding $3m'. However, the ATO (ato.gov.au) and other expert sources clarify that the 15% applies specifically to EARNINGS relating to the Total Superannuation Balance (TSB) that exceeds the Low Tax Balance ($1.9m from 1 July 2026). This is not the same as a flat 15% tax on the entire balance above $3m. For example, if someone has $4m in super, they would only pay 15% on the earnings attributable to the amount above $1.9m threshold, not on the entire $4m. This is a significant oversimplification that could mislead high-balance super members about their actual tax liability.",
-      "suggestion": "Add to fact-checks.json: claim is that Division 296 applies a flat 15% on all super above $3m; verdict is MISLEADING because the 15% only applies to earnings attributable to the portion of Total Superannuation Balance exceeding the $1.9m Low Tax Balance threshold (not the entire balance above $3m).",
-      "source": "https://www.ato.gov.au/better-targeted-super-concessions-is-law",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260531-496",
-      "timestamp": "2026-05-31T20:48:39.166Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
-    },
-    {
       "id": "suggestion-20260531-214",
       "timestamp": "2026-05-31T20:48:39.166Z",
       "status": "pending",
@@ -4148,6 +4087,45 @@
       "timestamp": "2026-05-27T21:46:25.751Z",
       "status": "implemented",
       "implemented_at": "2026-05-31T17:02:07.090Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Working Australians Tax Offset details confirmed: $250 annual relief for workers",
+      "description": "Budget confirms new Working Australians Tax Offset providing $250 annual relief for workers, part of broader personal income tax cuts announced alongside CGT and negative gearing reforms. The offset targets low-to-middle income earners.",
+      "suggestion": "Add to budget-updates.json: Working Australians Tax Offset confirmed — $250 annual relief for workers as part of personal income tax reform package",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260527-974",
+      "timestamp": "2026-05-27T21:46:25.751Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-31T22:55:19.701Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASA calls for capital gains averaging alongside indexation reform",
+      "description": "The Australian Shareholders Association has publicly called for any CGT reform to include both indexation and a modern averaging mechanism to address income bunching where many years of gains are realised in a single tax year, expressing concern about lack of consultation.",
+      "suggestion": "Add to budget-updates.json: ASA calls for capital gains averaging alongside indexation reform",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260528-332",
+      "timestamp": "2026-05-28T06:03:09.694Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-31T22:55:57.756Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ABC Analysis: CGT changes could drive investment shift from property to shares",
+      "description": "ABC News analysis examining the budget data showing investors in the Australian share market have been undercompensated for inflation impact, with inflation making up 56% of asset price growth for ASX 200 shares held for 10 years.",
+      "suggestion": "Add to budget-updates.json: ABC analysis details how CGT changes could shift investment from property to shares",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260528-513",
+      "timestamp": "2026-05-28T06:03:09.694Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-31T22:56:13.280Z"
     }
   ],
   "skipped": [
@@ -4366,6 +4344,35 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-05-31T17:01:28.932Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Division 296 tax is a flat 15% on all superannuation balances exceeding $3 million'",
+      "description": "Multiple sources state Division 296 'applies a 15% tax on all super balances exceeding $3m'. However, the ATO (ato.gov.au) and other expert sources clarify that the 15% applies specifically to EARNINGS relating to the Total Superannuation Balance (TSB) that exceeds the Low Tax Balance ($1.9m from 1 July 2026). This is not the same as a flat 15% tax on the entire balance above $3m. For example, if someone has $4m in super, they would only pay 15% on the earnings attributable to the amount above $1.9m threshold, not on the entire $4m. This is a significant oversimplification that could mislead high-balance super members about their actual tax liability.",
+      "suggestion": "Add to fact-checks.json: claim is that Division 296 applies a flat 15% on all super above $3m; verdict is MISLEADING because the 15% only applies to earnings attributable to the portion of Total Superannuation Balance exceeding the $1.9m Low Tax Balance threshold (not the entire balance above $3m).",
+      "source": "https://www.ato.gov.au/better-targeted-super-concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260531-496",
+      "timestamp": "2026-05-31T20:48:39.166Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-31T22:55:08.553Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis details CGT reform impact on ETFs and Listed Investment Vehicles",
+      "description": "The ASX published a comprehensive investor update examining how the proposed CGT changes affect investments in shares, exchange-traded funds (ETFs) and Listed Investment Vehicles (LIVs), including the 'two-speed' tax treatment implications.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details CGT reform impact on ETFs and Listed Investment Vehicles",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260528-557",
+      "timestamp": "2026-05-28T06:03:09.694Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-31T22:55:43.179Z"
     }
   ],
   "needs_manual_review": [

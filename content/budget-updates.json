@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T17:02:07.088Z",
+  "lastUpdated": "2026-05-31T22:56:13.277Z",
   "items": [
     {
       "id": "update-001",
@@ -700,6 +700,36 @@
       "summary": "Heffron analysis confirms draft legislation includes specific CGT relief provisions for self-managed superannuation funds transitioning under Division 296, with indexed thresholds and timing rules clarified ahead of 1 July 2026 commencement. This guidance helps SMSF trustees understand how to manage the tax implications of the new Division 296 provisions.",
       "url": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
       "priority": "high"
+    },
+    {
+      "id": "update-070",
+      "date": "2026-05-31",
+      "tag": "Budget",
+      "source": "Australian Government Budget",
+      "title": "Working Australians Tax Offset details confirmed: $250 annual relief for workers",
+      "summary": "The 2026-27 Budget confirms a new Working Australians Tax Offset providing $250 annual relief for eligible workers. The offset forms part of a broader personal income tax reform package targeting low-to-middle income earners, alongside reforms to capital gains and negative gearing provisions.",
+      "url": "https://budget.gov.au/content/04-tax-reform.htm",
+      "priority": "high"
+    },
+    {
+      "id": "update-071",
+      "date": "2026-05-31",
+      "tag": "Budget",
+      "source": "Australian Shareholders Association",
+      "title": "ASA calls for capital gains averaging alongside indexation reform",
+      "summary": "The Australian Shareholders Association has publicly called for any capital gains tax reform to include both indexation and a modern averaging mechanism to address income bunching, where many years of gains are realised in a single tax year. The ASA expressed concern about the lack of consultation with shareholder groups on proposed CGT changes. The group is pushing for comprehensive reform that recognises the long-term nature of shareholding and prevents punitive tax outcomes for investors who accumulate gains over extended periods.",
+      "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "priority": "high"
+    },
+    {
+      "id": "update-072",
+      "date": "2026-05-12",
+      "tag": "ASX",
+      "source": "ABC News",
+      "title": "ABC Analysis: CGT changes could drive investment shift from property to shares",
+      "summary": "ABC News analysis of budget data reveals investors in the Australian share market have been undercompensated for inflation impact, with inflation accounting for 56% of asset price growth for ASX 200 shares held for 10 years. The analysis examines how proposed CGT changes could redirect investment flows from property to shares, potentially reshaping the Australian investment landscape.",
+      "url": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "priority": "medium"
     }
   ]
 }

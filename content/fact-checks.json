@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T22:55:22.817Z",
+  "lastUpdated": "2026-05-31T11:40:40.557Z",
   "claims": [
     {
       "id": "fc-001",
@@ -246,6 +246,42 @@
       ],
       "date_checked": "2026-05-30",
       "category": "tax"
+    },
+    {
+      "id": "fc-013",
+      "slug": "capital-gains-minimum-30-percent-not-on-all-gains",
+      "claim": "Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "The minimum 30% rate applies to the inflation-adjusted gain amount, not the total capital gain.",
+      "detailed_explanation": "The budget reform introduces a minimum 30% tax on gains (not total gains). Under the inflation indexation model, investors calculate the taxable amount as the gain minus an inflation-adjusted cost base. This means the 30% floor only applies to the real/inflation-adjusted gain portion, not the entire capital gain. An investor could effectively pay well above 30% on their actual gain while the 'minimum 30%' only binds to the inflation-adjusted portion.",
+      "sources": [
+        {
+          "name": "Budget.gov.au - Tax Reform",
+          "url": "https://budget.gov.au/content/documents/bP2/2026-27/Tax_Reform.pdf",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-05-31",
+      "category": "tax"
+    },
+    {
+      "id": "fc-014",
+      "slug": "inflation-indexation-vs-cgt-discount",
+      "claim": "Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "The 50% discount may produce equal or better outcomes depending on inflation rates and individual circumstances.",
+      "detailed_explanation": "Treasury analysis cited by ABC shows inflation accounted for 56% of ASX 200 share price growth over 10 years to March 2026. This means 44% of gains remain taxable under inflation indexation, while under the 50% discount, 50% of total gains are taxable. For a $100,000 gain at a 47% marginal rate: indexation results in $20,680 tax (44% × 47%), while the 50% discount results in $23,500 tax (50% × 47%). Indexation appears marginally better in this example, but outcomes depend entirely on inflation rates. For very high inflation scenarios (10%+ annually), indexation clearly wins. For lower historical inflation rates, the comparison is less clear-cut and individual circumstances determine which method produces a better outcome.",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-investment-shift-property-shares/10551234",
+          "type": "news"
+        }
+      ],
+      "date_checked": "2026-05-31",
+      "category": "capital_gains_tax"
     }
   ]
 }

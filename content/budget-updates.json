@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T07:41:25.488Z",
+  "lastUpdated": "2026-05-31T11:40:13.362Z",
   "items": [
     {
       "id": "update-001",
@@ -650,6 +650,36 @@
       "summary": "The ATO has confirmed the indexed thresholds for Division 296 tax and details of CGT relief for affected superannuation accounts. The $3 million threshold applies from 1 July 2026 per enacted legislation, with an additional 15% tax on earnings related to balances exceeding the levy surplus balance. Tax agents and SMSF trustees should review member balances ahead of the implementation date to assess potential exposure.",
       "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "priority": "high"
+    },
+    {
+      "id": "update-065",
+      "date": "2026-05-12",
+      "tag": "Property",
+      "source": "ABC News",
+      "title": "ABC Analysis: CGT changes could drive investment shift from property to shares",
+      "summary": "ABC News analysis examines how the replacement of the flat 50% CGT discount with inflation indexation and a minimum 30% tax rate could redirect investment away from property towards shares from July 2027. The changes, part of the 2026 federal budget, fundamentally alter the tax treatment of capital gains for property and share investors. Market analysts suggest the reforms could level the playing field between asset classes, potentially reshaping investment portfolios across Australia.",
+      "url": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "priority": "high"
+    },
+    {
+      "id": "update-066",
+      "date": "2026-05-31",
+      "tag": "Budget",
+      "source": "budget.gov.au",
+      "title": "Working Australians Tax Offset: $250 annual relief confirmed for workers",
+      "summary": "The 2026-27 Budget introduces a new Working Australians Tax Offset providing $250 annual relief for eligible workers. This measure forms part of the broader tax reform package that shifts the taxation burden from income to assets. The offset is designed to provide direct financial relief to working Australians while complementing other income tax reforms announced in the budget.",
+      "url": "https://budget.gov.au/content/04-tax-reform.htm",
+      "priority": "high"
+    },
+    {
+      "id": "update-067",
+      "date": "2026-05-31",
+      "tag": "Property",
+      "source": "NAB",
+      "title": "NAB revises housing forecast: brief correction not prolonged slump",
+      "summary": "NAB has revised its housing forecast following the federal Budget, predicting a brief property market correction rather than a prolonged slump. The bank notes that negative gearing restrictions will only apply to established properties purchased after budget night, limiting the overall market impact. This suggests investor activity may stabilise sooner than initially feared.",
+      "url": "https://www.nab.com.au/content/dam/nab/special-offers/budget-2026-27/NAB-Budget-2026-Outlook.pdf",
+      "priority": "medium"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T22:55:31.944Z",
+  "lastUpdated": "2026-05-31T07:41:25.488Z",
   "items": [
     {
       "id": "update-001",
@@ -616,6 +616,39 @@
       "title": "Guardian analysis: CGT concession benefits concentrated among top 1% of income earners",
       "summary": "Analysis reveals that capital gains tax concessions disproportionately benefit the highest income earners, with the top 1% capturing the majority of these tax advantages. The report provides important distributional context for the federal budget's proposed CGT reforms and their impact on income inequality.",
       "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "priority": "high"
+    },
+    {
+      "id": "update-062",
+      "date": "2026-05-31",
+      "tag": [
+        "Property",
+        "Budget"
+      ],
+      "source": "National Australia Bank",
+      "title": "NAB Budget Analysis: CGT discount replaced by cost base indexation — implications for investors",
+      "summary": "National Australia Bank has published comprehensive analysis of the federal budget changes to capital gains tax treatment, replacing the 50% CGT discount with cost base indexation for assets held longer than 12 months. The analysis examines how this policy shift affects property investors, share traders, and business owners, outlining scenarios where the new indexed cost base method may be more or less favourable than the previous discount approach. NAB's economists also assess the broader market implications and recommend strategies for investors to adapt to the new CGT framework effective from 1 July 2026.",
+      "url": "https://www.nab.com.au/content/nab/en/home/perspectives/business-and-economy/federal-budget-2026.html",
+      "priority": "high"
+    },
+    {
+      "id": "update-063",
+      "date": "2026-05-31",
+      "tag": "Budget",
+      "source": "budget.gov.au",
+      "title": "Government confirms new tax cuts for Australian workers alongside CGT reform",
+      "summary": "Budget 2026-27 confirms new tax cuts for Australian workers as part of a broader tax reform package. The measures include replacement of the 50% CGT discount with inflation indexation and introduction of a minimum 30% tax on gains from 1 July 2027. Treasurer Jim Chalmers stated the reforms aim to rebalance the taxation system away from taxing incomes and more towards taxing assets.",
+      "url": "https://budget.gov.au/content/04-tax-reform.htm",
+      "priority": "high"
+    },
+    {
+      "id": "update-064",
+      "date": "2026-05-31",
+      "tag": "Superannuation",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases Division 296 indexed thresholds and CGT relief details",
+      "summary": "The ATO has confirmed the indexed thresholds for Division 296 tax and details of CGT relief for affected superannuation accounts. The $3 million threshold applies from 1 July 2026 per enacted legislation, with an additional 15% tax on earnings related to balances exceeding the levy surplus balance. Tax agents and SMSF trustees should review member balances ahead of the implementation date to assess potential exposure.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "priority": "high"
     }
   ]

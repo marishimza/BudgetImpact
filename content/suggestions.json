@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T06:10:36.664Z",
+  "lastUpdated": "2026-05-31T07:41:37.422Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1811,18 +1811,6 @@
     },
     {
       "type": "content_update",
-      "priority": "medium",
-      "title": "NAB Budget Analysis: CGT discount replaced by cost base indexation — implications for investors",
-      "description": "National Australia Bank publishes detailed analysis of CGT discount replacement with cost base indexation and implications for investors.",
-      "suggestion": "Add to budget-updates.json: NAB Budget Analysis details CGT discount replacement with cost base indexation and investor implications",
-      "source": "https://www.nab.com.au/content/nab/en/home/perspectives/business-and-economy/federal-budget-2026.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260525-290",
-      "timestamp": "2026-05-25T20:57:44.022Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
       "priority": "low",
       "title": "Short-term housing price impact: NAB revised forecast projects brief correction not slump",
       "description": "NAB revises property market forecast following budget announcement, projecting a brief correction rather than prolonged slump based on existing housing shortage and new build exemptions.",
@@ -1856,30 +1844,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Venture capital tax incentives expanded from July 2027 in Budget 2026 measure",
-      "description": "The Federal Budget includes expansion of venture capital tax incentives effective from July 2027, providing increased support for early-stage investment. This measure sits alongside the major CGT and negative gearing reforms in the broader tax reform package.",
-      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expanded from July 2027 in Budget 2026 measure",
-      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260526-898",
-      "timestamp": "2026-05-26T06:00:16.769Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Government confirms new tax cuts for Australian workers alongside CGT reform",
-      "description": "Budget 2026-27 confirms new tax cuts for Australian workers as part of the broader tax reform package. The measures include replacement of the 50% CGT discount with inflation indexation and introduction of a minimum 30% tax on gains from 1 July 2027. Treasurer Jim Chalmers stated the reforms aim to rebalance the taxation system away from taxing incomes and more towards taxing assets.",
-      "suggestion": "Add to budget-updates.json: Government confirms new tax cuts for Australian workers alongside CGT reform",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260526-628",
-      "timestamp": "2026-05-26T06:00:16.769Z",
-      "status": "pending"
     },
     {
       "type": "debate_page",
@@ -1928,31 +1892,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases Division 296 indexed thresholds and CGT relief details",
-      "description": "The ATO has confirmed the indexed thresholds for Division 296 tax and details of CGT relief for affected superannuation accounts. The $3m threshold applies from 1 July 2026, with additional 15% tax on earnings related to balances exceeding the levy surplus balance.",
-      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details - $3m threshold applies from 1 July 2026 per enacted legislation",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260526-781",
-      "timestamp": "2026-05-26T17:20:54.105Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Federal Budget introduces significant reforms to negative gearing for residential property investors",
-      "description": "William Buck analysis confirms that investors purchasing established properties after 7:30pm on Budget Night (12 May 2026) will lose access to negative gearing tax benefits from 1 July 2027, while new builds remain exempt.",
-      "suggestion": "Add to budget-updates.json: William Buck: Federal Budget introduces significant reforms to negative gearing for residential property investors, removing access from 1 July 2027 for established properties purchased after 7:30pm on 12 May 2026",
-      "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260526-832",
-      "timestamp": "2026-05-26T17:20:54.105Z",
-      "status": "pending"
     },
     {
       "type": "content_update",
@@ -4005,6 +3944,46 @@
       "timestamp": "2026-05-25T20:57:44.022Z",
       "status": "implemented",
       "implemented_at": "2026-05-30T22:55:31.946Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "NAB Budget Analysis: CGT discount replaced by cost base indexation — implications for investors",
+      "description": "National Australia Bank publishes detailed analysis of CGT discount replacement with cost base indexation and implications for investors.",
+      "suggestion": "Add to budget-updates.json: NAB Budget Analysis details CGT discount replacement with cost base indexation and investor implications",
+      "source": "https://www.nab.com.au/content/nab/en/home/perspectives/business-and-economy/federal-budget-2026.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260525-290",
+      "timestamp": "2026-05-25T20:57:44.022Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-31T07:40:34.855Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Government confirms new tax cuts for Australian workers alongside CGT reform",
+      "description": "Budget 2026-27 confirms new tax cuts for Australian workers as part of the broader tax reform package. The measures include replacement of the 50% CGT discount with inflation indexation and introduction of a minimum 30% tax on gains from 1 July 2027. Treasurer Jim Chalmers stated the reforms aim to rebalance the taxation system away from taxing incomes and more towards taxing assets.",
+      "suggestion": "Add to budget-updates.json: Government confirms new tax cuts for Australian workers alongside CGT reform",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260526-628",
+      "timestamp": "2026-05-26T06:00:16.769Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-31T07:41:12.219Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases Division 296 indexed thresholds and CGT relief details",
+      "description": "The ATO has confirmed the indexed thresholds for Division 296 tax and details of CGT relief for affected superannuation accounts. The $3m threshold applies from 1 July 2026, with additional 15% tax on earnings related to balances exceeding the levy surplus balance.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details - $3m threshold applies from 1 July 2026 per enacted legislation",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260526-781",
+      "timestamp": "2026-05-26T17:20:54.105Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-05-31T07:41:25.492Z"
     }
   ],
   "skipped": [
@@ -4181,6 +4160,34 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-05-30T16:57:23.668Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Venture capital tax incentives expanded from July 2027 in Budget 2026 measure",
+      "description": "The Federal Budget includes expansion of venture capital tax incentives effective from July 2027, providing increased support for early-stage investment. This measure sits alongside the major CGT and negative gearing reforms in the broader tax reform package.",
+      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expanded from July 2027 in Budget 2026 measure",
+      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260526-898",
+      "timestamp": "2026-05-26T06:00:16.769Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-31T07:40:46.703Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Federal Budget introduces significant reforms to negative gearing for residential property investors",
+      "description": "William Buck analysis confirms that investors purchasing established properties after 7:30pm on Budget Night (12 May 2026) will lose access to negative gearing tax benefits from 1 July 2027, while new builds remain exempt.",
+      "suggestion": "Add to budget-updates.json: William Buck: Federal Budget introduces significant reforms to negative gearing for residential property investors, removing access from 1 July 2027 for established properties purchased after 7:30pm on 12 May 2026",
+      "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260526-832",
+      "timestamp": "2026-05-26T17:20:54.105Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-31T07:41:37.422Z"
     }
   ],
   "needs_manual_review": [

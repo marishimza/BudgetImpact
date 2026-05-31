@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T17:02:07.090Z",
+  "lastUpdated": "2026-05-31T20:48:44.702Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3281,6 +3281,91 @@
     {
       "id": "suggestion-20260531-617",
       "timestamp": "2026-05-31T15:11:41.523Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "description": "New Treasury analysis quantifies the proportion of ASX 200 capital gains attributable to inflation versus real gains, providing key context for the CGT indexation reform.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis released with Budget 2026-27 provides quantitative evidence supporting the shift to inflation indexation for capital gains tax, finding that inflation accounted for 56% of ASX 200 share gains over the past decade.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260531-550",
+      "timestamp": "2026-05-31T20:48:39.166Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Working Australians Tax Offset: $250 annual relief confirmed for low-to-middle income workers",
+      "description": "The Budget introduces a new tax offset providing $250 annual relief for low-to-middle income workers as part of broader tax reform alongside CGT and negative gearing changes.",
+      "suggestion": "Add to budget-updates.json: Budget 2026 confirms new Working Australians Tax Offset providing $250 annual relief for low-to-middle income workers as part of broader tax reform package.",
+      "source": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260531-804",
+      "timestamp": "2026-05-31T20:48:39.166Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "low",
+      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for different investor types",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The ASX has published analysis detailing how the CGT changes create differential treatment for different investor categories, particularly comparing ETF and Listed Investment Vehicle investors to direct share investors.",
+      "suggestion": "Add to budget-updates.json: ASX analysis reveals the CGT reform package creates a 'two-speed' tax treatment depending on investor type, with different implications for ETF, Listed Investment Vehicle, and direct share investors.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260531-571",
+      "timestamp": "2026-05-31T20:48:39.166Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the 2026 budget housing measures cost $6.4 billion over four years?",
+      "description": "ABC reports the budget housing measures cost $6.4 billion over four years, but the figure may not appear in official budget papers or government communications. This raises factual questions about the source, calculation methodology, and whether the $6.4B figure represents only new spending or includes reprioritised existing measures.",
+      "suggestion": "Add to debates.json: ABC News reports budget housing measures cost $6.4 billion over four years, but budget.gov.au official tax reform page makes no mention of this figure. This creates a factual conflict about how much the housing package actually costs.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260531-711",
+      "timestamp": "2026-05-31T20:48:39.166Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'The 50% CGT discount is being replaced by inflation indexation with no choice for taxpayers'",
+      "description": "The official budget.gov.au states it will 'replace' the 50% discount with inflation indexation. However, ASA (Australian Shareholders Association) specifically called for 'any CGT reform to consider both indexation AND a modern averaging mechanism', suggesting they view the current approach as potentially flawed. Multiple sources describe this as a straightforward replacement, but the technical design may involve nuances (like cost base vs. inflation indexation) that could affect outcomes for different asset types and holding periods. The claim implies taxpayers have no choice, yet the ASA's call for averaging suggests the design may not be finalised or may include flexibility provisions not widely reported.",
+      "suggestion": "Add to fact-checks.json: claim is that the 50% discount is being replaced with no choice; verdict is PARTIALLY_TRUE because the discount IS being replaced for new gains from 1 July 2027, but the ASA and other bodies are still advocating for additional mechanisms (averaging) that could give taxpayers alternative calculation methods in certain circumstances.",
+      "source": "https://www.budget.gov.au/tax-reform; https://australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260531-433",
+      "timestamp": "2026-05-31T20:48:39.166Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Division 296 tax is a flat 15% on all superannuation balances exceeding $3 million'",
+      "description": "Multiple sources state Division 296 'applies a 15% tax on all super balances exceeding $3m'. However, the ATO (ato.gov.au) and other expert sources clarify that the 15% applies specifically to EARNINGS relating to the Total Superannuation Balance (TSB) that exceeds the Low Tax Balance ($1.9m from 1 July 2026). This is not the same as a flat 15% tax on the entire balance above $3m. For example, if someone has $4m in super, they would only pay 15% on the earnings attributable to the amount above $1.9m threshold, not on the entire $4m. This is a significant oversimplification that could mislead high-balance super members about their actual tax liability.",
+      "suggestion": "Add to fact-checks.json: claim is that Division 296 applies a flat 15% on all super above $3m; verdict is MISLEADING because the 15% only applies to earnings attributable to the portion of Total Superannuation Balance exceeding the $1.9m Low Tax Balance threshold (not the entire balance above $3m).",
+      "source": "https://www.ato.gov.au/better-targeted-super-concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260531-496",
+      "timestamp": "2026-05-31T20:48:39.166Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
+    },
+    {
+      "id": "suggestion-20260531-214",
+      "timestamp": "2026-05-31T20:48:39.166Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

@@ -1333,6 +1333,34 @@
       "status": "needs_manual_review",
       "corroborated_by": "https://treasury.gov.au/publication/p2026-744848",
       "status_reason": "Item count shrank from 24 to 12 in content/budget-updates.json"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "description": "Treasury analysis quantified that inflation accounted for 56% of ASX 200 share gains over the past decade, providing context for the CGT indexation reforms.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis quantified that inflation accounted for 56% of ASX 200 share gains over the past decade. This data underpins the government's rationale for replacing the flat 50% CGT discount with inflation indexation.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/australia-federal-budget-2026-tax-capital-gains-negative-gearing-housing-one-big-chart",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260522-409",
+      "timestamp": "2026-05-22T21:03:45.810Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2025-07-01/asx-200-gains-10-per-cent-over-financial-year-2025/105479398",
+      "implemented_at": "2026-05-24T11:11:48.927Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources quote the 30% minimum tax rate but conflict on whether it applies to ALL capital gains or only to real (inflation-adjusted) gains above inflation. The ABC states it applies to 'real capital gains' while budget.gov.au states it simply as 'minimum 30 per cent tax on gains'. This is a critical distinction that could mislead investors about their actual tax liability.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% applies to all gains', verdict is disputed because the policy specifies minimum 30% on real capital gains (gains above inflation), not total gains before indexation. The tax effectively starts at the individual's marginal rate or 30%, whichever is greater.",
+      "source": "https://www.budget.gov.au/Budget-2026-27/Tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260524-539",
+      "timestamp": "2026-05-24T09:48:26.399Z",
+      "status": "needs_manual_review",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "status_reason": "Item count shrank from 10 to 6 in content/fact-checks.json"
     }
   ]
 }

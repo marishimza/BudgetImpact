@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T15:53:34.948Z",
+  "lastUpdated": "2026-06-01T20:13:50.162Z",
   "items": [
     {
       "id": "update-001",
@@ -810,6 +810,40 @@
       "summary": "The government will provide $47.5 million over four years from 2026–27, along with $3.9 million per year on an ongoing basis, to the Treasury and the Australian Taxation Office (ATO) to implement the CGT reform changes. This funding will support the administrative and technical requirements necessary for implementing the proposed capital gains tax reforms. The investment reflects the complexity of implementing significant CGT policy changes across the tax system.",
       "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
       "priority": "medium"
+    },
+    {
+      "id": "update-081",
+      "date": "2026-05-14",
+      "tag": [
+        "ASX",
+        "Budget",
+        "Superannuation"
+      ],
+      "source": "ASX Investor Update",
+      "title": "ASX analysis reveals 'two-speed' CGT treatment for different investor types under reform package",
+      "summary": "ASX analysis details how CGT reforms create differential outcomes across investor types: SMSFs retain the one-third discount on superannuation assets, listed investment vehicles face modified treatment, while direct share investors move to indexation-based cost bases. The analysis quantifies impacts across ETF, Listed Investment Company (LIC), and Listed Investment Trust (LIT) structures, highlighting the complexity of the tiered treatment approach.",
+      "url": "",
+      "priority": "high"
+    },
+    {
+      "id": "update-082",
+      "date": "2026-06-01",
+      "tag": "Superannuation",
+      "source": "Australian Taxation Office",
+      "title": "ATO confirms Division 296 indexed thresholds and CGT relief details",
+      "summary": "The ATO has released comprehensive guidance on Division 296 tax calculation methods, confirming the indexed thresholds for the 2026–27 financial year. The guidance includes detailed information on CGT relief provisions available to affected superannuation funds, particularly those with total superannuation balances approaching the $1.9 million transfer balance cap. SMSF trustees and administrators should review the guidance to ensure compliance with the new requirements.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-083",
+      "date": "2026-06-01",
+      "tag": "Budget",
+      "source": "Australian Shareholders Association",
+      "title": "ASA calls for capital gains averaging mechanism alongside indexation reform",
+      "summary": "The Australian Shareholders Association has formally called on the Government to incorporate a capital gains averaging mechanism into the CGT reform package. The ASA argues that indexation alone fails to address income bunching, where gains accrued over many years are realised in a single tax year, potentially pushing investors into higher tax brackets. The peak body warns that the current reform proposal does not adequately address the concerns of investors who accumulate gains over extended holding periods.",
+      "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "priority": "high"
     }
   ]
 }

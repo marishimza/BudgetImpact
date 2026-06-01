@@ -1361,6 +1361,20 @@
       "status": "needs_manual_review",
       "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
       "status_reason": "Item count shrank from 10 to 6 in content/fact-checks.json"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury quantification: Inflation accounts for 56% of ASX 200 share gains over decade",
+      "description": "Treasury analysis quantifies the proportion of ASX 200 capital gains attributable to inflation over the past 10 years, providing context for the inflation-indexation CGT reform approach.",
+      "suggestion": "Add Treasury analysis finding: inflation accounts for 56% of ASX 200 share gains over the past decade, providing the analytical basis for replacing the 50% CGT discount with inflation indexation.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260525-438",
+      "timestamp": "2026-05-25T06:17:57.276Z",
+      "status": "needs_manual_review",
+      "corroborated_by": "https://www.abc.net.au/news/2025-07-01/asx-200-gains-10-per-cent-over-financial-year-2025/105479398",
+      "status_reason": "Item count shrank from 24 to 12 in content/budget-updates.json"
     }
   ]
 }

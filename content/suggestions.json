@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T22:56:13.280Z",
+  "lastUpdated": "2026-06-01T06:47:03.658Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3313,6 +3313,103 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for ETF and Listed Investment Vehicle investors",
+      "description": "The ASX published an investor-focused analysis explaining how the CGT changes affect different investor types differently, with implications for exchange-traded funds and listed investment vehicles versus direct share investors.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details CGT impact on ETF and Listed Investment Vehicle investors — notes 'two-speed' tax treatment emerging under reform package",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260601-546",
+      "timestamp": "2026-06-01T06:46:57.501Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ABC Budget 2026: Winners and losers — $6.4 billion housing measure cost confirmed",
+      "description": "ABC News analysis confirms the housing measures cost $6.4 billion over four years and notes the $1,000 instant tax deduction for work-related expenses as announced in the lead-up to the 2025 election.",
+      "suggestion": "Add to budget-updates.json: ABC Budget 2026 Winners and Losers analysis confirms $6.4 billion cost over four years for housing measures; $1,000 instant tax deduction for work-related expenses confirmed",
+      "source": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260601-494",
+      "timestamp": "2026-06-01T06:46:57.501Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO confirms Division 296 indexed thresholds and CGT relief details for SMSFs",
+      "description": "The ATO has published guidance confirming Division 296 tax is law, with indexed thresholds and specific CGT relief provisions for self-managed super funds before the 1 July 2026 commencement date.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details — legislation is law, implementation date 1 July 2026",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260601-670",
+      "timestamp": "2026-06-01T06:46:57.501Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the 50% CGT discount be repealed or preserved with a choice of indexation?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] budget.gov.au indicates taxpayers can choose between cost base indexation and the 50% discount after July 2027. However, the Coalition has vowed to repeal these changes entirely if elected. This represents a genuine factual conflict about the future treatment of the CGT discount.",
+      "suggestion": "Add to debates.json: budget.gov.au says taxpayers can choose between cost base indexation and the 50% CGT discount from July 2027. The Guardian reports the Coalition will 'seek to defeat the changes' and 'repeal these measures if necessary.'",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260601-134",
+      "timestamp": "2026-06-01T06:46:57.501Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the Coalition's immigration cap a direct response to budget housing measures?",
+      "description": "The Guardian's May 13 coverage frames the Coalition's response around repealing negative gearing and CGT changes. The May 14 budget reply coverage explicitly frames immigration cuts as addressing the housing crisis created by the budget. This creates factual uncertainty about whether immigration restriction is presented as a complementary or counter response.",
+      "suggestion": "Add to debates.json: The Guardian (May 14) explicitly links the Coalition's immigration cap to the budget housing measures, stating Taylor said immigration 'will need to be significantly below the Coalition's cap' to address housing. The May 13 coverage focused on direct repeal of negative gearing and CGT changes as the primary response.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260601-517",
+      "timestamp": "2026-06-01T06:46:57.501Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources repeat a 30% minimum tax rate on capital gains, but the official budget.gov.au states 'minimum 30% tax on gains from 1 July 2027' applying to gains above inflation. The official source specifies the rate applies to 'real capital gains' (gains above inflation), not total gains. The distinction matters: an asset gaining 5% with 3% inflation would only have 2% taxed at minimum 30%, not the full 5%. This nuance is often lost in media reporting.",
+      "suggestion": "Add to fact-checks.json: claim that '30% minimum applies to ALL gains' is partially misleading. Verdict: nuanced. Budget official says 30% minimum applies to real gains (above inflation), with cost base indexed to inflation. Not all gains are subject to the 30% — only inflation-adjusted gains above the indexed cost base qualify.",
+      "source": "https://budget.gov.au/2026-27/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260601-565",
+      "timestamp": "2026-06-01T06:46:57.501Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Working Australians Tax Offset provides $250 annual relief for all workers",
+      "description": "The ABC article mentions '$1,000 instant tax deduction for work-related expenses' (not the Working Australians Tax Offset). The pending suggestions list '$250 annual relief for workers' under the Working Australians Tax Offset. The ABC article also mentions a $6.4 billion cost over four years for housing measures. Need to verify the exact amount and scope of the Working Australians Tax Offset against official budget documentation.",
+      "suggestion": "Add to fact-checks.json: verify whether the Working Australians Tax Offset provides $250 relief and what the eligibility criteria are. Also confirm if ABC's mention of $1,000 instant deduction refers to the same or different measure. Verify exact amount against budget.gov.au.",
+      "source": "https://abc.net.au/news/federal-budget-2026-winners-and-losers",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260601-134",
+      "timestamp": "2026-06-01T06:46:57.501Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260601-482",
+      "timestamp": "2026-06-01T06:46:57.501Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
     }
   ],
   "implemented": [
@@ -4376,20 +4473,6 @@
     }
   ],
   "needs_manual_review": [
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Treasury quantification: Inflation accounts for 56% of ASX 200 share gains over decade",
-      "description": "Treasury analysis quantifies the proportion of ASX 200 capital gains attributable to inflation over the past 10 years, providing context for the inflation-indexation CGT reform approach.",
-      "suggestion": "Add Treasury analysis finding: inflation accounts for 56% of ASX 200 share gains over the past decade, providing the analytical basis for replacing the 50% CGT discount with inflation indexation.",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260525-438",
-      "timestamp": "2026-05-25T06:17:57.276Z",
-      "status": "needs_manual_review",
-      "corroborated_by": "https://www.abc.net.au/news/2025-07-01/asx-200-gains-10-per-cent-over-financial-year-2025/105479398",
-      "status_reason": "Item count shrank from 24 to 12 in content/budget-updates.json"
-    },
     {
       "id": "health-1779725824115-m2a8",
       "timestamp": "2026-05-25T16:17:04.115Z",

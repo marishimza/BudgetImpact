@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T09:22:04.490Z",
+  "lastUpdated": "2026-06-01T13:28:38.478Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3348,23 +3348,57 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
+      "description": "Property industry bodies (REIA and Property Council of Australia) claim that reducing investor attractiveness could reduce rental supply over time, while the Government claims that limiting negative gearing to new builds will focus tax support on new supply. These are conflicting factual predictions about the same policy's rental market impact.",
+      "suggestion": "Add to debates.json: view_a from REIA and Property Council (via slateandsage.com.au) says reducing investment attractiveness could reduce rental supply over time. view_b from budget.gov.au says the government will limit negative gearing to new builds to focus tax support on new supply and increase availability.",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260601-661",
+      "timestamp": "2026-06-01T13:28:35.987Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the Coalition's immigration cap proposal a direct response to the budget housing measures or separate policy?",
+      "description": "The Coalition vows to repeal the negative gearing and CGT changes (Guardian, ABC) while simultaneously proposing an immigration cap. The question is whether these are connected policy responses to housing affordability or separate political positioning. This represents a factual disagreement about the motivation and relationship between fiscal and migration policy.",
+      "suggestion": "Add to debates.json: view_a from Coalition (via theguardian.com) says they will repeal housing tax changes as 'toxic'. view_b suggests the immigration cap proposal may be a separate policy response, not directly tied to budget housing measures.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260601-932",
+      "timestamp": "2026-06-01T13:28:35.987Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million",
+      "description": "Media coverage often oversimplifies Division 296 by claiming it taxes 'balances over $3m' at 15%. The official ATO description is more precise: the 15% tax applies to the *earnings* (not the balance) attributable to the amount exceeding the $3 million threshold. This is a significant distinction - someone with a $4 million balance wouldn't pay 15% tax on the entire $4m, only on the earnings attributable to the $1m portion above $3m.",
+      "suggestion": "Add to fact-checks.json: 'Division 296 imposes a 15% tax on earnings attributable to amounts exceeding $3 million' — verdict: partially_true because official sources confirm the 15% applies to earnings on the excess, not a flat tax on balances over $3m.",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260601-507",
+      "timestamp": "2026-06-01T13:28:35.987Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260601-935",
+      "timestamp": "2026-06-01T13:28:35.987Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
     }
   ],
   "implemented": [
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Division 296 super tax applies a 15% tax on all super balances over $3m'",
-      "description": "Multiple sources describe Division 296 as imposing a 15% tax on superannuation balances exceeding $3 million. However, the ATO clarifies this is incorrect—the 15% tax applies only to the 'earnings relating to your Total Superannuation Balance (TSB) that exceeds the Lump Sum Threshold (LSBT)', not to the entire balance over $3m. This is a significant oversimplification that could mislead high-balance super members about their actual tax liability.",
-      "suggestion": "Add to fact-checks.json: claim is '15% tax on all balances over $3m', verdict is disputed because the 15% tax only applies to the earnings/proportion exceeding the threshold, not the entire balance above $3m. The ATO and draft legislation confirm indexed thresholds and specify the tax applies to earnings above the LSBT.",
-      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260523-431",
-      "timestamp": "2026-05-23T20:39:47.655Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implemented_at": "2026-05-25T08:17:31.429Z"
-    },
     {
       "type": "content_update",
       "priority": "high",

@@ -1375,6 +1375,20 @@
       "status": "needs_manual_review",
       "corroborated_by": "https://www.abc.net.au/news/2025-07-01/asx-200-gains-10-per-cent-over-financial-year-2025/105479398",
       "status_reason": "Item count shrank from 24 to 12 in content/budget-updates.json"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Division 296 super tax applies a 15% tax on all super balances over $3m'",
+      "description": "Multiple sources describe Division 296 as imposing a 15% tax on superannuation balances exceeding $3 million. However, the ATO clarifies this is incorrect—the 15% tax applies only to the 'earnings relating to your Total Superannuation Balance (TSB) that exceeds the Lump Sum Threshold (LSBT)', not to the entire balance over $3m. This is a significant oversimplification that could mislead high-balance super members about their actual tax liability.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all balances over $3m', verdict is disputed because the 15% tax only applies to the earnings/proportion exceeding the threshold, not the entire balance above $3m. The ATO and draft legislation confirm indexed thresholds and specify the tax applies to earnings above the LSBT.",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260523-431",
+      "timestamp": "2026-05-23T20:39:47.655Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-05-25T08:17:31.429Z"
     }
   ]
 }

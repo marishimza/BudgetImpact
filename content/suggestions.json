@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T15:53:34.951Z",
+  "lastUpdated": "2026-06-01T19:17:06.700Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3335,6 +3335,78 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Trust tax treatment reform details confirmed — Government signals shift from income to asset taxation",
+      "description": "The Government has confirmed plans to reform trust tax treatment, shifting the burden from taxing income to taxing assets. Treasury analysis indicates the reform is part of a broader rebalancing of the tax system.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform details confirmed — Government signals shift from income to asset taxation",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260601-623",
+      "timestamp": "2026-06-01T19:16:55.677Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Venture capital tax incentives expansion confirmed from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget 2026 confirms expansion of venture capital tax incentives from 1 July 2027 as part of broader innovation and investment support measures in the budget package.",
+      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expansion confirmed from July 2027",
+      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260601-346",
+      "timestamp": "2026-06-01T19:16:55.677Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis details CGT reform impact on ETF and Listed Investment Vehicle investors",
+      "description": "ASX Investor Update examines how proposed CGT changes affect exchange-traded funds and Listed Investment Vehicles, creating 'two-speed' tax treatment for different investor types in the share market.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details CGT reform impact on ETF and Listed Investment Vehicle investors",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260601-159",
+      "timestamp": "2026-06-01T19:16:55.677Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "Multiple sources incorrectly state that Division 296 imposes a flat 15% tax on the entire balance above $3 million. The ATO's official guidance states the 15% tax applies only 'on the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning it's applied to the earnings attributable to the portion above the threshold, not the excess balance itself. This is a significant oversimplification that could mislead high-balance superannuants about their actual tax liability.",
+      "suggestion": "Add to fact-checks.json: claim is that Division 296 imposes 15% on balances exceeding $3m, verdict is partially_true because the 15% tax applies only to earnings/proportion above the threshold, not the excess balance amount directly.",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260601-134",
+      "timestamp": "2026-06-01T19:16:55.677Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The budget.gov.au states the government will 'introduce a minimum 30 per cent tax on gains from 1 July 2027.' The word 'minimum' suggests this is a floor rate, not necessarily the only rate applied. Media coverage frequently drops the word 'minimum' when reporting, implying all capital gains will be taxed at exactly 30%. The actual tax payable would depend on the individual's marginal tax rate, making 'minimum 30% on ALL gains' an oversimplification.",
+      "suggestion": "Add to fact-checks.json: claim is that capital gains face a 30% rate on ALL gains, verdict is partially_true because the official budget states a 'minimum 30%' which serves as a floor - actual tax rates depend on marginal rates and indexation calculations.",
+      "source": "https://www.budget.gov.au/Tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260601-943",
+      "timestamp": "2026-06-01T19:16:55.677Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260601-949",
+      "timestamp": "2026-06-01T19:16:55.677Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
     }
   ],
   "implemented": [
@@ -4519,17 +4591,6 @@
   ],
   "needs_manual_review": [
     {
-      "id": "health-1779725824115-m2a8",
-      "timestamp": "2026-05-25T16:17:04.115Z",
-      "status": "needs_manual_review",
-      "priority": "high",
-      "type": "site_health",
-      "title": "[HEALTH] $%7Bitem.Url%20||%20' page: HTTP 404",
-      "description": "HTTP 404",
-      "suggestion": "Investigate https://marishimza.github.io/BudgetImpact/$%7Bitem.url%20||%20'#'} — page failed health check. Check deployment and content files.",
-      "source": "https://marishimza.github.io/BudgetImpact/$%7Bitem.url%20||%20'#'}"
-    },
-    {
       "type": "fact_check",
       "priority": "high",
       "title": "Claim: 'Division 296 super tax applies a 15% tax on all super balances over $3m'",
@@ -4556,6 +4617,17 @@
       "status": "needs_manual_review",
       "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
       "status_reason": "Item count shrank from 8 to 4 in content/debates.json"
+    },
+    {
+      "id": "health-1780341426700-fbqk",
+      "timestamp": "2026-06-01T19:17:06.700Z",
+      "status": "needs_manual_review",
+      "priority": "high",
+      "type": "site_health",
+      "title": "[HEALTH] $%7Bitem.Url%20||%20' page: HTTP 404",
+      "description": "HTTP 404",
+      "suggestion": "Investigate https://marishimza.github.io/BudgetImpact/$%7Bitem.url%20||%20'#'} — page failed health check. Check deployment and content files.",
+      "source": "https://marishimza.github.io/BudgetImpact/$%7Bitem.url%20||%20'#'}"
     }
   ]
 }

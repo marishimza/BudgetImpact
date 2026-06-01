@@ -1389,6 +1389,17 @@
       "status": "implemented",
       "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "implemented_at": "2026-05-25T08:17:31.429Z"
+    },
+    {
+      "id": "health-1779725824115-m2a8",
+      "timestamp": "2026-05-25T16:17:04.115Z",
+      "status": "needs_manual_review",
+      "priority": "high",
+      "type": "site_health",
+      "title": "[HEALTH] $%7Bitem.Url%20||%20' page: HTTP 404",
+      "description": "HTTP 404",
+      "suggestion": "Investigate https://marishimza.github.io/BudgetImpact/$%7Bitem.url%20||%20'#'} — page failed health check. Check deployment and content files.",
+      "source": "https://marishimza.github.io/BudgetImpact/$%7Bitem.url%20||%20'#'}"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T20:14:00.955Z",
+  "lastUpdated": "2026-06-01T22:30:33.408Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3346,6 +3346,103 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ABC Analysis: CGT changes could drive investment shift from property to shares",
+      "description": "The ABC examines how the replacement of the flat 50% CGT discount with inflation indexation and a minimum 30% tax rate could redirect investment away from residential property toward shares and equities, potentially affecting housing demand and share market investment patterns.",
+      "suggestion": "Add to budget-updates.json: ABC News analysis examines how capital gains tax changes may drive investment shift from property to shares — the current flat 50% discount being replaced with indexation aligned to inflation, with a minimum tax rate of 30% applying to real capital gains from July 2027.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260601-945",
+      "timestamp": "2026-06-01T22:30:25.717Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for different investor types",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The ASX examines how the CGT reform package creates differential outcomes for different investor categories — those holding assets through ETFs and Listed Investment Vehicles face different treatment compared to direct asset holders, with the new minimum 30% floor affecting investors unevenly based on their tax position.",
+      "suggestion": "Add to budget-updates.json: ASX analysis reveals CGT reform creates 'two-speed' tax treatment for different investor types — with ETF and Listed Investment Vehicle investors facing specific implications from the minimum 30% capital gains tax rate applying from July 2027.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260601-268",
+      "timestamp": "2026-06-01T22:30:25.717Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Trust tax treatment reform details confirmed — Government signals shift from income to asset taxation",
+      "description": "The Government has confirmed plans to reform trust tax treatment as part of broader reforms to shift the taxation burden from income to assets. Treasurer Jim Chalmers indicated the plan will 'rebalance the system' away from taxing incomes and more toward taxing assets, with trust taxation changes flagged alongside CGT and negative gearing reforms.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform details confirmed — Government signals plan to shift burden from income to assets alongside CGT and negative gearing changes.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260601-606",
+      "timestamp": "2026-06-01T22:30:25.717Z",
+      "status": "pending",
+      "corroborated_by": "https://www.smh.com.au/politics/federal/how-this-budget-will-change-your-taxes-limiting-negative-gearing-cgt-and-new-taxes-on-trusts-20260508-p5zv1j.html"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "The API Magazine cites the Government claiming the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes' as justification for the housing measures. However, industry bodies like the Real Estate Institute of Australia and Property Council of Australia have expressed concern that reducing property investment attractiveness could reduce rental supply over time. This raises a factual conflict about whether the infrastructure spending will offset potential investor exits and actually deliver the projected 65,000 homes.",
+      "suggestion": "Add to debates.json: View A from apimagazine.com.au says the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes'. View B from slateandsage.com.au (citing REIA and Property Council of Australia) says reducing property investment attractiveness 'could reduce rental supply over time', questioning whether the housing targets will be met.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260601-135",
+      "timestamp": "2026-06-01T22:30:25.717Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the Coalition's immigration cap proposal directly tied to budget housing measures or separate policy?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources report the Coalition is vowing to repeal negative gearing and CGT changes. There's a conflict about whether the Coalition's immigration cap proposal is a direct response to the housing crisis created by budget measures, or a separate policy initiative. This matters because it affects how we interpret the political debate around housing affordability causation.",
+      "suggestion": "Add to debates.json: View A from abc.net.au and theguardian.com says the Coalition is focused on repealing negative gearing and CGT changes as direct budget responses. View B from johnsonsmme.com.au frames Coalition policy as 'returning tax settings to current conditions' alongside immigration proposals, suggesting multiple separate policy approaches rather than a coordinated budget response.",
+      "source": "https://abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260601-643",
+      "timestamp": "2026-06-01T22:30:25.717Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim appears in existing fact-checks but may oversimplify the comparison. The actual outcome depends on the inflation rate vs the 50% discount benefit. For high-inflation periods, indexation may be more favorable, but for low-inflation or very long-held assets, the 50% discount could potentially be more beneficial. The ASA notes concerns about 'income bunching' suggesting the indexation mechanism may not universally outperform the discount.",
+      "suggestion": "Add to fact-checks.json: claim is 'inflation indexation always produces a better CGT outcome', verdict is 'disputed' because while indexation prevents tax on inflationary gains, the comparison depends on actual inflation rates and holding periods - the 50% discount may be more favorable in low-inflation environments or for certain asset types.",
+      "source": "https://www.australianshareholders.com.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260601-569",
+      "timestamp": "2026-06-01T22:30:25.717Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "low",
+      "title": "Claim: 'Division 296 imposes 15% tax on ALL superannuation balances exceeding $3 million'",
+      "description": "This claim may oversimplify the tax mechanism. Division 296 applies 15% tax on the 'proportion of earnings relating to your Total Superannuation Balance (TSB) that exceeds the Low Balance Threshold ($3 million)'. This is not the same as taxing the entire balance over $3m at 15% - it's only the earnings attributed to the amount above the threshold.",
+      "suggestion": "Add to fact-checks.json: claim is 'Division 296 imposes 15% tax on all super balances over $3m', verdict is 'partially_true' because the 15% tax only applies to earnings attributable to the amount exceeding the threshold, not the entire balance above $3m.",
+      "source": "https://www.ato.gov.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260601-977",
+      "timestamp": "2026-06-01T22:30:25.717Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260601-854",
+      "timestamp": "2026-06-01T22:30:25.717Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
     }
   ],
   "implemented": [
@@ -4597,20 +4694,6 @@
     }
   ],
   "needs_manual_review": [
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Division 296 super tax applies a 15% tax on all super balances over $3m'",
-      "description": "Multiple sources quote the Division 296 tax rate as 15%, but this is oversimplified. The ATO confirms the 15% applies to the 'proportion of earnings relating to your TSB that exceeds the LSBT' - meaning it's 15% tax on earnings from amounts OVER $3m, not 15% on the entire balance if it exceeds $3m. Media coverage often implies this is a 15% tax on the total super balance for accounts over $3m, which is incorrect.",
-      "suggestion": "Add to fact-checks.json: claim that Division 296 imposes 15% on all balances over $3m is DISPUTED because the 15% only applies to the earnings proportion attributable to the amount exceeding the $3m threshold, not on the entire balance.",
-      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260525-542",
-      "timestamp": "2026-05-25T20:57:44.022Z",
-      "status": "needs_manual_review",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "status_reason": "Item count shrank from 10 to 6 in content/fact-checks.json"
-    },
     {
       "type": "debate_page",
       "priority": "high",

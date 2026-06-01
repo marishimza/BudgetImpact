@@ -1400,6 +1400,20 @@
       "description": "HTTP 404",
       "suggestion": "Investigate https://marishimza.github.io/BudgetImpact/$%7Bitem.url%20||%20'#'} — page failed health check. Check deployment and content files.",
       "source": "https://marishimza.github.io/BudgetImpact/$%7Bitem.url%20||%20'#'}"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Division 296 super tax applies a 15% tax on all super balances over $3m'",
+      "description": "Multiple sources quote the Division 296 tax rate as 15%, but this is oversimplified. The ATO confirms the 15% applies to the 'proportion of earnings relating to your TSB that exceeds the LSBT' - meaning it's 15% tax on earnings from amounts OVER $3m, not 15% on the entire balance if it exceeds $3m. Media coverage often implies this is a 15% tax on the total super balance for accounts over $3m, which is incorrect.",
+      "suggestion": "Add to fact-checks.json: claim that Division 296 imposes 15% on all balances over $3m is DISPUTED because the 15% only applies to the earnings proportion attributable to the amount exceeding the $3m threshold, not on the entire balance.",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260525-542",
+      "timestamp": "2026-05-25T20:57:44.022Z",
+      "status": "needs_manual_review",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "status_reason": "Item count shrank from 10 to 6 in content/fact-checks.json"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T20:13:50.162Z",
+  "lastUpdated": "2026-06-01T23:24:23.846Z",
   "items": [
     {
       "id": "update-001",
@@ -844,6 +844,56 @@
       "summary": "The Australian Shareholders Association has formally called on the Government to incorporate a capital gains averaging mechanism into the CGT reform package. The ASA argues that indexation alone fails to address income bunching, where gains accrued over many years are realised in a single tax year, potentially pushing investors into higher tax brackets. The peak body warns that the current reform proposal does not adequately address the concerns of investors who accumulate gains over extended holding periods.",
       "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
       "priority": "high"
+    },
+    {
+      "id": "update-084",
+      "date": "2026-06-01",
+      "tag": "Superannuation",
+      "source": "AusBudget 2026",
+      "title": "SMSF property confirmed exempt from negative gearing changes",
+      "summary": "The 2026-27 Budget confirms that self-managed superannuation fund property investments retain their current tax treatment and are not subject to negative gearing restrictions. SMSF trustees can continue to use gearing strategies within their super fund without the limitations applied to residential property investors. This maintains the existing framework for SMSF property investment while new build restrictions apply separately to personal residential investors.",
+      "url": "https://hudsonfinancialplanning.com.au/resources/education-reports/using-your-smsf-to-buy-property/",
+      "priority": "medium"
+    },
+    {
+      "id": "update-085",
+      "date": "2026-03-15",
+      "tag": "Parliament",
+      "source": "Wikipedia",
+      "title": "Parliamentary committee endorsed CGT discount changes in March 2026",
+      "summary": "A parliamentary committee endorsed changes to the capital gains tax discount before the budget was handed down, providing important context for the 2026 budget CGT reforms. The Liberal Party opposed the changes but was unable to block the referral, as crossbench support ensured the proposal moved forward. This committee endorsement set the stage for the broader tax changes announced in the May 2026 federal budget.",
+      "url": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
+      "priority": "medium"
+    },
+    {
+      "id": "update-086",
+      "date": "2026-05-12",
+      "tag": "Budget",
+      "source": "ABC News",
+      "title": "Budget housing measures cost $6.4 billion over four years — ABC confirms official costing for negative gearing and CGT reform package",
+      "summary": "The ABC's Budget winners and losers analysis reveals the first official costing figure for the government's housing measures package at $6.4 billion over four years. The comprehensive package includes changes to negative gearing rules, capital gains tax reforms, and related housing initiatives designed to improve housing affordability. This figure represents the net cost to the budget of the full suite of housing policy changes announced in the Budget.",
+      "url": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966",
+      "priority": "high"
+    },
+    {
+      "id": "update-087",
+      "date": "2026-06-01",
+      "tag": "Budget",
+      "source": "ABC News",
+      "title": "Federal Budget 2026: $1,000 Instant Tax Deduction for Work-Related Expenses Confirmed",
+      "summary": "The 2026 Federal Budget has confirmed a new $1,000 instant tax deduction for work-related expenses, effective from the current financial year. This measure is separate from the Working Australians Tax Offset (WATSO) which provides $250 relief, offering a distinct tax benefit for eligible workers claiming work-related deductions. The instant deduction simplifies tax time by allowing individuals to claim the flat $1,000 amount without needing to itemise specific expenses.",
+      "url": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966",
+      "priority": "high"
+    },
+    {
+      "id": "update-088",
+      "date": "2026-06-01",
+      "tag": "Budget",
+      "source": "Australian Shareholders Association",
+      "title": "ASA calls for capital gains averaging alongside indexation to address 'income bunching'",
+      "summary": "The Australian Shareholders Association has welcomed the government's move to index capital gains tax but warns it does not fully address income bunching, where investors may realise decades of gains in a single tax year. The ASA is calling for any CGT reform to incorporate a modern averaging mechanism alongside indexation, arguing this would provide fairer treatment for long-term investors. The group also expressed concern about the lack of proper consultation before such significant changes were announced.",
+      "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "priority": "medium"
     }
   ]
 }

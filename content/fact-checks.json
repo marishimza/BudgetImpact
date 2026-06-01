@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T17:01:04.805Z",
+  "lastUpdated": "2026-06-01T09:22:04.489Z",
   "claims": [
     {
       "id": "fc-001",
@@ -304,6 +304,24 @@
         }
       ],
       "date_checked": "2026-05-31",
+      "category": "tax"
+    },
+    {
+      "id": "fc-016",
+      "slug": "minimum-30-percent-capital-gains-all-gains-claim",
+      "claim": "A minimum 30% tax rate will apply to ALL capital gains from July 2027",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "The 30% minimum floor likely applies only to real (inflation-adjusted) gains, not nominal gains. Gains are first indexed for inflation before the minimum rate applies.",
+      "detailed_explanation": "The claim that a 'minimum 30% tax rate' applies to 'ALL capital gains' may be misleading. Official budget documents indicate the 50% CGT discount is being 'replaced with a discount based on inflation'. This means gains are first adjusted for inflation before the 30% minimum applies. The minimum floor applies to real capital gains (gains above inflation), not nominal (total) gains. This distinction significantly affects tax outcomes: a taxpayer with only inflation-matching gains may not face the minimum floor, while the claim could be interpreted to suggest all gains are subject to the 30% minimum regardless of inflation adjustments.",
+      "sources": [
+        {
+          "name": "Treasury - Budget 2026-27",
+          "url": "https://budget.gov.au/content/tax-reform/index.htm",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-01",
       "category": "tax"
     }
   ]

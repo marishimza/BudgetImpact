@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T22:56:13.277Z",
+  "lastUpdated": "2026-06-01T09:21:25.859Z",
   "items": [
     {
       "id": "update-001",
@@ -728,6 +728,46 @@
       "source": "ABC News",
       "title": "ABC Analysis: CGT changes could drive investment shift from property to shares",
       "summary": "ABC News analysis of budget data reveals investors in the Australian share market have been undercompensated for inflation impact, with inflation accounting for 56% of asset price growth for ASX 200 shares held for 10 years. The analysis examines how proposed CGT changes could redirect investment flows from property to shares, potentially reshaping the Australian investment landscape.",
+      "url": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "priority": "medium"
+    },
+    {
+      "id": "update-073",
+      "date": "2026-06-01",
+      "tag": "Superannuation",
+      "source": "Australian Taxation Office",
+      "title": "ATO confirms Division 296 indexed thresholds and CGT relief details for SMSFs",
+      "summary": "The ATO has published guidance confirming that Division 296 tax on superannuation balances above $3 million is now law. The guidance includes indexed thresholds and specific capital gains tax (CGT) relief provisions for self-managed super funds (SMSFs) transitioning before the 1 July 2026 commencement date. SMSF trustees should review their investment strategies and consider timing of any asset disposals in light of these provisions.",
+      "url": "https://www.ato.gov.au/General/New-legislation/In-detail/Topics/Treasury-Laws-Amendment-2026-Tax-Reform/CGT-discount-changes",
+      "priority": "high"
+    },
+    {
+      "id": "update-074",
+      "date": "2026-05-12",
+      "tag": "Budget",
+      "source": "The Guardian",
+      "title": "Guardian analysis: CGT concession benefits concentrated among top 1% of income earners",
+      "summary": "Analysis reveals the capital gains tax discount disproportionately benefits the highest income earners, with the benefit flowing primarily to the top 1% of income earners rather than average Australians. The data highlights growing inequality in Australia's tax system as property investors and high-net-worth individuals capture the majority of CGT concession benefits. This analysis provides context for the policy rationale behind reform measures in the federal budget.",
+      "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "priority": "medium"
+    },
+    {
+      "id": "update-075",
+      "date": "2026-06-01",
+      "tag": "ASX",
+      "source": "ASX",
+      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for different investor types",
+      "summary": "The ASX analysis outlines how the new CGT rules create differential treatment between investors based on asset type, timing of purchase, and whether investments are in property versus shares/ETFs. The reforms create a complex two-speed taxation environment that will require investors to carefully consider the timing and structure of their investments. This development has significant implications for investment strategy going forward.",
+      "url": "https://www.asx.com.au/investor-update",
+      "priority": "medium"
+    },
+    {
+      "id": "update-076",
+      "date": "2026-06-01",
+      "tag": "Property",
+      "source": "ABC News",
+      "title": "ABC analysis: CGT changes could drive investment shift from property to shares",
+      "summary": "The ABC reports that capital gains tax changes announced in the budget may cause investors to shift portfolio allocation away from residential property investment towards share market investments. This potential redirection could reshape residential property demand dynamics, with implications for both housing markets and share market activity.",
       "url": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
       "priority": "medium"
     }

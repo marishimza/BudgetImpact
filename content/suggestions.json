@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T13:28:38.478Z",
+  "lastUpdated": "2026-06-01T15:53:34.951Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2242,43 +2242,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO confirms Division 296 tax calculation details and indexed thresholds",
-      "description": "The ATO official page confirms that Division 296 tax applies 15% on the proportion of earnings relating to Total Superannuation Balance (TSB) that exceeds the Lower Superannuation Balance (LSBT), commencing 1 July 2026. Provides technical details on calculation methodology.",
-      "suggestion": "Add confirmed ATO technical details: Division 296 imposes 15% tax on earnings above the indexed $3m threshold, calculated based on Total Superannuation Balance. Legislation enacted March 2026 commences 1 July 2026.",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260528-832",
-      "timestamp": "2026-05-28T17:32:16.402Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ABC analysis: CGT changes could drive investment shift from property to shares",
-      "description": "ABC News analysis examines how capital gains tax reforms may redirect investment from residential property to shares and ETFs. Highlights the 50% discount replacement with inflation indexation and the 30% minimum tax on real capital gains from July 2027.",
-      "suggestion": "Add ABC analysis: Replacing the flat 50% CGT discount with inflation-aligned indexation and a minimum 30% tax on real gains from July 2027 may shift investor behaviour from property towards shares and ETFs.",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260528-930",
-      "timestamp": "2026-05-28T17:32:16.402Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "NAB Budget Analysis: CGT discount replaced by cost base indexation",
-      "description": "NAB's Federal Budget analysis details how the 50% CGT discount is being replaced by cost base indexation with implications for individual and investment taxpayers. Confirms this is among the biggest personal tax changes in decades.",
-      "suggestion": "Add NAB analysis: The 50% CGT discount is being replaced by cost base indexation as part of the biggest personal tax changes in decades. Individual and investment taxpayers should review asset holding periods.",
-      "source": "https://business.nab.com.au/tag/federal-budget/2026-federal-budget--what-it-means-for-individuals",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260528-880",
-      "timestamp": "2026-05-28T17:32:16.402Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Is the CGT discount being eliminated, replaced, or preserved with a choice?",
@@ -2337,30 +2300,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "NAB revises housing forecast: brief correction not prolonged slump",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] NAB has revised its housing price forecast following the Budget, predicting a brief correction rather than a prolonged slump as a result of negative gearing and CGT changes.",
-      "suggestion": "Add to budget-updates.json: Short-term housing price impact: NAB revised forecast projects brief correction not slump | Source: business.nab.com.au",
-      "source": "https://business.nab.com.au/tag/federal-budget/2026-federal-budget--what-it-means-for-individuals",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260528-252",
-      "timestamp": "2026-05-28T21:50:39.019Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Budget allocates $47.5 million to Treasury and ATO for CGT reform implementation",
-      "description": "The government will provide $47.5 million over four years from 2026–27 (and $3.9 million per year ongoing) to the Treasury and the ATO to implement the CGT reform changes.",
-      "suggestion": "Add to budget-updates.json: Budget allocates $47.5 million for CGT reform implementation | Source: KPMG Federal Budget 2026/2027 analysis",
-      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260528-416",
-      "timestamp": "2026-05-28T21:50:39.019Z",
-      "status": "pending"
     },
     {
       "type": "debate_page",
@@ -4262,6 +4201,58 @@
       "status": "implemented",
       "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
       "implemented_at": "2026-06-01T09:22:04.490Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ABC analysis: CGT changes could drive investment shift from property to shares",
+      "description": "ABC News analysis examines how capital gains tax reforms may redirect investment from residential property to shares and ETFs. Highlights the 50% discount replacement with inflation indexation and the 30% minimum tax on real capital gains from July 2027.",
+      "suggestion": "Add ABC analysis: Replacing the flat 50% CGT discount with inflation-aligned indexation and a minimum 30% tax on real gains from July 2027 may shift investor behaviour from property towards shares and ETFs.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260528-930",
+      "timestamp": "2026-05-28T17:32:16.402Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-01T15:52:40.311Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "NAB Budget Analysis: CGT discount replaced by cost base indexation",
+      "description": "NAB's Federal Budget analysis details how the 50% CGT discount is being replaced by cost base indexation with implications for individual and investment taxpayers. Confirms this is among the biggest personal tax changes in decades.",
+      "suggestion": "Add NAB analysis: The 50% CGT discount is being replaced by cost base indexation as part of the biggest personal tax changes in decades. Individual and investment taxpayers should review asset holding periods.",
+      "source": "https://business.nab.com.au/tag/federal-budget/2026-federal-budget--what-it-means-for-individuals",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260528-880",
+      "timestamp": "2026-05-28T17:32:16.402Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-01T15:52:58.900Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "NAB revises housing forecast: brief correction not prolonged slump",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] NAB has revised its housing price forecast following the Budget, predicting a brief correction rather than a prolonged slump as a result of negative gearing and CGT changes.",
+      "suggestion": "Add to budget-updates.json: Short-term housing price impact: NAB revised forecast projects brief correction not slump | Source: business.nab.com.au",
+      "source": "https://business.nab.com.au/tag/federal-budget/2026-federal-budget--what-it-means-for-individuals",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260528-252",
+      "timestamp": "2026-05-28T21:50:39.019Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-01T15:53:20.340Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Budget allocates $47.5 million to Treasury and ATO for CGT reform implementation",
+      "description": "The government will provide $47.5 million over four years from 2026–27 (and $3.9 million per year ongoing) to the Treasury and the ATO to implement the CGT reform changes.",
+      "suggestion": "Add to budget-updates.json: Budget allocates $47.5 million for CGT reform implementation | Source: KPMG Federal Budget 2026/2027 analysis",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260528-416",
+      "timestamp": "2026-05-28T21:50:39.019Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-01T15:53:34.951Z"
     }
   ],
   "skipped": [
@@ -4509,6 +4500,21 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-05-31T22:55:43.179Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO confirms Division 296 tax calculation details and indexed thresholds",
+      "description": "The ATO official page confirms that Division 296 tax applies 15% on the proportion of earnings relating to Total Superannuation Balance (TSB) that exceeds the Lower Superannuation Balance (LSBT), commencing 1 July 2026. Provides technical details on calculation methodology.",
+      "suggestion": "Add confirmed ATO technical details: Division 296 imposes 15% tax on earnings above the indexed $3m threshold, calculated based on Total Superannuation Balance. Legislation enacted March 2026 commences 1 July 2026.",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260528-832",
+      "timestamp": "2026-05-28T17:32:16.402Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-01T15:51:54.541Z"
     }
   ],
   "needs_manual_review": [

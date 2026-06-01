@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T09:21:25.859Z",
+  "lastUpdated": "2026-06-01T15:53:34.948Z",
   "items": [
     {
       "id": "update-001",
@@ -769,6 +769,46 @@
       "title": "ABC analysis: CGT changes could drive investment shift from property to shares",
       "summary": "The ABC reports that capital gains tax changes announced in the budget may cause investors to shift portfolio allocation away from residential property investment towards share market investments. This potential redirection could reshape residential property demand dynamics, with implications for both housing markets and share market activity.",
       "url": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "priority": "medium"
+    },
+    {
+      "id": "update-077",
+      "date": "2026-05-12",
+      "tag": "Property",
+      "source": "ABC News",
+      "title": "ABC analysis: CGT changes could drive investment shift from property to shares",
+      "summary": "Replacing the flat 50% CGT discount with inflation-aligned indexation and a minimum 30% tax on real gains from July 2027 may shift investor behaviour from property towards shares and ETFs. The analysis examines how these capital gains tax reforms could redirect investment away from residential property. Property investors may face increased tax burdens compared to those investing in shares and ETFs under the new regime.",
+      "url": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "priority": "high"
+    },
+    {
+      "id": "update-078",
+      "date": "2026-06-01",
+      "tag": "Budget",
+      "source": "NAB",
+      "title": "50% CGT discount replaced by cost base indexation",
+      "summary": "The 50% CGT discount is being replaced by cost base indexation as part of the biggest personal tax changes in decades. Individual and investment taxpayers should review asset holding periods to understand the implications for their tax positions. This fundamental shift in capital gains taxation affects how gains are calculated for assets held beyond 12 months.",
+      "url": "https://business.nab.com.au/tag/federal-budget/2026-federal-budget--what-it-means-for-individuals",
+      "priority": "high"
+    },
+    {
+      "id": "update-079",
+      "date": "2026-06-01",
+      "tag": "Property",
+      "source": "NAB",
+      "title": "NAB revises housing forecast: brief correction not prolonged slump",
+      "summary": "NAB has revised its housing price forecast following the 2026 Budget, predicting a brief correction rather than a prolonged slump. The bank's updated outlook suggests that proposed changes to negative gearing and capital gains tax will have a limited impact on property values. The revised forecast indicates market stability is expected to return relatively quickly despite initial headwinds from policy changes.",
+      "url": "https://business.nab.com.au/tag/federal-budget/2026-federal-budget--what-it-means-for-individuals",
+      "priority": "high"
+    },
+    {
+      "id": "update-080",
+      "date": "2026-06-01",
+      "tag": "Budget",
+      "source": "KPMG Federal Budget 2026/2027 analysis",
+      "title": "Budget allocates $47.5 million for CGT reform implementation",
+      "summary": "The government will provide $47.5 million over four years from 2026–27, along with $3.9 million per year on an ongoing basis, to the Treasury and the Australian Taxation Office (ATO) to implement the CGT reform changes. This funding will support the administrative and technical requirements necessary for implementing the proposed capital gains tax reforms. The investment reflects the complexity of implementing significant CGT policy changes across the tax system.",
+      "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
       "priority": "medium"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T23:24:23.846Z",
+  "lastUpdated": "2026-06-02T08:24:37.223Z",
   "items": [
     {
       "id": "update-001",
@@ -893,6 +893,59 @@
       "title": "ASA calls for capital gains averaging alongside indexation to address 'income bunching'",
       "summary": "The Australian Shareholders Association has welcomed the government's move to index capital gains tax but warns it does not fully address income bunching, where investors may realise decades of gains in a single tax year. The ASA is calling for any CGT reform to incorporate a modern averaging mechanism alongside indexation, arguing this would provide fairer treatment for long-term investors. The group also expressed concern about the lack of proper consultation before such significant changes were announced.",
       "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "priority": "medium"
+    },
+    {
+      "id": "update-089",
+      "date": "2026-06-02",
+      "tag": "Superannuation",
+      "source": "Australian Taxation Office",
+      "title": "Division 296: ATO confirms indexed thresholds for Better Targeted Super Concessions",
+      "summary": "The ATO has confirmed that the Better Targeted Super Concessions legislation (Division 296) will commence on 1 July 2026 with indexed thresholds. The $3 million total superannuation balance threshold will be indexed to CPI annually, ensuring the tax only impacts those with substantial superannuation balances. SMSF members approaching the threshold should review their contribution strategies and account structures before the changes take effect.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-090",
+      "date": "2026-06-02",
+      "tag": "Superannuation",
+      "source": "Australian Taxation Office",
+      "title": "CGT relief confirmed for SMSFs affected by Division 296 tax changes",
+      "summary": "The ATO has outlined the Capital Gains Tax (CGT) relief available for SMSFs affected by the Division 296 tax on superannuation balances exceeding $3 million. Affected funds can choose to reset the cost base of certain assets and trigger a CGT event before 1 July 2026 to manage their exposure to the new tax. Trustees should seek professional advice to determine whether exercising this relief is appropriate for their circumstances.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-091",
+      "date": "2026-06-02",
+      "tag": "Budget",
+      "source": "KPMG",
+      "title": "KPMG confirms $47.5m implementation funding for CGT and negative gearing reforms",
+      "summary": "KPMG has confirmed the Federal Budget 2026/27 allocates $47.5 million over four years from 2026-27 (and $3.9 million per year ongoing) to Treasury and ATO for implementation of CGT reform and negative gearing changes. This funding will support the administrative requirements and systems updates needed to operationalise the proposed property tax reforms. The investment represents the government's commitment to implementing these significant housing tax policy changes.",
+      "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "priority": "high"
+    },
+    {
+      "id": "update-092",
+      "date": "2026-05-12",
+      "tag": "Budget",
+      "source": "ABC News",
+      "title": "Working Australians Tax Offset: $250 annual relief confirmed for low-to-middle income workers",
+      "summary": "The 2026 Budget introduces a new Working Australians Tax Offset providing $250 annual relief for low-to-middle income workers. This measure forms part of the government's broader tax reform package alongside changes to capital gains tax and negative gearing policies. Eligible workers will receive the offset when lodging their tax returns, with the relief designed to assist those earning above the tax-free threshold but below higher income brackets.",
+      "url": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966",
+      "priority": "high"
+    },
+    {
+      "id": "update-093",
+      "date": "2026-06-02",
+      "tag": [
+        "ASX",
+        "Budget"
+      ],
+      "source": "ASX",
+      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for ETF and Listed Investment Vehicle investors",
+      "summary": "The ASX published investor-focused analysis explaining how the Capital Gains Tax changes affect different investor types differently. The analysis highlights that exchange-traded funds and listed investment vehicles now face a different tax treatment compared to direct share investors, creating what the ASX describes as a 'two-speed' tax environment under the reform package. Investors holding ETFs and listed vehicles should review their portfolio tax positions in light of these differential treatment implications.",
+      "url": "https://www.asx.com.au/company-announcements",
       "priority": "medium"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T11:57:49.661Z",
+  "lastUpdated": "2026-06-02T13:57:47.173Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3022,18 +3022,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ABC Budget 2026: Winners and losers — $6.4 billion housing measure cost confirmed",
-      "description": "ABC News analysis confirms the housing measures cost $6.4 billion over four years and notes the $1,000 instant tax deduction for work-related expenses as announced in the lead-up to the 2025 election.",
-      "suggestion": "Add to budget-updates.json: ABC Budget 2026 Winners and Losers analysis confirms $6.4 billion cost over four years for housing measures; $1,000 instant tax deduction for work-related expenses confirmed",
-      "source": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260601-494",
-      "timestamp": "2026-06-01T06:46:57.501Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Will the 50% CGT discount be repealed or preserved with a choice of indexation?",
@@ -3142,42 +3130,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Trust tax treatment reform details confirmed — Government signals shift from income to asset taxation",
-      "description": "The Government has confirmed plans to reform trust tax treatment, shifting the burden from taxing income to taxing assets. Treasury analysis indicates the reform is part of a broader rebalancing of the tax system.",
-      "suggestion": "Add to budget-updates.json: Trust tax treatment reform details confirmed — Government signals shift from income to asset taxation",
-      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260601-623",
-      "timestamp": "2026-06-01T19:16:55.677Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Venture capital tax incentives expansion confirmed from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget 2026 confirms expansion of venture capital tax incentives from 1 July 2027 as part of broader innovation and investment support measures in the budget package.",
-      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expansion confirmed from July 2027",
-      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260601-346",
-      "timestamp": "2026-06-01T19:16:55.677Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis details CGT reform impact on ETF and Listed Investment Vehicle investors",
-      "description": "ASX Investor Update examines how proposed CGT changes affect exchange-traded funds and Listed Investment Vehicles, creating 'two-speed' tax treatment for different investor types in the share market.",
-      "suggestion": "Add to budget-updates.json: ASX analysis details CGT reform impact on ETF and Listed Investment Vehicle investors",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260601-159",
-      "timestamp": "2026-06-01T19:16:55.677Z",
-      "status": "pending"
-    },
-    {
       "type": "fact_check",
       "priority": "medium",
       "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
@@ -3212,18 +3164,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ABC Analysis: CGT changes could drive investment shift from property to shares",
-      "description": "The ABC examines how the replacement of the flat 50% CGT discount with inflation indexation and a minimum 30% tax rate could redirect investment away from residential property toward shares and equities, potentially affecting housing demand and share market investment patterns.",
-      "suggestion": "Add to budget-updates.json: ABC News analysis examines how capital gains tax changes may drive investment shift from property to shares — the current flat 50% discount being replaced with indexation aligned to inflation, with a minimum tax rate of 30% applying to real capital gains from July 2027.",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260601-945",
-      "timestamp": "2026-06-01T22:30:25.717Z",
-      "status": "pending"
     },
     {
       "type": "content_update",
@@ -4557,6 +4497,45 @@
       "timestamp": "2026-06-01T06:46:57.501Z",
       "status": "implemented",
       "implemented_at": "2026-06-02T08:24:37.225Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ABC Budget 2026: Winners and losers — $6.4 billion housing measure cost confirmed",
+      "description": "ABC News analysis confirms the housing measures cost $6.4 billion over four years and notes the $1,000 instant tax deduction for work-related expenses as announced in the lead-up to the 2025 election.",
+      "suggestion": "Add to budget-updates.json: ABC Budget 2026 Winners and Losers analysis confirms $6.4 billion cost over four years for housing measures; $1,000 instant tax deduction for work-related expenses confirmed",
+      "source": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260601-494",
+      "timestamp": "2026-06-01T06:46:57.501Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-02T13:56:49.166Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Venture capital tax incentives expansion confirmed from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget 2026 confirms expansion of venture capital tax incentives from 1 July 2027 as part of broader innovation and investment support measures in the budget package.",
+      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expansion confirmed from July 2027",
+      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260601-346",
+      "timestamp": "2026-06-01T19:16:55.677Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-02T13:57:10.586Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis details CGT reform impact on ETF and Listed Investment Vehicle investors",
+      "description": "ASX Investor Update examines how proposed CGT changes affect exchange-traded funds and Listed Investment Vehicles, creating 'two-speed' tax treatment for different investor types in the share market.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details CGT reform impact on ETF and Listed Investment Vehicle investors",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260601-159",
+      "timestamp": "2026-06-01T19:16:55.677Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-02T13:57:35.405Z"
     }
   ],
   "skipped": [
@@ -4862,6 +4841,34 @@
       "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-02T08:23:03.639Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Trust tax treatment reform details confirmed — Government signals shift from income to asset taxation",
+      "description": "The Government has confirmed plans to reform trust tax treatment, shifting the burden from taxing income to taxing assets. Treasury analysis indicates the reform is part of a broader rebalancing of the tax system.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform details confirmed — Government signals shift from income to asset taxation",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260601-623",
+      "timestamp": "2026-06-01T19:16:55.677Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-02T13:57:00.111Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ABC Analysis: CGT changes could drive investment shift from property to shares",
+      "description": "The ABC examines how the replacement of the flat 50% CGT discount with inflation indexation and a minimum 30% tax rate could redirect investment away from residential property toward shares and equities, potentially affecting housing demand and share market investment patterns.",
+      "suggestion": "Add to budget-updates.json: ABC News analysis examines how capital gains tax changes may drive investment shift from property to shares — the current flat 50% discount being replaced with indexation aligned to inflation, with a minimum tax rate of 30% applying to real capital gains from July 2027.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260601-945",
+      "timestamp": "2026-06-01T22:30:25.717Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-02T13:57:47.173Z"
     }
   ],
   "needs_manual_review": [

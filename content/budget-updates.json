@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T08:24:37.223Z",
+  "lastUpdated": "2026-06-02T13:57:13.134Z",
   "items": [
     {
       "id": "update-001",
@@ -946,6 +946,36 @@
       "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for ETF and Listed Investment Vehicle investors",
       "summary": "The ASX published investor-focused analysis explaining how the Capital Gains Tax changes affect different investor types differently. The analysis highlights that exchange-traded funds and listed investment vehicles now face a different tax treatment compared to direct share investors, creating what the ASX describes as a 'two-speed' tax environment under the reform package. Investors holding ETFs and listed vehicles should review their portfolio tax positions in light of these differential treatment implications.",
       "url": "https://www.asx.com.au/company-announcements",
+      "priority": "medium"
+    },
+    {
+      "id": "update-094",
+      "date": "2026-05-12",
+      "tag": "Budget",
+      "source": "ABC News",
+      "title": "ABC Budget 2026: Winners and losers — $6.4 billion housing measure cost confirmed",
+      "summary": "ABC News analysis confirms the housing measures announced in Budget 2026 cost $6.4 billion over four years. The report also notes the $1,000 instant tax deduction for work-related expenses as confirmed from pre-election announcements. The analysis provides a comprehensive breakdown of which Australians benefit most from the government's spending priorities.",
+      "url": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966",
+      "priority": "high"
+    },
+    {
+      "id": "update-095",
+      "date": "2026-05-13",
+      "tag": "Budget",
+      "source": "Pitcher Partners",
+      "title": "Venture capital tax incentives expansion confirmed from July 2027",
+      "summary": "Budget 2026 has confirmed the expansion of venture capital tax incentives from 1 July 2027 as part of broader innovation and investment support measures. The expansion aims to strengthen Australia's venture capital sector and encourage more private investment in early-stage companies. This measure builds on previous government initiatives to support startup growth and economic diversification.",
+      "url": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "priority": "high"
+    },
+    {
+      "id": "update-096",
+      "date": "2026-06-02",
+      "tag": "ASX",
+      "source": "ASX",
+      "title": "ASX analysis details CGT reform impact on ETF and Listed Investment Vehicle investors",
+      "summary": "The ASX Investor Update examines how proposed capital gains tax changes create a 'two-speed' tax treatment for Australian share market investors. Exchange-traded funds and Listed Investment Vehicles face different tax outcomes compared to direct share ownership under the proposed reforms. Investors holding these structures should review how the changes affect their portfolio strategy and tax position.",
+      "url": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
       "priority": "medium"
     }
   ]

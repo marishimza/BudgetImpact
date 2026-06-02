@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T19:39:05.245Z",
+  "lastUpdated": "2026-06-02T22:17:12.229Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3455,6 +3455,104 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ASX analysis: Investor on 16% marginal rate faces 8% vs 30% tax on gains under CGT reform",
+      "description": "Specific example showing impact on low-rate retirees: long-held equity portfolio currently taxed at 8% nominal rate versus 30% on indexed gains under new rules. Contrasts effective tax rates for different investor scenarios.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details specific tax rate comparison for retired investor scenario — 16% marginal rate faces 8% current tax on nominal gains versus 30% on indexed gains under proposed CGT changes",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260602-695",
+      "timestamp": "2026-06-02T22:17:05.060Z",
+      "status": "pending",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Budget confirms trust tax treatment reform as core part of asset taxation shift",
+      "description": "Budget.gov.au explicitly lists trust tax changes alongside CGT and negative gearing as part of plan to 'rebalance the system, away from taxing incomes and more towards taxing assets'. More specific than earlier 'flagged' coverage.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform confirmed as core component of Budget 2026 tax reform package alongside CGT and negative gearing changes",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260602-572",
+      "timestamp": "2026-06-02T22:17:05.060Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-08/trust-reform-complicated-and-may-not-raise-much-money/106654470"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis: Inflation accounted for 56% of ASX 200 share gains over decade",
+      "description": "ABC cites Treasury and ABS data showing inflation comprised majority of asset price growth, providing quantitative basis for indexation reform. Specific timeframe: 10 years to March 2026.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis quantifies inflation impact on ASX 200 share gains — 56% of total returns over 10 years to March 2026",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260602-521",
+      "timestamp": "2026-06-02T22:17:05.060Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Does the CGT minimum 30% floor apply to all gains or only gains above inflation?",
+      "description": "The 2026 Budget introduces a minimum 30% tax rate on capital gains, but credible sources disagree on whether this floor applies to ALL capital gains or only to gains above inflation. This is a factual conflict about the mechanics of the policy with significant implications for investors.",
+      "suggestion": "Add to debates.json: View A from budget.gov.au fact sheets shows examples where the 50% CGT discount still applies (e.g., property sold two years after policy commences), suggesting the minimum only kicks in when discount would result in less than 30%. View B from multiple analysis sources state capital gains will face 'minimum 30% tax on ALL gains', implying a blanket floor regardless of inflation.",
+      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260602-810",
+      "timestamp": "2026-06-02T22:17:05.060Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative deliver 65,000 additional homes?",
+      "description": "The Government claims its $2 billion infrastructure initiative will enable around 65,000 additional homes. However, this is a forward-looking projection without independent verification, and credible sources may differ on whether this target is realistic or adequately supported.",
+      "suggestion": "Add to debates.json: View A from REIA President Jacob Caine (apimagazine.com.au) states the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes' as a positive step. View B from skeptical analysis points out this is a government projection without independent modelling to verify the 65,000 figure is achievable.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260602-825",
+      "timestamp": "2026-06-02T22:17:05.060Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "description": "This specific statistic appears in ABC News citing budget Treasury data. However, the methodology for calculating what portion of asset price growth is attributable to inflation could be contested. The 56% figure relates to shares held for 10 years to March 2026 - the time period matters significantly for verification.",
+      "suggestion": "Add to fact-checks.json: claim is '56% of ASX 200 share gains over 10 years to March 2026 were attributable to inflation per Treasury analysis', verdict is unverifiable_without_methodology because the calculation method and underlying data assumptions are not fully disclosed in budget papers",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-property-shares-budget/2026-05-13",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260602-996",
+      "timestamp": "2026-06-02T22:17:05.060Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The official budget.gov.au states 'minimum 30% tax on gains' but this is frequently reported as applying to ALL capital gains. However, the mechanism involves inflation indexation of cost basis first - meaning real gains (above inflation) may be treated differently than nominal gains. The 30% floor may only apply to indexed gains, not the nominal gain amount.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax applies to ALL capital gains', verdict is partially_misleading because the minimum 30% rate applies to indexed gains (after inflation adjustment), not necessarily to the full nominal gain amount before indexation",
+      "source": "https://www.budget.gov.au/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260602-459",
+      "timestamp": "2026-06-02T22:17:05.060Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260602-543",
+      "timestamp": "2026-06-02T22:17:05.060Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
     }
   ],
   "implemented": [
@@ -4976,20 +5074,6 @@
     }
   ],
   "needs_manual_review": [
-    {
-      "type": "debate_page",
-      "priority": "high",
-      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
-      "description": "Real estate industry bodies warn that making property investment less attractive will shrink rental supply, while government and economists argue the changes will redirect investment toward new housing construction, ultimately increasing supply. This is a core factual disagreement about how tax policy affects housing market outcomes.",
-      "suggestion": "Add to debates.json: REIA and Property Council of Australia from [slateandsage.com.au] warn reducing investor attractiveness could 'reduce rental supply over time'; Government from [budget.gov.au] claims changes will 'focus tax support on new supply'; CommBank from [commbank.com.au] says changes 'reduce investor demand for existing housing stock while preserving tax support for new supply'",
-      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260526-336",
-      "timestamp": "2026-05-26T21:28:40.512Z",
-      "status": "needs_manual_review",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "status_reason": "Item count shrank from 8 to 4 in content/debates.json"
-    },
     {
       "id": "health-1780341426700-fbqk",
       "timestamp": "2026-06-01T19:17:06.700Z",

@@ -1414,6 +1414,20 @@
       "status": "needs_manual_review",
       "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "status_reason": "Item count shrank from 10 to 6 in content/fact-checks.json"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
+      "description": "Real estate industry bodies warn that making property investment less attractive will shrink rental supply, while government and economists argue the changes will redirect investment toward new housing construction, ultimately increasing supply. This is a core factual disagreement about how tax policy affects housing market outcomes.",
+      "suggestion": "Add to debates.json: REIA and Property Council of Australia from [slateandsage.com.au] warn reducing investor attractiveness could 'reduce rental supply over time'; Government from [budget.gov.au] claims changes will 'focus tax support on new supply'; CommBank from [commbank.com.au] says changes 'reduce investor demand for existing housing stock while preserving tax support for new supply'",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260526-336",
+      "timestamp": "2026-05-26T21:28:40.512Z",
+      "status": "needs_manual_review",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "status_reason": "Item count shrank from 8 to 4 in content/debates.json"
     }
   ]
 }

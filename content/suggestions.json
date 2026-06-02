@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T18:00:43.857Z",
+  "lastUpdated": "2026-06-02T19:39:05.245Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3166,31 +3166,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for different investor types",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The ASX examines how the CGT reform package creates differential outcomes for different investor categories — those holding assets through ETFs and Listed Investment Vehicles face different treatment compared to direct asset holders, with the new minimum 30% floor affecting investors unevenly based on their tax position.",
-      "suggestion": "Add to budget-updates.json: ASX analysis reveals CGT reform creates 'two-speed' tax treatment for different investor types — with ETF and Listed Investment Vehicle investors facing specific implications from the minimum 30% capital gains tax rate applying from July 2027.",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260601-268",
-      "timestamp": "2026-06-01T22:30:25.717Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Trust tax treatment reform details confirmed — Government signals shift from income to asset taxation",
-      "description": "The Government has confirmed plans to reform trust tax treatment as part of broader reforms to shift the taxation burden from income to assets. Treasurer Jim Chalmers indicated the plan will 'rebalance the system' away from taxing incomes and more toward taxing assets, with trust taxation changes flagged alongside CGT and negative gearing reforms.",
-      "suggestion": "Add to budget-updates.json: Trust tax treatment reform details confirmed — Government signals plan to shift burden from income to assets alongside CGT and negative gearing changes.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260601-606",
-      "timestamp": "2026-06-01T22:30:25.717Z",
-      "status": "pending",
-      "corroborated_by": "https://www.smh.com.au/politics/federal/how-this-budget-will-change-your-taxes-limiting-negative-gearing-cgt-and-new-taxes-on-trusts-20260508-p5zv1j.html"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
@@ -3249,18 +3224,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for different investor types",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ASX investor update details how CGT changes affect ETFs, Listed Investment Vehicles, and direct share investors differently. New builds remain fully exempt from negative gearing restrictions.",
-      "suggestion": "Add to budget-updates.json: ASX analysis details 'two-speed' CGT treatment for ETF and LIV investors under reform package",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260602-217",
-      "timestamp": "2026-06-02T06:29:20.489Z",
-      "status": "pending"
     },
     {
       "type": "content_update",
@@ -3480,32 +3443,6 @@
       "id": "suggestion-20260602-809",
       "timestamp": "2026-06-02T18:00:38.585Z",
       "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: Division 296 imposes a '15% tax on ALL superannuation balances exceeding $3 million'",
-      "description": "Multiple sources claim Division 296 imposes 15% tax on super balances over $3m. However, the ATO source states the tax is '15% on the proportion of earnings relating to your TSB that exceeds the LSBT' — meaning the 15% applies to EARNINGS (not the entire balance) above the threshold. This is a significant distinction: a person with a $4m balance wouldn't pay 15% on $4m, only on the earnings portion attributable to amounts above $3m. This is a common oversimplification that misrepresents the tax mechanism.",
-      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is partially_true because Division 296 applies 15% tax to the earnings on the amount exceeding the threshold ($3m), not to the entire balance. The tax is on earnings, not the principal balance.",
-      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260602-858",
-      "timestamp": "2026-06-02T18:00:38.585Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: Capital gains will face a 'minimum 30% tax rate on ALL gains' from July 2027",
-      "description": "This claim appears frequently but the ASX analysis presents a different picture. The ASX states 'a retired investor on a 16% marginal rate selling a long-held equity portfolio currently faces 8% tax on nominal gains, as opposed to 30% on indexed gains under announced changes.' The Budget.gov.au states a 'minimum 30% tax on gains' combined with inflation indexation. This suggests the 30% minimum only applies to real gains (above inflation), not nominal gains. The phrasing 'ALL gains' may overstate the tax impact.",
-      "suggestion": "Add to fact-checks.json: claim is '30% tax on ALL capital gains from July 2027', verdict is partially_true because the 30% minimum rate applies to real gains after indexation, not nominal gains. An investor in the 16% marginal rate bracket could still face approximately 8% effective tax on nominal gains under the indexed cost base method.",
-      "source": "https://www.asx.com.au/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260602-801",
-      "timestamp": "2026-06-02T18:00:38.585Z",
-      "status": "pending",
-      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
     },
     {
       "id": "suggestion-20260602-238",
@@ -4634,6 +4571,61 @@
       "timestamp": "2026-06-01T19:16:55.677Z",
       "status": "implemented",
       "implemented_at": "2026-06-02T13:57:35.405Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Division 296 imposes a '15% tax on ALL superannuation balances exceeding $3 million'",
+      "description": "Multiple sources claim Division 296 imposes 15% tax on super balances over $3m. However, the ATO source states the tax is '15% on the proportion of earnings relating to your TSB that exceeds the LSBT' — meaning the 15% applies to EARNINGS (not the entire balance) above the threshold. This is a significant distinction: a person with a $4m balance wouldn't pay 15% on $4m, only on the earnings portion attributable to amounts above $3m. This is a common oversimplification that misrepresents the tax mechanism.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is partially_true because Division 296 applies 15% tax to the earnings on the amount exceeding the threshold ($3m), not to the entire balance. The tax is on earnings, not the principal balance.",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260602-858",
+      "timestamp": "2026-06-02T18:00:38.585Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-06-02T19:38:11.120Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Capital gains will face a 'minimum 30% tax rate on ALL gains' from July 2027",
+      "description": "This claim appears frequently but the ASX analysis presents a different picture. The ASX states 'a retired investor on a 16% marginal rate selling a long-held equity portfolio currently faces 8% tax on nominal gains, as opposed to 30% on indexed gains under announced changes.' The Budget.gov.au states a 'minimum 30% tax on gains' combined with inflation indexation. This suggests the 30% minimum only applies to real gains (above inflation), not nominal gains. The phrasing 'ALL gains' may overstate the tax impact.",
+      "suggestion": "Add to fact-checks.json: claim is '30% tax on ALL capital gains from July 2027', verdict is partially_true because the 30% minimum rate applies to real gains after indexation, not nominal gains. An investor in the 16% marginal rate bracket could still face approximately 8% effective tax on nominal gains under the indexed cost base method.",
+      "source": "https://www.asx.com.au/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260602-801",
+      "timestamp": "2026-06-02T18:00:38.585Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implemented_at": "2026-06-02T19:38:26.180Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for different investor types",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The ASX examines how the CGT reform package creates differential outcomes for different investor categories — those holding assets through ETFs and Listed Investment Vehicles face different treatment compared to direct asset holders, with the new minimum 30% floor affecting investors unevenly based on their tax position.",
+      "suggestion": "Add to budget-updates.json: ASX analysis reveals CGT reform creates 'two-speed' tax treatment for different investor types — with ETF and Listed Investment Vehicle investors facing specific implications from the minimum 30% capital gains tax rate applying from July 2027.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260601-268",
+      "timestamp": "2026-06-01T22:30:25.717Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-02T19:38:39.669Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Trust tax treatment reform details confirmed — Government signals shift from income to asset taxation",
+      "description": "The Government has confirmed plans to reform trust tax treatment as part of broader reforms to shift the taxation burden from income to assets. Treasurer Jim Chalmers indicated the plan will 'rebalance the system' away from taxing incomes and more toward taxing assets, with trust taxation changes flagged alongside CGT and negative gearing reforms.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform details confirmed — Government signals plan to shift burden from income to assets alongside CGT and negative gearing changes.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260601-606",
+      "timestamp": "2026-06-01T22:30:25.717Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.smh.com.au/politics/federal/how-this-budget-will-change-your-taxes-limiting-negative-gearing-cgt-and-new-taxes-on-trusts-20260508-p5zv1j.html",
+      "implemented_at": "2026-06-02T19:39:01.530Z"
     }
   ],
   "skipped": [
@@ -4967,6 +4959,20 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-02T13:57:47.173Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for different investor types",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ASX investor update details how CGT changes affect ETFs, Listed Investment Vehicles, and direct share investors differently. New builds remain fully exempt from negative gearing restrictions.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details 'two-speed' CGT treatment for ETF and LIV investors under reform package",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260602-217",
+      "timestamp": "2026-06-02T06:29:20.489Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-02T19:39:05.245Z"
     }
   ],
   "needs_manual_review": [

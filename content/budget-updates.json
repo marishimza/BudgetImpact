@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T13:57:13.134Z",
+  "lastUpdated": "2026-06-02T19:39:01.527Z",
   "items": [
     {
       "id": "update-001",
@@ -977,6 +977,16 @@
       "summary": "The ASX Investor Update examines how proposed capital gains tax changes create a 'two-speed' tax treatment for Australian share market investors. Exchange-traded funds and Listed Investment Vehicles face different tax outcomes compared to direct share ownership under the proposed reforms. Investors holding these structures should review how the changes affect their portfolio strategy and tax position.",
       "url": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
       "priority": "medium"
+    },
+    {
+      "id": "update-097",
+      "date": "2026-05-12",
+      "tag": "Budget",
+      "source": "The Guardian",
+      "title": "Trust tax treatment reform details confirmed — Government signals shift from income to asset taxation",
+      "summary": "The Government has confirmed plans to reform trust tax treatment as part of broader reforms to shift the taxation burden from income to assets. Treasurer Jim Chalmers indicated the plan will 'rebalance the system' away from taxing incomes and more toward taxing assets, with trust taxation changes flagged alongside CGT and negative gearing reforms. This represents a significant policy shift in the federal budget approach to taxation.",
+      "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-budget-2026-trust-tax-reform-asset-testing",
+      "priority": "high"
     }
   ]
 }

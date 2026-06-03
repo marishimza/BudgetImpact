@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T06:42:26.422Z",
+  "lastUpdated": "2026-06-03T23:29:05.039Z",
   "debates": [
     {
       "id": "debate-001",
@@ -304,6 +304,31 @@
         "argument": "The government designed the measure to 'focus tax support on new supply', arguing that limiting negative gearing to newly constructed properties will increase housing stock. By directing tax incentives toward new construction rather than existing properties, the policy aims to expand the overall number of dwellings available in the rental market.",
         "sources": [
           "https://www.budget.gov.au"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-013",
+      "slug": "cgt-minimum-30-percent-floor-all-gains-vs-inflation-adjusted",
+      "title": "Does CGT minimum 30% floor apply to all gains or only gains above inflation?",
+      "category": "tax",
+      "type": "interpretation_difference",
+      "summary": "The 2026 budget introduced a 30% minimum tax rate on capital gains exceeding $1. However, there is conflicting interpretation about whether this floor applies to all nominal gains, or only to gains above the inflation rate (effectively requiring indexation of the cost base). This distinction significantly impacts the tax burden on long-held assets.",
+      "view_a": {
+        "label": "Applies to all nominal gains",
+        "argument": "The 30% minimum tax rate applies to the full nominal capital gain, regardless of inflation. Any gain above $1 is subject to at least 30% tax, meaning that in high-inflation periods, real gains could be significantly eroded by the minimum floor even if the real return is negative or minimal after accounting for inflation.",
+        "sources": [
+          "ABC News: Describes the measure as a 'minimum 30% tax rate' without mentioning inflation adjustment",
+          "Budget.gov.au: Outlines the 30% floor applying to net capital gains above the $1 threshold"
+        ]
+      },
+      "view_b": {
+        "label": "Applies only to inflation-adjusted gains",
+        "argument": "The 30% minimum floor applies only to real gains after adjusting for inflation, effectively requiring cost base indexation. Gains below inflation are taxed at a lower rate or potentially not subject to the minimum floor, protecting genuine economic returns rather than nominal windfalls.",
+        "sources": [
+          "Baker McKenzie analysis: Describes the floor as applying to inflation-adjusted gains",
+          "Other tax commentators: Interpret the legislation as including indexation provisions"
         ]
       },
       "verdict": null

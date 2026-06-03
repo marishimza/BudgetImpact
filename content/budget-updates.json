@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T14:28:43.562Z",
+  "lastUpdated": "2026-06-03T23:29:48.781Z",
   "items": [
     {
       "id": "update-001",
@@ -1107,6 +1107,16 @@
       "summary": "The ATO has confirmed that Division 296 (Better Targeted Super Concessions) legislation has been enacted and will apply from 1 July 2026. The new law introduces a 15% tax on superannuation earnings relating to total superannuation balances exceeding the $3 million low-balance threshold. Individuals affected should review their SMSF investment strategies and retirement planning in light of this change.",
       "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "priority": "high"
+    },
+    {
+      "id": "update-110",
+      "date": "2026-06-03",
+      "tag": "Superannuation",
+      "source": "BDO Australia",
+      "title": "SMSFs confirmed exempt — retain one-third CGT discount under new indexation-based rules",
+      "summary": "Self-managed superannuation funds (SMSFs) with property assets will retain the one-third CGT discount under the new Division 296 regime commencing 1 July 2027. This distinguishes SMSFs from standard individual investors who face transition from the existing 50% discount to inflation-adjusted cost base calculations. SMSF trustees should continue applying the one-third discount when calculating capital gains for assets disposed after the commencement date.",
+      "url": "https://www.bdo.com.au/en-au/insights/superannuation/understanding-the-new-division-296-superannuation-tax-changes",
+      "priority": "medium"
     }
   ]
 }

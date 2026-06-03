@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T14:28:43.564Z",
+  "lastUpdated": "2026-06-03T18:17:40.901Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3536,23 +3536,106 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
+    },
     {
       "type": "content_update",
       "priority": "high",
-      "title": "Pre-budget announcement: Trust tax treatment reform flagged as Government signals shift from income to asset taxation",
-      "description": "The Government has indicated plans to reform trust tax treatment, shifting burden from income to assets. The Treasurer stated the plan will rebalance the system away from taxing incomes and more towards taxing assets. This reform forms part of the broader tax reform announced in Budget 2026-27 alongside CGT changes and negative gearing restrictions.",
-      "suggestion": "Add to budget-updates.json: Pre-budget announcement: Trust tax treatment reform flagged as Government signals shift from income to asset taxation",
+      "title": "Trust tax treatment reform confirmed as core component of asset taxation shift",
+      "description": "The Budget confirms the Government will reform tax treatment of trusts, signalling a deliberate shift from taxing income to taxing assets. The reform is part of a broader package including CGT and negative gearing changes.",
+      "suggestion": "Add to budget-updates.json: Budget confirms trust tax treatment reform as core part of asset taxation shift — Government signals plan to shift burden from income to assets alongside CGT and negative gearing changes",
       "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260526-305",
-      "timestamp": "2026-05-26T06:00:16.769Z",
-      "status": "implemented",
-      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implemented_at": "2026-05-27T12:52:50.463Z"
+      "id": "suggestion-20260603-120",
+      "timestamp": "2026-06-03T18:17:27.522Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-08/trust-reform-complicated-and-may-not-raise-much-money/106654470"
     },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "SMSFs retain one-third CGT discount under new rules — confirmed",
+      "description": "Self-managed superannuation funds with property assets will retain a one-third CGT discount under the new CGT regime from 1 July 2027, distinguishing them from standard individual investors who face indexation-based calculation changes.",
+      "suggestion": "Add to budget-updates.json: SMSFs confirmed exempt — retain one-third CGT discount under new indexation-based rules while other investors transition from 50% discount to inflation-adjusted cost base",
+      "source": "https://www.bdo.com.au/en-au/insights/superannuation/understanding-the-new-division-296-superannuation-tax-changes",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260603-854",
+      "timestamp": "2026-06-03T18:17:27.522Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Venture capital tax incentives expanded from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Budget confirms expansion of venture capital tax incentives effective 1 July 2027, extending tax benefits for venture capital investments as part of broader innovation and investment policy reforms.",
+      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expansion confirmed from July 2027 — Budget measure extends tax incentives for venture capital investments",
+      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260603-325",
+      "timestamp": "2026-06-03T18:17:27.522Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "REIA President Jacob Caine (API Magazine) calls the 65,000 homes projection a 'positive and necessary step' toward addressing housing shortage. However, no independent verification or critique of this figure appears in the results. The claim may be optimistic given infrastructure-to-housing delivery challenges.",
+      "suggestion": "Add to debates.json: API Magazine cites REIA President Jacob Caine claiming $2B infrastructure initiative 'expected to enable around 65,000 additional homes' as positive; however, no credible source directly verifies this projection or offers alternative estimates.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260603-513",
+      "timestamp": "2026-06-03T18:17:27.522Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Broken promise vs legitimate policy evolution: How should negative gearing reform be characterized?",
+      "description": "ABC News explicitly frames the changes as the government 'breaking promise' by calculating popularity versus trust damage. Coalition (Guardian) calls changes 'toxic' and vows repeal. Government source frames same policy as 'tax reform' limiting negative gearing to new builds to 'focus tax support on new supply.' These represent conflicting characterizations rather than factual disputes about the policy itself.",
+      "suggestion": "Add to debates.json: ABC News says government 'breaks promise' and calculated damage to trust; The Guardian quotes Coalition calling changes 'toxic' and vowing repeal; budget.gov.au frames same changes as legitimate 'tax reform' targeting new supply.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260603-127",
+      "timestamp": "2026-06-03T18:17:27.522Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Media coverage often states a flat 30% minimum applies to all capital gains, but budget.gov.au specifies 'a minimum 30% tax on gains' with inflation indexation replacing the 50% discount. The actual tax rate depends on the taxpayer's marginal rate, with indexation determining the taxable gain amount. This oversimplification may mislead people about the actual impact on their personal tax situation.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax rate on ALL capital gains from July 2027', verdict is partially_true because the minimum 30% applies to indexed gains, not necessarily a flat 30% on nominal gains, and actual rates depend on marginal tax rate.",
+      "source": "https://budget.gov.au/2026-27/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260603-645",
+      "timestamp": "2026-06-03T18:17:27.522Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "description": "This ABC News claim cites Treasury and Budget data showing 'inflation made up 56 per cent of asset price growth for ASX 200 shares held for 10 years to March 2026.' This specific statistic could be misrepresented if framed as representing all investments rather than ASX 200 shares specifically, or if the time period is misstated.",
+      "suggestion": "Add to fact-checks.json: claim is '56% of ASX 200 share gains over decade were from inflation', verdict is verified when correctly attributed to ASX 200 shares for 10 years to March 2026 per Treasury data, but becomes misleading if generalized to all assets or different time periods.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-could-shift-investment-property-shares/2026-05-13",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260603-981",
+      "timestamp": "2026-06-03T18:17:27.522Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260603-955",
+      "timestamp": "2026-06-03T18:17:27.522Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "high",
@@ -4885,21 +4968,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: Capital gains will face a new 'minimum 30% tax rate on ALL gains' from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources state this as a blanket rule, but official budget.gov.au says the discount will be 'replaced by an inflation-based discount' with a 'minimum 30% tax on gains'. This phrasing suggests ALL gains face a flat 30% minimum, but the minimum rate may only apply to the gain above inflation-adjusted costs. New builds have exemptions. The actual mechanism appears more nuanced than '30% on ALL gains'.",
-      "suggestion": "Add to fact-checks.json: claim is 'all capital gains face minimum 30% tax', verdict is partially_true because the 30% minimum applies to gains after inflation indexation (net gains), not as a floor rate on gross gains, and new builds have exemptions.",
-      "source": "https://www.budget.gov.au/tax-reform",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260525-382",
-      "timestamp": "2026-05-25T11:43:29.000Z",
-      "status": "skipped",
-      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-05-27T12:53:04.594Z"
-    },
     {
       "type": "fact_check",
       "priority": "medium",

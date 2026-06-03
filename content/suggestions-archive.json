@@ -1428,6 +1428,35 @@
       "status": "needs_manual_review",
       "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
       "status_reason": "Item count shrank from 8 to 4 in content/debates.json"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Pre-budget announcement: Trust tax treatment reform flagged as Government signals shift from income to asset taxation",
+      "description": "The Government has indicated plans to reform trust tax treatment, shifting burden from income to assets. The Treasurer stated the plan will rebalance the system away from taxing incomes and more towards taxing assets. This reform forms part of the broader tax reform announced in Budget 2026-27 alongside CGT changes and negative gearing restrictions.",
+      "suggestion": "Add to budget-updates.json: Pre-budget announcement: Trust tax treatment reform flagged as Government signals shift from income to asset taxation",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260526-305",
+      "timestamp": "2026-05-26T06:00:16.769Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implemented_at": "2026-05-27T12:52:50.463Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Capital gains will face a new 'minimum 30% tax rate on ALL gains' from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources state this as a blanket rule, but official budget.gov.au says the discount will be 'replaced by an inflation-based discount' with a 'minimum 30% tax on gains'. This phrasing suggests ALL gains face a flat 30% minimum, but the minimum rate may only apply to the gain above inflation-adjusted costs. New builds have exemptions. The actual mechanism appears more nuanced than '30% on ALL gains'.",
+      "suggestion": "Add to fact-checks.json: claim is 'all capital gains face minimum 30% tax', verdict is partially_true because the 30% minimum applies to gains after inflation indexation (net gains), not as a floor rate on gross gains, and new builds have exemptions.",
+      "source": "https://www.budget.gov.au/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260525-382",
+      "timestamp": "2026-05-25T11:43:29.000Z",
+      "status": "skipped",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-27T12:53:04.594Z"
     }
   ]
 }

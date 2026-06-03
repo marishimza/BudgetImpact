@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T12:30:28.764Z",
+  "lastUpdated": "2026-06-03T14:28:43.564Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3334,18 +3334,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Division 296 CGT relief provisions for SMSFs confirmed",
-      "description": "The ATO has released detailed guidance on CGT relief provisions available to SMSFs affected by Division 296 tax changes. This relief applies when SMSF members exceed the $3m total superannuation balance threshold and provides relief from double taxation scenarios. Details include indexed thresholds and specific conditions for claiming CGT relief.",
-      "suggestion": "Add to budget-updates.json: Division 296 CGT relief for SMSFs explained — ATO confirms indexed thresholds and conditions",
-      "source": "https://www.bdo.com.au/en-au/insights/superannuation/understanding-the-new-division-296-superannuation-tax-changes",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260602-193",
-      "timestamp": "2026-06-02T18:00:38.585Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Will limiting negative gearing to new builds reduce or increase rental supply?",
@@ -3368,18 +3356,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Treasury analysis: Inflation accounted for 56% of ASX 200 share gains over decade",
-      "description": "ABC cites Treasury and ABS data showing inflation comprised majority of asset price growth, providing quantitative basis for indexation reform. Specific timeframe: 10 years to March 2026.",
-      "suggestion": "Add to budget-updates.json: Treasury analysis quantifies inflation impact on ASX 200 share gains — 56% of total returns over 10 years to March 2026",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260602-521",
-      "timestamp": "2026-06-02T22:17:05.060Z",
-      "status": "pending"
     },
     {
       "type": "debate_page",
@@ -3442,18 +3418,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis quantifies CGT impact on retiree investors under new rules",
-      "description": "ASX analysis provides specific example showing a retired investor on 16% marginal tax rate selling a long-held equity portfolio currently faces only 8% tax on nominal gains, versus the proposed 30% minimum tax on indexed gains under announced changes. This highlights the significant effective tax rate increase for lower-income retirees with substantial investment gains.",
-      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT impact on retiree investors. A retiree on 16% marginal rate faces 8% tax on nominal gains currently, rising to 30% on indexed gains under new rules.",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260603-420",
-      "timestamp": "2026-06-03T06:45:31.424Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Is the CGT discount being replaced by indexation or preserved with a choice?",
@@ -3512,30 +3476,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Budget documents confirm CGT reform will apply from 1 July 2027 with indexed cost base",
-      "description": "The official budget.gov.au tax reform page confirms the 50% CGT discount is being replaced with an inflation-indexed discount and a minimum 30% tax on capital gains, effective 1 July 2027. This is the authoritative source confirming the exact mechanism and timing.",
-      "suggestion": "Add to budget-updates.json: Budget.gov.au confirms the 50% CGT discount will be replaced by a discount based on inflation from 1 July 2027, with a minimum 30% tax applying to capital gains.",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260603-869",
-      "timestamp": "2026-06-03T12:30:24.993Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO confirms Division 296 Better Targeted Super Concessions is law with 15% tax from 1 July 2026",
-      "description": "The ATO has published confirmed details that Division 296 legislation is enacted and will apply from 1 July 2026, introducing a 15% tax on superannuation earnings relating to total superannuation balances exceeding the $3m low-balance superannuation threshold.",
-      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 (Better Targeted Super Concessions) is law — 15% tax applies from 1 July 2026 on earnings above the $3m threshold.",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260603-806",
-      "timestamp": "2026-06-03T12:30:24.993Z",
-      "status": "pending"
     },
     {
       "type": "content_update",
@@ -4890,6 +4830,58 @@
       "timestamp": "2026-06-02T18:00:38.585Z",
       "status": "implemented",
       "implemented_at": "2026-06-03T08:52:31.194Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Division 296 CGT relief provisions for SMSFs confirmed",
+      "description": "The ATO has released detailed guidance on CGT relief provisions available to SMSFs affected by Division 296 tax changes. This relief applies when SMSF members exceed the $3m total superannuation balance threshold and provides relief from double taxation scenarios. Details include indexed thresholds and specific conditions for claiming CGT relief.",
+      "suggestion": "Add to budget-updates.json: Division 296 CGT relief for SMSFs explained — ATO confirms indexed thresholds and conditions",
+      "source": "https://www.bdo.com.au/en-au/insights/superannuation/understanding-the-new-division-296-superannuation-tax-changes",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260602-193",
+      "timestamp": "2026-06-02T18:00:38.585Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-03T14:24:22.834Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis: Inflation accounted for 56% of ASX 200 share gains over decade",
+      "description": "ABC cites Treasury and ABS data showing inflation comprised majority of asset price growth, providing quantitative basis for indexation reform. Specific timeframe: 10 years to March 2026.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis quantifies inflation impact on ASX 200 share gains — 56% of total returns over 10 years to March 2026",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260602-521",
+      "timestamp": "2026-06-02T22:17:05.060Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-03T14:27:50.523Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Budget documents confirm CGT reform will apply from 1 July 2027 with indexed cost base",
+      "description": "The official budget.gov.au tax reform page confirms the 50% CGT discount is being replaced with an inflation-indexed discount and a minimum 30% tax on capital gains, effective 1 July 2027. This is the authoritative source confirming the exact mechanism and timing.",
+      "suggestion": "Add to budget-updates.json: Budget.gov.au confirms the 50% CGT discount will be replaced by a discount based on inflation from 1 July 2027, with a minimum 30% tax applying to capital gains.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260603-869",
+      "timestamp": "2026-06-03T12:30:24.993Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-03T14:28:32.094Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO confirms Division 296 Better Targeted Super Concessions is law with 15% tax from 1 July 2026",
+      "description": "The ATO has published confirmed details that Division 296 legislation is enacted and will apply from 1 July 2026, introducing a 15% tax on superannuation earnings relating to total superannuation balances exceeding the $3m low-balance superannuation threshold.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 (Better Targeted Super Concessions) is law — 15% tax applies from 1 July 2026 on earnings above the $3m threshold.",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260603-806",
+      "timestamp": "2026-06-03T12:30:24.993Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-03T14:28:43.564Z"
     }
   ],
   "skipped": [
@@ -5252,6 +5244,20 @@
       "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-03T08:50:15.919Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis quantifies CGT impact on retiree investors under new rules",
+      "description": "ASX analysis provides specific example showing a retired investor on 16% marginal tax rate selling a long-held equity portfolio currently faces only 8% tax on nominal gains, versus the proposed 30% minimum tax on indexed gains under announced changes. This highlights the significant effective tax rate increase for lower-income retirees with substantial investment gains.",
+      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT impact on retiree investors. A retiree on 16% marginal rate faces 8% tax on nominal gains currently, rising to 30% on indexed gains under new rules.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260603-420",
+      "timestamp": "2026-06-03T06:45:31.424Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-03T14:28:03.754Z"
     }
   ],
   "needs_manual_review": [

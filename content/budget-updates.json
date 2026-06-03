@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T23:31:08.078Z",
+  "lastUpdated": "2026-06-03T08:52:31.192Z",
   "items": [
     {
       "id": "update-001",
@@ -1035,6 +1035,36 @@
       "source": "Australian Taxation Office",
       "title": "ATO confirms Division 296 (Better Targeted Super Concessions) is law — 15% tax applies from 1 July 2026 on earnings above threshold",
       "summary": "The ATO has confirmed that the Better Targeted Super Concessions legislation (Division 296) is now law. From 1 July 2026, individuals with a total superannuation balance exceeding the lower threshold will face a 15% tax on earnings relating to the portion of their balance above that threshold. The ATO has published official guidance confirming the implementation timing and details for affected individuals.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-103",
+      "date": "2026-06-03",
+      "tag": "Superannuation",
+      "source": "Heffron SMSF Specialists",
+      "title": "Division 296 draft legislation released with CGT relief provisions",
+      "summary": "Treasury has released Division 296 draft legislation with detailed guidance on indexed thresholds, CGT relief provisions, and SMSF-specific rules. Heffron SMSF specialists have analysed the legislation confirming key compliance requirements and calculation methodologies. SMSF trustees should review their current holdings and update their accounting systems before the 1 July 2026 commencement date.",
+      "url": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
+      "priority": "high"
+    },
+    {
+      "id": "update-104",
+      "date": "2026-05-12",
+      "tag": "Budget",
+      "source": "The Guardian",
+      "title": "Trust tax treatment reform details confirmed",
+      "summary": "The government has confirmed details on trust tax treatment reform, signalling a shift from taxing income to taxing assets. The Treasurer has stated the goal of 'rebalancing the system, away from taxing incomes and more towards taxing assets'. The reform package includes changes to how trusts are taxed alongside the CGT and negative gearing reforms.",
+      "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-budget-2026-trust-tax-reform-asset-testing",
+      "priority": "high"
+    },
+    {
+      "id": "update-105",
+      "date": "2026-06-03",
+      "tag": "Superannuation",
+      "source": "ATO",
+      "title": "ATO confirms pre-1985 share valuation reset for 1 July 2027",
+      "summary": "The ATO has confirmed that pre-1985 share holdings will receive a valuation reset as part of the CGT reform package taking effect from 1 July 2027. This provision allows historical assets to use a new cost base assessment date, addressing concerns about compounding inflation on long-held assets acquired before 1985. Taxpayers with pre-1985 share holdings should review their CGT position and consider the impact of this reset on their tax obligations.",
       "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "priority": "high"
     }

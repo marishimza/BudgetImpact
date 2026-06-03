@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T19:38:26.179Z",
+  "lastUpdated": "2026-06-03T08:51:24.440Z",
   "claims": [
     {
       "id": "fc-001",
@@ -363,6 +363,24 @@
         }
       ],
       "date_checked": "2026-06-02",
+      "category": "tax"
+    },
+    {
+      "id": "fc-019",
+      "slug": "30-percent-minimum-tax-capital-gains",
+      "claim": "30% minimum tax on all capital gains",
+      "verdict": "partially_true",
+      "verdict_label": "Partially true",
+      "short_explanation": "The 30% minimum tax rate applies to real capital gains (after inflation indexation), not nominal gains. This is a floor on the effective tax rate on real gains, not a flat tax on nominal gains.",
+      "detailed_explanation": "The claim oversimplifies the 2026-27 budget tax reform. While the reform does introduce a minimum 30% tax rate on capital gains, this applies after the cost base is adjusted for inflation (inflation indexation). The 50% CGT discount is being replaced with an inflation-based discount. The minimum 30% rate acts as a floor on the effective tax rate on real gains (gains above inflation), not a flat 30% tax on nominal gains. This means if inflation is 3% and your nominal gain is 5%, your real gain is only 2%, and the 30% minimum applies to that 2%, not the full 5%. The mechanism and implications differ significantly from a simple '30% on everything' headline.",
+      "sources": [
+        {
+          "name": "Australian Government Budget 2026-27",
+          "url": "https://budget.gov.au/2026-27/tax-reform",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-03",
       "category": "tax"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T23:31:08.080Z",
+  "lastUpdated": "2026-06-03T06:45:36.899Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3481,6 +3481,104 @@
     {
       "id": "suggestion-20260602-543",
       "timestamp": "2026-06-02T22:17:05.060Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO confirms Division 296 tax thresholds indexed annually for inflation",
+      "description": "The ATO has confirmed that Division 296 tax thresholds will be indexed annually to the Consumer Price Index, with the $3 million balance threshold applying from 1 July 2026. Earnings above this threshold will be taxed at 15% on the proportion relating to the total superannuation balance exceeding the threshold.",
+      "suggestion": "Add to budget-updates.json: Division 296 thresholds will be indexed annually to CPI, with initial $3m threshold confirmed for 1 July 2026 commencement. The ATO release includes calculation methodology and examples for affected SMSF members.",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260603-779",
+      "timestamp": "2026-06-03T06:45:31.424Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis quantifies CGT impact on retiree investors under new rules",
+      "description": "ASX analysis provides specific example showing a retired investor on 16% marginal tax rate selling a long-held equity portfolio currently faces only 8% tax on nominal gains, versus the proposed 30% minimum tax on indexed gains under announced changes. This highlights the significant effective tax rate increase for lower-income retirees with substantial investment gains.",
+      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT impact on retiree investors. A retiree on 16% marginal rate faces 8% tax on nominal gains currently, rising to 30% on indexed gains under new rules.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260603-420",
+      "timestamp": "2026-06-03T06:45:31.424Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Heffron releases Division 296 draft legislation details including CGT relief provisions",
+      "description": "Heffron SMSF specialists have analysed the Division 296 draft legislation released by Treasury, confirming indexed thresholds, CGT relief provisions, and specific rules for SMSFs before the 1 July 2026 commencement date.",
+      "suggestion": "Add to budget-updates.json: Treasury has released Division 296 draft legislation with detailed guidance on indexed thresholds, CGT relief, and SMSF-specific rules. SMSF trustees should review holdings and calculation methodology before 1 July 2026.",
+      "source": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260603-866",
+      "timestamp": "2026-06-03T06:45:31.424Z",
+      "status": "pending",
+      "corroborated_by": "https://treasury.gov.au/sites/default/files/2023-09/c2023-443986-em.pdf"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the CGT discount being replaced by indexation or preserved with a choice?",
+      "description": "The budget.gov.au fact sheet shows an example where Michael still receives the 50% CGT discount on an established property bought before the policy commencement. However, multiple sources claim the 50% discount is being 'replaced' by inflation/cost base indexation with no choice. This is a factual conflict about whether the existing CGT discount is preserved, eliminated, or offered as a choice versus being automatically replaced.",
+      "suggestion": "Add to debates.json: view_a from budget.gov.au fact sheet (12 May 2026) shows Michael selling established property still receives 50% CGT discount, view_b from NAB Budget Analysis and other sources claim CGT discount 'replaced' by cost base indexation with implications for investors",
+      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260603-777",
+      "timestamp": "2026-06-03T06:45:31.424Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "REIA President Jacob Caine explicitly states the government's $2B infrastructure initiative is 'expected to enable around 65,000 additional homes' and calls it a 'positive and necessary step'. Multiple other sources in the search results question whether this figure will be 'actually delivered'. This represents a factual conflict between an industry body claiming the housing target will be achieved versus skeptical analysis questioning the claim.",
+      "suggestion": "Add to debates.json: view_a from REIA President Jacob Caine (apimagazine.com.au) says $2B infrastructure initiative expected to enable around 65,000 additional homes, view_b from multiple skeptical analyses question whether this will 'actually' be delivered",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260603-825",
+      "timestamp": "2026-06-03T06:45:31.424Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: ASX analysis states retired investor on 16% marginal rate \"faces 8% tax on nominal gains\" under current CGT system",
+      "description": "The ASX analysis claims a retired investor on a 16% marginal rate faces 8% tax on nominal gains from long-held equity portfolios under current CGT rules. This calculation (16% × 50% discount = 8%) may oversimplify by ignoring the cost base inflation adjustment already available for pre-1999 assets, and could be misleading about what 'nominal gains' means. The comparison to 30% on indexed gains may also mischaracterize the new rules as more punitive than they are for certain investor types.",
+      "suggestion": "Add to fact-checks.json: claim is that retired investors face 8% tax on nominal gains, verdict is partially_true because the calculation ignores cost base resets for pre-1999 assets and oversimplifies the comparison; actual outcomes depend on asset purchase date and inflation periods.",
+      "source": "https://www.asx.com.au/news/article/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260603-114",
+      "timestamp": "2026-06-03T06:45:31.424Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Budget allocates $47.5 million for CGT implementation to Treasury and ATO over four years",
+      "description": "KPMG reports the government will provide $47.5 million over four years from 2026–27 (and $3.9 million per year ongoing) to the Treasury and the ATO. However, the search results show this is related to CGT implementation costs but do not clarify from the official budget.gov.au source what exactly this funding covers. This specific dollar figure appears in budget documents but the allocation breakdown could be misrepresented in media coverage.",
+      "suggestion": "Add to fact-checks.json: claim is that $47.5 million is allocated over four years, verdict is verified because budget.gov.au confirms this figure, but the specific allocation between Treasury and ATO and the exact activities funded should be verified against official budget papers.",
+      "source": "https://kpmg.com/au/en/home/news/2026/05/australian-federal-budget-2026-2027.html",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260603-160",
+      "timestamp": "2026-06-03T06:45:31.424Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260603-737",
+      "timestamp": "2026-06-03T06:45:31.424Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

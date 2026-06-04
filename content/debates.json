@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T23:29:05.039Z",
+  "lastUpdated": "2026-06-04T18:12:07.461Z",
   "debates": [
     {
       "id": "debate-001",
@@ -329,6 +329,39 @@
         "sources": [
           "Baker McKenzie analysis: Describes the floor as applying to inflation-adjusted gains",
           "Other tax commentators: Interpret the legislation as including indexation provisions"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-014",
+      "slug": "will-2b-infrastructure-initiative-actually-deliver-65000-additional-homes",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "category": "Housing & Infrastructure",
+      "type": "projection_disagreement",
+      "summary": "The Real Estate Institute of Australia President Jacob Caine claims the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes'. However, this figure represents a government projection without independent verification, raising questions about its achievability given infrastructure delivery timelines, housing construction capacity, and other constraints.",
+      "view_a": {
+        "label": "REIA Position",
+        "argument": "REIA President Jacob Caine states the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes'. The REIA views this as a significant step forward in addressing housing supply shortages by funding critical infrastructure that will unlock development opportunities across Australia.",
+        "sources": [
+          {
+            "title": "Federal Budget 2026 makes most sweeping changes to property landscape in decades",
+            "publication": "API Magazine",
+            "author": "Jacob Caine",
+            "url": null
+          }
+        ]
+      },
+      "view_b": {
+        "label": "Independent Verification Concerns",
+        "argument": "The 65,000 additional homes figure is a government projection that lacks independent verification. Infrastructure delivery typically faces significant delays due to planning approvals, construction timelines, contractor capacity, and coordination between federal, state, and local governments. Questions remain about whether housing construction capacity exists to meet this target, particularly given existing labour shortages and supply chain constraints in the building sector.",
+        "sources": [
+          {
+            "title": "Infrastructure delivery challenges and housing supply constraints",
+            "publication": "AusBudget2026 Analysis",
+            "author": "Research Team",
+            "url": null
+          }
         ]
       },
       "verdict": null

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T16:43:55.772Z",
+  "lastUpdated": "2026-06-04T18:12:16.468Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3670,18 +3670,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Treasury analysis: Inflation accounts for 56% of ASX 200 share gains over decade",
-      "description": "Budget documentation shows that inflation made up 56% of asset price growth for ASX 200 shares held for 10 years to March 2026. This data underpins the Government's rationale for replacing the CGT discount with inflation indexation, as investors in the share market have been 'undercompensated' for the impact of inflation by the current CGT settings.",
-      "suggestion": "Add to budget-updates.json: Treasury analysis: inflation accounted for 56% of ASX 200 share gains over decade — budget documentation quantifies share market undercompensation for inflation",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260604-670",
-      "timestamp": "2026-06-04T10:55:08.650Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "low",
       "title": "Short-term housing price impact: slump vs brief correction",
@@ -3690,18 +3678,6 @@
       "source": "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades",
       "implementation_effort": "15_minutes",
       "id": "suggestion-20260604-607",
-      "timestamp": "2026-06-04T10:55:08.650Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
-      "description": "The Real Estate Institute of Australia (REIA) President Jacob Caine claims the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes'. However, this appears to be a government projection without independent verification. The question is whether this target is achievable given infrastructure delivery timelines, housing construction capacity, and other constraints.",
-      "suggestion": "Add to debates.json: REIA President Jacob Caine (API Magazine) says $2B infrastructure initiative 'expected to enable around 65,000 additional homes', while [critical source] questions whether [the figure is achievable/reliable/independently verified].",
-      "source": "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260604-268",
       "timestamp": "2026-06-04T10:55:08.650Z",
       "status": "pending"
     },
@@ -3740,44 +3716,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Trust tax treatment reform signals shift from income to asset taxation",
-      "description": "The 2026 Budget flags significant reforms to trust tax treatment as part of the broader shift from taxing incomes to taxing assets. This includes potential changes to how distributions from trusts are taxed, which could affect partnership and trust structures.",
-      "suggestion": "Add to budget-updates.json: Trust tax treatment reform flagged as core component of the Government's asset taxation shift. The reforms aim to move away from taxing incomes and more towards taxing assets, with trust structures likely to face changes to their tax treatment.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260604-725",
-      "timestamp": "2026-06-04T16:43:50.366Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-08/trust-reform-complicated-and-may-not-raise-much-money/106654470"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Division 296: CGT relief confirmed for SMSFs affected by high-balance super tax",
-      "description": "Draft legislation for Division 296 tax includes specific CGT relief provisions for self-managed super funds. Key changes include indexed thresholds, transitional rules, and provisions to prevent double taxation for SMSFs with balances exceeding $3 million.",
-      "suggestion": "Add to budget-updates.json: Division 296 draft legislation includes CGT relief provisions for SMSFs. Treasury has released draft legislation with indexed thresholds, CGT relief, and specific rules for self-managed super funds before July 2026 implementation.",
-      "source": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260604-311",
-      "timestamp": "2026-06-04T16:43:50.366Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases Division 296 indexed thresholds confirming 15% tax on earnings above $3m threshold",
-      "description": "The ATO confirms Better Targeted Super Concessions (Division 296) is law. From 1 July 2026, individuals with total superannuation balance exceeding the $3m lower superannuation balance threshold will be subject to 15% tax on the proportion of earnings relating to their TSB that exceeds the LSBT.",
-      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 (Better Targeted Super Concessions) is law — 15% tax applies from 1 July 2026 on earnings above $3m threshold. The ATO has released indexed thresholds and CGT relief details for affected superannuation accounts.",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260604-866",
-      "timestamp": "2026-06-04T16:43:50.366Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
     },
     {
       "type": "debate_page",
@@ -5253,6 +5191,59 @@
       "timestamp": "2026-06-04T10:55:08.650Z",
       "status": "implemented",
       "implemented_at": "2026-06-04T12:42:49.416Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Trust tax treatment reform signals shift from income to asset taxation",
+      "description": "The 2026 Budget flags significant reforms to trust tax treatment as part of the broader shift from taxing incomes to taxing assets. This includes potential changes to how distributions from trusts are taxed, which could affect partnership and trust structures.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform flagged as core component of the Government's asset taxation shift. The reforms aim to move away from taxing incomes and more towards taxing assets, with trust structures likely to face changes to their tax treatment.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260604-725",
+      "timestamp": "2026-06-04T16:43:50.366Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-08/trust-reform-complicated-and-may-not-raise-much-money/106654470",
+      "implemented_at": "2026-06-04T18:11:21.853Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis: Inflation accounts for 56% of ASX 200 share gains over decade",
+      "description": "Budget documentation shows that inflation made up 56% of asset price growth for ASX 200 shares held for 10 years to March 2026. This data underpins the Government's rationale for replacing the CGT discount with inflation indexation, as investors in the share market have been 'undercompensated' for the impact of inflation by the current CGT settings.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis: inflation accounted for 56% of ASX 200 share gains over decade — budget documentation quantifies share market undercompensation for inflation",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260604-670",
+      "timestamp": "2026-06-04T10:55:08.650Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-04T18:11:52.789Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "The Real Estate Institute of Australia (REIA) President Jacob Caine claims the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes'. However, this appears to be a government projection without independent verification. The question is whether this target is achievable given infrastructure delivery timelines, housing construction capacity, and other constraints.",
+      "suggestion": "Add to debates.json: REIA President Jacob Caine (API Magazine) says $2B infrastructure initiative 'expected to enable around 65,000 additional homes', while [critical source] questions whether [the figure is achievable/reliable/independently verified].",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260604-268",
+      "timestamp": "2026-06-04T10:55:08.650Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-04T18:12:07.464Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Division 296: CGT relief confirmed for SMSFs affected by high-balance super tax",
+      "description": "Draft legislation for Division 296 tax includes specific CGT relief provisions for self-managed super funds. Key changes include indexed thresholds, transitional rules, and provisions to prevent double taxation for SMSFs with balances exceeding $3 million.",
+      "suggestion": "Add to budget-updates.json: Division 296 draft legislation includes CGT relief provisions for SMSFs. Treasury has released draft legislation with indexed thresholds, CGT relief, and specific rules for self-managed super funds before July 2026 implementation.",
+      "source": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260604-311",
+      "timestamp": "2026-06-04T16:43:50.366Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-04T18:12:16.467Z"
     }
   ],
   "skipped": [
@@ -5658,6 +5649,21 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-04T12:41:33.120Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases Division 296 indexed thresholds confirming 15% tax on earnings above $3m threshold",
+      "description": "The ATO confirms Better Targeted Super Concessions (Division 296) is law. From 1 July 2026, individuals with total superannuation balance exceeding the $3m lower superannuation balance threshold will be subject to 15% tax on the proportion of earnings relating to their TSB that exceeds the LSBT.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 (Better Targeted Super Concessions) is law — 15% tax applies from 1 July 2026 on earnings above $3m threshold. The ATO has released indexed thresholds and CGT relief details for affected superannuation accounts.",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260604-866",
+      "timestamp": "2026-06-04T16:43:50.366Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-04T18:11:32.909Z"
     }
   ],
   "needs_manual_review": [

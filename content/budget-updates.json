@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T12:42:31.185Z",
+  "lastUpdated": "2026-06-04T18:12:16.465Z",
   "items": [
     {
       "id": "update-001",
@@ -1186,6 +1186,36 @@
       "title": "ASA calls for capital gains averaging alongside indexation to address income bunching",
       "summary": "The Australian Shareholders Association is calling for a capital gains averaging mechanism to be introduced alongside the inflation indexation reform. ASA argues that the current reform does not address 'income bunching' where many years of gains are realised in a single tax year, and that proper consultation should have occurred before major changes were announced. The association believes that averaging would provide more equitable treatment for investors who hold assets for extended periods.",
       "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "priority": "high"
+    },
+    {
+      "id": "update-118",
+      "date": "2026-05-12",
+      "tag": "Budget",
+      "source": "The Guardian Australia",
+      "title": "Trust tax treatment reform signals shift from income to asset taxation",
+      "summary": "The 2026 Budget flags significant reforms to trust tax treatment as part of the broader shift from taxing incomes to taxing assets. The reforms aim to move away from taxing incomes and more towards taxing assets, with trust structures likely to face changes to their tax treatment. This includes potential changes to how distributions from trusts are taxed, which could affect partnership and trust structures.",
+      "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-budget-2026-trust-tax-reform-asset-testing",
+      "priority": "high"
+    },
+    {
+      "id": "update-119",
+      "date": "2026-05-12",
+      "tag": "Budget",
+      "source": "ABC News",
+      "title": "Treasury analysis: Inflation accounts for 56% of ASX 200 share gains over decade",
+      "summary": "Budget documentation shows that inflation made up 56% of asset price growth for ASX 200 shares held for 10 years to March 2026. The analysis underpins the Government's rationale for replacing the CGT discount with inflation indexation, as investors in the share market have been 'undercompensated' for the impact of inflation by the current CGT settings.",
+      "url": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "priority": "high"
+    },
+    {
+      "id": "update-120",
+      "date": "2026-06-04",
+      "tag": "Superannuation",
+      "source": "Heffron",
+      "title": "Division 296: CGT relief confirmed for SMSFs affected by high-balance super tax",
+      "summary": "Treasury has released draft legislation for Division 296 including specific CGT relief provisions for self-managed super funds. The legislation provides indexed thresholds, transitional rules, and provisions to prevent double taxation for SMSFs with balances exceeding $3 million, with implementation scheduled for 1 July 2026.",
+      "url": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
       "priority": "high"
     }
   ]

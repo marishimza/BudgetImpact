@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T18:12:16.465Z",
+  "lastUpdated": "2026-06-04T23:05:03.753Z",
   "items": [
     {
       "id": "update-001",
@@ -1216,6 +1216,26 @@
       "title": "Division 296: CGT relief confirmed for SMSFs affected by high-balance super tax",
       "summary": "Treasury has released draft legislation for Division 296 including specific CGT relief provisions for self-managed super funds. The legislation provides indexed thresholds, transitional rules, and provisions to prevent double taxation for SMSFs with balances exceeding $3 million, with implementation scheduled for 1 July 2026.",
       "url": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
+      "priority": "high"
+    },
+    {
+      "id": "update-121",
+      "date": "2026-06-04",
+      "tag": "ASX",
+      "source": "ASX",
+      "title": "ASX analysis quantifies CGT reform impact on retirement investors — 8% vs 30% effective rate",
+      "summary": "An ASX analysis provides specific numbers showing that a retired investor on a 16% marginal rate currently pays 8% tax on nominal gains from long-held equities, but would face 30% tax on indexed gains under the announced CGT changes. This creates a 22 percentage point tax increase for this investor type, significantly affecting retirees with substantial equity portfolios held over many years.",
+      "url": "https://www.asx.com.au/investors",
+      "priority": "high"
+    },
+    {
+      "id": "update-122",
+      "date": "2026-06-04",
+      "tag": "Budget",
+      "source": "The Guardian",
+      "title": "Government signals broader trust tax treatment reform as part of asset taxation shift",
+      "summary": "The Government has signaled plans to shift taxation burden from income to assets, with changes to trust structures expected as part of a broader tax reform package. Reform to trust tax treatment is flagged as a core component of Budget 2026, working alongside changes to negative gearing and capital gains tax. The measures are intended to rebalance the taxation system and are detailed in the Guardian's explanation of the 2026 federal budget tax reforms.",
+      "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
       "priority": "high"
     }
   ]

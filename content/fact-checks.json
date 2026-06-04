@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T12:42:07.470Z",
+  "lastUpdated": "2026-06-04T23:05:33.573Z",
   "claims": [
     {
       "id": "fc-001",
@@ -437,6 +437,29 @@
           "name": "Stockspot",
           "url": "https://www.stockspot.com.au/cgt-calculator-australia-2026/",
           "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-04",
+      "category": "tax"
+    },
+    {
+      "id": "fc-023",
+      "slug": "budget-cgt-changes-take-effect-july-2027",
+      "claim": "Capital gains tax changes from the budget take effect from July 2027",
+      "verdict": "partially_verified",
+      "verdict_label": "Partially Verified",
+      "short_explanation": "While CGT discount changes begin 1 July 2027, negative gearing restrictions commence from 12 May 2026. These are distinct policies with different effective dates.",
+      "detailed_explanation": "Media reporting has conflated two separate policy changes. Negative gearing restrictions, as reported by ABC News, begin from 'this evening' (12 May 2026), immediately impacting property investors. However, the capital gains tax discount changes take effect from 1 July 2027, giving investors nearly 14 months notice before those changes apply. The budget.gov.au confirms the July 2027 date for CGT changes specifically, while the negative gearing restrictions are a separate, earlier-starting policy.",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-05-13/government-breaks-promise-with-restrictions-to-negative-gearing/10452234",
+          "type": "news"
+        },
+        {
+          "name": "Australian Government Budget",
+          "url": "https://budget.gov.au",
+          "type": "official"
         }
       ],
       "date_checked": "2026-06-04",

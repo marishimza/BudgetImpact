@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T23:29:31.064Z",
+  "lastUpdated": "2026-06-04T08:15:11.381Z",
   "claims": [
     {
       "id": "fc-001",
@@ -400,6 +400,24 @@
       ],
       "date_checked": "2026-06-03",
       "category": "superannuation"
+    },
+    {
+      "id": "fc-021",
+      "slug": "30-percent-minimum-tax-rate-indexed-capital-gains",
+      "claim": "The minimum 30% tax rate applies to ALL capital gains from July 2027",
+      "verdict": "disputed",
+      "verdict_label": "DISPUTED",
+      "short_explanation": "The 30% minimum tax applies to indexed (inflation-adjusted) capital gains, not necessarily gross nominal gains.",
+      "detailed_explanation": "Analysis from ASX indicates the 30% minimum floor applies to indexed gains rather than nominal gains. For example, a $100,000 nominal capital gain with $40,000 inflation adjustment would result in the 30% minimum tax applying only to the $60,000 indexed gain, not the full $100,000. This creates a significant distinction between the headline rate and the effective tax on real (inflation-adjusted) gains. Taxpayers may be misled if they expect 30% tax on their full nominal gain when the actual liability may be lower on real gains.",
+      "sources": [
+        {
+          "name": "ASX - What the Federal Budget means for investors",
+          "url": "https://www.asx.com.au/what-the-federal-budget-means-for-investors",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-04",
+      "category": "tax"
     }
   ]
 }

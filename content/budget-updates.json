@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T23:29:48.781Z",
+  "lastUpdated": "2026-06-04T08:16:26.638Z",
   "items": [
     {
       "id": "update-001",
@@ -1117,6 +1117,46 @@
       "summary": "Self-managed superannuation funds (SMSFs) with property assets will retain the one-third CGT discount under the new Division 296 regime commencing 1 July 2027. This distinguishes SMSFs from standard individual investors who face transition from the existing 50% discount to inflation-adjusted cost base calculations. SMSF trustees should continue applying the one-third discount when calculating capital gains for assets disposed after the commencement date.",
       "url": "https://www.bdo.com.au/en-au/insights/superannuation/understanding-the-new-division-296-superannuation-tax-changes",
       "priority": "medium"
+    },
+    {
+      "id": "update-111",
+      "date": "2026-06-04",
+      "tag": "Superannuation",
+      "source": "Australian Taxation Office",
+      "title": "ATO confirms Division 296 (Better Targeted Super Concessions) is law",
+      "summary": "The ATO has confirmed that Division 296 (Better Targeted Super Concessions) legislation has been enacted. From 1 July 2026, a 15% tax will apply on earnings relating to total superannuation balances exceeding the $3 million threshold. The ATO has also confirmed indexed thresholds and CGT relief provisions for SMSFs in relation to this measure.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-112",
+      "date": "2026-06-04",
+      "tag": "Budget",
+      "source": "Pitcher Partners",
+      "title": "Venture capital tax incentives expanded from July 2027",
+      "summary": "The 2026-27 Budget confirms the expansion of venture capital tax incentives, effective 1 July 2027. These measures extend tax benefits for venture capital investments as part of broader innovation and investment policy reforms. Businesses and investors should review how these changes may impact their investment strategies and tax planning.",
+      "url": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "priority": "medium"
+    },
+    {
+      "id": "update-113",
+      "date": "2026-03-17",
+      "tag": "Parliament",
+      "source": "Wikipedia",
+      "title": "Parliamentary committee endorsed CGT discount changes",
+      "summary": "A parliamentary committee endorsed changes to the capital gains tax (CGT) discount on 17 March 2026, several months before the reforms were officially tabled in the May 2026 budget. The endorsement marked an early step in the government's planned CGT reforms, setting the stage for the formal budget announcement on 12 May 2026.",
+      "url": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
+      "priority": "medium"
+    },
+    {
+      "id": "update-114",
+      "date": "2026-06-04",
+      "tag": "ASX",
+      "source": "ASX",
+      "title": "ASX analysis quantifies CGT impact: retired investor on 16% marginal rate faces 8% vs 30% effective tax rate on long-held equity gains",
+      "summary": "ASX analysis reveals that a retired investor on a 16% marginal tax rate currently faces only 8% effective tax on nominal gains from a long-held equity portfolio. Under proposed CGT changes, this same investor would face a 30% effective rate on indexed gains. This analysis demonstrates the significant impact of the reform on lower-income retirees who depend on equity investments for retirement income.",
+      "url": "",
+      "priority": "high"
     }
   ]
 }

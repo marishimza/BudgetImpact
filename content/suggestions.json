@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T06:30:12.125Z",
+  "lastUpdated": "2026-06-04T08:16:26.641Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3538,18 +3538,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Venture capital tax incentives expanded from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Budget confirms expansion of venture capital tax incentives effective 1 July 2027, extending tax benefits for venture capital investments as part of broader innovation and investment policy reforms.",
-      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expansion confirmed from July 2027 — Budget measure extends tax incentives for venture capital investments",
-      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260603-325",
-      "timestamp": "2026-06-03T18:17:27.522Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
@@ -3611,31 +3599,6 @@
     },
     {
       "type": "content_update",
-      "priority": "high",
-      "title": "Parliamentary committee endorsed CGT discount changes on 17 March 2026",
-      "description": "A parliamentary committee endorsed changes to the capital gains tax discount on 17 March 2026, prior to the budget announcement on 12 May. This occurredmonths before the reforms were officially tabled.",
-      "suggestion": "Add to budget-updates.json: Parliamentary committee endorsed CGT discount changes in March 2026",
-      "source": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260603-963",
-      "timestamp": "2026-06-03T22:23:29.706Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis: Retired investor on 16% marginal rate faces tax increase from 8% to 30% on equity gains",
-      "description": "Analysis from ASX shows that a retired investor on a 16% marginal rate currently faces only 8% tax on nominal gains from a long-held equity portfolio, but would face 30% on indexed gains under the proposed CGT changes. This demonstrates the significant impact of the reform on lower-income retirees with equity investments.",
-      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT impact: retired investor on 16% marginal rate faces 8% vs 30% effective tax rate on long-held equity gains",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260603-325",
-      "timestamp": "2026-06-03T22:23:29.706Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
       "priority": "medium",
       "title": "ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes",
       "description": "The ATO has confirmed that pre-1985 share holdings will receive a valuation reset as part of the CGT reform package taking effect from 1 July 2027. This allows historical assets to be re-valued for CGT purposes.",
@@ -3669,19 +3632,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO confirms Division 296 legislation details and indexed thresholds",
-      "description": "The ATO confirms Better Targeted Super Concessions legislation is enacted, with 15% tax applying from 1 July 2026 on earnings relating to total superannuation balances exceeding the $3m threshold, including indexed thresholds and CGT relief provisions for SMSFs.",
-      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 (Better Targeted Super Concessions) is law — 15% tax applies from 1 July 2026 on earnings above $3m threshold with indexed thresholds confirmed",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260604-464",
-      "timestamp": "2026-06-04T06:30:05.088Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
     },
     {
       "type": "content_update",
@@ -3743,19 +3693,6 @@
       "timestamp": "2026-06-04T06:30:05.088Z",
       "status": "pending",
       "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-discount"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: Minimum 30% tax rate applies to 'ALL capital gains' from July 2027",
-      "description": "This claim appears repeatedly in existing fact-checks as already verified. However, the ASX analysis states '30% on indexed gains under announced changes,' suggesting the 30% floor may apply to inflation-indexed gains, not nominal gains. A $100,000 nominal gain with $40,000 inflation would result in 30% tax on $60,000 (indexed gain), not $100,000. This is a significant distinction that could mislead taxpayers about their actual tax liability.",
-      "suggestion": "Add to fact-checks.json: The 30% minimum tax applies to indexed capital gains, not necessarily ALL nominal gains — verdict is DISPUTED/NEEDS CLARIFICATION because the rate may apply to inflation-adjusted gains rather than gross nominal gains, making the effective tax on real gains different from the headline rate.",
-      "source": "https://www.asx.com.au/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260604-955",
-      "timestamp": "2026-06-04T06:30:05.088Z",
-      "status": "pending",
-      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
     },
     {
       "id": "suggestion-20260604-258",
@@ -5141,6 +5078,74 @@
       "timestamp": "2026-06-03T18:17:27.522Z",
       "status": "implemented",
       "implemented_at": "2026-06-03T23:29:48.783Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO confirms Division 296 legislation details and indexed thresholds",
+      "description": "The ATO confirms Better Targeted Super Concessions legislation is enacted, with 15% tax applying from 1 July 2026 on earnings relating to total superannuation balances exceeding the $3m threshold, including indexed thresholds and CGT relief provisions for SMSFs.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 (Better Targeted Super Concessions) is law — 15% tax applies from 1 July 2026 on earnings above $3m threshold with indexed thresholds confirmed",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260604-464",
+      "timestamp": "2026-06-04T06:30:05.088Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-06-04T08:14:41.751Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Minimum 30% tax rate applies to 'ALL capital gains' from July 2027",
+      "description": "This claim appears repeatedly in existing fact-checks as already verified. However, the ASX analysis states '30% on indexed gains under announced changes,' suggesting the 30% floor may apply to inflation-indexed gains, not nominal gains. A $100,000 nominal gain with $40,000 inflation would result in 30% tax on $60,000 (indexed gain), not $100,000. This is a significant distinction that could mislead taxpayers about their actual tax liability.",
+      "suggestion": "Add to fact-checks.json: The 30% minimum tax applies to indexed capital gains, not necessarily ALL nominal gains — verdict is DISPUTED/NEEDS CLARIFICATION because the rate may apply to inflation-adjusted gains rather than gross nominal gains, making the effective tax on real gains different from the headline rate.",
+      "source": "https://www.asx.com.au/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260604-955",
+      "timestamp": "2026-06-04T06:30:05.088Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implemented_at": "2026-06-04T08:15:11.383Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Venture capital tax incentives expanded from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Budget confirms expansion of venture capital tax incentives effective 1 July 2027, extending tax benefits for venture capital investments as part of broader innovation and investment policy reforms.",
+      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expansion confirmed from July 2027 — Budget measure extends tax incentives for venture capital investments",
+      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260603-325",
+      "timestamp": "2026-06-03T18:17:27.522Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-04T08:15:38.487Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Parliamentary committee endorsed CGT discount changes on 17 March 2026",
+      "description": "A parliamentary committee endorsed changes to the capital gains tax discount on 17 March 2026, prior to the budget announcement on 12 May. This occurredmonths before the reforms were officially tabled.",
+      "suggestion": "Add to budget-updates.json: Parliamentary committee endorsed CGT discount changes in March 2026",
+      "source": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260603-963",
+      "timestamp": "2026-06-03T22:23:29.706Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "implemented_at": "2026-06-04T08:15:59.317Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: Retired investor on 16% marginal rate faces tax increase from 8% to 30% on equity gains",
+      "description": "Analysis from ASX shows that a retired investor on a 16% marginal rate currently faces only 8% tax on nominal gains from a long-held equity portfolio, but would face 30% on indexed gains under the proposed CGT changes. This demonstrates the significant impact of the reform on lower-income retirees with equity investments.",
+      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT impact: retired investor on 16% marginal rate faces 8% vs 30% effective tax rate on long-held equity gains",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260603-325",
+      "timestamp": "2026-06-03T22:23:29.706Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-04T08:16:26.641Z"
     }
   ],
   "skipped": [

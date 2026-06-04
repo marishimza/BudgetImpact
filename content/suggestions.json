@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T18:12:16.468Z",
+  "lastUpdated": "2026-06-04T21:23:57.369Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3764,61 +3764,105 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis quantifies retirement investor tax impact: 8% vs 30% effective rate",
+      "description": "An ASX analysis piece provides specific numbers showing that a retired investor on a 16% marginal rate currently pays 8% tax on nominal gains from long-held equities, but would face 30% tax on indexed gains under the announced CGT changes. This creates a 22 percentage point tax increase for this investor type.",
+      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT reform impact on retirement investors — a retired investor on a 16% marginal rate currently faces 8% tax on nominal gains from long-held equity portfolios, but would face 30% tax on indexed gains under proposed changes, representing a 22 percentage point increase.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260604-684",
+      "timestamp": "2026-06-04T21:23:52.828Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "low",
+      "title": "Greens propose 40% additional tax on super balances exceeding $10 million",
+      "description": "Wikipedia entry for the 2026 Australian federal budget mentions that the Greens have called for an additional 40% tax rate on superannuation balances higher than $10 million. This policy position is distinct from the Government's Division 296 tax which applies to balances exceeding $3 million.",
+      "suggestion": "Add to budget-updates.json: The Greens have proposed an additional 40% tax rate on superannuation balances exceeding $10 million, separate from the Government's Division 296 tax applying to balances over $3 million.",
+      "source": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260604-396",
+      "timestamp": "2026-06-04T21:23:52.828Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Government signals broader trust tax treatment reform as part of asset taxation shift",
+      "description": "Budget.gov.au and multiple sources indicate the Government plans to shift taxation from income to assets, which includes reform to trust tax treatment. The Guardian reports this will 'rebalance the system' and is part of a broader package alongside negative gearing and CGT changes.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform flagged as core part of Budget 2026 — Government signals plan to shift taxation burden from income to assets, with changes to trust structures expected as part of broader tax reform package.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260604-653",
+      "timestamp": "2026-06-04T21:23:52.828Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Does the CGT minimum 30% floor apply to all gains or only gains above inflation?",
+      "description": "The budget introduces a minimum 30% tax rate on capital gains, but sources conflict on whether this floor applies to the entire gain or only the portion above inflation. This is a critical distinction affecting tax calculations for all investors.",
+      "suggestion": "Add to debates.json: NAB Budget Analysis and Baker McKenzie imply the 30% minimum applies broadly to capital gains, while other technical analysis suggests the floor only applies to gains above inflation (inflation-adjusted gains may face lower effective rates). Sources conflict on the technical scope of this provision.",
+      "source": "https://www.nab.com.au/content/dam/nabcomau/documents/business-banking/budget-2026-cgt.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260604-970",
+      "timestamp": "2026-06-04T21:23:52.828Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the CGT discount being eliminated, replaced with indexation, or preserved with a choice?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The 50% CGT discount faces different characterizations across sources—some state it is being 'replaced' by indexation, others suggest investors can choose between methods. This fundamental disagreement affects how investors plan for the July 2027 changes.",
+      "suggestion": "Add to debates.json: NAB Budget Analysis states 'CGT discount replaced by cost base indexation,' suggesting no choice. However, other sources (including government fact sheets and Baker McKenzie) indicate taxpayers may have a choice between the discount and indexation method. These descriptions are contradictory.",
+      "source": "https://www.bakermckenzie.com/en/insight/publications/2026/05/australia-budget-bites-cgt-discount-and-negative-gearing",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260604-741",
+      "timestamp": "2026-06-04T21:23:52.828Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "description": "Multiple sources cite Treasury data stating that 'inflation made up 56 per cent of asset price growth for ASX 200 shares held for 10 years to March 2026.' This is a specific percentage claim attributed to official government sources (Treasury, ASX, ABS) that could be verified for accuracy, methodology, and proper context. The claim uses a specific time period ('10 years to March 2026') and a specific percentage that could be misquoted or taken out of context if used to justify CGT changes.",
+      "suggestion": "Add to fact-checks.json: Verify the specific 56% figure, its calculation methodology (how inflation was measured), and whether this applies uniformly across all asset types or only shares. The claim could be partially true but oversimplified if it doesn't account for different asset classes or holding periods.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-investment-property-shares/2026-05-13",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260604-266",
+      "timestamp": "2026-06-04T21:23:52.828Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: A retired investor on a 16% marginal tax rate 'faces 8% tax on nominal gains' under the current CGT system",
+      "description": "The ASX analysis states that 'a retired investor on a 16% marginal rate selling a long-held equity portfolio currently faces 8% tax on nominal gains, as opposed to 30% on indexed gains.' This creates a dramatic comparison (8% vs 30%) that could be misleading. The 8% figure represents the effective tax rate after the 50% CGT discount (16% × 50% = 8%), but this comparison doesn't account for whether indexation or the 50% discount produces a better outcome for different holding periods and inflation scenarios.",
+      "suggestion": "Add to fact-checks.json: Verify this claim by checking whether the 8% vs 30% comparison accurately represents the change, and whether indexation always produces a higher tax burden than the 50% discount for long-held assets. The claim appears to contrast nominal gains (no indexation) with indexed gains, but may oversimplify the choice between discount and indexation.",
+      "source": "https://www.asx.com.au/au/resources/investing-in-shares/federal-budget.html",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260604-941",
+      "timestamp": "2026-06-04T21:23:52.828Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260604-656",
+      "timestamp": "2026-06-04T21:23:52.828Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
     }
   ],
   "implemented": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Division 296 super tax: indexed thresholds and CGT relief details confirmed by ATO",
-      "description": "The ATO has confirmed Division 296 tax commences 1 July 2026 with indexed thresholds, specifying the 15% tax on earnings above the $3 million balance threshold and confirming CGT relief provisions for affected SMSFs.",
-      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details — 15% tax on earnings above $3m threshold from 1 July 2026",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260521-736",
-      "timestamp": "2026-05-21T11:00:00.282Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-28T18:32:29.896Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
-      "description": "Treasury analysis underpinning the CGT reform found that inflation has represented a significant portion of nominal share price gains, providing context for why indexation rather than simple rate changes was chosen.",
-      "suggestion": "Add to budget-updates.json: Treasury analysis underpinning the CGT reform found that inflation accounts for 56% of ASX 200 share gains over the past decade, supporting the government's rationale for indexation-based reform over other approaches.",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260521-829",
-      "timestamp": "2026-05-21T16:35:36.606Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-28T18:32:48.536Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Foreign resident capital gains notification legislation deferred again",
-      "description": "The requirement for foreign residents disposing of shares and membership interests exceeding $50m to notify the ATO before executing transactions has been deferred until legislation passes Parliament.",
-      "suggestion": "Add to budget-updates.json: Foreign resident capital gains notification requirements (for disposals exceeding $50m) have been deferred again, with commencement dependent on legislation passing Parliament.",
-      "source": "https://www.grantthornton.com.au/insights/federal-budget-2026-27/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260521-888",
-      "timestamp": "2026-05-21T16:35:36.607Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-28T18:33:04.602Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Treasury analysis quantifies inflation impact on ASX 200 share gains",
-      "description": "Treasury analysis found that inflation accounts for 56% of ASX 200 share gains over the past decade, providing context for the CGT indexation reform.",
-      "suggestion": "Add to budget-updates.json: Treasury analysis reveals inflation accounts for 56% of ASX 200 share gains over the decade, providing economic context for the CGT indexation changes.",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260521-548",
-      "timestamp": "2026-05-21T21:22:10.699Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-28T18:33:18.624Z"
-    },
     {
       "type": "content_update",
       "priority": "high",
@@ -5247,20 +5291,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Budget allocates $47.5 million for CGT implementation",
-      "description": "KPMG source states '$47.5 million over four years from 2026–27 (and $3.9 million per year ongoing)' to Treasury and the ATO. This is a specific verifiable figure. However, the exact purpose and breakdown of this funding could be misrepresented in media coverage.",
-      "suggestion": "Add to fact-checks.json: claim is 'budget allocates $47.5 million for CGT reform implementation', verdict is verified because official sources confirm $47.5 million over four years from 2026-27 (with $3.9 million ongoing) to Treasury and ATO.",
-      "source": "https://kpmg.com/au/en/home/topics/tax/2026-australian-federal-budget.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260521-183",
-      "timestamp": "2026-05-21T11:00:00.282Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-05-28T18:32:38.335Z"
-    },
     {
       "type": "debate_page",
       "priority": "medium",

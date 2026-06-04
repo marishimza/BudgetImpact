@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T08:15:11.381Z",
+  "lastUpdated": "2026-06-04T12:42:07.470Z",
   "claims": [
     {
       "id": "fc-001",
@@ -413,6 +413,29 @@
         {
           "name": "ASX - What the Federal Budget means for investors",
           "url": "https://www.asx.com.au/what-the-federal-budget-means-for-investors",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-04",
+      "category": "tax"
+    },
+    {
+      "id": "fc-022",
+      "slug": "cgt-discount-replaced-by-inflation-indexation",
+      "claim": "The 50% CGT discount is being replaced by inflation indexation with no choice for taxpayers",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The CGT discount is being replaced, but implementation details remain unclear regarding taxpayer choice.",
+      "detailed_explanation": "Budget.gov.au states the 50% CGT discount will be replaced by 'a discount based on inflation' from 1 July 2026. However, some sources including stockspot.com.au use qualifiers like 'largely' replaced, suggesting nuances may exist. The official budget documentation does not clearly specify whether this replacement is mandatory for all asset types or if some choice remains for taxpayers. Verification is needed to confirm whether all taxpayers must use indexation or can opt for other treatment in certain scenarios.",
+      "sources": [
+        {
+          "name": "Australian Government Budget",
+          "url": "https://www.budget.gov.au/budget-2026-27/tax-reform",
+          "type": "official"
+        },
+        {
+          "name": "Stockspot",
+          "url": "https://www.stockspot.com.au/cgt-calculator-australia-2026/",
           "type": "analysis"
         }
       ],

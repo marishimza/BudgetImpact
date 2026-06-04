@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T08:16:26.638Z",
+  "lastUpdated": "2026-06-04T12:42:31.185Z",
   "items": [
     {
       "id": "update-001",
@@ -1156,6 +1156,36 @@
       "title": "ASX analysis quantifies CGT impact: retired investor on 16% marginal rate faces 8% vs 30% effective tax rate on long-held equity gains",
       "summary": "ASX analysis reveals that a retired investor on a 16% marginal tax rate currently faces only 8% effective tax on nominal gains from a long-held equity portfolio. Under proposed CGT changes, this same investor would face a 30% effective rate on indexed gains. This analysis demonstrates the significant impact of the reform on lower-income retirees who depend on equity investments for retirement income.",
       "url": "",
+      "priority": "high"
+    },
+    {
+      "id": "update-115",
+      "date": "2026-06-04",
+      "tag": "ASX",
+      "source": "ASX",
+      "title": "ASX analysis quantifies retirement investor tax increase under CGT reforms",
+      "summary": "An ASX analysis provides concrete numerical examples of how the proposed inflation-indexed capital gains tax system would affect retired investors. A retiree on a 16% marginal tax rate currently faces an effective 8% tax on nominal capital gains, but would face 30% tax on inflation-indexed gains under the proposed changes — representing a 22 percentage point increase. The analysis highlights the significant impact on retirement investors who rely on equity investments for income.",
+      "url": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "priority": "high"
+    },
+    {
+      "id": "update-116",
+      "date": "2026-06-04",
+      "tag": "ASX",
+      "source": "ASX",
+      "title": "ASX analysis: CGT reform creates 22 percentage point tax increase for low-rate retirees",
+      "summary": "ASX analysis quantifies the impact of proposed CGT changes on retirees. A retired investor on a 16% marginal tax rate faces an effective tax rate increase from 8% to 30% on long-held equity gains under the new rules. The analysis highlights the significant impact of the minimum 30% tax floor on low-rate taxpayers, demonstrating how the reform disproportionately affects those in lower tax brackets.",
+      "url": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "priority": "high"
+    },
+    {
+      "id": "update-117",
+      "date": "2026-06-04",
+      "tag": "Budget",
+      "source": "Australian Shareholders Association",
+      "title": "ASA calls for capital gains averaging alongside indexation to address income bunching",
+      "summary": "The Australian Shareholders Association is calling for a capital gains averaging mechanism to be introduced alongside the inflation indexation reform. ASA argues that the current reform does not address 'income bunching' where many years of gains are realised in a single tax year, and that proper consultation should have occurred before major changes were announced. The association believes that averaging would provide more equitable treatment for investors who hold assets for extended periods.",
+      "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
       "priority": "high"
     }
   ]

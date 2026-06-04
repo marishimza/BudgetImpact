@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T08:16:26.641Z",
+  "lastUpdated": "2026-06-04T10:55:13.760Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3697,6 +3697,102 @@
     {
       "id": "suggestion-20260604-258",
       "timestamp": "2026-06-04T06:30:05.088Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: CGT reform creates 22 percentage point tax increase for low-rate retirees",
+      "description": "Analysis showing a retired investor on a 16% marginal tax rate faces an effective tax rate increase from 8% to 30% on long-held equity gains under the new CGT rules. This concrete example illustrates the significant impact of the minimum 30% tax floor on low-rate taxpayers.",
+      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT impact difference: retired investor on 16% rate faces 8% vs 30% effective tax rate on long-held equity gains under new rules",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260604-621",
+      "timestamp": "2026-06-04T10:55:08.650Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASA calls for capital gains averaging alongside indexation to address income bunching",
+      "description": "The Australian Shareholders Association is calling for a capital gains averaging mechanism to be introduced alongside the inflation indexation reform. ASA argues that the current reform does not address 'income bunching' where many years of gains are realised in a single tax year, and that proper consultation should have occurred before major changes were announced.",
+      "suggestion": "Add to budget-updates.json: Australian Shareholders Association calls for capital gains averaging mechanism alongside indexation reform to address income bunching concern",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260604-730",
+      "timestamp": "2026-06-04T10:55:08.650Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis: Inflation accounts for 56% of ASX 200 share gains over decade",
+      "description": "Budget documentation shows that inflation made up 56% of asset price growth for ASX 200 shares held for 10 years to March 2026. This data underpins the Government's rationale for replacing the CGT discount with inflation indexation, as investors in the share market have been 'undercompensated' for the impact of inflation by the current CGT settings.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis: inflation accounted for 56% of ASX 200 share gains over decade — budget documentation quantifies share market undercompensation for inflation",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260604-670",
+      "timestamp": "2026-06-04T10:55:08.650Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "low",
+      "title": "Short-term housing price impact: slump vs brief correction",
+      "description": "Whether the 2026 budget tax reforms will cause a prolonged property market slump or a brief correction. Multiple sources reference this debate, with NAB forecasting a brief correction rather than a prolonged slump. The question is whether other credible sources project a more severe downturn.",
+      "suggestion": "Add to debates.json: NAB Budget Analysis projects brief correction, while [opposing credible source] projects [slump/severe downturn]. Conflict: timeframe and severity of housing market impact.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260604-607",
+      "timestamp": "2026-06-04T10:55:08.650Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "The Real Estate Institute of Australia (REIA) President Jacob Caine claims the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes'. However, this appears to be a government projection without independent verification. The question is whether this target is achievable given infrastructure delivery timelines, housing construction capacity, and other constraints.",
+      "suggestion": "Add to debates.json: REIA President Jacob Caine (API Magazine) says $2B infrastructure initiative 'expected to enable around 65,000 additional homes', while [critical source] questions whether [the figure is achievable/reliable/independently verified].",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260604-268",
+      "timestamp": "2026-06-04T10:55:08.650Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The 30% floor may only apply to gains above inflation, not all gains. The official budget description states 'a discount based on inflation' which could mean: (nominal gain - inflation adjustment) is taxed, with a 30% floor on that taxable portion. This is a significant difference from 'tax on ALL gains is minimum 30%'. The ASX analysis also shows an example of 8% vs 30% for nominal vs indexed gains, suggesting the 30% only applies to inflation-adjusted gains.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax on ALL capital gains', verdict is disputed because the 30% floor may apply only to gains above inflation rather than all gains, making the claim an oversimplification.",
+      "source": "https://www.budget.gov.au/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260604-337",
+      "timestamp": "2026-06-04T10:55:08.650Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "description": "This specific percentage (56%) appears in ABC News citing budget Treasury data for shares held 10 years to March 2026. However, this is highly asset-class and time-period specific. Different asset classes (property vs shares vs other) and different holding periods would yield different percentages. The claim could be misapplied if cited generally.",
+      "suggestion": "Add to fact-checks.json: claim is 'inflation accounts for 56% of ASX 200 share gains over 10 years', verdict is partially_true because the 56% figure is specifically for ASX 200 shares held 10 years to March 2026, and shouldn't be applied to other asset classes or time periods.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-property-shares/2026-05-12",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260604-788",
+      "timestamp": "2026-06-04T10:55:08.650Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260604-689",
+      "timestamp": "2026-06-04T10:55:08.650Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

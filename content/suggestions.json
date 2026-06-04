@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T23:29:48.783Z",
+  "lastUpdated": "2026-06-04T06:30:12.125Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3661,6 +3661,105 @@
     {
       "id": "suggestion-20260603-166",
       "timestamp": "2026-06-03T22:23:29.706Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO confirms Division 296 legislation details and indexed thresholds",
+      "description": "The ATO confirms Better Targeted Super Concessions legislation is enacted, with 15% tax applying from 1 July 2026 on earnings relating to total superannuation balances exceeding the $3m threshold, including indexed thresholds and CGT relief provisions for SMSFs.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 (Better Targeted Super Concessions) is law — 15% tax applies from 1 July 2026 on earnings above $3m threshold with indexed thresholds confirmed",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260604-464",
+      "timestamp": "2026-06-04T06:30:05.088Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis quantifies retirement investor tax increase under CGT reforms",
+      "description": "ASX analysis provides concrete numerical example: a retired investor on a 16% marginal rate currently faces just 8% tax on nominal capital gains, but would face 30% on inflation-indexed gains under the proposed system — a 22 percentage point increase.",
+      "suggestion": "Add to budget-updates.json: ASX analysis: retired investor on 16% marginal rate faces tax rate increase from 8% to 30% on capital gains under new indexed CGT system",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260604-845",
+      "timestamp": "2026-06-04T06:30:05.088Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
+      "description": "Treasury modelling and budget analysis shows inflation comprised 56% of asset price growth for ASX 200 shares held for 10 years to March 2026, providing the quantitative basis for the indexation approach to CGT reform.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis: inflation accounted for 56% of ASX 200 share gains over decade, informing cost base indexation approach to CGT reform",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260604-269",
+      "timestamp": "2026-06-04T06:30:05.088Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the 50% CGT discount being eliminated, replaced, or grandfathered for existing properties?",
+      "description": "Government budget fact sheets show the 50% CGT discount still applies to existing properties, while media reports characterize the changes as the discount being 'replaced' or eliminated. This creates confusion about whether existing investors retain their current tax treatment.",
+      "suggestion": "Add to debates.json: view_a from budget.gov.au says existing property investors retain 50% CGT discount (example shows Michael selling in 2028 still receives 50% discount), view_b from ABC News says government 'breaks promise' with restrictions to CGT discount, implying elimination or major change",
+      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260604-921",
+      "timestamp": "2026-06-04T06:30:05.088Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "The Real Estate Institute of Australia President claims the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes.' This is a specific quantitative claim that lacks independent verification and may conflict with treasury/cost estimate skeptics.",
+      "suggestion": "Add to debates.json: view_a from API Magazine/REIA says $2B infrastructure will enable 65,000 additional homes, view_b from economic analysts question whether the $2B allocation can realistically deliver this target given infrastructure costs and housing supply chain constraints",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260604-804",
+      "timestamp": "2026-06-04T06:30:05.088Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: CGT discount 'replaced' by inflation indexation with no choice for taxpayers",
+      "description": "Multiple sources state the 50% CGT discount is being 'replaced' by inflation indexation. However, stockspot.com.au adds 'largely' when describing this replacement, suggesting there may be nuances or choices available. The official budget.gov.au states it will 'replace' the discount with 'a discount based on inflation' but doesn't clarify if this is mandatory for all asset types or if some choice remains. This could be oversimplified.",
+      "suggestion": "Add to fact-checks.json: The 50% CGT discount is being replaced by inflation indexation — verdict is PARTIALLY TRUE because while the discount is being replaced, the implementation details may allow choices in some scenarios. Needs verification of whether all taxpayers must use indexation or can opt for other treatment.",
+      "source": "https://www.budget.gov.au/budget-2026-27/tax-reform, https://www.stockspot.com.au/cgt-calculator-australia-2026/",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260604-156",
+      "timestamp": "2026-06-04T06:30:05.088Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-discount"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Minimum 30% tax rate applies to 'ALL capital gains' from July 2027",
+      "description": "This claim appears repeatedly in existing fact-checks as already verified. However, the ASX analysis states '30% on indexed gains under announced changes,' suggesting the 30% floor may apply to inflation-indexed gains, not nominal gains. A $100,000 nominal gain with $40,000 inflation would result in 30% tax on $60,000 (indexed gain), not $100,000. This is a significant distinction that could mislead taxpayers about their actual tax liability.",
+      "suggestion": "Add to fact-checks.json: The 30% minimum tax applies to indexed capital gains, not necessarily ALL nominal gains — verdict is DISPUTED/NEEDS CLARIFICATION because the rate may apply to inflation-adjusted gains rather than gross nominal gains, making the effective tax on real gains different from the headline rate.",
+      "source": "https://www.asx.com.au/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260604-955",
+      "timestamp": "2026-06-04T06:30:05.088Z",
+      "status": "pending",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
+    },
+    {
+      "id": "suggestion-20260604-258",
+      "timestamp": "2026-06-04T06:30:05.088Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

@@ -1726,6 +1726,77 @@
       "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-05-29T07:49:56.389Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million",
+      "description": "This claim frequently appears in media but is technically inaccurate. The ATO confirms Division 296 applies 15% tax on 'the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning only the investment earnings attributable to the portion of balance above $3m, NOT the entire balance above $3m. For example, someone with $4m super would only pay 15% tax on earnings attributable to the $1m above the threshold, not on the full $4m or even the $1m itself.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because the tax applies only to the earnings/returns on the portion of total superannuation balance exceeding $3m, not on the excess amount itself nor the entire balance.",
+      "source": "https://www.ato.gov.au/General/New-legislation/In-detail/Super-properties/Division-296---Better-targeted-super-concessions",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-952",
+      "timestamp": "2026-05-29T11:20:21.035Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-05-29T12:46:01.778Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Trust tax treatment reform signals shift from income to asset taxation",
+      "description": "The Government has signaled plans to reform trust tax treatment, shifting the burden from taxing incomes to taxing assets, as part of broader tax reform alongside CGT and negative gearing changes.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform flagged — the Government has indicated plans to shift the tax burden from income to assets as part of broader tax reform.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260522-321",
+      "timestamp": "2026-05-22T21:03:45.810Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-29T12:46:24.475Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "Will the $2B infrastructure initiative deliver 65,000 additional homes?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The government projects its $2 billion infrastructure initiative will enable ~65,000 additional homes. Industry groups like REIA endorse this figure as 'positive and necessary,' but independent feasibility assessment is absent from news coverage. No source validates whether the modelling assumptions are realistic.",
+      "suggestion": "Add to debates.json: budget.gov.au states the $2B infrastructure initiative 'expected to enable around 65,000 additional homes' vs apimagazine.com.au REIA President Jacob Caine 'said measures that directly support new housing supply...expected to enable around 65,000 additional homes, were positive and necessary' — but neither source independently verifies whether this projection is achievable or how it was calculated",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-577",
+      "timestamp": "2026-05-29T11:20:21.035Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.smh.com.au/politics/federal/chalmers-doubles-down-on-housing-with-2-billion-for-roads-and-pipes-20260509-p5zv9w.html",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-29T12:45:10.872Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources use the word 'ALL' when describing the 30% minimum tax rate on capital gains. However, ABC News specifically states the 30% floor applies to 'real capital gains' - meaning gains AFTER inflation adjustment. The phrase 'all gains' could mislead readers into thinking the 30% floor applies to nominal gains, when in fact it applies only to inflation-adjusted real gains. This is a significant distinction that affects how much tax investors actually pay.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax on ALL capital gains', verdict is disputed because the 30% minimum rate applies only to REAL (inflation-adjusted) capital gains, not nominal gains. The inflation indexation mechanism means investors are not taxed on inflationary gains, and the 30% floor applies only to gains above inflation.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-could-shift-investment-property-shares/10511698",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-360",
+      "timestamp": "2026-05-29T11:20:21.035Z",
+      "status": "skipped",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-29T12:45:27.209Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Senate refers Treasury Laws Amendment (More Housing, More Help) Bill 2026 to committee",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Senate has referred the Treasury Laws Amendment (More Housing, More Help) Bill 2026 to a parliamentary committee, which may delay implementation of negative gearing and CGT changes.",
+      "suggestion": "Add to budget-updates.json: The Senate has referred the Treasury Laws Amendment (More Housing, More Help) Bill 2026 to committee, with scrutiny scheduled for 25-26 May 2026 across Infrastructure, Transport, Regional Development and other portfolios.",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Senate_estimates/rrat/2026-27_Budget_estimates",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260522-525",
+      "timestamp": "2026-05-22T21:03:45.810Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-29T12:46:05.971Z"
     }
   ]
 }

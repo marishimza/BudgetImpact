@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T08:03:34.643Z",
+  "lastUpdated": "2026-06-05T12:33:15.208Z",
   "items": [
     {
       "id": "update-001",
@@ -1267,6 +1267,26 @@
       "summary": "The Australian Shareholders Association has urged the government to introduce a capital gains averaging mechanism alongside the inflation indexation reform to prevent 'income bunching'. The ASA warns that without averaging, gains realised in a single year can push taxpayers into higher marginal tax brackets, creating unfair outcomes. The association is calling for proper consultation before major changes to capital gains tax rules are announced.",
       "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
       "priority": "medium"
+    },
+    {
+      "id": "update-126",
+      "date": "2026-06-05",
+      "tag": "Superannuation",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "summary": "The ATO has published comprehensive guidance on how inflation indexation will be calculated under the new capital gains tax (CGT) rules taking effect from 1 July 2027. The guidance includes detailed cost base adjustment methodologies and worked examples covering different asset classes including shares, property, and managed funds. Tax practitioners and SMSF trustees are encouraged to review the guidance to ensure proper application of the indexation factors when calculating CGT obligations.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-127",
+      "date": "2026-06-05",
+      "tag": "Budget",
+      "source": "KPMG",
+      "title": "KPMG analysis: Implementation timeline risks as ATO prepares for CGT reform with $47.5m funding",
+      "summary": "KPMG's Federal Budget analysis highlights significant implementation challenges for the ATO and Treasury in delivering proposed CGT and negative gearing changes by the planned July 2027 commencement date. The government has allocated $47.5 million over four years to fund necessary system updates, IT infrastructure changes, and development of compliance guidance materials. KPMG notes that the tight timeline creates execution risks that could impact the effectiveness of these major tax reforms.",
+      "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "priority": "high"
     }
   ]
 }

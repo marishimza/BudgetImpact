@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T23:05:33.573Z",
+  "lastUpdated": "2026-06-05T12:34:08.437Z",
   "claims": [
     {
       "id": "fc-001",
@@ -463,6 +463,47 @@
         }
       ],
       "date_checked": "2026-06-04",
+      "category": "tax"
+    },
+    {
+      "id": "fc-024",
+      "slug": "negative-gearing-changes-effective-date",
+      "claim": "Negative gearing changes take effect from 1 July 2027",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "While existing negatively-geared properties retain benefits until 1 July 2027, new property purchases after budget night (7:30pm on 12 May 2026) are immediately ineligible for negative gearing on established properties.",
+      "detailed_explanation": "The 1 July 2027 date applies to existing negatively-geared properties, which will lose their negative gearing benefits from that date. However, for new purchases, the restrictions are immediate. Properties purchased after 7:30pm on 12 May 2026 (budget night) are ineligible for negative gearing deductions unless they are newly constructed. This creates a two-tier timeline: existing investors have a grandfathering period until July 2027, while new investors face immediate restrictions on established property purchases.",
+      "sources": [
+        {
+          "name": "William Buck",
+          "url": "https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing/",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-05",
+      "category": "tax"
+    },
+    {
+      "id": "fc-025",
+      "slug": "negative-gearing-changes-effect-from-july-2027",
+      "claim": "Negative gearing changes take effect from 1 July 2027",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The 1 July 2027 date applies to existing investments, but new purchases of established properties after 7:30pm on 12 May 2026 are immediately ineligible for negative gearing benefits.",
+      "detailed_explanation": "The claim oversimplifies the implementation timeline. The Government's negative gearing reforms have a phased approach: (1) New purchases of established properties made after 7:30pm on 12 May 2026 (budget night) are immediately ineligible for negative gearing deductions. (2) Existing negatively-geared investments retain their current treatment until 1 July 2027, when the changes fully apply. (3) New constructions and substantial renovations remain exempt until 1 July 2027. The framing of 'takes effect from 1 July 2027' may mislead investors into believing there is a grace period when, in fact, restrictions on new established property purchases are already in effect.",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-05-13/government-breaks-promise-negative-gearing-cgt-budget/2026-05-13",
+          "type": "news"
+        },
+        {
+          "name": "William Buck",
+          "url": "https://www.williambuck.com",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-05",
       "category": "tax"
     }
   ]

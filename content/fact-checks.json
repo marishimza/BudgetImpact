@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T17:50:14.695Z",
+  "lastUpdated": "2026-06-05T23:02:22.582Z",
   "claims": [
     {
       "id": "fc-001",
@@ -518,6 +518,60 @@
         {
           "name": "Budget 2026-27 - Tax Reform",
           "url": "https://www.budget.gov.au/budget-2026-27/tax-reform",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-05",
+      "category": "tax"
+    },
+    {
+      "id": "fc-027",
+      "slug": "division-296-tax-on-earnings-not-total-balance",
+      "claim": "Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "Division 296 applies a 15% tax only to the earnings attributable to the portion of total super balance exceeding the $3m threshold, not on the entire balance above $3m.",
+      "detailed_explanation": "Division 296 introduces a 15% tax on what the ATO calls the ' Div 296 amount' — specifically the earnings that relate to the Taxable Superannuation Balance (TSB) above the Low Balance Threshold (LSBT) of $3 million. This is fundamentally different from taxing the entire balance over $3m. For example, a person with $4 million in super only pays 15% on the earnings portion attributable to the $1 million above the threshold, not on the entire $4 million. The tax is calculated based on notional earnings that would have been earned on the amount exceeding the threshold, using the Senate-passed method of applying the average taxable income proportion to the excess balance.",
+      "sources": [
+        {
+          "name": "Australian Taxation Office",
+          "url": "https://www.ato.gov.au/individuals/super/super-changes/better-targeted-super-concessions",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-05",
+      "category": "superannuation"
+    },
+    {
+      "id": "fc-028",
+      "slug": "capital-gains-30-percent-minimum-tax-claim",
+      "claim": "Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The 30% minimum appears to apply as a floor on inflation-indexed (real) capital gains, not on all nominal gains before indexation adjustments.",
+      "detailed_explanation": "The claim overstates the scope of the proposed 30% minimum tax rate. According to budget.gov.au, this minimum applies to gains 'from inflation indexation' — meaning it establishes a floor on the effective tax rate applied to inflation-adjusted gains, not a flat 30% on all nominal gains. Analysis indicates that for some investors, the tax on nominal gains before indexation may differ significantly from the 30% minimum applied to indexed gains. The precise interaction between the indexation mechanism and this floor requires further clarification to fully understand the actual CGT liability for different investor scenarios.",
+      "sources": [
+        {
+          "name": "budget.gov.au",
+          "url": "https://www.budget.gov.au/tax-reform",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-05",
+      "category": "tax"
+    },
+    {
+      "id": "fc-029",
+      "slug": "cgt-discount-replaced-by-inflation-indexation",
+      "claim": "50% CGT discount replaced by inflation indexation",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "Indexation does replace the discount mechanism, but the minimum 30% tax rate floor is equally significant and often omitted in media summaries.",
+      "detailed_explanation": "The change from the 50% CGT discount to inflation indexation is accurate in terms of the calculation methodology. However, many media reports oversimplify this as a straightforward swap. The official Budget position includes a critical additional element: a minimum 30% tax rate applies on capital gains. This means the change is not just about adjusting the cost base for inflation—it also establishes a floor rate that can result in higher effective taxation for some taxpayers. The combination of indexation plus the 30% minimum represents a fundamentally different approach than either the original discount or indexation alone, and reporting only the indexation component misrepresents the full scope of the reform.",
+      "sources": [
+        {
+          "name": "Budget 2026-27",
+          "url": "https://www.budget.gov.au/publication/budget-2026-27",
           "type": "official"
         }
       ],

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T17:50:36.476Z",
+  "lastUpdated": "2026-06-05T23:01:48.388Z",
   "items": [
     {
       "id": "update-001",
@@ -1306,6 +1306,16 @@
       "title": "NAB revises housing forecast following Budget tax reforms",
       "summary": "National Australia Bank economists have revised their property market outlook following Budget night tax changes. The analysis projects a brief correction in established property prices rather than a prolonged slump, with limited market impact attributed to grandfathering provisions and new build exemptions softening the adjustment. The short-term outlook is more optimistic than earlier projections.",
       "url": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "priority": "medium"
+    },
+    {
+      "id": "update-130",
+      "date": "2026-03-17",
+      "tag": "Parliament",
+      "source": "Wikipedia",
+      "title": "Parliamentary committee endorsed CGT discount changes on 17 March 2026",
+      "summary": "A parliamentary committee formally endorsed changes to the capital gains tax discount on 17 March 2026, prior to the Budget announcement. This endorsement represents an important milestone in the legislative process for the proposed CGT reform. The timing provides valuable context for understanding when the reform proposal gained parliamentary support ahead of the May Budget.",
+      "url": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
       "priority": "medium"
     }
   ]

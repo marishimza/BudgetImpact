@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T08:04:03.324Z",
+  "lastUpdated": "2026-06-05T23:02:43.768Z",
   "debates": [
     {
       "id": "debate-001",
@@ -386,6 +386,25 @@
         "sources": [
           "https://www.budget.gov.au/content/04-tax-reform.htm"
         ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-016",
+      "slug": "will-2b-infrastructure-initiative-deliver-65000-homes",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "The Government projects its $2 billion infrastructure initiative will enable around 65,000 additional homes, but housing economists question whether this target is achievable given infrastructure lead times and construction sector capacity constraints.",
+      "view_a": {
+        "label": "Government Projection",
+        "argument": "REIA President Jacob Caine states the initiative is 'expected to enable around 65,000 additional homes' as a direct result of strategic infrastructure investment to unlock housing supply.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Economist Scepticism",
+        "argument": "Housing economists project significantly lower delivery rates, noting that infrastructure lead times typically span 3-7 years before construction can commence, and the construction sector is operating near capacity constraints that limit the rate of new home completions.",
+        "sources": []
       },
       "verdict": null
     }

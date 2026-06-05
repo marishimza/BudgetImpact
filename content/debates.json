@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T18:12:07.461Z",
+  "lastUpdated": "2026-06-05T08:04:03.324Z",
   "debates": [
     {
       "id": "debate-001",
@@ -362,6 +362,29 @@
             "author": "Research Team",
             "url": null
           }
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-015",
+      "slug": "labor-negative-gearing-broken-promise-or-legitimate-reform",
+      "title": "Broken promise or legitimate policy reversal? Labor's negative gearing reform",
+      "category": "tax_reform",
+      "type": "interpretation_difference",
+      "summary": "Labor campaigned against negative gearing reform before the 2025 election, but the 2026 budget implements restrictions on negative gearing and capital gains tax discounts. The debate centres on whether this constitutes a broken promise or whether the limited application (new builds only, from 2027) differs sufficiently from the proposal Labor previously opposed.",
+      "view_a": {
+        "label": "Broken Promise",
+        "argument": "ABC.net.au explicitly states the government broke its promise with restrictions to negative gearing and capital gains tax discount. Despite campaigning against such reforms before the 2025 election, the 2026 budget implements exactly what Labor previously opposed.",
+        "sources": [
+          "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+        ]
+      },
+      "view_b": {
+        "label": "Legitimate Policy Narrowing",
+        "argument": "Budget.gov.au frames this as targeted reform limited to new builds from July 2027. This deliberate narrowing differs from the broader reform proposals Labor previously opposed, suggesting a policy refinement rather than abandonment of principles. The Coalition calls the approach 'toxic' and built on 'bad faith,' while the government emphasises the targeted nature of the changes.",
+        "sources": [
+          "https://www.budget.gov.au/content/04-tax-reform.htm"
         ]
       },
       "verdict": null

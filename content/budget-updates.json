@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T23:05:03.753Z",
+  "lastUpdated": "2026-06-05T08:03:34.643Z",
   "items": [
     {
       "id": "update-001",
@@ -1237,6 +1237,36 @@
       "summary": "The Government has signaled plans to shift taxation burden from income to assets, with changes to trust structures expected as part of a broader tax reform package. Reform to trust tax treatment is flagged as a core component of Budget 2026, working alongside changes to negative gearing and capital gains tax. The measures are intended to rebalance the taxation system and are detailed in the Guardian's explanation of the 2026 federal budget tax reforms.",
       "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
       "priority": "high"
+    },
+    {
+      "id": "update-123",
+      "date": "2026-06-05",
+      "tag": "ASX",
+      "source": "ASX",
+      "title": "ASX analysis quantifies CGT reform impact on retirement investors",
+      "summary": "ASX analysis provides a concrete numerical example showing the effective tax rate increase for a retired investor on a 16% marginal tax rate: from 8% on nominal gains under current rules to 30% on indexed gains under the proposed changes, representing a 22 percentage point increase. The analysis illustrates how the shift from nominal to indexed capital gains calculations significantly impacts retired investors relying on investment income.",
+      "url": "https://www.asx.com.au/announcements/market-news",
+      "priority": "high"
+    },
+    {
+      "id": "update-124",
+      "date": "2026-06-05",
+      "tag": "Property",
+      "source": "ABC News",
+      "title": "ABC Budget 2026: Winners and losers — $6.4 billion housing measure cost confirmed",
+      "summary": "ABC News reports the official costing of the housing package containing negative gearing and CGT changes at $6.4 billion over four years. The analysis examines distributional impacts, identifying which groups benefit and which face losses from the reforms. This represents a significant confirmation of the government's major housing policy direction.",
+      "url": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "priority": "high"
+    },
+    {
+      "id": "update-125",
+      "date": "2026-06-05",
+      "tag": "Budget",
+      "source": "Australian Shareholders Association",
+      "title": "ASA calls for capital gains averaging alongside indexation to address income bunching",
+      "summary": "The Australian Shareholders Association has urged the government to introduce a capital gains averaging mechanism alongside the inflation indexation reform to prevent 'income bunching'. The ASA warns that without averaging, gains realised in a single year can push taxpayers into higher marginal tax brackets, creating unfair outcomes. The association is calling for proper consultation before major changes to capital gains tax rules are announced.",
+      "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "priority": "medium"
     }
   ]
 }

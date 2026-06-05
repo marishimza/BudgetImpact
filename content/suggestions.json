@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T08:04:14.528Z",
+  "lastUpdated": "2026-06-05T11:18:38.076Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3812,62 +3812,106 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The ATO has published detailed guidance on how inflation indexation will be calculated under the new CGT rules, including cost base adjustment methodologies and worked examples for different asset classes.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260605-891",
+      "timestamp": "2026-06-05T11:18:33.321Z",
+      "status": "pending",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury modelling quantifies CGT reform impact on housing market: $6.4bn package designed to shift investor behaviour",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Treasury analysis underpinning the Budget shows the $6.4 billion housing package is designed to deter speculative property investment while encouraging new construction, with modelling indicating how CGT changes will interact with negative gearing restrictions.",
+      "suggestion": "Add to budget-updates.json: Treasury modelling quantifies CGT reform impact on housing market: $6.4bn package designed to shift investor behaviour",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260605-774",
+      "timestamp": "2026-06-05T11:18:33.321Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG analysis: Implementation timeline risks as ATO prepares for CGT reform with $47.5m funding",
+      "description": "KPMG's Federal Budget analysis highlights implementation challenges for the ATO and Treasury in delivering CGT and negative gearing changes by July 2027, with $47.5m allocated over four years for system updates and compliance guidance.",
+      "suggestion": "Add to budget-updates.json: KPMG analysis: Implementation timeline risks as ATO prepares for CGT reform with $47.5m funding",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260605-176",
+      "timestamp": "2026-06-05T11:18:33.321Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "CGT discount replacement mechanism: cost base indexation vs inflation indexation",
+      "description": "There is a factual conflict about what specific mechanism replaces the 50% CGT discount. NAB Budget Analysis claims the discount is 'replaced by cost base indexation', while other sources describe 'inflation indexation'. These are technically different calculation methods with different outcomes for investors, making this a genuine factual dispute rather than just a terminology difference.",
+      "suggestion": "Add to debates.json: NAB Budget Analysis states 'CGT discount replaced by cost base indexation — implications for investors', while other sources (including multiple claims in pending suggestions) describe the replacement as 'inflation indexation'. These are distinct calculation methods that produce different CGT outcomes.",
+      "source": "https://www.nab.com.au/content/nab/en/home/lakeside/microsites/budget-2026",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260605-149",
+      "timestamp": "2026-06-05T11:18:33.321Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "API Magazine/REIA claims the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes'. However, this is a forward-looking projection from an industry body, not a confirmed delivery figure. The gap between 'expected to enable' and 'will deliver' represents a factual dispute about the reliability of this housing supply estimate.",
+      "suggestion": "Add to debates.json: REIA President Jacob Caine (via API Magazine) says the initiative 'expected to enable around 65,000 additional homes' were 'positive and necessary steps'. This conflicts with budget.gov.au's more cautious 'expected to enable' framing, and critics may question whether the 65,000 figure is achievable or just aspirational.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260605-890",
+      "timestamp": "2026-06-05T11:18:33.321Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "description": "The ABC and budget analysis cite Treasury data that inflation made up 56% of asset price growth for ASX 200 shares held for 10 years to March 2026. This is a specific statistic that appears in multiple sources and is used to justify CGT reform. However, the claim only applies to shares held for exactly 10 years and may not generalize to other asset classes or holding periods. The claim uses '56% of asset price growth' (not total value), which could be misrepresented as '56% of returns' or applied to different timeframes.",
+      "suggestion": "Add to fact-checks.json: claim is 'inflation accounts for 56% of ASX 200 share gains over 10 years to March 2026', verdict is verified because budget.gov.au and Treasury sources confirm this figure, but clarification needed that this applies specifically to 10-year holding period and to shares (not property).",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-investment-shift/2026-05-13",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260605-681",
+      "timestamp": "2026-06-05T11:18:33.321Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: A retired investor on a 16% marginal rate faces 8% tax on nominal gains (versus 30% on indexed gains) under the current CGT system",
+      "description": "The ASX analysis states that under current rules, a retired investor on 16% marginal rate selling a long-held equity portfolio 'faces 8% tax on nominal gains'. This creates a stark 8% vs 30% comparison used to argue for reform. However, the 8% figure results from the 50% CGT discount halving the effective rate (16% × 50% = 8%). This is mathematically correct but media coverage may oversimplify this as 'paying only 8% tax' without explaining the discount mechanism.",
+      "suggestion": "Add to fact-checks.json: claim is 'retired investor on 16% marginal rate pays 8% effective tax on capital gains under current rules', verdict is verified because ASX analysis confirms the calculation (16% × 50% discount = 8%), but note this reflects the 50% discount mechanism, not a special low rate.",
+      "source": "https://www.asx.com.au/au/resources/2026-27-federal-budget/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260605-714",
+      "timestamp": "2026-06-05T11:18:33.321Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260605-324",
+      "timestamp": "2026-06-05T11:18:33.321Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
     }
   ],
   "implemented": [
-    {
-      "type": "debate_page",
-      "priority": "high",
-      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
-      "description": "Real conflict between industry groups (REIA, Property Council of Australia) warning that reduced investment attractiveness will shrink rental supply versus government-aligned economists who argue negative gearing restrictions improve affordability by directing investment toward new supply. This is a factual disagreement about cause and effect with different projections.",
-      "suggestion": "Add to debates.json: View A from REIA and Property Council of Australia (slateandsage.com.au) warns that reducing investment attractiveness will decrease rental supply over time. View B from Law Society Journal (lsj.com.au) citing economists who claim negative gearing is the key reason for the housing affordability and rental crisis, implying restrictions will improve outcomes.",
-      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260529-850",
-      "timestamp": "2026-05-29T06:05:39.809Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-08/how-tax-reform-cgt-negative-gearing-changes-impacts-renters/106644610",
-      "implemented_at": "2026-05-29T07:50:34.684Z"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Short-term housing price impact: slump vs brief correction",
-      "description": "Economists cited in The Guardian make conflicting predictions about the severity of housing price impacts from the negative gearing and CGT changes. One perspective expects a significant national slump (first since 2022), while another suggests any fall would be short-term due to persistent housing shortages. Both positions come from credible economic analysts but differ on whether the market impact will be substantial or mild.",
-      "suggestion": "Add to debates.json: The Guardian reports economists believe 'home values are set for their first national slump since 2022' due to CGT and negative gearing changes, while simultaneously noting 'Australia's persistent housing shortage means any fall would be short term' - creating an apparent contradiction between predicted severity and duration of price impacts.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260522-143",
-      "timestamp": "2026-05-22T10:42:25.759Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-29T07:51:05.519Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Trust tax treatment reform: Government signals shift from income to asset taxation",
-      "description": "The 2026 Budget indicates the Government plans to reform trust tax treatment, shifting the burden away from taxing income and more towards taxing assets. This follows similar moves on negative gearing and CGT, forming part of a broader tax system rebalancing according to Treasurer Jim Chalmers.",
-      "suggestion": "Add Trust tax treatment reform flagged — Government signals plan to shift burden from income to assets",
-      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260522-781",
-      "timestamp": "2026-05-22T16:15:40.059Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-29T07:51:29.584Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Venture capital tax incentives expanded from July 2027 in budget measure",
-      "description": "The 2026 Budget includes expansion of venture capital tax incentives, with the new settings due to commence from 1 July 2027. This measure is part of the broader tax reform agenda targeting investment in innovation and startups.",
-      "suggestion": "Add Venture capital tax incentives expansion confirmed from July 2027",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260522-491",
-      "timestamp": "2026-05-22T16:15:40.059Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-29T07:52:02.076Z"
-    },
     {
       "type": "fact_check",
       "priority": "high",
@@ -5280,21 +5324,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases detailed Division 296 calculation methodology and Total Superannuation Balance guidance",
-      "description": "The ATO has published comprehensive guidance on how Division 296 tax will be calculated, including the Total Superannuation Balance (TSB) measurement methodology, the $3m threshold application, and how earnings above the Low Balance Threshold (LSBT) are taxed at 15%. This confirms indexed thresholds for 2026-27 and CGT relief provisions for SMSFs.",
-      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 calculation methodology and indexed thresholds for 2026-27 — detailed TSB measurement guidance released",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260529-119",
-      "timestamp": "2026-05-29T06:05:39.809Z",
-      "status": "skipped",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-05-29T07:49:56.389Z"
-    },
     {
       "type": "debate_page",
       "priority": "high",

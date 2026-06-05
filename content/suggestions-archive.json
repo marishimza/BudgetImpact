@@ -1658,6 +1658,74 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-05-28T23:10:47.074Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
+      "description": "Real conflict between industry groups (REIA, Property Council of Australia) warning that reduced investment attractiveness will shrink rental supply versus government-aligned economists who argue negative gearing restrictions improve affordability by directing investment toward new supply. This is a factual disagreement about cause and effect with different projections.",
+      "suggestion": "Add to debates.json: View A from REIA and Property Council of Australia (slateandsage.com.au) warns that reducing investment attractiveness will decrease rental supply over time. View B from Law Society Journal (lsj.com.au) citing economists who claim negative gearing is the key reason for the housing affordability and rental crisis, implying restrictions will improve outcomes.",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-850",
+      "timestamp": "2026-05-29T06:05:39.809Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-08/how-tax-reform-cgt-negative-gearing-changes-impacts-renters/106644610",
+      "implemented_at": "2026-05-29T07:50:34.684Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Short-term housing price impact: slump vs brief correction",
+      "description": "Economists cited in The Guardian make conflicting predictions about the severity of housing price impacts from the negative gearing and CGT changes. One perspective expects a significant national slump (first since 2022), while another suggests any fall would be short-term due to persistent housing shortages. Both positions come from credible economic analysts but differ on whether the market impact will be substantial or mild.",
+      "suggestion": "Add to debates.json: The Guardian reports economists believe 'home values are set for their first national slump since 2022' due to CGT and negative gearing changes, while simultaneously noting 'Australia's persistent housing shortage means any fall would be short term' - creating an apparent contradiction between predicted severity and duration of price impacts.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260522-143",
+      "timestamp": "2026-05-22T10:42:25.759Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-29T07:51:05.519Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Trust tax treatment reform: Government signals shift from income to asset taxation",
+      "description": "The 2026 Budget indicates the Government plans to reform trust tax treatment, shifting the burden away from taxing income and more towards taxing assets. This follows similar moves on negative gearing and CGT, forming part of a broader tax system rebalancing according to Treasurer Jim Chalmers.",
+      "suggestion": "Add Trust tax treatment reform flagged — Government signals plan to shift burden from income to assets",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260522-781",
+      "timestamp": "2026-05-22T16:15:40.059Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-29T07:51:29.584Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Venture capital tax incentives expanded from July 2027 in budget measure",
+      "description": "The 2026 Budget includes expansion of venture capital tax incentives, with the new settings due to commence from 1 July 2027. This measure is part of the broader tax reform agenda targeting investment in innovation and startups.",
+      "suggestion": "Add Venture capital tax incentives expansion confirmed from July 2027",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260522-491",
+      "timestamp": "2026-05-22T16:15:40.059Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-29T07:52:02.076Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases detailed Division 296 calculation methodology and Total Superannuation Balance guidance",
+      "description": "The ATO has published comprehensive guidance on how Division 296 tax will be calculated, including the Total Superannuation Balance (TSB) measurement methodology, the $3m threshold application, and how earnings above the Low Balance Threshold (LSBT) are taxed at 15%. This confirms indexed thresholds for 2026-27 and CGT relief provisions for SMSFs.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 calculation methodology and indexed thresholds for 2026-27 — detailed TSB measurement guidance released",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260529-119",
+      "timestamp": "2026-05-29T06:05:39.809Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-29T07:49:56.389Z"
     }
   ]
 }

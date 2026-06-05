@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T12:34:08.437Z",
+  "lastUpdated": "2026-06-05T17:50:14.695Z",
   "claims": [
     {
       "id": "fc-001",
@@ -501,6 +501,24 @@
           "name": "William Buck",
           "url": "https://www.williambuck.com",
           "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-05",
+      "category": "tax"
+    },
+    {
+      "id": "fc-026",
+      "slug": "capital-gains-30-percent-minimum-tax-all-gains",
+      "claim": "30% minimum tax on ALL capital gains from July 2027",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "The 30% minimum rate applies only to gains above inflation after cost base indexation, not to total nominal capital gains.",
+      "detailed_explanation": "The claim oversimplifies the new capital gains tax rules. While Budget 2026-27 introduces a 'minimum 30% tax on gains,' this floor applies to inflation-indexed gains, not the full nominal gain. The reform replaces the 50% CGT discount with inflation-based cost base indexation. Under this system, the cost base is adjusted for inflation, and the 30% minimum applies only to the real gain above inflation—not the entire nominal gain. For example, if property purchased for $500,000 is sold for $700,000 after 10% cumulative inflation, the indexed cost base rises to $550,000, leaving only $150,000 as the taxable gain subject to the 30% floor. The remaining $50,000 represents inflation recovery and is not subject to the 30% minimum. The phrasing 'on ALL gains' misleads taxpayers into believing their entire nominal gain is taxed at 30%, when in reality only the inflation-adjusted gain is subject to this floor. The effective tax burden depends on the inflation rate during the holding period.",
+      "sources": [
+        {
+          "name": "Budget 2026-27 - Tax Reform",
+          "url": "https://www.budget.gov.au/budget-2026-27/tax-reform",
+          "type": "official"
         }
       ],
       "date_checked": "2026-06-05",

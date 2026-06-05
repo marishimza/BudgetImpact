@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T12:33:15.208Z",
+  "lastUpdated": "2026-06-05T17:50:36.476Z",
   "items": [
     {
       "id": "update-001",
@@ -1287,6 +1287,26 @@
       "summary": "KPMG's Federal Budget analysis highlights significant implementation challenges for the ATO and Treasury in delivering proposed CGT and negative gearing changes by the planned July 2027 commencement date. The government has allocated $47.5 million over four years to fund necessary system updates, IT infrastructure changes, and development of compliance guidance materials. KPMG notes that the tight timeline creates execution risks that could impact the effectiveness of these major tax reforms.",
       "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
       "priority": "high"
+    },
+    {
+      "id": "update-128",
+      "date": "2026-05-12",
+      "tag": "Parliament",
+      "source": "ABC News",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "summary": "The government has formally introduced enabling legislation codifying changes to negative gearing and capital gains tax. The Bill specifies the 7:30pm Budget Night cutoff for restrictions on established properties, confirms new builds remain exempt, and establishes the inflation-indexed CGT discount replacing the existing 50% discount from 1 July 2027. The legislation is currently before the Senate with debate timeline now publicly documented.",
+      "url": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "priority": "high"
+    },
+    {
+      "id": "update-129",
+      "date": "2026-06-05",
+      "tag": "Property",
+      "source": "ABC News",
+      "title": "NAB revises housing forecast following Budget tax reforms",
+      "summary": "National Australia Bank economists have revised their property market outlook following Budget night tax changes. The analysis projects a brief correction in established property prices rather than a prolonged slump, with limited market impact attributed to grandfathering provisions and new build exemptions softening the adjustment. The short-term outlook is more optimistic than earlier projections.",
+      "url": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "priority": "medium"
     }
   ]
 }

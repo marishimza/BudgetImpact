@@ -1929,6 +1929,75 @@
       "timestamp": "2026-05-24T05:54:36.932Z",
       "status": "implemented",
       "implemented_at": "2026-05-29T23:09:42.896Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
+      "description": "Real estate industry bodies (REIA and Property Council) warn the policy will reduce rental supply as investors exit the market, while the government explicitly designed the measure to 'focus tax support on new supply' to increase housing stock. These represent conflicting factual predictions about the same policy's market effects.",
+      "suggestion": "Add to debates.json: REIA and Property Council of Australia from [slateandsage.com.au] and [apimagazine.com.au] warn that making property investment less attractive will reduce rental supply over time, contradicting the government rationale that limiting negative gearing to new builds from budget.gov.au 'focuses tax support on new supply' to increase housing availability.",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-446",
+      "timestamp": "2026-05-30T05:41:56.853Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-08/how-tax-reform-cgt-negative-gearing-changes-impacts-renters/106644610",
+      "implemented_at": "2026-05-30T06:42:26.424Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ABC analysis: CGT changes could shift investment from property to shares",
+      "description": "The ABC reports that capital gains tax changes may redirect investment away from property toward shares, as the current flat 50% discount is replaced with inflation-based indexation and a minimum 30% tax on real gains from July 2027.",
+      "suggestion": "Add to budget-updates.json: ABC analysis suggests CGT reform may drive investment shift from property to shares, as the 50% discount is replaced by inflation indexation and a minimum 30% tax on real capital gains.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260524-524",
+      "timestamp": "2026-05-24T09:48:26.399Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-30T06:42:50.193Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "William Buck: Federal Budget introduces significant reforms to negative gearing",
+      "description": "Accounting firm William Buck confirms negative gearing reforms restrict access to tax benefits from 1 July 2027 for established properties purchased after 7:30pm on budget night (12 May 2026), with new builds remaining exempt.",
+      "suggestion": "Add to budget-updates.json: William Buck analysis confirms negative gearing changes remove tax benefits from 1 July 2027 for established properties purchased after 7:30pm on 12 May 2026, with newly built homes remaining eligible.",
+      "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260524-821",
+      "timestamp": "2026-05-24T09:48:26.399Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-30T06:43:05.091Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis: Inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "description": "Treasury modelling has quantified that over the past decade, inflation accounted for 56% of total capital gains on ASX 200 shares. This data underpins the Government's rationale for replacing the flat 50% CGT discount with inflation indexation, arguing that investors should not pay tax on gains that merely compensate for inflation rather than real wealth creation.",
+      "suggestion": "Add Treasury analysis: Inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "source": "https://treasury.gov.au/review/review-of-the-australian-capital-gains-tax-regime",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260524-850",
+      "timestamp": "2026-05-24T05:54:36.932Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-30T06:42:30.604Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources (ABC, ASX) describe the new minimum 30% tax as applying to 'all gains' or 'ALL gains' from July 2027. However, the official budget.gov.au states 'a minimum 30 per cent tax on gains' while abc.net.au's original reporting used the phrase 'real capital gains accruing' - suggesting the minimum applies to inflation-adjusted gains, not every dollar of gain. This is a significant distinction that could mislead taxpayers about their potential liability.",
+      "suggestion": "Add to fact-checks.json: claim is 'the minimum 30% applies to ALL capital gains', verdict is PARTIALLY_TRUE because the minimum 30% rate applies specifically to real (inflation-adjusted) capital gains, not to nominal gains. The inflation indexation adjustment reduces the taxable gain first, and then the minimum 30% floor applies to that reduced amount.",
+      "source": "https://www.budget.gov.au/tax-reform",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260524-877",
+      "timestamp": "2026-05-24T05:54:36.932Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-30T06:42:35.738Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T06:49:46.348Z",
+  "lastUpdated": "2026-06-06T11:20:15.276Z",
   "items": [
     {
       "id": "update-001",
@@ -1347,6 +1347,16 @@
       "summary": "The Australian Shareholders Association is urging the Government to introduce a capital gains averaging mechanism to address 'income bunching' where gains realised in a single tax year could push taxpayers into higher brackets. The ASA argues that such a mechanism would complement the existing indexation method for capital gains, providing a more equitable approach to taxing investment returns. This proposal comes as part of the ASA's pre-budget submission for the 2026-27 federal budget cycle.",
       "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
       "priority": "medium"
+    },
+    {
+      "id": "update-134",
+      "date": "2026-06-06",
+      "tag": "Parliament",
+      "source": "budget.gov.au",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "summary": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has been formally lodged with Parliament, containing the negative gearing restrictions and capital gains tax reform measures announced in the 2026-27 Budget. The bill will now face Senate scrutiny as part of the legislative process to implement key housing affordability measures. Taxpayers and property investors should monitor the bill's progress through Parliament as these reforms will significantly impact property investment strategies.",
+      "url": "https://budget.gov.au/",
+      "priority": "high"
     }
   ]
 }

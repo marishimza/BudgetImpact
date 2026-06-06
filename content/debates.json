@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T23:02:43.768Z",
+  "lastUpdated": "2026-06-06T11:21:17.204Z",
   "debates": [
     {
       "id": "debate-001",
@@ -405,6 +405,53 @@
         "label": "Economist Scepticism",
         "argument": "Housing economists project significantly lower delivery rates, noting that infrastructure lead times typically span 3-7 years before construction can commence, and the construction sector is operating near capacity constraints that limit the rate of new home completions.",
         "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-017",
+      "slug": "labor-negative-gearing-broken-promise-debate",
+      "title": "Are Labor's negative gearing changes a 'broken promise' or legitimate policy evolution?",
+      "category": "tax",
+      "type": "interpretation_difference",
+      "summary": "The 2026 federal budget introduced changes to negative gearing and capital gains tax rules. The opposition and some media outlets characterise this as breaking the government's 2019 election commitment, while the government argues this represents legitimate policy evolution in response to changed economic circumstances.",
+      "view_a": {
+        "label": "Broken Promise",
+        "argument": "The government explicitly promised during the 2019 election not to change negative gearing rules. The 2026 budget changes to restrict negative gearing on new builds and modify capital gains tax treatment directly contradict this specific commitment, constituting a broken promise to voters.",
+        "sources": [
+          "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+        ]
+      },
+      "view_b": {
+        "label": "Legitimate Policy Evolution",
+        "argument": "Prime Minister Albanese and government sources argue this represents responsible policy adaptation rather than promise-breaking. The government contends that economic circumstances have fundamentally changed since 2019, and adapting negative gearing settings to current housing market and fiscal conditions is legitimate policy evolution rather than a breach of trust with voters.",
+        "sources": [
+          "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-018",
+      "slug": "cgt-discount-preserved-or-eliminated-for-established-homes",
+      "title": "CGT discount: preserved for all properties or eliminated for established homes?",
+      "category": "housing",
+      "type": "factual_dispute",
+      "summary": "A factual conflict exists regarding whether the government's housing tax changes preserve the 50% CGT discount as an available option or effectively eliminate it for established properties. Budget materials state investors can 'choose' between the discount and new arrangements, while critics and media characterize this as breaking a promise by restricting the discount.",
+      "view_a": {
+        "label": "Government position",
+        "argument": "The budget documentation states investors can 'choose' the 50 per cent CGT discount or the new arrangements, implying the discount remains available as an optional choice rather than being eliminated.",
+        "sources": [
+          "https://budget.gov.au/content/04-tax-reform.htm"
+        ]
+      },
+      "view_b": {
+        "label": "Critics and media",
+        "argument": "Media outlets and the Coalition characterize the policy changes as effectively eliminating or restricting the 50% CGT discount for established properties, representing a broken promise. The Coalition has labeled these changes 'toxic'.",
+        "sources": [
+          "https://abc.net.au",
+          "https://www.abc.net.au/news/2026-05-01/federal-budget-housing-property-changes-explained"
+        ]
       },
       "verdict": null
     }

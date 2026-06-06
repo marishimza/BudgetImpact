@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T23:02:43.770Z",
+  "lastUpdated": "2026-06-06T05:47:10.158Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3920,74 +3920,96 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The ATO has published detailed guidance to help investors and tax professionals calculate indexed cost bases under the new CGT rules taking effect 1 July 2027.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260606-226",
+      "timestamp": "2026-06-06T05:47:03.121Z",
+      "status": "pending",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG flags implementation timeline risks as ATO prepares for CGT reform",
+      "description": "Analysis identifies potential challenges with the ATO's implementation timeline for the CGT indexation changes, noting the $47.5 million funding allocation for Treasury and ATO.",
+      "suggestion": "Add to budget-updates.json: KPMG analysis flags implementation timeline risks as ATO prepares for CGT reform with $47.5m funding",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260606-256",
+      "timestamp": "2026-06-06T05:47:03.121Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Australian Shareholders Association calls for capital gains averaging mechanism alongside indexation",
+      "description": "ASA is urging the Government to introduce a capital gains averaging mechanism to address 'income bunching' where gains realised in a single tax year could push taxpayers into higher brackets.",
+      "suggestion": "Add to budget-updates.json: ASA calls for capital gains averaging mechanism alongside indexation to address income bunching",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260606-158",
+      "timestamp": "2026-06-06T05:47:03.121Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will 2026 housing tax reforms increase or decrease rental supply?",
+      "description": "Industry bodies express conflicting views on whether restricting negative gearing and CGT changes will help or harm rental supply. REIA's leadership endorses the measures while its broader membership warns of reduced rental supply.",
+      "suggestion": "Add to debates.json: view_a from REIA/Property Council (slateandsage.com.au) warns that reducing property investment attractiveness 'could reduce rental supply over time'; view_b from REIA President Jacob Caine (apimagazine.com.au) says the measures including $2B infrastructure 'were positive and necessary steps toward addressing Australia's housing shortage'",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors and https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260606-195",
+      "timestamp": "2026-06-06T05:47:03.121Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: CGT discount is being 'completely replaced' by inflation indexation with no choice for taxpayers",
+      "description": "The stockspot.com.au source says the 50% CGT discount would be 'largely replaced' by inflation indexation, not completely replaced. The ASX and ASA sources note that investors could potentially have a choice between the old discount and new indexation. The claim that taxpayers have 'no choice' may be oversimplified - the exact mechanism of how the transition works for existing assets versus new purchases needs verification.",
+      "suggestion": "Add to fact-checks.json: claim is '50% CGT discount completely replaced with no choice', verdict is partially_true because the official budget.gov.au source describes replacing the discount with 'a discount based on inflation' but some analysis suggests there may be transitional provisions or choices for certain asset classes. The 'largely replaced' qualifier in Stockspot suggests nuance that 'completely replaced' claims miss.",
+      "source": "https://www.stockspot.com.au/cgt-calculator-australia/",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260606-991",
+      "timestamp": "2026-06-06T05:47:03.121Z",
+      "status": "pending",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Minimum 30% tax applies to ALL capital gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The budget.gov.au source says 'introduce a minimum 30% tax on gains' from 1 July 2027. However, the ASX analysis shows a retired investor on 16% marginal rate currently faces 8% tax on nominal gains (vs 30% on indexed gains under new rules). This raises a critical question: does the 30% minimum apply to the full gain, or only to the indexed/inflation-adjusted portion? The word 'minimum' suggests there could be circumstances where gains are taxed at less than 30% (e.g., for assets with no real gain after inflation). Claims that it applies to 'ALL gains' may oversimplify the actual application.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax applies to ALL capital gains', verdict is disputed because the 'minimum' language suggests a floor, not necessarily a rate applied to all gains equally. Sources indicate the 30% applies to indexed gains, implying real gains (above inflation) may be treated differently than nominal gains.",
+      "source": "https://www.budget.gov.au/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260606-626",
+      "timestamp": "2026-06-06T05:47:03.121Z",
+      "status": "pending",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
+    },
+    {
+      "id": "suggestion-20260606-880",
+      "timestamp": "2026-06-06T05:47:03.121Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
     }
   ],
   "implemented": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
-      "description": "Budget analysis shows inflation comprised 56 per cent of asset price growth for ASX 200 shares held for 10 years to March 2026, providing data justification for CGT indexation reform.",
-      "suggestion": "Add to budget-updates.json: Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260523-561",
-      "timestamp": "2026-05-23T09:43:55.109Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-29T23:08:25.799Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis details CGT reform impact on ETF and Listed Investment Vehicle investors",
-      "description": "The ASX published an investor update analysing how the proposed CGT changes affect ETFs and Listed Investment Vehicles (LIVs), including practical implications for share market investors.",
-      "suggestion": "Add to budget-updates.json: ASX analysis details CGT reform impact on ETF and Listed Investment Vehicle investors - The exchange's investor update examines how indexation and the 30% minimum tax floor apply to these investment vehicles, noting share market investors have been 'undercompensated' for inflation under current settings.",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260523-111",
-      "timestamp": "2026-05-23T14:54:32.219Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-29T23:08:43.234Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Venture capital tax incentives expanded from July 2027 in budget measure",
-      "description": "Budget measure expands venture capital tax incentives, extending the program from 1 July 2027 as part of broader tax reform package.",
-      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expanded from July 2027 - Budget measure extends VC tax incentive program, part of the government's broader shift from taxing income to taxing assets.",
-      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260523-680",
-      "timestamp": "2026-05-23T14:54:32.219Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-29T23:09:20.513Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Foreign resident capital gains notification threshold remains at $50m",
-      "description": "Despite earlier expectations, foreign resident capital gains notification legislation has been deferred again, with the threshold remaining at $50 million.",
-      "suggestion": "Add to budget-updates.json: Foreign resident capital gains notification legislation deferred again - threshold stays at $50m; legislation not proceeding in this budget cycle despite earlier indications.",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260523-283",
-      "timestamp": "2026-05-23T14:54:32.219Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-29T23:09:33.708Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes",
-      "description": "The ATO has released guidance confirming that investors holding shares acquired before 20 September 1985 can access a valuation reset to establish a new cost base ahead of the CGT discount reforms taking effect from 1 July 2027. This grandfathering arrangement allows legacy shareholders to potentially benefit from the new inflation-indexed cost base rules.",
-      "suggestion": "Add ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes",
-      "source": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-events-and-calculation-methods/cgt-events/creating-or-varying-a-cgt-coupon",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260524-531",
-      "timestamp": "2026-05-24T05:54:36.932Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-29T23:09:42.896Z"
-    },
     {
       "type": "debate_page",
       "priority": "high",

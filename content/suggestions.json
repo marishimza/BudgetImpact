@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T11:21:17.208Z",
+  "lastUpdated": "2026-06-06T15:06:38.597Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -3968,75 +3968,107 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
+    },
     {
       "type": "content_update",
       "priority": "high",
-      "title": "ATO confirms Division 296 indexed thresholds and CGT relief details",
-      "description": "The ATO has officially published details on the Division 296 superannuation tax thresholds for 2026–27, including indexed thresholds and CGT relief provisions for affected taxpayers.",
-      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details",
+      "title": "ATO releases Division 296 indexed thresholds and CGT relief details for SMSFs",
+      "description": "The ATO has confirmed indexed thresholds for the Division 296 (Better Targeted Super Concessions) tax that applies from 1 July 2026, along with CGT relief provisions for SMSFs affected by the high-balance super tax.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details for SMSFs — 15% tax applies on earnings above $3m threshold with indexed thresholds and CGT relief confirmed",
       "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260530-768",
-      "timestamp": "2026-05-30T09:51:25.751Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implemented_at": "2026-05-30T11:16:30.627Z"
+      "id": "suggestion-20260606-192",
+      "timestamp": "2026-06-06T15:06:32.684Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has been formally lodged with Parliament, containing the negative gearing and CGT reform measures.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament — contains negative gearing restrictions and CGT discount replacement measures",
+      "source": "https://budget.gov.au/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260606-362",
+      "timestamp": "2026-06-06T15:06:32.685Z",
+      "status": "pending",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
     },
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for investors",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ASX analysis details how CGT indexation versus minimum tax floor will create different outcomes for assets held long-term versus short-term, with transitional rules for assets purchased before 1 July 2027. Particularly relevant for Listed Investment Companies and ETFs with embedded gains.",
-      "suggestion": "Add to budget-updates.json: ASX investor update provides detailed breakdown of CGT reform impact on Listed Investment Vehicles and ETFs, explaining how the interaction between inflation indexation and 30% minimum tax creates different effective tax rates depending on holding period and asset type.",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "title": "NAB revises housing forecast following Budget tax reforms — brief correction not prolonged slump",
+      "description": "NAB has revised its housing forecast following the Budget tax reforms, projecting a brief correction rather than a prolonged property market slump.",
+      "suggestion": "Add to budget-updates.json: NAB revises housing forecast following Budget tax reforms — projects brief correction not prolonged slump",
+      "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260524-632",
-      "timestamp": "2026-05-24T20:43:18.544Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-30T11:16:47.268Z"
+      "id": "suggestion-20260606-270",
+      "timestamp": "2026-06-06T15:06:32.685Z",
+      "status": "pending"
     },
     {
-      "type": "content_update",
+      "type": "debate_page",
       "priority": "medium",
-      "title": "Australian Shareholders Association calls for capital gains averaging alongside indexation",
-      "description": "ASA submission argues that inflation indexation alone doesn't address income bunching where multi-year gains are realised in a single tax year, calling for averaging mechanism to complement the proposed CGT reforms.",
-      "suggestion": "Add to budget-updates.json: Australian Shareholders Association formally calls on Treasury to include capital gains averaging mechanism alongside indexation reform, warning that without averaging, investors who hold assets for many years face cumulative tax disadvantage when realising gains.",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260524-561",
-      "timestamp": "2026-05-24T20:43:18.544Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-30T11:17:06.724Z"
+      "title": "Negative gearing cutoff: When do the restrictions actually take effect?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Guardian reports restrictions begin for investors buying 'after 12 May' (Budget Night), implying investors purchasing between 12 May 2026 and 1 July 2027 face immediate limitations. However, budget.gov.au fact sheets show grandfathering where investors who bought before 12 May 2026 can continue negative gearing indefinitely. Sources conflict on whether the practical impact is immediate (from Budget Night) or deferred (to 1 July 2027 when legislation commences), with different implications for investors purchasing in the transition period.",
+      "suggestion": "Add to debates.json: view_a from The Guardian says restrictions apply to 'investors buying after 12 May', view_b from budget.gov.au fact sheet shows pre-12 May buyers retain ongoing negative gearing rights indefinitely",
+      "source": "https://www.theguardian.com/australia-news/2026/jun/06/australia-housing-house-prices-supply-before-budget-after-cgt-capital-gains-tax-negative-gearing-changes",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260606-707",
+      "timestamp": "2026-06-06T15:06:32.685Z",
+      "status": "pending"
     },
     {
-      "type": "content_update",
+      "type": "debate_page",
       "priority": "medium",
-      "title": "Guardian analysis: CGT concession benefits concentrated among top 1% of income earners",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Guardian reports that Treasury and ATO data shows the capital gains tax discount disproportionately benefits the highest income earners, with the top 1% capturing a significant share of the $55 billion annual concession.",
-      "suggestion": "Add to budget-updates.json: Guardian analysis details distributional impact of current CGT arrangements, citing data showing the 50% discount primarily benefits top income earners and questioning whether proposed reforms adequately address inequality or simply shift the burden.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260524-159",
-      "timestamp": "2026-05-24T20:43:18.544Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-30T11:17:24.997Z"
+      "title": "Will CGT minimum 30% floor apply to all gains or only gains above inflation?",
+      "description": "Multiple pending suggestions show this as an unresolved question. The budget's 'minimum 30% tax rate' on capital gains could mean either: (a) a floor that applies to all nominal gains (resulting in potentially higher tax for low-rate earners), or (b) a floor that only applies to real gains after indexation. NAB analysis implies different outcomes for retirees on 16% marginal rate facing potential 8% vs 30% tax, while Treasury analysis showing 'inflation accounts for 56% of ASX 200 share gains' suggests indexation is significant. The distinction affects whether the reform is neutral, a reduction, or an increase for different taxpayer segments.",
+      "suggestion": "Add to debates.json: view_a from NAB analysis implies minimum floor applies to nominal gains creating large increases for low-rate retirees, view_b from Treasury analysis on inflation adjustment suggests real gains calculation is central to the reform design",
+      "source": "https://www.nab.com.au/content/dam/nabcom.au/documents/economics/20260513-budget-analysis-cgt.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260606-805",
+      "timestamp": "2026-06-06T15:06:32.685Z",
+      "status": "pending"
     },
     {
-      "type": "content_update",
+      "type": "fact_check",
       "priority": "medium",
-      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for different investor types",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ASX investor update special edition identifies that CGT changes create different tax outcomes depending on asset type, with transitional rules and exemptions creating complexity for ETF and Listed Investment Vehicle investors.",
-      "suggestion": "Add ASX analysis detail: CGT reform creates 'two-speed' tax treatment for investors, with transitional arrangements and asset-type specific outcomes affecting ETFs and Listed Investment Vehicles differently.",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260525-814",
-      "timestamp": "2026-05-25T06:17:57.276Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-30T11:17:36.104Z"
+      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources claim a flat 30% minimum applies to ALL capital gains. However, budget.gov.au states the 30% rate applies to 'gains from 1 July 2027' after inflation indexation is applied to the cost base. This suggests the 30% applies to indexed gains (gains minus inflation adjustment), not necessarily all nominal gains. The actual tax could be higher than 30% of nominal gains depending on how indexation is calculated.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum on all gains', verdict is disputed because official source indicates 30% applies to inflation-adjusted gains, not necessarily all nominal gains. Tax payable may differ from simple 30% calculation on gross proceeds.",
+      "source": "https://budget.gov.au/content/tax-reform/index.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260606-305",
+      "timestamp": "2026-06-06T15:06:32.685Z",
+      "status": "pending"
     },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: ASX analysis states retired investor on 16% marginal rate faces 8% tax on nominal gains under current CGT system",
+      "description": "ASX analysis claims a retired investor on 16% marginal rate 'faces 8% tax on nominal gains' under current rules, versus 30% on indexed gains under proposed changes. This specific comparison appears in multiple sources. The 8% figure (16% × 50% discount) is mathematically correct for current rules but may oversimplify the comparison by not accounting for CGT exemptions, timing of gains, or other variables that affect actual tax outcomes.",
+      "suggestion": "Add to fact-checks.json: claim is '8% vs 30% tax comparison for 16% marginal rate investor', verdict is partially_true because 8% calculation (16% × 50%) is mathematically correct under current rules, but the comparison may be oversimplified as actual outcomes depend on asset type, holding period, and individual circumstances.",
+      "source": "https://www.asx.com.au/content/dam/asx/investors/ASX%20Budget%202026-27%20investor%20guide.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260606-978",
+      "timestamp": "2026-06-06T15:06:32.685Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260606-827",
+      "timestamp": "2026-06-06T15:06:32.685Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "medium",

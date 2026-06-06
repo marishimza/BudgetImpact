@@ -1998,6 +1998,72 @@
       "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-05-30T06:42:35.738Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO confirms Division 296 indexed thresholds and CGT relief details",
+      "description": "The ATO has officially published details on the Division 296 superannuation tax thresholds for 2026–27, including indexed thresholds and CGT relief provisions for affected taxpayers.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260530-768",
+      "timestamp": "2026-05-30T09:51:25.751Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-05-30T11:16:30.627Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for investors",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ASX analysis details how CGT indexation versus minimum tax floor will create different outcomes for assets held long-term versus short-term, with transitional rules for assets purchased before 1 July 2027. Particularly relevant for Listed Investment Companies and ETFs with embedded gains.",
+      "suggestion": "Add to budget-updates.json: ASX investor update provides detailed breakdown of CGT reform impact on Listed Investment Vehicles and ETFs, explaining how the interaction between inflation indexation and 30% minimum tax creates different effective tax rates depending on holding period and asset type.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260524-632",
+      "timestamp": "2026-05-24T20:43:18.544Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-30T11:16:47.268Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Australian Shareholders Association calls for capital gains averaging alongside indexation",
+      "description": "ASA submission argues that inflation indexation alone doesn't address income bunching where multi-year gains are realised in a single tax year, calling for averaging mechanism to complement the proposed CGT reforms.",
+      "suggestion": "Add to budget-updates.json: Australian Shareholders Association formally calls on Treasury to include capital gains averaging mechanism alongside indexation reform, warning that without averaging, investors who hold assets for many years face cumulative tax disadvantage when realising gains.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260524-561",
+      "timestamp": "2026-05-24T20:43:18.544Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-30T11:17:06.724Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Guardian analysis: CGT concession benefits concentrated among top 1% of income earners",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Guardian reports that Treasury and ATO data shows the capital gains tax discount disproportionately benefits the highest income earners, with the top 1% capturing a significant share of the $55 billion annual concession.",
+      "suggestion": "Add to budget-updates.json: Guardian analysis details distributional impact of current CGT arrangements, citing data showing the 50% discount primarily benefits top income earners and questioning whether proposed reforms adequately address inequality or simply shift the burden.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260524-159",
+      "timestamp": "2026-05-24T20:43:18.544Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-30T11:17:24.997Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for different investor types",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ASX investor update special edition identifies that CGT changes create different tax outcomes depending on asset type, with transitional rules and exemptions creating complexity for ETF and Listed Investment Vehicle investors.",
+      "suggestion": "Add ASX analysis detail: CGT reform creates 'two-speed' tax treatment for investors, with transitional arrangements and asset-type specific outcomes affecting ETFs and Listed Investment Vehicles differently.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260525-814",
+      "timestamp": "2026-05-25T06:17:57.276Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-30T11:17:36.104Z"
     }
   ]
 }

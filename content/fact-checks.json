@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T06:49:59.577Z",
+  "lastUpdated": "2026-06-06T17:05:23.213Z",
   "claims": [
     {
       "id": "fc-001",
@@ -608,6 +608,39 @@
         {
           "name": "Stockspot",
           "url": "https://www.stockspot.com.au/cgt-calculator-australia/",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-06",
+      "category": "tax"
+    },
+    {
+      "id": "fc-032",
+      "slug": "cgt-discount-replaced-by-inflation-indexation",
+      "claim": "The 50% CGT discount is being replaced by inflation indexation",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The reform combines inflation indexation with a minimum 30% tax rate on capital gains—it is not a simple one-for-one replacement.",
+      "detailed_explanation": "The claim omits a key component of the reform. While inflation indexation will apply to capital gains, the new system also introduces a minimum 30% tax rate on gains. This means the 50% discount is not simply replaced; instead, the reform adds indexation alongside a tax floor, creating a different outcome than a direct substitution. Taxpayers who assume the discount is gone entirely may misunderstand their actual obligations under the new rules.",
+      "sources": [
+        {
+          "name": "Australian Government Treasury",
+          "url": "https://budget.gov.au/2025-26/tax-reform",
+          "type": "official"
+        },
+        {
+          "name": "Australian Tax Office",
+          "url": "https://www.ato.gov.au/individuals-and-employees/capital-gains-tax",
+          "type": "official"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/tax-cgt-reform",
+          "type": "news"
+        },
+        {
+          "name": "StocksPot",
+          "url": "https://www.stockspot.com.au/cgt-reform",
           "type": "analysis"
         }
       ],

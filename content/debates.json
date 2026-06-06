@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T11:21:17.204Z",
+  "lastUpdated": "2026-06-06T17:05:09.219Z",
   "debates": [
     {
       "id": "debate-001",
@@ -451,6 +451,27 @@
         "sources": [
           "https://abc.net.au",
           "https://www.abc.net.au/news/2026-05-01/federal-budget-housing-property-changes-explained"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-019",
+      "slug": "will-2b-infrastructure-initiative-deliver-65000-homes",
+      "title": "Will the $2B infrastructure initiative deliver 65,000 homes?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "The Real Estate Institute of Australia projects that the federal government's $2B infrastructure initiative will enable 65,000 additional homes, but this specific numerical claim faces skepticism from industry analysts who question whether the policy design can achieve targeted dwelling numbers.",
+      "view_a": {
+        "label": "REIA Projection",
+        "argument": "REIA President Jacob Caine explicitly states the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes.' The REIA bases this projection on the initiative's focus on infrastructure investments designed to unlock housing supply in growth areas.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Skeptical Analysis",
+        "argument": "Commonwealth Bank analysts describe the policy design as intended to 'reduce investor demand for existing housing stock' rather than primarily focusing on new supply. This framing suggests the 65,000 figure may be optimistic, as the initiative's mechanisms are more directly aimed at cooling investor activity than at directly enabling construction of new dwellings.",
+        "sources": [
+          "https://www.commbank.com.au"
         ]
       },
       "verdict": null

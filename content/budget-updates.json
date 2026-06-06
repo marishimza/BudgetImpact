@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T11:20:15.276Z",
+  "lastUpdated": "2026-06-06T17:04:48.355Z",
   "items": [
     {
       "id": "update-001",
@@ -1357,6 +1357,26 @@
       "summary": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has been formally lodged with Parliament, containing the negative gearing restrictions and capital gains tax reform measures announced in the 2026-27 Budget. The bill will now face Senate scrutiny as part of the legislative process to implement key housing affordability measures. Taxpayers and property investors should monitor the bill's progress through Parliament as these reforms will significantly impact property investment strategies.",
       "url": "https://budget.gov.au/",
       "priority": "high"
+    },
+    {
+      "id": "update-135",
+      "date": "2026-06-06",
+      "tag": "Superannuation",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases Division 296 indexed thresholds and CGT relief details for SMSFs",
+      "summary": "The ATO has confirmed indexed thresholds for the Division 296 (Better Targeted Super Concessions) tax that applies from 1 July 2026. The 15% additional tax applies on super earnings above the $3 million threshold, with thresholds indexed annually. CGT relief provisions have also been confirmed for SMSFs affected by the high-balance super tax.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-136",
+      "date": "2026-06-06",
+      "tag": "Property",
+      "source": "William Buck",
+      "title": "NAB revises housing forecast following Budget tax reforms — brief correction not prolonged slump",
+      "summary": "NAB has revised its housing forecast following the Budget tax reforms, projecting a brief correction rather than a prolonged property market slump. The bank expects the recent policy changes to have a limited negative impact on property prices, with any market adjustment expected to be short-lived. This suggests underlying demand remains resilient despite the tax reform uncertainties.",
+      "url": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
+      "priority": "medium"
     }
   ]
 }

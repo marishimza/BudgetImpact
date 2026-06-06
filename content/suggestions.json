@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T15:06:38.597Z",
+  "lastUpdated": "2026-06-06T17:05:23.215Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -154,30 +154,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will the $2B infrastructure initiative deliver 65,000 homes?",
-      "description": "REIA President Jacob Caine explicitly claims the infrastructure initiative is 'expected to enable around 65,000 additional homes.' This specific numerical projection conflicts with broader skepticism about whether government housing programs can achieve targeted dwelling numbers, and whether the causal link is supported by evidence.",
-      "suggestion": "Add to debates.json: view_a from apimagazine.com.au (REIA President Jacob Caine) claims the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes'; view_b from commbank.com.au describes the policy design as intended to 'reduce investor demand for existing housing stock' without endorsing the specific 65,000 figure, suggesting the REIA projection may be optimistic",
-      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260518-974",
-      "timestamp": "2026-05-18T16:45:48.124Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: The 50% CGT discount is being replaced by inflation indexation",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources state the 50% discount is being 'replaced' by inflation indexation. However, the official budget.gov.au states the new system includes BOTH indexation AND a minimum 30% tax rate on gains. Claiming it's simply 'replaced by indexation' omits the minimum tax floor component, which could mislead taxpayers about their actual tax obligations.",
-      "suggestion": "Add to fact-checks.json: claim is 'replaced by inflation indexation', verdict is partially_true because the reform combines indexation with a minimum 30% tax rate—not a simple one-for-one replacement. Sources: budget.gov.au confirms minimum 30% rate; abc.net.au and stockspot.com.au mention both components.",
-      "source": "https://budget.gov.au/tax-reform",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260518-864",
-      "timestamp": "2026-05-18T16:45:48.124Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -3970,44 +3946,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases Division 296 indexed thresholds and CGT relief details for SMSFs",
-      "description": "The ATO has confirmed indexed thresholds for the Division 296 (Better Targeted Super Concessions) tax that applies from 1 July 2026, along with CGT relief provisions for SMSFs affected by the high-balance super tax.",
-      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details for SMSFs — 15% tax applies on earnings above $3m threshold with indexed thresholds and CGT relief confirmed",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260606-192",
-      "timestamp": "2026-06-06T15:06:32.684Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has been formally lodged with Parliament, containing the negative gearing and CGT reform measures.",
-      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament — contains negative gearing restrictions and CGT discount replacement measures",
-      "source": "https://budget.gov.au/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260606-362",
-      "timestamp": "2026-06-06T15:06:32.685Z",
-      "status": "pending",
-      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "NAB revises housing forecast following Budget tax reforms — brief correction not prolonged slump",
-      "description": "NAB has revised its housing forecast following the Budget tax reforms, projecting a brief correction rather than a prolonged property market slump.",
-      "suggestion": "Add to budget-updates.json: NAB revises housing forecast following Budget tax reforms — projects brief correction not prolonged slump",
-      "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260606-270",
-      "timestamp": "2026-06-06T15:06:32.685Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Negative gearing cutoff: When do the restrictions actually take effect?",
@@ -5497,6 +5435,59 @@
       "timestamp": "2026-05-18T16:45:48.124Z",
       "status": "implemented",
       "implemented_at": "2026-06-06T11:21:17.208Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases Division 296 indexed thresholds and CGT relief details for SMSFs",
+      "description": "The ATO has confirmed indexed thresholds for the Division 296 (Better Targeted Super Concessions) tax that applies from 1 July 2026, along with CGT relief provisions for SMSFs affected by the high-balance super tax.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details for SMSFs — 15% tax applies on earnings above $3m threshold with indexed thresholds and CGT relief confirmed",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260606-192",
+      "timestamp": "2026-06-06T15:06:32.684Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-06-06T17:04:24.851Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "NAB revises housing forecast following Budget tax reforms — brief correction not prolonged slump",
+      "description": "NAB has revised its housing forecast following the Budget tax reforms, projecting a brief correction rather than a prolonged property market slump.",
+      "suggestion": "Add to budget-updates.json: NAB revises housing forecast following Budget tax reforms — projects brief correction not prolonged slump",
+      "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260606-270",
+      "timestamp": "2026-06-06T15:06:32.685Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-06T17:04:48.357Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative deliver 65,000 homes?",
+      "description": "REIA President Jacob Caine explicitly claims the infrastructure initiative is 'expected to enable around 65,000 additional homes.' This specific numerical projection conflicts with broader skepticism about whether government housing programs can achieve targeted dwelling numbers, and whether the causal link is supported by evidence.",
+      "suggestion": "Add to debates.json: view_a from apimagazine.com.au (REIA President Jacob Caine) claims the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes'; view_b from commbank.com.au describes the policy design as intended to 'reduce investor demand for existing housing stock' without endorsing the specific 65,000 figure, suggesting the REIA projection may be optimistic",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-974",
+      "timestamp": "2026-05-18T16:45:48.124Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-06T17:05:09.221Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: The 50% CGT discount is being replaced by inflation indexation",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources state the 50% discount is being 'replaced' by inflation indexation. However, the official budget.gov.au states the new system includes BOTH indexation AND a minimum 30% tax rate on gains. Claiming it's simply 'replaced by indexation' omits the minimum tax floor component, which could mislead taxpayers about their actual tax obligations.",
+      "suggestion": "Add to fact-checks.json: claim is 'replaced by inflation indexation', verdict is partially_true because the reform combines indexation with a minimum 30% tax rate—not a simple one-for-one replacement. Sources: budget.gov.au confirms minimum 30% rate; abc.net.au and stockspot.com.au mention both components.",
+      "source": "https://budget.gov.au/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-864",
+      "timestamp": "2026-05-18T16:45:48.124Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-06T17:05:23.215Z"
     }
   ],
   "skipped": [
@@ -5898,6 +5889,21 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-06T11:20:37.571Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has been formally lodged with Parliament, containing the negative gearing and CGT reform measures.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament — contains negative gearing restrictions and CGT discount replacement measures",
+      "source": "https://budget.gov.au/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260606-362",
+      "timestamp": "2026-06-06T15:06:32.685Z",
+      "status": "skipped",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-06T17:04:28.705Z"
     }
   ],
   "needs_manual_review": [

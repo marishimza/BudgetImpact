@@ -2064,6 +2064,73 @@
       "timestamp": "2026-05-25T06:17:57.276Z",
       "status": "implemented",
       "implemented_at": "2026-05-30T11:17:36.104Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Venture capital tax incentives expanded from July 2027 in Budget 2026 measure",
+      "description": "Budget 2026 includes expansion of venture capital tax incentives commencing from 1 July 2027, providing early policy direction for startup ecosystem.",
+      "suggestion": "Add budget measure: venture capital tax incentives expanded from July 2027, complementing the CGT and negative gearing changes with targeted support for innovation investment.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260525-546",
+      "timestamp": "2026-05-25T06:17:57.276Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-30T16:55:36.894Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for investors",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ASX analysis identifies that CGT reforms create differential tax treatment between investors who bought before vs. after budget night, with transitional rules creating distinct outcomes for property and share investors.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details how CGT reform creates 'two-speed' tax treatment, with pre-budget investors retaining current CGT discount rules while post-budget investors face minimum 30% tax on inflation-adjusted gains from July 2027.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260525-124",
+      "timestamp": "2026-05-25T11:43:29.000Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-30T16:55:52.034Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Guardian analysis: CGT concession benefits concentrated among top 1% of income earners",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Guardian analysis finds that capital gains tax concessions disproportionately benefit the highest income earners, with the CGT discount concentrated among the top 1% of income earners in Australia.",
+      "suggestion": "Add to budget-updates.json: Guardian analysis reports that CGT concessions are concentrated among the top 1% of income earners, providing context on who benefits most from the current tax arrangements being reformed.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260525-690",
+      "timestamp": "2026-05-25T11:43:29.000Z",
+      "status": "implemented",
+      "implemented_at": "2026-05-30T16:57:01.332Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Economists warn 30% minimum CGT floor will push retirees into higher tax brackets",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Economic analysis warns that the new minimum 30% tax on capital gains will affect retirees who realise property gains, potentially pushing some into higher effective tax brackets when combining superannuation drawdowns with capital gains.",
+      "suggestion": "Add to budget-updates.json: Economists warn that the 30% minimum CGT floor may push retirees into higher tax brackets, particularly those who combine superannuation drawdowns with property sales under the new rules from July 2027.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260525-255",
+      "timestamp": "2026-05-25T11:43:29.000Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-30T16:57:14.529Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Trust tax treatment reform flagged as Government signals shift from income to asset taxation",
+      "description": "The 2026 Budget indicates plans to reform trust tax treatment, with the Government signalling a shift from taxing income to taxing assets. This follows the CGT and negative gearing changes as part of broader tax reform.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform flagged — Government signals plan to shift burden from income to assets",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260525-839",
+      "timestamp": "2026-05-25T16:16:58.595Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-05-30T16:57:23.668Z"
     }
   ]
 }

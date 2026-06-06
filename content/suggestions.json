@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T17:05:23.215Z",
+  "lastUpdated": "2026-06-06T20:54:39.879Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -4004,48 +4004,95 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Trust tax treatment reform: Government signals shift from income to asset taxation",
+      "description": "The 2026 Budget flags comprehensive reform to trust tax treatment as part of the broader shift from taxing incomes to taxing assets. The Guardian reports this alongside CGT and negative gearing changes, with Treasurer Jim Chalmers stating the plan will 'rebalance the system'. Details remain limited but suggest significant changes ahead.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform confirmed as core component of asset taxation shift alongside CGT and negative gearing changes",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260606-425",
+      "timestamp": "2026-06-06T20:54:34.315Z",
+      "status": "pending",
+      "corroborated_by": "https://www.smh.com.au/politics/federal/how-this-budget-will-change-your-taxes-limiting-negative-gearing-cgt-and-new-taxes-on-trusts-20260508-p5zv1j.html"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Parliamentary committee endorsed CGT discount changes on 17 March 2026",
+      "description": "A parliamentary committee formally endorsed changes to the capital gains tax discount on 17 March 2026, two months before Budget Night. The Greens supported the changes while the Liberals opposed them, indicating the political divide that would characterise the May 2026 debate.",
+      "suggestion": "Add to budget-updates.json: Parliamentary committee endorsed CGT discount changes on 17 March 2026 — Greens voted for, Liberals opposed",
+      "source": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260606-716",
+      "timestamp": "2026-06-06T20:54:34.315Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The ATO has released practical guidance to help taxpayers understand how to calculate CGT indexation under the new rules taking effect from 1 July 2027. This follows the $47.5 million implementation funding allocated to Treasury and the ATO in the Budget.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027 implementation",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260606-235",
+      "timestamp": "2026-06-06T20:54:34.315Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Negative gearing cutoff: 12 May 2026 or 1 July 2027?",
+      "description": "The Guardian reports that investors buying after 12 May 2026 (Budget Night) cannot negatively gear established properties. However, the official budget.gov.au fact sheet provides an example showing Michael buying on 12 May 2026 who CAN continue negatively gearing in future years. This is a factual conflict about the effective cutoff date and grandfathering rules.",
+      "suggestion": "Add to debates.json: The Guardian states investors buying after 12 May cannot negatively gear established properties beyond mid-2027. Meanwhile, budget.gov.au fact sheet shows Michael buying on 12 May 2026 'can continue to negatively gear this property in future years.' These sources directly conflict on whether the Budget Night date creates an immediate cutoff or whether grandfathering preserves existing investors' rights.",
+      "source": "https://www.theguardian.com/australia-news/2026/jun/06/australia-housing-house-prices-supply-before-budget-after-cgt-capital-gains-tax-negative-gearing-changes",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260606-470",
+      "timestamp": "2026-06-06T20:54:34.315Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'A retired investor on a 16% marginal rate faces 8% tax on nominal gains' under current CGT system",
+      "description": "The ASX analysis states a retired investor on a 16% marginal rate faces 8% tax on nominal gains under the current CGT system, implying the new rules would impose 30% tax. This claim may oversimplify the transition rules and doesn't clarify that the 50% discount applies to the gain (not the nominal gain), and that indexation may produce different outcomes depending on inflation levels and holding period.",
+      "suggestion": "Add to fact-checks.json: claim is 'retired investor on 16% rate faces 8% tax on nominal gains', verdict is partially_true because the 50% discount applies to the capital gain (not nominal gain), and the actual tax rate depends on total gain amount, holding period, and inflation. The comparison to 30% on indexed gains may not be accurate for all scenarios.",
+      "source": "https://www.asx.com.au/compathy/2026-federal-budget-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260606-996",
+      "timestamp": "2026-06-06T20:54:34.315Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over the past decade'",
+      "description": "ABC News and multiple sources cite Treasury analysis that inflation made up 56% of asset price growth for ASX 200 shares held for 10 years to March 2026. This specific percentage should be verified against official Treasury budget documents to confirm accuracy and methodology.",
+      "suggestion": "Add to fact-checks.json: claim is 'inflation accounts for 56% of ASX 200 share gains over decade', verdict is unverifiable without access to Treasury methodology because the search results reference Treasury/ABS data but don't provide the primary source document or calculation methodology.",
+      "source": "https://www.abc.net.au/news/2026-05-13/cgt-changes-investment-shift-property-shares/2026-budget",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260606-130",
+      "timestamp": "2026-06-06T20:54:34.315Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260606-376",
+      "timestamp": "2026-06-06T20:54:34.315Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
     }
   ],
   "implemented": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Venture capital tax incentives expanded from July 2027 in Budget 2026 measure",
-      "description": "Budget 2026 includes expansion of venture capital tax incentives commencing from 1 July 2027, providing early policy direction for startup ecosystem.",
-      "suggestion": "Add budget measure: venture capital tax incentives expanded from July 2027, complementing the CGT and negative gearing changes with targeted support for innovation investment.",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260525-546",
-      "timestamp": "2026-05-25T06:17:57.276Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-30T16:55:36.894Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for investors",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ASX analysis identifies that CGT reforms create differential tax treatment between investors who bought before vs. after budget night, with transitional rules creating distinct outcomes for property and share investors.",
-      "suggestion": "Add to budget-updates.json: ASX analysis details how CGT reform creates 'two-speed' tax treatment, with pre-budget investors retaining current CGT discount rules while post-budget investors face minimum 30% tax on inflation-adjusted gains from July 2027.",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260525-124",
-      "timestamp": "2026-05-25T11:43:29.000Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-30T16:55:52.034Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Guardian analysis: CGT concession benefits concentrated among top 1% of income earners",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Guardian analysis finds that capital gains tax concessions disproportionately benefit the highest income earners, with the CGT discount concentrated among the top 1% of income earners in Australia.",
-      "suggestion": "Add to budget-updates.json: Guardian analysis reports that CGT concessions are concentrated among the top 1% of income earners, providing context on who benefits most from the current tax arrangements being reformed.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260525-690",
-      "timestamp": "2026-05-25T11:43:29.000Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-30T16:57:01.332Z"
-    },
     {
       "type": "content_update",
       "priority": "high",
@@ -5491,34 +5538,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Economists warn 30% minimum CGT floor will push retirees into higher tax brackets",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Economic analysis warns that the new minimum 30% tax on capital gains will affect retirees who realise property gains, potentially pushing some into higher effective tax brackets when combining superannuation drawdowns with capital gains.",
-      "suggestion": "Add to budget-updates.json: Economists warn that the 30% minimum CGT floor may push retirees into higher tax brackets, particularly those who combine superannuation drawdowns with property sales under the new rules from July 2027.",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260525-255",
-      "timestamp": "2026-05-25T11:43:29.000Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-05-30T16:57:14.529Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Trust tax treatment reform flagged as Government signals shift from income to asset taxation",
-      "description": "The 2026 Budget indicates plans to reform trust tax treatment, with the Government signalling a shift from taxing income to taxing assets. This follows the CGT and negative gearing changes as part of broader tax reform.",
-      "suggestion": "Add to budget-updates.json: Trust tax treatment reform flagged — Government signals plan to shift burden from income to assets",
-      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260525-839",
-      "timestamp": "2026-05-25T16:16:58.595Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-05-30T16:57:23.668Z"
-    },
     {
       "type": "content_update",
       "priority": "medium",

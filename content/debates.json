@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T17:05:09.219Z",
+  "lastUpdated": "2026-06-06T22:58:37.279Z",
   "debates": [
     {
       "id": "debate-001",
@@ -472,6 +472,29 @@
         "argument": "Commonwealth Bank analysts describe the policy design as intended to 'reduce investor demand for existing housing stock' rather than primarily focusing on new supply. This framing suggests the 65,000 figure may be optimistic, as the initiative's mechanisms are more directly aimed at cooling investor activity than at directly enabling construction of new dwellings.",
         "sources": [
           "https://www.commbank.com.au"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-020",
+      "slug": "cgt-discount-choice-replacement-dispute",
+      "title": "Is the CGT discount being eliminated, replaced, or preserved with a choice?",
+      "category": "tax-reform",
+      "type": "factual_dispute",
+      "summary": "There is conflicting information about what happens to the 50% CGT discount. Budget.gov.au suggests investors can 'choose' between the 50% discount or new arrangements (implying preservation), while some media reports describe it as being 'replaced' by inflation indexation. This is a factual discrepancy about the mechanics of the reform.",
+      "view_a": {
+        "label": "Preservation with choice",
+        "argument": "Budget.gov.au indicates that investors can 'choose' between the existing 50% CGT discount or new arrangements, suggesting the discount is being preserved alongside alternative options rather than eliminated.",
+        "sources": [
+          "https://budget.gov.au/content/04-tax-reform.htm"
+        ]
+      },
+      "view_b": {
+        "label": "Replacement with indexation",
+        "argument": "Media reports (including Guardian and other sources) describe the 50% CGT discount being replaced by inflation indexation, implying the discount is eliminated rather than preserved as a choice.",
+        "sources": [
+          "Guardian/other media sources"
         ]
       },
       "verdict": null

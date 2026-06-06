@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T23:02:22.582Z",
+  "lastUpdated": "2026-06-06T06:49:59.577Z",
   "claims": [
     {
       "id": "fc-001",
@@ -576,6 +576,42 @@
         }
       ],
       "date_checked": "2026-06-05",
+      "category": "tax"
+    },
+    {
+      "id": "fc-030",
+      "slug": "minimum-30-percent-tax-not-all-capital-gains",
+      "claim": "30% minimum tax applies to ALL capital gains from July 2027",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "The 'minimum' language suggests a floor rate, not necessarily a uniform rate applied to all gains equally. The 30% rate appears to apply to indexed gains, with real gains potentially treated differently than nominal gains.",
+      "detailed_explanation": "The budget.gov.au source states the government will 'introduce a minimum 30% tax on gains' from 1 July 2027. However, the word 'minimum' suggests there could be circumstances where gains are taxed at less than 30%. Analysis indicates a retired investor on a 16% marginal rate currently faces 8% tax on nominal gains (versus 30% on indexed gains under new rules). This raises a critical question: does the 30% minimum apply to the full gain, or only to the indexed/inflation-adjusted portion? The 'minimum' language implies real gains (above inflation) may be treated differently than nominal gains, suggesting the claim that it applies to 'ALL gains' may oversimplify the actual application of the new tax rules.",
+      "sources": [
+        {
+          "name": "Australian Government Budget 2026",
+          "url": "https://www.budget.gov.au/tax-reform",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-06",
+      "category": "fact_check"
+    },
+    {
+      "id": "fc-031",
+      "slug": "cgt-discount-completely-replaced-no-choice",
+      "claim": "50% CGT discount completely replaced with no choice",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The 50% CGT discount is being largely replaced by inflation indexation, but claims of 'complete replacement' with 'no choice' may oversimplify the transition. Some analysis suggests potential transitional provisions or choices for certain asset classes.",
+      "detailed_explanation": "The official budget.gov.au source describes replacing the 50% CGT discount with 'a discount based on inflation'. However, the Stockspot.com.au analysis describes the change as the discount being 'largely replaced', not completely replaced. The ASX and ASA sources note that investors could potentially have a choice between the old discount and new indexation in some circumstances. The claim that taxpayers have 'no choice' appears to be an oversimplification, as the exact mechanism of how the transition works for existing assets versus new purchases requires further verification. The 'largely replaced' qualifier suggests nuance that 'completely replaced' claims miss.",
+      "sources": [
+        {
+          "name": "Stockspot",
+          "url": "https://www.stockspot.com.au/cgt-calculator-australia/",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-06",
       "category": "tax"
     }
   ]

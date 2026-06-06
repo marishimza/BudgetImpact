@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T23:01:48.388Z",
+  "lastUpdated": "2026-06-06T06:49:46.348Z",
   "items": [
     {
       "id": "update-001",
@@ -1316,6 +1316,36 @@
       "title": "Parliamentary committee endorsed CGT discount changes on 17 March 2026",
       "summary": "A parliamentary committee formally endorsed changes to the capital gains tax discount on 17 March 2026, prior to the Budget announcement. This endorsement represents an important milestone in the legislative process for the proposed CGT reform. The timing provides valuable context for understanding when the reform proposal gained parliamentary support ahead of the May Budget.",
       "url": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
+      "priority": "medium"
+    },
+    {
+      "id": "update-131",
+      "date": "2026-06-06",
+      "tag": "Property",
+      "source": "ATO",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "summary": "The ATO has released comprehensive guidance to help investors and tax professionals navigate the new capital gains tax indexation rules taking effect on 1 July 2027. The guidance provides detailed instructions for calculating indexed cost bases, including worked examples and scenarios applicable to various asset types. Tax practitioners are encouraged to review the materials to ensure compliance when the new rules commence.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-132",
+      "date": "2026-06-06",
+      "tag": "Budget",
+      "source": "KPMG",
+      "title": "KPMG flags implementation timeline risks as ATO prepares for CGT reform",
+      "summary": "KPMG analysis has identified potential challenges with the ATO's implementation timeline for the CGT indexation changes. The firm notes the government's $47.5 million funding allocation for Treasury and ATO to implement the reform, while highlighting risks around system updates, guidance development, and compliance with the proposed changes. The analysis suggests stakeholders should monitor implementation readiness as the July 1 commencement date approaches.",
+      "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "priority": "high"
+    },
+    {
+      "id": "update-133",
+      "date": "2026-06-06",
+      "tag": "Budget",
+      "source": "Australian Shareholders Association",
+      "title": "ASA calls for capital gains averaging mechanism alongside indexation",
+      "summary": "The Australian Shareholders Association is urging the Government to introduce a capital gains averaging mechanism to address 'income bunching' where gains realised in a single tax year could push taxpayers into higher brackets. The ASA argues that such a mechanism would complement the existing indexation method for capital gains, providing a more equitable approach to taxing investment returns. This proposal comes as part of the ASA's pre-budget submission for the 2026-27 federal budget cycle.",
+      "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
       "priority": "medium"
     }
   ]

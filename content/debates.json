@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T22:58:37.279Z",
+  "lastUpdated": "2026-06-07T07:51:30.593Z",
   "debates": [
     {
       "id": "debate-001",
@@ -495,6 +495,27 @@
         "argument": "Media reports (including Guardian and other sources) describe the 50% CGT discount being replaced by inflation indexation, implying the discount is eliminated rather than preserved as a choice.",
         "sources": [
           "Guardian/other media sources"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-021",
+      "slug": "2b-infrastructure-65000-homes-delivery",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "The Real Estate Institute of Australia (REIA) President Jacob Caine has stated that the federal government's $2 billion infrastructure initiative is expected to enable around 65,000 additional homes. However, industry analysts question whether infrastructure spending alone can drive this level of housing supply.",
+      "view_a": {
+        "label": "REIA/Industry Expectation",
+        "argument": "REIA President Jacob Caine has confidently claimed the $2 billion infrastructure initiative will enable 'around 65,000 additional homes'. This quantitative projection is framed as an expected outcome of the infrastructure investments designed to unlock housing development in key areas.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Analyst Skepticism",
+        "argument": "Industry analysts including BDO and other economic researchers question whether infrastructure spending alone can drive the claimed 65,000 additional homes. They argue that housing supply is constrained by multiple factors including land release, planning approvals, construction capacity, material costs, and developer financing - none of which are directly addressed by infrastructure spending alone.",
+        "sources": [
+          "https://www.bdo.com.au/au/en-"
         ]
       },
       "verdict": null

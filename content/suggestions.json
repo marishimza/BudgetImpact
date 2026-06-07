@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T06:14:47.324Z",
+  "lastUpdated": "2026-06-07T07:51:41.081Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -190,30 +190,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
-      "description": "REIA President Jacob Caine (via API Magazine) confidently claims the $2 billion infrastructure initiative will enable 'around 65,000 additional homes'. This is a specific quantitative projection that differs from skeptically framed analyses about whether the infrastructure spending will achieve its housing targets.",
-      "suggestion": "Add to debates.json: view_a from API Magazine/REIA says the $2B infrastructure 'expected to enable around 65,000 additional homes', view_b from BDO or other analysts may question whether infrastructure spending alone will drive that level of housing supply",
-      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260519-517",
-      "timestamp": "2026-05-19T06:00:47.534Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Capital gains face a minimum 30% tax rate on ALL gains from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources state capital gains will face a 'minimum 30% tax rate' from July 2027. However, the budget.gov.au source specifies the 30% applies to gains, while the abc.net.au source adds the qualifier 'real capital gains' (inflation-adjusted). The 30% minimum appears to apply to real gains after indexation, not nominal gains. Media coverage may omit this distinction, making the tax burden sound more punitive than it actually is for assets held during high-inflation periods.",
-      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax on all capital gains', verdict is partially_true because the 30% minimum applies specifically to inflation-adjusted (real) capital gains, not nominal gains before indexation.",
-      "source": "https://budget.gov.au/resource/tax-explainer",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260519-844",
-      "timestamp": "2026-05-19T06:00:47.534Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -4030,43 +4006,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes",
-      "description": "The ATO has released guidance confirming that pre-1985 share holdings will have their valuation reset for the 1 July 2027 CGT changes, allowing taxpayers to use 31 May 2026 market values as cost base for assets acquired before 20 September 1985.",
-      "suggestion": "Add to budget-updates.json: ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes — market value as at 31 May 2026 can be used as cost base for assets acquired before 20 September 1985, with valuation requirements and record-keeping obligations confirmed.",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260607-939",
-      "timestamp": "2026-06-07T06:14:42.262Z",
-      "status": "pending",
-      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASA calls for capital gains averaging alongside indexation to address income bunching",
-      "description": "The Australian Shareholders Association has urged the Government to implement a capital gains averaging mechanism alongside the indexation reform to prevent 'income bunching' where gains realised in a single tax year after many years of growth could push taxpayers into higher brackets.",
-      "suggestion": "Add to budget-updates.json: ASA calls for capital gains averaging alongside indexation to address income bunching — the professional investor body wants both mechanisms to prevent single-year tax spikes from multi-year gains.",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260607-826",
-      "timestamp": "2026-06-07T06:14:42.262Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "KPMG flags implementation timeline risks as ATO prepares for CGT reform",
-      "description": "KPMG analysis highlights significant implementation challenges for the CGT indexation changes, noting the $47.5 million funding allocation and potential risks to the July 2027 commencement date given the complexity of transitioning systems and guidance.",
-      "suggestion": "Add to budget-updates.json: KPMG flags implementation timeline risks as ATO prepares for CGT reform with $47.5m funding — accounting firm warns of complexity in transitioning tax systems and providing adequate guidance to taxpayers before July 2027.",
-      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260607-568",
-      "timestamp": "2026-06-07T06:14:42.262Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
@@ -5515,6 +5454,45 @@
       "timestamp": "2026-05-18T21:02:34.579Z",
       "status": "implemented",
       "implemented_at": "2026-06-06T22:58:37.280Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASA calls for capital gains averaging alongside indexation to address income bunching",
+      "description": "The Australian Shareholders Association has urged the Government to implement a capital gains averaging mechanism alongside the indexation reform to prevent 'income bunching' where gains realised in a single tax year after many years of growth could push taxpayers into higher brackets.",
+      "suggestion": "Add to budget-updates.json: ASA calls for capital gains averaging alongside indexation to address income bunching — the professional investor body wants both mechanisms to prevent single-year tax spikes from multi-year gains.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260607-826",
+      "timestamp": "2026-06-07T06:14:42.262Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-07T07:50:39.190Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG flags implementation timeline risks as ATO prepares for CGT reform",
+      "description": "KPMG analysis highlights significant implementation challenges for the CGT indexation changes, noting the $47.5 million funding allocation and potential risks to the July 2027 commencement date given the complexity of transitioning systems and guidance.",
+      "suggestion": "Add to budget-updates.json: KPMG flags implementation timeline risks as ATO prepares for CGT reform with $47.5m funding — accounting firm warns of complexity in transitioning tax systems and providing adequate guidance to taxpayers before July 2027.",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260607-568",
+      "timestamp": "2026-06-07T06:14:42.262Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-07T07:50:47.427Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "REIA President Jacob Caine (via API Magazine) confidently claims the $2 billion infrastructure initiative will enable 'around 65,000 additional homes'. This is a specific quantitative projection that differs from skeptically framed analyses about whether the infrastructure spending will achieve its housing targets.",
+      "suggestion": "Add to debates.json: view_a from API Magazine/REIA says the $2B infrastructure 'expected to enable around 65,000 additional homes', view_b from BDO or other analysts may question whether infrastructure spending alone will drive that level of housing supply",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260519-517",
+      "timestamp": "2026-05-19T06:00:47.534Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-07T07:51:30.594Z"
     }
   ],
   "skipped": [
@@ -5961,6 +5939,35 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-06T22:58:42.877Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes",
+      "description": "The ATO has released guidance confirming that pre-1985 share holdings will have their valuation reset for the 1 July 2027 CGT changes, allowing taxpayers to use 31 May 2026 market values as cost base for assets acquired before 20 September 1985.",
+      "suggestion": "Add to budget-updates.json: ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes — market value as at 31 May 2026 can be used as cost base for assets acquired before 20 September 1985, with valuation requirements and record-keeping obligations confirmed.",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260607-939",
+      "timestamp": "2026-06-07T06:14:42.262Z",
+      "status": "skipped",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-07T07:50:24.139Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains face a minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources state capital gains will face a 'minimum 30% tax rate' from July 2027. However, the budget.gov.au source specifies the 30% applies to gains, while the abc.net.au source adds the qualifier 'real capital gains' (inflation-adjusted). The 30% minimum appears to apply to real gains after indexation, not nominal gains. Media coverage may omit this distinction, making the tax burden sound more punitive than it actually is for assets held during high-inflation periods.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax on all capital gains', verdict is partially_true because the 30% minimum applies specifically to inflation-adjusted (real) capital gains, not nominal gains before indexation.",
+      "source": "https://budget.gov.au/resource/tax-explainer",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260519-844",
+      "timestamp": "2026-05-19T06:00:47.534Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-07T07:51:41.081Z"
     }
   ],
   "needs_manual_review": [

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T17:04:48.355Z",
+  "lastUpdated": "2026-06-07T07:50:47.424Z",
   "items": [
     {
       "id": "update-001",
@@ -1376,6 +1376,26 @@
       "title": "NAB revises housing forecast following Budget tax reforms — brief correction not prolonged slump",
       "summary": "NAB has revised its housing forecast following the Budget tax reforms, projecting a brief correction rather than a prolonged property market slump. The bank expects the recent policy changes to have a limited negative impact on property prices, with any market adjustment expected to be short-lived. This suggests underlying demand remains resilient despite the tax reform uncertainties.",
       "url": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
+      "priority": "medium"
+    },
+    {
+      "id": "update-137",
+      "date": "2026-06-07",
+      "tag": "Budget",
+      "source": "Australian Shareholders Association",
+      "title": "ASA calls for capital gains averaging alongside indexation to address income bunching",
+      "summary": "The Australian Shareholders Association (ASA) has called on the Government to implement capital gains averaging alongside the existing indexation reform. The proposal aims to prevent 'income bunching' where multi-year gains realised in a single tax year could push investors into higher tax brackets. ASA argues that both mechanisms working together would create a fairer tax treatment for long-term investors.",
+      "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "priority": "medium"
+    },
+    {
+      "id": "update-138",
+      "date": "2026-06-07",
+      "tag": "Budget",
+      "source": "KPMG Australia",
+      "title": "KPMG flags implementation timeline risks as ATO prepares for CGT reform",
+      "summary": "KPMG analysis highlights significant implementation challenges for the CGT indexation changes, noting the $47.5 million funding allocation and potential risks to the July 2027 commencement date given the complexity of transitioning systems and guidance. The accounting firm warns that the ATO may face difficulties in providing adequate guidance to taxpayers and updating tax administration systems within the proposed timeframe. Industry stakeholders are urged to monitor implementation progress closely as the commencement date approaches.",
+      "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
       "priority": "medium"
     }
   ]

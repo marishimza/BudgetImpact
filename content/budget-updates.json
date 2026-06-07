@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T07:50:47.424Z",
+  "lastUpdated": "2026-06-07T11:45:10.132Z",
   "items": [
     {
       "id": "update-001",
@@ -1397,6 +1397,26 @@
       "summary": "KPMG analysis highlights significant implementation challenges for the CGT indexation changes, noting the $47.5 million funding allocation and potential risks to the July 2027 commencement date given the complexity of transitioning systems and guidance. The accounting firm warns that the ATO may face difficulties in providing adequate guidance to taxpayers and updating tax administration systems within the proposed timeframe. Industry stakeholders are urged to monitor implementation progress closely as the commencement date approaches.",
       "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
       "priority": "medium"
+    },
+    {
+      "id": "update-139",
+      "date": "2026-06-07",
+      "tag": "Superannuation",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "summary": "The ATO has published technical guidance to help investors calculate capital gains using the new inflation-indexation method, which will apply from 1 July 2027. The guidance covers step-by-step calculations, worked examples for various asset types, and clarifies how indexation factors will be applied. Tax practitioners and self-managed super fund trustees are encouraged to review the materials to prepare for the upcoming changes.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-140",
+      "date": "2026-06-07",
+      "tag": "Property",
+      "source": "NAB",
+      "title": "NAB revises housing forecast following Budget tax reforms",
+      "summary": "NAB has revised its housing market forecast in response to the Budget's negative gearing and capital gains tax changes, projecting a brief correction rather than a prolonged slump. The bank's updated analysis suggests the property market will experience a short-term adjustment period before stabilising. This revision indicates the major lender believes the tax reforms will have a limited long-term impact on housing demand.",
+      "url": "https://www.nab.com.au/content/dam/nab/about-us/pdfs/2026-budget-analysis.pdf",
+      "priority": "high"
     }
   ]
 }

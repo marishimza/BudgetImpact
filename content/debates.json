@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T07:51:30.593Z",
+  "lastUpdated": "2026-06-07T11:46:11.243Z",
   "debates": [
     {
       "id": "debate-001",
@@ -517,6 +517,27 @@
         "sources": [
           "https://www.bdo.com.au/au/en-"
         ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-022",
+      "slug": "limiting-negative-gearing-new-builds-housing-supply",
+      "title": "Is limiting negative gearing to new builds effective housing supply policy?",
+      "category": "housing",
+      "type": "policy_disagreement",
+      "summary": "The Government claims restricting negative gearing to new builds will stimulate housing supply, while critics argue it won't address the broader housing crisis.",
+      "view_a": {
+        "label": "Government Position",
+        "argument": "The policy is designed to focus tax support on new supply, channeling investment toward new housing construction to increase supply.",
+        "sources": [
+          "https://treasury.gov.au/news/housing-tax-changes"
+        ]
+      },
+      "view_b": {
+        "label": "Greens/Critics Position",
+        "argument": "The Greens characterised the changes as a damp squib that backs corporate profits over meaningful structural reform, arguing it won't address the housing crisis alone.",
+        "sources": []
       },
       "verdict": null
     }

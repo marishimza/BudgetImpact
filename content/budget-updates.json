@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T17:09:33.480Z",
+  "lastUpdated": "2026-06-07T22:59:32.319Z",
   "items": [
     {
       "id": "update-001",
@@ -1435,6 +1435,36 @@
       "source": "ASX",
       "title": "ASX analysis: CGT reform creates 22 percentage point tax increase for low-rate retirees",
       "summary": "ASX analysis quantifies the impact of CGT reform on retirement investors. A retired investor on a 16% marginal tax rate currently faces only 8% tax on nominal gains under the 50% CGT discount. Under the new inflation-indexed CGT rules with a 30% minimum floor, the same investor faces 30% tax on indexed gains—a 22 percentage point increase. The analysis demonstrates how the minimum 30% floor disproportionately affects lower-income retirees who have held assets for long periods.",
+      "priority": "high"
+    },
+    {
+      "id": "update-143",
+      "date": "2026-06-07",
+      "tag": "Property",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "summary": "The Australian Taxation Office has released practical guidance for calculating CGT indexation under the new rules taking effect from 1 July 2027. The guidance provides a technical framework for implementing inflation-based cost base adjustments, helping property investors understand how to apply the updated methodology. Tax professionals and SMSF trustees should review the guidance to ensure compliance with the new indexation requirements.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-144",
+      "date": "2026-06-07",
+      "tag": "Parliament",
+      "source": "budget.gov.au",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "summary": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has been formally lodged with Parliament, containing the legislative framework for the Budget's negative gearing and CGT reforms. The legislation is subject to Senate review. This bill represents the government's legislative pathway for implementing housing tax reforms announced in the 2026 Budget.",
+      "url": "https://budget.gov.au/2026-27/content/legislation.htm",
+      "priority": "medium"
+    },
+    {
+      "id": "update-145",
+      "date": "2026-05-13",
+      "tag": "Budget",
+      "source": "Australian Government Budget 2026-27",
+      "title": "Budget confirms $250 Working Australians Tax Offset annual relief for low-to-middle income workers",
+      "summary": "The 2026-27 Budget confirms a new $250 annual Working Australians Tax Offset providing targeted relief for low-to-middle income workers. This measure is separate from the broader CGT and negative gearing housing tax reforms also announced in the budget. The offset aims to ease cost-of-living pressures while maintaining work incentives for Australians earning below the tax-free threshold.",
+      "url": "https://budget.gov.au/content/02-cost-of-living.htm",
       "priority": "high"
     }
   ]

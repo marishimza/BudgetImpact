@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T21:01:41.952Z",
+  "lastUpdated": "2026-06-07T22:59:59.845Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -229,18 +229,6 @@
     },
     {
       "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Budget CGT changes take effect from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources cite 1 July 2027 as the commencement date for CGT and negative gearing changes. However, Budget.gov.au states the CGT reform introduces 'a minimum 30 per cent tax on gains from 1 July 2027.' This could be misquoted as ALL capital gains being subject to a flat 30% rate, when the actual mechanism is cost base indexation (not a simple rate replacement). The 'minimum' wording suggests complexity that simple headlines may not capture.",
-      "suggestion": "Add to fact-checks.json: claim is partially true, verdict is disputed because the reform replaces the 50% discount with inflation indexation, not a blanket 30% rate. The 'minimum 30%' language creates misleading headlines.",
-      "source": "https://budget.gov.au/info/budget-2026-27/tax-reform",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260519-449",
-      "timestamp": "2026-05-19T16:45:43.369Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
       "priority": "low",
       "title": "Claim: Budget allocates $47.5 million for CGT implementation",
       "description": "KPMG's budget analysis states the government will provide '$47.5 million over four years from 2026–27 (and $3.9 million per year ongoing) to the Treasury and the ATO' for CGT reform implementation. This specific figure should be verified against official Budget Paper No. 2 or Treasury portfolio statements.",
@@ -262,18 +250,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Does the budget create a minimum 30% tax on ALL capital gains, or only on gains above inflation?",
-      "description": "Some sources report the budget introduces a 'minimum 30% tax rate' on all capital gains, while the actual budget measure appears to be inflation indexation of cost bases—a fundamentally different mechanism that would not impose a minimum rate on gains below inflation. This is a factual conflict about what the budget actually does, with significant tax planning implications.",
-      "suggestion": "Add to debates.json: View_a from Perpetual.com.au states the budget proposes 'major reforms including minimum tax on distributions from discretionary trusts' but does not explicitly confirm a minimum 30% CGT rate. View_b from multiple political sources claim 'capital gains will face a new minimum 30% tax rate on all gains.' The actual budget.gov.au description focuses on cost base indexation rather than a minimum rate floor, suggesting potential misrepresentation of the reform mechanism.",
-      "source": "https://www.perpetual.com.au/insights/federal-budget-2026/",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260519-986",
-      "timestamp": "2026-05-19T21:12:05.621Z",
-      "status": "pending"
     },
     {
       "type": "debate_page",
@@ -4126,43 +4102,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
-      "description": "The Australian Taxation Office has released practical guidance for calculating CGT indexation under the new rules taking effect from 1 July 2027, helping investors understand how to apply the inflation-based cost base adjustments.",
-      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027 — provides technical framework for implementing inflation-based cost base adjustments",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260607-420",
-      "timestamp": "2026-06-07T21:01:38.211Z",
-      "status": "pending",
-      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has been formally lodged with Parliament, containing the legislative framework for the Budget's negative gearing and CGT reforms. The legislation is subject to Senate review.",
-      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament — contains legislative framework for negative gearing and CGT changes",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260607-868",
-      "timestamp": "2026-06-07T21:01:38.211Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Budget confirms $250 Working Australians Tax Offset annual relief for low-to-middle income workers",
-      "description": "The Budget confirms a new $250 annual Working Australians Tax Offset providing targeted relief for low-to-middle income workers, separate from the broader CGT and negative gearing reforms.",
-      "suggestion": "Add to budget-updates.json: Budget confirms $250 Working Australians Tax Offset annual relief for low-to-middle income workers alongside housing tax reforms",
-      "source": "https://budget.gov.au/content/02-cost-of-living.htm",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260607-287",
-      "timestamp": "2026-06-07T21:01:38.211Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "When do negative gearing restrictions actually take effect: Budget Night (12 May 2026) or 1 July 2027?",
@@ -5558,6 +5497,72 @@
       "status": "implemented",
       "corroborated_by": "https://www.smh.com.au/money/investing/the-days-of-multiple-properties-is-over-how-to-invest-after-the-budget-20260513-p5zwa9.html",
       "implemented_at": "2026-06-07T17:10:01.449Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The Australian Taxation Office has released practical guidance for calculating CGT indexation under the new rules taking effect from 1 July 2027, helping investors understand how to apply the inflation-based cost base adjustments.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027 — provides technical framework for implementing inflation-based cost base adjustments",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260607-420",
+      "timestamp": "2026-06-07T21:01:38.211Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implemented_at": "2026-06-07T22:58:51.944Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has been formally lodged with Parliament, containing the legislative framework for the Budget's negative gearing and CGT reforms. The legislation is subject to Senate review.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament — contains legislative framework for negative gearing and CGT changes",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260607-868",
+      "timestamp": "2026-06-07T21:01:38.211Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-07T22:59:12.282Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Budget confirms $250 Working Australians Tax Offset annual relief for low-to-middle income workers",
+      "description": "The Budget confirms a new $250 annual Working Australians Tax Offset providing targeted relief for low-to-middle income workers, separate from the broader CGT and negative gearing reforms.",
+      "suggestion": "Add to budget-updates.json: Budget confirms $250 Working Australians Tax Offset annual relief for low-to-middle income workers alongside housing tax reforms",
+      "source": "https://budget.gov.au/content/02-cost-of-living.htm",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260607-287",
+      "timestamp": "2026-06-07T21:01:38.211Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-07T22:59:32.321Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Budget CGT changes take effect from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources cite 1 July 2027 as the commencement date for CGT and negative gearing changes. However, Budget.gov.au states the CGT reform introduces 'a minimum 30 per cent tax on gains from 1 July 2027.' This could be misquoted as ALL capital gains being subject to a flat 30% rate, when the actual mechanism is cost base indexation (not a simple rate replacement). The 'minimum' wording suggests complexity that simple headlines may not capture.",
+      "suggestion": "Add to fact-checks.json: claim is partially true, verdict is disputed because the reform replaces the 50% discount with inflation indexation, not a blanket 30% rate. The 'minimum 30%' language creates misleading headlines.",
+      "source": "https://budget.gov.au/info/budget-2026-27/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260519-449",
+      "timestamp": "2026-05-19T16:45:43.369Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-07T22:59:41.725Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Does the budget create a minimum 30% tax on ALL capital gains, or only on gains above inflation?",
+      "description": "Some sources report the budget introduces a 'minimum 30% tax rate' on all capital gains, while the actual budget measure appears to be inflation indexation of cost bases—a fundamentally different mechanism that would not impose a minimum rate on gains below inflation. This is a factual conflict about what the budget actually does, with significant tax planning implications.",
+      "suggestion": "Add to debates.json: View_a from Perpetual.com.au states the budget proposes 'major reforms including minimum tax on distributions from discretionary trusts' but does not explicitly confirm a minimum 30% CGT rate. View_b from multiple political sources claim 'capital gains will face a new minimum 30% tax rate on all gains.' The actual budget.gov.au description focuses on cost base indexation rather than a minimum rate floor, suggesting potential misrepresentation of the reform mechanism.",
+      "source": "https://www.perpetual.com.au/insights/federal-budget-2026/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260519-986",
+      "timestamp": "2026-05-19T21:12:05.621Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-07T22:59:59.844Z"
     }
   ],
   "skipped": [

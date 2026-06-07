@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T17:10:01.447Z",
+  "lastUpdated": "2026-06-07T22:59:41.723Z",
   "claims": [
     {
       "id": "fc-001",
@@ -664,6 +664,24 @@
       ],
       "date_checked": "2026-06-07",
       "category": "fact_check"
+    },
+    {
+      "id": "fc-034",
+      "slug": "budget-cgt-minimum-30-percent-rate-misrepresentation",
+      "claim": "The Budget introduces a minimum 30% tax on capital gains from 1 July 2027",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "The reform replaces the 50% CGT discount with cost base inflation indexation, not a flat 30% rate. The 'minimum 30%' wording misrepresents the actual mechanism.",
+      "detailed_explanation": "The Budget.gov.au source states the reform introduces 'a minimum 30 per cent tax on gains from 1 July 2027.' However, this language is misleading. The actual reform replaces the existing 50% discount on capital gains for assets held longer than 12 months with cost base indexation for inflation. This is not equivalent to a blanket 30% tax rate. The indexation mechanism means gains are adjusted for inflation before calculation, but the effective tax rate varies based on individual circumstances, marginal tax rates, and the period of asset ownership. Simple headlines claiming a '30% CGT rate' fail to capture the technical complexity of indexation-based reform versus rate-based reform.",
+      "sources": [
+        {
+          "name": "Australian Government Budget 2026-27",
+          "url": "https://budget.gov.au/info/budget-2026-27/tax-reform",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-07",
+      "category": "tax"
     }
   ]
 }

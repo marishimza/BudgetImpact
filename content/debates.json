@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T11:46:11.243Z",
+  "lastUpdated": "2026-06-07T22:59:59.842Z",
   "debates": [
     {
       "id": "debate-001",
@@ -538,6 +538,30 @@
         "label": "Greens/Critics Position",
         "argument": "The Greens characterised the changes as a damp squib that backs corporate profits over meaningful structural reform, arguing it won't address the housing crisis alone.",
         "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-023",
+      "slug": "budget-minimum-30-percent-capital-gains-vs-inflation-indexation",
+      "title": "Does the budget create a minimum 30% tax on ALL capital gains, or only on gains above inflation?",
+      "category": "tax",
+      "type": "factual_dispute",
+      "summary": "There is a factual dispute about whether the 2026-27 budget introduces a minimum 30% tax rate on all capital gains, or whether it implements inflation indexation of cost bases—a fundamentally different mechanism that would only affect gains above inflation and not impose a minimum rate floor on all gains.",
+      "view_a": {
+        "label": "Budget focuses on cost base indexation",
+        "argument": "The actual budget.gov.au description focuses on cost base indexation rather than a minimum rate floor. Perpetual.com.au notes 'major reforms including minimum tax on distributions from discretionary trusts' but does not explicitly confirm a minimum 30% CGT rate applies to all capital gains. This suggests the mechanism adjusts cost bases for inflation rather than imposing a universal minimum tax rate.",
+        "sources": [
+          "https://www.perpetual.com.au/insights/federal-budget-2026/",
+          "https://budget.gov.au"
+        ]
+      },
+      "view_b": {
+        "label": "Budget imposes minimum 30% rate on all gains",
+        "argument": "Multiple political sources claim the budget creates a new minimum 30% tax rate that applies to ALL capital gains, not just gains above inflation. This interpretation suggests a floor rate that would apply regardless of inflation adjustments.",
+        "sources": [
+          "Multiple political sources"
+        ]
       },
       "verdict": null
     }

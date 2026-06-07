@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T07:51:41.081Z",
+  "lastUpdated": "2026-06-07T10:22:32.243Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -4064,49 +4064,94 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "NAB Budget Analysis: CGT discount replaced by cost base indexation — implications for investors",
-      "description": "National Australia Bank publishes detailed analysis of CGT discount replacement with cost base indexation and implications for investors.",
-      "suggestion": "Add to budget-updates.json: NAB Budget Analysis details CGT discount replacement with cost base indexation and investor implications",
-      "source": "https://www.nab.com.au/content/nab/en/home/perspectives/business-and-economy/federal-budget-2026.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260525-290",
-      "timestamp": "2026-05-25T20:57:44.022Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-31T07:40:34.855Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Government confirms new tax cuts for Australian workers alongside CGT reform",
-      "description": "Budget 2026-27 confirms new tax cuts for Australian workers as part of the broader tax reform package. The measures include replacement of the 50% CGT discount with inflation indexation and introduction of a minimum 30% tax on gains from 1 July 2027. Treasurer Jim Chalmers stated the reforms aim to rebalance the taxation system away from taxing incomes and more towards taxing assets.",
-      "suggestion": "Add to budget-updates.json: Government confirms new tax cuts for Australian workers alongside CGT reform",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260526-628",
-      "timestamp": "2026-05-26T06:00:16.769Z",
-      "status": "implemented",
-      "implemented_at": "2026-05-31T07:41:12.219Z"
     },
     {
       "type": "content_update",
       "priority": "high",
-      "title": "ATO releases Division 296 indexed thresholds and CGT relief details",
-      "description": "The ATO has confirmed the indexed thresholds for Division 296 tax and details of CGT relief for affected superannuation accounts. The $3m threshold applies from 1 July 2026, with additional 15% tax on earnings related to balances exceeding the levy surplus balance.",
-      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details - $3m threshold applies from 1 July 2026 per enacted legislation",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The ATO has published technical guidance for investors calculating capital gains using the new inflation-indexation method, ahead of the 1 July 2027 commencement date.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
       "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260526-781",
-      "timestamp": "2026-05-26T17:20:54.105Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implemented_at": "2026-05-31T07:41:25.492Z"
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260607-718",
+      "timestamp": "2026-06-07T10:22:22.741Z",
+      "status": "pending",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
     },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Division 296 draft legislation released with CGT relief provisions",
+      "description": "Treasury released draft legislation for Division 296 tax, including indexed thresholds, CGT relief provisions, and rules for SMSFs ahead of the 1 July 2026 commencement.",
+      "suggestion": "Add to budget-updates.json: Division 296 draft legislation released with CGT relief provisions",
+      "source": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260607-434",
+      "timestamp": "2026-06-07T10:22:22.741Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "NAB revises housing forecast following Budget tax reforms",
+      "description": "NAB revised its housing market forecast after the Budget's negative gearing and CGT changes, projecting a brief correction rather than a prolonged slump.",
+      "suggestion": "Add to budget-updates.json: NAB revises housing forecast following Budget tax reforms — brief correction not prolonged slump",
+      "source": "https://www.nab.com.au/content/dam/nab/about-us/pdfs/2026-budget-analysis.pdf",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260607-588",
+      "timestamp": "2026-06-07T10:22:22.741Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will restricting negative gearing to new builds increase or decrease rental supply?",
+      "description": "Real estate industry bodies (REIA and Property Council) warn that reducing the attractiveness of residential property investment could reduce rental supply over time. Meanwhile, the government frames its policy as focusing tax support on new supply to address housing shortages. This represents a factual conflict about the directional impact of the policy on rental availability.",
+      "suggestion": "Add to debates.json: view_a from REIA/Property Council via slateandsage.com.au says restricting negative gearing could REDUCE rental supply over time; view_b from budget.gov.au says limiting negative gearing to new builds will FOCUS TAX SUPPORT ON NEW SUPPLY to address housing shortage",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260607-520",
+      "timestamp": "2026-06-07T10:22:22.741Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Negative gearing has been fully abolished for all investors'",
+      "description": "Multiple sources indicate negative gearing is NOT fully abolished. It is limited to NEW BUILDS only from 1 July 2027. Properties purchased BEFORE 7:30pm on Budget Night (12 May 2026) remain grandfathered with existing negative gearing intact. This is a significant oversimplification.",
+      "suggestion": "Add to fact-checks.json: claim is 'fully abolished', verdict is disputed because negative gearing is only restricted to new builds from 1 July 2027, with grandfathering for existing property investors.",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260607-458",
+      "timestamp": "2026-06-07T10:22:22.741Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
+      "description": "This claim appears in multiple fact-checks but the ASX analysis shows a retired investor on 16% marginal rate faces 8% tax on nominal gains under current 50% discount vs 30% on indexed gains under new rules - clearly demonstrating the 50% discount can be better.",
+      "suggestion": "Add to fact-checks.json: claim is 'inflation indexation always better', verdict is disputed because for high-growth assets the 50% discount produces lower effective tax rates than inflation indexation.",
+      "source": "https://www.asx.com.au/content/dam/asx/community/investing-tools-resources/commentary/2026/what-the-federal-budget-means-for-investors.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260607-747",
+      "timestamp": "2026-06-07T10:22:22.741Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260607-856",
+      "timestamp": "2026-06-07T10:22:22.741Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "medium",
@@ -5496,34 +5541,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Venture capital tax incentives expanded from July 2027 in Budget 2026 measure",
-      "description": "The Federal Budget includes expansion of venture capital tax incentives effective from July 2027, providing increased support for early-stage investment. This measure sits alongside the major CGT and negative gearing reforms in the broader tax reform package.",
-      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expanded from July 2027 in Budget 2026 measure",
-      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260526-898",
-      "timestamp": "2026-05-26T06:00:16.769Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-05-31T07:40:46.703Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Federal Budget introduces significant reforms to negative gearing for residential property investors",
-      "description": "William Buck analysis confirms that investors purchasing established properties after 7:30pm on Budget Night (12 May 2026) will lose access to negative gearing tax benefits from 1 July 2027, while new builds remain exempt.",
-      "suggestion": "Add to budget-updates.json: William Buck: Federal Budget introduces significant reforms to negative gearing for residential property investors, removing access from 1 July 2027 for established properties purchased after 7:30pm on 12 May 2026",
-      "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260526-832",
-      "timestamp": "2026-05-26T17:20:54.105Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-05-31T07:41:37.422Z"
-    },
     {
       "type": "content_update",
       "priority": "medium",

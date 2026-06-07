@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T17:05:23.213Z",
+  "lastUpdated": "2026-06-07T17:10:01.447Z",
   "claims": [
     {
       "id": "fc-001",
@@ -646,6 +646,24 @@
       ],
       "date_checked": "2026-06-06",
       "category": "tax"
+    },
+    {
+      "id": "fc-033",
+      "slug": "retired-investor-16-percent-marginal-rate-8-percent-nominal-cgt",
+      "claim": "A retired investor on a 16% marginal tax rate faces 8% tax on nominal capital gains under the current CGT discount system.",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The calculation (16% × 50% CGT discount = 8%) is mathematically correct for nominal gains, but the framing may mislead readers about the general tax treatment of capital gains.",
+      "detailed_explanation": "Under the current CGT system, individuals on a 16% marginal tax rate who hold assets for more than 12 months receive a 50% discount on capital gains, resulting in an effective rate of 8% on nominal gains. However, this claim requires important context: the 8% rate applies specifically to nominal (non-indexed) gains. Indexed gains—where the cost base is adjusted for inflation using the ATO's CGT indexation factor—are taxed differently, with the indexation benefit depending on the asset's holding period and inflation during that time. The ATO's Division 296 guidance clarifies that these are distinct calculation methods. Additionally, the framing suggests this represents the rate an investor 'generally faces,' when in fact different gains may be subject to different treatments. Readers should consult official ATO guidance on CGT discount rules and indexation to understand the precise scope applicable to their situation.",
+      "sources": [
+        {
+          "name": "ASX Investment Community 2026 Budget Analysis",
+          "url": "https://www.asx.com.au/content/dam/asx/investors/ASX-Investment-Community-2026-Budget-Analysis.pdf",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-07",
+      "category": "fact_check"
     }
   ]
 }

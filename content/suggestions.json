@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T15:19:44.618Z",
+  "lastUpdated": "2026-06-07T17:10:18.562Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -214,18 +214,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains",
-      "description": "Budget.gov.au states 'minimum 30 per cent tax on gains' but ABC clarifies it applies to 'real capital gains accruing from next July' (i.e., inflation-adjusted gains). The 30% floor may not apply to the nominal gain but to real (inflation-adjusted) gains, meaning the effective tax rate on nominal gains could be lower depending on inflation rates. This 'on all gains' framing may be inaccurate.",
-      "suggestion": "Add to fact-checks.json: claim is partially true but misleading, verdict is partially_true because the 30% minimum applies to real (inflation-adjusted) capital gains, not necessarily all nominal gains. The effective tax treatment depends on inflation rates and the interaction between the inflation-based discount and the minimum floor.",
-      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-property-investment/10515288",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260519-945",
-      "timestamp": "2026-05-19T10:55:22.786Z",
-      "status": "pending"
     },
     {
       "id": "suggestion-20260519-812",
@@ -4090,43 +4078,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASA calls for capital gains averaging to address 'income bunching' under CGT indexation reform",
-      "description": "The Australian Shareholders Association has raised concerns that inflation indexation alone may not address 'income bunching' where gains accumulated over many years are realised in a single tax year. ASA is calling on the Government to consider implementing a capital gains averaging mechanism alongside indexation to prevent retirees and long-term investors from being pushed into higher tax brackets when realising gains.",
-      "suggestion": "Add to budget-updates.json: Australian Shareholders Association calls for capital gains averaging mechanism alongside indexation reform to address income bunching",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260607-692",
-      "timestamp": "2026-06-07T15:19:36.293Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis: CGT reform creates 22 percentage point tax increase for low-rate retirees",
-      "description": "ASX analysis quantifies the impact of CGT reform on retirement investors. A retired investor on a 16% marginal tax rate currently faces only 8% tax on nominal gains under the 50% CGT discount. Under the new inflation-indexed CGT rules with a 30% minimum floor, the same investor faces 30% tax on indexed gains—a 22 percentage point increase. The analysis demonstrates how the minimum 30% floor disproportionately affects lower-income retirees who have held assets for long periods.",
-      "suggestion": "Add to budget-updates.json: ASX analysis quantifies 22 percentage point CGT tax increase for low-rate retirees under reform package",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260607-713",
-      "timestamp": "2026-06-07T15:19:36.293Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
-      "description": "The Australian Taxation Office has released practical guidance for taxpayers calculating CGT indexation under the new rules commencing 1 July 2027. The guidance addresses how to apply the inflation-based cost base adjustments, helping investors and SMSFs prepare for the transition away from the 50% CGT discount.",
-      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027 implementation",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260607-364",
-      "timestamp": "2026-06-07T15:19:36.293Z",
-      "status": "pending",
-      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Is the 50% CGT discount preserved or eliminated under 2026 Budget reforms?",
@@ -4149,19 +4100,6 @@
       "id": "suggestion-20260607-714",
       "timestamp": "2026-06-07T15:19:36.293Z",
       "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'A retired investor on a 16% marginal rate faces 8% tax on nominal gains' under current CGT system",
-      "description": "This ASX analysis claim presents a specific tax calculation that appears in multiple sources. The math (16% × 50% discount = 8%) is correct under current rules for nominal gains, but the framing may mislead readers into thinking this represents the investor's 'facing' rate generally, when in fact indexed gains are taxed differently. This specific example has been cited to illustrate the contrast with the new 30% minimum rate, but the context of nominal vs indexed gains matters.",
-      "suggestion": "Add to fact-checks.json: claim is 'verified if referring to nominal gains only; partially misleading' because the 8% calculation is mathematically correct under current 50% discount rules, but the framing doesn't clarify this applies to nominal (non-indexed) gains where inflation has been minimal. Official ATO guidance on Division 296 and CGT indexation should be consulted to confirm the precise scope.",
-      "source": "https://www.asx.com.au/content/dam/asx/investors/ASX-Investment-Community-2026-Budget-Analysis.pdf",
-      "implementation_effort": "45_minutes",
-      "id": "suggestion-20260607-117",
-      "timestamp": "2026-06-07T15:19:36.293Z",
-      "status": "pending",
-      "corroborated_by": "https://www.smh.com.au/money/investing/the-days-of-multiple-properties-is-over-how-to-invest-after-the-budget-20260513-p5zwa9.html"
     },
     {
       "type": "fact_check",
@@ -5547,6 +5485,47 @@
       "timestamp": "2026-05-19T10:55:22.786Z",
       "status": "implemented",
       "implemented_at": "2026-06-07T11:46:11.245Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The Australian Taxation Office has released practical guidance for taxpayers calculating CGT indexation under the new rules commencing 1 July 2027. The guidance addresses how to apply the inflation-based cost base adjustments, helping investors and SMSFs prepare for the transition away from the 50% CGT discount.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027 implementation",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260607-364",
+      "timestamp": "2026-06-07T15:19:36.293Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implemented_at": "2026-06-07T17:09:07.907Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: CGT reform creates 22 percentage point tax increase for low-rate retirees",
+      "description": "ASX analysis quantifies the impact of CGT reform on retirement investors. A retired investor on a 16% marginal tax rate currently faces only 8% tax on nominal gains under the 50% CGT discount. Under the new inflation-indexed CGT rules with a 30% minimum floor, the same investor faces 30% tax on indexed gains—a 22 percentage point increase. The analysis demonstrates how the minimum 30% floor disproportionately affects lower-income retirees who have held assets for long periods.",
+      "suggestion": "Add to budget-updates.json: ASX analysis quantifies 22 percentage point CGT tax increase for low-rate retirees under reform package",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260607-713",
+      "timestamp": "2026-06-07T15:19:36.293Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-07T17:09:33.482Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'A retired investor on a 16% marginal rate faces 8% tax on nominal gains' under current CGT system",
+      "description": "This ASX analysis claim presents a specific tax calculation that appears in multiple sources. The math (16% × 50% discount = 8%) is correct under current rules for nominal gains, but the framing may mislead readers into thinking this represents the investor's 'facing' rate generally, when in fact indexed gains are taxed differently. This specific example has been cited to illustrate the contrast with the new 30% minimum rate, but the context of nominal vs indexed gains matters.",
+      "suggestion": "Add to fact-checks.json: claim is 'verified if referring to nominal gains only; partially misleading' because the 8% calculation is mathematically correct under current 50% discount rules, but the framing doesn't clarify this applies to nominal (non-indexed) gains where inflation has been minimal. Official ATO guidance on Division 296 and CGT indexation should be consulted to confirm the precise scope.",
+      "source": "https://www.asx.com.au/content/dam/asx/investors/ASX-Investment-Community-2026-Budget-Analysis.pdf",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260607-117",
+      "timestamp": "2026-06-07T15:19:36.293Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.smh.com.au/money/investing/the-days-of-multiple-properties-is-over-how-to-invest-after-the-budget-20260513-p5zwa9.html",
+      "implemented_at": "2026-06-07T17:10:01.449Z"
     }
   ],
   "skipped": [
@@ -6022,6 +6001,34 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-07T11:46:14.836Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASA calls for capital gains averaging to address 'income bunching' under CGT indexation reform",
+      "description": "The Australian Shareholders Association has raised concerns that inflation indexation alone may not address 'income bunching' where gains accumulated over many years are realised in a single tax year. ASA is calling on the Government to consider implementing a capital gains averaging mechanism alongside indexation to prevent retirees and long-term investors from being pushed into higher tax brackets when realising gains.",
+      "suggestion": "Add to budget-updates.json: Australian Shareholders Association calls for capital gains averaging mechanism alongside indexation reform to address income bunching",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260607-692",
+      "timestamp": "2026-06-07T15:19:36.293Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-07T17:09:10.562Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains",
+      "description": "Budget.gov.au states 'minimum 30 per cent tax on gains' but ABC clarifies it applies to 'real capital gains accruing from next July' (i.e., inflation-adjusted gains). The 30% floor may not apply to the nominal gain but to real (inflation-adjusted) gains, meaning the effective tax rate on nominal gains could be lower depending on inflation rates. This 'on all gains' framing may be inaccurate.",
+      "suggestion": "Add to fact-checks.json: claim is partially true but misleading, verdict is partially_true because the 30% minimum applies to real (inflation-adjusted) capital gains, not necessarily all nominal gains. The effective tax treatment depends on inflation rates and the interaction between the inflation-based discount and the minimum floor.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-property-investment/10515288",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260519-945",
+      "timestamp": "2026-05-19T10:55:22.786Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-07T17:10:18.562Z"
     }
   ],
   "needs_manual_review": [

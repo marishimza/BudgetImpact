@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T11:45:10.132Z",
+  "lastUpdated": "2026-06-07T17:09:33.480Z",
   "items": [
     {
       "id": "update-001",
@@ -1416,6 +1416,25 @@
       "title": "NAB revises housing forecast following Budget tax reforms",
       "summary": "NAB has revised its housing market forecast in response to the Budget's negative gearing and capital gains tax changes, projecting a brief correction rather than a prolonged slump. The bank's updated analysis suggests the property market will experience a short-term adjustment period before stabilising. This revision indicates the major lender believes the tax reforms will have a limited long-term impact on housing demand.",
       "url": "https://www.nab.com.au/content/dam/nab/about-us/pdfs/2026-budget-analysis.pdf",
+      "priority": "high"
+    },
+    {
+      "id": "update-141",
+      "date": "2026-06-07",
+      "tag": "Superannuation",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "summary": "The Australian Taxation Office has released practical guidance for taxpayers calculating CGT indexation under the new rules commencing 1 July 2027. The guidance addresses how to apply the inflation-based cost base adjustments, helping investors and SMSFs prepare for the transition away from the 50% CGT discount. Taxpayers holding assets acquired after 1 July 2025 should review the guidance to ensure accurate calculations when the new indexation method takes effect.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "medium"
+    },
+    {
+      "id": "update-142",
+      "date": "2026-06-07",
+      "tag": "ASX",
+      "source": "ASX",
+      "title": "ASX analysis: CGT reform creates 22 percentage point tax increase for low-rate retirees",
+      "summary": "ASX analysis quantifies the impact of CGT reform on retirement investors. A retired investor on a 16% marginal tax rate currently faces only 8% tax on nominal gains under the 50% CGT discount. Under the new inflation-indexed CGT rules with a 30% minimum floor, the same investor faces 30% tax on indexed gains—a 22 percentage point increase. The analysis demonstrates how the minimum 30% floor disproportionately affects lower-income retirees who have held assets for long periods.",
       "priority": "high"
     }
   ]

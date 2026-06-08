@@ -2604,6 +2604,85 @@
       "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-01T15:51:54.541Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis reveals 'two-speed' CGT treatment for different investor types under reform package",
+      "description": "ASX Investor Update analysis details how CGT reforms create differential outcomes: SMSFs retain one-third discount on superannuation assets, listed investment vehicles face modified treatment, while direct share investors move to indexation-based cost bases. The analysis quantifies impacts across ETF, Listed Investment Company (LIC), and Listed Investment Trust (LIT) structures.",
+      "suggestion": "Add to budget-updates.json: ASX analysis reveals 'two-speed' CGT treatment — SMSFs, ETFs and Listed Investment Vehicles face differentiated outcomes under reform package",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260529-369",
+      "timestamp": "2026-05-29T06:05:39.809Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-01T20:13:09.607Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO confirms Division 296 indexed thresholds and CGT relief details",
+      "description": "The ATO has released detailed guidance on Division 296 tax calculation methods, indexed thresholds for 2026–27, and CGT relief provisions for affected superannuation funds.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260529-913",
+      "timestamp": "2026-05-29T17:27:05.211Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-06-01T20:13:21.221Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASA calls for capital gains averaging mechanism alongside indexation reform",
+      "description": "The Australian Shareholders Association has formally called on the Government to incorporate a capital gains averaging mechanism into the CGT reform package, arguing that indexation alone fails to address income bunching where gains accrued over many years are realised in a single tax year.",
+      "suggestion": "Add to budget-updates.json: ASA formally requests capital gains averaging be included alongside inflation indexation in CGT reform, warning that current proposal does not address income bunching concerns for investors who accumulate gains over extended periods.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260530-918",
+      "timestamp": "2026-05-30T05:41:56.853Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-01T20:13:50.166Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis details CGT impact on ETFs and Listed Investment Vehicles",
+      "description": "ASX Investor Update examines how proposed CGT changes affect different investor types, noting retail investors in LICs may face different treatment, and identifying potential 'two-speed' tax outcomes.",
+      "suggestion": "Add to budget-updates.json: ASX analysis reveals 'two-speed' CGT treatment for ETF and Listed Investment Vehicle investors under reform package",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260529-976",
+      "timestamp": "2026-05-29T17:27:05.211Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-01T20:13:31.254Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Budget confirms negative gearing cutoff: 7:30pm on Budget Night",
+      "description": "Properties purchased after 7:30pm on 12 May 2026 (Budget Night) for established residential property lose negative gearing benefits from 1 July 2027, while new builds remain fully exempt.",
+      "suggestion": "Add to budget-updates.json: Negative gearing cutoff confirmed: 7:30pm on Budget Night for established properties",
+      "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260530-980",
+      "timestamp": "2026-05-30T09:51:25.751Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-01T20:14:00.955Z"
+    },
+    {
+      "id": "health-1780341426700-fbqk",
+      "timestamp": "2026-06-01T19:17:06.700Z",
+      "status": "needs_manual_review",
+      "priority": "high",
+      "type": "site_health",
+      "title": "[HEALTH] $%7Bitem.Url%20||%20' page: HTTP 404",
+      "description": "HTTP 404",
+      "suggestion": "Investigate https://marishimza.github.io/BudgetImpact/$%7Bitem.url%20||%20'#'} — page failed health check. Check deployment and content files.",
+      "source": "https://marishimza.github.io/BudgetImpact/$%7Bitem.url%20||%20'#'}"
     }
   ]
 }

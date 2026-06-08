@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T18:23:15.876Z",
+  "lastUpdated": "2026-06-08T21:43:45.917Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -4232,49 +4232,107 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis reveals 'two-speed' CGT treatment for different investor types under reform package",
-      "description": "ASX Investor Update analysis details how CGT reforms create differential outcomes: SMSFs retain one-third discount on superannuation assets, listed investment vehicles face modified treatment, while direct share investors move to indexation-based cost bases. The analysis quantifies impacts across ETF, Listed Investment Company (LIC), and Listed Investment Trust (LIT) structures.",
-      "suggestion": "Add to budget-updates.json: ASX analysis reveals 'two-speed' CGT treatment — SMSFs, ETFs and Listed Investment Vehicles face differentiated outcomes under reform package",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260529-369",
-      "timestamp": "2026-05-29T06:05:39.809Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-01T20:13:09.607Z"
     },
     {
       "type": "content_update",
       "priority": "high",
-      "title": "ATO confirms Division 296 indexed thresholds and CGT relief details",
-      "description": "The ATO has released detailed guidance on Division 296 tax calculation methods, indexed thresholds for 2026–27, and CGT relief provisions for affected superannuation funds.",
-      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The Australian Taxation Office has published practical guidance on how investors should calculate capital gains under the new cost base indexation rules that apply from 1 July 2027. The guidance covers methodology for applying inflation adjustments to asset cost bases, which will replace the current 50% CGT discount mechanism.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations — investors directed to official methodology for applying inflation adjustments to asset cost bases from July 2027",
       "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260529-913",
-      "timestamp": "2026-05-29T17:27:05.211Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implemented_at": "2026-06-01T20:13:21.221Z"
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260608-287",
+      "timestamp": "2026-06-08T21:43:40.608Z",
+      "status": "pending",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
     },
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "ASA calls for capital gains averaging mechanism alongside indexation reform",
-      "description": "The Australian Shareholders Association has formally called on the Government to incorporate a capital gains averaging mechanism into the CGT reform package, arguing that indexation alone fails to address income bunching where gains accrued over many years are realised in a single tax year.",
-      "suggestion": "Add to budget-updates.json: ASA formally requests capital gains averaging be included alongside inflation indexation in CGT reform, warning that current proposal does not address income bunching concerns for investors who accumulate gains over extended periods.",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "title": "ASX analysis quantifies retirement investor tax impact under CGT reforms",
+      "description": "Analysis reveals a retired investor on a 16% marginal tax rate faces 8% tax on nominal gains versus 30% on indexed gains under announced changes — a 22 percentage point effective rate increase that could significantly affect retirees with large equity portfolios held for extended periods.",
+      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT reform impact on retirement investors — 22 percentage point effective rate increase from 8% to 30% for low-rate investors on long-held equity gains",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260530-918",
-      "timestamp": "2026-05-30T05:41:56.853Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-01T20:13:50.166Z"
+      "id": "suggestion-20260608-653",
+      "timestamp": "2026-06-08T21:43:40.608Z",
+      "status": "pending"
     },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Division 296 draft legislation released with CGT relief provisions for SMSFs",
+      "description": "Treasury has released draft legislation for Division 296 (Better Targeted Super Concessions) including indexed thresholds, CGT relief provisions, and specific rules for self-managed super funds. The legislation enacts the $3m super balance tax that commences from 1 July 2026.",
+      "suggestion": "Add to budget-updates.json: Division 296 draft legislation released with indexed thresholds, CGT relief provisions, and SMSF rules — $3m super balance tax legislation finalised ahead of July 2026 commencement",
+      "source": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260608-391",
+      "timestamp": "2026-06-08T21:43:40.608Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "The budget and REIA claim the $2B infrastructure initiative will enable ~65,000 additional homes, but this is an optimistic projection from interested parties without independent verification of delivery capacity, timeline feasibility, or land supply constraints.",
+      "suggestion": "Add to debates.json: budget.gov.au and REIA claim the $2B infrastructure initiative will enable around 65,000 additional homes; no independent modelling confirms this figure is achievable given infrastructure lead times, planning approvals, and land availability constraints.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260608-630",
+      "timestamp": "2026-06-08T21:43:40.608Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "low",
+      "title": "Is the Coalition's immigration cap proposal a direct response to the budget housing measures or separate policy?",
+      "description": "The Coalition calls negative gearing and CGT changes 'toxic' and vows repeal, while simultaneously proposing immigration caps. The debate is whether immigration levels are the primary housing driver (Coalition position) or tax arrangements are (Government position).",
+      "suggestion": "Add to debates.json: Coalition positions immigration as primary housing driver warranting caps; Government positions tax reform as key solution; both claim their approach addresses housing affordability, but neither provides comparative empirical analysis of relative impact.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260608-209",
+      "timestamp": "2026-06-08T21:43:40.608Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'More than half of the benefit of the CGT concession went to the top 1% of income earners'",
+      "description": "This claim appears in The Guardian with the qualifier 'the most recent data shows' but doesn't cite the specific data source or year. While ATO data generally supports high-income earners receive disproportionate CGT benefits, the specific 'top 1%' and 'more than half' figures should be verified against official ATO statistics to confirm the claim's accuracy and currency.",
+      "suggestion": "Add to fact-checks.json: claim is 'More than half of CGT concession benefit goes to top 1%', verdict is partially_verified because ATO data generally confirms disproportionate benefit distribution but the specific 'more than half' figure and time period should be confirmed against official sources.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/capital-gains-tax-and-negative-gearing-benefit-the-1-percent-and-this-chart-shows-it",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260608-352",
+      "timestamp": "2026-06-08T21:43:40.608Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'A retired investor on a 16% marginal rate faces 8% tax on nominal gains under the current CGT system'",
+      "description": "The math (16% × 50% = 8%) is correct, but the claim is incomplete/oversimplified. It doesn't mention that under the new system from July 2027, this same investor would face 30% on indexed gains. The comparison in ASX analysis suggests this is a significant tax increase, but the framing presents only half the picture.",
+      "suggestion": "Add to fact-checks.json: claim is 'retired investor on 16% rate faces 8% tax on nominal gains', verdict is verified_technically because 16% × 50% CGT discount = 8% effective rate, but the claim is incomplete as it omits that under new rules this same investor faces 30% on indexed gains—a significant change not reflected in the standalone claim.",
+      "source": "https://www.asx.com.au/about/investor-resources/investment-articles/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260608-916",
+      "timestamp": "2026-06-08T21:43:40.608Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260608-370",
+      "timestamp": "2026-06-08T21:43:40.608Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "medium",
@@ -5615,34 +5673,6 @@
   "skipped": [
     {
       "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis details CGT impact on ETFs and Listed Investment Vehicles",
-      "description": "ASX Investor Update examines how proposed CGT changes affect different investor types, noting retail investors in LICs may face different treatment, and identifying potential 'two-speed' tax outcomes.",
-      "suggestion": "Add to budget-updates.json: ASX analysis reveals 'two-speed' CGT treatment for ETF and Listed Investment Vehicle investors under reform package",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260529-976",
-      "timestamp": "2026-05-29T17:27:05.211Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-01T20:13:31.254Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Budget confirms negative gearing cutoff: 7:30pm on Budget Night",
-      "description": "Properties purchased after 7:30pm on 12 May 2026 (Budget Night) for established residential property lose negative gearing benefits from 1 July 2027, while new builds remain fully exempt.",
-      "suggestion": "Add to budget-updates.json: Negative gearing cutoff confirmed: 7:30pm on Budget Night for established properties",
-      "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260530-980",
-      "timestamp": "2026-05-30T09:51:25.751Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-01T20:14:00.955Z"
-    },
-    {
-      "type": "content_update",
       "priority": "high",
       "title": "Budget confirms shift from taxing incomes to taxing assets — trust and CGT reform explained",
       "description": "The budget explicitly frames CGT and negative gearing reforms as rebalancing the tax system away from income taxation toward asset taxation. This aligns with broader trust tax treatment reforms flagged for future legislation.",
@@ -6144,8 +6174,8 @@
   ],
   "needs_manual_review": [
     {
-      "id": "health-1780341426700-fbqk",
-      "timestamp": "2026-06-01T19:17:06.700Z",
+      "id": "health-1780955025917-y64s",
+      "timestamp": "2026-06-08T21:43:45.917Z",
       "status": "needs_manual_review",
       "priority": "high",
       "type": "site_health",

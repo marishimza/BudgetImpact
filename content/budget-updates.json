@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T08:49:48.154Z",
+  "lastUpdated": "2026-06-08T18:22:50.603Z",
   "items": [
     {
       "id": "update-001",
@@ -1484,6 +1484,26 @@
       "source": "Australian Taxation Office",
       "title": "ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes",
       "summary": "The ATO has confirmed the valuation methodology for pre-1985 share holdings as part of the broader CGT reform package. Investors holding shares acquired before 1 July 1985 will need to reset their cost base for CGT calculations from 1 July 2027. The reset applies to individuals, self-managed super funds, and other entities affected by the capital gains tax changes.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-148",
+      "date": "2026-06-08",
+      "tag": "Budget",
+      "source": "budget.gov.au",
+      "title": "Budget confirms CGT discount replaced by inflation-based indexation",
+      "summary": "The official Budget 2026-27 tax reform page clarifies the 50% CGT discount will be replaced by a discount based on inflation rather than cost base indexation. This creates a minimum 30% tax on capital gains from 1 July 2027. Analysis shows a retired investor on a 16% marginal rate faces 8% effective tax on nominal gains under current rules versus 30% on inflation-indexed gains under proposed changes.",
+      "url": "https://budget.gov.au/content/04-tax-reform.htm",
+      "priority": "high"
+    },
+    {
+      "id": "update-149",
+      "date": "2026-06-08",
+      "tag": "Superannuation",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases Division 296 indexed thresholds and CGT relief details for SMSFs",
+      "summary": "The ATO has released practical guidance confirming the indexed thresholds for Division 296 (Better Targeted Super Concessions) and specific CGT relief provisions for SMSFs affected by the $3m high-balance super tax. The legislation was enacted in March 2026 and commences from 1 July 2026, with the $3m threshold applying and 15% tax on earnings relating to total superannuation balance exceeding the threshold. Draft legislation includes CGT relief provisions for funds impacted by the new tax.",
       "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "priority": "high"
     }

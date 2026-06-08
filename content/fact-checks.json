@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T14:02:23.926Z",
+  "lastUpdated": "2026-06-08T18:23:15.874Z",
   "claims": [
     {
       "id": "fc-001",
@@ -700,6 +700,29 @@
       ],
       "date_checked": "2026-06-08",
       "category": "tax"
+    },
+    {
+      "id": "fc-036",
+      "slug": "30-percent-min-tax-applies-indexed-vs-nominal-gains",
+      "claim": "The minimum 30% tax applies to ALL capital gains, regardless of whether gains are indexed for inflation",
+      "verdict": "unclear",
+      "verdict_label": "Unclear",
+      "short_explanation": "Government materials use ambiguous language ('minimum 30% on gains') that does not clarify whether the rate applies to nominal gains or only to inflation-indexed gains.",
+      "detailed_explanation": "Budget.gov.au states a 'minimum 30% tax on gains' without specifying whether this applies to nominal (total) gains or only to inflation-indexed (real) gains. However, ASX analysis of the 2026 changes suggests a retired investor 'faces 8% tax on nominal gains, as opposed to 30% on indexed gains' — implying the 30% minimum may apply to indexed gains only, with nominal gains potentially subject to lower rates. This is a critical distinction: if the 30% rate applies only to gains above inflation, nominal gains below inflation could face rates well below 30%, making the new system significantly more favorable than the old 50% CGT discount for certain taxpayers. The legislation should clarify whether 'gains' refers to nominal or indexed amounts.",
+      "sources": [
+        {
+          "name": "Treasury Laws Amendment (2026 Measures No. 1) Bill 2026",
+          "url": "https://www.budget.gov.au/content/tax-reform/index.html",
+          "type": "official"
+        },
+        {
+          "name": "ASX Analysis: Capital Gains Tax Reform Impact",
+          "url": "https://www.asx.com.au/content/dam/asx/investor-education/cgt-reform-analysis.pdf",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-08",
+      "category": "capital_gains"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T08:50:46.346Z",
+  "lastUpdated": "2026-06-08T12:22:32.103Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -4172,76 +4172,94 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO confirms Division 296 indexed thresholds and CGT relief details for SMSFs",
-      "description": "The ATO has published guidance confirming Division 296 tax is law, with indexed thresholds and specific CGT relief provisions for self-managed super funds before the 1 July 2026 commencement date.",
-      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details — legislation is law, implementation date 1 July 2026",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260601-670",
-      "timestamp": "2026-06-01T06:46:57.501Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implemented_at": "2026-06-01T09:20:06.323Z"
     },
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "Guardian analysis: CGT concession benefits concentrated among top 1% of income earners",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Analysis reveals the capital gains tax discount disproportionately benefits the highest income earners, quantifying how the benefit flows primarily to the top 1% of income earners rather than average Australians.",
-      "suggestion": "Add to budget-updates.json: Guardian analysis reveals CGT concession benefits concentrated among top 1% of income earners, providing context for the policy rationale behind reform.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260528-111",
-      "timestamp": "2026-05-28T11:30:30.085Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-01T09:20:31.510Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for different investor types",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The ASX analysis outlines how the new CGT rules create differential treatment between investors based on asset type, timing of purchase, and whether investments are in property versus shares/ETFs, creating a complex two-speed taxation environment.",
-      "suggestion": "Add to budget-updates.json: ASX analysis details how CGT reform creates 'two-speed' tax treatment for investors depending on asset type and purchase timing, with implications for investment strategy.",
+      "title": "ASX analysis quantifies CGT reform impact on retirement investors: 8% vs 30% effective rate",
+      "description": "ASX analysis provides specific comparison showing a retired investor on a 16% marginal rate currently faces only 8% tax on nominal gains under the 50% CGT discount, compared to the proposed 30% minimum tax on indexed gains under Budget 2026 reforms.",
+      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT reform impact — retired investor on 16% marginal rate currently faces 8% effective tax on long-held equity gains versus 30% under proposed minimum floor from July 2027.",
       "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260528-298",
-      "timestamp": "2026-05-28T11:30:30.085Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-01T09:20:55.210Z"
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260608-990",
+      "timestamp": "2026-06-08T12:22:25.732Z",
+      "status": "pending"
     },
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "ABC analysis: CGT changes could drive investment shift from property to shares",
-      "description": "The ABC reports that capital gains tax changes may cause investors to shift portfolio allocation away from residential property investment towards share market investments, with implications for housing demand and share market activity.",
-      "suggestion": "Add to budget-updates.json: ABC analysis suggests CGT changes could redirect investment from property to shares, potentially reshaping residential property demand dynamics.",
+      "title": "ABC News analysis: Treasury data shows inflation accounts for 56% of ASX 200 share gains over decade",
+      "description": "ABC Budget 2026 analysis cites Treasury and ABS data showing inflation made up 56 per cent of asset price growth for ASX 200 shares held for 10 years to March 2026, providing empirical justification for CGT indexation reform.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis cited by ABC confirms inflation accounted for 56% of ASX 200 share price growth over the 10 years to March 2026, with CGT discount alleged to undercompensate equity investors for inflation impact.",
       "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260528-931",
-      "timestamp": "2026-05-28T11:30:30.085Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-01T09:21:25.862Z"
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260608-723",
+      "timestamp": "2026-06-08T12:22:25.732Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Australian Shareholders Association calls for capital gains averaging alongside indexation reform",
+      "description": "ASA submission urges Government to introduce averaging mechanism alongside CGT indexation to address income bunching where multi-year gains are realised in a single tax year, calling for proper consultation before major changes.",
+      "suggestion": "Add to budget-updates.json: Australian Shareholders Association calls for capital gains averaging mechanism alongside indexation reform to address income bunching, stating preference for proper consultation before major CGT changes announced.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260608-451",
+      "timestamp": "2026-06-08T12:22:25.732Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the 50% CGT discount being eliminated or preserved with grandfathering for existing property investors?",
+      "description": "The Budget.gov.au fact sheet shows a worked example where an investor 'still receives the 50% CGT discount' after policy commencement, suggesting existing holdings are grandfathered. However, multiple other sources describe the reform as the discount being 'replaced' by inflation indexation, implying no choice and no grandfathering. This is a factual conflict about what actually happens to current investors.",
+      "suggestion": "Add to debates.json: Budget.gov.au fact sheet shows Michael 'still receives the 50% CGT discount' two years after policy commences, suggesting grandfathering for existing investors. However, perpetual.com.au and others describe CGT changes as the '50% discount being replaced by inflation indexation' with no choice mentioned, implying elimination rather than preservation.",
+      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260608-922",
+      "timestamp": "2026-06-08T12:22:25.732Z",
+      "status": "pending"
     },
     {
       "type": "fact_check",
       "priority": "high",
-      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple media sources claim a 'minimum 30% tax rate on ALL capital gains' from July 2027. However, the official budget.gov.au states the 50% discount is being 'replaced with a discount based on inflation' — implying gains are first adjusted for inflation before the 30% minimum applies. The ABC specifically notes 'minimum tax rate of 30pc applying to real capital gains' (above inflation). The claim 'on ALL gains' may be misleading because the minimum floor likely only applies to real gains after indexation, not nominal gains. This distinction matters significantly for tax outcomes.",
-      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% applies to ALL gains', verdict is disputed because official budget documents indicate indexation applies first, meaning the minimum floor likely applies only to real (inflation-adjusted) gains, not nominal gains. Clarify whether 'all gains' or 'real gains only' is accurate.",
-      "source": "https://budget.gov.au/content/tax-reform/index.htm",
+      "title": "Claim: 'A retired investor on a 16% marginal tax rate faces 8% tax on nominal gains' under current CGT system",
+      "description": "This specific tax calculation appears in ASX analysis comparing current vs proposed CGT treatment. While mathematically the 50% discount on 16% rate equals 8% nominal rate, the claim may oversimplify by ignoring that indexation-adjusted gains could result in a lower effective rate for long-held assets with high inflation. Multiple sources cite this exact figure without qualification.",
+      "suggestion": "Add to fact-checks.json: claim is '16% marginal rate × 50% discount = 8% effective rate on nominal gains', verdict is 'partially_true' because the math is correct for nominal gains but misleading without context - indexation under new rules could produce lower effective rates for inflation-affected assets, and the comparison ignores compounding effects over holding periods.",
+      "source": "https://www.asx.com.au/...",
       "implementation_effort": "45_minutes",
-      "id": "suggestion-20260528-621",
-      "timestamp": "2026-05-28T11:30:30.085Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
-      "implemented_at": "2026-06-01T09:22:04.490Z"
+      "id": "suggestion-20260608-859",
+      "timestamp": "2026-06-08T12:22:25.732Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/how-to-calculate-your-cgt"
     },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Budget housing measures cost $6.4 billion over four years'",
+      "description": "This specific dollar figure is cited across multiple media sources as the cost of housing measures. However, the KPMG source mentions $47.5 million specifically for Treasury and ATO implementation. The $6.4bn figure may refer to the total housing package including infrastructure, while other costs like CGT implementation ($47.5m) are separate administrative costs. Sources may be conflating different budget line items or the gross cost vs net cost after projected revenue from CGT changes.",
+      "suggestion": "Add to fact-checks.json: claim is 'housing measures cost $6.4bn over four years', verdict is 'unclear' because the figure appears in some sources but lacks official budget.gov.au confirmation as a standalone 'cost' - it may represent the gross spending package while CGT changes generate offsetting revenue, and implementation costs ($47.5m) are separate.",
+      "source": "https://budget.gov.au/...",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260608-136",
+      "timestamp": "2026-06-08T12:22:25.732Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260608-936",
+      "timestamp": "2026-06-08T12:22:25.732Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "medium",

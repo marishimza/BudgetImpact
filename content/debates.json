@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T08:50:46.345Z",
+  "lastUpdated": "2026-06-08T14:04:30.920Z",
   "debates": [
     {
       "id": "debate-001",
@@ -585,6 +585,53 @@
         "sources": [
           "https://www.superguide.com.au/super-booster/federal-budget-2026-overview"
         ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-025",
+      "slug": "negative-gearing-cgt-housing-affordability-debate",
+      "title": "Will negative gearing and CGT changes actually improve housing affordability?",
+      "category": "housing",
+      "type": "policy_disagreement",
+      "summary": "A policy disagreement about whether restricting negative gearing to new builds and adjusting capital gains tax will improve housing affordability in Australia, with competing views on supply-side effectiveness, structural reform, and alternative policy approaches.",
+      "view_a": {
+        "label": "Government/Industry Support",
+        "argument": "The measures directly support new housing supply and are positive and necessary steps toward addressing Australia's housing shortage.",
+        "sources": [
+          "https://discoveryalert.com.au/australian-budget-negative-gearing-capital-gains-tax-changes/"
+        ]
+      },
+      "view_b": {
+        "label": "Greens",
+        "argument": "The changes are a damp squib with government backing corporate profits over meaningful structural reform.",
+        "sources": [
+          "https://discoveryalert.com.au/australian-budget-negative-gearing-capital-gains-tax-changes/"
+        ]
+      },
+      "view_c": {
+        "label": "Coalition",
+        "argument": "Vows to repeal the changes and prioritizes immigration reduction over property tax reform.",
+        "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-026",
+      "slug": "will-negative-gearing-cgt-changes-improve-housing-affordability",
+      "title": "Will negative gearing and CGT changes actually improve housing affordability?",
+      "category": "housing-affordability",
+      "type": "projection_disagreement",
+      "summary": "Policy analysts disagree on whether limiting negative gearing and reducing the CGT discount will meaningfully improve housing affordability. One view holds these tax settings are the root cause of the crisis, so reform will help. Another argues Australia's persistent housing shortage means any price impacts would be temporary.",
+      "view_a": {
+        "label": "Reform will address root cause",
+        "argument": "Some analysts argue negative gearing and the CGT discount are key drivers of the housing affordability and rental crisis. They believe these reforms will directly improve affordability by addressing the fundamental tax incentives that drive property investment over first-home ownership.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Structural shortage limits effectiveness",
+        "argument": "Other analysts note Australia's persistent housing shortage means any fall would be short term. They argue the reforms do not address the underlying supply constraints, so any improvements to housing affordability would be limited and temporary.",
+        "sources": []
       },
       "verdict": null
     }

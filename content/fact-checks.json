@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T22:59:41.723Z",
+  "lastUpdated": "2026-06-08T14:02:23.926Z",
   "claims": [
     {
       "id": "fc-001",
@@ -681,6 +681,24 @@
         }
       ],
       "date_checked": "2026-06-07",
+      "category": "tax"
+    },
+    {
+      "id": "fc-035",
+      "slug": "cgt-16-percent-marginal-rate-8-percent-nominal-gains",
+      "claim": "16% marginal rate × 50% discount = 8% effective rate on nominal gains",
+      "verdict": "partially_true",
+      "verdict_label": "Mathematically correct for nominal gains, but misleading without context",
+      "short_explanation": "The calculation is correct for nominal gains under the current CGT discount system, but ignores indexation adjustments and compounding effects that can result in lower effective tax rates for long-held assets.",
+      "detailed_explanation": "While 16% × 50% = 8% is arithmetically accurate for nominal gains, this claim oversimplifies the actual tax outcome. For assets held over long periods with significant inflation, indexation adjustments can substantially reduce the taxable gain, potentially yielding lower effective rates than 8%. Additionally, the claim fails to account for compounding effects over the holding period and how new indexation rules could produce even more favourable outcomes for inflation-affected assets. Comparing nominal rates without considering these factors presents an incomplete picture of the actual tax burden.",
+      "sources": [
+        {
+          "name": "ASX",
+          "url": "https://www.asx.com.au/...",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-08",
       "category": "tax"
     }
   ]

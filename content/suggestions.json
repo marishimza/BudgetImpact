@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T21:43:45.917Z",
+  "lastUpdated": "2026-06-08T23:11:06.493Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -462,30 +462,6 @@
       "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
       "implementation_effort": "10_minutes",
       "id": "suggestion-20260521-812",
-      "timestamp": "2026-05-21T06:02:18.960Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Are Labor's negative gearing reforms a 'broken promise' or legitimate policy evolution?",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ABC News explicitly frames this as the government breaking another promise, calculating 'the damage to trust' of breaking promises. However, some sources present this as legitimate policy reversal rather than broken commitment. This debate questions whether the government had a specific pre-election commitment being broken, or whether changing circumstances justify the reform.",
-      "suggestion": "Add to debates.json: view_a from ABC News (abc.net.au) says 'Government breaks promise with restrictions' and calculates 'the damage to trust of breaking another promise'; view_b from the government's own framing as legitimate policy evolution responding to housing market conditions",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260521-970",
-      "timestamp": "2026-05-21T06:02:18.960Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Negative gearing has been 'fully abolished' for established properties",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple media reports suggest complete abolition of negative gearing for established properties. However, the actual policy (from ABC and William Buck sources) shows negative gearing is only restricted for NEW purchases of established properties purchased after 7:30pm on 12 May 2026. Existing property investors who already use negative gearing appear to retain those benefits. The claim of 'full abolition' is inaccurate.",
-      "suggestion": "Add to fact-checks.json: claim is partially_true, verdict is disputed because negative gearing is restricted (not abolished) for new purchases of established properties from the specified date. Existing investors likely retain existing benefits.",
-      "source": "https://www.abc.net.au/news/2026-05-13/government-breaks-promise-with-restrictions-to-negative-gearing/105146128",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260521-483",
       "timestamp": "2026-05-21T06:02:18.960Z",
       "status": "pending"
     },
@@ -4234,44 +4210,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
-      "description": "The Australian Taxation Office has published practical guidance on how investors should calculate capital gains under the new cost base indexation rules that apply from 1 July 2027. The guidance covers methodology for applying inflation adjustments to asset cost bases, which will replace the current 50% CGT discount mechanism.",
-      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations — investors directed to official methodology for applying inflation adjustments to asset cost bases from July 2027",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260608-287",
-      "timestamp": "2026-06-08T21:43:40.608Z",
-      "status": "pending",
-      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis quantifies retirement investor tax impact under CGT reforms",
-      "description": "Analysis reveals a retired investor on a 16% marginal tax rate faces 8% tax on nominal gains versus 30% on indexed gains under announced changes — a 22 percentage point effective rate increase that could significantly affect retirees with large equity portfolios held for extended periods.",
-      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT reform impact on retirement investors — 22 percentage point effective rate increase from 8% to 30% for low-rate investors on long-held equity gains",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260608-653",
-      "timestamp": "2026-06-08T21:43:40.608Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Division 296 draft legislation released with CGT relief provisions for SMSFs",
-      "description": "Treasury has released draft legislation for Division 296 (Better Targeted Super Concessions) including indexed thresholds, CGT relief provisions, and specific rules for self-managed super funds. The legislation enacts the $3m super balance tax that commences from 1 July 2026.",
-      "suggestion": "Add to budget-updates.json: Division 296 draft legislation released with indexed thresholds, CGT relief provisions, and SMSF rules — $3m super balance tax legislation finalised ahead of July 2026 commencement",
-      "source": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260608-391",
-      "timestamp": "2026-06-08T21:43:40.608Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
@@ -5668,6 +5606,33 @@
       "status": "implemented",
       "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
       "implemented_at": "2026-06-08T18:23:15.876Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Division 296 draft legislation released with CGT relief provisions for SMSFs",
+      "description": "Treasury has released draft legislation for Division 296 (Better Targeted Super Concessions) including indexed thresholds, CGT relief provisions, and specific rules for self-managed super funds. The legislation enacts the $3m super balance tax that commences from 1 July 2026.",
+      "suggestion": "Add to budget-updates.json: Division 296 draft legislation released with indexed thresholds, CGT relief provisions, and SMSF rules — $3m super balance tax legislation finalised ahead of July 2026 commencement",
+      "source": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260608-391",
+      "timestamp": "2026-06-08T21:43:40.608Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-06-08T23:09:59.152Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis quantifies retirement investor tax impact under CGT reforms",
+      "description": "Analysis reveals a retired investor on a 16% marginal tax rate faces 8% tax on nominal gains versus 30% on indexed gains under announced changes — a 22 percentage point effective rate increase that could significantly affect retirees with large equity portfolios held for extended periods.",
+      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT reform impact on retirement investors — 22 percentage point effective rate increase from 8% to 30% for low-rate investors on long-held equity gains",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260608-653",
+      "timestamp": "2026-06-08T21:43:40.608Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-08T23:10:44.378Z"
     }
   ],
   "skipped": [
@@ -6170,6 +6135,49 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-08T18:23:01.999Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The Australian Taxation Office has published practical guidance on how investors should calculate capital gains under the new cost base indexation rules that apply from 1 July 2027. The guidance covers methodology for applying inflation adjustments to asset cost bases, which will replace the current 50% CGT discount mechanism.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations — investors directed to official methodology for applying inflation adjustments to asset cost bases from July 2027",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260608-287",
+      "timestamp": "2026-06-08T21:43:40.608Z",
+      "status": "skipped",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-08T23:09:38.672Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Are Labor's negative gearing reforms a 'broken promise' or legitimate policy evolution?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ABC News explicitly frames this as the government breaking another promise, calculating 'the damage to trust' of breaking promises. However, some sources present this as legitimate policy reversal rather than broken commitment. This debate questions whether the government had a specific pre-election commitment being broken, or whether changing circumstances justify the reform.",
+      "suggestion": "Add to debates.json: view_a from ABC News (abc.net.au) says 'Government breaks promise with restrictions' and calculates 'the damage to trust of breaking another promise'; view_b from the government's own framing as legitimate policy evolution responding to housing market conditions",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260521-970",
+      "timestamp": "2026-05-21T06:02:18.960Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-08T23:10:58.489Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Negative gearing has been 'fully abolished' for established properties",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple media reports suggest complete abolition of negative gearing for established properties. However, the actual policy (from ABC and William Buck sources) shows negative gearing is only restricted for NEW purchases of established properties purchased after 7:30pm on 12 May 2026. Existing property investors who already use negative gearing appear to retain those benefits. The claim of 'full abolition' is inaccurate.",
+      "suggestion": "Add to fact-checks.json: claim is partially_true, verdict is disputed because negative gearing is restricted (not abolished) for new purchases of established properties from the specified date. Existing investors likely retain existing benefits.",
+      "source": "https://www.abc.net.au/news/2026-05-13/government-breaks-promise-with-restrictions-to-negative-gearing/105146128",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260521-483",
+      "timestamp": "2026-05-21T06:02:18.960Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-08T23:11:06.493Z"
     }
   ],
   "needs_manual_review": [

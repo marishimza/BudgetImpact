@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T18:22:50.603Z",
+  "lastUpdated": "2026-06-08T23:10:44.375Z",
   "items": [
     {
       "id": "update-001",
@@ -1505,6 +1505,26 @@
       "title": "ATO releases Division 296 indexed thresholds and CGT relief details for SMSFs",
       "summary": "The ATO has released practical guidance confirming the indexed thresholds for Division 296 (Better Targeted Super Concessions) and specific CGT relief provisions for SMSFs affected by the $3m high-balance super tax. The legislation was enacted in March 2026 and commences from 1 July 2026, with the $3m threshold applying and 15% tax on earnings relating to total superannuation balance exceeding the threshold. Draft legislation includes CGT relief provisions for funds impacted by the new tax.",
       "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-150",
+      "date": "2026-06-08",
+      "tag": "Superannuation",
+      "source": "Heffron",
+      "title": "Division 296 draft legislation released with CGT relief provisions for SMSFs",
+      "summary": "Treasury has released draft legislation for Division 296 (Better Targeted Super Concessions) including indexed thresholds, CGT relief provisions, and specific rules for self-managed super funds. The legislation enacts the $3 million super balance tax that commences from 1 July 2026. SMSF trustees and advisors should review the draft provisions to ensure compliance ahead of the implementation date.",
+      "url": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
+      "priority": "high"
+    },
+    {
+      "id": "update-151",
+      "date": "2026-06-08",
+      "tag": "ASX",
+      "source": "ASX",
+      "title": "ASX analysis quantifies CGT reform impact on retirement investors — 22 percentage point effective rate increase from 8% to 30% for low-rate investors on long-held equity gains",
+      "summary": "ASX analysis reveals that retired investors on a 16% marginal tax rate face an effective tax rate of 8% on nominal gains versus 30% on indexed gains under the announced CGT reforms. This 22 percentage point effective rate increase could significantly affect retirees with large equity portfolios held for extended periods. The analysis highlights the disproportionate impact on retirement investors who have accumulated substantial assets over long holding periods.",
+      "url": null,
       "priority": "high"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T22:59:32.319Z",
+  "lastUpdated": "2026-06-08T08:49:48.154Z",
   "items": [
     {
       "id": "update-001",
@@ -1465,6 +1465,26 @@
       "title": "Budget confirms $250 Working Australians Tax Offset annual relief for low-to-middle income workers",
       "summary": "The 2026-27 Budget confirms a new $250 annual Working Australians Tax Offset providing targeted relief for low-to-middle income workers. This measure is separate from the broader CGT and negative gearing housing tax reforms also announced in the budget. The offset aims to ease cost-of-living pressures while maintaining work incentives for Australians earning below the tax-free threshold.",
       "url": "https://budget.gov.au/content/02-cost-of-living.htm",
+      "priority": "high"
+    },
+    {
+      "id": "update-146",
+      "date": "2026-06-08",
+      "tag": "Superannuation",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "summary": "The ATO has released practical guidance to help taxpayers calculate CGT indexation under the new rules effective 1 July 2027. This guidance helps investors and their advisors prepare for the transition from the 50% discount to inflation-based indexation. The ATO's practical guidance includes worked examples and calculators to assist with the transition.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-147",
+      "date": "2026-06-08",
+      "tag": "Budget",
+      "source": "Australian Taxation Office",
+      "title": "ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes",
+      "summary": "The ATO has confirmed the valuation methodology for pre-1985 share holdings as part of the broader CGT reform package. Investors holding shares acquired before 1 July 1985 will need to reset their cost base for CGT calculations from 1 July 2027. The reset applies to individuals, self-managed super funds, and other entities affected by the capital gains tax changes.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "priority": "high"
     }
   ]

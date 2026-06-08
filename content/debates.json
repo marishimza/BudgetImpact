@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T22:59:59.842Z",
+  "lastUpdated": "2026-06-08T08:50:46.345Z",
   "debates": [
     {
       "id": "debate-001",
@@ -561,6 +561,29 @@
         "argument": "Multiple political sources claim the budget creates a new minimum 30% tax rate that applies to ALL capital gains, not just gains above inflation. This interpretation suggests a floor rate that would apply regardless of inflation adjustments.",
         "sources": [
           "Multiple political sources"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-024",
+      "slug": "does-super-performance-test-protect-members-or-constrain-investment-options",
+      "title": "Does the super performance test protect members or constrain investment options?",
+      "category": "superannuation",
+      "type": "factual_dispute",
+      "summary": "The super performance test presents a factual dispute about whether its primary effect is protecting superannuation fund members from persistent underperformance or restricting funds from beneficial investment categories including ESG, energy, venture capital and housing.",
+      "view_a": {
+        "label": "Protects members from underperformance",
+        "argument": "The super performance test has had some success in protecting Australians from persistent underperformance by holding funds accountable to measurable benchmarks and weeding out consistently underperforming products.",
+        "sources": [
+          "https://www.superguide.com.au/super-booster/federal-budget-2026-overview"
+        ]
+      },
+      "view_b": {
+        "label": "Constrains beneficial investment options",
+        "argument": "Industry experts have warned that the test constrains funds because it doesn't cater for all investments, particularly ESG, energy, venture capital and housing, limiting diversification opportunities that could benefit members.",
+        "sources": [
+          "https://www.superguide.com.au/super-booster/federal-budget-2026-overview"
         ]
       },
       "verdict": null

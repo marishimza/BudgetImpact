@@ -2,6 +2,23 @@
   "lastUpdated": "2026-05-17T00:00:00+10:00",
   "snapshots": [
     {
+      "snapshot_id": "snapshot-20260609-0748",
+      "timestamp": "2026-06-09T07:48:04.591Z",
+      "git_commit": "5a9f19bfa758e030a370b93bd2f5054cb18fdd43",
+      "pages_changed": [
+        "content/fact-checks.json",
+        "content/debates.json",
+        "content/suggestions.json"
+      ],
+      "suggestions_implemented": [
+        "suggestion-20260609-696",
+        "suggestion-20260521-866",
+        "suggestion-20260521-376",
+        "suggestion-20260521-345",
+        "suggestion-20260521-505"
+      ]
+    },
+    {
       "snapshot_id": "snapshot-20260608-2311",
       "timestamp": "2026-06-08T23:11:07.799Z",
       "git_commit": "6fe46bff865dbdedeb61d5d04a4a153c1ea6b2c1",

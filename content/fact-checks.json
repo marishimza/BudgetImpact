@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T18:23:15.874Z",
+  "lastUpdated": "2026-06-09T07:48:02.899Z",
   "claims": [
     {
       "id": "fc-001",
@@ -723,6 +723,42 @@
       ],
       "date_checked": "2026-06-08",
       "category": "capital_gains"
+    },
+    {
+      "id": "fc-037",
+      "slug": "division-296-tax-on-excess-balance",
+      "claim": "Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "Division 296 taxes the investment returns attributable to amounts exceeding $3 million, not the excess balance itself.",
+      "detailed_explanation": "Division 296 applies a 15% tax on the proportion of earnings relating to your Total Superannuation Balance (TSB) that exceeds the Low Tax Balance (LSBT) threshold of $3 million. This means the tax applies to investment RETURNS attributable to amounts over $3 million, NOT 15% on the entire balance over $3 million. For example, a $4 million balance would only have the earnings on approximately $1 million facing the 15% tax, not the full $1 million excess. This is a significant oversimplification commonly repeated in media coverage.",
+      "sources": [
+        {
+          "name": "Australian Taxation Office",
+          "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/super-changes/division-296-tax-on-excess-balance",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-09",
+      "category": "superannuation"
+    },
+    {
+      "id": "fc-038",
+      "slug": "division-296-super-tax-3m-threshold",
+      "claim": "Division 296 tax applies to superannuation balances over $3 million",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "While $3m is commonly cited, the threshold is indexed annually to CPI and may differ slightly from exactly $3m depending on the financial year.",
+      "detailed_explanation": "Division 296 tax (the 'better targeted super concessions' tax) was introduced with an initial $3m threshold, but the threshold is indexed annually to the consumer price index. This means the actual threshold can vary slightly from year to year. For example, the threshold for 2024-25 may differ from $3m due to indexation. The ATO's wording references 'total superannuation balance' thresholds that can be adjusted, making the flat $3m figure an approximation. Additionally, the tax applies to the combined balance across all super accounts, not just a single fund.",
+      "sources": [
+        {
+          "name": "Pitcher Partners",
+          "url": "https://www.pitcherpartners.com.au",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-09",
+      "category": "superannuation"
     }
   ]
 }

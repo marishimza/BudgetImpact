@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T14:04:30.920Z",
+  "lastUpdated": "2026-06-09T07:47:22.114Z",
   "debates": [
     {
       "id": "debate-001",
@@ -632,6 +632,76 @@
         "label": "Structural shortage limits effectiveness",
         "argument": "Other analysts note Australia's persistent housing shortage means any fall would be short term. They argue the reforms do not address the underlying supply constraints, so any improvements to housing affordability would be limited and temporary.",
         "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-027",
+      "slug": "housing-crisis-negative-gearing-cgt-vs-immigration",
+      "title": "Is Australia's housing crisis driven by negative gearing and CGT arrangements or by immigration levels?",
+      "category": "housing_crisis",
+      "type": "factual_dispute",
+      "summary": "Competing causal narratives for Australia's housing affordability crisis: economists cite negative gearing and CGT arrangements as 'the key reason', while the Coalition proposes tying immigration to housing supply, implying population growth is the primary driver. These positions lead to fundamentally different policy responses.",
+      "view_a": {
+        "label": "Tax Settings Are the Root Cause",
+        "argument": "Economists cited in the Law Society Journal argue that negative gearing and the CGT discount are 'the key reason' for Australia's housing affordability and rental crisis. These tax arrangements incentivise property investment over owner-occupation, artificially inflate property prices, and increase rents by encouraging landlords to hold properties rather than sell.",
+        "sources": [
+          "https://lsj.com.au/articles/federal-budget-2026-limits-to-negative-gearing-and-capital-gains-tax-reform/"
+        ]
+      },
+      "view_b": {
+        "label": "Immigration-Driven Demand Is Primary",
+        "argument": "The Coalition's budget reply proposes tying immigration levels to housing construction rates, implying immigration-driven demand is the core driver of the housing crisis. Shadow Treasurer Angus Taylor argues immigration must be 'significantly below' current levels and linked to housing supply to address the affordability crisis.",
+        "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-028",
+      "slug": "coalition-immigration-cap-housing-budget-response",
+      "title": "Is the Coalition's immigration cap proposal a direct response to the budget housing measures?",
+      "category": "housing-affordability",
+      "type": "policy_disagreement",
+      "summary": "The Coalition has announced plans to drastically cut immigration and tie intake to new housing builds. This raises questions about whether immigration levels are the primary driver of housing stress, and whether this represents a competing explanation to the government's tax reform focus.",
+      "view_a": {
+        "label": "Government & Housing Analysts",
+        "argument": "Government and housing analysts (ABC, The Guardian, Commonwealth Bank) frame the negative gearing and CGT reforms as the solution to housing affordability, arguing investor behavior and tax incentives drive the crisis. They contend that structural tax arrangements encouraging property speculation are the root cause of housing stress, not population growth.",
+        "sources": [
+          "https://www.abc.net.au/news/2026-05-14/budget-housing-reforms-analysis",
+          "https://www.theguardian.com/australia-news/2026/may/14/negative-gearing-reform-housing-affordability",
+          "https://www.commbank.com.au/roi/expert-insights/property/housing-policy-analysis-2026"
+        ]
+      },
+      "view_b": {
+        "label": "Coalition Response",
+        "argument": "Coalition proposes immigration cuts tied to housing construction as an alternative structural fix, suggesting immigration rather than tax arrangements is the root cause. Shadow Treasurer Angus Taylor argues that tying permanent migration to new housing supply creates a direct mechanism to balance demand and supply, treating population growth as the primary driver of housing stress.",
+        "sources": [
+          "https://www.abc.net.au/news/2026-05-14/coalition-budget-reply-immigration-housing-policy"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-029",
+      "slug": "are-the-greens-damp-squib-criticisms-of-the-housing-reforms-factually-justified",
+      "title": "Are the Greens' 'damp squib' criticisms of the housing reforms factually justified?",
+      "category": "housing",
+      "type": "policy_disagreement",
+      "summary": "The Greens have characterised the government's negative gearing and capital gains tax changes as an inadequate 'damp squib' that prioritises corporate profits over meaningful housing reform. This contrasts with government and industry claims that the measures represent substantial, targeted reforms designed to redirect investor activity toward new housing supply while cooling demand for established properties.",
+      "view_a": {
+        "label": "Greens - Insufficient Reform",
+        "argument": "The Greens have dismissed the negative gearing and CGT changes as a 'damp squib' that fails to deliver meaningful housing affordability improvements. They argue the government has backed corporate profits over genuine structural reform, leaving the housing market skewed in favour of property investors at the expense of first homebuyers and renters. The changes are characterised as too modest to shift the fundamental dynamics of housing investment.",
+        "sources": [
+          "https://discoveryalert.com.au/australian-budget-negative-gearing-capital-gains-tax-changes/"
+        ]
+      },
+      "view_b": {
+        "label": "Government/Industry - Substantial Reform",
+        "argument": "The government and industry bodies including the Real Estate Institute of Australia (REIA), API Magazine, and CommBank have defended the housing tax changes as substantial reforms. They argue the measures are carefully targeted to redirect investor activity away from established housing toward new supply, which will increase housing availability while reducing pressure on existing property prices. The reforms are presented as evidence-based changes that balance housing affordability with economic stability.",
+        "sources": [
+          "https://www.abc.net.au",
+          "https://www.commbank.com.au"
+        ]
       },
       "verdict": null
     }

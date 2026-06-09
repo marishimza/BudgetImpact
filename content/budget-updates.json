@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T12:32:28.625Z",
+  "lastUpdated": "2026-06-09T17:56:48.443Z",
   "items": [
     {
       "id": "update-001",
@@ -1536,6 +1536,46 @@
       "summary": "A parliamentary committee formally endorsed changes to the capital gains tax discount on 17 March 2026, predating the Budget announcement by nearly two months. This provides important context for the legislative timeline and stakeholder consultation process. The early endorsement suggests the government had already built substantial support for the CGT changes before the Budget night announcement.",
       "url": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
       "priority": "medium"
+    },
+    {
+      "id": "update-153",
+      "date": "2026-06-09",
+      "tag": "Budget",
+      "source": "Australian Shareholders Association",
+      "title": "ASA criticises lack of consultation on CGT indexation reform",
+      "summary": "The Australian Shareholders Association has called for capital gains averaging alongside indexation to address income bunching, warning the changes were announced without proper consultation. Their submission highlights that many years of gains realised in a single tax year could push investors into higher brackets. The ASA is urging the government to implement a averaging mechanism to smooth out tax liabilities across multiple years.",
+      "url": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "priority": "medium"
+    },
+    {
+      "id": "update-154",
+      "date": "2026-06-09",
+      "tag": "Budget",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "summary": "The ATO has published practical guidance for taxpayers calculating capital gains under the new inflation-based indexation rules taking effect 1 July 2027. The guidance explains how to apply cost base indexation using CPI data, applicable to assets acquired after the Budget announcement date. Taxpayers should review the guidance to ensure compliance with the new indexation methodology when preparing tax returns from the 2027–28 income year onwards.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-155",
+      "date": "2026-05-25",
+      "tag": "Parliament",
+      "source": "Prime Minister's Office",
+      "title": "Liberals vote against parliamentary committee endorsement of CGT changes",
+      "summary": "The Liberal Party voted against endorsing the Treasury Laws Amendment (More Housing, More Help) Bill 2026 in a parliamentary committee on 17 March 2026. The opposition to the Capital Gains Tax discount and negative gearing changes marks an early escalation in political resistance to the housing affordability measures. The committee rejection signals the Coalition's intent to challenge the legislation through parliamentary processes.",
+      "url": "https://www.pm.gov.au/media/press-conference-parliament-house-canberra-25-may-2026",
+      "priority": "high"
+    },
+    {
+      "id": "update-156",
+      "date": "2026-05-25",
+      "tag": "Parliament",
+      "source": "Prime Minister's Office",
+      "title": "Coalition signals potential Senate challenge to housing reform bill",
+      "summary": "The Opposition Leader has indicated willingness to consider Senate inquiries and potential challenges to the Treasury Laws Amendment (More Housing, More Help) Bill 2026. The Coalition has formally announced its opposition to the Budget's CGT discount and negative gearing changes. The Prime Minister confirmed the government remains committed to the housing affordability reforms despite parliamentary opposition.",
+      "url": "https://www.pm.gov.au/media/press-conference-parliament-house-canberra-25-may-2026",
+      "priority": "high"
     }
   ]
 }

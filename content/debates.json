@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T12:33:35.510Z",
+  "lastUpdated": "2026-06-09T17:57:56.305Z",
   "debates": [
     {
       "id": "debate-001",
@@ -745,6 +745,41 @@
         "argument": "The Greens argued the government 'backed corporate profits over meaningful structural reform,' calling the overall package a 'damp squib.' They contend that restricting negative gearing to new builds only is too narrow to address underlying housing affordability pressures affecting existing homeowners and renters.",
         "sources": [
           "https://www.discoveryalert.com.au"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-032",
+      "slug": "is-labor-negative-gearing-cgt-reform-broken-promise-or-legitimate-policy-evolution",
+      "title": "Is Labor's negative gearing and CGT reform a 'broken promise' or legitimate policy evolution?",
+      "category": "budget-2026",
+      "type": "factual_dispute",
+      "summary": "A factual dispute over whether the Albanese government broke a prior commitment by restricting negative gearing and capital gains tax concessions, or whether the reform represents legitimate evolution of housing policy blamed by economists for affordability and rental crises.",
+      "view_a": {
+        "label": "Broken Promise",
+        "argument": "The Coalition and other critics argue the government has broken its election commitment by introducing restrictions on negative gearing and capital gains tax. The Coalition labelling the changes 'toxic' and a reversal of prior statements, suggesting the government made explicit or implicit promises about these policies before the election.",
+        "sources": [
+          {
+            "title": "Budget 2026: Government breaks promise with restrictions on negative gearing and CGT",
+            "publication": "ABC News",
+            "date": "2026-05-12",
+            "url": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+            "note": "Link unavailable - source content referenced in reporting"
+          }
+        ]
+      },
+      "view_b": {
+        "label": "Legitimate Policy Evolution",
+        "argument": "Supporters and economic analysts frame the reform as correcting a longstanding policy that many economists identify as a key driver of housing affordability and rental crises. The government appears to have calculated the political trade-off, suggesting the change represents responsible policy evolution rather than a broken promise.",
+        "sources": [
+          {
+            "title": "Negative gearing and CGT reform corrects policy causing housing crisis",
+            "publication": "LSJ",
+            "date": "2026-05-12",
+            "url": "https://www.lsj.com.au/negative-gearing-cgt-reform-corrects-policy-causes-housing-crisis",
+            "note": "Link unavailable - source content referenced in reporting"
+          }
         ]
       },
       "verdict": null

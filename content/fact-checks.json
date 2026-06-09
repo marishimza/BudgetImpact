@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T12:34:28.087Z",
+  "lastUpdated": "2026-06-09T17:57:03.613Z",
   "claims": [
     {
       "id": "fc-001",
@@ -777,6 +777,24 @@
       ],
       "date_checked": "2026-06-09",
       "category": "tax"
+    },
+    {
+      "id": "fc-040",
+      "slug": "housing-measures-6-4-billion-disputed",
+      "claim": "Budget housing measures cost $6.4 billion over four years",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "While $6.4 billion is widely reported, KPMG analysis distinguishes between the housing package and CGT implementation costs, suggesting the figure may represent a subset or different component breakdown than commonly cited.",
+      "detailed_explanation": "Multiple media sources cite the $6.4 billion figure as the total cost of housing measures over four years. However, KPMG's analysis separates this into distinct components: the core housing package at $6.4 billion and capital gains tax (CGT) implementation costs at $47.5 million. The widely reported $6.4 billion may be a rounded figure or may not capture all implementation costs. Without access to official budget papers, it cannot be confirmed whether this represents the complete cost, a subset of measures, or an estimate with different underlying assumptions about implementation timelines and scope.",
+      "sources": [
+        {
+          "name": "KPMG Australia Federal Budget Analysis 2026-27",
+          "url": "https://kpmg.com/au/en/home/insights/2026/05/australian-federal-budget-2026-27.html",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-09",
+      "category": "housing"
     }
   ]
 }

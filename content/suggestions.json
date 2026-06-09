@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T12:34:28.089Z",
+  "lastUpdated": "2026-06-09T16:26:20.153Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -4304,48 +4304,106 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASA criticises lack of consultation on CGT indexation reform",
+      "description": "The Australian Shareholders Association has called for capital gains averaging alongside indexation to address income bunching, warning the changes were announced without proper consultation. Their submission highlights that many years of gains realised in a single tax year could push investors into higher brackets.",
+      "suggestion": "Add ASA criticism about lack of pre-budget consultation on CGT reform, noting their call for a capital gains averaging mechanism to address income bunching where multi-year gains are realised in a single tax year.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260609-472",
+      "timestamp": "2026-06-09T16:26:13.389Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The ATO has published practical guidance for taxpayers calculating capital gains under the new inflation-based indexation rules taking effect 1 July 2027. The guidance explains how to apply cost base indexation using CPI data, applicable to assets acquired after the announcement date.",
+      "suggestion": "Add ATO practical guidance release for CGT indexation calculations, providing details on how to calculate capital gains using CPI-based cost base indexation for assets acquired after the Budget announcement.",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260609-201",
+      "timestamp": "2026-06-09T16:26:13.389Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Coalition opposes CGT discount changes, signals potential Senate challenge",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Liberal Party has announced its opposition to the Budget's CGT discount and negative gearing changes, with the Opposition Leader indicating willingness to consider Senate inquiries. The Liberals voted against parliamentary committee endorsement of CGT changes on 17 March 2026.",
+      "suggestion": "Add Coalition opposition details: Liberals voted against CGT changes in parliamentary committee on 17 March 2026 and have signalled potential Senate challenge to the Treasury Laws Amendment (More Housing, More Help) Bill 2026.",
+      "source": "https://www.pm.gov.au/media/press-conference-parliament-house-canberra-25-may-2026",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260609-354",
+      "timestamp": "2026-06-09T16:26:13.389Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "CGT discount: eliminated, replaced with indexation, or preserved with choice?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Conflicting factual claims about whether the 50% CGT discount is being eliminated, replaced by inflation indexation, or preserved with a choice for taxpayers. This matters for investors planning asset sales and understanding their actual tax obligations.",
+      "suggestion": "Add to debates.json: budget.gov.au fact sheet says Michael 'still receives the 50% CGT discount' (preserved), while ABC News says government is restricting 'capital gains tax discounts' and multiple analyses describe the discount being 'replaced' by indexation",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260609-748",
+      "timestamp": "2026-06-09T16:26:13.389Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative deliver 65,000 additional homes?",
+      "description": "Conflicting factual claims about whether the government's $2 billion infrastructure initiative will produce 65,000 additional homes as claimed by REIA President, versus other projections suggesting lower delivery. This matters for evaluating budget housing policy effectiveness.",
+      "suggestion": "Add to debates.json: REIA President Jacob Caine says the initiative 'expected to enable around 65,000 additional homes', while other credible analyses question whether this figure is achievable or overly optimistic",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260609-618",
+      "timestamp": "2026-06-09T16:26:13.389Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Budget housing measures cost $6.4 billion over four years'",
+      "description": "Multiple media sources cite this exact figure for the housing package, but KPMG's analysis distinguishes between the $6.4bn housing package and $47.5mn for CGT implementation. The $6.4bn figure may be a round number or include different components than reported. Need to verify against official budget papers to confirm if this is the total cost, a subset, or an estimate.",
+      "suggestion": "Add to fact-checks.json: claim is '$6.4 billion over four years for housing measures', verdict is disputed because official budget documents may specify different amounts or implementation timelines for individual components.",
+      "source": "https://kpmg.com/au/en/home/insights/2026/05/australian-federal-budget-2026-27.html",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260609-799",
+      "timestamp": "2026-06-09T16:26:13.389Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources repeat this claim, but the budget.gov.au states 'minimum 30% tax on gains' - the key question is whether the 30% floor applies to the full nominal gain, or only to gains after inflation indexation is applied. If indexation reduces the taxable gain, the effective rate comparison with the old 50% discount system changes significantly. The ASX analysis mentions '30% on indexed gains' which suggests the floor may not apply to the full nominal gain.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum applies to ALL capital gains', verdict is partially_true because the floor applies to indexed gains, but the interaction between the 30% floor and inflation indexation may mean some gains face a different effective rate than implied by 'on ALL gains'.",
+      "source": "https://www.budget.gov.au/view/budget-papers.html",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260609-750",
+      "timestamp": "2026-06-09T16:26:13.389Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260609-684",
+      "timestamp": "2026-06-09T16:26:13.389Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
     }
   ],
   "implemented": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ABC Budget 2026: Winners and losers — $6.4 billion housing measure cost confirmed",
-      "description": "ABC News analysis confirms the housing measures cost $6.4 billion over four years and notes the $1,000 instant tax deduction for work-related expenses as announced in the lead-up to the 2025 election.",
-      "suggestion": "Add to budget-updates.json: ABC Budget 2026 Winners and Losers analysis confirms $6.4 billion cost over four years for housing measures; $1,000 instant tax deduction for work-related expenses confirmed",
-      "source": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260601-494",
-      "timestamp": "2026-06-01T06:46:57.501Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-02T13:56:49.166Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Venture capital tax incentives expansion confirmed from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget 2026 confirms expansion of venture capital tax incentives from 1 July 2027 as part of broader innovation and investment support measures in the budget package.",
-      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expansion confirmed from July 2027",
-      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260601-346",
-      "timestamp": "2026-06-01T19:16:55.677Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-02T13:57:10.586Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis details CGT reform impact on ETF and Listed Investment Vehicle investors",
-      "description": "ASX Investor Update examines how proposed CGT changes affect exchange-traded funds and Listed Investment Vehicles, creating 'two-speed' tax treatment for different investor types in the share market.",
-      "suggestion": "Add to budget-updates.json: ASX analysis details CGT reform impact on ETF and Listed Investment Vehicle investors",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260601-159",
-      "timestamp": "2026-06-01T19:16:55.677Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-02T13:57:35.405Z"
-    },
     {
       "type": "fact_check",
       "priority": "high",
@@ -5672,34 +5730,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Trust tax treatment reform details confirmed — Government signals shift from income to asset taxation",
-      "description": "The Government has confirmed plans to reform trust tax treatment, shifting the burden from taxing income to taxing assets. Treasury analysis indicates the reform is part of a broader rebalancing of the tax system.",
-      "suggestion": "Add to budget-updates.json: Trust tax treatment reform details confirmed — Government signals shift from income to asset taxation",
-      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260601-623",
-      "timestamp": "2026-06-01T19:16:55.677Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-02T13:57:00.111Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ABC Analysis: CGT changes could drive investment shift from property to shares",
-      "description": "The ABC examines how the replacement of the flat 50% CGT discount with inflation indexation and a minimum 30% tax rate could redirect investment away from residential property toward shares and equities, potentially affecting housing demand and share market investment patterns.",
-      "suggestion": "Add to budget-updates.json: ABC News analysis examines how capital gains tax changes may drive investment shift from property to shares — the current flat 50% discount being replaced with indexation aligned to inflation, with a minimum tax rate of 30% applying to real capital gains from July 2027.",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260601-945",
-      "timestamp": "2026-06-01T22:30:25.717Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-02T13:57:47.173Z"
-    },
     {
       "type": "content_update",
       "priority": "medium",

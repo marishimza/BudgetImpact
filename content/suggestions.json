@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T10:52:59.401Z",
+  "lastUpdated": "2026-06-09T12:34:28.089Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -558,42 +558,6 @@
       "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
       "implementation_effort": "15_minutes",
       "id": "suggestion-20260521-286",
-      "timestamp": "2026-05-21T21:22:10.699Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will the Coalition successfully repeal Labor's negative gearing and CGT changes if elected?",
-      "description": "The Coalition has committed to repealing the budget's negative gearing and CGT reforms, but it's unclear whether they have the numbers in the Senate given crossbench complexity and whether they'd prioritise this over other agenda items. This matters because investors are making decisions based on policy uncertainty.",
-      "suggestion": "Add to debates.json: Coalition's Tim Wilson (The Guardian) says 'We'll repeal these measures if necessary.' However, the practical likelihood of full repeal through the Senate given crossbench composition is contested—the Guardian notes One Nation's Pauline Hanson also weighed in without clear alignment either way.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260521-377",
-      "timestamp": "2026-05-21T21:22:10.699Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Is restricting negative gearing to new builds 'effective' housing supply policy or insufficient reform?",
-      "description": "The REIA calls the $2B infrastructure initiative 'positive and necessary' while the Greens call the overall package a 'damp squib' arguing it backs corporate profits over structural reform. The factual question is whether new-build-only negative gearing meaningfully addresses supply shortages or is too narrow to have impact.",
-      "suggestion": "Add to debates.json: REIA President Jacob Caine (API Magazine) says measures 'directly supporting new housing supply... were positive and necessary steps toward addressing Australia's housing shortage.' By contrast, the Greens (Discovery Alert) argued the government 'backed corporate profits over meaningful structural reform.'",
-      "source": "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260521-820",
-      "timestamp": "2026-05-21T21:22:10.699Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources use this phrasing, but budget.gov.au states the 30% rate applies to 'real capital gains' (above inflation). The ABC News source clarifies it applies to 'real capital gains accruing from next July'. This distinction matters significantly - the minimum rate may only apply to gains above the inflation-adjusted cost base, not nominal gains. A claim that ALL capital gains face a minimum 30% rate could overstate the scope of the tax change.",
-      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% applies to ALL gains', verdict is disputed/unclear because official sources indicate it applies to real gains (above inflation), not nominal gains. The 30% rate appears to be a floor on the effective rate after indexation, not a blanket minimum tax on all capital gains.",
-      "source": "https://www.budget.gov.au/tax-reform",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260521-837",
       "timestamp": "2026-05-21T21:22:10.699Z",
       "status": "pending"
     },
@@ -4283,19 +4247,6 @@
     },
     {
       "type": "content_update",
-      "priority": "high",
-      "title": "Parliamentary committee endorsed CGT discount changes on 17 March 2026",
-      "description": "A parliamentary committee formally endorsed changes to the capital gains tax discount on 17 March 2026, predating the Budget announcement by nearly two months. This provides important context for the legislative timeline and stakeholder consultation process.",
-      "suggestion": "Add to budget-updates.json: Parliamentary committee endorsed CGT discount changes on 17 March 2026 — predates Budget night by nearly two months",
-      "source": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260609-150",
-      "timestamp": "2026-06-09T10:52:53.140Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/listen/programs/radionational-breakfast/senate-committee-endorses-cgt-discount-changes-greens-pleased/106466742"
-    },
-    {
-      "type": "content_update",
       "priority": "medium",
       "title": "Treasurer describes Budget as 'most important and ambitious in decades'",
       "description": "In his Budget speech delivered at Parliament House on 12 May 2026, Treasurer Jim Chalmers described the 2026-27 Budget as 'the most important and ambitious Budget in decades', citing global economic challenges and the need for Australia to respond with significant fiscal measures.",
@@ -4329,19 +4280,6 @@
       "id": "suggestion-20260609-132",
       "timestamp": "2026-06-09T10:52:53.140Z",
       "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim is repeated extensively in search results but may oversimplify. The Budget.gov.au states 'introduce a minimum 30 per cent tax on gains from 1 July 2027.' The key issue: the minimum 30% floor appears to apply to gains AFTER inflation indexation is applied to the cost base. For assets held long-term with significant inflation, the indexed gain may be much smaller than the nominal gain. A taxpayer might pay 30% on a smaller indexed gain rather than 30% on the full nominal gain. The claim 'on ALL gains' could mislead readers into thinking the full nominal gain is taxed at 30%, when in reality the indexation adjustment reduces the taxable gain first.",
-      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax applies to ALL capital gains from July 2027', verdict is partially_true because the 30% minimum applies to indexed gains (after cost base adjustment for inflation), not necessarily nominal gains. For long-held assets, indexation reduces the taxable gain before the 30% floor is applied.",
-      "source": "https://budget.gov.au/2026-27/tax-reform",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260609-366",
-      "timestamp": "2026-06-09T10:52:53.140Z",
-      "status": "pending",
-      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
     },
     {
       "type": "fact_check",
@@ -5678,6 +5616,59 @@
       "timestamp": "2026-05-21T16:35:36.607Z",
       "status": "implemented",
       "implemented_at": "2026-06-09T07:48:02.901Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Parliamentary committee endorsed CGT discount changes on 17 March 2026",
+      "description": "A parliamentary committee formally endorsed changes to the capital gains tax discount on 17 March 2026, predating the Budget announcement by nearly two months. This provides important context for the legislative timeline and stakeholder consultation process.",
+      "suggestion": "Add to budget-updates.json: Parliamentary committee endorsed CGT discount changes on 17 March 2026 — predates Budget night by nearly two months",
+      "source": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260609-150",
+      "timestamp": "2026-06-09T10:52:53.140Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/listen/programs/radionational-breakfast/senate-committee-endorses-cgt-discount-changes-greens-pleased/106466742",
+      "implemented_at": "2026-06-09T12:32:28.628Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the Coalition successfully repeal Labor's negative gearing and CGT changes if elected?",
+      "description": "The Coalition has committed to repealing the budget's negative gearing and CGT reforms, but it's unclear whether they have the numbers in the Senate given crossbench complexity and whether they'd prioritise this over other agenda items. This matters because investors are making decisions based on policy uncertainty.",
+      "suggestion": "Add to debates.json: Coalition's Tim Wilson (The Guardian) says 'We'll repeal these measures if necessary.' However, the practical likelihood of full repeal through the Senate given crossbench composition is contested—the Guardian notes One Nation's Pauline Hanson also weighed in without clear alignment either way.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260521-377",
+      "timestamp": "2026-05-21T21:22:10.699Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-09T12:33:15.923Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is restricting negative gearing to new builds 'effective' housing supply policy or insufficient reform?",
+      "description": "The REIA calls the $2B infrastructure initiative 'positive and necessary' while the Greens call the overall package a 'damp squib' arguing it backs corporate profits over structural reform. The factual question is whether new-build-only negative gearing meaningfully addresses supply shortages or is too narrow to have impact.",
+      "suggestion": "Add to debates.json: REIA President Jacob Caine (API Magazine) says measures 'directly supporting new housing supply... were positive and necessary steps toward addressing Australia's housing shortage.' By contrast, the Greens (Discovery Alert) argued the government 'backed corporate profits over meaningful structural reform.'",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260521-820",
+      "timestamp": "2026-05-21T21:22:10.699Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-09T12:33:35.512Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources use this phrasing, but budget.gov.au states the 30% rate applies to 'real capital gains' (above inflation). The ABC News source clarifies it applies to 'real capital gains accruing from next July'. This distinction matters significantly - the minimum rate may only apply to gains above the inflation-adjusted cost base, not nominal gains. A claim that ALL capital gains face a minimum 30% rate could overstate the scope of the tax change.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% applies to ALL gains', verdict is disputed/unclear because official sources indicate it applies to real gains (above inflation), not nominal gains. The 30% rate appears to be a floor on the effective rate after indexation, not a blanket minimum tax on all capital gains.",
+      "source": "https://www.budget.gov.au/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260521-837",
+      "timestamp": "2026-05-21T21:22:10.699Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-09T12:34:28.089Z"
     }
   ],
   "skipped": [
@@ -6208,6 +6199,21 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-08T23:11:06.493Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim is repeated extensively in search results but may oversimplify. The Budget.gov.au states 'introduce a minimum 30 per cent tax on gains from 1 July 2027.' The key issue: the minimum 30% floor appears to apply to gains AFTER inflation indexation is applied to the cost base. For assets held long-term with significant inflation, the indexed gain may be much smaller than the nominal gain. A taxpayer might pay 30% on a smaller indexed gain rather than 30% on the full nominal gain. The claim 'on ALL gains' could mislead readers into thinking the full nominal gain is taxed at 30%, when in reality the indexation adjustment reduces the taxable gain first.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax applies to ALL capital gains from July 2027', verdict is partially_true because the 30% minimum applies to indexed gains (after cost base adjustment for inflation), not necessarily nominal gains. For long-held assets, indexation reduces the taxable gain before the 30% floor is applied.",
+      "source": "https://budget.gov.au/2026-27/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260609-366",
+      "timestamp": "2026-06-09T10:52:53.140Z",
+      "status": "skipped",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-09T12:32:16.114Z"
     }
   ],
   "needs_manual_review": [

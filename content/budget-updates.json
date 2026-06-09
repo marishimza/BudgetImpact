@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T23:10:44.375Z",
+  "lastUpdated": "2026-06-09T12:32:28.625Z",
   "items": [
     {
       "id": "update-001",
@@ -1526,6 +1526,16 @@
       "summary": "ASX analysis reveals that retired investors on a 16% marginal tax rate face an effective tax rate of 8% on nominal gains versus 30% on indexed gains under the announced CGT reforms. This 22 percentage point effective rate increase could significantly affect retirees with large equity portfolios held for extended periods. The analysis highlights the disproportionate impact on retirement investors who have accumulated substantial assets over long holding periods.",
       "url": null,
       "priority": "high"
+    },
+    {
+      "id": "update-152",
+      "date": "2026-03-17",
+      "tag": "Parliament",
+      "source": "Wikipedia - 2026 Australian Federal Budget",
+      "title": "Parliamentary committee endorsed CGT discount changes on 17 March 2026",
+      "summary": "A parliamentary committee formally endorsed changes to the capital gains tax discount on 17 March 2026, predating the Budget announcement by nearly two months. This provides important context for the legislative timeline and stakeholder consultation process. The early endorsement suggests the government had already built substantial support for the CGT changes before the Budget night announcement.",
+      "url": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
+      "priority": "medium"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T07:47:22.114Z",
+  "lastUpdated": "2026-06-09T12:33:35.510Z",
   "debates": [
     {
       "id": "debate-001",
@@ -701,6 +701,50 @@
         "sources": [
           "https://www.abc.net.au",
           "https://www.commbank.com.au"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-030",
+      "slug": "will-coalition-successfully-repeal-labor-negative-gearing-cgt-changes-if-elected",
+      "title": "Will the Coalition successfully repeal Labor's negative gearing and CGT changes if elected?",
+      "category": "housing_property",
+      "type": "policy_disagreement",
+      "summary": "The Coalition has committed to repealing Labor's negative gearing and CGT reforms, but uncertainty remains about their ability to pass repeal legislation through the Senate given crossbench complexity and competing priorities.",
+      "view_a": {
+        "label": "Coalition will pursue repeal",
+        "argument": "The Coalition, through spokesperson Tim Wilson, has committed to repealing the negative gearing and CGT changes, stating 'We'll repeal these measures if necessary.' The party has a clear mandate from voters and housing industry stakeholders who oppose the reforms.",
+        "sources": [
+          "https://www.abc.net.au/news/2026-05-13/coalition-negative-gearing-cgt-repeal-pledge"
+        ]
+      },
+      "view_b": {
+        "label": "Repeal faces significant obstacles",
+        "argument": "The practical likelihood of full repeal through the Senate remains contested. The crossbench composition makes passage uncertain, and Pauline Hanson's One Nation has weighed in without clear alignment either way. The Coalition may prioritise other agenda items over pursuing politically complex tax reform battles.",
+        "sources": [
+          "https://www.abc.net.au/news/2026-05-13/coalition-negative-gearing-cgt-repeal-pledge"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-031",
+      "slug": "negative-gearing-new-builds-effective-or-insufficient",
+      "title": "Is restricting negative gearing to new builds 'effective' housing supply policy or insufficient reform?",
+      "category": "housing_supply",
+      "type": "policy_disagreement",
+      "summary": "The REIA and Greens offer contrasting assessments of Budget 2026's negative gearing restrictions to new builds. The REIA views it as a positive supply-side measure while the Greens argue it prioritises corporate profits over structural housing reform.",
+      "view_a": {
+        "label": "Effective supply-side reform",
+        "argument": "REIA President Jacob Caine stated that measures directly supporting new housing supply 'were positive and necessary steps toward addressing Australia's housing shortage.' The $2B infrastructure initiative specifically targets new supply bottlenecks that restrict housing availability.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Insufficient structural reform",
+        "argument": "The Greens argued the government 'backed corporate profits over meaningful structural reform,' calling the overall package a 'damp squib.' They contend that restricting negative gearing to new builds only is too narrow to address underlying housing affordability pressures affecting existing homeowners and renters.",
+        "sources": [
+          "https://www.discoveryalert.com.au"
         ]
       },
       "verdict": null

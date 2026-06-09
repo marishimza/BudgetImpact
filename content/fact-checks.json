@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T17:57:03.613Z",
+  "lastUpdated": "2026-06-09T23:15:24.161Z",
   "claims": [
     {
       "id": "fc-001",
@@ -795,6 +795,24 @@
       ],
       "date_checked": "2026-06-09",
       "category": "housing"
+    },
+    {
+      "id": "fc-041",
+      "slug": "capital-gains-30-percent-minimum-tax-all-gains",
+      "claim": "Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "The 30% minimum tax applies to inflation-adjusted gains, not the full nominal gain. The effective tax rate may be lower than 30% for assets that have experienced significant inflation.",
+      "detailed_explanation": "The claim oversimplifies how the minimum 30% capital gains tax works. According to budget.gov.au, there is a minimum 30% tax on gains, but gains are first adjusted for inflation using indexation. The 30% minimum applies to the inflation-adjusted gain, not the nominal gain. This means: (1) the taxable gain is reduced by inflation before the 30% minimum is applied; (2) the effective tax rate on the original nominal gain may be well below 30%; (3) media coverage often omits the 'minimum' qualifier and the inflation adjustment step, creating a misleading impression that all capital gains are taxed at exactly 30%. The actual tax payable depends on the inflation indexation adjustment applied to each asset.",
+      "sources": [
+        {
+          "name": "Australian Government Budget",
+          "url": "https://budget.gov.au/tax-reform",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-09",
+      "category": "tax"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T21:31:49.700Z",
+  "lastUpdated": "2026-06-09T23:15:37.985Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -646,18 +646,6 @@
       "status": "pending"
     },
     {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The claim omits critical nuance about how the 30% minimum tax works. The official budget.gov.au states 'a minimum 30 per cent tax on gains' but does not clarify this applies to gains after inflation indexation is applied. The actual tax payable depends on whether indexation produces a lower taxable gain than the 30% threshold. Media coverage often drops the 'minimum' qualifier and omits that gains are first adjusted for inflation, then taxed - potentially leading to an effective rate well below 30% for some assets.",
-      "suggestion": "Add to fact-checks.json: claim is 'all gains face exactly 30% minimum', verdict is disputed because the 30% applies to inflation-adjusted gains and may not represent the effective tax rate on the full capital gain.",
-      "source": "https://budget.gov.au/tax-reform",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260522-264",
-      "timestamp": "2026-05-22T10:42:25.759Z",
-      "status": "pending"
-    },
-    {
       "id": "suggestion-20260522-983",
       "timestamp": "2026-05-22T10:42:25.759Z",
       "status": "pending",
@@ -668,18 +656,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources claim a flat 'minimum 30% tax rate' on capital gains. However, budget.gov.au states the 50% discount is being 'replaced with a discount based on inflation' and a 'minimum 30 per cent tax on gains.' This suggests the 30% floor applies to gains AFTER accounting for inflation adjustment, not a flat 30% on total gains. The ABC analysis also indicates investors will receive inflation compensation first, meaning the minimum rate applies to real gains above inflation, not total gains.",
-      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax applies to ALL capital gains', verdict is partially_true because the 30% floor appears to apply to gains above inflation after indexation, not total gains.",
-      "source": "https://www.budget.gov.au/publication/tax-reform#:~:text=The%20Government%20will%20replace%20the%2050%20per%20cent%20Capital%20Gains%20Tax%20(CGT)%20discount%20with%20a%20discount%20based%20on%20inflation%20and%20introduce%20a%20minimum%2030%20per%20cent%20tax%20on%20gains%20from%201%20July%202027",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260522-373",
-      "timestamp": "2026-05-22T16:15:40.059Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -4342,43 +4318,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
-      "description": "The ATO has published detailed practical guidance for how investors should calculate capital gains under the new inflation-indexed cost base rules that take effect from 1 July 2027. This guidance is essential for investors and tax practitioners preparing for the transition.",
-      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260609-156",
-      "timestamp": "2026-06-09T21:31:38.656Z",
-      "status": "pending",
-      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Pitcher Partners: Superannuation unchanged in Budget 2026 but ripple effects remain",
-      "description": "Pitcher Partners analysis confirms no major superannuation measures in the Budget, while noting the Division 296 ($3m super balance tax) legislation enacted in March 2026 will commence from 1 July this year. The analysis highlights broader tax reform ripple effects from CGT and negative gearing changes.",
-      "suggestion": "Add to budget-updates.json: Pitcher Partners: Superannuation unchanged in Budget 2026 but broader tax reform ripple effects remain",
-      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260609-339",
-      "timestamp": "2026-06-09T21:31:38.656Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for different investor types",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ASX analysis details how the CGT reform package creates differentiated tax outcomes depending on investor type and asset class. The analysis quantifies the impact on ETF and Listed Investment Vehicle investors, showing how different investor cohorts face varying effective tax rates under the new rules.",
-      "suggestion": "Add to budget-updates.json: ASX analysis: CGT reform creates 'two-speed' tax treatment for different investor types",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260609-280",
-      "timestamp": "2026-06-09T21:31:38.656Z",
-      "status": "pending"
-    },
-    {
       "type": "fact_check",
       "priority": "medium",
       "title": "Claim: Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over the past decade",
@@ -5750,6 +5689,46 @@
       "timestamp": "2026-05-22T05:58:54.493Z",
       "status": "implemented",
       "implemented_at": "2026-06-09T17:57:56.306Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The ATO has published detailed practical guidance for how investors should calculate capital gains under the new inflation-indexed cost base rules that take effect from 1 July 2027. This guidance is essential for investors and tax practitioners preparing for the transition.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260609-156",
+      "timestamp": "2026-06-09T21:31:38.656Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implemented_at": "2026-06-09T23:15:00.188Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for different investor types",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ASX analysis details how the CGT reform package creates differentiated tax outcomes depending on investor type and asset class. The analysis quantifies the impact on ETF and Listed Investment Vehicle investors, showing how different investor cohorts face varying effective tax rates under the new rules.",
+      "suggestion": "Add to budget-updates.json: ASX analysis: CGT reform creates 'two-speed' tax treatment for different investor types",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260609-280",
+      "timestamp": "2026-06-09T21:31:38.656Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-09T23:15:12.331Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The claim omits critical nuance about how the 30% minimum tax works. The official budget.gov.au states 'a minimum 30 per cent tax on gains' but does not clarify this applies to gains after inflation indexation is applied. The actual tax payable depends on whether indexation produces a lower taxable gain than the 30% threshold. Media coverage often drops the 'minimum' qualifier and omits that gains are first adjusted for inflation, then taxed - potentially leading to an effective rate well below 30% for some assets.",
+      "suggestion": "Add to fact-checks.json: claim is 'all gains face exactly 30% minimum', verdict is disputed because the 30% applies to inflation-adjusted gains and may not represent the effective tax rate on the full capital gain.",
+      "source": "https://budget.gov.au/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260522-264",
+      "timestamp": "2026-05-22T10:42:25.759Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-09T23:15:24.163Z"
     }
   ],
   "skipped": [
@@ -6253,6 +6232,34 @@
       "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-09T12:32:16.114Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Pitcher Partners: Superannuation unchanged in Budget 2026 but ripple effects remain",
+      "description": "Pitcher Partners analysis confirms no major superannuation measures in the Budget, while noting the Division 296 ($3m super balance tax) legislation enacted in March 2026 will commence from 1 July this year. The analysis highlights broader tax reform ripple effects from CGT and negative gearing changes.",
+      "suggestion": "Add to budget-updates.json: Pitcher Partners: Superannuation unchanged in Budget 2026 but broader tax reform ripple effects remain",
+      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260609-339",
+      "timestamp": "2026-06-09T21:31:38.656Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-09T23:15:04.303Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources claim a flat 'minimum 30% tax rate' on capital gains. However, budget.gov.au states the 50% discount is being 'replaced with a discount based on inflation' and a 'minimum 30 per cent tax on gains.' This suggests the 30% floor applies to gains AFTER accounting for inflation adjustment, not a flat 30% on total gains. The ABC analysis also indicates investors will receive inflation compensation first, meaning the minimum rate applies to real gains above inflation, not total gains.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax applies to ALL capital gains', verdict is partially_true because the 30% floor appears to apply to gains above inflation after indexation, not total gains.",
+      "source": "https://www.budget.gov.au/publication/tax-reform#:~:text=The%20Government%20will%20replace%20the%2050%20per%20cent%20Capital%20Gains%20Tax%20(CGT)%20discount%20with%20a%20discount%20based%20on%20inflation%20and%20introduce%20a%20minimum%2030%20per%20cent%20tax%20on%20gains%20from%201%20July%202027",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260522-373",
+      "timestamp": "2026-05-22T16:15:40.059Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-09T23:15:37.985Z"
     }
   ],
   "needs_manual_review": [

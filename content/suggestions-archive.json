@@ -2750,6 +2750,73 @@
       "timestamp": "2026-05-31T15:11:41.523Z",
       "status": "implemented",
       "implemented_at": "2026-06-01T23:24:23.848Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Division 296: ATO confirms indexed thresholds and CGT relief details for SMSFs",
+      "description": "ATO confirms Better Targeted Super Concessions legislation with indexed thresholds for Division 296 tax commencing 1 July 2026. Details include how the $3m threshold applies and what CGT relief is available for affected SMSFs.",
+      "suggestion": "Add ATO confirmation of Division 296 indexed thresholds and CGT relief details for SMSFs to budget-updates.json.",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260531-653",
+      "timestamp": "2026-05-31T15:11:41.523Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-02T08:23:39.853Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG confirms $47.5m implementation funding for CGT and negative gearing reforms",
+      "description": "Federal Budget 2026/27 allocates $47.5 million over four years from 2026-27 (and $3.9 million per year ongoing) to Treasury and ATO for implementation of CGT reform and negative gearing changes.",
+      "suggestion": "Add KPMG confirmation of $47.5m implementation funding allocation to budget-updates.json.",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260531-470",
+      "timestamp": "2026-05-31T15:11:41.523Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-02T08:24:01.535Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Working Australians Tax Offset: $250 annual relief confirmed for low-to-middle income workers",
+      "description": "The Budget introduces a new tax offset providing $250 annual relief for low-to-middle income workers as part of broader tax reform alongside CGT and negative gearing changes.",
+      "suggestion": "Add to budget-updates.json: Budget 2026 confirms new Working Australians Tax Offset providing $250 annual relief for low-to-middle income workers as part of broader tax reform package.",
+      "source": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260531-804",
+      "timestamp": "2026-05-31T20:48:39.166Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-02T08:24:15.925Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for ETF and Listed Investment Vehicle investors",
+      "description": "The ASX published an investor-focused analysis explaining how the CGT changes affect different investor types differently, with implications for exchange-traded funds and listed investment vehicles versus direct share investors.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details CGT impact on ETF and Listed Investment Vehicle investors — notes 'two-speed' tax treatment emerging under reform package",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260601-546",
+      "timestamp": "2026-06-01T06:46:57.501Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-02T08:24:37.225Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Budget confirms shift from taxing incomes to taxing assets — trust and CGT reform explained",
+      "description": "The budget explicitly frames CGT and negative gearing reforms as rebalancing the tax system away from income taxation toward asset taxation. This aligns with broader trust tax treatment reforms flagged for future legislation.",
+      "suggestion": "Add to budget-updates.json: Budget framing confirms intent to shift tax burden from income to assets — trust reform details to follow",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260602-266",
+      "timestamp": "2026-06-02T06:29:20.489Z",
+      "status": "skipped",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-02T08:23:03.639Z"
     }
   ]
 }

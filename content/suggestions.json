@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T07:48:02.901Z",
+  "lastUpdated": "2026-06-09T10:52:59.401Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -4268,61 +4268,107 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Greens propose 40% additional tax on super balances exceeding $10 million",
+      "description": "The Australian Greens have called for superannuation balances above $10 million to be subject to an additional 40% tax rate, extending beyond the Division 296 legislation that applies 15% tax on earnings above the $3 million threshold. This represents a more aggressive wealth taxation position than current government policy.",
+      "suggestion": "Add to budget-updates.json: Greens propose 40% additional tax on superannuation balances exceeding $10 million — more aggressive than Division 296 ($3m threshold, 15% tax) — policy proposal, not enacted",
+      "source": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260609-160",
+      "timestamp": "2026-06-09T10:52:53.140Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Parliamentary committee endorsed CGT discount changes on 17 March 2026",
+      "description": "A parliamentary committee formally endorsed changes to the capital gains tax discount on 17 March 2026, predating the Budget announcement by nearly two months. This provides important context for the legislative timeline and stakeholder consultation process.",
+      "suggestion": "Add to budget-updates.json: Parliamentary committee endorsed CGT discount changes on 17 March 2026 — predates Budget night by nearly two months",
+      "source": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260609-150",
+      "timestamp": "2026-06-09T10:52:53.140Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/listen/programs/radionational-breakfast/senate-committee-endorses-cgt-discount-changes-greens-pleased/106466742"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasurer describes Budget as 'most important and ambitious in decades'",
+      "description": "In his Budget speech delivered at Parliament House on 12 May 2026, Treasurer Jim Chalmers described the 2026-27 Budget as 'the most important and ambitious Budget in decades', citing global economic challenges and the need for Australia to respond with significant fiscal measures.",
+      "suggestion": "Add to budget-updates.json: Treasurer Jim Chalmers describes 2026-27 Budget as 'most important and ambitious in decades' — full text of Budget speech released",
+      "source": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/2026-27-budget-speech-parliament-house-canberra",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260609-976",
+      "timestamp": "2026-06-09T10:52:53.140Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the 2026 housing tax reforms cause a prolonged market slump or a brief correction?",
+      "description": "There is conflicting analysis from credible financial sources on the short-term impact of the negative gearing and CGT reforms on property prices. NAB revised its forecast to project a 'brief correction not slump', while other analysts suggest more severe outcomes are possible. This matters because investor behavior and housing affordability projections depend on these forecasts.",
+      "suggestion": "Add to debates.json: NAB Budget Analysis forecasts a brief correction from 2026 housing tax reforms, while other analyst projections suggest risk of more prolonged property price decline",
+      "source": "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260609-308",
+      "timestamp": "2026-06-09T10:52:53.140Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the Coalition's pledge to repeal negative gearing and CGT changes affect investor behaviour and market stability?",
+      "description": "The Coalition has vowed to repeal the measures if elected, with Shadow Treasurer Tim Wilson stating they will seek to 'defeat the changes' and repeal them 'if necessary'. This creates uncertainty about whether grandfathered arrangements will survive a change of government, which directly affects investment decisions and property market stability. Credible sources present conflicting views on whether this political uncertainty will drive investors to act before or after the policy takes effect.",
+      "suggestion": "Add to debates.json: Coalition (The Guardian) vows to repeal negative gearing and CGT changes 'if necessary', creating uncertainty about grandfathered arrangements under potential future government",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260609-132",
+      "timestamp": "2026-06-09T10:52:53.140Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim is repeated extensively in search results but may oversimplify. The Budget.gov.au states 'introduce a minimum 30 per cent tax on gains from 1 July 2027.' The key issue: the minimum 30% floor appears to apply to gains AFTER inflation indexation is applied to the cost base. For assets held long-term with significant inflation, the indexed gain may be much smaller than the nominal gain. A taxpayer might pay 30% on a smaller indexed gain rather than 30% on the full nominal gain. The claim 'on ALL gains' could mislead readers into thinking the full nominal gain is taxed at 30%, when in reality the indexation adjustment reduces the taxable gain first.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax applies to ALL capital gains from July 2027', verdict is partially_true because the 30% minimum applies to indexed gains (after cost base adjustment for inflation), not necessarily nominal gains. For long-held assets, indexation reduces the taxable gain before the 30% floor is applied.",
+      "source": "https://budget.gov.au/2026-27/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260609-366",
+      "timestamp": "2026-06-09T10:52:53.140Z",
+      "status": "pending",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "This simplified claim appears frequently but the actual legislation is more nuanced. The ATO states Division 296 applies '15% on the proportion of earnings relating to your TSB that exceeds the LSBT' (Low Balance Threshold). The tax is NOT a flat 15% on the entire balance above $3m. Instead, it's 15% on the earnings attributable to the portion of your Total Superannuation Balance exceeding $3m. A $4m balance doesn't pay 15% x $1m = $150k; it pays 15% on the earnings generated by the amount above $3m, which is considerably less. Additionally, thresholds are indexed.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is partially_true because Division 296 taxes the earnings attributable to the excess balance, not the excess balance itself. A $4m balance doesn't incur $150k in Division 296 tax—it pays 15% on the earnings portion attributable to amounts exceeding $3m.",
+      "source": "https://www.ato.gov.au/about-us/tax-alerts/better-targeted-super-concessions",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260609-668",
+      "timestamp": "2026-06-09T10:52:53.140Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260609-746",
+      "timestamp": "2026-06-09T10:52:53.140Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
     }
   ],
   "implemented": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Division 296: ATO confirms indexed thresholds and CGT relief details for SMSFs",
-      "description": "ATO confirms Better Targeted Super Concessions legislation with indexed thresholds for Division 296 tax commencing 1 July 2026. Details include how the $3m threshold applies and what CGT relief is available for affected SMSFs.",
-      "suggestion": "Add ATO confirmation of Division 296 indexed thresholds and CGT relief details for SMSFs to budget-updates.json.",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260531-653",
-      "timestamp": "2026-05-31T15:11:41.523Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-02T08:23:39.853Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "KPMG confirms $47.5m implementation funding for CGT and negative gearing reforms",
-      "description": "Federal Budget 2026/27 allocates $47.5 million over four years from 2026-27 (and $3.9 million per year ongoing) to Treasury and ATO for implementation of CGT reform and negative gearing changes.",
-      "suggestion": "Add KPMG confirmation of $47.5m implementation funding allocation to budget-updates.json.",
-      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260531-470",
-      "timestamp": "2026-05-31T15:11:41.523Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-02T08:24:01.535Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Working Australians Tax Offset: $250 annual relief confirmed for low-to-middle income workers",
-      "description": "The Budget introduces a new tax offset providing $250 annual relief for low-to-middle income workers as part of broader tax reform alongside CGT and negative gearing changes.",
-      "suggestion": "Add to budget-updates.json: Budget 2026 confirms new Working Australians Tax Offset providing $250 annual relief for low-to-middle income workers as part of broader tax reform package.",
-      "source": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260531-804",
-      "timestamp": "2026-05-31T20:48:39.166Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-02T08:24:15.925Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for ETF and Listed Investment Vehicle investors",
-      "description": "The ASX published an investor-focused analysis explaining how the CGT changes affect different investor types differently, with implications for exchange-traded funds and listed investment vehicles versus direct share investors.",
-      "suggestion": "Add to budget-updates.json: ASX analysis details CGT impact on ETF and Listed Investment Vehicle investors — notes 'two-speed' tax treatment emerging under reform package",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260601-546",
-      "timestamp": "2026-06-01T06:46:57.501Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-02T08:24:37.225Z"
-    },
     {
       "type": "content_update",
       "priority": "medium",
@@ -5635,21 +5681,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Budget confirms shift from taxing incomes to taxing assets — trust and CGT reform explained",
-      "description": "The budget explicitly frames CGT and negative gearing reforms as rebalancing the tax system away from income taxation toward asset taxation. This aligns with broader trust tax treatment reforms flagged for future legislation.",
-      "suggestion": "Add to budget-updates.json: Budget framing confirms intent to shift tax burden from income to assets — trust reform details to follow",
-      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260602-266",
-      "timestamp": "2026-06-02T06:29:20.489Z",
-      "status": "skipped",
-      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-02T08:23:03.639Z"
-    },
     {
       "type": "content_update",
       "priority": "medium",

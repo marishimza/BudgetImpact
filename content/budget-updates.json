@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T08:05:03.947Z",
+  "lastUpdated": "2026-06-10T12:51:15.845Z",
   "items": [
     {
       "id": "update-001",
@@ -1615,6 +1615,16 @@
       "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
       "summary": "The Australian Taxation Office has published practical guidance explaining how investors should calculate capital gains under the new inflation-based cost base indexation rules taking effect from 1 July 2027. The guidance provides step-by-step calculations for determining indexed cost bases and applies to assets acquired after 8:30pm on 12 May 2026 (Budget Night). Taxpayers holding affected assets should review the guidance to ensure accurate capital gains calculations when disposing of assets after the new rules commence.",
       "url": "https://www.ato.gov.au/general/new-legislation/in-detail/other-topics/cgt-indexation/",
+      "priority": "high"
+    },
+    {
+      "id": "update-161",
+      "date": "2026-06-10",
+      "tag": "Property",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "summary": "The Australian Taxation Office has released practical guidance explaining how investors should calculate capital gains using the new cost base indexation method that will replace the 50% discount from 1 July 2027. The guidance helps asset holders determine their indexed cost base for tax purposes. Property investors should review the new calculations to ensure compliance before the changes take effect.",
+      "url": "https://www.ato.gov.au/",
       "priority": "high"
     }
   ]

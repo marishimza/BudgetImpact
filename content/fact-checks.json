@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T23:15:24.161Z",
+  "lastUpdated": "2026-06-10T12:50:53.440Z",
   "claims": [
     {
       "id": "fc-001",
@@ -813,6 +813,24 @@
       ],
       "date_checked": "2026-06-09",
       "category": "tax"
+    },
+    {
+      "id": "fc-042",
+      "slug": "division-296-tax-not-on-entire-balance",
+      "claim": "15% tax on all super balances over $3m",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "Division 296 applies the 15% tax to earnings attributed to the portion of total superannuation balance exceeding $3m, not to the entire balance above the threshold.",
+      "detailed_explanation": "Division 296 (the Better Targeted Super Concessions measure) introduces a 15% tax on 'the proportion of earnings relating to your total superannuation balance (TSB) that exceeds the low-taxed superannuation balance (LSBT)' of $3 million. This is a critical distinction from the common claim—the tax is levied on the earnings attributable to the amount above $3m, not on the balance itself. For example, if someone has a $4m balance, the tax applies only to the earnings on the $1m portion above the threshold, not on the entire balance or even the entire $1m above $3m. The tax effectively closes the concessional tax treatment gap for very large super balances by ensuring earnings on amounts above $3m are taxed at 15% rather than being concessionally taxed at lower rates.",
+      "sources": [
+        {
+          "name": "ATO - Better Targeted Super Concessions",
+          "url": "https://www.ato.gov.au/Super/Super-and-tax/Super-concessions",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-10",
+      "category": "superannuation"
     }
   ]
 }

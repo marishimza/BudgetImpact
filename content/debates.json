@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T08:07:10.122Z",
+  "lastUpdated": "2026-06-10T12:52:16.958Z",
   "debates": [
     {
       "id": "debate-001",
@@ -805,6 +805,25 @@
         "sources": [
           "CBA housing outlook analysis"
         ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-034",
+      "slug": "will-2b-infrastructure-initiative-deliver-65000-homes",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "The REIA President claims the federal government's $2B infrastructure program is expected to enable around 65,000 additional homes. However, housing economists and industry critics question whether infrastructure spending directly translates to housing completions, given construction timelines, local approval processes, and whether infrastructure is truly the binding constraint on housing supply.",
+      "view_a": {
+        "label": "REIA / API Magazine",
+        "argument": "The REIA President supports the government's $2B infrastructure program as a meaningful catalyst for housing supply. Infrastructure investment directly addresses bottlenecks in utilities, transport, and community services that enable development-ready land. The 'around 65,000 additional homes' projection reflects the direct enabling effect of strategic infrastructure spending on residential development capacity.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Housing Economists / Industry Critics",
+        "argument": "Housing economists and industry critics contend that the 65,000 figure conflates infrastructure spending with housing completions. They argue that planning reform delays, skilled labour shortages, materials costs, and developer financing constraints are more significant binding constraints than infrastructure availability. The 65,000 projection may be optimistic as infrastructure development typically operates on different timelines than construction delivery, and enabling infrastructure does not guarantee developers will build.",
+        "sources": []
       },
       "verdict": null
     }

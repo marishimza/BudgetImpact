@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T12:52:16.958Z",
+  "lastUpdated": "2026-06-10T23:21:40.876Z",
   "debates": [
     {
       "id": "debate-001",
@@ -824,6 +824,29 @@
         "label": "Housing Economists / Industry Critics",
         "argument": "Housing economists and industry critics contend that the 65,000 figure conflates infrastructure spending with housing completions. They argue that planning reform delays, skilled labour shortages, materials costs, and developer financing constraints are more significant binding constraints than infrastructure availability. The 65,000 projection may be optimistic as infrastructure development typically operates on different timelines than construction delivery, and enabling infrastructure does not guarantee developers will build.",
         "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-035",
+      "slug": "coalition-immigration-cap-housing-response",
+      "title": "Is the Coalition's immigration cap proposal a direct response to budget housing measures?",
+      "category": "housing_policy",
+      "type": "policy_disagreement",
+      "summary": "The Coalition's budget reply proposes drastically cutting immigration numbers tied to new housing construction as a housing affordability response. Meanwhile, the Government frames housing supply solutions through tax reform measures including limits on negative gearing and capital gains tax concessions. This creates a fundamental policy disagreement about whether immigration levels or investor tax arrangements are the primary driver of Australia's housing crisis and the appropriate policy response.",
+      "view_a": {
+        "label": "Immigration cuts as housing supply response",
+        "argument": "The Coalition proposes to directly tie immigration intake levels to new housing construction, using significant reductions in immigration as the primary mechanism to address housing affordability. This approach frames immigration as a key driver of housing demand outstripping supply, making intake reduction the core housing policy solution rather than tax reform.",
+        "sources": [
+          "https://www.theguardian.com/australia-news/live/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb"
+        ]
+      },
+      "view_b": {
+        "label": "Tax reform as primary housing supply mechanism",
+        "argument": "The Government and mainstream budget analysis frame negative gearing reform and capital gains tax limitations as the primary supply-side housing solution. Budget.gov.au and other authoritative sources indicate these tax arrangements—rather than immigration levels—are the key policy lever for addressing housing supply and affordability, with tax reform targeted at property investor behaviour rather than population growth.",
+        "sources": [
+          "https://www.budget.gov.au"
+        ]
       },
       "verdict": null
     }

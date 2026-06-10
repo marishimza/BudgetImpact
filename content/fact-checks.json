@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T18:28:08.412Z",
+  "lastUpdated": "2026-06-10T23:21:50.015Z",
   "claims": [
     {
       "id": "fc-001",
@@ -849,6 +849,24 @@
       ],
       "date_checked": "2026-06-10",
       "category": "superannuation"
+    },
+    {
+      "id": "fc-044",
+      "slug": "cgt-discount-replacement-inflation-indexation-claim",
+      "claim": "The government is completely replacing the 50% CGT discount with inflation indexation, leaving no flexibility for investors and eliminating the discount entirely.",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The 50% CGT discount is being reformed for new asset acquisitions, but existing assets may retain different treatment through grandfathering provisions and transitional arrangements.",
+      "detailed_explanation": "While budget.gov.au indicates the government intends to replace the 50% CGT discount with a discount based on inflation for new acquisitions, this framing oversimplifies the actual mechanism. Investors may retain some flexibility in calculating cost basis depending on asset type and timing. Grandfathering provisions mean existing assets acquired before the reform date may continue to receive the 50% discount under certain conditions. Transitional arrangements further complicate the picture by providing different rules based on when assets were acquired. The complete elimination narrative ignores these nuances—the discount is being reformed rather than universally abolished.",
+      "sources": [
+        {
+          "name": "Australian Government Budget",
+          "url": "https://budget.gov.au/tax-reform",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-10",
+      "category": "tax"
     }
   ]
 }

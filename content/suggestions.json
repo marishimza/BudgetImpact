@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T21:52:44.888Z",
+  "lastUpdated": "2026-06-10T23:21:50.018Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -683,18 +683,6 @@
     },
     {
       "type": "debate_page",
-      "priority": "medium",
-      "title": "Is the Coalition's immigration cap proposal a direct response to budget housing measures?",
-      "description": "The Coalition's budget reply proposes drastically cutting immigration tied to housing builds, while the Government frames housing affordability through tax reform (negative gearing/CGT limits). This creates a factual conflict about whether immigration or investor tax policy is the primary driver of Australia's housing crisis. The Guardian reports Taylor linking immigration cuts to housing supply, while budget.gov.au and other sources focus on investor tax arrangements as the supply-side solution.",
-      "suggestion": "Add to debates.json: view_a from Guardian (budget reply coverage) says the Coalition will 'tie intake to new housing builds' and cut immigration significantly as housing policy response; view_b from budget.gov.au and mainstream coverage frames negative gearing/CGT limits as the primary housing supply mechanism",
-      "source": "https://www.theguardian.com/australia-news/live/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260523-634",
-      "timestamp": "2026-05-23T05:33:50.727Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
       "priority": "low",
       "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
       "description": "REIA President Jacob Caine states the Government's $2 billion infrastructure initiative 'expected to enable around 65,000 additional homes' as positive and necessary. However, no independent modeling or Treasury verification of this figure appears in search results. The claim appears to come from Government projections without independent scrutiny.",
@@ -702,18 +690,6 @@
       "source": "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades",
       "implementation_effort": "30_minutes",
       "id": "suggestion-20260523-316",
-      "timestamp": "2026-05-23T05:33:50.727Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'CGT discount is being REPLACED by inflation indexation (no choice)'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget.gov.au states 'replace the 50% CGT discount with a discount based on inflation' implying replacement. However, this oversimplifies the mechanism - investors may have flexibility in calculating cost basis (indexation vs. discount). The full elimination framing ignores grandfathering provisions and transitional arrangements that preserve the 50% discount for existing assets under certain conditions.",
-      "suggestion": "Add to fact-checks.json: claim is partially accurate, verdict is partially_true because the discount is being reformed/replaced for new acquisitions but existing assets may retain different treatment depending on timing and asset type.",
-      "source": "https://budget.gov.au/tax-reform",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260523-233",
       "timestamp": "2026-05-23T05:33:50.727Z",
       "status": "pending"
     },
@@ -4438,43 +4414,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases technical guidance on CGT cost base indexation calculations",
-      "description": "The ATO has published practical guidance for calculating capital gains under the new cost base indexation method ahead of the 1 July 2027 commencement date. The guidance explains how to apply the Consumer Price Index to adjust asset cost bases, distinguishing this from the previous capital gains tax discount approach.",
-      "suggestion": "Add to budget-updates.json: ATO releases technical guidance for CGT cost base indexation calculations ahead of July 2027",
-      "source": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-events-and-how-to-calculate-your-gain/loss-or-gain",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260610-619",
-      "timestamp": "2026-06-10T21:52:39.397Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Trust tax treatment reform confirmed as separate legislation from housing bill",
-      "description": "The Government has confirmed that trust tax treatment reform will be introduced as separate legislation from the Treasury Laws Amendment (More Housing, More Help) Bill 2026. Treasurer Jim Chalmers indicated the plan aims to shift the tax burden from income to assets, with changes to trust distributions to be detailed in a future bill.",
-      "suggestion": "Add to budget-updates.json: Trust tax treatment reform to be introduced as separate legislation from housing bill",
-      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260610-436",
-      "timestamp": "2026-06-10T21:52:39.397Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Retirement investor CGT impact quantified: 8% effective rate under current rules versus 30% under proposed changes",
-      "description": "ASX analysis provides a concrete example showing a retired investor on a 16% marginal tax rate currently faces only 8% tax on nominal capital gains from long-held equity portfolios, as opposed to 30% on indexed gains under the announced reforms. This represents a 22 percentage point effective tax rate increase for low-rate retirees.",
-      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT reform impact on retirement investors — 8% vs 30% effective rate for long-held equity gains",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260610-819",
-      "timestamp": "2026-06-10T21:52:39.397Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Is the Coalition's immigration cap proposal a direct response to budget housing measures or separate policy?",
@@ -5843,6 +5782,32 @@
       "timestamp": "2026-05-22T21:03:45.810Z",
       "status": "implemented",
       "implemented_at": "2026-06-10T18:28:08.415Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the Coalition's immigration cap proposal a direct response to budget housing measures?",
+      "description": "The Coalition's budget reply proposes drastically cutting immigration tied to housing builds, while the Government frames housing affordability through tax reform (negative gearing/CGT limits). This creates a factual conflict about whether immigration or investor tax policy is the primary driver of Australia's housing crisis. The Guardian reports Taylor linking immigration cuts to housing supply, while budget.gov.au and other sources focus on investor tax arrangements as the supply-side solution.",
+      "suggestion": "Add to debates.json: view_a from Guardian (budget reply coverage) says the Coalition will 'tie intake to new housing builds' and cut immigration significantly as housing policy response; view_b from budget.gov.au and mainstream coverage frames negative gearing/CGT limits as the primary housing supply mechanism",
+      "source": "https://www.theguardian.com/australia-news/live/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260523-634",
+      "timestamp": "2026-05-23T05:33:50.727Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-10T23:21:40.878Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'CGT discount is being REPLACED by inflation indexation (no choice)'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget.gov.au states 'replace the 50% CGT discount with a discount based on inflation' implying replacement. However, this oversimplifies the mechanism - investors may have flexibility in calculating cost basis (indexation vs. discount). The full elimination framing ignores grandfathering provisions and transitional arrangements that preserve the 50% discount for existing assets under certain conditions.",
+      "suggestion": "Add to fact-checks.json: claim is partially accurate, verdict is partially_true because the discount is being reformed/replaced for new acquisitions but existing assets may retain different treatment depending on timing and asset type.",
+      "source": "https://budget.gov.au/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260523-233",
+      "timestamp": "2026-05-23T05:33:50.727Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-10T23:21:50.017Z"
     }
   ],
   "skipped": [
@@ -6432,6 +6397,49 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-10T18:27:52.690Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases technical guidance on CGT cost base indexation calculations",
+      "description": "The ATO has published practical guidance for calculating capital gains under the new cost base indexation method ahead of the 1 July 2027 commencement date. The guidance explains how to apply the Consumer Price Index to adjust asset cost bases, distinguishing this from the previous capital gains tax discount approach.",
+      "suggestion": "Add to budget-updates.json: ATO releases technical guidance for CGT cost base indexation calculations ahead of July 2027",
+      "source": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-events-and-how-to-calculate-your-gain/loss-or-gain",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260610-619",
+      "timestamp": "2026-06-10T21:52:39.397Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-10T23:21:18.279Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Trust tax treatment reform confirmed as separate legislation from housing bill",
+      "description": "The Government has confirmed that trust tax treatment reform will be introduced as separate legislation from the Treasury Laws Amendment (More Housing, More Help) Bill 2026. Treasurer Jim Chalmers indicated the plan aims to shift the tax burden from income to assets, with changes to trust distributions to be detailed in a future bill.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform to be introduced as separate legislation from housing bill",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260610-436",
+      "timestamp": "2026-06-10T21:52:39.397Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-10T23:21:30.141Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Retirement investor CGT impact quantified: 8% effective rate under current rules versus 30% under proposed changes",
+      "description": "ASX analysis provides a concrete example showing a retired investor on a 16% marginal tax rate currently faces only 8% tax on nominal capital gains from long-held equity portfolios, as opposed to 30% on indexed gains under the announced reforms. This represents a 22 percentage point effective tax rate increase for low-rate retirees.",
+      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT reform impact on retirement investors — 8% vs 30% effective rate for long-held equity gains",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260610-819",
+      "timestamp": "2026-06-10T21:52:39.397Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-10T23:21:32.799Z"
     }
   ],
   "needs_manual_review": [

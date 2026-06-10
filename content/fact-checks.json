@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T12:50:53.440Z",
+  "lastUpdated": "2026-06-10T18:28:08.412Z",
   "claims": [
     {
       "id": "fc-001",
@@ -826,6 +826,24 @@
         {
           "name": "ATO - Better Targeted Super Concessions",
           "url": "https://www.ato.gov.au/Super/Super-and-tax/Super-concessions",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-10",
+      "category": "superannuation"
+    },
+    {
+      "id": "fc-043",
+      "slug": "division-296-3m-threshold-indexed",
+      "claim": "Division 296 super tax applies to balances over $3m",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The $3m threshold for Division 296 tax is an approximation. The ATO indicates this threshold is indexed annually and may adjust each financial year.",
+      "detailed_explanation": "Division 296 (Better Targeted Super Concessions) applies to superannuation balances exceeding the specified threshold. While commonly cited as $3m, the ATO indicates this threshold is indexed annually in line with inflation. The $3m figure represents the base threshold from when the tax was introduced, but it may be adjusted for future financial years. The exact threshold for 2026-27 and subsequent years should be verified against current ATO indexed figures rather than assuming a fixed $3m amount.",
+      "sources": [
+        {
+          "name": "Australian Taxation Office",
+          "url": "https://www.ato.gov.au/About-ATO/News-and-media/Media-releases/2026/Better-Targeted-Super-Concessions-is-law",
           "type": "official"
         }
       ],

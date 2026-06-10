@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T12:51:15.845Z",
+  "lastUpdated": "2026-06-10T18:27:39.252Z",
   "items": [
     {
       "id": "update-001",
@@ -1626,6 +1626,28 @@
       "summary": "The Australian Taxation Office has released practical guidance explaining how investors should calculate capital gains using the new cost base indexation method that will replace the 50% discount from 1 July 2027. The guidance helps asset holders determine their indexed cost base for tax purposes. Property investors should review the new calculations to ensure compliance before the changes take effect.",
       "url": "https://www.ato.gov.au/",
       "priority": "high"
+    },
+    {
+      "id": "update-162",
+      "date": "2026-06-08",
+      "tag": "ASX",
+      "source": "ASX",
+      "title": "ASX analysis quantifies CGT reform impact on retired investors: 8% vs 30% effective tax rate",
+      "summary": "ASX analysis reveals that a retired investor on a 16% marginal tax rate currently faces only 8% tax on nominal gains from long-held equity portfolios. Under the new CGT indexation rules, the same investor would face 30% tax on indexed gains—a 22 percentage point increase. This analysis highlights the significant impact on retirement investors holding long-term equity positions.",
+      "url": "https://www.asx.com.au/investors/",
+      "priority": "high",
+      "linkStatus": "broken-replaced",
+      "originalUrl": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors"
+    },
+    {
+      "id": "update-163",
+      "date": "2026-06-10",
+      "tag": "Property",
+      "source": "NAB",
+      "title": "NAB revises housing forecast: brief correction not prolonged slump expected after Budget tax reforms",
+      "summary": "Following the Budget's announcement of negative gearing restrictions and CGT changes, NAB has revised its housing forecast. The bank projects only a brief market correction rather than a prolonged slump, suggesting investor uncertainty may be temporary rather than indicating fundamental market weakness.",
+      "url": "https://www.nab.com.au/content/nab-path/personal/federal-budget-2026",
+      "priority": "medium"
     }
   ]
 }

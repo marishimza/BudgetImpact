@@ -2953,6 +2953,75 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-02T19:39:05.245Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ASX analysis: Investor on 16% marginal rate faces 8% vs 30% tax on gains under CGT reform",
+      "description": "Specific example showing impact on low-rate retirees: long-held equity portfolio currently taxed at 8% nominal rate versus 30% on indexed gains under new rules. Contrasts effective tax rates for different investor scenarios.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details specific tax rate comparison for retired investor scenario — 16% marginal rate faces 8% current tax on nominal gains versus 30% on indexed gains under proposed CGT changes",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260602-695",
+      "timestamp": "2026-06-02T22:17:05.060Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implemented_at": "2026-06-02T23:29:47.825Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Budget confirms trust tax treatment reform as core part of asset taxation shift",
+      "description": "Budget.gov.au explicitly lists trust tax changes alongside CGT and negative gearing as part of plan to 'rebalance the system, away from taxing incomes and more towards taxing assets'. More specific than earlier 'flagged' coverage.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform confirmed as core component of Budget 2026 tax reform package alongside CGT and negative gearing changes",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260602-572",
+      "timestamp": "2026-06-02T22:17:05.060Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-08/trust-reform-complicated-and-may-not-raise-much-money/106654470",
+      "implemented_at": "2026-06-02T23:30:13.910Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ABC Budget 2026: Winners and losers — $6.4 billion housing measure cost confirmed",
+      "description": "ABC analysis confirms official costing of $6.4 billion over four years for the negative gearing and CGT reform housing package. Details winners and losers from the budget measures.",
+      "suggestion": "Add to budget-updates.json: Budget housing measures cost $6.4 billion over four years — ABC analysis confirms official costing",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260602-872",
+      "timestamp": "2026-06-02T06:29:20.489Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-02T23:30:37.141Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Guardian analysis: CGT concession benefits concentrated among top 1% of income earners",
+      "description": "The Guardian's analysis reveals that more than half of the benefit of the CGT concession went to the top 1% of income earners, based on the most recent data. This is a key distributional finding that contextualises the rationale for reform.",
+      "suggestion": "Add to budget-updates.json: Add new item 'Guardian analysis shows CGT concession benefits concentrated among top 1% of income earners — data reveals distributional impact of current arrangements'",
+      "source": "https://www.theguardian.com/news/2026/may/13/australia-federal-budget-2026-tax-capital-gains-negative-gearing-housing-one-big-chart",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260602-897",
+      "timestamp": "2026-06-02T11:57:43.029Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-10/how-everyone-is-making-money-and-what-it-means-for-their-tax/106639592",
+      "implemented_at": "2026-06-02T23:30:54.420Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO confirms Division 296 tax details — 15% on earnings above threshold",
+      "description": "ATO official page confirms Better Targeted Super Concessions legislation is law. From 1 July 2026, individuals with total superannuation balance exceeding the lower술 threshold will face 15% tax on earnings relating to the portion exceeding the threshold. Official source confirming implementation timing.",
+      "suggestion": "Add to budget-updates.json: Add new item 'ATO confirms Division 296 (Better Targeted Super Concessions) is law — 15% tax applies from 1 July 2026 on earnings above threshold'",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260602-214",
+      "timestamp": "2026-06-02T11:57:43.029Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-06-02T23:31:08.080Z"
     }
   ]
 }

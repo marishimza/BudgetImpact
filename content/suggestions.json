@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T23:15:37.985Z",
+  "lastUpdated": "2026-06-10T06:16:05.695Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -4352,78 +4352,83 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ASX analysis: Investor on 16% marginal rate faces 8% vs 30% tax on gains under CGT reform",
-      "description": "Specific example showing impact on low-rate retirees: long-held equity portfolio currently taxed at 8% nominal rate versus 30% on indexed gains under new rules. Contrasts effective tax rates for different investor scenarios.",
-      "suggestion": "Add to budget-updates.json: ASX analysis details specific tax rate comparison for retired investor scenario — 16% marginal rate faces 8% current tax on nominal gains versus 30% on indexed gains under proposed CGT changes",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260602-695",
-      "timestamp": "2026-06-02T22:17:05.060Z",
-      "status": "implemented",
-      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
-      "implemented_at": "2026-06-02T23:29:47.825Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Budget confirms trust tax treatment reform as core part of asset taxation shift",
-      "description": "Budget.gov.au explicitly lists trust tax changes alongside CGT and negative gearing as part of plan to 'rebalance the system, away from taxing incomes and more towards taxing assets'. More specific than earlier 'flagged' coverage.",
-      "suggestion": "Add to budget-updates.json: Trust tax treatment reform confirmed as core component of Budget 2026 tax reform package alongside CGT and negative gearing changes",
-      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260602-572",
-      "timestamp": "2026-06-02T22:17:05.060Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-08/trust-reform-complicated-and-may-not-raise-much-money/106654470",
-      "implemented_at": "2026-06-02T23:30:13.910Z"
     },
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "ABC Budget 2026: Winners and losers — $6.4 billion housing measure cost confirmed",
-      "description": "ABC analysis confirms official costing of $6.4 billion over four years for the negative gearing and CGT reform housing package. Details winners and losers from the budget measures.",
-      "suggestion": "Add to budget-updates.json: Budget housing measures cost $6.4 billion over four years — ABC analysis confirms official costing",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The Australian Taxation Office has published practical guidance explaining how investors should calculate capital gains under the new inflation-based cost base indexation rules taking effect from 1 July 2027. The guidance covers step-by-step calculations for determining indexed cost bases and applies to assets acquired after 8:30pm on 12 May 2026.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027 — explains how to calculate indexed cost base for assets acquired after Budget Night",
+      "source": "https://www.ato.gov.au/general/new-legislation/in-detail/other-topics/cgt-indexation/",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260602-872",
-      "timestamp": "2026-06-02T06:29:20.489Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-02T23:30:37.141Z"
+      "id": "suggestion-20260610-536",
+      "timestamp": "2026-06-10T06:16:01.921Z",
+      "status": "pending"
     },
     {
       "type": "content_update",
       "priority": "high",
-      "title": "Guardian analysis: CGT concession benefits concentrated among top 1% of income earners",
-      "description": "The Guardian's analysis reveals that more than half of the benefit of the CGT concession went to the top 1% of income earners, based on the most recent data. This is a key distributional finding that contextualises the rationale for reform.",
-      "suggestion": "Add to budget-updates.json: Add new item 'Guardian analysis shows CGT concession benefits concentrated among top 1% of income earners — data reveals distributional impact of current arrangements'",
-      "source": "https://www.theguardian.com/news/2026/may/13/australia-federal-budget-2026-tax-capital-gains-negative-gearing-housing-one-big-chart",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "description": "The government has formally lodged the Treasury Laws Amendment (More Housing, More Help) Bill 2026, which contains the legislative framework for negative gearing restrictions and CGT discount changes. The Bill is currently before Parliament and subject to Senate review. Opposition has indicated intent to challenge the legislation.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament — contains negative gearing and CGT changes, currently subject to Senate consideration",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7127",
       "implementation_effort": "10_minutes",
-      "id": "suggestion-20260602-897",
-      "timestamp": "2026-06-02T11:57:43.029Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-10/how-everyone-is-making-money-and-what-it-means-for-their-tax/106639592",
-      "implemented_at": "2026-06-02T23:30:54.420Z"
+      "id": "suggestion-20260610-487",
+      "timestamp": "2026-06-10T06:16:01.921Z",
+      "status": "pending",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
     },
     {
       "type": "content_update",
       "priority": "high",
-      "title": "ATO confirms Division 296 tax details — 15% on earnings above threshold",
-      "description": "ATO official page confirms Better Targeted Super Concessions legislation is law. From 1 July 2026, individuals with total superannuation balance exceeding the lower술 threshold will face 15% tax on earnings relating to the portion exceeding the threshold. Official source confirming implementation timing.",
-      "suggestion": "Add to budget-updates.json: Add new item 'ATO confirms Division 296 (Better Targeted Super Concessions) is law — 15% tax applies from 1 July 2026 on earnings above threshold'",
+      "title": "Division 296: ATO confirms indexed thresholds for Better Targeted Super Concessions",
+      "description": "The ATO has confirmed the indexed thresholds and calculation methods for Division 296 (Better Targeted Super Concessions), which introduces a 15% tax on earnings relating to total superannuation balance above $3 million from 1 July 2026. The ATO has also released CGT relief provisions for SMSFs affected by the changes.",
+      "suggestion": "Add to budget-updates.json: Division 296: ATO confirms indexed thresholds for Better Targeted Super Concessions — 15% tax on earnings above $3m threshold applies from 1 July 2026 with CGT relief for SMSFs",
       "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260602-214",
-      "timestamp": "2026-06-02T11:57:43.029Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implemented_at": "2026-06-02T23:31:08.080Z"
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260610-728",
+      "timestamp": "2026-06-10T06:16:01.921Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
     },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim appears in fact-checks but may be oversimplified or inaccurate. The ASX analysis shows a retired investor on a 16% marginal rate currently pays 8% tax on nominal gains (16% × 50% discount), but would face 30% on indexed gains under new rules—meaning the old system produces a BETTER outcome for low-rate taxpayers. Treasury analysis also shows inflation accounts for 56% of ASX 200 gains over a decade, suggesting indexation benefits high-inflation periods but not universally.",
+      "suggestion": "Add to fact-checks.json: claim is 'inflation indexation always produces better outcome', verdict is disputed because for low marginal rate taxpayers (e.g., 16%), the 50% discount results in 8% effective tax versus potentially 30% minimum under new rules, making the old system more favorable in some cases.",
+      "source": "https://www.asx.com.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260610-542",
+      "timestamp": "2026-06-10T06:16:01.921Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Budget allocates $47.5 million for 'CGT reform implementation' (generic)",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The KPMG source specifies this $47.5 million over four years from 2026-27 is allocated specifically 'to the Treasury and the ATO' but doesn't clarify if this is solely for CGT implementation or broader tax administration. The exact purpose and departmental breakdown may be misrepresented in simplified media coverage.",
+      "suggestion": "Add to fact-checks.json: claim is '$47.5 million allocated for CGT implementation', verdict is partially_verified because while budget documents confirm this figure for Treasury and ATO over four years, the specific allocation between CGT reforms and other tax administration functions requires clarification from official budget papers.",
+      "source": "https://kpmg.com",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260610-832",
+      "timestamp": "2026-06-10T06:16:01.921Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260610-655",
+      "timestamp": "2026-06-10T06:16:01.921Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "high",

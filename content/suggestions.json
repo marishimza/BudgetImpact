@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T12:52:16.961Z",
+  "lastUpdated": "2026-06-10T16:55:08.519Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -4400,61 +4400,106 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasurer Jim Chalmers delivers Budget 2026–27 speech at Parliament House",
+      "description": "Chalmers describes the Budget as 'the most important and ambitious in decades', with the Budget officially tabled on 12 May 2026. The speech outlines the Government's approach to tax reform including CGT changes and negative gearing restrictions.",
+      "suggestion": "Add to budget-updates.json: Treasurer Jim Chalmers delivered the Federal Budget on 12 May 2026 at Parliament House, describing it as 'the most important and ambitious Budget in decades' due to global economic challenges.",
+      "source": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/2026-27-budget-speech-parliament-house-canberra",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260610-494",
+      "timestamp": "2026-06-10T16:55:01.644Z",
+      "status": "pending",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/2026-27-budget-speech-parliament-house-canberra"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis quantifies CGT reform impact on retired investors: 8% vs 30% effective tax rate",
+      "description": "Analysis shows a retired investor on a 16% marginal tax rate currently faces only 8% tax on nominal gains from long-held equity portfolios. Under the new CGT indexation rules, the same investor would face 30% tax on indexed gains—a 22 percentage point increase. This highlights the significant impact on retirement investors holding long-term equity positions.",
+      "suggestion": "Add to budget-updates.json: ASX analysis finds a retired investor on a 16% marginal rate faces 8% tax on nominal gains under current CGT rules versus 30% on indexed gains under new rules, representing a 22 percentage point increase for low-rate retirees.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260610-555",
+      "timestamp": "2026-06-10T16:55:01.644Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "NAB revises housing forecast: brief correction not prolonged slump expected after Budget tax reforms",
+      "description": "Following the Budget's announcement of negative gearing restrictions and CGT changes, NAB has revised its housing forecast. The bank projects only a brief market correction rather than a prolonged slump, suggesting investor uncertainty may be temporary rather than indicating fundamental market weakness.",
+      "suggestion": "Add to budget-updates.json: NAB revises housing forecast following Budget tax reforms, projecting a brief correction rather than a prolonged slump in property values.",
+      "source": "https://www.nab.com.au/content/nab-path/personal/federal-budget-2026",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260610-787",
+      "timestamp": "2026-06-10T16:55:01.644Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "When do negative gearing restrictions actually take effect?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Budget 2026-27 negative gearing reforms have a grandfathering cutoff date that sources describe differently. The government budget website states restrictions apply 'from 1 July 2027', but the policy also includes a '7:30pm on Budget Night' cutoff for established properties purchased before that time. Sources conflict on whether the effective date is Budget Night or the start of financial year.",
+      "suggestion": "Add to debates.json: Budget.gov.au says negative gearing will be limited to new builds 'from 1 July 2027', but the grandfathering provisions are triggered by the Budget Night (12 May 2026 7:30pm) announcement for properties already owned. Sources conflict on whether the 'effective date' for investor planning purposes is Budget Night or 1 July 2027.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260610-584",
+      "timestamp": "2026-06-10T16:55:01.644Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the Coalition's immigration cap a direct response to budget housing measures or separate policy?",
+      "description": "The Coalition has announced an immigration cap proposal alongside their opposition to the budget's negative gearing and CGT changes. Sources conflict on whether this represents a coordinated policy response to the housing crisis created by budget measures, or whether it is political positioning unrelated to the tax reforms.",
+      "suggestion": "Add to debates.json: The Guardian reports Coalition opposition leader labeled the changes 'toxic' and vows repeal, while separate reporting suggests the Coalition's immigration cap is a distinct policy platform. Sources conflict on whether these represent coordinated policy positions or separate political strategies.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260610-835",
+      "timestamp": "2026-06-10T16:55:01.644Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim appears in existing fact-checks, but the ASX analysis shows a retired investor on 16% marginal rate faces only 8% tax on nominal gains (16% × 50% discount) under current rules, versus potentially 30% on indexed gains under the new system. This contradicts the 'always better' framing and suggests indexation may not always produce better outcomes for low-rate taxpayers with long-held assets during high-inflation periods.",
+      "suggestion": "Add to fact-checks.json: claim is 'inflation indexation always produces a better CGT outcome', verdict is disputed because the ASX analysis shows low-rate investors may face higher effective tax rates under indexation (30%) than under the 50% discount (8% effective rate).",
+      "source": "https://www.asx.com.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260610-725",
+      "timestamp": "2026-06-10T16:55:01.644Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Negative gearing has been fully abolished/removed for all investors'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple fact-checks repeat this claim, but the williambuck.com source specifies the restrictions apply to 'established properties purchased after 7:30pm on 12 May 2026'. This implies NEW builds purchased before the cutoff may still retain negative gearing benefits. The claim of 'full abolition for all investors' may be oversimplified.",
+      "suggestion": "Add to fact-checks.json: claim is 'negative gearing fully abolished for all investors', verdict is partially_true because the restrictions apply to established properties purchased after Budget Night, but new builds may have different treatment.",
+      "source": "https://www.williambuck.com",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260610-103",
+      "timestamp": "2026-06-10T16:55:01.644Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260610-285",
+      "timestamp": "2026-06-10T16:55:01.644Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
     }
   ],
   "implemented": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Division 296 CGT relief provisions for SMSFs confirmed",
-      "description": "The ATO has released detailed guidance on CGT relief provisions available to SMSFs affected by Division 296 tax changes. This relief applies when SMSF members exceed the $3m total superannuation balance threshold and provides relief from double taxation scenarios. Details include indexed thresholds and specific conditions for claiming CGT relief.",
-      "suggestion": "Add to budget-updates.json: Division 296 CGT relief for SMSFs explained — ATO confirms indexed thresholds and conditions",
-      "source": "https://www.bdo.com.au/en-au/insights/superannuation/understanding-the-new-division-296-superannuation-tax-changes",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260602-193",
-      "timestamp": "2026-06-02T18:00:38.585Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-03T14:24:22.834Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Treasury analysis: Inflation accounted for 56% of ASX 200 share gains over decade",
-      "description": "ABC cites Treasury and ABS data showing inflation comprised majority of asset price growth, providing quantitative basis for indexation reform. Specific timeframe: 10 years to March 2026.",
-      "suggestion": "Add to budget-updates.json: Treasury analysis quantifies inflation impact on ASX 200 share gains — 56% of total returns over 10 years to March 2026",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260602-521",
-      "timestamp": "2026-06-02T22:17:05.060Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-03T14:27:50.523Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Budget documents confirm CGT reform will apply from 1 July 2027 with indexed cost base",
-      "description": "The official budget.gov.au tax reform page confirms the 50% CGT discount is being replaced with an inflation-indexed discount and a minimum 30% tax on capital gains, effective 1 July 2027. This is the authoritative source confirming the exact mechanism and timing.",
-      "suggestion": "Add to budget-updates.json: Budget.gov.au confirms the 50% CGT discount will be replaced by a discount based on inflation from 1 July 2027, with a minimum 30% tax applying to capital gains.",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260603-869",
-      "timestamp": "2026-06-03T12:30:24.993Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-03T14:28:32.094Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO confirms Division 296 Better Targeted Super Concessions is law with 15% tax from 1 July 2026",
-      "description": "The ATO has published confirmed details that Division 296 legislation is enacted and will apply from 1 July 2026, introducing a 15% tax on superannuation earnings relating to total superannuation balances exceeding the $3m low-balance superannuation threshold.",
-      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 (Better Targeted Super Concessions) is law — 15% tax applies from 1 July 2026 on earnings above the $3m threshold.",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260603-806",
-      "timestamp": "2026-06-03T12:30:24.993Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-03T14:28:43.564Z"
-    },
     {
       "type": "debate_page",
       "priority": "high",
@@ -5738,20 +5783,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis quantifies CGT impact on retiree investors under new rules",
-      "description": "ASX analysis provides specific example showing a retired investor on 16% marginal tax rate selling a long-held equity portfolio currently faces only 8% tax on nominal gains, versus the proposed 30% minimum tax on indexed gains under announced changes. This highlights the significant effective tax rate increase for lower-income retirees with substantial investment gains.",
-      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT impact on retiree investors. A retiree on 16% marginal rate faces 8% tax on nominal gains currently, rising to 30% on indexed gains under new rules.",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260603-420",
-      "timestamp": "2026-06-03T06:45:31.424Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-03T14:28:03.754Z"
-    },
     {
       "type": "content_update",
       "priority": "high",

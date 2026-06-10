@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T23:15:12.328Z",
+  "lastUpdated": "2026-06-10T08:05:03.947Z",
   "items": [
     {
       "id": "update-001",
@@ -1595,6 +1595,26 @@
       "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for different investor types",
       "summary": "ASX analysis details how the CGT reform package creates differentiated tax outcomes depending on investor type and asset class. The analysis quantifies the impact on ETF and Listed Investment Vehicle investors, showing how different investor cohorts face varying effective tax rates under the new rules.",
       "url": "https://www.asx.com.au/news",
+      "priority": "high"
+    },
+    {
+      "id": "update-159",
+      "date": "2026-06-10",
+      "tag": "Superannuation",
+      "source": "Australian Taxation Office",
+      "title": "Division 296: ATO confirms indexed thresholds for Better Targeted Super Concessions",
+      "summary": "The ATO has confirmed the indexed thresholds and calculation methods for Division 296 (Better Targeted Super Concessions), which introduces a 15% tax on earnings relating to total superannuation balance above $3 million from 1 July 2026. The ATO has also released CGT relief provisions for SMSFs affected by the changes. Taxpayers with super balances exceeding $3 million should review their positions ahead of the 1 July 2026 commencement date.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-160",
+      "date": "2026-06-10",
+      "tag": "Budget",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "summary": "The Australian Taxation Office has published practical guidance explaining how investors should calculate capital gains under the new inflation-based cost base indexation rules taking effect from 1 July 2027. The guidance provides step-by-step calculations for determining indexed cost bases and applies to assets acquired after 8:30pm on 12 May 2026 (Budget Night). Taxpayers holding affected assets should review the guidance to ensure accurate capital gains calculations when disposing of assets after the new rules commence.",
+      "url": "https://www.ato.gov.au/general/new-legislation/in-detail/other-topics/cgt-indexation/",
       "priority": "high"
     }
   ]

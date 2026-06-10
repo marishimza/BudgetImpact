@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T06:16:05.695Z",
+  "lastUpdated": "2026-06-10T08:07:10.125Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -658,18 +658,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Division 296 super tax applies to balances over $3m'",
-      "description": "Media frequently simplifies Division 296 as a 'tax on $3m+ super balances.' However, the ATO confirms the threshold is indexed and the $3m figure represents the Low Balance Superannuation Threshold (LSBT). The tax actually applies to 'earnings relating to your Total Superannuation Balance that exceeds the LSBT' at 15%. The indexed threshold for 2026-27 may differ from $3m, making the simplified 'over $3m' framing potentially misleading.",
-      "suggestion": "Add to fact-checks.json: claim is 'Division 296 applies to super balances over $3m', verdict is partially_true because the $3m threshold is indexed annually and the tax applies only to earnings on the amount exceeding the threshold, not the entire balance.",
-      "source": "https://www.ato.gov.au/news-site/better-targeted-super-concessions-is-law",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260522-845",
-      "timestamp": "2026-05-22T16:15:40.059Z",
-      "status": "pending"
-    },
-    {
       "id": "suggestion-20260522-746",
       "timestamp": "2026-05-22T16:15:40.059Z",
       "status": "pending",
@@ -680,18 +668,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Short-term property price impact: slump vs brief correction",
-      "description": "Credible sources offer conflicting predictions about the severity and nature of housing price movements following the 2026 Budget tax reforms. The Guardian reports economists believe 'home values are set for their first national slump since 2022,' while also noting 'Australia's persistent housing shortage means any fall would be short term.' Other sources suggest different assessments of whether this represents a significant slump or merely a brief correction, with implications for policy effectiveness and market intervention timing.",
-      "suggestion": "Add to debates.json: The Guardian reports economists project 'a national slump' for housing prices but call it 'short term.' Meanwhile CBA's housing outlook analysis suggests the changes are 'designed to reduce investor demand for existing housing stock' - implying measurable downward pressure. Other economic analyses may forecast different magnitudes and durations of price impacts.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260522-468",
-      "timestamp": "2026-05-22T21:03:45.810Z",
-      "status": "pending"
     },
     {
       "type": "debate_page",
@@ -4354,44 +4330,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
-      "description": "The Australian Taxation Office has published practical guidance explaining how investors should calculate capital gains under the new inflation-based cost base indexation rules taking effect from 1 July 2027. The guidance covers step-by-step calculations for determining indexed cost bases and applies to assets acquired after 8:30pm on 12 May 2026.",
-      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027 — explains how to calculate indexed cost base for assets acquired after Budget Night",
-      "source": "https://www.ato.gov.au/general/new-legislation/in-detail/other-topics/cgt-indexation/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260610-536",
-      "timestamp": "2026-06-10T06:16:01.921Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
-      "description": "The government has formally lodged the Treasury Laws Amendment (More Housing, More Help) Bill 2026, which contains the legislative framework for negative gearing restrictions and CGT discount changes. The Bill is currently before Parliament and subject to Senate review. Opposition has indicated intent to challenge the legislation.",
-      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament — contains negative gearing and CGT changes, currently subject to Senate consideration",
-      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7127",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260610-487",
-      "timestamp": "2026-06-10T06:16:01.921Z",
-      "status": "pending",
-      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Division 296: ATO confirms indexed thresholds for Better Targeted Super Concessions",
-      "description": "The ATO has confirmed the indexed thresholds and calculation methods for Division 296 (Better Targeted Super Concessions), which introduces a 15% tax on earnings relating to total superannuation balance above $3 million from 1 July 2026. The ATO has also released CGT relief provisions for SMSFs affected by the changes.",
-      "suggestion": "Add to budget-updates.json: Division 296: ATO confirms indexed thresholds for Better Targeted Super Concessions — 15% tax on earnings above $3m threshold applies from 1 July 2026 with CGT relief for SMSFs",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260610-728",
-      "timestamp": "2026-06-10T06:16:01.921Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
-    },
-    {
       "type": "fact_check",
       "priority": "medium",
       "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
@@ -5734,6 +5672,46 @@
       "timestamp": "2026-05-22T10:42:25.759Z",
       "status": "implemented",
       "implemented_at": "2026-06-09T23:15:24.163Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Division 296: ATO confirms indexed thresholds for Better Targeted Super Concessions",
+      "description": "The ATO has confirmed the indexed thresholds and calculation methods for Division 296 (Better Targeted Super Concessions), which introduces a 15% tax on earnings relating to total superannuation balance above $3 million from 1 July 2026. The ATO has also released CGT relief provisions for SMSFs affected by the changes.",
+      "suggestion": "Add to budget-updates.json: Division 296: ATO confirms indexed thresholds for Better Targeted Super Concessions — 15% tax on earnings above $3m threshold applies from 1 July 2026 with CGT relief for SMSFs",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260610-728",
+      "timestamp": "2026-06-10T06:16:01.921Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-06-10T08:04:16.964Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The Australian Taxation Office has published practical guidance explaining how investors should calculate capital gains under the new inflation-based cost base indexation rules taking effect from 1 July 2027. The guidance covers step-by-step calculations for determining indexed cost bases and applies to assets acquired after 8:30pm on 12 May 2026.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027 — explains how to calculate indexed cost base for assets acquired after Budget Night",
+      "source": "https://www.ato.gov.au/general/new-legislation/in-detail/other-topics/cgt-indexation/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260610-536",
+      "timestamp": "2026-06-10T06:16:01.921Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-10T08:05:03.950Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Short-term property price impact: slump vs brief correction",
+      "description": "Credible sources offer conflicting predictions about the severity and nature of housing price movements following the 2026 Budget tax reforms. The Guardian reports economists believe 'home values are set for their first national slump since 2022,' while also noting 'Australia's persistent housing shortage means any fall would be short term.' Other sources suggest different assessments of whether this represents a significant slump or merely a brief correction, with implications for policy effectiveness and market intervention timing.",
+      "suggestion": "Add to debates.json: The Guardian reports economists project 'a national slump' for housing prices but call it 'short term.' Meanwhile CBA's housing outlook analysis suggests the changes are 'designed to reduce investor demand for existing housing stock' - implying measurable downward pressure. Other economic analyses may forecast different magnitudes and durations of price impacts.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260522-468",
+      "timestamp": "2026-05-22T21:03:45.810Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-10T08:07:10.125Z"
     }
   ],
   "skipped": [
@@ -6265,6 +6243,35 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-09T23:15:37.985Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "description": "The government has formally lodged the Treasury Laws Amendment (More Housing, More Help) Bill 2026, which contains the legislative framework for negative gearing restrictions and CGT discount changes. The Bill is currently before Parliament and subject to Senate review. Opposition has indicated intent to challenge the legislation.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament — contains negative gearing and CGT changes, currently subject to Senate consideration",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7127",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260610-487",
+      "timestamp": "2026-06-10T06:16:01.921Z",
+      "status": "skipped",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-10T08:05:07.379Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 super tax applies to balances over $3m'",
+      "description": "Media frequently simplifies Division 296 as a 'tax on $3m+ super balances.' However, the ATO confirms the threshold is indexed and the $3m figure represents the Low Balance Superannuation Threshold (LSBT). The tax actually applies to 'earnings relating to your Total Superannuation Balance that exceeds the LSBT' at 15%. The indexed threshold for 2026-27 may differ from $3m, making the simplified 'over $3m' framing potentially misleading.",
+      "suggestion": "Add to fact-checks.json: claim is 'Division 296 applies to super balances over $3m', verdict is partially_true because the $3m threshold is indexed annually and the tax applies only to earnings on the amount exceeding the threshold, not the entire balance.",
+      "source": "https://www.ato.gov.au/news-site/better-targeted-super-concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260522-845",
+      "timestamp": "2026-05-22T16:15:40.059Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-10T08:06:11.943Z"
     }
   ],
   "needs_manual_review": [

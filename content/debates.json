@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T17:57:56.305Z",
+  "lastUpdated": "2026-06-10T08:07:10.122Z",
   "debates": [
     {
       "id": "debate-001",
@@ -780,6 +780,30 @@
             "url": "https://www.lsj.com.au/negative-gearing-cgt-reform-corrects-policy-causes-housing-crisis",
             "note": "Link unavailable - source content referenced in reporting"
           }
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-033",
+      "slug": "property-price-impact-projection-disagreement",
+      "title": "Short-term property price impact: slump vs brief correction",
+      "category": "housing_and_property",
+      "type": "projection_disagreement",
+      "summary": "Credible sources offer conflicting predictions about the severity and nature of housing price movements following the 2026 Budget tax reforms. Some economists project a significant national slump, while others argue supply constraints will limit the duration of any price correction.",
+      "view_a": {
+        "label": "Significant but temporary slump",
+        "argument": "Economists project a national housing slump following tax reform changes targeting negative gearing and capital gains tax. These reforms are designed to reduce investor demand for existing housing stock, creating measurable downward pressure on prices. This represents the first national slump since 2022, with economists predicting meaningful short-term declines in home values.",
+        "sources": [
+          "CBA housing outlook analysis",
+          "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+        ]
+      },
+      "view_b": {
+        "label": "Brief correction with limited downside",
+        "argument": "Australia's persistent housing shortage means any fall in property values would be short term. Supply constraints fundamentally limit how far prices can decline, and underlying demand remains structurally strong given population growth and ongoing supply deficits. Economic analyses suggest the correction will be brief and shallow, with prices stabilising quickly as supply-demand dynamics reassert themselves.",
+        "sources": [
+          "CBA housing outlook analysis"
         ]
       },
       "verdict": null

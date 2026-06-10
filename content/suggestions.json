@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T18:28:08.415Z",
+  "lastUpdated": "2026-06-10T21:52:44.888Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -4428,6 +4428,91 @@
     {
       "id": "suggestion-20260610-285",
       "timestamp": "2026-06-10T16:55:01.644Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases technical guidance on CGT cost base indexation calculations",
+      "description": "The ATO has published practical guidance for calculating capital gains under the new cost base indexation method ahead of the 1 July 2027 commencement date. The guidance explains how to apply the Consumer Price Index to adjust asset cost bases, distinguishing this from the previous capital gains tax discount approach.",
+      "suggestion": "Add to budget-updates.json: ATO releases technical guidance for CGT cost base indexation calculations ahead of July 2027",
+      "source": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-events-and-how-to-calculate-your-gain/loss-or-gain",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260610-619",
+      "timestamp": "2026-06-10T21:52:39.397Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Trust tax treatment reform confirmed as separate legislation from housing bill",
+      "description": "The Government has confirmed that trust tax treatment reform will be introduced as separate legislation from the Treasury Laws Amendment (More Housing, More Help) Bill 2026. Treasurer Jim Chalmers indicated the plan aims to shift the tax burden from income to assets, with changes to trust distributions to be detailed in a future bill.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform to be introduced as separate legislation from housing bill",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260610-436",
+      "timestamp": "2026-06-10T21:52:39.397Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Retirement investor CGT impact quantified: 8% effective rate under current rules versus 30% under proposed changes",
+      "description": "ASX analysis provides a concrete example showing a retired investor on a 16% marginal tax rate currently faces only 8% tax on nominal capital gains from long-held equity portfolios, as opposed to 30% on indexed gains under the announced reforms. This represents a 22 percentage point effective tax rate increase for low-rate retirees.",
+      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT reform impact on retirement investors — 8% vs 30% effective rate for long-held equity gains",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260610-819",
+      "timestamp": "2026-06-10T21:52:39.397Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the Coalition's immigration cap proposal a direct response to budget housing measures or separate policy?",
+      "description": "The Coalition has announced an immigration cap alongside opposing the budget's negative gearing and CGT changes. The question is whether this represents a coordinated housing affordability response or a separate policy position being leveraged politically.",
+      "suggestion": "Add to debates.json: Coalition (Angus Taylor via Guardian/ABC) says immigration cap directly addresses housing pressure from budget measures; contrasting view (Johnsons MME) positions Coalition tax policy as 'status quo' separate from immigration policy, suggesting disconnected rather than coordinated approach.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260610-736",
+      "timestamp": "2026-06-10T21:52:39.397Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This specific statistic appears multiple times in the pending suggestions as 'Treasury analysis' but the source is unclear. Multiple sources cite this figure but it may be from ATO data, Treasury modelling, or an industry analysis rather than official government Treasury. The claim attributes the statistic to Treasury but the actual source needs verification.",
+      "suggestion": "Add to fact-checks.json: claim is a specific statistic about inflation's share of ASX 200 gains, verdict is unclear because the exact source (Treasury vs ATO vs industry analysis) is not consistently attributed across sources.",
+      "source": "https://www.asx.com.au",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260610-139",
+      "timestamp": "2026-06-10T21:52:39.397Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: The 50% CGT discount is being replaced by 'inflation indexation' with no choice for taxpayers",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources use different terminology - 'inflation indexation' (stockspot.com.au, budget.gov.au) versus 'cost base indexation' (perpetual.com.au, NAB analysis cited in pending suggestions). These may be the same mechanism described differently, or could represent different calculation methods. The phrasing 'with no choice for taxpayers' is definitive but the actual policy may allow some flexibility.",
+      "suggestion": "Add to fact-checks.json: claim is that indexation method is fixed with no taxpayer choice, verdict is disputed because terminology varies between 'inflation indexation' and 'cost base indexation' across official and industry sources.",
+      "source": "https://www.perpetual.com.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260610-459",
+      "timestamp": "2026-06-10T21:52:39.397Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260610-507",
+      "timestamp": "2026-06-10T21:52:39.397Z",
       "status": "pending",
       "priority": "medium",
       "type": "timeline_update",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T08:41:17.107Z",
+  "lastUpdated": "2026-06-11T13:56:15.608Z",
   "debates": [
     {
       "id": "debate-001",
@@ -872,6 +872,94 @@
           "Budget.gov.au: Confirms changes take effect from 1 July 2027",
           "Budget.gov.au: Investors in new builds able to choose between 50% CGT discount or new arrangements"
         ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-037",
+      "slug": "2026-budget-tax-reforms-housing-market-slump-correction",
+      "title": "Will 2026 budget tax reforms cause a prolonged housing market slump or a brief correction?",
+      "category": "housing-economy",
+      "type": "projection_disagreement",
+      "summary": "Economists offer conflicting forecasts on whether the 2026 budget tax reforms will trigger a prolonged national housing market slump or a brief correction, with views divided on market depth and duration.",
+      "view_a": {
+        "label": "Prolonged Slump Forecast",
+        "argument": "Economists believe home values are set for their first national slump since 2022, with tax reforms expected to weigh heavily on property prices.",
+        "sources": [
+          "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax"
+        ]
+      },
+      "view_b": {
+        "label": "Brief Correction Forecast",
+        "argument": "Australia's persistent housing shortage means any fall in property prices would be short term, with underlying demand-supply dynamics limiting the depth of any correction.",
+        "sources": [
+          "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-038",
+      "slug": "will-restricting-negative-gearing-reduce-or-maintain-rental-supply",
+      "title": "Will restricting negative gearing reduce or maintain rental supply?",
+      "category": "housing",
+      "type": "factual_dispute",
+      "summary": "A factual dispute about whether restricting negative gearing will reduce rental supply, with property industry groups arguing it would decrease supply by making investment less attractive, while community groups argue negative gearing has historically added little to rental supply.",
+      "view_a": {
+        "label": "Property Industry Groups",
+        "argument": "REIA and Property Council argue that restricting negative gearing could reduce rental supply over time by making property investment less attractive to investors.",
+        "sources": [
+          "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors"
+        ]
+      },
+      "view_b": {
+        "label": "Community Groups",
+        "argument": "ACOSS policy director Jacqueline Phillips argues that negative gearing has added little to rental supply historically, suggesting the reforms won't meaningfully reduce available rentals.",
+        "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-039",
+      "slug": "will-restricting-negative-gearing-reduce-or-increase-rental-supply",
+      "title": "Will restricting negative gearing reduce or increase rental supply?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "A factual disagreement about whether restricting negative gearing will improve or worsen rental availability in Australia.",
+      "view_a": {
+        "label": "Property Industry (REIA/Property Council)",
+        "argument": "Property industry groups warn that reducing the attractiveness of residential property investment could reduce rental supply over time. Investors may exit the market or reduce their investment activity, leading to fewer rental properties available.",
+        "sources": [
+          "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors"
+        ]
+      },
+      "view_b": {
+        "label": "ACOSS/Government",
+        "argument": "Housing advocates and the government claim that negative gearing added little to rental supply historically, and the policy changes are designed to increase supply by focusing support on new builds rather than existing properties.",
+        "sources": [
+          "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-040",
+      "slug": "cgt-discount-replaced-eliminated-preserved-choice",
+      "title": "Is the CGT discount being replaced, eliminated, or preserved with a choice?",
+      "category": "tax",
+      "type": "factual_dispute",
+      "summary": "Government budget documents state investors in new builds can 'choose' between the 50% CGT discount or new arrangements. However, multiple media outlets report the policy as replacing or eliminating the discount for established properties. This creates a factual conflict about what the policy actually does.",
+      "view_a": {
+        "label": "Government interpretation – preservation with choice",
+        "argument": "The official Budget website states investors in new builds will be able to 'choose' between the 50 per cent CGT discount or the new arrangements, implying the existing discount is preserved alongside new alternatives rather than being removed.",
+        "sources": [
+          "https://budget.gov.au/content/04-tax-reform.htm"
+        ]
+      },
+      "view_b": {
+        "label": "Media interpretation – replacement or elimination",
+        "argument": "Multiple media reports describe the changes as restrictions that effectively 'break promise' and replace or eliminate the CGT discount for established properties, rather than preserving it with a choice.",
+        "sources": []
       },
       "verdict": null
     }

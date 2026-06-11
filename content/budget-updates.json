@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T08:40:10.649Z",
+  "lastUpdated": "2026-06-11T13:55:11.303Z",
   "items": [
     {
       "id": "update-001",
@@ -1683,6 +1683,16 @@
       "title": "ATO Confirms Better Targeted Super Concessions is Law",
       "summary": "The ATO has confirmed Division 296 (Better Targeted Super Concessions) legislation is now enacted. From 1 July 2026, individuals with total superannuation balances exceeding $3 million will be subject to 15% tax on earnings relating to the portion above the threshold. This measure affects high-balance superannuation accounts and requires affected individuals to understand their reporting obligations.",
       "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-167",
+      "date": "2026-06-11",
+      "tag": "Superannuation",
+      "source": "Heffron",
+      "title": "Division 296 CGT relief provisions confirmed for SMSFs in draft legislation",
+      "summary": "Treasury has released draft legislation for Division 296 tax that includes CGT relief provisions specifically for SMSFs affected by the high-balance superannuation tax. The ATO has confirmed indexed thresholds and CGT relief details, indicating the legislation is progressing through the parliamentary process. SMSF trustees with balances exceeding $3 million should review the draft provisions to understand the tax treatment of CGT events triggered by the new division.",
+      "url": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
       "priority": "high"
     }
   ]

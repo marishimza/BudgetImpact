@@ -3157,6 +3157,77 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-03T14:28:03.754Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "Does CGT minimum 30% floor apply to all gains or only gains above inflation?",
+      "description": "There is conflicting information about whether the new 30% minimum tax rate on capital gains applies to all nominal gains, or only to gains above inflation (with indexation adjusting the cost base). This is a critical distinction that determines whether long-held assets face significantly higher taxes.",
+      "suggestion": "Add to debates.json: Budget.gov.au and Baker McKenzie describe the CGT changes and minimum tax floor, but multiple sources make conflicting claims about whether the 30% minimum applies to all nominal gains or only gains above inflation. The ABC mentions 'minimum 30% tax rate' while other sources describe it as applying to inflation-adjusted gains.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260603-218",
+      "timestamp": "2026-06-03T22:23:29.706Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implemented_at": "2026-06-03T23:29:05.040Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million",
+      "description": "This claim appears frequently across sources but is technically inaccurate. The 15% rate applies only to the earnings portion attributable to the total superannuation balance (TSB) that exceeds the Low Balance Super Threshold (LSBT), not on the entire balance over $3m. For 2026-27, the LSBT is $1.9 million. A balance of exactly $3m would only be taxed on the portion of earnings attributable to the $1.1m excess, not the full $3m.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is partially_true because Division 296 applies 15% only to earnings relating to the TSB above the LSBT (~$1.9m), not the entire amount exceeding $3m.",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260603-158",
+      "timestamp": "2026-06-03T22:23:29.706Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-06-03T23:29:31.066Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "SMSFs retain one-third CGT discount under new rules — confirmed",
+      "description": "Self-managed superannuation funds with property assets will retain a one-third CGT discount under the new CGT regime from 1 July 2027, distinguishing them from standard individual investors who face indexation-based calculation changes.",
+      "suggestion": "Add to budget-updates.json: SMSFs confirmed exempt — retain one-third CGT discount under new indexation-based rules while other investors transition from 50% discount to inflation-adjusted cost base",
+      "source": "https://www.bdo.com.au/en-au/insights/superannuation/understanding-the-new-division-296-superannuation-tax-changes",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260603-854",
+      "timestamp": "2026-06-03T18:17:27.522Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-03T23:29:48.783Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Trust tax treatment reform confirmed as core component of asset taxation shift",
+      "description": "The Budget confirms the Government will reform tax treatment of trusts, signalling a deliberate shift from taxing income to taxing assets. The reform is part of a broader package including CGT and negative gearing changes.",
+      "suggestion": "Add to budget-updates.json: Budget confirms trust tax treatment reform as core part of asset taxation shift — Government signals plan to shift burden from income to assets alongside CGT and negative gearing changes",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260603-120",
+      "timestamp": "2026-06-03T18:17:27.522Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-08/trust-reform-complicated-and-may-not-raise-much-money/106654470",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-03T23:28:55.559Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "Will the $2B infrastructure initiative deliver 65,000 homes as projected?",
+      "description": "The government claims $2 billion in infrastructure spending will enable 65,000 additional homes. The REIA calls this 'positive and necessary.' However, there is no independent verification of this 65,000 figure from the budget documents themselves, raising questions about whether this projection is credible or just aspirational.",
+      "suggestion": "Add to debates.json: Budget.gov.au and API Magazine/REIA cite the government's claim that $2B infrastructure will enable 'around 65,000 additional homes.' However, this projection appears to come from government claims rather than independent analysis, and credible sources have not confirmed this figure is achievable or that the causal link is established.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260603-168",
+      "timestamp": "2026-06-03T22:23:29.706Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.afr.com/politics/federal/labor-to-spend-2b-on-boring-work-to-unlock-65-000-new-homes-20260509-p5zvbz",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-03T23:29:11.291Z"
     }
   ]
 }

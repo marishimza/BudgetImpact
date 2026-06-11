@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T23:21:40.876Z",
+  "lastUpdated": "2026-06-11T08:41:17.107Z",
   "debates": [
     {
       "id": "debate-001",
@@ -846,6 +846,31 @@
         "argument": "The Government and mainstream budget analysis frame negative gearing reform and capital gains tax limitations as the primary supply-side housing solution. Budget.gov.au and other authoritative sources indicate these tax arrangements—rather than immigration levels—are the key policy lever for addressing housing supply and affordability, with tax reform targeted at property investor behaviour rather than population growth.",
         "sources": [
           "https://www.budget.gov.au"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-036",
+      "slug": "coalition-repeal-negative-gearing-cgt-investor-uncertainty",
+      "title": "Will the Coalition's pledge to repeal negative gearing and CGT changes affect investor behaviour and property market stability?",
+      "category": "tax_policy",
+      "type": "factual_dispute",
+      "summary": "The Coalition has vowed to repeal the negative gearing and CGT discount changes if elected, labelling them 'toxic', creating uncertainty about whether investors are rushing to purchase properties before July 2027 to lock in current tax benefits, or whether market actors are pricing in permanent reform regardless of political opposition.",
+      "view_a": {
+        "label": "Policy uncertainty driving investor rush",
+        "argument": "The Coalition's explicit pledge to repeal the negative gearing and CGT changes creates genuine policy uncertainty that is prompting investors to act now. Shadow Treasurer Tim Wilson's commitment to 'look to repeal the changes' and Leader Angus Taylor's characterisation of the reforms as 'toxic' signals a real possibility of policy reversal if the government changes. Rational investors would seek to lock in existing tax benefits before the 1 July 2027 implementation date, particularly for established properties where the 50% CGT discount will be lost.",
+        "sources": [
+          "ABC News: Coalition 'vows to fight' and 'will look to repeal the changes if necessary' (May 13, 2026)",
+          "ABC News: Leader Angus Taylor labelled the reforms 'toxic'"
+        ]
+      },
+      "view_b": {
+        "label": "Market pricing in permanent reform",
+        "argument": "Despite political opposition, the policy changes are proceeding as legislated and market participants understand this. The reforms take effect from 1 July 2027 as confirmed by Budget.gov.au, and investors in new builds retain the option of choosing between the 50% CGT discount or the new arrangements. Professional investors and markets generally price in durable policy changes and do not make significant portfolio decisions based on opposition party pledges that may not result in actual legislation.",
+        "sources": [
+          "Budget.gov.au: Confirms changes take effect from 1 July 2027",
+          "Budget.gov.au: Investors in new builds able to choose between 50% CGT discount or new arrangements"
         ]
       },
       "verdict": null

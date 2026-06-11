@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T18:27:39.252Z",
+  "lastUpdated": "2026-06-11T08:40:10.649Z",
   "items": [
     {
       "id": "update-001",
@@ -1648,6 +1648,42 @@
       "summary": "Following the Budget's announcement of negative gearing restrictions and CGT changes, NAB has revised its housing forecast. The bank projects only a brief market correction rather than a prolonged slump, suggesting investor uncertainty may be temporary rather than indicating fundamental market weakness.",
       "url": "https://www.nab.com.au/content/nab-path/personal/federal-budget-2026",
       "priority": "medium"
+    },
+    {
+      "id": "update-164",
+      "date": "2026-06-11",
+      "tag": [
+        "ASX",
+        "Budget"
+      ],
+      "source": "ASX",
+      "title": "ASX analysis quantifies CGT reform impact on retirement investors",
+      "summary": "ASX analysis reveals that retired investors on a 16% marginal tax rate currently face just 8% tax on nominal capital gains from long-held equities. Under the proposed CGT regime, these investors would face 30% on indexed gains, representing a 22 percentage point effective rate increase. This significant change could substantially affect retirement investment strategies for those relying on equity investments.",
+      "url": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "priority": "high"
+    },
+    {
+      "id": "update-165",
+      "date": "2026-05-12",
+      "tag": [
+        "Property",
+        "ASX"
+      ],
+      "source": "ABC News",
+      "title": "ABC News: CGT changes could drive investment shift from property to shares",
+      "summary": "ABC News analysis examines how the replacement of the 50% CGT discount with inflation indexation and new negative gearing restrictions may redirect investor behaviour from residential property to Australian shares. Treasury data cited shows inflation accounted for 56% of ASX 200 share gains over the decade to March 2026.",
+      "url": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "priority": "high"
+    },
+    {
+      "id": "update-166",
+      "date": "2026-06-11",
+      "tag": "Superannuation",
+      "source": "Australian Taxation Office",
+      "title": "ATO Confirms Better Targeted Super Concessions is Law",
+      "summary": "The ATO has confirmed Division 296 (Better Targeted Super Concessions) legislation is now enacted. From 1 July 2026, individuals with total superannuation balances exceeding $3 million will be subject to 15% tax on earnings relating to the portion above the threshold. This measure affects high-balance superannuation accounts and requires affected individuals to understand their reporting obligations.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
     }
   ]
 }

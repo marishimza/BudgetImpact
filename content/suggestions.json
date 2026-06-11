@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T13:56:15.610Z",
+  "lastUpdated": "2026-06-11T17:34:11.788Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -4508,62 +4508,106 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Cross-party support: Coalition and Greens aligned on parliamentary committee endorsement of CGT discount changes",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] PM press conference confirms Liberals and Greens voted together to endorse CGT discount changes in parliamentary committee on 17 March 2026, unusual political alignment on tax reform.",
+      "suggestion": "Add to budget-updates.json: Cross-party support confirmed as PM explicitly acknowledges Liberals and Greens voting together to endorse CGT discount changes via parliamentary committee process, creating unusual political alignment on tax reform.",
+      "source": "https://www.pm.gov.au/media/press-conference-parliament-house-canberra-25-may-2026",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260611-358",
+      "timestamp": "2026-06-11T17:34:04.231Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-26/labor-consults-on-cgt-carve-outs-as-businesses-call-for-reset/106720056"
+    },
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "ASX analysis quantifies retirement investor tax increase under CGT reforms",
-      "description": "ASX analysis provides concrete numerical example: a retired investor on a 16% marginal rate currently faces just 8% tax on nominal capital gains, but would face 30% on inflation-indexed gains under the proposed system — a 22 percentage point increase.",
-      "suggestion": "Add to budget-updates.json: ASX analysis: retired investor on 16% marginal rate faces tax rate increase from 8% to 30% on capital gains under new indexed CGT system",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260604-845",
-      "timestamp": "2026-06-04T06:30:05.088Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-04T12:41:16.946Z"
+      "title": "Trust tax treatment reform details confirmed: Government signals strategic shift from income to asset taxation",
+      "description": "Multiple sources confirm Government is proceeding with trust tax treatment reform as part of broader strategy to shift tax burden from income to assets, announced alongside CGT and negative gearing changes.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform confirmed as core component of Government's plan to rebalance taxation system, with Treasurer explicitly stating shift away from taxing incomes toward taxing assets.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260611-353",
+      "timestamp": "2026-06-11T17:34:04.231Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Budget allocates $47.5 million over four years for CGT and negative gearing reform implementation",
+      "description": "KPMG confirms official budget funding allocation for Treasury and ATO to implement CGT and negative gearing reforms, with $3.9 million per year ongoing after the initial four-year period.",
+      "suggestion": "Add to budget-updates.json: Budget confirms $47.5 million over four years from 2026-27 (and $3.9 million per year ongoing) allocated to Treasury and ATO for implementation of CGT discount and negative gearing changes.",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260611-508",
+      "timestamp": "2026-06-11T17:34:04.231Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the Coalition's pledge to repeal negative gearing and CGT changes affect investor behaviour and property market stability?",
+      "description": "The Coalition has committed to repealing the budget's negative gearing and CGT changes, calling them 'toxic'. This creates uncertainty for property investors about the future tax treatment of their investments. Debate exists over whether the Coalition's political opposition will cause investors to pause purchasing decisions, sell properties before reforms take effect, or maintain confidence expecting repeal if they win government.",
+      "suggestion": "Add to debates.json: view_a from The Guardian (Coalition's Tim Wilson) says the changes are 'toxic' and 'we'll repeal these measures if necessary', suggesting significant investor uncertainty. view_b from Johnsons MME analysis notes 'status quo investments encouraged by returning tax settings to current conditions' under Coalition policy, implying investor confidence may be preserved by the repeal pledge.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260611-508",
+      "timestamp": "2026-06-11T17:34:04.231Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Are Labor's negative gearing and CGT changes a 'broken promise' or legitimate policy evolution?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The ABC characterises the budget changes as the government 'breaking promise' on negative gearing and CGT, calculating that popularity of curbing these arrangements 'will be worth the damage to trust'. The government budget documents present the same changes as standard tax reform. The Coalition calls them 'toxic'. The REIA calls them 'positive and necessary'. Debate exists over whether previous commitments create a legitimate expectation that was breached, or whether democratic governments can evolve policy based on changing circumstances.",
+      "suggestion": "Add to debates.json: view_a from ABC News (12 May 2026) says 'Government breaks promise with restrictions to negative gearing' and calculated the damage to trust 'will be worth' the popularity benefit. view_b from REIA President Jacob Caine calls the changes 'positive and necessary steps toward addressing Australia's housing shortage'.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260611-722",
+      "timestamp": "2026-06-11T17:34:04.231Z",
+      "status": "pending"
     },
     {
       "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: CGT discount 'replaced' by inflation indexation with no choice for taxpayers",
-      "description": "Multiple sources state the 50% CGT discount is being 'replaced' by inflation indexation. However, stockspot.com.au adds 'largely' when describing this replacement, suggesting there may be nuances or choices available. The official budget.gov.au states it will 'replace' the discount with 'a discount based on inflation' but doesn't clarify if this is mandatory for all asset types or if some choice remains. This could be oversimplified.",
-      "suggestion": "Add to fact-checks.json: The 50% CGT discount is being replaced by inflation indexation — verdict is PARTIALLY TRUE because while the discount is being replaced, the implementation details may allow choices in some scenarios. Needs verification of whether all taxpayers must use indexation or can opt for other treatment.",
-      "source": "https://www.budget.gov.au/budget-2026-27/tax-reform, https://www.stockspot.com.au/cgt-calculator-australia-2026/",
+      "priority": "medium",
+      "title": "Claim: The 50% CGT discount is being replaced by 'inflation indexation'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Perpetual.com.au source says 'replace the current 50% CGT discount with a new cost base indexation, much like the method used between 1985 and 1999.' However, budget.gov.au says 'a discount based on inflation' and stockspot.com.au says 'an inflation indexation' approach. 'Cost base indexation' and 'inflation indexation' are technically different mechanisms - cost base indexation uses CPI at the time of sale, while inflation-based discount may work differently. This distinction could significantly affect how investors calculate their tax.",
+      "suggestion": "Add to fact-checks.json: claim is 'replaced by inflation indexation', verdict is partially_true because official sources conflict on whether the mechanism is 'cost base indexation' (Perpetual) or 'inflation-based discount' (Budget.gov.au) - these are different tax calculation methods that could produce different outcomes",
+      "source": "https://www.perpetual.com.au/insights/2026-federal-budget-the-housing-tax-shake-up vs https://www.budget.gov.au/content/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260611-587",
+      "timestamp": "2026-06-11T17:34:04.231Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "The ASX.com.au analysis states a retired investor on 16% marginal rate 'faces 8% tax on nominal gains' versus '30% on indexed gains' - implying the 30% applies to indexed/inflation-adjusted gains, not necessarily ALL nominal gains. The budget.gov.au states 'introduce a minimum 30% per cent tax on gains' but it's unclear if this 30% floor applies to the full nominal gain or only to the indexed gain. If indexation reduces the taxable gain, the effective rate on nominal gains could be lower than 30%. The distinction between 'minimum 30% on all gains' vs 'minimum 30% on indexed gains above inflation' is significant.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax on ALL gains', verdict is unclear because ASX analysis suggests 30% applies to 'indexed gains' not nominal gains - the actual application of the 30% floor needs clarification from legislation",
+      "source": "https://www.asx.com.au/content/dam/asx/investors/cgt-analysis.pdf vs https://www.budget.gov.au/content/tax-reform",
       "implementation_effort": "45_minutes",
-      "id": "suggestion-20260604-156",
-      "timestamp": "2026-06-04T06:30:05.088Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-discount",
-      "implemented_at": "2026-06-04T12:42:07.472Z"
+      "id": "suggestion-20260611-913",
+      "timestamp": "2026-06-11T17:34:04.231Z",
+      "status": "pending"
     },
     {
-      "type": "content_update",
+      "id": "suggestion-20260611-550",
+      "timestamp": "2026-06-11T17:34:04.232Z",
+      "status": "pending",
       "priority": "medium",
-      "title": "ASX analysis: CGT reform creates 22 percentage point tax increase for low-rate retirees",
-      "description": "Analysis showing a retired investor on a 16% marginal tax rate faces an effective tax rate increase from 8% to 30% on long-held equity gains under the new CGT rules. This concrete example illustrates the significant impact of the minimum 30% tax floor on low-rate taxpayers.",
-      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT impact difference: retired investor on 16% rate faces 8% vs 30% effective tax rate on long-held equity gains under new rules",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260604-621",
-      "timestamp": "2026-06-04T10:55:08.650Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-04T12:42:24.333Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASA calls for capital gains averaging alongside indexation to address income bunching",
-      "description": "The Australian Shareholders Association is calling for a capital gains averaging mechanism to be introduced alongside the inflation indexation reform. ASA argues that the current reform does not address 'income bunching' where many years of gains are realised in a single tax year, and that proper consultation should have occurred before major changes were announced.",
-      "suggestion": "Add to budget-updates.json: Australian Shareholders Association calls for capital gains averaging mechanism alongside indexation reform to address income bunching concern",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260604-730",
-      "timestamp": "2026-06-04T10:55:08.650Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-04T12:42:49.416Z"
-    },
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "high",
@@ -5867,20 +5911,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
-      "description": "Treasury modelling and budget analysis shows inflation comprised 56% of asset price growth for ASX 200 shares held for 10 years to March 2026, providing the quantitative basis for the indexation approach to CGT reform.",
-      "suggestion": "Add to budget-updates.json: Treasury analysis: inflation accounted for 56% of ASX 200 share gains over decade, informing cost base indexation approach to CGT reform",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260604-269",
-      "timestamp": "2026-06-04T06:30:05.088Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-04T12:41:33.120Z"
-    },
     {
       "type": "content_update",
       "priority": "high",

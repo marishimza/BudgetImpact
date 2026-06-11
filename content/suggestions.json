@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T17:34:11.788Z",
+  "lastUpdated": "2026-06-11T18:45:18.399Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -826,18 +826,6 @@
       "status": "pending"
     },
     {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Division 296 super tax applies a 15% tax on all super balances over $3m'",
-      "description": "Wikipedia mentions an 'additional 40% tax rate' for balances higher than $10 million, suggesting Division 296 has tiered rates. However, ATO sources only mention 15% on earnings above the $3m threshold. This creates confusion about whether the 40% is a separate policy or a misquote of the effective combined rate.",
-      "suggestion": "Add to fact-checks.json: claim is 'Division 296 applies 15% flat rate on all balances over $3m', verdict is partially_true because the 15% applies to earnings on the amount exceeding $3m threshold only, not the entire balance. Some sources also reference a 40% rate for extremely high balances ($10m+) which may represent combined marginal effects or a separate measure not yet law.",
-      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260524-147",
-      "timestamp": "2026-05-24T09:48:26.399Z",
-      "status": "pending"
-    },
-    {
       "id": "suggestion-20260524-224",
       "timestamp": "2026-05-24T09:48:26.399Z",
       "status": "pending",
@@ -882,42 +870,6 @@
       "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
       "implementation_effort": "10_minutes",
       "id": "suggestion-20260524-824",
-      "timestamp": "2026-05-24T14:55:31.939Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will limiting negative gearing to new builds increase or decrease rental supply?",
-      "description": "The government claims restricting negative gearing to new builds will 'focus tax support on new supply', while industry bodies (REIA and Property Council of Australia) warn this could reduce rental supply over time by making property investment less attractive. These are conflicting predictions about the same policy's effect on housing availability.",
-      "suggestion": "Add to debates.json: view_a from budget.gov.au states limiting negative gearing to new builds will focus tax support on new supply, while view_b from slateandsage.com.au (REIA/Property Council) warns reducing investor attractiveness could reduce rental supply over time",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260524-325",
-      "timestamp": "2026-05-24T14:55:31.939Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources claim a new 'minimum 30% tax rate' applies to capital gains, but this is potentially misleading. The budget.gov.au source specifies the government will 'introduce a minimum 30 per cent tax on gains' based on inflation indexation. However, the actual tax rate depends on an individual's marginal tax rate - the 'minimum 30%' appears to be a floor that only applies to gains above inflation, not a flat 30% on all gains. High-income earners would still pay their marginal rate (37% or 45%), making the 'minimum 30%' claim oversimplified.",
-      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% on ALL gains', verdict is disputed because the 30% appears to be a floor/minimum rate that applies to gains above inflation, not a uniform rate on all gains. Individual marginal rates still apply.",
-      "source": "https://budget.gov.au/www.nabc.nsw.gov.au/redirect?url=https://budget.gov.au/2026-27/content/tax-reform.htm",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260524-876",
-      "timestamp": "2026-05-24T14:55:31.939Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Division 296 super tax applies a 15% tax on all super balances over $3m",
-      "description": "Several sources claim Division 296 applies a '15% tax on all super balances over $3m' which is factually incorrect. Superguide correctly states the tax 'applies to the taxable super earnings of individuals whose total superannuation balance (TSB) exceeds $3 million'. The 15% rate applies to the EARNINGS (investment returns), not the balance itself. A person with a $3.1m balance doesn't pay 15% of $3.1m - they pay 15% on the earnings attributable to amounts above the threshold. This is a significant mischaracterization.",
-      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is partially_true but misleading because the 15% applies to taxable super earnings (not the balance itself) for accounts exceeding the $3m threshold.",
-      "source": "https://www.superguide.com.au/superannuation-taxes/division-296-super-tax-explained",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260524-771",
       "timestamp": "2026-05-24T14:55:31.939Z",
       "status": "pending"
     },
@@ -4511,19 +4463,6 @@
     },
     {
       "type": "content_update",
-      "priority": "high",
-      "title": "Cross-party support: Coalition and Greens aligned on parliamentary committee endorsement of CGT discount changes",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] PM press conference confirms Liberals and Greens voted together to endorse CGT discount changes in parliamentary committee on 17 March 2026, unusual political alignment on tax reform.",
-      "suggestion": "Add to budget-updates.json: Cross-party support confirmed as PM explicitly acknowledges Liberals and Greens voting together to endorse CGT discount changes via parliamentary committee process, creating unusual political alignment on tax reform.",
-      "source": "https://www.pm.gov.au/media/press-conference-parliament-house-canberra-25-may-2026",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260611-358",
-      "timestamp": "2026-06-11T17:34:04.231Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-26/labor-consults-on-cgt-carve-outs-as-businesses-call-for-reset/106720056"
-    },
-    {
-      "type": "content_update",
       "priority": "medium",
       "title": "Trust tax treatment reform details confirmed: Government signals strategic shift from income to asset taxation",
       "description": "Multiple sources confirm Government is proceeding with trust tax treatment reform as part of broader strategy to shift tax burden from income to assets, announced alongside CGT and negative gearing changes.",
@@ -5908,6 +5847,46 @@
       "timestamp": "2026-05-24T09:48:26.399Z",
       "status": "implemented",
       "implemented_at": "2026-06-11T13:56:15.610Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Cross-party support: Coalition and Greens aligned on parliamentary committee endorsement of CGT discount changes",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] PM press conference confirms Liberals and Greens voted together to endorse CGT discount changes in parliamentary committee on 17 March 2026, unusual political alignment on tax reform.",
+      "suggestion": "Add to budget-updates.json: Cross-party support confirmed as PM explicitly acknowledges Liberals and Greens voting together to endorse CGT discount changes via parliamentary committee process, creating unusual political alignment on tax reform.",
+      "source": "https://www.pm.gov.au/media/press-conference-parliament-house-canberra-25-may-2026",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260611-358",
+      "timestamp": "2026-06-11T17:34:04.231Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-26/labor-consults-on-cgt-carve-outs-as-businesses-call-for-reset/106720056",
+      "implemented_at": "2026-06-11T18:44:08.601Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will limiting negative gearing to new builds increase or decrease rental supply?",
+      "description": "The government claims restricting negative gearing to new builds will 'focus tax support on new supply', while industry bodies (REIA and Property Council of Australia) warn this could reduce rental supply over time by making property investment less attractive. These are conflicting predictions about the same policy's effect on housing availability.",
+      "suggestion": "Add to debates.json: view_a from budget.gov.au states limiting negative gearing to new builds will focus tax support on new supply, while view_b from slateandsage.com.au (REIA/Property Council) warns reducing investor attractiveness could reduce rental supply over time",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260524-325",
+      "timestamp": "2026-05-24T14:55:31.939Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-11T18:44:49.624Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources claim a new 'minimum 30% tax rate' applies to capital gains, but this is potentially misleading. The budget.gov.au source specifies the government will 'introduce a minimum 30 per cent tax on gains' based on inflation indexation. However, the actual tax rate depends on an individual's marginal tax rate - the 'minimum 30%' appears to be a floor that only applies to gains above inflation, not a flat 30% on all gains. High-income earners would still pay their marginal rate (37% or 45%), making the 'minimum 30%' claim oversimplified.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% on ALL gains', verdict is disputed because the 30% appears to be a floor/minimum rate that applies to gains above inflation, not a uniform rate on all gains. Individual marginal rates still apply.",
+      "source": "https://budget.gov.au/www.nabc.nsw.gov.au/redirect?url=https://budget.gov.au/2026-27/content/tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260524-876",
+      "timestamp": "2026-05-24T14:55:31.939Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-11T18:45:05.614Z"
     }
   ],
   "skipped": [
@@ -6510,6 +6489,34 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-11T08:41:23.499Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 super tax applies a 15% tax on all super balances over $3m'",
+      "description": "Wikipedia mentions an 'additional 40% tax rate' for balances higher than $10 million, suggesting Division 296 has tiered rates. However, ATO sources only mention 15% on earnings above the $3m threshold. This creates confusion about whether the 40% is a separate policy or a misquote of the effective combined rate.",
+      "suggestion": "Add to fact-checks.json: claim is 'Division 296 applies 15% flat rate on all balances over $3m', verdict is partially_true because the 15% applies to earnings on the amount exceeding $3m threshold only, not the entire balance. Some sources also reference a 40% rate for extremely high balances ($10m+) which may represent combined marginal effects or a separate measure not yet law.",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260524-147",
+      "timestamp": "2026-05-24T09:48:26.399Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-11T18:44:13.669Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Division 296 super tax applies a 15% tax on all super balances over $3m",
+      "description": "Several sources claim Division 296 applies a '15% tax on all super balances over $3m' which is factually incorrect. Superguide correctly states the tax 'applies to the taxable super earnings of individuals whose total superannuation balance (TSB) exceeds $3 million'. The 15% rate applies to the EARNINGS (investment returns), not the balance itself. A person with a $3.1m balance doesn't pay 15% of $3.1m - they pay 15% on the earnings attributable to amounts above the threshold. This is a significant mischaracterization.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is partially_true but misleading because the 15% applies to taxable super earnings (not the balance itself) for accounts exceeding the $3m threshold.",
+      "source": "https://www.superguide.com.au/superannuation-taxes/division-296-super-tax-explained",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260524-771",
+      "timestamp": "2026-05-24T14:55:31.939Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-11T18:45:18.399Z"
     }
   ],
   "needs_manual_review": [

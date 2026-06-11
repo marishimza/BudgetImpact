@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T13:55:11.303Z",
+  "lastUpdated": "2026-06-11T18:44:08.598Z",
   "items": [
     {
       "id": "update-001",
@@ -1694,6 +1694,16 @@
       "summary": "Treasury has released draft legislation for Division 296 tax that includes CGT relief provisions specifically for SMSFs affected by the high-balance superannuation tax. The ATO has confirmed indexed thresholds and CGT relief details, indicating the legislation is progressing through the parliamentary process. SMSF trustees with balances exceeding $3 million should review the draft provisions to understand the tax treatment of CGT events triggered by the new division.",
       "url": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
       "priority": "high"
+    },
+    {
+      "id": "update-168",
+      "date": "2026-05-25",
+      "tag": "Parliament",
+      "source": "PM.gov.au",
+      "title": "Cross-party support: Coalition and Greens aligned on parliamentary committee endorsement of CGT discount changes",
+      "summary": "The Prime Minister confirmed at a press conference on 25 May 2026 that Liberal and Greens MPs voted together to endorse changes to the Capital Gains Tax (CGT) discount in a parliamentary committee on 17 March 2026. This unusual political alignment represents rare bipartisan cooperation on tax reform, with the PM explicitly acknowledging the cross-party backing for the proposed CGT discount changes.",
+      "url": "https://www.pm.gov.au/media/press-conference-parliament-house-canberra-25-may-2026",
+      "priority": "medium"
     }
   ]
 }

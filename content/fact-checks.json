@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T23:21:50.015Z",
+  "lastUpdated": "2026-06-11T18:45:05.612Z",
   "claims": [
     {
       "id": "fc-001",
@@ -867,6 +867,24 @@
       ],
       "date_checked": "2026-06-10",
       "category": "tax"
+    },
+    {
+      "id": "fc-045",
+      "slug": "capital-gains-minimum-30-percent-tax-floor",
+      "claim": "The government will apply a minimum 30% tax rate on ALL capital gains from July 2027",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "The 30% is a minimum floor rate that applies to gains above inflation, not a flat uniform rate on all gains",
+      "detailed_explanation": "The budget specifies a minimum 30% tax rate on capital gains based on inflation indexation. However, this is a minimum floor, not a uniform flat rate. Individual marginal tax rates still apply—high-income earners would continue to pay their marginal rate (37% or 45%) on gains above inflation. The claim that ALL gains face a flat 30% tax is misleading and oversimplifies the reform.",
+      "sources": [
+        {
+          "name": "Budget.gov.au",
+          "url": "https://budget.gov.au/2026-27/content/tax-reform.htm",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-11",
+      "category": "tax-reform"
     }
   ]
 }

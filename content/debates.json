@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T13:56:15.608Z",
+  "lastUpdated": "2026-06-11T18:44:49.622Z",
   "debates": [
     {
       "id": "debate-001",
@@ -960,6 +960,29 @@
         "label": "Media interpretation – replacement or elimination",
         "argument": "Multiple media reports describe the changes as restrictions that effectively 'break promise' and replace or eliminate the CGT discount for established properties, rather than preserving it with a choice.",
         "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-041",
+      "slug": "will-limiting-negative-gearing-to-new-builds-increase-or-decrease-rental-supply",
+      "title": "Will limiting negative gearing to new builds increase or decrease rental supply?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "Conflicting predictions about whether restricting negative gearing to new builds will boost or reduce rental supply, with the government arguing it focuses tax support on new supply while industry bodies warn it could make property investment less attractive.",
+      "view_a": {
+        "label": "Government position",
+        "argument": "Limiting negative gearing to new builds will 'focus tax support on new supply', encouraging construction of new rental properties to expand the housing stock.",
+        "sources": [
+          "https://budget.gov.au/content/04-tax-reform.htm"
+        ]
+      },
+      "view_b": {
+        "label": "Industry position (REIA/Property Council of Australia)",
+        "argument": "Restricting negative gearing to new builds reduces investor attractiveness, which could lead to fewer investors entering the market and ultimately decrease rental supply over time as existing properties are sold rather than held as rentals.",
+        "sources": [
+          "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors"
+        ]
       },
       "verdict": null
     }

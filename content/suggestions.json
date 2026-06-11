@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T21:53:53.487Z",
+  "lastUpdated": "2026-06-11T23:18:15.410Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -884,30 +884,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
-      "description": "Property industry groups predict reduced rental supply from the changes, while CommBank analysis suggests the policy design preserves rental supply by incentivizing new builds. This is a factual disagreement about predicted market outcomes, not just differing opinions.",
-      "suggestion": "Add to debates.json: REIA and Property Council of Australia (slateandsage.com.au) claim reducing property investment attractiveness 'could reduce rental supply over time', while CommBank (commbank.com.au) states the changes 'reduce investor demand for existing housing stock while preserving tax support for investment in new supply'",
-      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors; https://www.commbank.com.au/articles/newsroom/2026/05/2026-budget-updated-housing-outlook.html",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260524-768",
-      "timestamp": "2026-05-24T20:43:18.544Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Is the CGT discount being replaced, eliminated, or preserved with a choice?",
-      "description": "Budget.gov.au states investors can 'choose' the 50% CGT discount or new arrangements, while multiple other sources describe the discount being 'replaced' or 'eliminated'. This is a factual conflict about what the policy actually does.",
-      "suggestion": "Add to debates.json: budget.gov.au says investors in new builds 'will be able to choose the 50% CGT discount or the new arrangements', while ABC, Guardian, and other sources describe the discount being replaced or eliminated entirely",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260524-592",
-      "timestamp": "2026-05-24T20:43:18.544Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -4546,44 +4522,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Treasury analysis: Inflation accounts for 56% of ASX 200 share gains over decade",
-      "description": "Treasury analysis released with Budget 2026-27 reveals that inflation comprised 56% of asset price growth for ASX 200 shares held for 10 years to March 2026, providing quantitative justification for replacing the CGT discount with inflation indexation.",
-      "suggestion": "Add to budget-updates.json: Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade — data shows current CGT discount undercompensates share market investors for inflation impact",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260611-966",
-      "timestamp": "2026-06-11T21:53:46.497Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/news/2025-07-01/asx-200-gains-10-per-cent-over-financial-year-2025/105479398"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
-      "description": "The ATO has released practical guidance for CGT indexation calculations to help taxpayers understand how the new inflation-based cost base adjustments will work when the changes take effect from 1 July 2027.",
-      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027 — helps taxpayers prepare for new inflation-based cost base adjustments",
-      "source": "https://www.ato.gov.au/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260611-953",
-      "timestamp": "2026-06-11T21:53:46.497Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "KPMG flags implementation timeline risks as ATO prepares for CGT reform",
-      "description": "KPMG analysis identifies implementation timeline risks as the ATO prepares for CGT reform with $47.5 million in funding over four years, noting substantial administrative challenges in transitioning to the new indexation-based system.",
-      "suggestion": "Add to budget-updates.json: KPMG flags implementation timeline risks as ATO prepares for CGT reform — analysis identifies challenges with $47.5m implementation funding",
-      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260611-594",
-      "timestamp": "2026-06-11T21:53:46.497Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Will the 2026 budget housing tax reforms improve housing affordability?",
@@ -5932,6 +5870,33 @@
       "timestamp": "2026-05-24T14:55:31.939Z",
       "status": "implemented",
       "implemented_at": "2026-06-11T18:45:05.614Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury analysis: Inflation accounts for 56% of ASX 200 share gains over decade",
+      "description": "Treasury analysis released with Budget 2026-27 reveals that inflation comprised 56% of asset price growth for ASX 200 shares held for 10 years to March 2026, providing quantitative justification for replacing the CGT discount with inflation indexation.",
+      "suggestion": "Add to budget-updates.json: Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade — data shows current CGT discount undercompensates share market investors for inflation impact",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260611-966",
+      "timestamp": "2026-06-11T21:53:46.497Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2025-07-01/asx-200-gains-10-per-cent-over-financial-year-2025/105479398",
+      "implemented_at": "2026-06-11T23:17:41.926Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
+      "description": "Property industry groups predict reduced rental supply from the changes, while CommBank analysis suggests the policy design preserves rental supply by incentivizing new builds. This is a factual disagreement about predicted market outcomes, not just differing opinions.",
+      "suggestion": "Add to debates.json: REIA and Property Council of Australia (slateandsage.com.au) claim reducing property investment attractiveness 'could reduce rental supply over time', while CommBank (commbank.com.au) states the changes 'reduce investor demand for existing housing stock while preserving tax support for investment in new supply'",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors; https://www.commbank.com.au/articles/newsroom/2026/05/2026-budget-updated-housing-outlook.html",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260524-768",
+      "timestamp": "2026-05-24T20:43:18.544Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-11T23:18:10.516Z"
     }
   ],
   "skipped": [
@@ -6547,6 +6512,49 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-11T18:45:18.399Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The ATO has released practical guidance for CGT indexation calculations to help taxpayers understand how the new inflation-based cost base adjustments will work when the changes take effect from 1 July 2027.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027 — helps taxpayers prepare for new inflation-based cost base adjustments",
+      "source": "https://www.ato.gov.au/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260611-953",
+      "timestamp": "2026-06-11T21:53:46.497Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-11T23:17:52.960Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG flags implementation timeline risks as ATO prepares for CGT reform",
+      "description": "KPMG analysis identifies implementation timeline risks as the ATO prepares for CGT reform with $47.5 million in funding over four years, noting substantial administrative challenges in transitioning to the new indexation-based system.",
+      "suggestion": "Add to budget-updates.json: KPMG flags implementation timeline risks as ATO prepares for CGT reform — analysis identifies challenges with $47.5m implementation funding",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260611-594",
+      "timestamp": "2026-06-11T21:53:46.497Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-11T23:18:00.665Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the CGT discount being replaced, eliminated, or preserved with a choice?",
+      "description": "Budget.gov.au states investors can 'choose' the 50% CGT discount or new arrangements, while multiple other sources describe the discount being 'replaced' or 'eliminated'. This is a factual conflict about what the policy actually does.",
+      "suggestion": "Add to debates.json: budget.gov.au says investors in new builds 'will be able to choose the 50% CGT discount or the new arrangements', while ABC, Guardian, and other sources describe the discount being replaced or eliminated entirely",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260524-592",
+      "timestamp": "2026-05-24T20:43:18.544Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-11T23:18:15.410Z"
     }
   ],
   "needs_manual_review": [

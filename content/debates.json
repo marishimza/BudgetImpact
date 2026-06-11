@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T18:44:49.622Z",
+  "lastUpdated": "2026-06-11T23:18:10.513Z",
   "debates": [
     {
       "id": "debate-001",
@@ -982,6 +982,29 @@
         "argument": "Restricting negative gearing to new builds reduces investor attractiveness, which could lead to fewer investors entering the market and ultimately decrease rental supply over time as existing properties are sold rather than held as rentals.",
         "sources": [
           "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-042",
+      "slug": "negative-gearing-new-builds-rental-supply",
+      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "Property industry groups predict reduced rental supply from the changes, while CommBank analysis suggests the policy design preserves rental supply by incentivizing new builds. This is a factual disagreement about predicted market outcomes, not just differing opinions.",
+      "view_a": {
+        "label": "Rental supply will decrease",
+        "argument": "Reducing property investment attractiveness could reduce rental supply over time, as investors exit the market or reduce their property portfolios.",
+        "sources": [
+          "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors"
+        ]
+      },
+      "view_b": {
+        "label": "Rental supply will be preserved",
+        "argument": "The changes reduce investor demand for existing housing stock while preserving tax support for investment in new supply, maintaining overall rental availability.",
+        "sources": [
+          "https://www.commbank.com.au/articles/newsroom/2026/05/2026-budget-updated-housing-outlook.html"
         ]
       },
       "verdict": null

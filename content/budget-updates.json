@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T18:44:08.598Z",
+  "lastUpdated": "2026-06-11T23:17:41.923Z",
   "items": [
     {
       "id": "update-001",
@@ -1704,6 +1704,19 @@
       "summary": "The Prime Minister confirmed at a press conference on 25 May 2026 that Liberal and Greens MPs voted together to endorse changes to the Capital Gains Tax (CGT) discount in a parliamentary committee on 17 March 2026. This unusual political alignment represents rare bipartisan cooperation on tax reform, with the PM explicitly acknowledging the cross-party backing for the proposed CGT discount changes.",
       "url": "https://www.pm.gov.au/media/press-conference-parliament-house-canberra-25-may-2026",
       "priority": "medium"
+    },
+    {
+      "id": "update-169",
+      "date": "2026-05-12",
+      "tag": [
+        "Budget",
+        "ASX"
+      ],
+      "source": "ABC News",
+      "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
+      "summary": "Treasury analysis released with Budget 2026-27 shows that inflation comprised 56% of asset price growth for ASX 200 shares held for 10 years to March 2026. The data provides quantitative justification for replacing the CGT discount with inflation indexation, as the current discount undercompensates share market investors for inflation impact.",
+      "url": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "priority": "high"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T12:52:48.467Z",
+  "lastUpdated": "2026-06-12T23:13:05.597Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1052,6 +1052,48 @@
         "argument": "The 65,000 figure has not been independently verified by the Parliamentary Budget Office or credible housing analysts. REIA President Jacob Caine acknowledges it as a 'positive step' but does not confirm the specific number, suggesting the projection may be overstated.",
         "sources": [
           "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-045",
+      "slug": "will-2026-negative-gearing-cgt-reforms-cause-prolonged-property-price-slump-or-brief-correction",
+      "title": "Will the 2026 negative gearing and CGT reforms cause a prolonged property price slump or a brief correction?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "Economists offer conflicting forecasts on the duration of any property price impacts from the 2026 budget tax reforms. Some predict a prolonged slump, while others anticipate only a brief correction.",
+      "view_a": {
+        "label": "Prolonged Slump",
+        "argument": "Economists surveyed forecast that home values are set for their first national slump since 2022, with sentiment weighed down by the budget tax changes including modifications to negative gearing and capital gains tax arrangements.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Brief Correction",
+        "argument": "Alternative analysis suggests Australia's persistent housing shortage means any price fall would be short-term rather than representing a prolonged downturn, implying market fundamentals of undersupply will ultimately support values.",
+        "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-046",
+      "slug": "will-restricting-negative-gearing-to-new-builds-reduce-or-increase-rental-supply",
+      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "Real estate industry groups warn that restricting negative gearing to new builds will reduce rental supply over time, while housing advocates argue reforms will redirect investment toward new housing supply, potentially increasing overall rental availability.",
+      "view_a": {
+        "label": "REIA/Property Council",
+        "argument": "Real estate industry groups and some economists warn that reducing the attractiveness of residential property investment through restrictions to negative gearing will reduce rental supply over time. They argue that investors may exit the market or reduce their property acquisitions, leading to fewer rental properties available.",
+        "sources": [
+          "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors"
+        ]
+      },
+      "view_b": {
+        "label": "ACOSS/Housing advocacy groups",
+        "argument": "Housing advocacy groups and government-linked analyses argue that negative gearing and capital gains tax concessions have added little to rental supply historically. They contend that restricting these concessions will redirect investment capital toward new housing supply rather than established properties, potentially increasing overall rental availability.",
+        "sources": [
+          "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors"
         ]
       },
       "verdict": null

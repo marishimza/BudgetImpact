@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T18:04:02.219Z",
+  "lastUpdated": "2026-06-12T23:11:44.111Z",
   "items": [
     {
       "id": "update-001",
@@ -1776,6 +1776,16 @@
       "title": "NAB revises housing forecast following Budget tax reforms — brief correction not prolonged slump",
       "summary": "NAB has revised its housing forecast following the Budget's negative gearing and CGT changes, projecting a brief market correction rather than a prolonged slump. The bank notes the reforms are designed to shift investor behaviour rather than crash the market. Analysts suggest the adjustments reflect an expectation that policy changes will gradually reshape the property investment landscape.",
       "url": "https://www.commbank.com.au/articles/newsroom/2026/05/2026-budget-updated-housing-outlook.html",
+      "priority": "high"
+    },
+    {
+      "id": "update-176",
+      "date": "2026-06-12",
+      "tag": "Property",
+      "source": "William Buck",
+      "title": "Negative gearing cutoff timestamp: 7:30pm on Budget Night",
+      "summary": "New details confirm the exact cutoff time for negative gearing changes on established properties: properties purchased after 7:30pm on 12 May 2026 are subject to the new restrictions from 1 July 2027. This precise timestamp differs from the general 1 July 2027 commencement date, providing a clear transition point for property investors.",
+      "url": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
       "priority": "high"
     }
   ]

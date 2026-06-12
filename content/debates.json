@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T23:18:10.513Z",
+  "lastUpdated": "2026-06-12T12:52:48.467Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1005,6 +1005,53 @@
         "argument": "The changes reduce investor demand for existing housing stock while preserving tax support for investment in new supply, maintaining overall rental availability.",
         "sources": [
           "https://www.commbank.com.au/articles/newsroom/2026/05/2026-budget-updated-housing-outlook.html"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-043",
+      "slug": "negative-gearing-cutoff-date",
+      "title": "Negative gearing cutoff: When do restrictions actually take effect for investors?",
+      "category": "tax",
+      "type": "factual_dispute",
+      "summary": "A factual conflict exists between the budget's stated commencement date (1 July 2027) and claims that negative gearing restrictions take effect from Budget Night (12 May 2026). Sources disagree on whether the cutoff for negatively geared investments on established properties is tied to the Budget Night announcement or the formal 1 July 2027 start date. This matters significantly for investors who purchased properties between Budget Night and 1 July 2027, as the applicable date determines whether they retain or lose negative gearing benefits.",
+      "view_a": {
+        "label": "1 July 2027 commencement",
+        "argument": "The official budget documentation and government fact sheets clearly state that negative gearing changes commence from 1 July 2027. Under this interpretation, existing investors who purchased properties before the policy commencement date retain their negative gearing benefits. The formal legislative framework and administrative start date align on 1 July 2027 as the operative date for policy implementation.",
+        "sources": [
+          "https://budget.gov.au/content/04-tax-reform.htm"
+        ]
+      },
+      "view_b": {
+        "label": "Budget Night cutoff",
+        "argument": "Multiple budget analysis reports and news outlets characterize Budget Night (12 May 2026) as the effective cutoff date for new negatively geared investments on established properties. Under this interpretation, properties purchased after the Budget Night announcement on 12 May 2026 would not qualify for negative gearing, regardless of the formal 1 July 2027 commencement date. The Budget Night announcement is treated as creating the practical and immediate cutoff for new investment decisions.",
+        "sources": [
+          "Budget analysis reports",
+          "News outlet coverage of Budget Night 2026"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-044",
+      "slug": "will-2b-infrastructure-initiative-deliver-65000-homes",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "The Government claims its $2 billion infrastructure initiative will enable around 65,000 additional homes. This debate examines whether this projection is credible or whether independent analysis suggests different outcomes.",
+      "view_a": {
+        "label": "Government Projection is Achievable",
+        "argument": "The $2 billion infrastructure funding targets identified growth corridors and facilitates faster approvals, making the 65,000 additional homes target realistic and achievable with coordinated federal-state action.",
+        "sources": [
+          "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+        ]
+      },
+      "view_b": {
+        "label": "Projection Lacks Independent Verification",
+        "argument": "The 65,000 figure has not been independently verified by the Parliamentary Budget Office or credible housing analysts. REIA President Jacob Caine acknowledges it as a 'positive step' but does not confirm the specific number, suggesting the projection may be overstated.",
+        "sources": [
+          "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
         ]
       },
       "verdict": null

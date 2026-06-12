@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T08:21:26.167Z",
+  "lastUpdated": "2026-06-12T18:04:02.219Z",
   "items": [
     {
       "id": "update-001",
@@ -1746,6 +1746,36 @@
       "title": "Budget.gov.au official: Tax reform page confirms CGT changes",
       "summary": "The official Australian Government Budget website has published confirmation of significant capital gains tax (CGT) reforms. From 1 July 2027, the existing 50% CGT discount will be replaced with an inflation indexation method, ensuring gains are adjusted for inflationary effects before taxation. The reforms also introduce a minimum 30% tax rate on capital gains, affecting property investors and asset holders across Australia.",
       "url": "https://budget.gov.au/content/04-tax-reform.htm",
+      "priority": "high"
+    },
+    {
+      "id": "update-173",
+      "date": "2026-06-12",
+      "tag": "Property",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "summary": "The ATO has released practical guidance to help taxpayers calculate capital gains under the new inflation-indexed CGT rules taking effect 1 July 2027. The guidance explains how to apply cost base indexation to assets acquired after the Budget announcement, providing clarity on the transition rules and calculation methodologies for investors and property owners. Taxpayers holding assets acquired before the reforms can now better understand how indexation will apply when they sell.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-174",
+      "date": "2026-06-12",
+      "tag": "Budget",
+      "source": "KPMG",
+      "title": "KPMG flags implementation timeline risks as ATO prepares for CGT reform",
+      "summary": "KPMG analysis has highlighted significant implementation timeline risks as the ATO prepares for major CGT reform with $47.5 million in allocated funding. The analysis questions whether the 12-month lead time is sufficient for the ATO to develop necessary systems and guidance for the new inflation-indexed CGT discount rules. KPMG warns that tight timelines could impact the quality of guidance issued to taxpayers and increase compliance uncertainty during the transition period.",
+      "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "priority": "high"
+    },
+    {
+      "id": "update-175",
+      "date": "2026-05-15",
+      "tag": "Property",
+      "source": "CommBank",
+      "title": "NAB revises housing forecast following Budget tax reforms — brief correction not prolonged slump",
+      "summary": "NAB has revised its housing forecast following the Budget's negative gearing and CGT changes, projecting a brief market correction rather than a prolonged slump. The bank notes the reforms are designed to shift investor behaviour rather than crash the market. Analysts suggest the adjustments reflect an expectation that policy changes will gradually reshape the property investment landscape.",
+      "url": "https://www.commbank.com.au/articles/newsroom/2026/05/2026-budget-updated-housing-outlook.html",
       "priority": "high"
     }
   ]

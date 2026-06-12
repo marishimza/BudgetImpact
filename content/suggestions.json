@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T16:41:32.565Z",
+  "lastUpdated": "2026-06-12T18:04:17.367Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -896,18 +896,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Is immigration or negative gearing the primary driver of Australia's housing crisis?",
-      "description": "The Coalition (Taylor) proposes drastically cutting immigration tied to new housing builds as the solution to housing affordability. Meanwhile, Law Society Journal cites economists claiming negative gearing and CGT discount arrangements are 'the key reason' for the housing crisis. These represent fundamentally different causal diagnoses from credible political and economic sources, each proposing different primary policy interventions.",
-      "suggestion": "Add to debates.json: view_a from Coalition (Taylor in Guardian) says immigration-driven demand is primary cause, view_b from Law Society Journal citing economists says negative gearing/CGT arrangements are the key reason for housing crisis",
-      "source": "https://www.theguardian.com/australia-news/live/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260525-836",
-      "timestamp": "2026-05-25T06:17:57.276Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -4642,43 +4630,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
-      "description": "The ATO has released practical guidance to help taxpayers calculate capital gains under the new inflation-indexed CGT rules taking effect 1 July 2027. The guidance explains how to apply cost base indexation to assets acquired after the Budget announcement.",
-      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations — helps investors understand how to calculate indexed cost base under new rules from 1 July 2027",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260612-229",
-      "timestamp": "2026-06-12T16:41:26.745Z",
-      "status": "pending",
-      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "KPMG flags implementation timeline risks as ATO prepares for CGT reform",
-      "description": "KPMG analysis highlights implementation timeline risks as the ATO prepares for major CGT reform with $47.5 million in allocated funding. The analysis questions whether the 12-month lead time is sufficient for the ATO to develop necessary systems and guidance for the new inflation-indexed CGT discount rules.",
-      "suggestion": "Add to budget-updates.json: KPMG analysis flags implementation timeline risks for CGT reform — questions whether ATO's 12-month preparation window is sufficient with $47.5m allocated funding",
-      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260612-560",
-      "timestamp": "2026-06-12T16:41:26.745Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "NAB revises housing forecast following Budget tax reforms — brief correction not prolonged slump",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] NAB has revised its housing forecast following the Budget's negative gearing and CGT changes, projecting a brief market correction rather than a prolonged slump. The bank notes the reforms are designed to shift investor behaviour rather than crash the market.",
-      "suggestion": "Add to budget-updates.json: NAB revises housing forecast following Budget tax reforms — projects brief correction not prolonged slump, suggesting reforms designed to shift behaviour not crash market",
-      "source": "https://www.commbank.com.au/articles/newsroom/2026/05/2026-budget-updated-housing-outlook.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260612-852",
-      "timestamp": "2026-06-12T16:41:26.745Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Will limiting negative gearing to new builds increase or decrease rental supply?",
@@ -4689,19 +4640,6 @@
       "id": "suggestion-20260612-521",
       "timestamp": "2026-06-12T16:41:26.745Z",
       "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
-      "description": "This claim appears in multiple sources but may oversimplify how Division 296 tax actually works. The ATO official source states the tax is '15% on the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning 15% on the EARNINGS attributable to the portion of the balance above $3m, not 15% on the entire balance over $3m. This is a significant distinction that could lead to overestimation of tax liability.",
-      "suggestion": "Add to fact-checks.json: Claim that '15% tax applies to all super balances over $3m' is DISPUTED/OVERSIMPLIFIED because Division 296 only taxes the earnings attributable to the balance above the threshold, not the excess balance itself. A $4m balance doesn't pay 15% × $1m = $150k; it pays 15% on the earnings generated by the portion above $3m.",
-      "source": "https://www.ato.gov.au/Better-targeted-super-concessions",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260612-615",
-      "timestamp": "2026-06-12T16:41:26.745Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
     },
     {
       "type": "fact_check",
@@ -5980,6 +5918,60 @@
       "timestamp": "2026-05-25T06:17:57.276Z",
       "status": "implemented",
       "implemented_at": "2026-06-12T12:52:48.469Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The ATO has released practical guidance to help taxpayers calculate capital gains under the new inflation-indexed CGT rules taking effect 1 July 2027. The guidance explains how to apply cost base indexation to assets acquired after the Budget announcement.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations — helps investors understand how to calculate indexed cost base under new rules from 1 July 2027",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260612-229",
+      "timestamp": "2026-06-12T16:41:26.745Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implemented_at": "2026-06-12T18:02:15.165Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "This claim appears in multiple sources but may oversimplify how Division 296 tax actually works. The ATO official source states the tax is '15% on the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning 15% on the EARNINGS attributable to the portion of the balance above $3m, not 15% on the entire balance over $3m. This is a significant distinction that could lead to overestimation of tax liability.",
+      "suggestion": "Add to fact-checks.json: Claim that '15% tax applies to all super balances over $3m' is DISPUTED/OVERSIMPLIFIED because Division 296 only taxes the earnings attributable to the balance above the threshold, not the excess balance itself. A $4m balance doesn't pay 15% × $1m = $150k; it pays 15% on the earnings generated by the portion above $3m.",
+      "source": "https://www.ato.gov.au/Better-targeted-super-concessions",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260612-615",
+      "timestamp": "2026-06-12T16:41:26.745Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-06-12T18:02:42.046Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG flags implementation timeline risks as ATO prepares for CGT reform",
+      "description": "KPMG analysis highlights implementation timeline risks as the ATO prepares for major CGT reform with $47.5 million in allocated funding. The analysis questions whether the 12-month lead time is sufficient for the ATO to develop necessary systems and guidance for the new inflation-indexed CGT discount rules.",
+      "suggestion": "Add to budget-updates.json: KPMG analysis flags implementation timeline risks for CGT reform — questions whether ATO's 12-month preparation window is sufficient with $47.5m allocated funding",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260612-560",
+      "timestamp": "2026-06-12T16:41:26.745Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-12T18:03:16.247Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "NAB revises housing forecast following Budget tax reforms — brief correction not prolonged slump",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] NAB has revised its housing forecast following the Budget's negative gearing and CGT changes, projecting a brief market correction rather than a prolonged slump. The bank notes the reforms are designed to shift investor behaviour rather than crash the market.",
+      "suggestion": "Add to budget-updates.json: NAB revises housing forecast following Budget tax reforms — projects brief correction not prolonged slump, suggesting reforms designed to shift behaviour not crash market",
+      "source": "https://www.commbank.com.au/articles/newsroom/2026/05/2026-budget-updated-housing-outlook.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260612-852",
+      "timestamp": "2026-06-12T16:41:26.745Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-12T18:04:02.221Z"
     }
   ],
   "skipped": [
@@ -6638,6 +6630,20 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-12T12:52:10.826Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is immigration or negative gearing the primary driver of Australia's housing crisis?",
+      "description": "The Coalition (Taylor) proposes drastically cutting immigration tied to new housing builds as the solution to housing affordability. Meanwhile, Law Society Journal cites economists claiming negative gearing and CGT discount arrangements are 'the key reason' for the housing crisis. These represent fundamentally different causal diagnoses from credible political and economic sources, each proposing different primary policy interventions.",
+      "suggestion": "Add to debates.json: view_a from Coalition (Taylor in Guardian) says immigration-driven demand is primary cause, view_b from Law Society Journal citing economists says negative gearing/CGT arrangements are the key reason for housing crisis",
+      "source": "https://www.theguardian.com/australia-news/live/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260525-836",
+      "timestamp": "2026-05-25T06:17:57.276Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-12T18:04:17.367Z"
     }
   ],
   "needs_manual_review": [

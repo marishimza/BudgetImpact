@@ -3631,6 +3631,75 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-05T12:33:21.973Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally introduced to Parliament",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The government has formally lodged the enabling legislation for negative gearing and CGT changes. The Bill specifies the 7:30pm Budget Night cutoff for established properties, new build exemptions, and the indexation-based CGT discount replacement. Senate referral and debate timeline now publicly documented.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament. Bill codifies the 7:30pm Budget Night cutoff for negative gearing restrictions on established properties, confirms new builds remain exempt, and establishes the inflation-indexed CGT discount replacing the 50% discount from 1 July 2027. Legislation currently before Senate.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260605-243",
+      "timestamp": "2026-06-05T16:26:09.889Z",
+      "status": "implemented",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
+      "implemented_at": "2026-06-05T17:49:53.138Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Capital gains face a minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim appears frequently but may oversimplify the new CGT rules. The budget.gov.au states a 'minimum 30% tax on gains' but the actual mechanism involves replacing the 50% discount with inflation indexation. Under this system, the minimum 30% floor would apply to gains AFTER accounting for inflation indexing of the cost base—not necessarily on the full nominal gain. The ASX analysis itself shows a retired investor facing 8% vs 30%—the 30% applies to indexed gains, not nominal gains. The phrasing 'on ALL gains' could mislead taxpayers into thinking their entire capital gain is taxed at 30%, when in reality only gains above inflation are subject to this floor.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax on ALL capital gains from July 2027', verdict is disputed because the 30% floor applies to gains above inflation after cost base indexation, not to total nominal gains. The effective tax rate depends on inflation-adjusted gain calculation.",
+      "source": "https://www.budget.gov.au/budget-2026-27/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260605-183",
+      "timestamp": "2026-06-05T16:26:09.889Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implemented_at": "2026-06-05T17:50:14.698Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "NAB revises housing forecast: Budget tax reforms to cause brief correction, not prolonged slump",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] National Australia Bank economists have updated their property market outlook following Budget night tax changes. The analysis concludes that while established property prices will experience downward pressure from negative gearing restrictions, the impact will be limited and temporary. NAB projects a brief correction rather than a sustained market downturn.",
+      "suggestion": "Add to budget-updates.json: NAB revises housing forecast following Budget tax reforms. Bank economists project brief correction in established property prices rather than prolonged slump. Analysis attributes limited market impact to grandfathering provisions and new build exemptions softening the adjustment. Short-term outlook more optimistic than earlier projections.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260605-983",
+      "timestamp": "2026-06-05T16:26:09.889Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-05T17:50:36.480Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027 implementation",
+      "description": "The Australian Taxation Office has published detailed guidance on how investors should calculate indexed cost bases under the new CGT rules. The guidance covers methodology for applying the Consumer Price Index to original purchase prices, documentation requirements, and interaction with the 30% minimum tax floor.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations. Guidance covers CPI-based cost base indexing methodology, documentation requirements for investors, and interaction between inflation indexation and the 30% minimum tax floor. Implementation support ahead of 1 July 2027 commencement.",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260605-195",
+      "timestamp": "2026-06-05T16:26:09.889Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-05T17:50:18.860Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is Labor's negative gearing reform a 'broken promise' or legitimate policy evolution?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The ABC characterizes the changes as breaking a promise, while the Government frames them as necessary policy evolution. This debate examines the factual basis for each claim and whether previous commitments were explicit or conditional.",
+      "suggestion": "Add to debates.json: ABC News (12 May 2026) states 'The government has calculated the popularity of curbing negative gearing and the CGT discount... will be worth the damage to trust of breaking another promise.' Meanwhile, Budget.gov.au frames the restrictions as 'focus tax support on new supply' - a policy rationale, not a promise kept. The conflict is whether Labor explicitly promised NOT to restrict negative gearing, or whether the changes represent legitimate evolution of housing policy.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-831",
+      "timestamp": "2026-05-18T12:38:43.641Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-05T17:50:44.306Z"
     }
   ]
 }

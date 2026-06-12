@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T23:18:15.410Z",
+  "lastUpdated": "2026-06-12T06:26:49.646Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -4580,48 +4580,107 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis quantifies retirement investor tax impact: 8% vs 30% effective rate",
-      "description": "An ASX analysis piece provides specific numbers showing that a retired investor on a 16% marginal rate currently pays 8% tax on nominal gains from long-held equities, but would face 30% tax on indexed gains under the announced CGT changes. This creates a 22 percentage point tax increase for this investor type.",
-      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT reform impact on retirement investors — a retired investor on a 16% marginal rate currently faces 8% tax on nominal gains from long-held equity portfolios, but would face 30% tax on indexed gains under proposed changes, representing a 22 percentage point increase.",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260604-684",
-      "timestamp": "2026-06-04T21:23:52.828Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-04T23:04:47.953Z"
     },
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "Government signals broader trust tax treatment reform as part of asset taxation shift",
-      "description": "Budget.gov.au and multiple sources indicate the Government plans to shift taxation from income to assets, which includes reform to trust tax treatment. The Guardian reports this will 'rebalance the system' and is part of a broader package alongside negative gearing and CGT changes.",
-      "suggestion": "Add to budget-updates.json: Trust tax treatment reform flagged as core part of Budget 2026 — Government signals plan to shift taxation burden from income to assets, with changes to trust structures expected as part of broader tax reform package.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "title": "Fool.com.au analysis: How new capital gains tax affects ASX shares",
+      "description": "Analysis of how the 2026 Budget CGT changes specifically impact ASX share investors, including effective tax rate changes for different investor types.",
+      "suggestion": "Add to budget-updates.json: Fool.com.au analysis details CGT impact on ASX shares — new minimum 30% floor and indexation changes affect equity investors differently than property investors",
+      "source": "https://www.fool.com.au/2026/05/13/how-will-the-new-capital-gains-tax-affect-asx-shares/",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260604-653",
-      "timestamp": "2026-06-04T21:23:52.828Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-04T23:05:03.759Z"
+      "id": "suggestion-20260612-971",
+      "timestamp": "2026-06-12T06:26:37.346Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "BDO: Understanding Division 296 super tax changes for SMSFs",
+      "description": "Technical analysis of Division 296 legislation including indexed thresholds, CGT relief provisions, and practical steps for SMSFs before 1 July 2026 commencement.",
+      "suggestion": "Add to budget-updates.json: BDO analysis provides detailed Division 296 technical guidance — explains indexed thresholds, CGT relief for SMSFs, and preparation steps before July 2026",
+      "source": "https://www.bdo.com.au/en-au/insights/superannuation/understanding-the-new-division-296-superannuation-tax-changes",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260612-729",
+      "timestamp": "2026-06-12T06:26:37.346Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Budget.gov.au official: Tax reform page confirms CGT changes",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Official government confirmation that the 50% CGT discount will be replaced with inflation-based discount and minimum 30% tax on gains from 1 July 2027.",
+      "suggestion": "Add to budget-updates.json: Budget.gov.au confirms official tax reform details — 50% CGT discount replaced by inflation indexation with minimum 30% tax on gains from July 2027",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260612-711",
+      "timestamp": "2026-06-12T06:26:37.346Z",
+      "status": "pending",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "The government projects that its $2 billion infrastructure initiative will enable approximately 65,000 additional homes. The Real Estate Institute of Australia (REIA) President Jacob Caine publicly endorsed this figure as 'positive and necessary' in addressing Australia's housing shortage. However, housing industry analysts and policy critics have questioned whether this target is realistic or achievable, given infrastructure delivery timelines, zoning constraints, and construction capacity limitations. This represents a factual conflict between official government projections and skeptical industry assessment.",
+      "suggestion": "Add to debates.json: Government/budget.gov.au projects 65,000 additional homes from $2B infrastructure initiative. REIA President Jacob Caine (via apimagazine.com.au) endorses this figure as achievable and necessary. Industry critics question whether 65,000 homes is a realistic delivery target given construction timelines and supply constraints.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260612-571",
+      "timestamp": "2026-06-12T06:26:37.346Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is negative gearing the 'key reason' for Australia's housing crisis or one factor among many?",
+      "description": "The Law Society Journal claims that negative gearing arrangements are 'the key reason for the housing affordability and rental crisis Australia is experiencing today.' This attribution of primary causation to a single tax mechanism contrasts with broader policy debate framing negative gearing as one contributing factor among many, including immigration levels, supply constraints, and interest rate impacts. This represents a factual conflict about relative causation in Australia's housing crisis.",
+      "suggestion": "Add to debates.json: LSJ claims negative gearing is 'the key reason' for the housing crisis. Broader policy debate treats it as one contributing factor among immigration, supply constraints, and interest rates. This is a factual conflict about relative causation.",
+      "source": "https://lsj.com.au/articles/federal-budget-2026-limits-to-negative-gearing-and-capital-gains-tax-reform/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260612-491",
+      "timestamp": "2026-06-12T06:26:37.346Z",
+      "status": "pending"
     },
     {
       "type": "fact_check",
       "priority": "medium",
-      "title": "Claim: Budget CGT changes take effect from July 2027",
-      "description": "Media reports say negative gearing restrictions start 'from tonight' while CGT discount changes apply from July 2027. Need to verify the exact implementation dates for both components as they may be conflated.",
-      "suggestion": "Add to fact-checks.json: claim is that negative gearing restrictions and CGT changes have different effective dates, verdict is partially_verified because ABC reports restrictions start 'from this evening' (12 May 2026) while budget.gov.au confirms CGT changes begin 1 July 2027—these are distinct policies with different timelines that media may conflate.",
-      "source": "https://www.abc.net.au/news/2026-05-13/government-breaks-promise-with-restrictions-to-negative-gearing/10452234",
+      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources claim a 'minimum 30% tax' applies to ALL capital gains. However, the budget.gov.au states the minimum applies to gains (not specifically 'all gains'), and the mechanism involves inflation indexation first, then a floor. The ASX analysis shows an example where a 16% marginal rate investor faces 30% on indexed gains vs 8% on nominal gains - suggesting the minimum may only bind for indexed gains, not all gains. This could be oversimplified if it implies everyone pays at least 30% regardless of their marginal rate or inflation adjustment.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% applies to ALL capital gains', verdict is 'disputed' because official budget documents indicate the 30% floor applies after inflation indexation, not before - meaning nominal gains below inflation may result in effective rates below 30% for lower-income earners.",
+      "source": "https://www.budget.gov.au/tax-reform",
       "implementation_effort": "30_minutes",
-      "id": "suggestion-20260517-311",
-      "timestamp": "2026-05-17T20:39:47.157Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-04T23:05:33.575Z"
+      "id": "suggestion-20260612-459",
+      "timestamp": "2026-06-12T06:26:37.346Z",
+      "status": "pending"
     },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Negative gearing has been 'fully abolished' for all investors from 1 July 2027",
+      "description": "William Buck and CommBank sources indicate the cutoff is properties purchased 'after 7:30pm on 12 May 2026'. This means investors who acquired established properties before Budget Night (12 May 2026) but after the cut-off announcement could retain negative gearing benefits until 1 July 2027 and potentially beyond, depending on grandfathering rules. The claim 'fully abolished for all investors' may be inaccurate as it doesn't account for the acquisition timing distinction.",
+      "suggestion": "Add to fact-checks.json: claim is 'negative gearing fully abolished for all investors from 1 July 2027', verdict is 'partially_true' because established properties purchased before 7:30pm on 12 May 2026 may retain negative gearing benefits, and new builds are explicitly exempted from restrictions.",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026/",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260612-904",
+      "timestamp": "2026-06-12T06:26:37.346Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+    },
+    {
+      "id": "suggestion-20260612-998",
+      "timestamp": "2026-06-12T06:26:37.346Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "medium",
@@ -5900,34 +5959,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Does the super performance test constrain fund investment choices?",
-      "description": "Industry experts warn the super performance test constrains funds by not accommodating investments like ESG, energy, venture capital and housing. This conflicts with government claims the test protects Australians from underperformance.",
-      "suggestion": "Add to debates.json: view_a from Superguide says experts warn the super performance test constrains funds because it 'doesn't cater for all investments, particularly ESG, energy, venture capital and housing', view_b from government budget documents emphasise the test's role in 'protecting Australians from persistent underperformance'",
-      "source": "https://www.superguide.com.au/super-booster/federal-budget-2026-overview",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260517-209",
-      "timestamp": "2026-05-17T20:39:47.157Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-04T23:05:16.718Z"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will limiting negative gearing to new builds actually increase housing supply?",
-      "description": "The government and housing bodies claim restricting negative gearing to new builds will shift investor demand toward new supply and reduce pressure on established property prices. However, critics suggest investors may simply exit the market rather than pivot to new construction, potentially reducing overall rental supply.",
-      "suggestion": "Add to debates.json: Budget.gov.au and commbank.com.au/REIA claim limiting negative gearing to new builds will reduce investor demand for existing stock while supporting new supply. Conversely, the Coalition (theguardian.com) and property industry critics argue investors may withdraw from the market entirely rather than shift to new builds, potentially worsening rental availability rather than improving it.",
-      "source": "https://www.budget.gov.au/content/04-tax-reform.htm; https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260518-174",
-      "timestamp": "2026-05-18T06:05:26.603Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-04T23:05:53.754Z"
-    },
     {
       "type": "fact_check",
       "priority": "medium",

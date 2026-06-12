@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T18:45:05.612Z",
+  "lastUpdated": "2026-06-12T08:21:42.450Z",
   "claims": [
     {
       "id": "fc-001",
@@ -885,6 +885,29 @@
       ],
       "date_checked": "2026-06-11",
       "category": "tax-reform"
+    },
+    {
+      "id": "fc-046",
+      "slug": "negative-gearing-fully-abolished-all-investors-1-july-2027",
+      "claim": "negative gearing fully abolished for all investors from 1 July 2027",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The claim overstates the reach of negative gearing reforms. Properties purchased before 7:30pm on 12 May 2026 may retain negative gearing benefits, and new builds are explicitly exempted.",
+      "detailed_explanation": "Analysis from William Buck and CommBank indicates the negative gearing cutoff applies to properties purchased AFTER 7:30pm on 12 May 2026, not from 1 July 2027 as a blanket abolition. This creates three distinct categories: (1) Established properties purchased before 7:30pm on 12 May 2026 may retain negative gearing benefits under grandfathering arrangements beyond 1 July 2027; (2) Properties purchased between the announcement and 1 July 2027 may have a transition period; (3) New builds are explicitly exempted from negative gearing restrictions. The claim 'fully abolished for all investors' is inaccurate because it fails to account for the acquisition timing distinction and the new build exemption.",
+      "sources": [
+        {
+          "name": "William Buck Federal Budget Analysis 2026",
+          "url": "https://www.williambuck.com/federal-budget-analysis-2026/",
+          "type": "analysis"
+        },
+        {
+          "name": "CommBank Budget Analysis 2026",
+          "url": "https://www.williambuck.com/federal-budget-analysis-2026/",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-12",
+      "category": "taxation"
     }
   ]
 }

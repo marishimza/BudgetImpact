@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T06:26:49.646Z",
+  "lastUpdated": "2026-06-12T08:22:04.971Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -884,18 +884,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Division 296 super tax applies a 15% tax on all super balances over $3m'",
-      "description": "Multiple sources reference Division 296 tax on super balances over $3m, but at least one source specifically states a '15% tax on all super balances over $3m'. This phrasing could be inaccurate because: (1) Division 296 taxes superannuation *earnings*, not the balance itself; (2) The $3m threshold applies to Total Superannuation Balance (TSB), not all accounts over $3m. The actual tax structure and rate needs verification against official legislation.",
-      "suggestion": "Add to fact-checks.json: claim is '15% tax on balances over $3m', verdict is disputed because Division 296 taxes earnings not balances, and the $3m threshold is based on total superannuation balance rather than applying a blanket 15% rate to all accounts above that threshold.",
-      "source": "https://www.bdo.com.au/understanding-new-division-296-tax-changes",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260524-793",
-      "timestamp": "2026-05-24T20:43:18.544Z",
-      "status": "pending"
     },
     {
       "id": "suggestion-20260524-673",
@@ -4582,43 +4570,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Fool.com.au analysis: How new capital gains tax affects ASX shares",
-      "description": "Analysis of how the 2026 Budget CGT changes specifically impact ASX share investors, including effective tax rate changes for different investor types.",
-      "suggestion": "Add to budget-updates.json: Fool.com.au analysis details CGT impact on ASX shares — new minimum 30% floor and indexation changes affect equity investors differently than property investors",
-      "source": "https://www.fool.com.au/2026/05/13/how-will-the-new-capital-gains-tax-affect-asx-shares/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260612-971",
-      "timestamp": "2026-06-12T06:26:37.346Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "BDO: Understanding Division 296 super tax changes for SMSFs",
-      "description": "Technical analysis of Division 296 legislation including indexed thresholds, CGT relief provisions, and practical steps for SMSFs before 1 July 2026 commencement.",
-      "suggestion": "Add to budget-updates.json: BDO analysis provides detailed Division 296 technical guidance — explains indexed thresholds, CGT relief for SMSFs, and preparation steps before July 2026",
-      "source": "https://www.bdo.com.au/en-au/insights/superannuation/understanding-the-new-division-296-superannuation-tax-changes",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260612-729",
-      "timestamp": "2026-06-12T06:26:37.346Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Budget.gov.au official: Tax reform page confirms CGT changes",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Official government confirmation that the 50% CGT discount will be replaced with inflation-based discount and minimum 30% tax on gains from 1 July 2027.",
-      "suggestion": "Add to budget-updates.json: Budget.gov.au confirms official tax reform details — 50% CGT discount replaced by inflation indexation with minimum 30% tax on gains from July 2027",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260612-711",
-      "timestamp": "2026-06-12T06:26:37.346Z",
-      "status": "pending",
-      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
@@ -4653,19 +4604,6 @@
       "id": "suggestion-20260612-459",
       "timestamp": "2026-06-12T06:26:37.346Z",
       "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: Negative gearing has been 'fully abolished' for all investors from 1 July 2027",
-      "description": "William Buck and CommBank sources indicate the cutoff is properties purchased 'after 7:30pm on 12 May 2026'. This means investors who acquired established properties before Budget Night (12 May 2026) but after the cut-off announcement could retain negative gearing benefits until 1 July 2027 and potentially beyond, depending on grandfathering rules. The claim 'fully abolished for all investors' may be inaccurate as it doesn't account for the acquisition timing distinction.",
-      "suggestion": "Add to fact-checks.json: claim is 'negative gearing fully abolished for all investors from 1 July 2027', verdict is 'partially_true' because established properties purchased before 7:30pm on 12 May 2026 may retain negative gearing benefits, and new builds are explicitly exempted from restrictions.",
-      "source": "https://www.williambuck.com/federal-budget-analysis-2026/",
-      "implementation_effort": "45_minutes",
-      "id": "suggestion-20260612-904",
-      "timestamp": "2026-06-12T06:26:37.346Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
     },
     {
       "id": "suggestion-20260612-998",
@@ -5956,6 +5894,60 @@
       "timestamp": "2026-05-24T20:43:18.544Z",
       "status": "implemented",
       "implemented_at": "2026-06-11T23:18:10.516Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Fool.com.au analysis: How new capital gains tax affects ASX shares",
+      "description": "Analysis of how the 2026 Budget CGT changes specifically impact ASX share investors, including effective tax rate changes for different investor types.",
+      "suggestion": "Add to budget-updates.json: Fool.com.au analysis details CGT impact on ASX shares — new minimum 30% floor and indexation changes affect equity investors differently than property investors",
+      "source": "https://www.fool.com.au/2026/05/13/how-will-the-new-capital-gains-tax-affect-asx-shares/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260612-971",
+      "timestamp": "2026-06-12T06:26:37.346Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-12T08:19:42.041Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "BDO: Understanding Division 296 super tax changes for SMSFs",
+      "description": "Technical analysis of Division 296 legislation including indexed thresholds, CGT relief provisions, and practical steps for SMSFs before 1 July 2026 commencement.",
+      "suggestion": "Add to budget-updates.json: BDO analysis provides detailed Division 296 technical guidance — explains indexed thresholds, CGT relief for SMSFs, and preparation steps before July 2026",
+      "source": "https://www.bdo.com.au/en-au/insights/superannuation/understanding-the-new-division-296-superannuation-tax-changes",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260612-729",
+      "timestamp": "2026-06-12T06:26:37.346Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-12T08:20:37.820Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Budget.gov.au official: Tax reform page confirms CGT changes",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Official government confirmation that the 50% CGT discount will be replaced with inflation-based discount and minimum 30% tax on gains from 1 July 2027.",
+      "suggestion": "Add to budget-updates.json: Budget.gov.au confirms official tax reform details — 50% CGT discount replaced by inflation indexation with minimum 30% tax on gains from July 2027",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260612-711",
+      "timestamp": "2026-06-12T06:26:37.346Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implemented_at": "2026-06-12T08:21:26.171Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Negative gearing has been 'fully abolished' for all investors from 1 July 2027",
+      "description": "William Buck and CommBank sources indicate the cutoff is properties purchased 'after 7:30pm on 12 May 2026'. This means investors who acquired established properties before Budget Night (12 May 2026) but after the cut-off announcement could retain negative gearing benefits until 1 July 2027 and potentially beyond, depending on grandfathering rules. The claim 'fully abolished for all investors' may be inaccurate as it doesn't account for the acquisition timing distinction.",
+      "suggestion": "Add to fact-checks.json: claim is 'negative gearing fully abolished for all investors from 1 July 2027', verdict is 'partially_true' because established properties purchased before 7:30pm on 12 May 2026 may retain negative gearing benefits, and new builds are explicitly exempted from restrictions.",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026/",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260612-904",
+      "timestamp": "2026-06-12T06:26:37.346Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implemented_at": "2026-06-12T08:21:42.452Z"
     }
   ],
   "skipped": [
@@ -6586,6 +6578,20 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-11T23:18:15.410Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 super tax applies a 15% tax on all super balances over $3m'",
+      "description": "Multiple sources reference Division 296 tax on super balances over $3m, but at least one source specifically states a '15% tax on all super balances over $3m'. This phrasing could be inaccurate because: (1) Division 296 taxes superannuation *earnings*, not the balance itself; (2) The $3m threshold applies to Total Superannuation Balance (TSB), not all accounts over $3m. The actual tax structure and rate needs verification against official legislation.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on balances over $3m', verdict is disputed because Division 296 taxes earnings not balances, and the $3m threshold is based on total superannuation balance rather than applying a blanket 15% rate to all accounts above that threshold.",
+      "source": "https://www.bdo.com.au/understanding-new-division-296-tax-changes",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260524-793",
+      "timestamp": "2026-05-24T20:43:18.544Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-12T08:22:04.971Z"
     }
   ],
   "needs_manual_review": [

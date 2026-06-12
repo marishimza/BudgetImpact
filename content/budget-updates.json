@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T23:17:41.923Z",
+  "lastUpdated": "2026-06-12T08:21:26.167Z",
   "items": [
     {
       "id": "update-001",
@@ -1716,6 +1716,36 @@
       "title": "Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade",
       "summary": "Treasury analysis released with Budget 2026-27 shows that inflation comprised 56% of asset price growth for ASX 200 shares held for 10 years to March 2026. The data provides quantitative justification for replacing the CGT discount with inflation indexation, as the current discount undercompensates share market investors for inflation impact.",
       "url": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "priority": "high"
+    },
+    {
+      "id": "update-170",
+      "date": "2026-05-13",
+      "tag": "ASX",
+      "source": "Fool.com.au",
+      "title": "Fool.com.au analysis: How new capital gains tax affects ASX shares",
+      "summary": "Fool.com.au examines how the 2026 Budget's capital gains tax changes specifically impact ASX share investors. The analysis covers the new 30% minimum tax floor and indexation method changes, explaining how equity investors are affected differently compared to property investors. The piece details effective tax rate changes for different investor types including individual shareholders, self-managed super funds, and managed funds.",
+      "url": "https://www.fool.com.au/2026/05/13/how-will-the-new-capital-gains-tax-affect-asx-shares/",
+      "priority": "high"
+    },
+    {
+      "id": "update-171",
+      "date": "2026-06-12",
+      "tag": "Superannuation",
+      "source": "BDO",
+      "title": "BDO: Understanding Division 296 super tax changes for SMSFs",
+      "summary": "BDO provides technical analysis of Division 296 legislation affecting SMSFs, explaining indexed thresholds and how they apply to fund balances. The analysis covers CGT relief provisions available to SMSFs and outlines practical preparation steps trustees should take before the 1 July 2026 commencement date.",
+      "url": "https://www.bdo.com.au/en-au/insights/superannuation/understanding-the-new-division-296-superannuation-tax-changes",
+      "priority": "high"
+    },
+    {
+      "id": "update-172",
+      "date": "2026-05-13",
+      "tag": "Budget",
+      "source": "Australian Government Budget",
+      "title": "Budget.gov.au official: Tax reform page confirms CGT changes",
+      "summary": "The official Australian Government Budget website has published confirmation of significant capital gains tax (CGT) reforms. From 1 July 2027, the existing 50% CGT discount will be replaced with an inflation indexation method, ensuring gains are adjusted for inflationary effects before taxation. The reforms also introduce a minimum 30% tax rate on capital gains, affecting property investors and asset holders across Australia.",
+      "url": "https://budget.gov.au/content/04-tax-reform.htm",
       "priority": "high"
     }
   ]

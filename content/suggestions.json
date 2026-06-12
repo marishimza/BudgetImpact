@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T12:52:48.469Z",
+  "lastUpdated": "2026-06-12T16:41:32.565Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -4640,62 +4640,95 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
+    },
     {
       "type": "content_update",
       "priority": "high",
       "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
-      "description": "The ATO has published detailed guidance on how inflation indexation will be calculated under the new CGT rules, including cost base adjustment methodologies and worked examples for different asset classes.",
-      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The ATO has released practical guidance to help taxpayers calculate capital gains under the new inflation-indexed CGT rules taking effect 1 July 2027. The guidance explains how to apply cost base indexation to assets acquired after the Budget announcement.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations — helps investors understand how to calculate indexed cost base under new rules from 1 July 2027",
       "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260605-891",
-      "timestamp": "2026-06-05T11:18:33.321Z",
-      "status": "implemented",
-      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
-      "implemented_at": "2026-06-05T12:33:06.563Z"
+      "id": "suggestion-20260612-229",
+      "timestamp": "2026-06-12T16:41:26.745Z",
+      "status": "pending",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
     },
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "KPMG analysis: Implementation timeline risks as ATO prepares for CGT reform with $47.5m funding",
-      "description": "KPMG's Federal Budget analysis highlights implementation challenges for the ATO and Treasury in delivering CGT and negative gearing changes by July 2027, with $47.5m allocated over four years for system updates and compliance guidance.",
-      "suggestion": "Add to budget-updates.json: KPMG analysis: Implementation timeline risks as ATO prepares for CGT reform with $47.5m funding",
+      "title": "KPMG flags implementation timeline risks as ATO prepares for CGT reform",
+      "description": "KPMG analysis highlights implementation timeline risks as the ATO prepares for major CGT reform with $47.5 million in allocated funding. The analysis questions whether the 12-month lead time is sufficient for the ATO to develop necessary systems and guidance for the new inflation-indexed CGT discount rules.",
+      "suggestion": "Add to budget-updates.json: KPMG analysis flags implementation timeline risks for CGT reform — questions whether ATO's 12-month preparation window is sufficient with $47.5m allocated funding",
       "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260605-176",
-      "timestamp": "2026-06-05T11:18:33.321Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-05T12:33:15.211Z"
+      "id": "suggestion-20260612-560",
+      "timestamp": "2026-06-12T16:41:26.745Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "NAB revises housing forecast following Budget tax reforms — brief correction not prolonged slump",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] NAB has revised its housing forecast following the Budget's negative gearing and CGT changes, projecting a brief market correction rather than a prolonged slump. The bank notes the reforms are designed to shift investor behaviour rather than crash the market.",
+      "suggestion": "Add to budget-updates.json: NAB revises housing forecast following Budget tax reforms — projects brief correction not prolonged slump, suggesting reforms designed to shift behaviour not crash market",
+      "source": "https://www.commbank.com.au/articles/newsroom/2026/05/2026-budget-updated-housing-outlook.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260612-852",
+      "timestamp": "2026-06-12T16:41:26.745Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will limiting negative gearing to new builds increase or decrease rental supply?",
+      "description": "The Government projects that restricting negative gearing to new builds will 'focus tax support on new supply', effectively increasing housing stock. However, industry bodies (REIA and Property Council of Australia) warn this policy 'could reduce rental supply over time' by making residential property investment less attractive. These are conflicting factual projections about the same policy's rental market impact.",
+      "suggestion": "Add to debates.json: Government position (budget.gov.au) claims limiting negative gearing to new builds will 'focus tax support on new supply'; Industry bodies via Slate & Sage (REIA and Property Council) express concern the policy 'could reduce rental supply over time'",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm and https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260612-521",
+      "timestamp": "2026-06-12T16:41:26.745Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "This claim appears in multiple sources but may oversimplify how Division 296 tax actually works. The ATO official source states the tax is '15% on the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning 15% on the EARNINGS attributable to the portion of the balance above $3m, not 15% on the entire balance over $3m. This is a significant distinction that could lead to overestimation of tax liability.",
+      "suggestion": "Add to fact-checks.json: Claim that '15% tax applies to all super balances over $3m' is DISPUTED/OVERSIMPLIFIED because Division 296 only taxes the earnings attributable to the balance above the threshold, not the excess balance itself. A $4m balance doesn't pay 15% × $1m = $150k; it pays 15% on the earnings generated by the portion above $3m.",
+      "source": "https://www.ato.gov.au/Better-targeted-super-concessions",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260612-615",
+      "timestamp": "2026-06-12T16:41:26.745Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
     },
     {
       "type": "fact_check",
       "priority": "medium",
-      "title": "Claim: Negative gearing changes take effect from 1 July 2027",
-      "description": "Many sources state the negative gearing changes start from 1 July 2027. However, williambuck.com and abc.net.au indicate that new property purchases AFTER 7:30pm on 12 May 2026 are immediately ineligible for negative gearing (unless newly built). The 1 July 2027 date may refer to when existing negatively-geared properties lose their benefits, while new purchases face immediate restrictions. This timing distinction could be misquoted.",
-      "suggestion": "Add to fact-checks.json: claim is partially_true because while existing negatively-geared properties retain benefits until 1 July 2027, NEW purchases after budget night (7:30pm 12 May 2026) are immediately ineligible for established properties",
-      "source": "https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing/",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260518-818",
-      "timestamp": "2026-05-18T11:38:24.529Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-05T12:33:50.045Z"
+      "title": "Claim: 'The 50% CGT discount is being replaced by inflation indexation' (with cost base indexation alternative phrasing)",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Sources use conflicting terminology. The budget.gov.au says 'discount based on inflation.' perpetual.com.au says 'cost base indexation, much like the method used between 1985 and 1999.' These may describe different calculation methods with different outcomes for taxpayers. 'Inflation indexation' typically adjusts cost base by CPI, while 'cost base indexation' historically used a different methodology.",
+      "suggestion": "Add to fact-checks.json: Claim requires clarification - official Budget says 'discount based on inflation' while other sources describe 'cost base indexation.' These terms may refer to different calculation methods with varying outcomes. The mechanism needs verification against the actual legislation.",
+      "source": "https://www.budget.gov.au/tax-reform",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260612-551",
+      "timestamp": "2026-06-12T16:41:26.745Z",
+      "status": "pending"
     },
     {
-      "type": "fact_check",
+      "id": "suggestion-20260612-646",
+      "timestamp": "2026-06-12T16:41:26.745Z",
+      "status": "pending",
       "priority": "medium",
-      "title": "Claim: Negative gearing changes take effect from 1 July 2027",
-      "description": "Multiple sources (williambuck.com, abc.net.au) state negative gearing changes apply from 1 July 2027. However, this needs verification: the cut-off for purchases is 7:30pm on 12 May 2026 (budget night), but the effective date for losing the tax benefit on existing investments appears to be 1 July 2027. The framing of 'takes effect' could mislead investors about when restrictions actually apply.",
-      "suggestion": "Add to fact-checks.json: claim is 'negative gearing changes take effect from 1 July 2027' — verdict is partially_true because new purchases after 7:30pm 12 May 2026 are immediately ineligible for established properties, while the 1 July 2027 date likely applies to existing investments or the full implementation timeline. Source conflict requires clarification.",
-      "source": "https://www.abc.net.au/news/2026-05-13/government-breaks-promise-negative-gearing-cgt-budget/2026-05-13",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260518-359",
-      "timestamp": "2026-05-18T12:30:51.984Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-05T12:34:08.439Z"
-    },
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "high",
@@ -5950,20 +5983,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: The 50% CGT discount is being 'replaced' by cost base indexation",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources describe the CGT reform as a simple replacement of the 50% discount with inflation indexation. However, budget.gov.au states the reform includes BOTH indexation AND a 'minimum 30 per cent tax on gains' from 1 July 2027. This dual-component change may be oversimplified in media coverage, potentially omitting either the indexation or the 30% minimum tax floor.",
-      "suggestion": "Add to fact-checks.json: claim is partially_true because the reform has two components - inflation-based indexation AND a 30% minimum tax on capital gains - not just indexation alone",
-      "source": "https://budget.gov.au/publications/budget-overview.htm",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260518-129",
-      "timestamp": "2026-05-18T11:38:24.529Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-05T12:33:21.973Z"
-    },
     {
       "type": "content_update",
       "priority": "medium",

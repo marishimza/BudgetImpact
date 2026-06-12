@@ -3498,6 +3498,72 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-04T23:05:53.754Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis quantifies CGT reform impact on retirement investors",
+      "description": "ASX analysis provides a concrete numerical example showing the effective tax rate increase for a retired investor on a 16% marginal rate: from 8% on nominal gains under current rules to 30% on indexed gains under the proposed changes — a 22 percentage point increase.",
+      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT reform impact on retirement investors — 8% vs 30% effective rate for a retired investor on a 16% marginal tax rate under current vs proposed rules, representing a 22 percentage point increase.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260605-234",
+      "timestamp": "2026-06-05T06:13:51.267Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-05T08:02:16.655Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ABC Budget 2026: Winners and losers — $6.4 billion housing measure cost confirmed",
+      "description": "ABC News reports the official costing of the housing package containing negative gearing and CGT changes: $6.4 billion over four years, with analysis of distributional impacts including who benefits and who loses from the reforms.",
+      "suggestion": "Add to budget-updates.json: ABC Budget 2026: Winners and losers — $6.4 billion housing measure cost confirmed with distributional impact analysis.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260605-851",
+      "timestamp": "2026-06-05T06:13:51.267Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-05T08:03:01.715Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASA calls for capital gains averaging alongside indexation to address income bunching",
+      "description": "The Australian Shareholders Association has urged the government to introduce a capital gains averaging mechanism alongside the inflation indexation reform to prevent 'income bunching' where gains realised in a single year push taxpayers into higher brackets, calling for proper consultation before major changes were announced.",
+      "suggestion": "Add to budget-updates.json: Australian Shareholders Association calls for capital gains averaging mechanism alongside indexation reform to address 'income bunching' where gains are realised in a single tax year.",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260605-401",
+      "timestamp": "2026-06-05T06:13:51.267Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-05T08:03:34.645Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Broken promise or legitimate policy reversal? Labor's negative gearing reform",
+      "description": "Labor campaigned against 'negative gearing reform' before the 2025 election. The 2026 budget now implements exactly that. The question is whether this constitutes a broken promise or whether the limited application (to new builds only, from 2027) differs sufficiently from the proposal Labor previously opposed to not count as a broken commitment.",
+      "suggestion": "Add to debates.json: abc.net.au explicitly states 'Government breaks promise with restrictions to negative gearing and capital gains tax discount.' Meanwhile, budget.gov.au frames this as targeted reform (limited to new builds from July 2027), suggesting a deliberate narrowing rather than abandonment. Coalition (theguardian.com) calls it 'toxic' and built on 'bad faith.'",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860; https://www.budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-143",
+      "timestamp": "2026-05-18T06:05:26.603Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-05T08:04:03.327Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a new 'minimum 30% tax rate'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The budget states a 'minimum 30 per cent tax on gains' will apply from July 2027. However, for individual taxpayers, capital gains are added to ordinary income and taxed at marginal rates. The 30% minimum would primarily affect entities like trusts or companies. The framing as a universal 'minimum tax rate on all gains' may mislead individual investors about their actual tax treatment.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax rate on all capital gains', verdict is partially_true because while a 30% minimum applies, individual taxpayers are taxed at their marginal rate on capital gains (which could be less than 30% for lower earners). The 30% floor primarily affects trusts and potentially companies.",
+      "source": "https://budget.gov.au/2026-27/content/tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-833",
+      "timestamp": "2026-05-18T06:05:26.603Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-05T08:04:14.528Z"
     }
   ]
 }

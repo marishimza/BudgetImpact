@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T11:52:46.504Z",
+  "lastUpdated": "2026-06-13T17:18:34.440Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1117,6 +1117,60 @@
         "argument": "Reducing the attractiveness of residential property investment 'could reduce rental supply over time'. Industry bodies warn that restricting negative gearing and CGT arrangements would discourage investor participation in the rental market, leading to decreased rental availability.",
         "sources": [
           "https://www.theguardian.com/australia-news/2026/may/22/australia-negative-gearing-capital-gains-tax-housing-community-groups-urge-mps"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-048",
+      "slug": "when-negative-gearing-restrictions-take-effect",
+      "title": "When do negative gearing restrictions take effect: Budget Night announcement or 1 July 2027?",
+      "category": "tax",
+      "type": "factual_dispute",
+      "summary": "Confusion exists over the commencement date for negative gearing restrictions announced in Budget 2026. The official budget.gov.au fact sheet appears to allow ongoing negative gearing for existing investors without an explicit cutoff date, while news sources reference 1 July 2027 as the commencement date for restrictions.",
+      "view_a": {
+        "label": "Budget.gov.au: No explicit cutoff for existing investors",
+        "argument": "The official budget.gov.au fact sheet (12 May 2026) states that Michael can 'continue to negatively gear this property in future years'. The framing implies ongoing eligibility for existing investors with no visible grandfathering cutoff date. This suggests the changes may apply only to new property purchases rather than affecting existing negatively-geared investments.",
+        "sources": [
+          {
+            "label": "budget.gov.au Fact Sheet",
+            "date": "2026-05-12",
+            "url": "https://budget.gov.au/2026-27/fact-sheets/negative-gearing"
+          }
+        ]
+      },
+      "view_b": {
+        "label": "abc.net.au: Restrictions commence 1 July 2027",
+        "argument": "ABC News (13 May 2026) reports that 'restrictions on negative gearing...will be phased out under a plan announced by Treasurer Jim Chalmers'. Multiple news sources cite 1 July 2027 as the commencement date for the restrictions, implying a defined implementation timeline. This creates a specific boundary for when investors lose access to negative gearing on existing properties.",
+        "sources": [
+          {
+            "label": "ABC News",
+            "date": "2026-05-13",
+            "url": "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294"
+          }
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-049",
+      "slug": "cgt-discount-existing-investors",
+      "title": "Is the 50% CGT discount preserved or replaced for existing investors?",
+      "category": "housing",
+      "type": "factual_dispute",
+      "summary": "The official budget.gov.au fact sheet shows a worked example where an investor 'still receives the 50% CGT discount' for a property sold after the policy commences. However, the LSJ and other sources suggest the discount is being reformed or replaced with indexation. This creates conflicting factual claims about what existing investors can actually expect.",
+      "view_a": {
+        "label": "Budget.gov.au: Discount Preserved",
+        "argument": "The official budget.gov.au fact sheet explicitly shows a worked example where investor 'Michael' still receives the 50% CGT discount after the policy commences, suggesting the discount is preserved for existing investors.",
+        "sources": [
+          "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
+        ]
+      },
+      "view_b": {
+        "label": "LSJ and Critics: Discount Problematic",
+        "argument": "LSJ and other sources describe the CGT discount as 'the key reason for the housing affordability and rental crisis' and suggest the arrangement is problematic, implying reform or replacement with indexation is needed.",
+        "sources": [
+          "https://lsj.com.au"
         ]
       },
       "verdict": null

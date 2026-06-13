@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T15:27:18.613Z",
+  "lastUpdated": "2026-06-13T17:18:34.442Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -4715,30 +4715,6 @@
     },
     {
       "type": "content_update",
-      "priority": "medium",
-      "title": "Pitcher Partners: Superannuation unchanged in Budget 2026 but ripple effects remain",
-      "description": "Accounting firm Pitcher Partners provides analysis confirming no major super changes in the budget but notes broader tax reform ripple effects on SMSFs and self-managed super funds from CGT and negative gearing changes.",
-      "suggestion": "Add to budget-updates.json: Pitcher Partners analysis confirms superannuation unchanged in Budget 2026 but warns of broader tax reform ripple effects for SMSFs.",
-      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260613-750",
-      "timestamp": "2026-06-13T15:27:05.408Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Fool.com.au: How will the new capital gains tax affect ASX shares?",
-      "description": "Motley Fool analysis examines specific impact of CGT reform on ASX share investors, providing practical guidance for shareholders on how the indexation-based changes will affect share portfolio taxation.",
-      "suggestion": "Add to budget-updates.json: Fool.com.au analysis details how new CGT rules affect ASX share investors.",
-      "source": "https://www.fool.com.au/2026/05/13/how-will-the-new-capital-gains-tax-affect-asx-shares/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260613-983",
-      "timestamp": "2026-06-13T15:27:05.408Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
       "priority": "low",
       "title": "Foreign Resident Capital Gains Notification Legislation Deferred Again",
       "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget documents indicate foreign resident capital gains notification legislation has been deferred again, with threshold remaining at $50m pending further consultation.",
@@ -4748,44 +4724,6 @@
       "id": "suggestion-20260613-732",
       "timestamp": "2026-06-13T15:27:05.408Z",
       "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "high",
-      "title": "When do negative gearing restrictions take effect: Budget Night announcement or 1 July 2027?",
-      "description": "The budget.gov.au fact sheet implies ongoing negative gearing eligibility for existing investors, while multiple news sources cite 1 July 2027 as the commencement date. The ABC News article suggests the government 'calculated the popularity' of the changes, implying a political calculation about timing. This creates confusion about exactly when investors lose access to negative gearing on existing properties.",
-      "suggestion": "Add to debates.json: budget.gov.au fact sheet (12 May 2026) shows Michael can 'continue to negatively gear this property in future years' with no explicit cutoff date visible in the framing, while abc.net.au (13 May 2026) states 'restrictions on negative gearing...will be phased out under a plan announced by Treasurer Jim Chalmers' without clarifying the grandfathering boundary.",
-      "source": "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260613-524",
-      "timestamp": "2026-06-13T15:27:05.408Z",
-      "status": "pending",
-      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Is the 50% CGT discount preserved or replaced for existing investors?",
-      "description": "The official budget.gov.au fact sheet shows a worked example where an investor 'still receives the 50% CGT discount' for a property sold after the policy commences. However, the LSJ and other sources suggest the discount is being reformed or replaced with indexation. This creates conflicting factual claims about what existing investors can actually expect.",
-      "suggestion": "Add to debates.json: budget.gov.au fact sheet explicitly shows Michael 'still receives the 50% CGT discount' after policy commencement, while lsj.com.au describes 'the key reason for the housing affordability and rental crisis' referencing the CGT discount arrangement as problematic, suggesting reform is needed.",
-      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260613-117",
-      "timestamp": "2026-06-13T15:27:05.408Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: Division 296 imposes '15% tax on all superannuation balances exceeding $3 million'",
-      "description": "Multiple sources (ATO, pitch.com.au, bdo.com.au, williambuck.com) describe Division 296 as applying 15% tax on the 'proportion of earnings' or 'income' relating to the balance above the $3m threshold - NOT on the entire balance. This is a critical distinction that media coverage often oversimplifies. A taxpayer with a $4m balance does not pay 15% × $4m = $600k; they pay 15% on the earnings attributable to the amount above $3m.",
-      "suggestion": "Add to fact-checks.json: Claim that Division 296 imposes '15% tax on all super balances over $3m' is PARTIALLY TRUE - the 15% applies only to the proportion of earnings (not the balance itself) that relates to amounts exceeding the $3m threshold",
-      "source": "https://www.ato.gov.au/Better-targeted-super-concessions/Better-targeted-super-concessions-is-law/",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260613-187",
-      "timestamp": "2026-06-13T15:27:05.408Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
     },
     {
       "type": "fact_check",
@@ -6021,6 +5959,73 @@
       "timestamp": "2026-05-26T06:00:16.769Z",
       "status": "implemented",
       "implemented_at": "2026-06-13T11:52:46.507Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "When do negative gearing restrictions take effect: Budget Night announcement or 1 July 2027?",
+      "description": "The budget.gov.au fact sheet implies ongoing negative gearing eligibility for existing investors, while multiple news sources cite 1 July 2027 as the commencement date. The ABC News article suggests the government 'calculated the popularity' of the changes, implying a political calculation about timing. This creates confusion about exactly when investors lose access to negative gearing on existing properties.",
+      "suggestion": "Add to debates.json: budget.gov.au fact sheet (12 May 2026) shows Michael can 'continue to negatively gear this property in future years' with no explicit cutoff date visible in the framing, while abc.net.au (13 May 2026) states 'restrictions on negative gearing...will be phased out under a plan announced by Treasurer Jim Chalmers' without clarifying the grandfathering boundary.",
+      "source": "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260613-524",
+      "timestamp": "2026-06-13T15:27:05.408Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implemented_at": "2026-06-13T17:17:05.930Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Division 296 imposes '15% tax on all superannuation balances exceeding $3 million'",
+      "description": "Multiple sources (ATO, pitch.com.au, bdo.com.au, williambuck.com) describe Division 296 as applying 15% tax on the 'proportion of earnings' or 'income' relating to the balance above the $3m threshold - NOT on the entire balance. This is a critical distinction that media coverage often oversimplifies. A taxpayer with a $4m balance does not pay 15% × $4m = $600k; they pay 15% on the earnings attributable to the amount above $3m.",
+      "suggestion": "Add to fact-checks.json: Claim that Division 296 imposes '15% tax on all super balances over $3m' is PARTIALLY TRUE - the 15% applies only to the proportion of earnings (not the balance itself) that relates to amounts exceeding the $3m threshold",
+      "source": "https://www.ato.gov.au/Better-targeted-super-concessions/Better-targeted-super-concessions-is-law/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260613-187",
+      "timestamp": "2026-06-13T15:27:05.408Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-06-13T17:17:25.791Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Pitcher Partners: Superannuation unchanged in Budget 2026 but ripple effects remain",
+      "description": "Accounting firm Pitcher Partners provides analysis confirming no major super changes in the budget but notes broader tax reform ripple effects on SMSFs and self-managed super funds from CGT and negative gearing changes.",
+      "suggestion": "Add to budget-updates.json: Pitcher Partners analysis confirms superannuation unchanged in Budget 2026 but warns of broader tax reform ripple effects for SMSFs.",
+      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260613-750",
+      "timestamp": "2026-06-13T15:27:05.408Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-13T17:17:41.289Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Fool.com.au: How will the new capital gains tax affect ASX shares?",
+      "description": "Motley Fool analysis examines specific impact of CGT reform on ASX share investors, providing practical guidance for shareholders on how the indexation-based changes will affect share portfolio taxation.",
+      "suggestion": "Add to budget-updates.json: Fool.com.au analysis details how new CGT rules affect ASX share investors.",
+      "source": "https://www.fool.com.au/2026/05/13/how-will-the-new-capital-gains-tax-affect-asx-shares/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260613-983",
+      "timestamp": "2026-06-13T15:27:05.408Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-13T17:18:07.879Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the 50% CGT discount preserved or replaced for existing investors?",
+      "description": "The official budget.gov.au fact sheet shows a worked example where an investor 'still receives the 50% CGT discount' for a property sold after the policy commences. However, the LSJ and other sources suggest the discount is being reformed or replaced with indexation. This creates conflicting factual claims about what existing investors can actually expect.",
+      "suggestion": "Add to debates.json: budget.gov.au fact sheet explicitly shows Michael 'still receives the 50% CGT discount' after policy commencement, while lsj.com.au describes 'the key reason for the housing affordability and rental crisis' referencing the CGT discount arrangement as problematic, suggesting reform is needed.",
+      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260613-117",
+      "timestamp": "2026-06-13T15:27:05.408Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-13T17:18:34.442Z"
     }
   ],
   "skipped": [

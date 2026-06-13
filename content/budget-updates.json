@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T11:52:10.602Z",
+  "lastUpdated": "2026-06-13T17:18:07.876Z",
   "items": [
     {
       "id": "update-001",
@@ -1827,6 +1827,26 @@
       "summary": "The ATO has confirmed that pre-1985 share holdings will receive a valuation reset as part of the CGT reform package effective 1 July 2027. This addresses how historic share holdings will be treated under the new inflation-indexed cost base rules, providing clarity for investors with long-held share portfolios. Practical guidance has been released ahead of the reform implementation to help taxpayers understand how the changes will affect their tax positions.",
       "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "priority": "high"
+    },
+    {
+      "id": "update-181",
+      "date": "2026-06-13",
+      "tag": "Superannuation",
+      "source": "Pitcher Partners",
+      "title": "Pitcher Partners: Superannuation unchanged in Budget 2026 but ripple effects remain",
+      "summary": "Accounting firm Pitcher Partners has confirmed that Budget 2026 left superannuation settings unchanged, with no major policy reforms affecting contribution caps or preservation ages. However, the firm warns that broader tax reform measures, including changes to capital gains tax and negative gearing, will create ripple effects for self-managed super funds and SMSFs. Industry stakeholders should monitor how these indirect changes impact SMSF investment strategies and compliance obligations.",
+      "url": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "priority": "medium"
+    },
+    {
+      "id": "update-182",
+      "date": "2026-05-13",
+      "tag": "ASX",
+      "source": "The Motley Fool Australia",
+      "title": "How will the new capital gains tax affect ASX shares?",
+      "summary": "Motley Fool analysis examines how the new capital gains tax indexation changes will impact Australian share investors. The article provides practical guidance for ASX shareholders on managing their portfolio taxation under the reformed CGT rules, with specific examples of how different investment strategies may be affected.",
+      "url": "https://www.fool.com.au/2026/05/13/how-will-the-new-capital-gains-tax-affect-asx-shares/",
+      "priority": "medium"
     }
   ]
 }

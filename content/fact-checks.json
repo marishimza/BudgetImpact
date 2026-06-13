@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T11:52:29.914Z",
+  "lastUpdated": "2026-06-13T17:17:25.789Z",
   "claims": [
     {
       "id": "fc-001",
@@ -939,6 +939,23 @@
         {
           "name": "Australian Treasury",
           "url": "https://www.treasury.gov.au/consultations/c0c5c6e2-9b3e-46c3-9996-86c3c33e65a7/better-targeted-super-concessions",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-13",
+      "category": "superannuation"
+    },
+    {
+      "id": "fc-049",
+      "slug": "division-296-tax-not-on-entire-super-balance",
+      "claim": "Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The 15% additional tax under Division 296 applies only to the proportion of earnings attributable to amounts above the $3m threshold, not the entire balance.",
+      "detailed_explanation": "Division 296 of the Treasury Laws Amendment (Better Targeted Super Concessions) Act 2023 introduces a 15% tax on 'income from superannuation assets' that relates to amounts exceeding the $3 million total superannuation balance threshold. This is a critical distinction often missed in media coverage. For example, a taxpayer with a $4 million balance does not pay 15% × $4 million = $600,000. Instead, they pay 15% only on the earnings attributable to the $1 million portion above the $3m threshold. The tax is levied on the notional earnings attributed to the excess balance, calculated using a prescribed earnings rate, not on the balance itself.",
+      "sources": [
+        {
+          "name": "Australian Taxation Office",
           "type": "official"
         }
       ],

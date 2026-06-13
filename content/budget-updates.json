@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T07:42:01.720Z",
+  "lastUpdated": "2026-06-13T11:52:10.602Z",
   "items": [
     {
       "id": "update-001",
@@ -1806,6 +1806,26 @@
       "title": "ATO releases practical guidance for CGT indexation calculations",
       "summary": "The ATO has released practical guidance for calculating capital gains tax under the new inflation indexation rules that will apply from 1 July 2027. The guidance explains how to calculate capital gains using cost base indexation, similar to the method used between 1985 and 1999. Taxpayers and advisors can now access detailed instructions on applying the updated CGT methodology ahead of the legislative changes.",
       "url": "https://www.perpetual.com.au/insights/federal-budget-2026/",
+      "priority": "high"
+    },
+    {
+      "id": "update-179",
+      "date": "2026-05-12",
+      "tag": "Budget",
+      "source": "The Guardian",
+      "title": "Trust tax treatment reform confirmed as core component of Budget 2026 asset taxation shift",
+      "summary": "The Government has confirmed trust tax treatment reform as part of its broader strategy to shift taxation from income to assets in Budget 2026. The reform targets discretionary trust distributions that currently allow income to be taxed at lower rates than individual earnings, addressing concerns about trust-based income splitting. This marks a significant shift in how the tax system targets wealth and asset-based income versus traditional employment income.",
+      "url": "https://www.theguardian.com/australia-news/2026/may/12/australia-budget-2026-trust-tax-reform-asset-testing",
+      "priority": "high"
+    },
+    {
+      "id": "update-180",
+      "date": "2026-06-13",
+      "tag": "Budget",
+      "source": "Australian Taxation Office",
+      "title": "ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes",
+      "summary": "The ATO has confirmed that pre-1985 share holdings will receive a valuation reset as part of the CGT reform package effective 1 July 2027. This addresses how historic share holdings will be treated under the new inflation-indexed cost base rules, providing clarity for investors with long-held share portfolios. Practical guidance has been released ahead of the reform implementation to help taxpayers understand how the changes will affect their tax positions.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "priority": "high"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T23:11:44.111Z",
+  "lastUpdated": "2026-06-13T07:42:01.720Z",
   "items": [
     {
       "id": "update-001",
@@ -1786,6 +1786,26 @@
       "title": "Negative gearing cutoff timestamp: 7:30pm on Budget Night",
       "summary": "New details confirm the exact cutoff time for negative gearing changes on established properties: properties purchased after 7:30pm on 12 May 2026 are subject to the new restrictions from 1 July 2027. This precise timestamp differs from the general 1 July 2027 commencement date, providing a clear transition point for property investors.",
       "url": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
+      "priority": "high"
+    },
+    {
+      "id": "update-177",
+      "date": "2026-06-13",
+      "tag": "Superannuation",
+      "source": "Heffron",
+      "title": "ATO releases Division 296 draft legislation with CGT relief provisions for SMSFs",
+      "summary": "The ATO has released draft legislation for Division 296 (Better Targeted Super Concessions) which includes indexed thresholds and CGT relief provisions. The legislation confirms the $3m threshold takes effect from 1 July 2026, with a 15% tax applied to earnings relating to total superannuation balances exceeding this threshold. SMSF trustees should review their investment strategies in light of these provisions.",
+      "url": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
+      "priority": "high"
+    },
+    {
+      "id": "update-178",
+      "date": "2026-06-13",
+      "tag": "Budget",
+      "source": "Perpetual",
+      "title": "ATO releases practical guidance for CGT indexation calculations",
+      "summary": "The ATO has released practical guidance for calculating capital gains tax under the new inflation indexation rules that will apply from 1 July 2027. The guidance explains how to calculate capital gains using cost base indexation, similar to the method used between 1985 and 1999. Taxpayers and advisors can now access detailed instructions on applying the updated CGT methodology ahead of the legislative changes.",
+      "url": "https://www.perpetual.com.au/insights/federal-budget-2026/",
       "priority": "high"
     }
   ]

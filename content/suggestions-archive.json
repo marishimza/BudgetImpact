@@ -3836,6 +3836,73 @@
       "status": "implemented",
       "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
       "implemented_at": "2026-06-06T06:49:59.578Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury Laws Amendment Bill formally lodged with Parliament",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has been formally lodged with Parliament, containing the negative gearing restrictions and CGT reform measures that will face Senate scrutiny.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "source": "https://budget.gov.au/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260606-107",
+      "timestamp": "2026-06-06T09:53:52.170Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-06T11:20:15.278Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Are Labor's negative gearing changes a 'broken promise' or legitimate policy evolution?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ABC News explicitly frames the changes as the government 'break[ing] promise' on negative gearing. The PM and government members defend this as legitimate policy evolution responding to changed circumstances. This is a factual debate about whether the 2019 election commitment specifically promised no future changes versus a moral claim.",
+      "suggestion": "Add to debates.json: view_a from ABC News says 'Government breaks promise with restrictions to negative gearing'; view_b from PM Albanese and government sources argue this represents legitimate policy evolution rather than promise-breaking, given changed economic circumstances since 2019.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-612",
+      "timestamp": "2026-05-18T14:51:04.513Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-06T11:21:07.897Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "CGT discount: preserved for all properties or eliminated for established homes?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The government's budget materials state investors can 'choose' the 50% CGT discount or new arrangements, while critics and media characterize this as eliminating the discount for established properties. This is a factual conflict about what the policy actually does - whether the 50% discount is fully replaced or remains available as an option.",
+      "suggestion": "Add to debates.json: view_a from budget.gov.au says investors can 'choose the 50 per cent CGT discount or the new arrangements', implying the discount remains available; view_b from abc.net.au and theguardian.com characterize this as the government breaking a promise by restricting/eliminating the CGT discount, with Coalition labeling changes 'toxic'",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260518-578",
+      "timestamp": "2026-05-18T16:45:48.124Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-06T11:21:17.208Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO releases pre-1985 share valuation guidance for CGT indexation",
+      "description": "The ATO has confirmed the valuation reset for pre-1985 share holdings in preparation for the 1 July 2027 CGT changes, providing practical guidance for investors holding historical share portfolios.",
+      "suggestion": "Add to budget-updates.json: ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260606-424",
+      "timestamp": "2026-06-06T09:53:52.170Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-06T11:20:06.001Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO confirms Division 296 indexed thresholds and CGT relief for SMSFs",
+      "description": "The ATO has released practical guidance confirming the indexed thresholds for Division 296 (Better Targeted Super Concessions) and CGT relief provisions for self-managed super funds affected by the high-balance super tax.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details for SMSFs",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260606-730",
+      "timestamp": "2026-06-06T09:53:52.170Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-06T11:20:37.571Z"
     }
   ]
 }

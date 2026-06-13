@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T11:52:46.507Z",
+  "lastUpdated": "2026-06-13T15:27:18.613Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -4712,48 +4712,107 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
+    },
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "Treasury Laws Amendment Bill formally lodged with Parliament",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has been formally lodged with Parliament, containing the negative gearing restrictions and CGT reform measures that will face Senate scrutiny.",
-      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "title": "Pitcher Partners: Superannuation unchanged in Budget 2026 but ripple effects remain",
+      "description": "Accounting firm Pitcher Partners provides analysis confirming no major super changes in the budget but notes broader tax reform ripple effects on SMSFs and self-managed super funds from CGT and negative gearing changes.",
+      "suggestion": "Add to budget-updates.json: Pitcher Partners analysis confirms superannuation unchanged in Budget 2026 but warns of broader tax reform ripple effects for SMSFs.",
+      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260613-750",
+      "timestamp": "2026-06-13T15:27:05.408Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Fool.com.au: How will the new capital gains tax affect ASX shares?",
+      "description": "Motley Fool analysis examines specific impact of CGT reform on ASX share investors, providing practical guidance for shareholders on how the indexation-based changes will affect share portfolio taxation.",
+      "suggestion": "Add to budget-updates.json: Fool.com.au analysis details how new CGT rules affect ASX share investors.",
+      "source": "https://www.fool.com.au/2026/05/13/how-will-the-new-capital-gains-tax-affect-asx-shares/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260613-983",
+      "timestamp": "2026-06-13T15:27:05.408Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "low",
+      "title": "Foreign Resident Capital Gains Notification Legislation Deferred Again",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget documents indicate foreign resident capital gains notification legislation has been deferred again, with threshold remaining at $50m pending further consultation.",
+      "suggestion": "Add to budget-updates.json: Foreign resident capital gains notification legislation deferred again - threshold remains at $50m.",
       "source": "https://budget.gov.au/",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260606-107",
-      "timestamp": "2026-06-06T09:53:52.170Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-06T11:20:15.278Z"
+      "id": "suggestion-20260613-732",
+      "timestamp": "2026-06-13T15:27:05.408Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "When do negative gearing restrictions take effect: Budget Night announcement or 1 July 2027?",
+      "description": "The budget.gov.au fact sheet implies ongoing negative gearing eligibility for existing investors, while multiple news sources cite 1 July 2027 as the commencement date. The ABC News article suggests the government 'calculated the popularity' of the changes, implying a political calculation about timing. This creates confusion about exactly when investors lose access to negative gearing on existing properties.",
+      "suggestion": "Add to debates.json: budget.gov.au fact sheet (12 May 2026) shows Michael can 'continue to negatively gear this property in future years' with no explicit cutoff date visible in the framing, while abc.net.au (13 May 2026) states 'restrictions on negative gearing...will be phased out under a plan announced by Treasurer Jim Chalmers' without clarifying the grandfathering boundary.",
+      "source": "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260613-524",
+      "timestamp": "2026-06-13T15:27:05.408Z",
+      "status": "pending",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
     },
     {
       "type": "debate_page",
       "priority": "medium",
-      "title": "Are Labor's negative gearing changes a 'broken promise' or legitimate policy evolution?",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ABC News explicitly frames the changes as the government 'break[ing] promise' on negative gearing. The PM and government members defend this as legitimate policy evolution responding to changed circumstances. This is a factual debate about whether the 2019 election commitment specifically promised no future changes versus a moral claim.",
-      "suggestion": "Add to debates.json: view_a from ABC News says 'Government breaks promise with restrictions to negative gearing'; view_b from PM Albanese and government sources argue this represents legitimate policy evolution rather than promise-breaking, given changed economic circumstances since 2019.",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260518-612",
-      "timestamp": "2026-05-18T14:51:04.513Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-06T11:21:07.897Z"
+      "title": "Is the 50% CGT discount preserved or replaced for existing investors?",
+      "description": "The official budget.gov.au fact sheet shows a worked example where an investor 'still receives the 50% CGT discount' for a property sold after the policy commences. However, the LSJ and other sources suggest the discount is being reformed or replaced with indexation. This creates conflicting factual claims about what existing investors can actually expect.",
+      "suggestion": "Add to debates.json: budget.gov.au fact sheet explicitly shows Michael 'still receives the 50% CGT discount' after policy commencement, while lsj.com.au describes 'the key reason for the housing affordability and rental crisis' referencing the CGT discount arrangement as problematic, suggesting reform is needed.",
+      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260613-117",
+      "timestamp": "2026-06-13T15:27:05.408Z",
+      "status": "pending"
     },
     {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "CGT discount: preserved for all properties or eliminated for established homes?",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The government's budget materials state investors can 'choose' the 50% CGT discount or new arrangements, while critics and media characterize this as eliminating the discount for established properties. This is a factual conflict about what the policy actually does - whether the 50% discount is fully replaced or remains available as an option.",
-      "suggestion": "Add to debates.json: view_a from budget.gov.au says investors can 'choose the 50 per cent CGT discount or the new arrangements', implying the discount remains available; view_b from abc.net.au and theguardian.com characterize this as the government breaking a promise by restricting/eliminating the CGT discount, with Coalition labeling changes 'toxic'",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Division 296 imposes '15% tax on all superannuation balances exceeding $3 million'",
+      "description": "Multiple sources (ATO, pitch.com.au, bdo.com.au, williambuck.com) describe Division 296 as applying 15% tax on the 'proportion of earnings' or 'income' relating to the balance above the $3m threshold - NOT on the entire balance. This is a critical distinction that media coverage often oversimplifies. A taxpayer with a $4m balance does not pay 15% × $4m = $600k; they pay 15% on the earnings attributable to the amount above $3m.",
+      "suggestion": "Add to fact-checks.json: Claim that Division 296 imposes '15% tax on all super balances over $3m' is PARTIALLY TRUE - the 15% applies only to the proportion of earnings (not the balance itself) that relates to amounts exceeding the $3m threshold",
+      "source": "https://www.ato.gov.au/Better-targeted-super-concessions/Better-targeted-super-concessions-is-law/",
       "implementation_effort": "30_minutes",
-      "id": "suggestion-20260518-578",
-      "timestamp": "2026-05-18T16:45:48.124Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-06T11:21:17.208Z"
+      "id": "suggestion-20260613-187",
+      "timestamp": "2026-06-13T15:27:05.408Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
     },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Negative gearing has been fully abolished for all investors' from 1 July 2027",
+      "description": "William Buck (williambuck.com) specifies negative gearing is abolished for 'established residential properties' for properties purchased AFTER 7:30pm on Budget Night (12 May 2026). This creates nuance: (1) It only applies to established properties, not new builds; (2) Properties purchased before the cutoff may retain negative gearing benefits. Media claims of 'full abolition for all investors' oversimplify the grandfathering provisions.",
+      "suggestion": "Add to fact-checks.json: Claim that 'negative gearing fully abolished for all investors' is DISPUTED - the restrictions apply to established properties purchased after Budget Night (7:30pm 12 May 2026), with new builds and pre-cutoff purchases potentially grandfathered",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260613-752",
+      "timestamp": "2026-06-13T15:27:05.408Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260613-438",
+      "timestamp": "2026-06-13T15:27:05.408Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "high",
@@ -5965,34 +6024,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO releases pre-1985 share valuation guidance for CGT indexation",
-      "description": "The ATO has confirmed the valuation reset for pre-1985 share holdings in preparation for the 1 July 2027 CGT changes, providing practical guidance for investors holding historical share portfolios.",
-      "suggestion": "Add to budget-updates.json: ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260606-424",
-      "timestamp": "2026-06-06T09:53:52.170Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-06T11:20:06.001Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO confirms Division 296 indexed thresholds and CGT relief for SMSFs",
-      "description": "The ATO has released practical guidance confirming the indexed thresholds for Division 296 (Better Targeted Super Concessions) and CGT relief provisions for self-managed super funds affected by the high-balance super tax.",
-      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details for SMSFs",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260606-730",
-      "timestamp": "2026-06-06T09:53:52.170Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-06T11:20:37.571Z"
-    },
     {
       "type": "content_update",
       "priority": "high",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T17:18:34.440Z",
+  "lastUpdated": "2026-06-13T22:59:26.859Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1171,6 +1171,35 @@
         "argument": "LSJ and other sources describe the CGT discount as 'the key reason for the housing affordability and rental crisis' and suggest the arrangement is problematic, implying reform or replacement with indexation is needed.",
         "sources": [
           "https://lsj.com.au"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-050",
+      "slug": "limiting-negative-gearing-new-builds-rental-supply",
+      "title": "Will limiting negative gearing to new builds increase or decrease rental supply?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "A factual conflict about whether restricting negative gearing to new builds will improve or reduce rental supply over time.",
+      "view_a": {
+        "label": "Government position",
+        "argument": "The government claims that restricting negative gearing to new builds will 'focus tax support on new supply' and improve housing availability.",
+        "sources": [
+          {
+            "label": "budget.gov.au",
+            "url": "https://budget.gov.au/2026-27/content/overview.htm"
+          }
+        ]
+      },
+      "view_b": {
+        "label": "Industry concern",
+        "argument": "The Real Estate Institute of Australia and Property Council of Australia have expressed concern that reducing the attractiveness of residential property investment could actually reduce rental supply over time.",
+        "sources": [
+          {
+            "label": "Slate & Sage",
+            "url": "https://www.slateandsage.com.au/news"
+          }
         ]
       },
       "verdict": null

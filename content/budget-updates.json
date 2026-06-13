@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T17:18:07.876Z",
+  "lastUpdated": "2026-06-13T22:59:03.136Z",
   "items": [
     {
       "id": "update-001",
@@ -1847,6 +1847,16 @@
       "summary": "Motley Fool analysis examines how the new capital gains tax indexation changes will impact Australian share investors. The article provides practical guidance for ASX shareholders on managing their portfolio taxation under the reformed CGT rules, with specific examples of how different investment strategies may be affected.",
       "url": "https://www.fool.com.au/2026/05/13/how-will-the-new-capital-gains-tax-affect-asx-shares/",
       "priority": "medium"
+    },
+    {
+      "id": "update-183",
+      "date": "2026-05-15",
+      "tag": "Property",
+      "source": "Commonwealth Bank",
+      "title": "NAB revises housing forecast following Budget tax reforms — brief correction not prolonged slump expected",
+      "summary": "National Australia Bank economists have revised their housing market forecast in response to the Budget's negative gearing and CGT changes. While acknowledging short-term uncertainty, NAB projects any price adjustment will be a brief correction rather than a prolonged slump. The bank cites continued housing supply constraints, population growth, and the exemption for new builds as factors supporting stable property values.",
+      "url": "https://www.commbank.com.au/articles/newsroom/2026/05/2026-budget-updated-housing-outlook.html",
+      "priority": "high"
     }
   ]
 }

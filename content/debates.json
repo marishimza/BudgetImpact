@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T08:11:47.630Z",
+  "lastUpdated": "2026-06-14T17:16:50.751Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1234,6 +1234,52 @@
             "date": "2026-05-15",
             "url": "https://afr.com"
           }
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-052",
+      "slug": "will-2026-negative-gearing-cgt-reforms-cause-prolonged-property-price-slump-or-brief-correction",
+      "title": "Will the 2026 negative gearing and CGT reforms cause a prolonged property price slump or a brief correction?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "Economists are split on whether the 2026 negative gearing and CGT reforms will cause a prolonged property price slump or a brief correction. This dispute has significant implications for investors and homebuyers.",
+      "view_a": {
+        "label": "Prolonged Slump",
+        "argument": "Economists forecast the first national housing slump since 2022, noting 'Fear is expected to weigh on property prices' and sentiment is weighed down by rising interest rates. CGT changes and negative gearing restrictions are expected to significantly impact property values.",
+        "sources": [
+          "Economist forecasts reported in news coverage (May 2026)"
+        ]
+      },
+      "view_b": {
+        "label": "Brief Correction",
+        "argument": "NAB revises housing forecast to 'brief correction not prolonged slump' citing Australia's persistent housing shortage as meaning 'any fall would be short term.' The underlying supply deficit provides fundamental support for property values.",
+        "sources": [
+          "NAB revised housing forecasts"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-053",
+      "slug": "will-restricting-negative-gearing-to-new-builds-increase-or-decrease-rental-supply",
+      "title": "Will restricting negative gearing to new builds increase or decrease rental supply?",
+      "category": "housing",
+      "type": "factual_dispute",
+      "summary": "Property industry bodies and government analysts make conflicting factual claims about rental supply impacts. The REIA and Property Council warn these changes could 'reduce rental supply over time' by making residential property investment less attractive. However, official government analysis from the Budget documents and CommBank indicate the policy is designed to redirect investment from existing housing stock to new supply, which may maintain or increase rental supply through new construction. This is a factual conflict about the causal mechanism and outcomes.",
+      "view_a": {
+        "label": "REIA and Property Council",
+        "argument": "Reducing the attractiveness of residential property investment could reduce rental supply over time.",
+        "sources": [
+          "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors/"
+        ]
+      },
+      "view_b": {
+        "label": "CommBank Analysis",
+        "argument": "The policy is designed to reduce investor demand for existing housing stock while preserving tax support for investment in new supply to support new housing construction.",
+        "sources": [
+          "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors/"
         ]
       },
       "verdict": null

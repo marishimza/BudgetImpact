@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T11:52:21.893Z",
+  "lastUpdated": "2026-06-14T17:14:25.724Z",
   "items": [
     {
       "id": "update-001",
@@ -1875,6 +1875,16 @@
       "source": "Australian Taxation Office",
       "title": "Division 296 Better Targeted Super Concessions legislation confirmed as enacted law — commences 1 July 2026",
       "summary": "The ATO has officially confirmed that Division 296 (Better Targeted Super Concessions) is now enacted law. From 1 July 2026, individuals with a total superannuation balance exceeding $3 million will be subject to 15% tax on earnings relating to the portion above the threshold. The legislation includes CGT relief provisions for SMSFs that have assets with accumulated unrealised gains.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-186",
+      "date": "2026-06-14",
+      "tag": "Superannuation",
+      "source": "ATO",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "summary": "The ATO has released practical guidance to help taxpayers calculate capital gains under the new indexation-based rules that take effect from 1 July 2027. The guidance explains the cost base adjustment methodology under the reformed CGT system, including how to apply indexation factors to assets acquired before and after the changes. Taxpayers should review the updated guidance to ensure compliance with the new calculation requirements.",
       "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "priority": "high"
     }

@@ -4110,6 +4110,74 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-07T07:51:41.081Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The ATO has published technical guidance for investors calculating capital gains using the new inflation-indexation method, ahead of the 1 July 2027 commencement date.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260607-718",
+      "timestamp": "2026-06-07T10:22:22.741Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implemented_at": "2026-06-07T11:44:42.096Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "NAB revises housing forecast following Budget tax reforms",
+      "description": "NAB revised its housing market forecast after the Budget's negative gearing and CGT changes, projecting a brief correction rather than a prolonged slump.",
+      "suggestion": "Add to budget-updates.json: NAB revises housing forecast following Budget tax reforms — brief correction not prolonged slump",
+      "source": "https://www.nab.com.au/content/dam/nab/about-us/pdfs/2026-budget-analysis.pdf",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260607-588",
+      "timestamp": "2026-06-07T10:22:22.741Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-07T11:45:10.135Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is limiting negative gearing to new builds effective housing supply policy?",
+      "description": "The Government says restricting negative gearing to new builds will 'focus tax support on new supply', but the Greens and some economists question whether this alone will address the housing crisis.",
+      "suggestion": "Add to debates.json: view_a from [budget.gov.au] The policy is designed 'to focus tax support on new supply', versus view_b from [discoveryalert.com.au] The Greens characterised the changes as a 'damp squib' that backs 'corporate profits over meaningful structural reform'.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260519-259",
+      "timestamp": "2026-05-19T10:55:22.786Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-07T11:46:11.245Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Division 296 draft legislation released with CGT relief provisions",
+      "description": "Treasury released draft legislation for Division 296 tax, including indexed thresholds, CGT relief provisions, and rules for SMSFs ahead of the 1 July 2026 commencement.",
+      "suggestion": "Add to budget-updates.json: Division 296 draft legislation released with CGT relief provisions",
+      "source": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260607-434",
+      "timestamp": "2026-06-07T10:22:22.741Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-07T11:45:01.998Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: The 50% CGT discount is being replaced by cost base indexation",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources describe the CGT reform differently. NAB states 'replaced by cost base indexation', ABC says 'replaced with indexation aligned with inflation', and budget.gov.au states 'replaced with a discount based on inflation and introduce a minimum 30 per cent tax'. These descriptions are not equivalent - 'cost base indexation' adjusts the purchase price for inflation (changing the cost base), while 'discount based on inflation' appears to be a discount applied to the gain itself. The minimum 30% tax rate is also separate from the indexation mechanism. Media coverage may oversimplify this as a simple swap.",
+      "suggestion": "Add to fact-checks.json: claim is oversimplified, verdict is disputed because the reform has multiple components - an inflation-based discount AND a minimum 30% tax floor - not just indexation replacing the discount. The exact mechanics of the 'discount based on inflation' versus 'cost base indexation' differ and media descriptions are inconsistent.",
+      "source": "https://www.budget.gov.au/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260519-810",
+      "timestamp": "2026-05-19T10:55:22.786Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-07T11:46:14.836Z"
     }
   ]
 }

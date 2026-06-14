@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T17:17:25.789Z",
+  "lastUpdated": "2026-06-14T08:12:04.891Z",
   "claims": [
     {
       "id": "fc-001",
@@ -960,6 +960,24 @@
         }
       ],
       "date_checked": "2026-06-13",
+      "category": "superannuation"
+    },
+    {
+      "id": "fc-050",
+      "slug": "division-296-15-percent-tax-over-3m",
+      "claim": "Division 296 imposes a 15% tax on all superannuation balances over $3m",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "Division 296 does not tax the entire balance over $3m at 15%. It only applies a 15% tax on the earnings proportion attributable to amounts exceeding the $3m Lifetime Superannuation Balance (LSBT) threshold.",
+      "detailed_explanation": "Division 296, known as the Better Targeted Super Concessions measure, imposes an additional 15% tax on the earnings attributable to the portion of a person's Total Superannuation Balance (TSB) that exceeds the $3m Lifetime Superannuation Balance threshold. This is a critical distinction: the tax applies to the proportion of earnings relating to the excess balance, not the excess balance itself. For example, a person with a $3.1m balance and $100k in annual earnings would not pay $15,000 (15% of $100k) in additional tax. Instead, the 15% additional tax would only apply to the portion of those earnings that corresponds to the balance above $3m. The ATO explicitly states the tax applies to 'the proportion of earnings relating to your TSB that exceeds the LSBT'. Confusing the earnings-based tax with a balance-based tax significantly overstates the actual tax liability for those with balances slightly above the threshold.",
+      "sources": [
+        {
+          "name": "Australian Taxation Office",
+          "url": "https://www.ato.gov.au/super/",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-14",
       "category": "superannuation"
     }
   ]

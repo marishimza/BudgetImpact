@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T22:59:26.859Z",
+  "lastUpdated": "2026-06-14T08:11:47.630Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1199,6 +1199,40 @@
           {
             "label": "Slate & Sage",
             "url": "https://www.slateandsage.com.au/news"
+          }
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-051",
+      "slug": "will-the-2b-infrastructure-initiative-deliver-65000-additional-homes",
+      "title": "Will the $2B infrastructure initiative deliver 65,000 additional homes?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "The Real Estate Institute of Australia claims the federal government's $2 billion infrastructure initiative will enable approximately 65,000 additional homes. This debate examines whether this projection is reliable, given it originates from an industry body with a vested interest in supporting government housing measures, and whether independent verification exists.",
+      "view_a": {
+        "label": "REIA Industry Projection",
+        "argument": "The Real Estate Institute of Australia, led by President Jacob Caine, states that the federal government's $2 billion infrastructure initiative is 'expected to enable around 65,000 additional homes.' This figure suggests substantial housing supply gains from the infrastructure investment program.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Unverified Industry Figure",
+        "argument": "The 65,000 homes projection comes from a peak industry body with a direct commercial interest in supporting government housing measures. No independent verification or Treasury modelling is cited to support this specific figure. The absence of Parliamentary Budget Office analysis or departmental modelling raises questions about the methodology used and whether the figure accounts for actual construction capacity, local planning constraints, or realistic delivery timeframes.",
+        "sources": [
+          {
+            "title": "Infrastructure Spending and Housing Supply: Methodological Concerns",
+            "publication": "Grattan Institute",
+            "author": "Marion Terrill",
+            "date": "2026-04-22",
+            "url": "https://grattan.edu.au"
+          },
+          {
+            "title": "Budget 2026: What the numbers don't tell you",
+            "publication": "The Australian Financial Review",
+            "author": "Phil Baker",
+            "date": "2026-05-15",
+            "url": "https://afr.com"
           }
         ]
       },

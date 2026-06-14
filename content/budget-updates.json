@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T22:59:03.136Z",
+  "lastUpdated": "2026-06-14T11:52:21.893Z",
   "items": [
     {
       "id": "update-001",
@@ -1856,6 +1856,26 @@
       "title": "NAB revises housing forecast following Budget tax reforms — brief correction not prolonged slump expected",
       "summary": "National Australia Bank economists have revised their housing market forecast in response to the Budget's negative gearing and CGT changes. While acknowledging short-term uncertainty, NAB projects any price adjustment will be a brief correction rather than a prolonged slump. The bank cites continued housing supply constraints, population growth, and the exemption for new builds as factors supporting stable property values.",
       "url": "https://www.commbank.com.au/articles/newsroom/2026/05/2026-budget-updated-housing-outlook.html",
+      "priority": "high"
+    },
+    {
+      "id": "update-184",
+      "date": "2026-06-14",
+      "tag": "Parliament",
+      "source": "2026 Australian Federal Budget",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "summary": "The main housing reform bill containing negative gearing and capital gains tax changes has been formally lodged with Parliament. The Coalition has signaled opposition and a potential Senate challenge to the legislation. The bill has not yet passed into law and will require support from both houses to proceed.",
+      "url": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
+      "priority": "high"
+    },
+    {
+      "id": "update-185",
+      "date": "2026-06-14",
+      "tag": "Superannuation",
+      "source": "Australian Taxation Office",
+      "title": "Division 296 Better Targeted Super Concessions legislation confirmed as enacted law — commences 1 July 2026",
+      "summary": "The ATO has officially confirmed that Division 296 (Better Targeted Super Concessions) is now enacted law. From 1 July 2026, individuals with a total superannuation balance exceeding $3 million will be subject to 15% tax on earnings relating to the portion above the threshold. The legislation includes CGT relief provisions for SMSFs that have assets with accumulated unrealised gains.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "priority": "high"
     }
   ]

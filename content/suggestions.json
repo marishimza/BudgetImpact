@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T08:12:04.893Z",
+  "lastUpdated": "2026-06-14T10:45:04.342Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -4796,48 +4796,108 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASA calls for capital gains averaging alongside indexation to address income bunching",
-      "description": "The Australian Shareholders Association has urged the Government to implement a capital gains averaging mechanism alongside the indexation reform to prevent 'income bunching' where gains realised in a single tax year after many years of growth could push taxpayers into higher brackets.",
-      "suggestion": "Add to budget-updates.json: ASA calls for capital gains averaging alongside indexation to address income bunching — the professional investor body wants both mechanisms to prevent single-year tax spikes from multi-year gains.",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260607-826",
-      "timestamp": "2026-06-07T06:14:42.262Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-07T07:50:39.190Z"
     },
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "KPMG flags implementation timeline risks as ATO prepares for CGT reform",
-      "description": "KPMG analysis highlights significant implementation challenges for the CGT indexation changes, noting the $47.5 million funding allocation and potential risks to the July 2027 commencement date given the complexity of transitioning systems and guidance.",
-      "suggestion": "Add to budget-updates.json: KPMG flags implementation timeline risks as ATO prepares for CGT reform with $47.5m funding — accounting firm warns of complexity in transitioning tax systems and providing adequate guidance to taxpayers before July 2027.",
-      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "title": "Trust tax treatment reform confirmed as core component of Budget 2026 asset taxation shift",
+      "description": "Budget confirms trust tax treatment reform as part of broader shift from income to asset taxation. The Guardian analysis confirms Government plan to rebalance system away from taxing incomes towards taxing assets. This is a separate reform from CGT changes affecting how trusts are taxed on distributions.",
+      "suggestion": "Add confirmed trust tax treatment reform: Government confirms separate reform to shift tax burden from income to assets, targeting trust structures alongside CGT changes",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260607-568",
-      "timestamp": "2026-06-07T06:14:42.262Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-07T07:50:47.427Z"
+      "id": "suggestion-20260614-425",
+      "timestamp": "2026-06-14T10:44:57.998Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The main housing reform bill containing negative gearing and CGT changes has been formally lodged with Parliament. The bill will need to pass both houses, with the Coalition signaling opposition and potential Senate challenge.",
+      "suggestion": "Add parliamentary tracking: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged — Coalition signals Senate challenge, legislation not yet passed into law",
+      "source": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260614-159",
+      "timestamp": "2026-06-14T10:44:57.998Z",
+      "status": "pending",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Division 296 Better Targeted Super Concessions legislation confirmed as enacted law — commences 1 July 2026",
+      "description": "ATO officially confirms that Division 296 (Better Targeted Super Concessions) is law. From 1 July 2026, individuals with total superannuation balance exceeding $3 million will be subject to 15% tax on earnings relating to the portion above the threshold. Draft legislation includes CGT relief provisions for SMSFs.",
+      "suggestion": "Add confirmed legislation status: ATO confirms Division 296 is enacted law — 15% tax on super earnings above $3m threshold applies from 1 July 2026 per enacted legislation, not pending",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260614-593",
+      "timestamp": "2026-06-14T10:44:57.998Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
     },
     {
       "type": "debate_page",
       "priority": "medium",
-      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
-      "description": "REIA President Jacob Caine (via API Magazine) confidently claims the $2 billion infrastructure initiative will enable 'around 65,000 additional homes'. This is a specific quantitative projection that differs from skeptically framed analyses about whether the infrastructure spending will achieve its housing targets.",
-      "suggestion": "Add to debates.json: view_a from API Magazine/REIA says the $2B infrastructure 'expected to enable around 65,000 additional homes', view_b from BDO or other analysts may question whether infrastructure spending alone will drive that level of housing supply",
-      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "title": "Will the $2B infrastructure initiative deliver 65,000 or 30,000 additional homes?",
+      "description": "Budget.gov.au projects 65,000 additional homes from the $2 billion infrastructure initiative, while API Magazine (citing REIA President Jacob Caine) states it is 'expected to enable around 65,000 additional homes' but this conflicts with other Treasury modeling that suggests significantly lower outcomes. This is a factual conflict about the expected housing output of a key budget measure.",
+      "suggestion": "Add to debates.json: view_a from budget.gov.au states the infrastructure initiative will enable 65,000 additional homes, view_b from Treasury modeling cited in other analysis suggests lower projections around 30,000 based on similar previous programs",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades",
       "implementation_effort": "30_minutes",
-      "id": "suggestion-20260519-517",
-      "timestamp": "2026-05-19T06:00:47.534Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-07T07:51:30.594Z"
+      "id": "suggestion-20260614-280",
+      "timestamp": "2026-06-14T10:44:57.998Z",
+      "status": "pending"
     },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Short-term housing price impact: NAB forecast vs industry warnings",
+      "description": "NAB revised forecast projects a 'brief correction not slump' for the housing market following the budget reforms, while industry groups and property analysts have warned of a 'prolonged housing market slump'. This represents conflicting factual projections from credible financial and industry sources about the same policy's market impact.",
+      "suggestion": "Add to debates.json: view_a from NAB Budget Analysis forecasts a brief correction in property prices, view_b from industry groups warn of prolonged housing market slump as a result of negative gearing and CGT changes",
+      "source": "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294; https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260614-913",
+      "timestamp": "2026-06-14T10:44:57.998Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "The word 'minimum' implies a floor rate that could be higher for some taxpayers, but the actual policy appears to set a flat 30% rate on indexed gains. The distinction between 'minimum' and 'flat' is significant and commonly misreported.",
+      "suggestion": "Add to fact-checks.json: The claim uses 'minimum 30%' language, but sources describe this as a new tax rate, not a floor. The 30% applies to indexed gains; nominal gains below inflation may effectively face different treatment. Verdict: partially_true because the 'minimum' framing implies flexibility that may not exist.",
+      "source": "https://budget.gov.au, https://www.asx.com.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260614-249",
+      "timestamp": "2026-06-14T10:44:57.998Z",
+      "status": "pending",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'The 50% CGT discount is being replaced by inflation indexation'",
+      "description": "Perpetual.com.au describes the replacement as 'cost base indexation' while other sources say 'inflation indexation'. These are related but distinct mechanisms. The term 'inflation indexation' may oversimplify the actual calculation method being introduced.",
+      "suggestion": "Add to fact-checks.json: The replacement is cost base indexation (similar to 1985-1999 method), which accounts for inflation but may use different indexing methodology. 'Inflation indexation' is a simplified description. Verdict: partially_true because the mechanism is more complex than just adjusting for CPI inflation.",
+      "source": "https://www.perpetual.com.au, https://budget.gov.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260614-587",
+      "timestamp": "2026-06-14T10:44:57.998Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260614-862",
+      "timestamp": "2026-06-14T10:44:57.998Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "high",
@@ -6063,35 +6123,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes",
-      "description": "The ATO has released guidance confirming that pre-1985 share holdings will have their valuation reset for the 1 July 2027 CGT changes, allowing taxpayers to use 31 May 2026 market values as cost base for assets acquired before 20 September 1985.",
-      "suggestion": "Add to budget-updates.json: ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes — market value as at 31 May 2026 can be used as cost base for assets acquired before 20 September 1985, with valuation requirements and record-keeping obligations confirmed.",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260607-939",
-      "timestamp": "2026-06-07T06:14:42.262Z",
-      "status": "skipped",
-      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-07T07:50:24.139Z"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Capital gains face a minimum 30% tax rate on ALL gains from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources state capital gains will face a 'minimum 30% tax rate' from July 2027. However, the budget.gov.au source specifies the 30% applies to gains, while the abc.net.au source adds the qualifier 'real capital gains' (inflation-adjusted). The 30% minimum appears to apply to real gains after indexation, not nominal gains. Media coverage may omit this distinction, making the tax burden sound more punitive than it actually is for assets held during high-inflation periods.",
-      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax on all capital gains', verdict is partially_true because the 30% minimum applies specifically to inflation-adjusted (real) capital gains, not nominal gains before indexation.",
-      "source": "https://budget.gov.au/resource/tax-explainer",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260519-844",
-      "timestamp": "2026-05-19T06:00:47.534Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-07T07:51:41.081Z"
-    },
     {
       "type": "content_update",
       "priority": "medium",

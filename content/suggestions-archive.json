@@ -4381,6 +4381,74 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-08T08:50:14.655Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'A retired investor on a 16% marginal tax rate faces 8% tax on nominal gains' under current CGT system",
+      "description": "This specific tax calculation appears in ASX analysis comparing current vs proposed CGT treatment. While mathematically the 50% discount on 16% rate equals 8% nominal rate, the claim may oversimplify by ignoring that indexation-adjusted gains could result in a lower effective rate for long-held assets with high inflation. Multiple sources cite this exact figure without qualification.",
+      "suggestion": "Add to fact-checks.json: claim is '16% marginal rate × 50% discount = 8% effective rate on nominal gains', verdict is 'partially_true' because the math is correct for nominal gains but misleading without context - indexation under new rules could produce lower effective rates for inflation-affected assets, and the comparison ignores compounding effects over holding periods.",
+      "source": "https://www.asx.com.au/...",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260608-859",
+      "timestamp": "2026-06-08T12:22:25.732Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/how-to-calculate-your-cgt",
+      "implemented_at": "2026-06-08T14:02:23.928Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will negative gearing and CGT changes actually improve housing affordability?",
+      "description": "The government and industry bodies claim restricting negative gearing to new builds will increase housing supply and improve affordability, while the Greens dismiss the measures as inadequate and the Coalition suggests immigration caps are the better solution.",
+      "suggestion": "Add to debates.json: view_a from API Magazine/REIA says the measures 'directly support new housing supply' and are 'positive and necessary steps toward addressing Australia's housing shortage'; view_b from the Greens (via discoveryalert) says the changes are 'a damp squib' with government backing 'corporate profits over meaningful structural reform'; view_c from the Coalition (via the Guardian) vows to repeal the changes and prioritizes immigration reduction over property tax reform",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades; https://discoveryalert.com.au/australian-budget-negative-gearing-capital-gains-tax-changes/; https://www.theguardian.com/australia-news/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260520-423",
+      "timestamp": "2026-05-20T21:31:20.496Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-08T14:03:04.405Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will negative gearing and CGT changes actually improve housing affordability?",
+      "description": "The Law Society Journal claims these tax settings are 'the key reason for the housing affordability and rental crisis', implying the reforms will address affordability. However, The Guardian cites economists who believe home values will fall but notes 'Australia's persistent housing shortage means any fall would be short term', suggesting the reforms may not meaningfully improve long-term affordability. REIA's president calls the measures 'positive and necessary steps', while The Guardian's analysis implies the shortage persists despite the reforms.",
+      "suggestion": "Add to debates.json: view_a from Law Society Journal (lsj.com.au) says negative gearing and CGT discount are 'the key reason for the housing affordability and rental crisis' - framing reform as likely to improve affordability; view_b from The Guardian (theguardian.com) cites economists noting 'Australia's persistent housing shortage means any fall would be short term' - implying reforms don't address structural shortage",
+      "source": "https://lsj.com.au/articles/federal-budget-2026-limits-to-negative-gearing-and-capital-gains-tax-reform/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260521-121",
+      "timestamp": "2026-05-21T06:02:18.960Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-08T14:04:30.922Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is Labor's negative gearing and CGT reform a 'broken promise' or legitimate policy evolution?",
+      "description": "ABC News explicitly states the government calculated breaking another promise was worth it, while the government framing presents this as legitimate policy evolution responding to changed circumstances. The Coalition and critics frame it as a broken election commitment.",
+      "suggestion": "Add to debates.json: view_a from ABC News (budget reporting) says 'The government has calculated the popularity of curbing negative gearing and the CGT discount...will be worth the damage to trust of breaking another promise'; view_b from PM Albanese/the government position presented by the Guardian frames it as addressing housing affordability while managing economic transition, arguing the changed circumstances warrant policy evolution rather than treating it as a broken promise",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860; https://www.theguardian.com/australia-news/2026/may/13/budget-2026-live-updates-reaction-jim-chalmers-tim-wilson-cost-of-living-capital-gains-negative-gearing-housing-tax-ntwnfb",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260520-931",
+      "timestamp": "2026-05-20T21:31:20.496Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-08T14:03:47.834Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources state a 30% minimum tax rate on capital gains, but this may oversimplify the policy. The budget.gov.au source says 'minimum 30% tax on gains' but the abc.net.au source clarifies it's for 'real capital gains accruing' - implying gains above inflation. The actual tax treatment depends on whether inflation indexation produces a larger discount than the 50% rule. The 30% is a floor, not necessarily the rate applied to all gains. This distinction is often lost in media coverage.",
+      "suggestion": "Add to fact-checks.json: claim is that ALL capital gains face a minimum 30% rate from July 2027, verdict is partially_true because while a 30% minimum rate is confirmed by budget.gov.au, it applies to real gains (above inflation), not to the nominal gain. Investors using inflation indexation may pay less than 30% on total gains depending on holding period and inflation rates.",
+      "source": "https://budget.gov.au/2026-27/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260520-378",
+      "timestamp": "2026-05-20T21:31:20.496Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-08T14:04:07.658Z"
     }
   ]
 }

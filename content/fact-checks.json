@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T23:02:53.022Z",
+  "lastUpdated": "2026-06-15T09:56:46.196Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1015,6 +1015,42 @@
       ],
       "date_checked": "2026-06-14",
       "category": "capital-gains-tax"
+    },
+    {
+      "id": "fc-053",
+      "slug": "cgt-inflation-indexation-vs-50-percent-discount",
+      "claim": "Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets",
+      "verdict": "disputed",
+      "verdict_label": "Disputed / Oversimplified",
+      "short_explanation": "The word 'always' makes this claim misleading. The actual outcome depends on the inflation rate during the holding period, the asset type, and the investor's marginal tax rate.",
+      "detailed_explanation": "This absolute claim overstates the case. While inflation indexation can provide larger benefits in high-inflation environments with long holding periods, the 50% discount method may produce equal or better results in low-inflation environments or for short holding periods. For example, a retired investor on a 16% marginal tax rate currently pays only 8% on nominal gains (16% × 50% discount). For assets with modest inflation over the holding period, this effective rate may remain lower than the indexed cost basis approach, which could produce larger taxable nominal gains. The comparison between these two methods requires individual calculation based on specific circumstances including cumulative inflation, holding period, and marginal tax rate.",
+      "sources": [
+        {
+          "name": "ASX",
+          "url": "https://www.asx.com.au",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-15",
+      "category": "tax"
+    },
+    {
+      "id": "fc-054",
+      "slug": "capital-gains-30-percent-minimum-real-gains",
+      "claim": "The Budget introduces a minimum 30% tax rate on ALL capital gains from July 2027",
+      "verdict": "unclear",
+      "verdict_label": "Unclear",
+      "short_explanation": "The 30% minimum tax rate applies to 'real capital gains' after accounting for inflation indexation, not necessarily to gross nominal gains as commonly reported.",
+      "detailed_explanation": "The Budget proposes a minimum 30% tax rate on capital gains, but this floor applies specifically to 'real capital gains' — those gains calculated after inflation indexation. This means the minimum rate does not apply to the full nominal gain amount. The interaction between the inflation indexation mechanism and the 30% minimum floor creates complexity: if indexation reduces the taxable gain to near zero, the minimum floor may still apply to whatever 'real' gain remains. The distinction between nominal gains, inflation-indexed gains, and the minimum 30% floor on real gains is significant and requires careful tax calculation. Reporting this as a simple '30% on all gains' oversimplifies the actual legislative mechanism.",
+      "sources": [
+        {
+          "name": "Australian Government Budget 2026-27",
+          "url": "https://www.budget.gov.au/Budget-2026-27/tax-reform",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-15",
+      "category": "tax_reform"
     }
   ]
 }

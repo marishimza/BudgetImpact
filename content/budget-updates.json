@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T17:14:25.724Z",
+  "lastUpdated": "2026-06-15T09:56:33.945Z",
   "items": [
     {
       "id": "update-001",
@@ -1887,6 +1887,26 @@
       "summary": "The ATO has released practical guidance to help taxpayers calculate capital gains under the new indexation-based rules that take effect from 1 July 2027. The guidance explains the cost base adjustment methodology under the reformed CGT system, including how to apply indexation factors to assets acquired before and after the changes. Taxpayers should review the updated guidance to ensure compliance with the new calculation requirements.",
       "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "priority": "high"
+    },
+    {
+      "id": "update-187",
+      "date": "2026-06-15",
+      "tag": "Parliament",
+      "source": "Pitcher Partners",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged",
+      "summary": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has been formally lodged with Parliament, implementing the previously announced CGT discount replacement and negative gearing restrictions. The Bill faces a Senate challenge with the Coalition signalling opposition to the housing tax reforms. Parliamentary progress will be monitored as the legislation moves through the lower and upper houses.",
+      "url": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "priority": "high"
+    },
+    {
+      "id": "update-188",
+      "date": "2026-06-15",
+      "tag": "Budget",
+      "source": "ASX",
+      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for different investor types",
+      "summary": "ASX analysis details how the 2026-27 Federal Budget CGT reform package creates a 'two-speed' tax treatment for investors. The reform results in different effective tax rates depending on asset type, holding period, and investor circumstances, with changes affecting both retail and institutional investors differently. Investors should review their portfolio positioning to understand how the reform impacts their specific tax situation.",
+      "url": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "priority": "medium"
     }
   ]
 }

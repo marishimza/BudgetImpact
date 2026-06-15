@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T17:16:50.751Z",
+  "lastUpdated": "2026-06-15T09:57:07.299Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1281,6 +1281,25 @@
         "sources": [
           "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors/"
         ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-054",
+      "slug": "will-coalition-pledge-repeal-negative-gearing-cgt-affect-investor-behaviour-property-market",
+      "title": "Will the Coalition's pledge to repeal negative gearing and CGT changes affect investor behaviour and property market stability?",
+      "category": "property-investment",
+      "type": "factual_dispute",
+      "summary": "The Coalition, led by housing spokesman Tim Wilson, has vowed to repeal Labor's negative gearing and capital gains tax changes, calling them 'toxic'. This debate examines whether such political opposition creates genuine market uncertainty for property investors or represents standard parliamentary opposition behaviour.",
+      "view_a": {
+        "label": "Coalition Position",
+        "argument": "The Coalition views its repeal commitment as legitimate opposition behaviour rather than market manipulation. Tim Wilson has stated the party will 'repeal these measures if necessary', framing this as fulfilling its duty to scrutinise government policy. The Coalition argues that opposing poorly-designed tax changes is a normal part of democratic process and does not constitute creating market instability.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Property Industry Concerns",
+        "argument": "Property industry groups express concern that the Coalition's vocal opposition and repeated pledges to repeal negative gearing and CGT changes create investor uncertainty. Industry observers note that such high-profile political commitments can affect investor confidence and decision-making, potentially slowing property market activity until policy clarity is achieved.",
+        "sources": []
       },
       "verdict": null
     }

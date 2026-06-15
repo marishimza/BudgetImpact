@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T09:57:07.299Z",
+  "lastUpdated": "2026-06-15T15:44:43.910Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1300,6 +1300,52 @@
         "label": "Property Industry Concerns",
         "argument": "Property industry groups express concern that the Coalition's vocal opposition and repeated pledges to repeal negative gearing and CGT changes create investor uncertainty. Industry observers note that such high-profile political commitments can affect investor confidence and decision-making, potentially slowing property market activity until policy clarity is achieved.",
         "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-055",
+      "slug": "will-restricting-negative-gearing-reduce-or-increase-rental-supply",
+      "title": "Will restricting negative gearing reduce or increase rental supply?",
+      "category": "Housing/Affordability",
+      "type": "factual_dispute",
+      "summary": "A factual dispute over whether restricting negative gearing will increase or decrease rental supply in Australia, with direct implications for housing affordability policy.",
+      "view_a": {
+        "label": "Negative gearing added little to rental supply",
+        "argument": "Community sector peak ACOSS and other housing advocates argue that changes to negative gearing and capital gains tax have added little to rental supply and are necessary measures to improve housing affordability. They contend that the previous tax concessions primarily benefited investors and drove up property prices rather than expanding the rental market.",
+        "sources": [
+          {
+            "name": "ABC News",
+            "url": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+            "context": "Community groups including ACOSS urging MPs to support negative gearing reforms"
+          },
+          {
+            "name": "ACOSS",
+            "url": "https://www.acoss.org.au",
+            "context": "Australian Council of Social Service peak body representing community sector on housing policy"
+          }
+        ]
+      },
+      "view_b": {
+        "label": "Restricting negative gearing would reduce rental supply",
+        "argument": "The Real Estate Institute of Australia (REIA) and Property Council of Australia warn that reducing the attractiveness of residential property investment through negative gearing restrictions could reduce rental supply over time. They argue that investor activity is essential for maintaining rental stock and that reduced investment would exacerbate housing shortages and potentially increase rents.",
+        "sources": [
+          {
+            "name": "REIA",
+            "url": "https://www.reia.com.au",
+            "context": "Real Estate Institute of Australia representing property industry on rental supply impacts"
+          },
+          {
+            "name": "Property Council of Australia",
+            "url": "https://www.propertycouncil.com.au",
+            "context": "Peak body for property industry warning of supply reduction from negative gearing changes"
+          },
+          {
+            "name": "Slate & Sage",
+            "url": "https://slateandstone.com.au",
+            "context": "Property economics analysis on investment incentives and rental market outcomes"
+          }
+        ]
       },
       "verdict": null
     }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T09:56:33.945Z",
+  "lastUpdated": "2026-06-15T15:43:13.426Z",
   "items": [
     {
       "id": "update-001",
@@ -1907,6 +1907,36 @@
       "summary": "ASX analysis details how the 2026-27 Federal Budget CGT reform package creates a 'two-speed' tax treatment for investors. The reform results in different effective tax rates depending on asset type, holding period, and investor circumstances, with changes affecting both retail and institutional investors differently. Investors should review their portfolio positioning to understand how the reform impacts their specific tax situation.",
       "url": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
       "priority": "medium"
+    },
+    {
+      "id": "update-189",
+      "date": "2026-05-25",
+      "tag": "Property",
+      "source": "Prime Minister of Australia",
+      "title": "PM press conference reveals cross-party dynamics on housing reform",
+      "summary": "The Prime Minister confirmed at a press conference that Liberals and Greens are voting in alignment on a parliamentary committee endorsement of CGT discount changes. While expressing openness to a Greens inquiry on the matter, the PM noted that the Greens lack the 38-39 Senate numbers required to pass legislation independently.",
+      "url": "https://www.pm.gov.au/media/press-conference-parliament-house-canberra-25-may-2026",
+      "priority": "high"
+    },
+    {
+      "id": "update-190",
+      "date": "2026-06-15",
+      "tag": "Budget",
+      "source": "KPMG",
+      "title": "KPMG reveals CGT implementation funding breakdown: $47.5m over four years plus $3.9m ongoing",
+      "summary": "KPMG Budget analysis reveals specific funding allocation for Treasury and ATO CGT reform implementation. The budget allocates $47.5 million over four years from 2026-27, plus $3.9 million per year ongoing after the implementation period.",
+      "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "priority": "high"
+    },
+    {
+      "id": "update-191",
+      "date": "2026-06-15",
+      "tag": "Budget",
+      "source": "Stockspot",
+      "title": "Stockspot CGT Calculator explains inflation indexation mechanism replacing 50% discount",
+      "summary": "Financial advisory firm Stockspot provides a practical calculator to help investors understand how the capital gains tax (CGT) discount will change under proposed budget reforms. Currently, individuals holding assets for more than 12 months benefit from a 50% discount on capital gains tax. The new rules will replace this discount with an inflation-based cost base indexation method, which adjusts the original purchase price for inflation rather than simply halving the taxable gain. The Stockspot tool allows users to compare both calculation methods to assess the impact on their investment returns.",
+      "url": "https://www.stockspot.com.au/cgt-calculator/",
+      "priority": "high"
     }
   ]
 }

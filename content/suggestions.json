@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T13:47:19.059Z",
+  "lastUpdated": "2026-06-15T15:44:43.913Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1080,18 +1080,6 @@
     {
       "type": "fact_check",
       "priority": "medium",
-      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources state a 'minimum 30% tax rate on capital gains' but budget.gov.au specifies this applies to 'real capital gains' (after inflation adjustment). ABC News explicitly states 'minimum tax rate of 30pc applying to real capital gains'. This distinction matters significantly - the 30% floor only applies to gains above inflation, not nominal gains. Media headlines suggesting all capital gains face a 30% minimum could be misleading.",
-      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% CGT applies to ALL gains', verdict is disputed because the minimum 30% rate only applies to real (inflation-adjusted) gains, not nominal gains",
-      "source": "https://budget.gov.au/content/tax-reform/index.htm",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260527-990",
-      "timestamp": "2026-05-27T21:46:25.751Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
       "title": "Claim: Division 296 super tax applies to all superannuation balances exceeding $3 million",
       "description": "Multiple sources state Division 296 applies to balances over $3m, but Heffron and ATO sources mention 'indexed thresholds' and BDO references 'new thresholds and rules'. The $3m threshold may be indexed annually for inflation rather than being a fixed figure. The ATO states 'if your total superannuation balance (TSB)... exceeds the LSBT' (Lifetime Superannuation Balance), suggesting the threshold may adjust yearly.",
       "suggestion": "Add to fact-checks.json: claim is 'Division 296 applies to all balances over $3m (fixed)', verdict is partially_true/unclear because the $3m threshold may be indexed annually rather than fixed",
@@ -1112,18 +1100,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will restricting negative gearing reduce or increase rental supply?",
-      "description": "Acoss (community sector peak) claims negative gearing and CGT changes 'added little to rental supply' and will improve affordability, while the Real Estate Institute of Australia (REIA) and Property Council of Australia warn that reducing the attractiveness of residential property investment could reduce rental supply over time. This is a factual dispute about cause and effect with direct policy implications.",
-      "suggestion": "Add to debates.json: View A from The Guardian/Acoss says negative gearing 'added little to rental supply' (supports reform); View B from Slate & Sage/REIA/Property Council says restricting negative gearing could reduce rental supply (opposes reform)",
-      "source": "https://www.theguardian.com/australia-news/2026/may/22/australia-negative-gearing-capital-gains-tax-housing-community-groups-urge-mps",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260528-291",
-      "timestamp": "2026-05-28T06:03:09.694Z",
-      "status": "pending"
     },
     {
       "type": "debate_page",
@@ -4894,43 +4870,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "PM press conference reveals cross-party dynamics on housing reform",
-      "description": "PM press conference confirms Liberals and Greens voting alignment on parliamentary committee endorsement of CGT discount changes, with PM indicating openness to Greens inquiry while noting they lack Senate numbers to pass legislation independently.",
-      "suggestion": "Add to budget-updates.json: PM confirms cross-party support for CGT changes at parliamentary committee level, but warns Greens lack 38-39 senators needed for independent passage.",
-      "source": "https://www.pm.gov.au/media/press-conference-parliament-house-canberra-25-may-2026",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260615-449",
-      "timestamp": "2026-06-15T13:47:13.732Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-24/labor-budget-defence-backlash-capital-gains-housing-wages/106692288"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "KPMG reveals CGT implementation funding breakdown: $47.5m over four years plus $3.9m ongoing",
-      "description": "KPMG Budget analysis provides specific funding allocation for Treasury and ATO CGT reform implementation: $47.5 million over four years from 2026-27, plus $3.9 million per year ongoing after the implementation period.",
-      "suggestion": "Add to budget-updates.json: Budget allocates $47.5 million over four years from 2026-27 and $3.9 million per year ongoing to Treasury and ATO for CGT reform implementation.",
-      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260615-853",
-      "timestamp": "2026-06-15T13:47:13.732Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Stockspot CGT Calculator explains inflation indexation mechanism replacing 50% discount",
-      "description": "Financial advisory firm Stockspot provides practical explanation of how the CGT discount replacement works: individuals holding assets for more than 12 months currently pay tax on only 50% of capital gain, but under new rules the 50% discount will be largely replaced by inflation-based cost base indexation.",
-      "suggestion": "Add to budget-updates.json: Stockspot analysis confirms the 50% CGT discount for 12-month+ holdings will be replaced by inflation indexation method, with practical calculator guidance for investors.",
-      "source": "https://www.stockspot.com.au/cgt-calculator/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260615-666",
-      "timestamp": "2026-06-15T13:47:13.732Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Infrastructure initiative housing targets: 65,000 vs alternative estimates",
@@ -6189,6 +6128,72 @@
       "timestamp": "2026-05-27T21:46:25.751Z",
       "status": "implemented",
       "implemented_at": "2026-06-15T09:57:07.301Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "PM press conference reveals cross-party dynamics on housing reform",
+      "description": "PM press conference confirms Liberals and Greens voting alignment on parliamentary committee endorsement of CGT discount changes, with PM indicating openness to Greens inquiry while noting they lack Senate numbers to pass legislation independently.",
+      "suggestion": "Add to budget-updates.json: PM confirms cross-party support for CGT changes at parliamentary committee level, but warns Greens lack 38-39 senators needed for independent passage.",
+      "source": "https://www.pm.gov.au/media/press-conference-parliament-house-canberra-25-may-2026",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260615-449",
+      "timestamp": "2026-06-15T13:47:13.732Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-24/labor-budget-defence-backlash-capital-gains-housing-wages/106692288",
+      "implemented_at": "2026-06-15T15:42:32.506Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG reveals CGT implementation funding breakdown: $47.5m over four years plus $3.9m ongoing",
+      "description": "KPMG Budget analysis provides specific funding allocation for Treasury and ATO CGT reform implementation: $47.5 million over four years from 2026-27, plus $3.9 million per year ongoing after the implementation period.",
+      "suggestion": "Add to budget-updates.json: Budget allocates $47.5 million over four years from 2026-27 and $3.9 million per year ongoing to Treasury and ATO for CGT reform implementation.",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260615-853",
+      "timestamp": "2026-06-15T13:47:13.732Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-15T15:42:52.240Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Stockspot CGT Calculator explains inflation indexation mechanism replacing 50% discount",
+      "description": "Financial advisory firm Stockspot provides practical explanation of how the CGT discount replacement works: individuals holding assets for more than 12 months currently pay tax on only 50% of capital gain, but under new rules the 50% discount will be largely replaced by inflation-based cost base indexation.",
+      "suggestion": "Add to budget-updates.json: Stockspot analysis confirms the 50% CGT discount for 12-month+ holdings will be replaced by inflation indexation method, with practical calculator guidance for investors.",
+      "source": "https://www.stockspot.com.au/cgt-calculator/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260615-666",
+      "timestamp": "2026-06-15T13:47:13.732Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-15T15:43:13.429Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources state a 'minimum 30% tax rate on capital gains' but budget.gov.au specifies this applies to 'real capital gains' (after inflation adjustment). ABC News explicitly states 'minimum tax rate of 30pc applying to real capital gains'. This distinction matters significantly - the 30% floor only applies to gains above inflation, not nominal gains. Media headlines suggesting all capital gains face a 30% minimum could be misleading.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% CGT applies to ALL gains', verdict is disputed because the minimum 30% rate only applies to real (inflation-adjusted) gains, not nominal gains",
+      "source": "https://budget.gov.au/content/tax-reform/index.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260527-990",
+      "timestamp": "2026-05-27T21:46:25.751Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-15T15:43:56.499Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will restricting negative gearing reduce or increase rental supply?",
+      "description": "Acoss (community sector peak) claims negative gearing and CGT changes 'added little to rental supply' and will improve affordability, while the Real Estate Institute of Australia (REIA) and Property Council of Australia warn that reducing the attractiveness of residential property investment could reduce rental supply over time. This is a factual dispute about cause and effect with direct policy implications.",
+      "suggestion": "Add to debates.json: View A from The Guardian/Acoss says negative gearing 'added little to rental supply' (supports reform); View B from Slate & Sage/REIA/Property Council says restricting negative gearing could reduce rental supply (opposes reform)",
+      "source": "https://www.theguardian.com/australia-news/2026/may/22/australia-negative-gearing-capital-gains-tax-housing-community-groups-urge-mps",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260528-291",
+      "timestamp": "2026-05-28T06:03:09.694Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-15T15:44:43.913Z"
     }
   ],
   "skipped": [

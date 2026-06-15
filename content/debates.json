@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T15:44:43.910Z",
+  "lastUpdated": "2026-06-15T23:31:13.193Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1345,6 +1345,53 @@
             "url": "https://slateandstone.com.au",
             "context": "Property economics analysis on investment incentives and rental market outcomes"
           }
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-056",
+      "slug": "cgt-discount-choice-vs-replacement",
+      "title": "Is the CGT discount being eliminated, replaced, or preserved with a choice?",
+      "category": "tax",
+      "type": "factual_dispute",
+      "summary": "There's conflicting information about whether investors can choose between the 50% CGT discount and new indexation arrangements, or whether the discount is being replaced entirely with no choice provided.",
+      "view_a": {
+        "label": "Budget.gov.au — Choice Provided",
+        "argument": "The official Budget website states that investors can 'choose' between the existing 50% CGT discount or the new indexation arrangements. This suggests the discount is being preserved as an option rather than abolished.",
+        "sources": [
+          "https://budget.gov.au/content/04-tax-reform.htm"
+        ]
+      },
+      "view_b": {
+        "label": "NAB & Guardian — Discount Replaced",
+        "argument": "NAB and Guardian analysis describe the 50% CGT discount as being 'replaced' by indexation with no choice mentioned. This framing suggests the discount is being eliminated entirely and taxpayers cannot opt to keep it.",
+        "sources": [
+          "https://www.nab.com.au/content/dam/nab/documents/institutional/budget-2026-analysis.pdf",
+          "https://www.theguardian.com/environment/2026"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-057",
+      "slug": "will-2026-budget-tax-reforms-cause-prolonged-housing-market-slump-or-brief-correction",
+      "title": "Will the 2026 budget tax reforms cause a prolonged housing market slump or a brief correction?",
+      "category": "housing-market",
+      "type": "projection_disagreement",
+      "summary": "NAB's revised forecast projects a 'brief correction not prolonged slump' following the negative gearing and CGT changes. However, other sources warn of potential market instability from investor behaviour changes and Coalition pledges to repeal the reforms, representing conflicting market impact projections.",
+      "view_a": {
+        "label": "Brief Correction",
+        "argument": "NAB's revised forecast projects a 'brief correction not prolonged slump' following the 2026 budget's negative gearing and CGT changes. The bank expects the housing market to adjust relatively quickly as other factors such as population growth and housing supply constraints offset the impact of tax reform changes.",
+        "sources": [
+          "https://www.superguide.com.au/super-booster/federal-budget-2026-overview"
+        ]
+      },
+      "view_b": {
+        "label": "Prolonged Slump or Significant Disruption",
+        "argument": "Other sources warn of potential market instability from investor behaviour changes and Coalition pledges to repeal the reforms. Investor exit strategies triggered by negative gearing changes could amplify selling pressure, while policy uncertainty from potential Coalition repeal promises creates hesitation among buyers and investors alike, suggesting potential for more significant market disruption.",
+        "sources": [
+          "https://parkerhadley.com.au/how-the-2026-australian-federal-budget-affects-property-investors/"
         ]
       },
       "verdict": null

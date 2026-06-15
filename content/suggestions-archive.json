@@ -4313,6 +4313,74 @@
       "timestamp": "2026-05-19T21:12:05.621Z",
       "status": "implemented",
       "implemented_at": "2026-06-07T22:59:59.844Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The ATO has released practical guidance to help taxpayers calculate CGT indexation under the new rules effective 1 July 2027. This guidance helps investors and their advisors prepare for the transition from the 50% discount to inflation-based indexation.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260608-181",
+      "timestamp": "2026-06-08T06:29:03.194Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implemented_at": "2026-06-08T08:48:57.330Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes",
+      "description": "The ATO has confirmed the valuation methodology for pre-1985 share holdings as part of the broader CGT reform package. Investors holding shares acquired before 1 July 1985 will need to reset their cost base for CGT calculations from 1 July 2027.",
+      "suggestion": "Add to budget-updates.json: ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260608-393",
+      "timestamp": "2026-06-08T06:29:03.194Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-08T08:49:48.156Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Does the super performance test protect members or constrain investment options?",
+      "description": "The budget overview from Superguide notes 'industry experts have warned that it constrains funds because it doesn't cater for all investments, particularly ESG, energy, venture capital and housing.' Meanwhile, Superguide itself states 'The super performance test has been in place for years, and has had some success in protecting Australians from persistent underperformance.' These represent competing assessments of the same policy mechanism - one framing it as protective, the other as restrictive to beneficial investment categories.",
+      "suggestion": "Add to debates.json: Superguide notes industry experts warn the super performance test 'constrains funds because it doesn't cater for all investments, particularly ESG, energy, venture capital and housing.' But Superguide also states the test 'has had some success in protecting Australians from persistent underperformance.' This creates a factual conflict about whether the performance test primarily protects members from poor returns or restricts beneficial investment diversification.",
+      "source": "https://www.superguide.com.au/super-booster/federal-budget-2026-overview",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260520-794",
+      "timestamp": "2026-05-20T16:47:32.450Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-08T08:50:46.346Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The legislation containing the negative gearing and CGT changes has been formally introduced to Parliament. The Bill implements the Government's housing tax reform package, with changes to apply from 1 July 2027.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260608-932",
+      "timestamp": "2026-06-08T06:29:03.194Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-08T08:49:08.855Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the Coalition's immigration cap proposal directly tied to the budget housing measures?",
+      "description": "The Guardian reports the Coalition will 'tie intake to new housing builds' as part of their budget reply, with Taylor stating immigration must be 'significantly below the Coalition's cap for several years.' This raises the question of whether this immigration proposal is a direct policy response to the budget's negative gearing/CGT changes, or a separate housing strategy. If tied together, the effectiveness of budget housing measures may be framed as dependent on immigration cuts, creating a linked debate about whether both policies are needed simultaneously.",
+      "suggestion": "Add to debates.json: The Guardian reports the Coalition 'promised to drastically cut immigration, and will tie intake to new housing builds' as a budget reply position. This creates a factual question about whether Coalition immigration policy is a direct response to the budget housing measures, potentially implying the negative gearing/CGT changes alone are insufficient for housing affordability.",
+      "source": "https://www.theguardian.com/australia-news/live/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260520-232",
+      "timestamp": "2026-05-20T16:47:32.450Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-08T08:50:14.655Z"
     }
   ]
 }

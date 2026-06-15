@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T15:43:13.426Z",
+  "lastUpdated": "2026-06-15T19:41:21.502Z",
   "items": [
     {
       "id": "update-001",
@@ -1936,6 +1936,26 @@
       "title": "Stockspot CGT Calculator explains inflation indexation mechanism replacing 50% discount",
       "summary": "Financial advisory firm Stockspot provides a practical calculator to help investors understand how the capital gains tax (CGT) discount will change under proposed budget reforms. Currently, individuals holding assets for more than 12 months benefit from a 50% discount on capital gains tax. The new rules will replace this discount with an inflation-based cost base indexation method, which adjusts the original purchase price for inflation rather than simply halving the taxable gain. The Stockspot tool allows users to compare both calculation methods to assess the impact on their investment returns.",
       "url": "https://www.stockspot.com.au/cgt-calculator/",
+      "priority": "high"
+    },
+    {
+      "id": "update-192",
+      "date": "2026-05-12",
+      "tag": "Budget",
+      "source": "Treasury Ministers",
+      "title": "Treasurer describes Budget 2026 as 'most important and ambitious in decades'",
+      "summary": "Treasurer Jim Chalmers delivered the 2026-27 Federal Budget on 12 May 2026 at Parliament House, Canberra, describing it as 'the most important and ambitious Budget in decades'. The Treasurer cited global economic pressures and the need for structural reform to Australia's tax system as key drivers behind the Budget's significance.",
+      "url": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/2026-27-budget-speech-parliament-house-canberra",
+      "priority": "high"
+    },
+    {
+      "id": "update-193",
+      "date": "2026-06-15",
+      "tag": "Budget",
+      "source": "KPMG",
+      "title": "KPMG confirms $47.5m implementation funding for Treasury and ATO CGT reform rollout",
+      "summary": "KPMG analysis confirms the Government will provide $47.5 million over four years from 2026-27 (and $3.9 million per year ongoing) to the Treasury and the ATO to implement CGT and negative gearing reforms. The funding will support the ATO's preparations for the changes scheduled to take effect from July 2027. KPMG has flagged implementation timeline risks as both agencies work to operationalise the reforms within the proposed timeframe.",
+      "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
       "priority": "high"
     }
   ]

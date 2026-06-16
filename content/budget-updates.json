@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T19:41:21.502Z",
+  "lastUpdated": "2026-06-16T09:22:08.345Z",
   "items": [
     {
       "id": "update-001",
@@ -1956,6 +1956,16 @@
       "title": "KPMG confirms $47.5m implementation funding for Treasury and ATO CGT reform rollout",
       "summary": "KPMG analysis confirms the Government will provide $47.5 million over four years from 2026-27 (and $3.9 million per year ongoing) to the Treasury and the ATO to implement CGT and negative gearing reforms. The funding will support the ATO's preparations for the changes scheduled to take effect from July 2027. KPMG has flagged implementation timeline risks as both agencies work to operationalise the reforms within the proposed timeframe.",
       "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "priority": "high"
+    },
+    {
+      "id": "update-194",
+      "date": "2026-06-16",
+      "tag": "Superannuation",
+      "source": "Heffron",
+      "title": "Division 296 CGT relief provisions confirmed for SMSFs in draft legislation",
+      "summary": "Draft legislation for Division 296 (the $3m super balance tax) includes CGT relief provisions specifically for self-managed superannuation funds. The ATO has confirmed indexed thresholds and CGT relief details for SMSFs ahead of the 1 July 2026 commencement date. SMSF trustees should review their investment strategies and consider the impact on members with balances approaching $3m.",
+      "url": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
       "priority": "high"
     }
   ]

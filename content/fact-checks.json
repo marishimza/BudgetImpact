@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T19:41:39.940Z",
+  "lastUpdated": "2026-06-16T09:23:04.789Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1110,6 +1110,24 @@
       ],
       "date_checked": "2026-06-15",
       "category": "superannuation"
+    },
+    {
+      "id": "fc-058",
+      "slug": "negative-gearing-fully-abolished-all-investors",
+      "claim": "Negative gearing has been fully abolished for all investors from 1 July 2027",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "The policy applies prospectively to properties purchased after Budget Night (7:30pm on 12 May 2026), not retrospectively to all existing investors.",
+      "detailed_explanation": "This claim mischaracterises the scope of the negative gearing changes announced in the 2026 Federal Budget. The policy is prospective rather than retrospective—it restricts negative gearing deductions for properties acquired after 7:30pm on 12 May 2026. Existing investors who already hold negatively-geared properties are likely to be grandfathered under the new rules. The policy specifically targets NEW purchases of established dwellings, meaning current negatively-geared investment portfolios remain largely unaffected by the abolition for existing holdings.",
+      "sources": [
+        {
+          "name": "William Buck",
+          "url": "https://www.williambuck.com/federal-budget-analysis-2026-negative-gearing",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-16",
+      "category": "Tax"
     }
   ]
 }

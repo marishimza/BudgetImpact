@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T19:32:42.760Z",
+  "lastUpdated": "2026-06-16T23:20:45.077Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1462,6 +1462,27 @@
         "sources": [
           "https://www.toop.com.au"
         ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-061",
+      "slug": "is-restricting-negative-gearing-to-new-builds-effective-housing-supply-policy",
+      "title": "Is restricting negative gearing to new builds effective housing supply policy?",
+      "category": "housing_supply",
+      "type": "policy_disagreement",
+      "summary": "The government restricts negative gearing to new builds from 1 July 2027, claiming this will focus tax support on new supply. However, industry bodies (REIA, Property Council) express concern that reducing investment attractiveness could reduce rental supply. Both are forward-looking claims without empirical validation from Australian context.",
+      "view_a": {
+        "label": "Government: Focuses tax support on new supply",
+        "argument": "Restricting negative gearing to new builds from 1 July 2027 will focus tax support on new housing supply, directing investment toward properties that directly increase the housing stock rather than existing dwellings.",
+        "sources": [
+          "https://budget.gov.au/content/04-tax-reform.htm"
+        ]
+      },
+      "view_b": {
+        "label": "Industry: May reduce rental supply",
+        "argument": "REIA and Property Council of Australia expressed concern that reducing the attractiveness of residential property investment could reduce rental supply over time, potentially worsening housing affordability in the private rental market.",
+        "sources": []
       },
       "verdict": null
     }

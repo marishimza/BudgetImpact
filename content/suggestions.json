@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T22:07:16.535Z",
+  "lastUpdated": "2026-06-16T23:21:07.286Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1186,18 +1186,6 @@
       "status": "pending"
     },
     {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
-      "description": "This claim appears frequently in media coverage. The ATO's official guidance clarifies that Division 296 applies 15% tax 'on the proportion of earnings relating to your TSB that exceeds the LSBT' (Total Superannuation Balance above the Low Balance Threshold). This means the tax is on earnings, not on the entire balance. A $4 million balance doesn't incur 15% × $4M = $600,000 in tax—only the earnings attributable to amounts above the threshold.",
-      "suggestion": "Add to fact-checks.json: claim is '15% tax on balances over $3m', verdict is partially_true because the 15% rate applies to earnings (not the full balance) attributable to amounts exceeding the threshold. The actual tax liability depends on the individual's TSB, income during the year, and how much of their balance sits above the threshold.",
-      "source": "https://www.ato.gov.au/individuals/super/super-and-taxing-concessions/better-targeted-super-concessions/",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260529-784",
-      "timestamp": "2026-05-29T06:05:39.809Z",
-      "status": "pending"
-    },
-    {
       "id": "suggestion-20260529-713",
       "timestamp": "2026-05-29T06:05:39.810Z",
       "status": "pending",
@@ -1208,18 +1196,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Is restricting negative gearing to new builds effective housing supply policy?",
-      "description": "The government restricts negative gearing to new builds from 1 July 2027, claiming this will focus tax support on new supply. However, industry bodies (REIA, Property Council) express concern that reducing investment attractiveness could reduce rental supply. Both are forward-looking claims without empirical validation from Australian context.",
-      "suggestion": "Add to debates.json: budget.gov.au limits negative gearing 'to focus tax support on new supply' vs slateandsage.com.au reporting REIA and Property Council of Australia expressed concern 'reducing the attractiveness of residential property investment could reduce rental supply over time'",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260529-828",
-      "timestamp": "2026-05-29T11:20:21.035Z",
-      "status": "pending"
     },
     {
       "id": "suggestion-20260529-802",
@@ -1242,18 +1218,6 @@
       "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
       "implementation_effort": "10_minutes",
       "id": "suggestion-20260529-650",
-      "timestamp": "2026-05-29T17:27:05.211Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Is immigration or negative gearing the primary driver of Australia's housing crisis?",
-      "description": "The Coalition has announced plans to drastically cut immigration and tie intake to new housing builds as part of their Budget reply. This creates a conflict with the government's approach of reforming negative gearing and CGT. Credible sources appear to disagree on which factor is the primary driver of the housing crisis, with the opposition framing immigration as the key issue while the government focuses on tax arrangements for property investors.",
-      "suggestion": "Add to debates.json: The Guardian reports the opposition (Angus Taylor) says immigration will need to be significantly below the Coalition's cap for several years to address housing, framing immigration as primary driver. Meanwhile, multiple government and independent sources (ABC, The Guardian, LSJ) focus on negative gearing and CGT as the key drivers, with ABS data showing investors' share of new home loans increasing from less than 30% to more than 40% since 2020.",
-      "source": "https://www.theguardian.com/australia-news/live/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260529-561",
       "timestamp": "2026-05-29T17:27:05.211Z",
       "status": "pending"
     },
@@ -5003,19 +4967,6 @@
     },
     {
       "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
-      "description": "The ATO has released practical guidance explaining how investors should calculate capital gains under the new cost base indexation method that replaces the 50% discount from 1 July 2027. The guidance addresses pre-1985 share valuations, CGT relief for SMSFs affected by Division 296, and indexed threshold calculations.",
-      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260616-467",
-      "timestamp": "2026-06-16T22:07:10.619Z",
-      "status": "pending",
-      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
-    },
-    {
-      "type": "content_update",
       "priority": "medium",
       "title": "ASX analysis quantifies 22 percentage point CGT tax increase for retirement investors",
       "description": "ASX analysis provides specific quantitative example: a retired investor on a 16% marginal rate selling a long-held equity portfolio currently faces 8% tax on nominal gains under the 50% discount, compared to 30% on indexed gains under the proposed changes. This represents a 22 percentage point effective tax rate increase for low-rate retirees.",
@@ -5025,19 +4976,6 @@
       "id": "suggestion-20260616-867",
       "timestamp": "2026-06-16T22:07:10.619Z",
       "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Division 296 Better Targeted Super Concessions confirmed as enacted law — 15% tax applies from 1 July 2026 on earnings above $3m threshold",
-      "description": "The ATO confirms that Division 296 (Better Targeted Super Concessions) legislation has been enacted and commences from 1 July 2026. The tax applies 15% on the proportion of earnings relating to total superannuation balance that exceeds the $3m threshold. Indexed thresholds and CGT relief provisions for SMSFs are confirmed.",
-      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 (Better Targeted Super Concessions) is law — 15% tax applies from 1 July 2026 on earnings above $3m threshold",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260616-248",
-      "timestamp": "2026-06-16T22:07:10.619Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
     },
     {
       "type": "debate_page",
@@ -6244,6 +6182,33 @@
       "timestamp": "2026-05-29T06:05:39.809Z",
       "status": "implemented",
       "implemented_at": "2026-06-16T19:32:42.763Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Division 296 Better Targeted Super Concessions confirmed as enacted law — 15% tax applies from 1 July 2026 on earnings above $3m threshold",
+      "description": "The ATO confirms that Division 296 (Better Targeted Super Concessions) legislation has been enacted and commences from 1 July 2026. The tax applies 15% on the proportion of earnings relating to total superannuation balance that exceeds the $3m threshold. Indexed thresholds and CGT relief provisions for SMSFs are confirmed.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 (Better Targeted Super Concessions) is law — 15% tax applies from 1 July 2026 on earnings above $3m threshold",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260616-248",
+      "timestamp": "2026-06-16T22:07:10.619Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-06-16T23:19:54.733Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is restricting negative gearing to new builds effective housing supply policy?",
+      "description": "The government restricts negative gearing to new builds from 1 July 2027, claiming this will focus tax support on new supply. However, industry bodies (REIA, Property Council) express concern that reducing investment attractiveness could reduce rental supply. Both are forward-looking claims without empirical validation from Australian context.",
+      "suggestion": "Add to debates.json: budget.gov.au limits negative gearing 'to focus tax support on new supply' vs slateandsage.com.au reporting REIA and Property Council of Australia expressed concern 'reducing the attractiveness of residential property investment could reduce rental supply over time'",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-828",
+      "timestamp": "2026-05-29T11:20:21.035Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-16T23:20:45.079Z"
     }
   ],
   "skipped": [
@@ -7004,6 +6969,49 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-16T19:33:00.536Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The ATO has released practical guidance explaining how investors should calculate capital gains under the new cost base indexation method that replaces the 50% discount from 1 July 2027. The guidance addresses pre-1985 share valuations, CGT relief for SMSFs affected by Division 296, and indexed threshold calculations.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260616-467",
+      "timestamp": "2026-06-16T22:07:10.619Z",
+      "status": "skipped",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-16T23:19:29.488Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "This claim appears frequently in media coverage. The ATO's official guidance clarifies that Division 296 applies 15% tax 'on the proportion of earnings relating to your TSB that exceeds the LSBT' (Total Superannuation Balance above the Low Balance Threshold). This means the tax is on earnings, not on the entire balance. A $4 million balance doesn't incur 15% × $4M = $600,000 in tax—only the earnings attributable to amounts above the threshold.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on balances over $3m', verdict is partially_true because the 15% rate applies to earnings (not the full balance) attributable to amounts exceeding the threshold. The actual tax liability depends on the individual's TSB, income during the year, and how much of their balance sits above the threshold.",
+      "source": "https://www.ato.gov.au/individuals/super/super-and-taxing-concessions/better-targeted-super-concessions/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-784",
+      "timestamp": "2026-05-29T06:05:39.809Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-16T23:20:08.602Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is immigration or negative gearing the primary driver of Australia's housing crisis?",
+      "description": "The Coalition has announced plans to drastically cut immigration and tie intake to new housing builds as part of their Budget reply. This creates a conflict with the government's approach of reforming negative gearing and CGT. Credible sources appear to disagree on which factor is the primary driver of the housing crisis, with the opposition framing immigration as the key issue while the government focuses on tax arrangements for property investors.",
+      "suggestion": "Add to debates.json: The Guardian reports the opposition (Angus Taylor) says immigration will need to be significantly below the Coalition's cap for several years to address housing, framing immigration as primary driver. Meanwhile, multiple government and independent sources (ABC, The Guardian, LSJ) focus on negative gearing and CGT as the key drivers, with ABS data showing investors' share of new home loans increasing from less than 30% to more than 40% since 2020.",
+      "source": "https://www.theguardian.com/australia-news/live/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-561",
+      "timestamp": "2026-05-29T17:27:05.211Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-16T23:21:07.286Z"
     }
   ],
   "needs_manual_review": [

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T14:58:20.444Z",
+  "lastUpdated": "2026-06-16T23:19:54.730Z",
   "items": [
     {
       "id": "update-001",
@@ -1987,6 +1987,16 @@
       "summary": "Perpetual's analysis of the 2026-27 federal budget confirms that the new capital gains tax (CGT) indexation method reintroduces a cost base adjustment approach similar to the pre-1999 rules. The ATO is expected to release specific calculation methodology to guide taxpayers on determining capital gains under the updated provisions. This represents a significant shift from the current system where indexation was removed for assets acquired after September 1999.",
       "url": "https://www.perpetual.com.au/insights/federal-budget-2026/",
       "priority": "medium"
+    },
+    {
+      "id": "update-197",
+      "date": "2026-06-16",
+      "tag": "Superannuation",
+      "source": "Australian Taxation Office",
+      "title": "Division 296 Better Targeted Super Concessions confirmed as enacted law — 15% tax applies from 1 July 2026 on earnings above $3m threshold",
+      "summary": "The ATO confirms that Division 296 (Better Targeted Super Concessions) legislation has been enacted and commences from 1 July 2026. The tax applies at 15% on the proportion of earnings relating to total superannuation balance that exceeds the $3m threshold. Indexed thresholds and CGT relief provisions for SMSFs are confirmed.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
     }
   ]
 }

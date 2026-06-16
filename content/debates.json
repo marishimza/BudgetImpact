@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T23:31:13.193Z",
+  "lastUpdated": "2026-06-16T19:32:42.760Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1392,6 +1392,75 @@
         "argument": "Other sources warn of potential market instability from investor behaviour changes and Coalition pledges to repeal the reforms. Investor exit strategies triggered by negative gearing changes could amplify selling pressure, while policy uncertainty from potential Coalition repeal promises creates hesitation among buyers and investors alike, suggesting potential for more significant market disruption.",
         "sources": [
           "https://parkerhadley.com.au/how-the-2026-australian-federal-budget-affects-property-investors/"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-058",
+      "slug": "limiting-negative-gearing-new-builds-rental-supply",
+      "title": "Will limiting negative gearing to new builds reduce or increase rental supply?",
+      "category": "Housing & Tax",
+      "type": "factual_dispute",
+      "summary": "Industry bodies (REIA and Property Council) warn that restricting negative gearing could reduce rental supply over time, while the Government claims its policy will increase housing supply by focusing tax support on new builds. This is a direct factual conflict about the rental market impact of the policy.",
+      "view_a": {
+        "label": "Rental supply would decrease",
+        "argument": "Industry bodies (REIA and Property Council) expressed concern that reducing the attractiveness of residential property investment could REDUCE rental supply over time. They argue that limiting negative gearing would decrease investor activity, leading to fewer rental properties available in the market.",
+        "sources": [
+          "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors"
+        ]
+      },
+      "view_b": {
+        "label": "Rental supply would increase",
+        "argument": "Government claims limiting negative gearing to new builds will focus tax support on new supply and increase housing availability. The policy aims to direct investment toward new construction, thereby expanding the overall rental housing stock.",
+        "sources": [
+          "https://budget.gov.au/2026-27/content/04-tax-reform.htm"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-059",
+      "slug": "will-2b-infrastructure-initiative-deliver-65k-homes",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "The Government projects its $2 billion infrastructure initiative will enable around 65,000 additional homes, but this figure has not been independently verified and industry response has been cautious.",
+      "view_a": {
+        "label": "Government projection",
+        "argument": "The Government states the $2 billion infrastructure initiative is expected to enable around 65,000 additional homes as part of its housing supply strategy.",
+        "sources": [
+          "https://budget.gov.au/content/04-tax-reform.htm"
+        ]
+      },
+      "view_b": {
+        "label": "Industry caution",
+        "argument": "REIA President Jacob Caine (API Magazine) only called the measure 'positive and necessary' without confirming the 65,000 figure, suggesting the projection may be optimistic.",
+        "sources": [
+          "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-060",
+      "slug": "coalition-repeal-negative-gearing-cgt-changes",
+      "title": "Will the Coalition successfully repeal Labor's negative gearing and CGT changes if elected?",
+      "category": "housing-tax",
+      "type": "projection_disagreement",
+      "summary": "The Coalition has made a firm commitment to repeal Labor's negative gearing and capital gains tax changes, but questions remain about whether they can and will follow through if elected. This debate examines the political feasibility and practical implementation challenges of such repeal efforts.",
+      "view_a": {
+        "label": "Coalition Commitment",
+        "argument": "The Coalition, led by shadow treasurer Tim Wilson, has made an unambiguous commitment to repeal Labor's negative gearing and capital gains tax changes. Wilson has stated 'We will repeal these measures if necessary' and will 'look to defeat the changes' if the Coalition is elected. This represents a clear policy position and electoral promise from the opposition.",
+        "sources": [
+          "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+        ]
+      },
+      "view_b": {
+        "label": "Implementation Uncertainty",
+        "argument": "Bronte Manuel's analysis through toop.com.au suggests that grandfathering provisions embedded in Labor's changes may significantly complicate repeal prospects. Properties already purchased under the existing rules may be protected from retrospective changes, creating practical barriers to full reversal. This creates genuine uncertainty about whether repeal is politically or practically viable, even with a majority in both houses.",
+        "sources": [
+          "https://www.toop.com.au"
         ]
       },
       "verdict": null

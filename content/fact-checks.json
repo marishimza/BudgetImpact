@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T09:23:04.789Z",
+  "lastUpdated": "2026-06-16T19:32:09.864Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1128,6 +1128,24 @@
       ],
       "date_checked": "2026-06-16",
       "category": "Tax"
+    },
+    {
+      "id": "fc-059",
+      "slug": "working-australians-tax-offset-250-claim",
+      "claim": "$250 annual Working Australians Tax Offset relief for workers",
+      "verdict": "unclear",
+      "verdict_label": "Unclear",
+      "short_explanation": "The $250 annual figure for the Working Australians Tax Offset lacks clear documentation in official Australian Government budget sources.",
+      "detailed_explanation": "Multiple suggestions reference a $250 annual tax relief for workers under the 'Working Australians Tax Offset.' However, official budget.gov.au sources focus primarily on CGT reforms, negative gearing changes, and Division 296 super tax rather than this specific offset or dollar amount. The claim may be misquoted, oversimplified, or conflated with other tax measures. Verification against Treasury documentation and Budget Paper No. 2 is required to confirm whether this offset exists, its eligibility thresholds, and the actual relief amount. Without official confirmation, the validity of the $250 figure remains unverified.",
+      "sources": [
+        {
+          "name": "Australian Government Budget",
+          "url": "https://budget.gov.au",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-16",
+      "category": "tax"
     }
   ]
 }

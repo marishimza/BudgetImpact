@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T14:58:58.480Z",
+  "lastUpdated": "2026-06-16T18:25:53.679Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -5024,75 +5024,45 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASA criticises lack of consultation on CGT indexation reform",
-      "description": "The Australian Shareholders Association has called for capital gains averaging alongside indexation to address income bunching, warning the changes were announced without proper consultation. Their submission highlights that many years of gains realised in a single tax year could push investors into higher brackets.",
-      "suggestion": "Add ASA criticism about lack of pre-budget consultation on CGT reform, noting their call for a capital gains averaging mechanism to address income bunching where multi-year gains are realised in a single tax year.",
-      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260609-472",
-      "timestamp": "2026-06-09T16:26:13.389Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-09T17:56:11.363Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
-      "description": "The ATO has published practical guidance for taxpayers calculating capital gains under the new inflation-based indexation rules taking effect 1 July 2027. The guidance explains how to apply cost base indexation using CPI data, applicable to assets acquired after the announcement date.",
-      "suggestion": "Add ATO practical guidance release for CGT indexation calculations, providing details on how to calculate capital gains using CPI-based cost base indexation for assets acquired after the Budget announcement.",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260609-201",
-      "timestamp": "2026-06-09T16:26:13.389Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-09T17:56:25.973Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Coalition opposes CGT discount changes, signals potential Senate challenge",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Liberal Party has announced its opposition to the Budget's CGT discount and negative gearing changes, with the Opposition Leader indicating willingness to consider Senate inquiries. The Liberals voted against parliamentary committee endorsement of CGT changes on 17 March 2026.",
-      "suggestion": "Add Coalition opposition details: Liberals voted against CGT changes in parliamentary committee on 17 March 2026 and have signalled potential Senate challenge to the Treasury Laws Amendment (More Housing, More Help) Bill 2026.",
-      "source": "https://www.pm.gov.au/media/press-conference-parliament-house-canberra-25-may-2026",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260609-354",
-      "timestamp": "2026-06-09T16:26:13.389Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-09T17:56:48.445Z"
     },
     {
       "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Budget housing measures cost $6.4 billion over four years'",
-      "description": "Multiple media sources cite this exact figure for the housing package, but KPMG's analysis distinguishes between the $6.4bn housing package and $47.5mn for CGT implementation. The $6.4bn figure may be a round number or include different components than reported. Need to verify against official budget papers to confirm if this is the total cost, a subset, or an estimate.",
-      "suggestion": "Add to fact-checks.json: claim is '$6.4 billion over four years for housing measures', verdict is disputed because official budget documents may specify different amounts or implementation timelines for individual components.",
-      "source": "https://kpmg.com/au/en/home/insights/2026/05/australian-federal-budget-2026-27.html",
-      "implementation_effort": "45_minutes",
-      "id": "suggestion-20260609-799",
-      "timestamp": "2026-06-09T16:26:13.389Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966",
-      "implemented_at": "2026-06-09T17:57:03.615Z"
+      "priority": "medium",
+      "title": "Claim: Budget housing measures cost $6.4 billion over four years",
+      "description": "Multiple sources cite the $6.4 billion figure for housing measures, while KPMG documents $47.5 million specifically for Treasury/ATO implementation. These are distinct figures for different purposes, but could be conflated in media reporting or confused as implementation costs.",
+      "suggestion": "Add to fact-checks.json: Claim that budget housing measures cost $6.4bn over four years is verified per Treasury documentation, but is separate from the $47.5m implementation allocation to Treasury/ATO.",
+      "source": "https://kpmg.com/au/en/budget-2026-27",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260616-564",
+      "timestamp": "2026-06-16T18:25:50.651Z",
+      "status": "pending"
     },
     {
-      "type": "debate_page",
+      "type": "fact_check",
       "priority": "medium",
-      "title": "Is Labor's negative gearing and CGT reform a 'broken promise' or legitimate policy evolution?",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The ABC and Guardian report the Coalition calls the changes 'toxic' and a 'broken promise' based on prior statements, while the government appears to have calculated the political trade-off. The LSJ frames the reform as correcting a policy many economists blame for the housing crisis. This is a factual dispute about whether a promise was made and whether reversal constitutes a broken commitment or legitimate policy change.",
-      "suggestion": "Add to debates.json: view_a from ABC News (May 12) says 'Government breaks promise with restrictions', view_b from LSJ says reform corrects policy 'many economists claim to be the key reason for the housing affordability and rental crisis'",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260522-355",
-      "timestamp": "2026-05-22T05:58:54.493Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-09T17:57:56.306Z"
+      "title": "Claim: Infrastructure initiative will deliver 65,000 additional homes",
+      "description": "Pending suggestions reference conflicting figures of 65,000 vs 30,000 homes for the infrastructure initiative. The source claims '$2B infrastructure initiative' but the specific home target needs verification against official budget papers.",
+      "suggestion": "Add to fact-checks.json: The $2B infrastructure initiative housing target is unclear/under dispute, with figures ranging from 30,000 to 65,000 homes in different sources.",
+      "source": "https://budget.gov.au",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260616-924",
+      "timestamp": "2026-06-16T18:25:50.651Z",
+      "status": "pending"
     },
+    {
+      "id": "suggestion-20260616-938",
+      "timestamp": "2026-06-16T18:25:50.652Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "high",

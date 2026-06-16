@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T09:22:08.345Z",
+  "lastUpdated": "2026-06-16T14:58:20.444Z",
   "items": [
     {
       "id": "update-001",
@@ -1967,6 +1967,26 @@
       "summary": "Draft legislation for Division 296 (the $3m super balance tax) includes CGT relief provisions specifically for self-managed superannuation funds. The ATO has confirmed indexed thresholds and CGT relief details for SMSFs ahead of the 1 July 2026 commencement date. SMSF trustees should review their investment strategies and consider the impact on members with balances approaching $3m.",
       "url": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
       "priority": "high"
+    },
+    {
+      "id": "update-195",
+      "date": "2026-06-16",
+      "tag": "Budget",
+      "source": "KPMG",
+      "title": "KPMG flags implementation timeline risks as ATO prepares for CGT reform with $47.5m funding",
+      "summary": "KPMG analysis has highlighted significant implementation challenges as Treasury and the ATO prepare for the July 2027 capital gains tax (CGT) reforms. The government has allocated $47.5 million over four years plus $3.9 million ongoing to support the reform rollout, though KPMG warns that tight timelines may create compliance risks for taxpayers and administrative burdens for the ATO.",
+      "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "priority": "high"
+    },
+    {
+      "id": "update-196",
+      "date": "2026-06-16",
+      "tag": "Budget",
+      "source": "Perpetual",
+      "title": "Perpetual analysis confirms new CGT cost base indexation mirrors 1985-1999 approach",
+      "summary": "Perpetual's analysis of the 2026-27 federal budget confirms that the new capital gains tax (CGT) indexation method reintroduces a cost base adjustment approach similar to the pre-1999 rules. The ATO is expected to release specific calculation methodology to guide taxpayers on determining capital gains under the updated provisions. This represents a significant shift from the current system where indexation was removed for assets acquired after September 1999.",
+      "url": "https://www.perpetual.com.au/insights/federal-budget-2026/",
+      "priority": "medium"
     }
   ]
 }

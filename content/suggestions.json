@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T16:53:20.298Z",
+  "lastUpdated": "2026-06-17T18:15:09.262Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1270,30 +1270,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources (ABC, ASX, Fool.com.au) frame the 30% minimum rate as applying to ALL capital gains. However, the official budget.gov.au description states the discount will be 'replaced with a discount based on inflation and introduce a minimum 30% tax on gains' - suggesting the 30% floor only applies to gains after indexation (i.e., real/inflation-adjusted gains). The distinction matters: a $100k gain with $40k inflation would face 30% tax on $60k, not $100k. This framing difference could mislead investors about their actual tax liability.",
-      "suggestion": "Add to fact-checks.json: claim is '30% minimum applies to ALL gains', verdict is disputed because official budget description indicates the minimum applies to real gains after inflation adjustment, not nominal gains.",
-      "source": "https://budget.gov.au/2026-27/tax-reform",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260530-890",
-      "timestamp": "2026-05-30T05:41:56.853Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'The 50% CGT discount is being REPLACED by inflation indexation with no choice for taxpayers'",
-      "description": "NAB states 'replaced by cost base indexation', budget.gov.au says 'discount based on inflation', and ASX notes a 'two-speed' system. Media reporting varies between 'replacement with no choice' and nuanced descriptions of indexation preserving the discount structure differently. The ASA specifically calls for consultation and mentions 'averaging mechanism' suggesting some flexibility may exist. The William Buck source about the cutoff date (7:30pm on Budget Night) implies transitional provisions exist, contradicting 'no choice' framing.",
-      "suggestion": "Add to fact-checks.json: claim is 'discount replaced with no choice', verdict is partially_true because while the 50% discount is being replaced for new acquisitions, transitional provisions exist (cutoff at 7:30pm Budget Night) and the Government may provide indexation methodology choices.",
-      "source": "https://business.nab.com.au/2026-federal-budget-what-it-means-for-individuals-52567/",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260530-447",
-      "timestamp": "2026-05-30T05:41:56.853Z",
-      "status": "pending"
-    },
-    {
       "id": "suggestion-20260530-254",
       "timestamp": "2026-05-30T05:41:56.853Z",
       "status": "pending",
@@ -1304,30 +1280,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will limiting negative gearing to new builds reduce or increase rental supply?",
-      "description": "The government claims restricting negative gearing to new builds will 'focus tax support on new supply' and encourage construction. However, the Real Estate Institute of Australia and Property Council of Australia have expressed concern that reducing the attractiveness of residential property investment could reduce rental supply over time. This is a factual conflict about the policy's supply-side effects.",
-      "suggestion": "Add to debates.json: Government view (budget.gov.au) claims limiting negative gearing to new builds 'focuses tax support on new supply' to increase housing availability. Industry view (slateandsage.com.au via REIA and Property Council of Australia) warns that reducing property investment attractiveness could reduce rental supply over time.",
-      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260530-683",
-      "timestamp": "2026-05-30T09:51:25.751Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will the 2026 negative gearing and CGT reforms survive a change of government?",
-      "description": "The Coalition has explicitly vowed to repeal the negative gearing and CGT changes if elected, labelling them 'toxic'. This creates uncertainty about whether the reforms will be implemented as announced, with credible sources making conflicting assessments of the political durability of these changes.",
-      "suggestion": "Add to debates.json: Coalition view (theguardian.com via Tim Wilson) states the Coalition 'would look to repeal the changes to negative gearing and capital gains tax if necessary' and labelled them 'toxic'. Government view (abc.net.au) frames the changes as calculated policy decisions despite political opposition.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260530-981",
-      "timestamp": "2026-05-30T09:51:25.751Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -5156,18 +5108,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260617-119",
-      "timestamp": "2026-06-17T16:53:08.283Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -6352,6 +6292,71 @@
       "timestamp": "2026-05-30T05:41:56.853Z",
       "status": "implemented",
       "implemented_at": "2026-06-17T13:44:37.383Z"
+    },
+    {
+      "id": "suggestion-20260617-119",
+      "timestamp": "2026-06-17T16:53:08.283Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-17T18:11:33.506Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources (ABC, ASX, Fool.com.au) frame the 30% minimum rate as applying to ALL capital gains. However, the official budget.gov.au description states the discount will be 'replaced with a discount based on inflation and introduce a minimum 30% tax on gains' - suggesting the 30% floor only applies to gains after indexation (i.e., real/inflation-adjusted gains). The distinction matters: a $100k gain with $40k inflation would face 30% tax on $60k, not $100k. This framing difference could mislead investors about their actual tax liability.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum applies to ALL gains', verdict is disputed because official budget description indicates the minimum applies to real gains after inflation adjustment, not nominal gains.",
+      "source": "https://budget.gov.au/2026-27/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-890",
+      "timestamp": "2026-05-30T05:41:56.853Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-17T18:11:56.898Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'The 50% CGT discount is being REPLACED by inflation indexation with no choice for taxpayers'",
+      "description": "NAB states 'replaced by cost base indexation', budget.gov.au says 'discount based on inflation', and ASX notes a 'two-speed' system. Media reporting varies between 'replacement with no choice' and nuanced descriptions of indexation preserving the discount structure differently. The ASA specifically calls for consultation and mentions 'averaging mechanism' suggesting some flexibility may exist. The William Buck source about the cutoff date (7:30pm on Budget Night) implies transitional provisions exist, contradicting 'no choice' framing.",
+      "suggestion": "Add to fact-checks.json: claim is 'discount replaced with no choice', verdict is partially_true because while the 50% discount is being replaced for new acquisitions, transitional provisions exist (cutoff at 7:30pm Budget Night) and the Government may provide indexation methodology choices.",
+      "source": "https://business.nab.com.au/2026-federal-budget-what-it-means-for-individuals-52567/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-447",
+      "timestamp": "2026-05-30T05:41:56.853Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-17T18:12:36.691Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will limiting negative gearing to new builds reduce or increase rental supply?",
+      "description": "The government claims restricting negative gearing to new builds will 'focus tax support on new supply' and encourage construction. However, the Real Estate Institute of Australia and Property Council of Australia have expressed concern that reducing the attractiveness of residential property investment could reduce rental supply over time. This is a factual conflict about the policy's supply-side effects.",
+      "suggestion": "Add to debates.json: Government view (budget.gov.au) claims limiting negative gearing to new builds 'focuses tax support on new supply' to increase housing availability. Industry view (slateandsage.com.au via REIA and Property Council of Australia) warns that reducing property investment attractiveness could reduce rental supply over time.",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-683",
+      "timestamp": "2026-05-30T09:51:25.751Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-17T18:14:22.126Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the 2026 negative gearing and CGT reforms survive a change of government?",
+      "description": "The Coalition has explicitly vowed to repeal the negative gearing and CGT changes if elected, labelling them 'toxic'. This creates uncertainty about whether the reforms will be implemented as announced, with credible sources making conflicting assessments of the political durability of these changes.",
+      "suggestion": "Add to debates.json: Coalition view (theguardian.com via Tim Wilson) states the Coalition 'would look to repeal the changes to negative gearing and capital gains tax if necessary' and labelled them 'toxic'. Government view (abc.net.au) frames the changes as calculated policy decisions despite political opposition.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-981",
+      "timestamp": "2026-05-30T09:51:25.751Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-17T18:15:09.262Z"
     }
   ],
   "skipped": [

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T13:44:37.380Z",
+  "lastUpdated": "2026-06-17T18:15:09.259Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1582,6 +1582,52 @@
         "argument": "The Coalition's immigration cap represents a separate policy approach, with supply-side reforms including changes to negative gearing and capital gains tax being the primary and more effective solution to housing affordability challenges.",
         "sources": [
           "https://budget.gov.au"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-066",
+      "slug": "will-limiting-negative-gearing-to-new-builds-reduce-or-increase-rental-supply",
+      "title": "Will limiting negative gearing to new builds reduce or increase rental supply?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "The government claims restricting negative gearing to new builds will focus tax support on new supply and encourage construction, potentially increasing housing availability. Industry groups including REIA and Property Council of Australia warn that reducing the attractiveness of residential property investment could reduce rental supply over time, creating a factual conflict about the policy's supply-side effects.",
+      "view_a": {
+        "label": "Government",
+        "argument": "Limiting negative gearing to new builds 'focuses tax support on new supply' to increase housing availability. By directing tax benefits exclusively toward new construction, the policy incentivises developers to build more homes, expanding the overall rental stock over time and improving housing affordability.",
+        "sources": [
+          "https://www.budget.gov.au"
+        ]
+      },
+      "view_b": {
+        "label": "Industry",
+        "argument": "Reducing the attractiveness of residential property investment through negative gearing restrictions could reduce rental supply over time. Property investors may exit the market or reduce purchases, leading to fewer rental properties available as existing investor-held stock turns over, potentially worsening rental availability.",
+        "sources": [
+          "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-067",
+      "slug": "will-2026-negative-gearing-cgt-reforms-survive-change-government",
+      "title": "Will the 2026 negative gearing and CGT reforms survive a change of government?",
+      "category": "Tax Policy",
+      "type": "policy_disagreement",
+      "summary": "The Coalition has explicitly vowed to repeal the negative gearing and CGT changes if elected, labelling them 'toxic'. This creates uncertainty about whether the reforms will be implemented as announced, with credible sources making conflicting assessments of the political durability of these changes.",
+      "view_a": {
+        "label": "Coalition View",
+        "argument": "The Coalition, through Treasurer Tim Wilson, has explicitly stated they would look to repeal the changes to negative gearing and capital gains tax if necessary. They have labelled these changes as 'toxic' policy decisions that would harm property investors and the housing market. The Coalition argues these reforms represent government overreach that distorts property investment decisions.",
+        "sources": [
+          "https://www.afr.com/politics/federal/coalition-vows-to-repeal-negative-gearing-changes-2026"
+        ]
+      },
+      "view_b": {
+        "label": "Government View",
+        "argument": "The government frames these reforms as calculated, responsible policy decisions designed to improve housing affordability and create a fairer tax system. They maintain the changes will be implemented as announced and point to their mandate from the 2026 budget process.",
+        "sources": [
+          "https://www.smh.com.au/politics/federal/government-defends-sweeping-tax-reform-agenda"
         ]
       },
       "verdict": null

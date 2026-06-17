@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T08:59:32.266Z",
+  "lastUpdated": "2026-06-17T18:12:36.688Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1187,6 +1187,42 @@
       ],
       "date_checked": "2026-06-17",
       "category": "tax"
+    },
+    {
+      "id": "fc-062",
+      "slug": "capital-gains-30-percent-minimum-all-gains",
+      "claim": "Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "The 30% minimum tax floor applies to real (inflation-adjusted) gains, not nominal gains. The official budget description states the discount will be 'replaced with a discount based on inflation and introduce a minimum 30% tax on gains' — indicating the floor targets gains after indexation.",
+      "detailed_explanation": "Multiple media sources have reported that capital gains will face a minimum 30% tax rate on ALL gains. However, the official budget.gov.au description specifies the reform will 'replace [the current 50%] discount with a discount based on inflation and introduce a minimum 30% tax on gains'. This suggests the 30% floor applies only to gains after inflation adjustment (real gains), not the full nominal gain. For example, a $100,000 gain with $40,000 inflation would face 30% tax on $60,000 (the real gain), not $100,000. The distinction matters significantly for investors estimating their actual tax liability under the new rules.",
+      "sources": [
+        {
+          "name": "Australian Government Budget 2026-27",
+          "url": "https://budget.gov.au/2026-27/tax-reform",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-17",
+      "category": "tax"
+    },
+    {
+      "id": "fc-063",
+      "slug": "cgt-discount-replacement-no-choice-claim",
+      "claim": "The 50% CGT discount is being replaced by inflation indexation with no choice for taxpayers",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "While the 50% CGT discount is being replaced for assets acquired after Budget Night, transitional provisions and potential indexation methodology choices mean the 'no choice' framing is misleading.",
+      "detailed_explanation": "The claim oversimplifies the reform. While the 50% CGT discount is indeed being replaced for assets acquired after 7:30pm on Budget Night, the 'no choice' framing is inaccurate. Transitional provisions apply to assets acquired before the cutoff date, allowing the existing discount to continue in certain circumstances. Additionally, the Government's implementation may include indexation methodology choices rather than a single mandated approach. Sources indicate the reform may operate as a 'two-speed' system, with the Australian Securities Industry body calling for consultation on averaging mechanisms. The William Buck source confirms the Budget Night cutoff implies transitional arrangements exist, contradicting a strict 'no choice' narrative.",
+      "sources": [
+        {
+          "name": "NAB Business",
+          "url": "https://business.nab.com.au/2026-federal-budget-what-it-means-for-individuals-52567/",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-17",
+      "category": "capital gains tax"
     }
   ]
 }

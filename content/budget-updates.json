@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T13:43:48.553Z",
+  "lastUpdated": "2026-06-17T18:11:33.503Z",
   "items": [
     {
       "id": "update-001",
@@ -2029,6 +2029,16 @@
       "title": "Division 296 CGT relief provisions confirmed in draft legislation for SMSFs",
       "summary": "Draft legislation for Division 296 includes specific CGT relief provisions for self-managed superannuation funds affected by the new high-balance super tax. The relief allows SMSFs to reset cost bases for certain assets to avoid double taxation as they restructure holdings in response to the $3 million threshold tax. This provides a pathway for funds to reorganise investments without triggering unintended capital gains consequences.",
       "url": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
+      "priority": "high"
+    },
+    {
+      "id": "update-201",
+      "date": "2026-06-17",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Senate passes government budget legislation following opposition challenge",
+      "summary": "The Senate has passed the government's budget-related legislation that was previously subject to an opposition challenge. The legislation, which had been flagged for a Senate challenge in May, passed with minor amendments after negotiations between the major parties. The passage marks the completion of a key legislative step in the budget implementation process.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business",
       "priority": "high"
     }
   ]

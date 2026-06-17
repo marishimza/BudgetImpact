@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T07:00:34.802Z",
+  "lastUpdated": "2026-06-17T08:59:32.269Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1222,30 +1222,6 @@
       "status": "pending"
     },
     {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will restricting negative gearing reduce or increase rental supply?",
-      "description": "The Real Estate Institute of Australia and Property Council of Australia have expressed concern that reducing the attractiveness of residential property investment could reduce rental supply over time, while the government argues limiting negative gearing to new builds will focus tax support on new supply. This represents a conflict between industry body warnings and government policy claims.",
-      "suggestion": "Add to debates.json: REIA President Jacob Caine (via API Magazine) says measures directly supporting new housing supply were positive and necessary, suggesting government approach addresses supply. However, REIA and Property Council of Australia (via slateandsage.com.au) have expressed concern that reducing attractiveness of residential property investment could reduce rental supply over time, creating conflict between government supply claims and industry warnings.",
-      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260529-772",
-      "timestamp": "2026-05-29T17:27:05.211Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
-      "description": "Multiple sources quote this simplified version of Division 296. However, the ATO and official sources clarify that the 15% tax applies specifically to the earnings attributable to the portion of the Total Superannuation Balance (TSB) exceeding $3 million—not a flat 15% on the entire balance above the threshold. This is a meaningful distinction that affects the actual tax liability calculation.",
-      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because official ATO sources state the 15% applies only to 'the proportion of earnings relating to your TSB that exceeds the LSBT' ($3m threshold), not the excess balance amount itself.",
-      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260529-395",
-      "timestamp": "2026-05-29T17:27:05.211Z",
-      "status": "pending"
-    },
-    {
       "type": "fact_check",
       "priority": "medium",
       "title": "Claim: 'The 50% CGT discount is being REPLACED by inflation indexation'",
@@ -1268,42 +1244,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Labor's negative gearing reform: Broken promise or legitimate policy evolution?",
-      "description": "The ABC frames the changes as the government breaking another promise, while budget.gov.au and supporters frame it as legitimate tax reform targeting new housing supply. This is a factual conflict about framing vs substance.",
-      "suggestion": "Add to debates.json: view_a from ABC News (2026-05-12) characterizes changes as 'breaks promise with restrictions', view_b from budget.gov.au frames same changes as 'focus tax support on new supply' — legitimate policy refinement",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260529-146",
-      "timestamp": "2026-05-29T21:45:13.801Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Coalition immigration cap: Direct response to housing crisis or political opportunism?",
-      "description": "The Coalition has vowed to drastically cut immigration and tie intake to new housing builds as part of its budget reply, while the government argues its housing tax reforms are the primary solution. This represents conflicting policy diagnoses of what's driving the housing crisis.",
-      "suggestion": "Add to debates.json: view_a from Coalition (Taylor, 2026-05-14) proposes immigration cuts 'significantly below' existing caps as housing solution, view_b from housing advocates may argue tax reform is more targeted solution",
-      "source": "https://www.theguardian.com/australia-news/live/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260529-672",
-      "timestamp": "2026-05-29T21:45:13.801Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Capital gains will face a minimum 30% tax rate on ALL gains from July 2027'",
-      "description": "Multiple sources quote the new 30% minimum CGT rate, but some claim it applies to ALL gains. However, the ABC source specifically states 'minimum tax rate of 30pc applying to real capital gains' (gains above inflation). The budget.gov.au source says the discount will be 'replaced with a discount based on inflation.' This suggests the 30% floor may only apply to REAL gains above inflation, not nominal gains. If true, this is a significant oversimplification.",
-      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax applies to ALL gains', verdict is disputed because the 30% floor appears to apply only to real capital gains (above inflation), not nominal gains, per official budget documents.",
-      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-property-shares/2026-05-13",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260529-162",
-      "timestamp": "2026-05-29T21:45:13.801Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -6229,6 +6169,58 @@
       "timestamp": "2026-05-29T11:20:21.035Z",
       "status": "implemented",
       "implemented_at": "2026-06-16T23:20:45.079Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "Multiple sources quote this simplified version of Division 296. However, the ATO and official sources clarify that the 15% tax applies specifically to the earnings attributable to the portion of the Total Superannuation Balance (TSB) exceeding $3 million—not a flat 15% on the entire balance above the threshold. This is a meaningful distinction that affects the actual tax liability calculation.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because official ATO sources state the 15% applies only to 'the proportion of earnings relating to your TSB that exceeds the LSBT' ($3m threshold), not the excess balance amount itself.",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-395",
+      "timestamp": "2026-05-29T17:27:05.211Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-17T08:56:54.083Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Labor's negative gearing reform: Broken promise or legitimate policy evolution?",
+      "description": "The ABC frames the changes as the government breaking another promise, while budget.gov.au and supporters frame it as legitimate tax reform targeting new housing supply. This is a factual conflict about framing vs substance.",
+      "suggestion": "Add to debates.json: view_a from ABC News (2026-05-12) characterizes changes as 'breaks promise with restrictions', view_b from budget.gov.au frames same changes as 'focus tax support on new supply' — legitimate policy refinement",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-146",
+      "timestamp": "2026-05-29T21:45:13.801Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-17T08:57:52.512Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Coalition immigration cap: Direct response to housing crisis or political opportunism?",
+      "description": "The Coalition has vowed to drastically cut immigration and tie intake to new housing builds as part of its budget reply, while the government argues its housing tax reforms are the primary solution. This represents conflicting policy diagnoses of what's driving the housing crisis.",
+      "suggestion": "Add to debates.json: view_a from Coalition (Taylor, 2026-05-14) proposes immigration cuts 'significantly below' existing caps as housing solution, view_b from housing advocates may argue tax reform is more targeted solution",
+      "source": "https://www.theguardian.com/australia-news/live/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-672",
+      "timestamp": "2026-05-29T21:45:13.801Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-17T08:58:46.152Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "Multiple sources quote the new 30% minimum CGT rate, but some claim it applies to ALL gains. However, the ABC source specifically states 'minimum tax rate of 30pc applying to real capital gains' (gains above inflation). The budget.gov.au source says the discount will be 'replaced with a discount based on inflation.' This suggests the 30% floor may only apply to REAL gains above inflation, not nominal gains. If true, this is a significant oversimplification.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax applies to ALL gains', verdict is disputed because the 30% floor appears to apply only to real capital gains (above inflation), not nominal gains, per official budget documents.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-property-shares/2026-05-13",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-162",
+      "timestamp": "2026-05-29T21:45:13.801Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-17T08:59:32.269Z"
     }
   ],
   "skipped": [
@@ -7004,6 +6996,20 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-16T23:21:07.286Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will restricting negative gearing reduce or increase rental supply?",
+      "description": "The Real Estate Institute of Australia and Property Council of Australia have expressed concern that reducing the attractiveness of residential property investment could reduce rental supply over time, while the government argues limiting negative gearing to new builds will focus tax support on new supply. This represents a conflict between industry body warnings and government policy claims.",
+      "suggestion": "Add to debates.json: REIA President Jacob Caine (via API Magazine) says measures directly supporting new housing supply were positive and necessary, suggesting government approach addresses supply. However, REIA and Property Council of Australia (via slateandsage.com.au) have expressed concern that reducing attractiveness of residential property investment could reduce rental supply over time, creating conflict between government supply claims and industry warnings.",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260529-772",
+      "timestamp": "2026-05-29T17:27:05.211Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-17T08:56:11.861Z"
     }
   ],
   "needs_manual_review": [

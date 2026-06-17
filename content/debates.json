@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T23:20:45.077Z",
+  "lastUpdated": "2026-06-17T08:58:46.150Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1483,6 +1483,60 @@
         "label": "Industry: May reduce rental supply",
         "argument": "REIA and Property Council of Australia expressed concern that reducing the attractiveness of residential property investment could reduce rental supply over time, potentially worsening housing affordability in the private rental market.",
         "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-062",
+      "slug": "labor-negative-gearing-reform-broken-promise-or-policy-evolution",
+      "title": "Labor's negative gearing reform: Broken promise or legitimate policy evolution?",
+      "category": "tax_policy",
+      "type": "interpretation_difference",
+      "summary": "The 2026 Australian federal budget introduced changes to negative gearing and capital gains tax rules. ABC News characterized these changes as breaking a 2019 election promise to housing investors, while budget.gov.au and supporters frame the same changes as legitimate tax reform aimed at directing tax support toward new housing supply rather than existing properties.",
+      "view_a": {
+        "label": "Broken Promise",
+        "argument": "ABC News characterizes the 2026 budget changes to negative gearing and capital gains tax as breaking a 2019 election promise. The original promise was to restrict negative gearing to new housing only, but the 2026 changes are framed as introducing new restrictions that go beyond or deviate from that original commitment to housing investors.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Legitimate Policy Refinement",
+        "argument": "budget.gov.au frames the same changes as focusing tax support on new housing supply. The government argues this represents legitimate policy refinement that directs negative gearing benefits toward new construction to boost housing supply, rather than being a broken promise—positioning it as tax reform that achieves the original policy intent through updated mechanisms.",
+        "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-063",
+      "slug": "coalition-immigration-cap-housing-crisis",
+      "title": "Coalition immigration cap: Direct response to housing crisis or political opportunism?",
+      "category": "Immigration and Housing",
+      "type": "policy_disagreement",
+      "summary": "The Coalition proposes drastically cutting immigration and tying intake to new housing construction as a solution to Australia's housing affordability crisis. The government counters that its housing tax reform agenda—including changes to negative gearing and capital gains tax—is the more targeted and effective approach. This debate centres on whether immigration levels or tax policy are the primary drivers of housing affordability.",
+      "view_a": {
+        "label": "Coalition Position",
+        "argument": "Shadow Treasurer Angus Taylor argues the Coalition would cut immigration 'significantly below' current levels and directly link net overseas migration to new housing construction. The Coalition contends that rapid population growth has outpaced housing supply, creating unsustainable demand pressure on the property market. By tying immigration intake to housing construction rates, the policy aims to restore balance between population growth and dwelling availability.",
+        "sources": [
+          {
+            "author": "Angus Taylor",
+            "title": "Budget Reply Speech",
+            "publication": "Coalition",
+            "date": "2026-05-14",
+            "url": "https://www.abc.net.au/news/2026-05-14/angus-taylor-budget-reply-speech-immigration-housing"
+          }
+        ]
+      },
+      "view_b": {
+        "label": "Housing Advocate Perspective",
+        "argument": "Housing advocacy groups argue that linking immigration to housing construction misdiagnoses the problem. They contend that Australia's housing crisis stems primarily from tax settings that incentivise property investment over owner-occupation—including negative gearing and capital gains tax concessions. Rather than restricting immigration, targeted tax reform would better address affordability by reducing investor demand, encouraging downsizing, and freeing up existing housing stock. Critics suggest the Coalition's approach oversimplifies a complex structural problem.",
+        "sources": [
+          {
+            "author": "Housing Industry Association / Property Council",
+            "title": "Housing Tax Reform Submissions",
+            "publication": "Commonwealth Treasury",
+            "date": "2026",
+            "url": "https://www.abc.net.au/news/2026-05-14/angus-taylor-budget-reply-speech-immigration-housing"
+          }
+        ]
       },
       "verdict": null
     }

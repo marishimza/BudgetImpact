@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T19:32:09.864Z",
+  "lastUpdated": "2026-06-17T08:59:32.266Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1145,6 +1145,47 @@
         }
       ],
       "date_checked": "2026-06-16",
+      "category": "tax"
+    },
+    {
+      "id": "fc-060",
+      "slug": "division-296-tax-applies-to-earnings-not-balance",
+      "claim": "Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million",
+      "verdict": "disputed",
+      "verdict_label": "Misleading Simplification",
+      "short_explanation": "The 15% Division 296 tax applies specifically to the earnings attributable to the portion of your Total Superannuation Balance (TSB) exceeding $3 million—not a flat 15% on the entire balance above the threshold.",
+      "detailed_explanation": "Division 296 of the Treasury Laws Amendment (Better Targeted Super Concessions) Act 2023 introduces an additional 15% tax on superannuation earnings that relate to the portion of an individual's Total Superannuation Balance (TSB) exceeding the Low Balance Super Account (LSBT) threshold of $3 million. The key distinction is that the tax is calculated on the 'earnings' proportionately attributed to the excess amount, not on the excess balance itself. For example, if someone has a $4 million balance, the 15% tax would apply only to the earnings generated on the $1 million portion above the threshold, not on the full $1 million excess. This is a meaningful difference that significantly affects actual tax liability calculations and is frequently misrepresented in simplified explanations.",
+      "sources": [
+        {
+          "name": "Federal Register of Legislation - Treasury Laws Amendment (Better Targeted Super Concessions) Act 2023",
+          "url": "https://www.legislation.gov.au/C2023A00155",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-17",
+      "category": "superannuation"
+    },
+    {
+      "id": "fc-061",
+      "slug": "30-percent-cgt-minimum-not-all-gains",
+      "claim": "30% minimum tax applies to ALL capital gains from July 2027",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "The 30% minimum tax rate appears to apply only to real capital gains (above inflation), not nominal gains as some reporting suggests.",
+      "detailed_explanation": "Official budget documents indicate the discount will be 'replaced with a discount based on inflation.' The ABC source specifically states the minimum applies to 'real capital gains' (gains above inflation). This suggests the 30% floor applies only to real gains above inflation, not the full nominal gain. Claims that the minimum applies to ALL gains oversimplify the policy as described in official budget documentation.",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-property-shares/2026-05-13",
+          "type": "news"
+        },
+        {
+          "name": "budget.gov.au",
+          "url": "https://www.budget.gov.au",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-17",
       "category": "tax"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T18:15:09.262Z",
+  "lastUpdated": "2026-06-17T21:54:41.118Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -5108,48 +5108,106 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis quantifies CGT reform impact on retired investors: 8% vs 30% effective tax rate",
-      "description": "Analysis shows a retired investor on a 16% marginal tax rate currently faces only 8% tax on nominal gains from long-held equity portfolios. Under the new CGT indexation rules, the same investor would face 30% tax on indexed gains—a 22 percentage point increase. This highlights the significant impact on retirement investors holding long-term equity positions.",
-      "suggestion": "Add to budget-updates.json: ASX analysis finds a retired investor on a 16% marginal rate faces 8% tax on nominal gains under current CGT rules versus 30% on indexed gains under new rules, representing a 22 percentage point increase for low-rate retirees.",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260610-555",
-      "timestamp": "2026-06-10T16:55:01.644Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-10T18:27:29.330Z"
     },
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "NAB revises housing forecast: brief correction not prolonged slump expected after Budget tax reforms",
-      "description": "Following the Budget's announcement of negative gearing restrictions and CGT changes, NAB has revised its housing forecast. The bank projects only a brief market correction rather than a prolonged slump, suggesting investor uncertainty may be temporary rather than indicating fundamental market weakness.",
-      "suggestion": "Add to budget-updates.json: NAB revises housing forecast following Budget tax reforms, projecting a brief correction rather than a prolonged slump in property values.",
-      "source": "https://www.nab.com.au/content/nab-path/personal/federal-budget-2026",
+      "title": "KPMG reveals detailed CGT implementation funding breakdown",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] KPMG Budget Analysis provides specific allocation details for the $47.5 million implementation funding, confirming Treasury and ATO resource allocation breakdown plus $3.9 million ongoing operational funding. This adds granular detail to the previously reported generic $47.5m figure.",
+      "suggestion": "Add to budget-updates.json: KPMG Budget Analysis reveals CGT implementation funding breakdown: $47.5m over four years plus $3.9m ongoing for Treasury and ATO to implement CGT and negative gearing reforms.",
+      "source": "https://williambuck.com/tools/federal-budget-2026/",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260610-787",
-      "timestamp": "2026-06-10T16:55:01.644Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-10T18:27:39.254Z"
+      "id": "suggestion-20260617-865",
+      "timestamp": "2026-06-17T21:54:30.781Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases practical CGT indexation calculation guidance ahead of July 2027",
+      "description": "The ATO has released practical guidance documents explaining how investors should calculate capital gains using the new cost base indexation method from 1 July 2027. This provides step-by-step methodology for taxpayers to determine indexed cost bases.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations to help investors and tax professionals prepare for July 2027 reforms.",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260617-760",
+      "timestamp": "2026-06-17T21:54:30.781Z",
+      "status": "pending",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
+    },
+    {
+      "type": "content_update",
+      "priority": "low",
+      "title": "Greens propose 40% additional super tax on balances exceeding $10 million",
+      "description": "The Australian Greens have proposed an additional 40% tax rate on superannuation balances exceeding $10 million, representing a distinct policy position from Labor's Division 296 tax on balances above $3 million. This signals potential future debate on superannuation tax policy.",
+      "suggestion": "Add to budget-updates.json: Greens propose 40% additional tax on superannuation balances exceeding $10 million as alternative to Government policy.",
+      "source": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260617-237",
+      "timestamp": "2026-06-17T21:54:30.781Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative deliver 65,000 or significantly fewer additional homes?",
+      "description": "The government claims its $2 billion infrastructure initiative will enable around 65,000 additional homes. However, industry groups have raised concerns that this estimate may be optimistic, with some suggesting alternative lower figures. This matters because the justification for the housing package depends on these supply projections.",
+      "suggestion": "Add to debates.json: Government/REIA from budget.gov.au and apimagazine.com.au state the initiative will enable around 65,000 additional homes. However, industry critics have questioned whether this target is achievable, with alternative estimates suggesting significantly fewer homes may actually be delivered.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm, https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260617-675",
+      "timestamp": "2026-06-17T21:54:30.781Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Short-term property price impact: brief correction vs prolonged slump",
+      "description": "There is a factual conflict between NAB's revised forecast projecting a brief correction following the budget tax reforms versus industry warnings suggesting the potential for a more prolonged housing market slump. This affects how investors and policymakers should interpret market risks.",
+      "suggestion": "Add to debates.json: NAB analysis from williambuck.com forecasts a brief correction not a prolonged slump following the budget reforms. In contrast, industry warnings cited in various analyses suggest potential for a more severe and prolonged property market downturn as a result of the negative gearing and CGT changes.",
+      "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/, https://www.bdo.com.au/en-au/insights/real-estate-construction/what-the-2026-federal-budget-means-for-housing-construction-and-investment-into-the-sector",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260617-285",
+      "timestamp": "2026-06-17T21:54:30.781Z",
+      "status": "pending"
     },
     {
       "type": "fact_check",
       "priority": "medium",
-      "title": "Claim: 'Division 296 super tax applies to balances over $3m'",
-      "description": "The ATO source mentions 'indexed thresholds' for Division 296 tax. The exact $3m figure may be a rounded approximation of the original threshold that adjusts annually with inflation. The claim oversimplifies the threshold as a fixed $3m when it may be indexed each year.",
-      "suggestion": "Add to fact-checks.json: claim needs clarification because the Division 296 threshold appears to be indexed annually. Verify whether the threshold is exactly $3m or an indexed figure for 2026-27 financial year.",
-      "source": "https://www.ato.gov.au/About-ATO/News-and-media/Media-releases/2026/Better-Targeted-Super-Concessions-is-law",
+      "title": "Claim: Negative gearing has been fully abolished for all investors from 1 July 2027",
+      "description": "Multiple sources claim negative gearing is 'fully abolished for all investors', but William Buck (williambuck.com) specifically states the restriction applies only to 'properties purchased after 7:30pm on 12 May 2026'. This suggests a grandfathering provision for existing properties purchased before the cutoff date, not a complete abolition for all investors.",
+      "suggestion": "Add to fact-checks.json: claim is 'negative gearing fully abolished for all investors', verdict is disputed because sources indicate the restriction only applies to properties purchased after Budget Night (7:30pm 12 May 2026), meaning existing negatively geared property investors may be grandfathered.",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing/",
       "implementation_effort": "30_minutes",
-      "id": "suggestion-20260522-504",
-      "timestamp": "2026-05-22T21:03:45.810Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-10T18:28:08.415Z"
+      "id": "suggestion-20260617-761",
+      "timestamp": "2026-06-17T21:54:30.781Z",
+      "status": "pending"
     },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Infrastructure initiative will deliver 65,000 additional homes",
+      "description": "The 2026 Budget infrastructure initiative is cited as delivering 65,000 additional homes. However, pending suggestions in the dataset note 'alternative estimates' and question whether the figure is actually 30,000 homes. This specific housing target number appears in multiple sources but may be contested or represent aspirational rather than guaranteed outcomes.",
+      "suggestion": "Add to fact-checks.json: claim is 'infrastructure initiative delivers 65,000 homes', verdict is unclear because conflicting estimates suggest alternative figures (30,000) may be more accurate, and the 65,000 figure may represent aspirational rather than guaranteed outcomes.",
+      "source": "https://www.budget.gov.au/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260617-109",
+      "timestamp": "2026-06-17T21:54:30.781Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260617-835",
+      "timestamp": "2026-06-17T21:54:30.781Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "debate_page",
       "priority": "medium",
@@ -6360,35 +6418,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Treasurer Jim Chalmers delivers Budget 2026–27 speech at Parliament House",
-      "description": "Chalmers describes the Budget as 'the most important and ambitious in decades', with the Budget officially tabled on 12 May 2026. The speech outlines the Government's approach to tax reform including CGT changes and negative gearing restrictions.",
-      "suggestion": "Add to budget-updates.json: Treasurer Jim Chalmers delivered the Federal Budget on 12 May 2026 at Parliament House, describing it as 'the most important and ambitious Budget in decades' due to global economic challenges.",
-      "source": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/2026-27-budget-speech-parliament-house-canberra",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260610-494",
-      "timestamp": "2026-06-10T16:55:01.644Z",
-      "status": "skipped",
-      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/2026-27-budget-speech-parliament-house-canberra",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-10T18:27:10.217Z"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources use 'minimum 30% tax rate' language without qualification. However, the ABC source clarifies it applies to 'real capital gains' (i.e., gains above inflation), not total nominal gains. This oversimplification could mislead investors into thinking all capital gains will be taxed at 30%, when in fact the inflation-adjusted portion may still receive favorable treatment.",
-      "suggestion": "Add to fact-checks.json: claim is partially_true, verdict is disputed because the 30% minimum applies to real (inflation-adjusted) capital gains, not necessarily all gains. Assets held for long periods with significant inflation may have their cost base indexed, meaning only gains above inflation face the 30% floor.",
-      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-property-shares/10475854",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260522-214",
-      "timestamp": "2026-05-22T21:03:45.810Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-10T18:27:52.690Z"
-    },
     {
       "type": "content_update",
       "priority": "high",

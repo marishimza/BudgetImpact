@@ -5007,6 +5007,74 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-10T12:51:58.141Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis quantifies CGT reform impact on retired investors: 8% vs 30% effective tax rate",
+      "description": "Analysis shows a retired investor on a 16% marginal tax rate currently faces only 8% tax on nominal gains from long-held equity portfolios. Under the new CGT indexation rules, the same investor would face 30% tax on indexed gains—a 22 percentage point increase. This highlights the significant impact on retirement investors holding long-term equity positions.",
+      "suggestion": "Add to budget-updates.json: ASX analysis finds a retired investor on a 16% marginal rate faces 8% tax on nominal gains under current CGT rules versus 30% on indexed gains under new rules, representing a 22 percentage point increase for low-rate retirees.",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260610-555",
+      "timestamp": "2026-06-10T16:55:01.644Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-10T18:27:29.330Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "NAB revises housing forecast: brief correction not prolonged slump expected after Budget tax reforms",
+      "description": "Following the Budget's announcement of negative gearing restrictions and CGT changes, NAB has revised its housing forecast. The bank projects only a brief market correction rather than a prolonged slump, suggesting investor uncertainty may be temporary rather than indicating fundamental market weakness.",
+      "suggestion": "Add to budget-updates.json: NAB revises housing forecast following Budget tax reforms, projecting a brief correction rather than a prolonged slump in property values.",
+      "source": "https://www.nab.com.au/content/nab-path/personal/federal-budget-2026",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260610-787",
+      "timestamp": "2026-06-10T16:55:01.644Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-10T18:27:39.254Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 super tax applies to balances over $3m'",
+      "description": "The ATO source mentions 'indexed thresholds' for Division 296 tax. The exact $3m figure may be a rounded approximation of the original threshold that adjusts annually with inflation. The claim oversimplifies the threshold as a fixed $3m when it may be indexed each year.",
+      "suggestion": "Add to fact-checks.json: claim needs clarification because the Division 296 threshold appears to be indexed annually. Verify whether the threshold is exactly $3m or an indexed figure for 2026-27 financial year.",
+      "source": "https://www.ato.gov.au/About-ATO/News-and-media/Media-releases/2026/Better-Targeted-Super-Concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260522-504",
+      "timestamp": "2026-05-22T21:03:45.810Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-10T18:28:08.415Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasurer Jim Chalmers delivers Budget 2026–27 speech at Parliament House",
+      "description": "Chalmers describes the Budget as 'the most important and ambitious in decades', with the Budget officially tabled on 12 May 2026. The speech outlines the Government's approach to tax reform including CGT changes and negative gearing restrictions.",
+      "suggestion": "Add to budget-updates.json: Treasurer Jim Chalmers delivered the Federal Budget on 12 May 2026 at Parliament House, describing it as 'the most important and ambitious Budget in decades' due to global economic challenges.",
+      "source": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/2026-27-budget-speech-parliament-house-canberra",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260610-494",
+      "timestamp": "2026-06-10T16:55:01.644Z",
+      "status": "skipped",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/2026-27-budget-speech-parliament-house-canberra",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-10T18:27:10.217Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources use 'minimum 30% tax rate' language without qualification. However, the ABC source clarifies it applies to 'real capital gains' (i.e., gains above inflation), not total nominal gains. This oversimplification could mislead investors into thinking all capital gains will be taxed at 30%, when in fact the inflation-adjusted portion may still receive favorable treatment.",
+      "suggestion": "Add to fact-checks.json: claim is partially_true, verdict is disputed because the 30% minimum applies to real (inflation-adjusted) capital gains, not necessarily all gains. Assets held for long periods with significant inflation may have their cost base indexed, meaning only gains above inflation face the 30% floor.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-property-shares/10475854",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260522-214",
+      "timestamp": "2026-05-22T21:03:45.810Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-10T18:27:52.690Z"
     }
   ]
 }

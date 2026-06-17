@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T23:19:54.730Z",
+  "lastUpdated": "2026-06-17T13:43:48.553Z",
   "items": [
     {
       "id": "update-001",
@@ -1996,6 +1996,39 @@
       "title": "Division 296 Better Targeted Super Concessions confirmed as enacted law — 15% tax applies from 1 July 2026 on earnings above $3m threshold",
       "summary": "The ATO confirms that Division 296 (Better Targeted Super Concessions) legislation has been enacted and commences from 1 July 2026. The tax applies at 15% on the proportion of earnings relating to total superannuation balance that exceeds the $3m threshold. Indexed thresholds and CGT relief provisions for SMSFs are confirmed.",
       "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-198",
+      "date": "2026-06-17",
+      "tag": "Superannuation",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "summary": "The Australian Taxation Office has published practical guidance materials to help taxpayers and tax professionals understand how to calculate capital gains under the new inflation-indexed cost base rules taking effect from 1 July 2027. The guidance explains the methodology for adjusting acquisition costs for inflation, replacing the current 50% CGT discount. Taxpayers holding assets acquired after the commencement date should review the guidance to ensure accurate calculations when disposing of those assets.",
+      "url": "",
+      "priority": "high"
+    },
+    {
+      "id": "update-199",
+      "date": "2026-06-17",
+      "tag": [
+        "Parliament",
+        "Property"
+      ],
+      "source": "Australian Taxation Office",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "summary": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has been formally lodged with Parliament, containing the legislative framework for the Budget's negative gearing restrictions and CGT discount reforms. The Bill establishes the 7:30pm Budget Night cutoff for negative gearing on established properties and the 1 July 2027 commencement date for CGT changes. This legislation represents the government's approach to housing affordability through restrictions on negative gearing and modifications to the capital gains tax discount.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-200",
+      "date": "2026-06-17",
+      "tag": "Superannuation",
+      "source": "Heffron",
+      "title": "Division 296 CGT relief provisions confirmed in draft legislation for SMSFs",
+      "summary": "Draft legislation for Division 296 includes specific CGT relief provisions for self-managed superannuation funds affected by the new high-balance super tax. The relief allows SMSFs to reset cost bases for certain assets to avoid double taxation as they restructure holdings in response to the $3 million threshold tax. This provides a pathway for funds to reorganise investments without triggering unintended capital gains consequences.",
+      "url": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
       "priority": "high"
     }
   ]

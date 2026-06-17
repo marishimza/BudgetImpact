@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T08:58:46.150Z",
+  "lastUpdated": "2026-06-17T13:44:37.380Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1536,6 +1536,52 @@
             "date": "2026",
             "url": "https://www.abc.net.au/news/2026-05-14/angus-taylor-budget-reply-speech-immigration-housing"
           }
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-064",
+      "slug": "2b-infrastructure-initiative-housing-targets-65000-vs-alternative-estimates",
+      "title": "$2B infrastructure initiative housing targets: 65,000 vs alternative estimates",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "The government claims its $2 billion infrastructure initiative will enable around 65,000 additional homes. However, some analyses suggest different numbers, creating a factual conflict about the expected housing output of this key budget measure.",
+      "view_a": {
+        "label": "Government projection: 65,000 homes",
+        "argument": "The Real Estate Institute of Australia President Jacob Caine, cited by API Magazine, states the $2 billion infrastructure initiative is 'expected to enable around 65,000 additional homes'. This represents the official government projection for housing delivery under this budget measure.",
+        "sources": [
+          "https://budget.gov.au/2026-27/content/overview.htm"
+        ]
+      },
+      "view_b": {
+        "label": "Alternative analysis: ~30,000 realistic target",
+        "argument": "Alternative analyses suggest the realistic delivery target for the $2 billion infrastructure initiative is considerably lower at around 30,000 homes. These estimates are based on historical infrastructure-to-housing conversion rates and current construction capacity constraints.",
+        "sources": [
+          "https://budget.gov.au/2026-27/content/overview.htm"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-065",
+      "slug": "coalition-immigration-cap-housing-measures-debate",
+      "title": "Is the Coalition's immigration cap proposal a direct response to budget housing measures?",
+      "category": "housing",
+      "type": "interpretation_difference",
+      "summary": "The Guardian analysis suggests the Coalition's immigration cap may be 'a direct response to budget housing measures', contrasting with government emphasis on supply-side tax reform via negative gearing limits as the primary housing solution.",
+      "view_a": {
+        "label": "Immigration cap as housing response",
+        "argument": "The Coalition's immigration cap proposal is a direct response to the budget's housing affordability measures, implying that immigration contributes to housing demand pressures and should be constrained to address the housing crisis.",
+        "sources": [
+          "https://www.theguardian.com"
+        ]
+      },
+      "view_b": {
+        "label": "Supply-side reform priority",
+        "argument": "The Coalition's immigration cap represents a separate policy approach, with supply-side reforms including changes to negative gearing and capital gains tax being the primary and more effective solution to housing affordability challenges.",
+        "sources": [
+          "https://budget.gov.au"
         ]
       },
       "verdict": null

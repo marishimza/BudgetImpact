@@ -4937,6 +4937,76 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-10T08:06:11.943Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "This claim appears frequently but misrepresents the tax structure. The ATO source states the 15% tax applies to 'the proportion of earnings relating to your TSB that exceeds the LSBT' (the $3m threshold), not the entire balance. This is a critical distinction—the tax is on earnings above the threshold, not the balance itself.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because Division 296 applies 15% tax only on the earnings attributed to the portion of total superannuation balance (TSB) exceeding $3m, not on the entire balance above $3m.",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260610-241",
+      "timestamp": "2026-06-10T11:31:18.196Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-06-10T12:50:53.446Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The Australian Taxation Office has released practical guidance explaining how investors should calculate capital gains using the new cost base indexation method that will replace the 50% discount from 1 July 2027. The guidance helps asset holders determine their indexed cost base for tax purposes.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "source": "https://www.ato.gov.au/",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260610-159",
+      "timestamp": "2026-06-10T11:31:18.196Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implemented_at": "2026-06-10T12:51:15.848Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "The REIA President publicly states the government's $2B infrastructure program is 'expected to enable around 65,000 additional homes.' This specific projection conflicts with skepticism about whether infrastructure spending directly translates to housing completions, given construction timelines, local approval processes, and whether infrastructure is truly the binding constraint on housing supply.",
+      "suggestion": "Add to debates.json: view_a from API Magazine/REIA says the $2B infrastructure initiative will 'enable around 65,000 additional homes.' view_b from housing economists or industry critics may question whether infrastructure funding (rather than planning reform, labour, or materials) is the actual constraint, suggesting the figure is optimistic or conflates infrastructure spending with housing completions.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260522-439",
+      "timestamp": "2026-05-22T21:03:45.810Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-10T12:52:16.961Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO confirms Division 296 indexed thresholds and CGT relief details for SMSFs",
+      "description": "The ATO has confirmed the indexed thresholds for Division 296 (Better Targeted Super Concessions) tax and released details on CGT relief provisions available to self-managed super funds affected by the new high-balance super tax that commences 1 July 2026.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details for SMSFs — 15% tax on earnings above $3m threshold from 1 July 2026",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260610-214",
+      "timestamp": "2026-06-10T11:31:18.196Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-10T12:51:43.129Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG flags implementation timeline risks as ATO prepares for CGT reform",
+      "description": "KPMG analysis identifies potential implementation risks as the ATO prepares to administer the new CGT indexation regime with $47.5 million in funding allocated over four years. The firm notes the complexity of transition arrangements and potential for delays in guidance and systems readiness.",
+      "suggestion": "Add to budget-updates.json: KPMG flags implementation timeline risks as ATO prepares for CGT reform with $47.5m funding",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260610-418",
+      "timestamp": "2026-06-10T11:31:18.196Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-10T12:51:58.141Z"
     }
   ]
 }

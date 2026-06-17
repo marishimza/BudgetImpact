@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T21:54:41.118Z",
+  "lastUpdated": "2026-06-17T23:21:48.861Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1282,30 +1282,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple media sources report a 'minimum 30% tax rate on ALL gains.' However, budget.gov.au states the change replaces the 50% discount with 'a discount based on inflation' and introduces a minimum 30% tax on gains. This wording suggests gains below inflation-adjusted thresholds may not face this minimum rate. The actual tax calculation appears to involve indexation (only real gains above inflation are taxed), not a flat 30% on total gains. The 'on ALL gains' qualifier may be inaccurate.",
-      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax applies to ALL gains', verdict is disputed because official budget documents indicate the 50% discount is replaced by inflation indexation, meaning only real (inflation-adjusted) capital gains are subject to the 30% minimum rate, not gross gains.",
-      "source": "https://budget.gov.au/content/tax-reform/index.htm",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260530-703",
-      "timestamp": "2026-05-30T09:51:25.751Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim appears in pending suggestions and may oversimplify the comparison. While indexation adjusts cost bases for inflation, the 50% discount applies to the entire gain. Depending on the inflation rate during the holding period versus the taxpayer's marginal tax rate, the 50% discount could sometimes produce a lower effective tax rate. The ABC analysis shows inflation accounted for 56% of ASX 200 gains over 10 years, but this doesn't mean indexation is universally superior.",
-      "suggestion": "Add to fact-checks.json: claim is 'indexation always produces better CGT outcome than 50% discount', verdict is partially_true because while indexation generally benefits long-held assets in high-inflation periods, the outcome depends on individual circumstances including holding period, inflation rates, and marginal tax rate. For some taxpayers, the 50% discount may still be preferable.",
-      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-property-shares/10542050",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260530-905",
-      "timestamp": "2026-05-30T09:51:25.751Z",
-      "status": "pending"
-    },
-    {
       "id": "suggestion-20260530-264",
       "timestamp": "2026-05-30T09:51:25.751Z",
       "status": "pending",
@@ -1338,18 +1314,6 @@
       "source": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/2026-27-budget-speech-parliament-house-canberra",
       "implementation_effort": "10_minutes",
       "id": "suggestion-20260530-930",
-      "timestamp": "2026-05-30T14:59:21.286Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Short-term housing price impact: prolonged slump vs brief correction",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Financial institutions and industry bodies have issued conflicting forecasts on whether the negative gearing and CGT changes will cause a prolonged property downturn or a minor correction. This matters for investors, homeowners, and policy evaluation.",
-      "suggestion": "Add to debates.json: NAB revised its housing forecast to predict a 'brief correction not prolonged slump', while the Real Estate Institute of Australia and Property Council of Australia have expressed concern that reducing investor attractiveness could reduce rental supply and destabilize the market.",
-      "source": "https://www.commbank.com.au/articles/newsroom/2026/05/2026-budget-updated-housing-outlook.html; https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260530-832",
       "timestamp": "2026-05-30T14:59:21.286Z",
       "status": "pending"
     },
@@ -5111,31 +5075,6 @@
     },
     {
       "type": "content_update",
-      "priority": "medium",
-      "title": "KPMG reveals detailed CGT implementation funding breakdown",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] KPMG Budget Analysis provides specific allocation details for the $47.5 million implementation funding, confirming Treasury and ATO resource allocation breakdown plus $3.9 million ongoing operational funding. This adds granular detail to the previously reported generic $47.5m figure.",
-      "suggestion": "Add to budget-updates.json: KPMG Budget Analysis reveals CGT implementation funding breakdown: $47.5m over four years plus $3.9m ongoing for Treasury and ATO to implement CGT and negative gearing reforms.",
-      "source": "https://williambuck.com/tools/federal-budget-2026/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260617-865",
-      "timestamp": "2026-06-17T21:54:30.781Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases practical CGT indexation calculation guidance ahead of July 2027",
-      "description": "The ATO has released practical guidance documents explaining how investors should calculate capital gains using the new cost base indexation method from 1 July 2027. This provides step-by-step methodology for taxpayers to determine indexed cost bases.",
-      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations to help investors and tax professionals prepare for July 2027 reforms.",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260617-760",
-      "timestamp": "2026-06-17T21:54:30.781Z",
-      "status": "pending",
-      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
-    },
-    {
-      "type": "content_update",
       "priority": "low",
       "title": "Greens propose 40% additional super tax on balances exceeding $10 million",
       "description": "The Australian Greens have proposed an additional 40% tax rate on superannuation balances exceeding $10 million, representing a distinct policy position from Labor's Division 296 tax on balances above $3 million. This signals potential future debate on superannuation tax policy.",
@@ -6415,6 +6354,46 @@
       "timestamp": "2026-05-30T09:51:25.751Z",
       "status": "implemented",
       "implemented_at": "2026-06-17T18:15:09.262Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases practical CGT indexation calculation guidance ahead of July 2027",
+      "description": "The ATO has released practical guidance documents explaining how investors should calculate capital gains using the new cost base indexation method from 1 July 2027. This provides step-by-step methodology for taxpayers to determine indexed cost bases.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations to help investors and tax professionals prepare for July 2027 reforms.",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260617-760",
+      "timestamp": "2026-06-17T21:54:30.781Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implemented_at": "2026-06-17T23:19:30.477Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG reveals detailed CGT implementation funding breakdown",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] KPMG Budget Analysis provides specific allocation details for the $47.5 million implementation funding, confirming Treasury and ATO resource allocation breakdown plus $3.9 million ongoing operational funding. This adds granular detail to the previously reported generic $47.5m figure.",
+      "suggestion": "Add to budget-updates.json: KPMG Budget Analysis reveals CGT implementation funding breakdown: $47.5m over four years plus $3.9m ongoing for Treasury and ATO to implement CGT and negative gearing reforms.",
+      "source": "https://williambuck.com/tools/federal-budget-2026/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260617-865",
+      "timestamp": "2026-06-17T21:54:30.781Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-17T23:20:40.185Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim appears in pending suggestions and may oversimplify the comparison. While indexation adjusts cost bases for inflation, the 50% discount applies to the entire gain. Depending on the inflation rate during the holding period versus the taxpayer's marginal tax rate, the 50% discount could sometimes produce a lower effective tax rate. The ABC analysis shows inflation accounted for 56% of ASX 200 gains over 10 years, but this doesn't mean indexation is universally superior.",
+      "suggestion": "Add to fact-checks.json: claim is 'indexation always produces better CGT outcome than 50% discount', verdict is partially_true because while indexation generally benefits long-held assets in high-inflation periods, the outcome depends on individual circumstances including holding period, inflation rates, and marginal tax rate. For some taxpayers, the 50% discount may still be preferable.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-property-shares/10542050",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-905",
+      "timestamp": "2026-05-30T09:51:25.751Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-17T23:21:29.593Z"
     }
   ],
   "skipped": [
@@ -7117,6 +7096,34 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-17T08:56:11.861Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple media sources report a 'minimum 30% tax rate on ALL gains.' However, budget.gov.au states the change replaces the 50% discount with 'a discount based on inflation' and introduces a minimum 30% tax on gains. This wording suggests gains below inflation-adjusted thresholds may not face this minimum rate. The actual tax calculation appears to involve indexation (only real gains above inflation are taxed), not a flat 30% on total gains. The 'on ALL gains' qualifier may be inaccurate.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax applies to ALL gains', verdict is disputed because official budget documents indicate the 50% discount is replaced by inflation indexation, meaning only real (inflation-adjusted) capital gains are subject to the 30% minimum rate, not gross gains.",
+      "source": "https://budget.gov.au/content/tax-reform/index.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-703",
+      "timestamp": "2026-05-30T09:51:25.751Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-17T23:20:54.703Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Short-term housing price impact: prolonged slump vs brief correction",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Financial institutions and industry bodies have issued conflicting forecasts on whether the negative gearing and CGT changes will cause a prolonged property downturn or a minor correction. This matters for investors, homeowners, and policy evaluation.",
+      "suggestion": "Add to debates.json: NAB revised its housing forecast to predict a 'brief correction not prolonged slump', while the Real Estate Institute of Australia and Property Council of Australia have expressed concern that reducing investor attractiveness could reduce rental supply and destabilize the market.",
+      "source": "https://www.commbank.com.au/articles/newsroom/2026/05/2026-budget-updated-housing-outlook.html; https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-832",
+      "timestamp": "2026-05-30T14:59:21.286Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-17T23:21:48.861Z"
     }
   ],
   "needs_manual_review": [

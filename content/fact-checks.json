@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T18:12:36.688Z",
+  "lastUpdated": "2026-06-17T23:21:11.079Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1223,6 +1223,24 @@
       ],
       "date_checked": "2026-06-17",
       "category": "capital gains tax"
+    },
+    {
+      "id": "fc-064",
+      "slug": "inflation-indexation-always-better-cgt-outcome-than-50-percent-discount",
+      "claim": "Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "While indexation generally benefits long-held assets in high-inflation periods, it is not universally superior to the 50% discount. The outcome depends on individual circumstances including holding period, inflation rates, and marginal tax rate.",
+      "detailed_explanation": "This claim oversimplifies a complex tax comparison. Inflation indexation adjusts the cost base of an asset for inflation since acquisition, effectively excluding inflationary gains from tax. However, the 50% discount applies to the entire capital gain before calculating tax. The relative benefit depends on: 1) The inflation rate during the holding period—if inflation was low, indexation provides less benefit; 2) The taxpayer's marginal tax rate—higher rates make the discount more valuable; 3) The holding period—the 50% discount requires at least 12 months ownership. For example, with modest inflation (e.g., 2-3% annually over 10 years), a high-income earner may find the 50% discount provides a lower effective tax rate on their real gain. The ABC analysis showing inflation accounted for 56% of ASX 200 gains over 10 years illustrates that inflation is significant, but does not guarantee indexation beats the discount for all taxpayers.",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-property-shares/10542050",
+          "type": "news"
+        }
+      ],
+      "date_checked": "2026-06-17",
+      "category": "capital-gains-tax"
     }
   ]
 }

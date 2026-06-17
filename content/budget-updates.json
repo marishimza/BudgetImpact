@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T18:11:33.503Z",
+  "lastUpdated": "2026-06-17T23:20:40.183Z",
   "items": [
     {
       "id": "update-001",
@@ -2040,6 +2040,26 @@
       "summary": "The Senate has passed the government's budget-related legislation that was previously subject to an opposition challenge. The legislation, which had been flagged for a Senate challenge in May, passed with minor amendments after negotiations between the major parties. The passage marks the completion of a key legislative step in the budget implementation process.",
       "url": "https://www.aph.gov.au/Parliamentary_Business",
       "priority": "high"
+    },
+    {
+      "id": "update-202",
+      "date": "2026-06-17",
+      "tag": "Budget",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases practical guidance for CGT indexation calculations to help investors and tax professionals prepare for July 2027 reforms",
+      "summary": "The ATO has released practical guidance documents explaining how investors should calculate capital gains using the new cost base indexation method from 1 July 2027. The guidance provides step-by-step methodology for taxpayers to determine indexed cost bases under the reformed capital gains tax rules. Tax professionals and investors are encouraged to review the documentation to ensure compliance with the upcoming changes.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-203",
+      "date": "2026-06-17",
+      "tag": "Budget",
+      "source": "William Buck",
+      "title": "KPMG reveals detailed CGT implementation funding breakdown",
+      "summary": "KPMG Budget Analysis provides a detailed breakdown of the $47.5 million implementation funding allocated for CGT and negative gearing reforms over four years. The analysis confirms resource allocation for Treasury and the ATO, plus an additional $3.9 million in ongoing operational funding. This granular detail expands on the previously reported generic $47.5m figure.",
+      "url": "https://williambuck.com/tools/federal-budget-2026/",
+      "priority": "medium"
     }
   ]
 }

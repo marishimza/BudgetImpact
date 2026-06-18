@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T18:15:09.259Z",
+  "lastUpdated": "2026-06-18T08:43:39.685Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1628,6 +1628,31 @@
         "argument": "The government frames these reforms as calculated, responsible policy decisions designed to improve housing affordability and create a fairer tax system. They maintain the changes will be implemented as announced and point to their mandate from the 2026 budget process.",
         "sources": [
           "https://www.smh.com.au/politics/federal/government-defends-sweeping-tax-reform-agenda"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-068",
+      "slug": "coalition-pledge-repeal-negative-gearing-cgt-investor-behaviour",
+      "title": "Will the Coalition's pledge to repeal negative gearing and CGT changes affect investor behaviour?",
+      "category": "tax",
+      "type": "projection_disagreement",
+      "summary": "The Coalition has pledged to repeal Labor's negative gearing and capital gains tax changes if elected, creating uncertainty about whether property investors will alter their behaviour in anticipation of potential policy reversal. This debate examines whether the Coalition's commitment influences investor decisions now or whether investors are adopting a wait-and-see approach pending the electoral outcome.",
+      "view_a": {
+        "label": "Coalition repeal pledge will influence investor decisions",
+        "argument": "The Coalition, through Treasury spokesperson Tim Wilson, has stated they will 'look to repeal the changes if necessary' and 'defeat the changes' to restore certainty for property investors. This clear policy commitment provides investors with confidence that negative gearing and CGT concessions will be restored, potentially encouraging renewed investment activity in anticipation of policy reversal if the Coalition wins government.",
+        "sources": [
+          "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+          "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294"
+        ]
+      },
+      "view_b": {
+        "label": "Investor behaviour unlikely to change before electoral outcome",
+        "argument": "Financial market analysts suggest that investor behaviour may remain largely unchanged pending the electoral outcome, as acting on the Coalition's pledge involves political risk. Some analysts argue that regardless of which party wins, the policy creates a 'two-speed' tax treatment where investors who purchased before the changes face different CGT regimes than those who invest after, meaning the policy uncertainty itself may constrain rather than encourage investor activity.",
+        "sources": [
+          "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+          "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294"
         ]
       },
       "verdict": null

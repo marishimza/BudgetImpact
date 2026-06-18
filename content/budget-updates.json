@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T23:20:40.183Z",
+  "lastUpdated": "2026-06-18T08:42:48.835Z",
   "items": [
     {
       "id": "update-001",
@@ -2059,6 +2059,26 @@
       "title": "KPMG reveals detailed CGT implementation funding breakdown",
       "summary": "KPMG Budget Analysis provides a detailed breakdown of the $47.5 million implementation funding allocated for CGT and negative gearing reforms over four years. The analysis confirms resource allocation for Treasury and the ATO, plus an additional $3.9 million in ongoing operational funding. This granular detail expands on the previously reported generic $47.5m figure.",
       "url": "https://williambuck.com/tools/federal-budget-2026/",
+      "priority": "medium"
+    },
+    {
+      "id": "update-204",
+      "date": "2026-06-18",
+      "tag": "Parliament",
+      "source": "Australian Parliament House",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "summary": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has been formally lodged with Parliament, containing the legislative framework for negative gearing restrictions and CGT discount reforms. The Bill is currently before the Senate Economics Legislation Committee for review. This legislation represents a significant shift in housing tax policy as part of the government's housing affordability agenda.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/bd/bd2526",
+      "priority": "high"
+    },
+    {
+      "id": "update-205",
+      "date": "2026-06-18",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Senate passes contested legislation — Opposition challenge resolved",
+      "summary": "The legislation that prompted the Opposition to flag a Senate challenge in May has now passed into law following a vote in the Senate. The government secured sufficient crossbench support to ensure passage of the bill. This resolves the uncertainty noted in previous budget updates regarding the legislative status.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Lists/Bills_2026",
       "priority": "medium"
     }
   ]

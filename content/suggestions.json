@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T06:45:21.488Z",
+  "lastUpdated": "2026-06-18T08:43:39.687Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1314,18 +1314,6 @@
       "source": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/2026-27-budget-speech-parliament-house-canberra",
       "implementation_effort": "10_minutes",
       "id": "suggestion-20260530-930",
-      "timestamp": "2026-05-30T14:59:21.286Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will the Coalition's pledge to repeal negative gearing and CGT changes affect investor behaviour?",
-      "description": "The Coalition has pledged to repeal the changes if elected, creating uncertainty about whether investors will alter their behaviour now in anticipation. Financial institutions and political commentators are making conflicting assessments of this political risk.",
-      "suggestion": "Add to debates.json: The Coalition (via Tim Wilson) states they will 'look to repeal the changes if necessary' and 'defeat the changes', while financial market analysts suggest investor behaviour may remain unchanged pending electoral outcome, with some arguing the policy creates a 'two-speed' tax treatment regardless of political outcome.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt; https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260530-954",
       "timestamp": "2026-05-30T14:59:21.286Z",
       "status": "pending"
     },
@@ -5146,43 +5134,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
-      "description": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has been formally lodged with Parliament, containing the legislative framework for negative gearing restrictions and CGT discount reforms. The Bill is currently before the Senate Economics Legislation Committee.",
-      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament — contains negative gearing and CGT discount legislative framework",
-      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_this_Week/Current_Business",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260618-838",
-      "timestamp": "2026-06-18T06:45:15.473Z",
-      "status": "pending",
-      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "KPMG Budget Analysis: $47.5m CGT implementation funding breakdown reveals ATO and Treasury resource allocation",
-      "description": "KPMG analysis reveals detailed breakdown of the $47.5 million implementation funding for CGT and negative gearing reforms over four years, plus $3.9 million in ongoing costs. Funding allocated to Treasury and ATO for system updates, staff training, and taxpayer guidance development.",
-      "suggestion": "Add to budget-updates.json: KPMG reveals detailed CGT implementation funding breakdown — $47.5m over four years plus $3.9m ongoing for Treasury and ATO",
-      "source": "https://kpmg.com/au/en/home/insights/2026/05/federal-budget-2026-analysis.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260618-211",
-      "timestamp": "2026-06-18T06:45:15.473Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "NAB revises housing forecast: brief correction not prolonged slump expected after Budget tax reforms",
-      "description": "National Australia Bank has revised its housing market forecast following Budget 2026 tax reforms, projecting a brief correction rather than a prolonged slump. NAB analysts note the impact of negative gearing restrictions will be contained, with new build activity expected to offset established property market softness.",
-      "suggestion": "Add to budget-updates.json: NAB revises housing forecast — brief correction not prolonged slump expected after Budget tax reforms",
-      "source": "https://www.nab.com.au/content/dam/nabr/documents/reports/economics/2026/housing-market-outlook-may-2026.pdf",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260618-450",
-      "timestamp": "2026-06-18T06:45:15.473Z",
-      "status": "pending"
-    },
-    {
       "type": "fact_check",
       "priority": "medium",
       "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
@@ -5217,18 +5168,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260618-472",
-      "timestamp": "2026-06-18T06:45:15.474Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -6453,6 +6392,46 @@
       "timestamp": "2026-05-30T09:51:25.751Z",
       "status": "implemented",
       "implemented_at": "2026-06-17T23:21:29.593Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "description": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has been formally lodged with Parliament, containing the legislative framework for negative gearing restrictions and CGT discount reforms. The Bill is currently before the Senate Economics Legislation Committee.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament — contains negative gearing and CGT discount legislative framework",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_this_Week/Current_Business",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260618-838",
+      "timestamp": "2026-06-18T06:45:15.473Z",
+      "status": "implemented",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
+      "implemented_at": "2026-06-18T08:41:46.840Z"
+    },
+    {
+      "id": "suggestion-20260618-472",
+      "timestamp": "2026-06-18T06:45:15.474Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-18T08:42:48.837Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the Coalition's pledge to repeal negative gearing and CGT changes affect investor behaviour?",
+      "description": "The Coalition has pledged to repeal the changes if elected, creating uncertainty about whether investors will alter their behaviour now in anticipation. Financial institutions and political commentators are making conflicting assessments of this political risk.",
+      "suggestion": "Add to debates.json: The Coalition (via Tim Wilson) states they will 'look to repeal the changes if necessary' and 'defeat the changes', while financial market analysts suggest investor behaviour may remain unchanged pending electoral outcome, with some arguing the policy creates a 'two-speed' tax treatment regardless of political outcome.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt; https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-954",
+      "timestamp": "2026-05-30T14:59:21.286Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-18T08:43:39.687Z"
     }
   ],
   "skipped": [
@@ -7140,6 +7119,34 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-17T23:21:48.861Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG Budget Analysis: $47.5m CGT implementation funding breakdown reveals ATO and Treasury resource allocation",
+      "description": "KPMG analysis reveals detailed breakdown of the $47.5 million implementation funding for CGT and negative gearing reforms over four years, plus $3.9 million in ongoing costs. Funding allocated to Treasury and ATO for system updates, staff training, and taxpayer guidance development.",
+      "suggestion": "Add to budget-updates.json: KPMG reveals detailed CGT implementation funding breakdown — $47.5m over four years plus $3.9m ongoing for Treasury and ATO",
+      "source": "https://kpmg.com/au/en/home/insights/2026/05/federal-budget-2026-analysis.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260618-211",
+      "timestamp": "2026-06-18T06:45:15.473Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-18T08:41:59.644Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "NAB revises housing forecast: brief correction not prolonged slump expected after Budget tax reforms",
+      "description": "National Australia Bank has revised its housing market forecast following Budget 2026 tax reforms, projecting a brief correction rather than a prolonged slump. NAB analysts note the impact of negative gearing restrictions will be contained, with new build activity expected to offset established property market softness.",
+      "suggestion": "Add to budget-updates.json: NAB revises housing forecast — brief correction not prolonged slump expected after Budget tax reforms",
+      "source": "https://www.nab.com.au/content/dam/nabr/documents/reports/economics/2026/housing-market-outlook-may-2026.pdf",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260618-450",
+      "timestamp": "2026-06-18T06:45:15.473Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-18T08:42:12.964Z"
     }
   ],
   "needs_manual_review": [

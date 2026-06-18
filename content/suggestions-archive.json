@@ -5210,6 +5210,71 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-11T08:41:23.499Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Division 296 CGT relief provisions confirmed for SMSFs in draft legislation",
+      "description": "Treasury has released draft legislation for Division 296 tax that includes CGT relief provisions for SMSFs affected by the high-balance superannuation tax. The ATO has confirmed indexed thresholds and CGT relief details, indicating the legislation is progressing through the parliamentary process.",
+      "suggestion": "Add to budget-updates.json: Division 296 CGT relief for SMSFs confirmed in draft legislation",
+      "source": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260611-369",
+      "timestamp": "2026-06-11T12:05:08.347Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-11T13:55:11.307Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will 2026 budget tax reforms cause a prolonged housing market slump or a brief correction?",
+      "description": "The Guardian reports economists forecasting 'the first national slump since 2022' with fear expected to weigh on property prices. However, other sources suggest any price fall would be short-term due to Australia's persistent housing shortage. These represent conflicting projections about market depth and duration.",
+      "suggestion": "Add to debates.json: view_a from The Guardian says 'economists believe home values are set for their first national slump since 2022', view_b from The Guardian (same article) notes 'Australia's persistent housing shortage means any fall would be short term'",
+      "source": "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260523-857",
+      "timestamp": "2026-05-23T20:39:47.655Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-11T13:55:24.048Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will restricting negative gearing reduce or maintain rental supply?",
+      "description": "Property industry groups (REIA, Property Council) claim the reforms could reduce rental supply over time by making property investment less attractive. Community groups and housing advocates (ACOSS) counter that negative gearing 'added little to rental supply' historically, meaning the reforms won't meaningfully reduce rentals. This is a factual dispute about the causal relationship between negative gearing incentives and actual rental stock.",
+      "suggestion": "Add to debates.json: REIA and Property Council from slateandsage.com.au say reducing investment attractiveness 'could reduce rental supply over time', while Acoss policy director Jacqueline Phillips from theguardian.com says negative gearing 'added little to rental supply'",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors; https://www.theguardian.com/australia-news/2026/may/22/australia-negative-gearing-capital-gains-tax-housing-community-groups-urge-mps",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260524-434",
+      "timestamp": "2026-05-24T05:54:36.932Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-11T13:55:39.780Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will restricting negative gearing reduce or increase rental supply?",
+      "description": "Property industry groups (REIA, Property Council) warn that reducing investment attractiveness could reduce rental supply over time, while housing advocates (ACOSS) and the government claim negative gearing added little to rental supply and the changes will focus support on new supply. This is a core factual disagreement about whether the policy will improve or worsen rental availability.",
+      "suggestion": "Add to debates.json: Property industry (REIA/Property Council via slateandsage.com.au) says 'reducing attractiveness of residential property investment could reduce rental supply over time' vs ACOSS/government position (via theguardian.com) that negative gearing 'added little to rental supply' and changes are designed to increase supply by focusing on new builds.",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260524-256",
+      "timestamp": "2026-05-24T09:48:26.399Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-11T13:55:56.885Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the CGT discount being replaced, eliminated, or preserved with a choice?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The government Budget website states investors in new builds will be able to 'choose' between the 50% CGT discount or the new arrangements, implying preservation with choice. However, multiple media reports describe it as the discount being 'replaced' or eliminated for established properties. This is a factual conflict about what the policy actually does.",
+      "suggestion": "Add to debates.json: Budget.gov.au says investors 'will be able to choose the 50 per cent CGT discount or the new arrangements' (preserving choice) vs ABC News (abc.net.au) and other sources reporting it as restrictions that 'break promise' and eliminate/replace the discount for established properties.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260524-548",
+      "timestamp": "2026-05-24T09:48:26.399Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-11T13:56:15.610Z"
     }
   ]
 }

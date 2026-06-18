@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T08:43:39.687Z",
+  "lastUpdated": "2026-06-18T11:46:33.153Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -5168,61 +5168,81 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis quantifies CGT reform impact on retirement investors",
-      "description": "ASX analysis reveals a retired investor on a 16% marginal tax rate currently faces just 8% tax on nominal capital gains from long-held equities, but would face 30% on indexed gains under the new CGT regime — a 22 percentage point effective rate increase.",
-      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT reform impact on retirement investors — 8% vs 30% effective rate increase for low-rate investors on long-held equity gains",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260611-192",
-      "timestamp": "2026-06-11T06:41:07.116Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-11T08:38:45.756Z"
     },
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "ABC News: CGT changes could drive investment shift from property to shares",
-      "description": "ABC News analysis examines how the replacement of the 50% CGT discount with inflation indexation and new negative gearing restrictions may redirect investor behaviour from residential property to Australian shares. Treasury data cited shows inflation accounted for 56% of ASX 200 share gains over the decade to March 2026.",
-      "suggestion": "Add to budget-updates.json: ABC News analysis examines CGT changes and negative gearing reform impact on investment flows between property and shares",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "title": "Infrastructure funding link: $2B initiative tied to CGT and negative gearing reform package",
+      "description": "Budget 2026 allocates $2 billion infrastructure funding alongside the $6.4 billion housing package, with government claiming combined measures will deliver 65,000 additional homes. Independent analysis questions whether this target is realistic given implementation timelines and supply chain constraints.",
+      "suggestion": "Add to budget-updates.json: Infrastructure funding details: $2B initiative linked to housing supply targets of 65,000 additional homes as part of Budget 2026 housing affordability package.",
+      "source": "https://budget.gov.au/content/overview/download/budget-overview-2026-27.pdf",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260611-669",
-      "timestamp": "2026-06-11T06:41:07.116Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-11T08:39:53.826Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO confirms Better Targeted Super Concessions is law",
-      "description": "The ATO has confirmed Division 296 (Better Targeted Super Concessions) legislation is enacted. From 1 July 2026, individuals with total superannuation balances exceeding $3 million will be subject to 15% tax on earnings relating to the portion above the threshold.",
-      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 (Better Targeted Super Concessions) is law — 15% tax applies from 1 July 2026 on earnings above $3m threshold",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260611-718",
-      "timestamp": "2026-06-11T06:41:07.116Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-11T08:40:10.653Z"
+      "id": "suggestion-20260618-302",
+      "timestamp": "2026-06-18T11:46:29.773Z",
+      "status": "pending"
     },
     {
       "type": "debate_page",
       "priority": "medium",
-      "title": "Will the Coalition's pledge to repeal negative gearing and CGT changes affect investor behaviour and property market stability?",
-      "description": "The Coalition has vowed to repeal the negative gearing and CGT changes if elected, with Shadow Treasurer Tim Wilson stating they would 'look to repeal the changes' and Leader Angus Taylor labelling them 'toxic'. This creates a factual conflict about whether investors will act now on existing property (before July 2027 changes) to lock in current tax benefits, given uncertainty about whether the reforms will survive a change of government.",
-      "suggestion": "Add to debates.json: ABC News (May 13) reports the Coalition 'vows to fight' and 'will look to repeal the changes if necessary', while Budget.gov.au confirms changes take effect from 1 July 2027 with investors in new builds able to choose between 50% CGT discount or new arrangements. This creates a conflict about whether the policy uncertainty itself is causing investors to rush purchases now versus whether market actors are pricing in permanent reform.",
-      "source": "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
+      "title": "Infrastructure initiative housing targets: 65,000 vs alternative estimates",
+      "description": "REIA President Jacob Caine publicly stated the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes.' However, multiple sources reference 'alternative estimates' or 'significantly fewer' than 65,000. This is a factual conflict about the projected effectiveness of a key budget housing measure. The government's flagship supply policy rests on these numbers, making this a substantive policy-relevant dispute.",
+      "suggestion": "Add to debates.json: REIA President Jacob Caine (apimagazine.com.au) says infrastructure initiative will deliver 'around 65,000 additional homes', while multiple industry sources reference 'alternative estimates' or figures significantly below 65,000 (potentially 30,000) for the same $2B initiative.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades; https://bdo.com.au/en-au/insights/real-estate-construction/what-the-2026-federal-budget-means-for-housing-construction-and-investment-into-the-sector",
       "implementation_effort": "30_minutes",
-      "id": "suggestion-20260523-231",
-      "timestamp": "2026-05-23T14:54:32.219Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-11T08:41:17.109Z"
+      "id": "suggestion-20260618-283",
+      "timestamp": "2026-06-18T11:46:29.773Z",
+      "status": "pending"
     },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: More than half of the benefit of the CGT concession went to the top 1% of income earners",
+      "description": "This specific statistic about CGT concession distribution appears in media coverage but the exact figure (over 50%) and the beneficiary group (top 1%) should be verified against Treasury or ATO data. The official sources may show different distribution percentages or use different income brackets.",
+      "suggestion": "Add to fact-checks.json: claim is 'more than half of CGT benefit to top 1%', verdict is unclear because official Treasury budget papers cite different distribution figures. The claim may cite a specific Treasury analysis year that differs from 2026 budget projections.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-explained",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260618-442",
+      "timestamp": "2026-06-18T11:46:29.773Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: $2B infrastructure initiative will deliver 65,000 additional homes",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The specific housing target of 65,000 homes from the infrastructure spending announcement appears in multiple sources. This figure could be disputed as feasibility estimates vary. Some analysts suggest the figure may be optimistic based on construction capacity constraints and infrastructure lead times.",
+      "suggestion": "Add to fact-checks.json: claim is '$2B infrastructure delivers 65,000 homes', verdict is partially_true because the budget allocates $2B toward housing supply but 65,000 is a government target/projections, not a guaranteed outcome. Actual delivery may differ significantly.",
+      "source": "https://budget.gov.au/2026-27/content/overview.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260618-173",
+      "timestamp": "2026-06-18T11:46:29.773Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260618-774",
+      "timestamp": "2026-06-18T11:46:29.773Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "id": "suggestion-20260618-214",
+      "timestamp": "2026-06-18T11:46:29.773Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "medium",
@@ -6435,20 +6455,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will restricting negative gearing to new builds increase or decrease rental supply?",
-      "description": "The REIA and Property Council of Australia predict that reducing investor incentives could decrease rental supply over time. However, the government and budget analysis claim the policy is designed to redirect capital toward new housing supply and reduce competition for established homes. These represent conflicting factual predictions about market outcomes.",
-      "suggestion": "Add to debates.json: view_a from REIA/Property Council (slateandsage.com.au) says reducing property investment attractiveness 'could reduce rental supply over time', view_b from budget.gov.au and commbank.com.au says the changes are 'designed to reshape incentives... directing capital toward new housing supply' and 'reduce competition for established homes'",
-      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors; https://budget.gov.au/content/04-tax-reform.htm",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260523-774",
-      "timestamp": "2026-05-23T20:39:47.655Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-11T08:41:23.499Z"
-    },
     {
       "type": "fact_check",
       "priority": "medium",

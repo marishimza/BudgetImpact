@@ -5144,6 +5144,72 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-10T23:21:32.799Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis quantifies CGT reform impact on retirement investors",
+      "description": "ASX analysis reveals a retired investor on a 16% marginal tax rate currently faces just 8% tax on nominal capital gains from long-held equities, but would face 30% on indexed gains under the new CGT regime — a 22 percentage point effective rate increase.",
+      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT reform impact on retirement investors — 8% vs 30% effective rate increase for low-rate investors on long-held equity gains",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260611-192",
+      "timestamp": "2026-06-11T06:41:07.116Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-11T08:38:45.756Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ABC News: CGT changes could drive investment shift from property to shares",
+      "description": "ABC News analysis examines how the replacement of the 50% CGT discount with inflation indexation and new negative gearing restrictions may redirect investor behaviour from residential property to Australian shares. Treasury data cited shows inflation accounted for 56% of ASX 200 share gains over the decade to March 2026.",
+      "suggestion": "Add to budget-updates.json: ABC News analysis examines CGT changes and negative gearing reform impact on investment flows between property and shares",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260611-669",
+      "timestamp": "2026-06-11T06:41:07.116Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-11T08:39:53.826Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO confirms Better Targeted Super Concessions is law",
+      "description": "The ATO has confirmed Division 296 (Better Targeted Super Concessions) legislation is enacted. From 1 July 2026, individuals with total superannuation balances exceeding $3 million will be subject to 15% tax on earnings relating to the portion above the threshold.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 (Better Targeted Super Concessions) is law — 15% tax applies from 1 July 2026 on earnings above $3m threshold",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260611-718",
+      "timestamp": "2026-06-11T06:41:07.116Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-11T08:40:10.653Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the Coalition's pledge to repeal negative gearing and CGT changes affect investor behaviour and property market stability?",
+      "description": "The Coalition has vowed to repeal the negative gearing and CGT changes if elected, with Shadow Treasurer Tim Wilson stating they would 'look to repeal the changes' and Leader Angus Taylor labelling them 'toxic'. This creates a factual conflict about whether investors will act now on existing property (before July 2027 changes) to lock in current tax benefits, given uncertainty about whether the reforms will survive a change of government.",
+      "suggestion": "Add to debates.json: ABC News (May 13) reports the Coalition 'vows to fight' and 'will look to repeal the changes if necessary', while Budget.gov.au confirms changes take effect from 1 July 2027 with investors in new builds able to choose between 50% CGT discount or new arrangements. This creates a conflict about whether the policy uncertainty itself is causing investors to rush purchases now versus whether market actors are pricing in permanent reform.",
+      "source": "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260523-231",
+      "timestamp": "2026-05-23T14:54:32.219Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-11T08:41:17.109Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will restricting negative gearing to new builds increase or decrease rental supply?",
+      "description": "The REIA and Property Council of Australia predict that reducing investor incentives could decrease rental supply over time. However, the government and budget analysis claim the policy is designed to redirect capital toward new housing supply and reduce competition for established homes. These represent conflicting factual predictions about market outcomes.",
+      "suggestion": "Add to debates.json: view_a from REIA/Property Council (slateandsage.com.au) says reducing property investment attractiveness 'could reduce rental supply over time', view_b from budget.gov.au and commbank.com.au says the changes are 'designed to reshape incentives... directing capital toward new housing supply' and 'reduce competition for established homes'",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors; https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260523-774",
+      "timestamp": "2026-05-23T20:39:47.655Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-11T08:41:23.499Z"
     }
   ]
 }

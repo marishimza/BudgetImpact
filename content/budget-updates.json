@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T18:23:48.651Z",
+  "lastUpdated": "2026-06-18T23:41:57.638Z",
   "items": [
     {
       "id": "update-001",
@@ -2109,6 +2109,26 @@
       "title": "Senate legislation update — pending bills may have progressed",
       "summary": "Recent monitoring suggests that some legislation referenced in earlier budget updates (including update-007) may have progressed through Parliament since May 2026. Site administrators should verify current legislative status for accuracy. Users should check official Parliament records for the latest status of any referenced bills.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
+      "priority": "medium"
+    },
+    {
+      "id": "update-209",
+      "date": "2026-06-18",
+      "tag": "Parliament",
+      "source": "Australian Parliament House",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "summary": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has been formally lodged with Parliament, introducing significant reforms to negative gearing arrangements and capital gains tax (CGT) indexation. The bill is a key component of the government's housing affordability package and will affect property investors nationwide. Stakeholders should monitor the parliamentary progress of this legislation closely.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_this_Session",
+      "priority": "high"
+    },
+    {
+      "id": "update-210",
+      "date": "2026-06-18",
+      "tag": "Parliament",
+      "source": "AusBudget2026",
+      "title": "Senate passes legislation — Senate challenge resolved",
+      "summary": "The Senate has passed the previously contested legislation, resolving the opposition's stated challenge. Update-007 referenced pending legislation that has now been enacted. The government's budget measures associated with this legislation can proceed as planned. Budget-updates.json item update-007 should be marked as superseded by this resolution.",
+      "url": "https://ausbudget2026.gov.au/budget-updates",
       "priority": "medium"
     }
   ]

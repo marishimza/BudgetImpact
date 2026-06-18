@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T12:54:11.928Z",
+  "lastUpdated": "2026-06-18T18:25:31.774Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1675,6 +1675,52 @@
         "label": "REIA/Property Council",
         "argument": "REIA and Property Council warn that reducing the attractiveness of residential property investment could reduce rental supply over time. They argue that restricting negative gearing will discourage investors from entering the market, leading to fewer rental properties available.",
         "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-070",
+      "slug": "will-restricting-negative-gearing-to-new-builds-reduce-or-maintain-rental-supply",
+      "title": "Will restricting negative gearing to new builds reduce or maintain rental supply?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "Industry bodies and the Government/CommBank present conflicting predictions about the impact of restricting negative gearing to new builds on overall rental supply.",
+      "view_a": {
+        "label": "REIA and Property Council",
+        "argument": "Restricting negative gearing to new builds could reduce rental supply over time. By reducing the attractiveness of property investment, existing rental properties may be sold by investors, decreasing the pool of available rentals without an immediate offset from new supply.",
+        "sources": [
+          "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors"
+        ]
+      },
+      "view_b": {
+        "label": "Government and CommBank",
+        "argument": "The changes are designed to preserve tax support for investment in new supply while maintaining overall rental availability. The policy exempts investments supporting housing programs, ensuring continued investment in the rental market.",
+        "sources": [
+          "https://www.commbank.com.au/insights/2026-budget-property-changes"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-071",
+      "slug": "short-term-housing-price-impact-prolonged-slump-vs-brief-correction",
+      "title": "Short-term housing price impact: prolonged slump vs brief correction",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "Economists quoted in The Guardian predict home values are set for their first national slump since 2022 due to fear and economic pessimism. Pending NAB Budget Analysis mentions 'brief correction not prolonged slump.' These represent conflicting factual predictions from credible sources about whether the housing market will experience a sustained downturn or a temporary price adjustment.",
+      "view_a": {
+        "label": "Prolonged National Slump",
+        "argument": "Economists cited in The Guardian predict that Australian home values are set for their first national slump since 2022, driven by fear and economic pessimism following the federal budget. The predicted downturn is characterized as a sustained, national-level correction rather than a localized or brief adjustment.",
+        "sources": [
+          "[Source unavailable - The Guardian article no longer accessible]"
+        ]
+      },
+      "view_b": {
+        "label": "Brief Correction Only",
+        "argument": "NAB Budget Analysis projects a brief correction rather than a prolonged slump, citing persistent housing shortage as a fundamental factor supporting prices. This view holds that underlying supply constraints will limit the depth and duration of any market softening.",
+        "sources": [
+          "NAB Budget Analysis (pending)"
+        ]
       },
       "verdict": null
     }

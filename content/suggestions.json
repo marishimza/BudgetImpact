@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T16:52:30.204Z",
+  "lastUpdated": "2026-06-18T18:25:31.777Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1342,30 +1342,6 @@
       "status": "pending"
     },
     {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple media sources state that capital gains will face a 'minimum 30% tax rate on ALL gains' from July 2027. However, the official budget.gov.au source states the reform 'will replace the 50% CGT discount with a discount based on inflation and introduce a minimum 30% tax on gains.' The ASA specifically notes that 'indexation may help ensure investors are not taxed on inflationary gains, but it may not address income bunching where many years of gains are realised in a single tax year.' This suggests the 30% minimum may apply only to gains above inflation (after indexation), not to all gains universally. The framing 'on ALL gains' could be misleading.",
-      "suggestion": "Add to fact-checks.json: claim is partially_true because the 30% minimum appears to apply to gains above inflation, not necessarily to all capital gains after the indexation discount is applied.",
-      "source": "https://budget.gov.au/2026-27/content/cgs/assets/downloads/Fact-sheet-capital-gains-tax.pdf",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260530-757",
-      "timestamp": "2026-05-30T20:43:55.919Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
-      "description": "Multiple sources claim Division 296 imposes '15% tax on all super balances over $3m.' However, the ATO source clarifies that from 1 July 2026, individuals will be subject to '15% on the proportion of earnings relating to your TSB that exceeds the LSBT.' This means the 15% tax applies to the EARNINGS attributable to the balance above the threshold, not the entire balance above $3m. This is a significant distinction - someone with a $3.1m balance wouldn't pay 15% on the entire $100k over the threshold, only on the earnings portion attributable to that excess.",
-      "suggestion": "Add to fact-checks.json: claim is disputed/misleading because Division 296 taxes the earnings relating to the balance above the threshold, not the entire balance above $3m.",
-      "source": "https://www.ato.gov.au/about-ato/new-legislation/decisions-on-existing-legislation/better-targeted-super-concessions",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260530-398",
-      "timestamp": "2026-05-30T20:43:55.919Z",
-      "status": "pending"
-    },
-    {
       "id": "suggestion-20260530-427",
       "timestamp": "2026-05-30T20:43:55.919Z",
       "status": "pending",
@@ -1398,30 +1374,6 @@
       "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "implementation_effort": "10_minutes",
       "id": "suggestion-20260531-497",
-      "timestamp": "2026-05-31T06:10:31.520Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will restricting negative gearing to new builds reduce or maintain rental supply?",
-      "description": "Industry bodies (REIA and Property Council) explicitly warn that reducing the attractiveness of property investment will decrease rental supply over time. The Government and CommBank framing suggests the changes are designed to preserve tax support for new supply without reducing overall rental availability. These are conflicting factual predictions about the same policy's rental market impact.",
-      "suggestion": "Add to debates.json: REIA and Property Council (via slateandsage.com.au) warn that reducing investment attractiveness 'could reduce rental supply over time.' Government and CommBank (via commbank.com.au) state the change is designed to 'preserve tax support for investment in new supply' and exempt investments supporting housing programs.",
-      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260531-527",
-      "timestamp": "2026-05-31T06:10:31.520Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Short-term housing price impact: prolonged slump vs brief correction",
-      "description": "Economists quoted in The Guardian predict home values are 'set for their first national slump since 2022' due to fear and economic pessimism. Pending NAB Budget Analysis mentions 'brief correction not prolonged slump.' These represent conflicting factual predictions from credible sources about whether the housing market will experience a sustained downturn or a temporary price adjustment.",
-      "suggestion": "Add to debates.json: The Guardian (theguardian.com) cites economists believing 'home values are set for their first national slump since 2022' due to fear and pessimism. NAB Budget Analysis (pending) projects 'brief correction not prolonged slump' citing persistent housing shortage.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260531-657",
       "timestamp": "2026-05-31T06:10:31.520Z",
       "status": "pending"
     },
@@ -5264,18 +5216,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260618-679",
-      "timestamp": "2026-06-18T16:52:24.086Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -6488,6 +6428,45 @@
       "timestamp": "2026-05-30T20:43:55.919Z",
       "status": "implemented",
       "implemented_at": "2026-06-18T12:54:11.931Z"
+    },
+    {
+      "id": "suggestion-20260618-679",
+      "timestamp": "2026-06-18T16:52:24.086Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-18T18:23:48.654Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will restricting negative gearing to new builds reduce or maintain rental supply?",
+      "description": "Industry bodies (REIA and Property Council) explicitly warn that reducing the attractiveness of property investment will decrease rental supply over time. The Government and CommBank framing suggests the changes are designed to preserve tax support for new supply without reducing overall rental availability. These are conflicting factual predictions about the same policy's rental market impact.",
+      "suggestion": "Add to debates.json: REIA and Property Council (via slateandsage.com.au) warn that reducing investment attractiveness 'could reduce rental supply over time.' Government and CommBank (via commbank.com.au) state the change is designed to 'preserve tax support for investment in new supply' and exempt investments supporting housing programs.",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260531-527",
+      "timestamp": "2026-05-31T06:10:31.520Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-18T18:25:03.592Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Short-term housing price impact: prolonged slump vs brief correction",
+      "description": "Economists quoted in The Guardian predict home values are 'set for their first national slump since 2022' due to fear and economic pessimism. Pending NAB Budget Analysis mentions 'brief correction not prolonged slump.' These represent conflicting factual predictions from credible sources about whether the housing market will experience a sustained downturn or a temporary price adjustment.",
+      "suggestion": "Add to debates.json: The Guardian (theguardian.com) cites economists believing 'home values are set for their first national slump since 2022' due to fear and pessimism. NAB Budget Analysis (pending) projects 'brief correction not prolonged slump' citing persistent housing shortage.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260531-657",
+      "timestamp": "2026-05-31T06:10:31.520Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-18T18:25:31.777Z"
     }
   ],
   "skipped": [
@@ -7189,6 +7168,34 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-18T08:42:12.964Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple media sources state that capital gains will face a 'minimum 30% tax rate on ALL gains' from July 2027. However, the official budget.gov.au source states the reform 'will replace the 50% CGT discount with a discount based on inflation and introduce a minimum 30% tax on gains.' The ASA specifically notes that 'indexation may help ensure investors are not taxed on inflationary gains, but it may not address income bunching where many years of gains are realised in a single tax year.' This suggests the 30% minimum may apply only to gains above inflation (after indexation), not to all gains universally. The framing 'on ALL gains' could be misleading.",
+      "suggestion": "Add to fact-checks.json: claim is partially_true because the 30% minimum appears to apply to gains above inflation, not necessarily to all capital gains after the indexation discount is applied.",
+      "source": "https://budget.gov.au/2026-27/content/cgs/assets/downloads/Fact-sheet-capital-gains-tax.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-757",
+      "timestamp": "2026-05-30T20:43:55.919Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-18T18:24:04.367Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "Multiple sources claim Division 296 imposes '15% tax on all super balances over $3m.' However, the ATO source clarifies that from 1 July 2026, individuals will be subject to '15% on the proportion of earnings relating to your TSB that exceeds the LSBT.' This means the 15% tax applies to the EARNINGS attributable to the balance above the threshold, not the entire balance above $3m. This is a significant distinction - someone with a $3.1m balance wouldn't pay 15% on the entire $100k over the threshold, only on the earnings portion attributable to that excess.",
+      "suggestion": "Add to fact-checks.json: claim is disputed/misleading because Division 296 taxes the earnings relating to the balance above the threshold, not the entire balance above $3m.",
+      "source": "https://www.ato.gov.au/about-ato/new-legislation/decisions-on-existing-legislation/better-targeted-super-concessions",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-398",
+      "timestamp": "2026-05-30T20:43:55.919Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-18T18:24:20.798Z"
     }
   ],
   "needs_manual_review": [

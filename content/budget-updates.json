@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T12:52:10.504Z",
+  "lastUpdated": "2026-06-18T18:23:48.651Z",
   "items": [
     {
       "id": "update-001",
@@ -2098,6 +2098,16 @@
       "source": "AusBudget2026",
       "title": "Senate legislation status update — verify current passage status",
       "summary": "The budget-updates.json item 'update-007' (Opposition flags Senate challenge) should be reviewed as it references legislation that may have progressed through Parliament since 2026-05-14. Users should verify the current legislative status before relying on this item. Check official Parliament of Australia records for the most current status of any referenced bills.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
+      "priority": "medium"
+    },
+    {
+      "id": "update-208",
+      "date": "2026-06-18",
+      "tag": "Parliament",
+      "source": "AusBudget2026",
+      "title": "Senate legislation update — pending bills may have progressed",
+      "summary": "Recent monitoring suggests that some legislation referenced in earlier budget updates (including update-007) may have progressed through Parliament since May 2026. Site administrators should verify current legislative status for accuracy. Users should check official Parliament records for the latest status of any referenced bills.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
       "priority": "medium"
     }

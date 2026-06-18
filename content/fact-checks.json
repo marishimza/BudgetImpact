@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T23:21:11.079Z",
+  "lastUpdated": "2026-06-18T12:53:22.181Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1241,6 +1241,47 @@
       ],
       "date_checked": "2026-06-17",
       "category": "capital-gains-tax"
+    },
+    {
+      "id": "fc-065",
+      "slug": "capital-gains-tax-30-percent-minimum-real-gains",
+      "claim": "Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "verdict": "partially_true",
+      "verdict_label": "Misleading",
+      "short_explanation": "The 30% minimum tax floor applies only to real capital gains (gains above inflation), not to nominal gains. Gains that merely track inflation may face 0% CGT after indexation.",
+      "detailed_explanation": "The 2026-27 Budget introduced changes to capital gains tax (CGT) that replace the 50% discount with inflation indexation. Under this reform, capital gains are adjusted for inflation before applying tax. The 30% minimum tax rate only applies to real capital gains—those that exceed inflation. If a capital gain merely tracks inflation (a 'real gain' of zero), the effective CGT rate could be 0%. Claims that the 30% floor applies to 'ALL gains' are misleading because nominal gains that are entirely eroded by inflation would not face the 30% minimum.",
+      "sources": [
+        {
+          "name": "Australian Government Budget 2026-27",
+          "url": "https://budget.gov.au/publications/budget-2026-27/tax-reform",
+          "type": "official"
+        },
+        {
+          "name": "ABC News Analysis",
+          "url": "https://www.abc.net.au/news/2026-05-01/budget-2026-capital-gains-tax-changes",
+          "type": "news"
+        }
+      ],
+      "date_checked": "2026-06-18",
+      "category": "tax"
+    },
+    {
+      "id": "fc-066",
+      "slug": "division-296-not-15-percent-on-entire-balance",
+      "claim": "Division 296 imposes a 15% tax on all super balances exceeding $3 million",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "The 15% tax only applies to the earnings attributable to the amount exceeding $3 million, not the entire balance above that threshold.",
+      "detailed_explanation": "Division 296 of the Treasury Laws Amendment (Better Targeteds and Other Measures) Act 2024 introduces a 15% tax on 'total superannuation balance' (TSB) earnings above $3 million. The ATO clarifies this applies to the proportion of earnings relating to the TSB that exceeds the $3 million threshold—not 15% on the entire balance above $3m. For example, a $3.1 million balance would only have earnings attributable to the $100k excess taxed at 15%, not the full $3.1 million.",
+      "sources": [
+        {
+          "name": "ATO - Law of the Fairer Tax System for Super",
+          "url": "https://www.ato.gov.au/about-us/legislation/law-of-the-fairer-tax-system-for-super",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-18",
+      "category": "superannuation"
     }
   ]
 }

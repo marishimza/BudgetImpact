@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T08:42:48.835Z",
+  "lastUpdated": "2026-06-18T12:52:10.504Z",
   "items": [
     {
       "id": "update-001",
@@ -2079,6 +2079,26 @@
       "title": "Senate passes contested legislation — Opposition challenge resolved",
       "summary": "The legislation that prompted the Opposition to flag a Senate challenge in May has now passed into law following a vote in the Senate. The government secured sufficient crossbench support to ensure passage of the bill. This resolves the uncertainty noted in previous budget updates regarding the legislative status.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Lists/Bills_2026",
+      "priority": "medium"
+    },
+    {
+      "id": "update-206",
+      "date": "2026-06-18",
+      "tag": "Property",
+      "source": "Australian Government Budget 2026-27",
+      "title": "$2 Billion Infrastructure Funding Initiative Tied to Housing Supply Targets",
+      "summary": "Budget 2026 allocates $2 billion in infrastructure funding alongside the $6.4 billion housing package, with the government claiming combined measures will deliver 65,000 additional homes. The infrastructure funding is designed to support land release and development infrastructure to boost housing supply. However, independent analysis questions whether this target is realistic given implementation timelines and supply chain constraints.",
+      "url": "https://budget.gov.au/content/overview/download/budget-overview-2026-27.pdf",
+      "priority": "medium"
+    },
+    {
+      "id": "update-207",
+      "date": "2026-06-18",
+      "tag": "Parliament",
+      "source": "AusBudget2026",
+      "title": "Senate legislation status update — verify current passage status",
+      "summary": "The budget-updates.json item 'update-007' (Opposition flags Senate challenge) should be reviewed as it references legislation that may have progressed through Parliament since 2026-05-14. Users should verify the current legislative status before relying on this item. Check official Parliament of Australia records for the most current status of any referenced bills.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
       "priority": "medium"
     }
   ]

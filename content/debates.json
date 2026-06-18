@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T08:43:39.685Z",
+  "lastUpdated": "2026-06-18T12:54:11.928Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1654,6 +1654,27 @@
           "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
           "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294"
         ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-069",
+      "slug": "negative-gearing-new-builds-rental-supply",
+      "title": "Will limiting negative gearing to new builds reduce or increase rental supply?",
+      "category": "Housing",
+      "type": "projection_disagreement",
+      "summary": "The government and CBA say limiting negative gearing to new builds will shift investor demand to new supply, but REIA and Property Council warn it could reduce rental supply overall by making property investment less attractive.",
+      "view_a": {
+        "label": "Government/CBA",
+        "argument": "The government states limiting negative gearing to new builds will 'focus tax support on new supply' and CBA analysis confirms the change is 'designed to reduce investor demand for existing housing stock while preserving tax support for new supply'. They argue this will increase rental supply by incentivising new construction.",
+        "sources": [
+          "commbank.com.au"
+        ]
+      },
+      "view_b": {
+        "label": "REIA/Property Council",
+        "argument": "REIA and Property Council warn that reducing the attractiveness of residential property investment could reduce rental supply over time. They argue that restricting negative gearing will discourage investors from entering the market, leading to fewer rental properties available.",
+        "sources": []
       },
       "verdict": null
     }

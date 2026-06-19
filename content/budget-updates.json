@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T09:04:07.992Z",
+  "lastUpdated": "2026-06-19T13:31:49.960Z",
   "items": [
     {
       "id": "update-001",
@@ -2150,6 +2150,26 @@
       "summary": "The Senate has passed the previously contested legislation after the opposition parties withdrew their joint challenge on 17 June 2026. The legislation, which was the subject of update-007 (dated 14 May 2026), has now received Royal Assent and is officially law. The government's budget measures linked to this legislation can now proceed as planned.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
       "priority": "high"
+    },
+    {
+      "id": "update-213",
+      "date": "2026-05-15",
+      "tag": "Property",
+      "source": "KPMG",
+      "title": "KPMG reveals detailed CGT implementation funding breakdown",
+      "summary": "KPMG analysis confirms $47.5 million over four years plus $3.9 million ongoing funding for Treasury and ATO to implement CGT and negative gearing reforms. The detailed breakdown provides granular insight into the administrative costs associated with the housing tax reform package. This funding covers system updates, compliance measures, and operational costs for both agencies.",
+      "url": "https://www.kpmg.com/au/en/home/insights/2026/05/federal-budget-2026-cgt-implementation-funding.html",
+      "priority": "medium"
+    },
+    {
+      "id": "update-214",
+      "date": "2026-06-19",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Senate passes legislation following opposition challenge — measure now enacted",
+      "summary": "The Senate has passed the previously contested legislation, resolving the standoff flagged by the opposition in May 2026. The measure, which had been awaiting passage through the upper house, is now law. Stakeholders should confirm implementation timelines with relevant agencies.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
+      "priority": "medium"
     }
   ]
 }

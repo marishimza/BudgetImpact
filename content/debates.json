@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T18:25:31.774Z",
+  "lastUpdated": "2026-06-19T13:32:53.601Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1721,6 +1721,46 @@
         "sources": [
           "NAB Budget Analysis (pending)"
         ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-072",
+      "slug": "short-term-housing-price-impact-prolonged-slump-vs-brief-correction",
+      "title": "Short-term housing price impact: prolonged slump vs brief correction",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "Credible financial sources offer conflicting short-term projections for Australian housing prices following the 2026 Budget tax reforms, with some forecasting a prolonged slump and others predicting only a brief correction.",
+      "view_a": {
+        "label": "Prolonged Slump Forecast",
+        "argument": "Economists believe home values are set for their first national slump since 2022, suggesting the tax reforms will trigger a sustained decline in property values rather than a temporary adjustment.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Brief Correction Forecast",
+        "argument": "NAB's revised forecast projects a brief correction rather than a prolonged slump, anticipating the market will absorb the tax reforms with only a short-term adjustment before stabilising.",
+        "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-073",
+      "slug": "cgt-discount-replacement-cost-base-indexation-vs-inflation-indexation",
+      "title": "CGT discount replacement mechanism: cost base indexation vs inflation indexation",
+      "category": "taxation",
+      "type": "factual_dispute",
+      "summary": "NAB's budget analysis and The Guardian describe the CGT discount reform using different technical mechanisms — cost base indexation versus inflation indexation. These are distinct tax calculation approaches that could affect investors differently, making this a factual conflict about how the policy actually works.",
+      "view_a": {
+        "label": "NAB Budget Analysis",
+        "argument": "NAB's budget analysis states that the CGT discount is being replaced by cost base indexation",
+        "sources": [
+          "https://www.commbank.com.au/articles/newsroom/2026/05/2026-budget-updated-housing-outlook.html"
+        ]
+      },
+      "view_b": {
+        "label": "The Guardian",
+        "argument": "The Guardian reports that the 50% CGT discount is being replaced by inflation indexation",
+        "sources": []
       },
       "verdict": null
     }

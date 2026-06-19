@@ -5481,6 +5481,75 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-12T08:22:04.971Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "Negative gearing cutoff: When do restrictions actually take effect for investors?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] There's a factual conflict between the budget's stated commencement date (1 July 2027) and claims that restrictions take effect from Budget Night (12 May 2026). Sources disagree on whether the cutoff for negatively gearing existing properties is tied to Budget Night announcement or the formal 1 July 2027 start date. This matters for investors who purchased properties between Budget Night and 1 July 2027.",
+      "suggestion": "Add to debates.json: view_a from budget.gov.au and official fact sheets says negative gearing changes commence 'from 1 July 2027' and existing investors with properties purchased before policy commencement retain negative gearing; view_b from multiple budget analysis reports and news outlets characterize Budget Night (12 May 2026) as the effective cutoff date for new negatively geared investments on established properties",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260612-426",
+      "timestamp": "2026-06-12T11:35:29.476Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implemented_at": "2026-06-12T12:51:34.165Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "The Government claims its $2 billion infrastructure initiative will enable around 65,000 additional homes, but there's no independent verification or challenge to this projection in the sources. REIA President Jacob Caine calls it a 'positive and necessary step' but doesn't confirm the 65,000 figure. This lacks the credible contradictory evidence needed for a genuine factual debate.",
+      "suggestion": "Add to debates.json: Need to find sources that specifically challenge or verify the 65,000 homes figure with different projections.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260525-357",
+      "timestamp": "2026-05-25T06:17:57.276Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-12T12:52:48.469Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASA criticises lack of consultation on CGT indexation reform",
+      "description": "The Australian Shareholders Association has publicly criticised the Government for failing to conduct proper consultation before announcing major CGT indexation changes, calling for a capital gains averaging mechanism alongside reform.",
+      "suggestion": "Add to budget-updates.json: Australian Shareholders Association criticises lack of consultation on CGT indexation reform, calling for capital gains averaging mechanism alongside indexation to address income bunching",
+      "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260612-699",
+      "timestamp": "2026-06-12T11:35:29.476Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-12T12:51:53.909Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for ETF and Listed Investment Vehicle investors",
+      "description": "ASX analysis details how the new CGT indexation rules create differential outcomes for different investor types, with ETF and Listed Investment Vehicle investors facing distinct tax treatment compared to direct share investors.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details CGT reform impact on ETF and Listed Investment Vehicle investors, revealing 'two-speed' tax treatment for different investor types",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260612-662",
+      "timestamp": "2026-06-12T11:35:29.476Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-12T12:52:05.093Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Fool.com.au: How will the new capital gains tax affect ASX shares?",
+      "description": "Motley Fool Australia analysis examining the specific impact of Budget 2026 CGT changes on ASX share investors, providing practical guidance for equity portfolio holders.",
+      "suggestion": "Add to budget-updates.json: Fool.com.au analysis examines how new capital gains tax rules affect ASX share investors following Budget 2026 CGT changes",
+      "source": "https://www.fool.com.au/2026/05/13/how-will-the-new-capital-gains-tax-affect-asx-shares/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260612-580",
+      "timestamp": "2026-06-12T11:35:29.476Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-12T12:52:10.826Z"
     }
   ]
 }

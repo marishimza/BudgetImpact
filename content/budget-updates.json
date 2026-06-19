@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T23:41:57.638Z",
+  "lastUpdated": "2026-06-19T09:04:07.992Z",
   "items": [
     {
       "id": "update-001",
@@ -2130,6 +2130,26 @@
       "summary": "The Senate has passed the previously contested legislation, resolving the opposition's stated challenge. Update-007 referenced pending legislation that has now been enacted. The government's budget measures associated with this legislation can proceed as planned. Budget-updates.json item update-007 should be marked as superseded by this resolution.",
       "url": "https://ausbudget2026.gov.au/budget-updates",
       "priority": "medium"
+    },
+    {
+      "id": "update-211",
+      "date": "2026-06-19",
+      "tag": "Budget",
+      "source": "KPMG",
+      "title": "$2 Billion Infrastructure Funding Initiative Tied to Housing Supply Targets",
+      "summary": "The budget has allocated $2 billion in infrastructure funding directly linked to housing supply targets under the national housing reform package. Treasury modelling projects this investment will deliver 65,000 additional homes. The initiative ties infrastructure investment to measurable housing outcomes, creating accountability mechanisms for state and territory governments.",
+      "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "priority": "high"
+    },
+    {
+      "id": "update-212",
+      "date": "2026-06-19",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Senate passes legislation following opposition withdrawal of challenge",
+      "summary": "The Senate has passed the previously contested legislation after the opposition parties withdrew their joint challenge on 17 June 2026. The legislation, which was the subject of update-007 (dated 14 May 2026), has now received Royal Assent and is officially law. The government's budget measures linked to this legislation can now proceed as planned.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
+      "priority": "high"
     }
   ]
 }

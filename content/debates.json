@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T17:52:32.763Z",
+  "lastUpdated": "2026-06-19T22:51:46.131Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1783,6 +1783,52 @@
         "argument": "The official budget.gov.au tax reform page and Treasury budget documents do not mention a $6.4 billion figure for housing measures. The discrepancy raises questions about whether the ABC's figure represents new spending only, or includes reprioritised existing measures, or uses a different calculation methodology.",
         "sources": [
           "https://www.budget.gov.au"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-075",
+      "slug": "cgt-minimum-30-percent-floor-all-gains-vs-inflation-only",
+      "title": "CGT minimum 30% floor: Applies to all gains or only gains above inflation?",
+      "category": "tax",
+      "type": "factual_dispute",
+      "summary": "There's a factual conflict about whether the new 30% minimum tax rate on capital gains applies to ALL nominal gains, or only to the inflation component of gains. Some sources claim it applies to all gains, while others suggest it only acts as a floor on real (inflation-adjusted) gains, meaning the structure is fundamentally different. These are structurally different tax treatments with different implications for long-term investors.",
+      "view_a": {
+        "label": "Government position (all gains)",
+        "argument": "Government and treasury sources maintain that the 30% minimum tax rate applies to all capital gains in full, regardless of inflation. This means that even if your nominal gain is entirely eroded by inflation, you still face a minimum 30% tax on the full nominal amount.",
+        "sources": [
+          "https://budget.gov.au/2026-27/content/04-tax-reform.htm"
+        ]
+      },
+      "view_b": {
+        "label": "Alternative interpretation (real gains only)",
+        "argument": "Alternative credible sources argue the 30% floor only applies to real gains (gains above inflation), meaning that if your capital gain exactly matches inflation, it would still be taxed at your marginal rate. This is structurally different—it treats inflation-protected gains differently and provides more protection for long-term investors holding assets through inflationary periods.",
+        "sources": [
+          "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-076",
+      "slug": "cgt-discount-repeal-vs-indexation-choice",
+      "title": "Will the 50% CGT discount be repealed or preserved with a choice of indexation?",
+      "category": "Tax",
+      "type": "factual_dispute",
+      "summary": "Budget.gov.au indicates taxpayers can choose between cost base indexation and the 50% discount after July 2027. However, the Coalition has vowed to repeal these changes entirely if elected, representing a genuine factual conflict about the future treatment of the CGT discount.",
+      "view_a": {
+        "label": "Government position (budget.gov.au)",
+        "argument": "The budget papers indicate that from July 2027, taxpayers can choose between using cost base indexation (frozen at 1999 levels) or the existing 50% CGT discount for assets held longer than 12 months. This represents a compromise allowing flexibility in how capital gains are calculated.",
+        "sources": [
+          "https://budget.gov.au/2026-27/content/overview.htm"
+        ]
+      },
+      "view_b": {
+        "label": "Coalition position",
+        "argument": "The Coalition will seek to defeat the changes and repeal these measures entirely if elected, preserving the existing 50% CGT discount without any indexation choice. The opposition has stated they will reverse any CGT discount modifications through legislative action if necessary.",
+        "sources": [
+          "https://www.abc.net.au/news/2026-05-13/coalition-vows-to-repeal-budget-2026-tax-changes"
         ]
       },
       "verdict": null

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T21:02:06.975Z",
+  "lastUpdated": "2026-06-19T22:51:46.134Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1452,18 +1452,6 @@
     {
       "type": "debate_page",
       "priority": "medium",
-      "title": "Will the 50% CGT discount be repealed or preserved with a choice of indexation?",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] budget.gov.au indicates taxpayers can choose between cost base indexation and the 50% discount after July 2027. However, the Coalition has vowed to repeal these changes entirely if elected. This represents a genuine factual conflict about the future treatment of the CGT discount.",
-      "suggestion": "Add to debates.json: budget.gov.au says taxpayers can choose between cost base indexation and the 50% CGT discount from July 2027. The Guardian reports the Coalition will 'seek to defeat the changes' and 'repeal these measures if necessary.'",
-      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260601-134",
-      "timestamp": "2026-06-01T06:46:57.501Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
       "title": "Is the Coalition's immigration cap a direct response to budget housing measures?",
       "description": "The Guardian's May 13 coverage frames the Coalition's response around repealing negative gearing and CGT changes. The May 14 budget reply coverage explicitly frames immigration cuts as addressing the housing crisis created by the budget. This creates factual uncertainty about whether immigration restriction is presented as a complementary or counter response.",
       "suggestion": "Add to debates.json: The Guardian (May 14) explicitly links the Coalition's immigration cap to the budget housing measures, stating Taylor said immigration 'will need to be significantly below the Coalition's cap' to address housing. The May 13 coverage focused on direct repeal of negative gearing and CGT changes as the primary response.",
@@ -1482,18 +1470,6 @@
       "source": "https://budget.gov.au/2026-27/tax-reform",
       "implementation_effort": "30_minutes",
       "id": "suggestion-20260601-565",
-      "timestamp": "2026-06-01T06:46:57.501Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Working Australians Tax Offset provides $250 annual relief for all workers",
-      "description": "The ABC article mentions '$1,000 instant tax deduction for work-related expenses' (not the Working Australians Tax Offset). The pending suggestions list '$250 annual relief for workers' under the Working Australians Tax Offset. The ABC article also mentions a $6.4 billion cost over four years for housing measures. Need to verify the exact amount and scope of the Working Australians Tax Offset against official budget documentation.",
-      "suggestion": "Add to fact-checks.json: verify whether the Working Australians Tax Offset provides $250 relief and what the eligibility criteria are. Also confirm if ABC's mention of $1,000 instant deduction refers to the same or different measure. Verify exact amount against budget.gov.au.",
-      "source": "https://abc.net.au/news/federal-budget-2026-winners-and-losers",
-      "implementation_effort": "45_minutes",
-      "id": "suggestion-20260601-134",
       "timestamp": "2026-06-01T06:46:57.501Z",
       "status": "pending"
     },
@@ -1556,18 +1532,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
-      "description": "Multiple sources incorrectly state that Division 296 imposes a flat 15% tax on the entire balance above $3 million. The ATO's official guidance states the 15% tax applies only 'on the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning it's applied to the earnings attributable to the portion above the threshold, not the excess balance itself. This is a significant oversimplification that could mislead high-balance superannuants about their actual tax liability.",
-      "suggestion": "Add to fact-checks.json: claim is that Division 296 imposes 15% on balances exceeding $3m, verdict is partially_true because the 15% tax applies only to earnings/proportion above the threshold, not the excess balance amount directly.",
-      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260601-134",
-      "timestamp": "2026-06-01T19:16:55.677Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -5399,18 +5363,6 @@
     },
     {
       "type": "content_update",
-      "priority": "medium",
-      "title": "Perpetual Analysis: New CGT Indexation Mirrors Pre-1999 Approach",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Investment management firm Perpetual confirms the new cost base indexation method under CGT reform is similar to the pre-1999 indexation method that applied before the 50% discount was introduced, providing technical continuity in tax treatment.",
-      "suggestion": "Add to budget-updates.json: Perpetual confirms new CGT cost base indexation mirrors 1985-1999 approach — historical method revival provides technical precedent for reform",
-      "source": "https://www.perpetual.com.au/insights/cgt-indexation-reform-analysis",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260619-829",
-      "timestamp": "2026-06-19T21:01:59.068Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
       "priority": "low",
       "title": "Treasurer Describes Budget as 'Most Important and Ambitious in Decades'",
       "description": "Treasurer Jim Chalmers delivered the Budget speech on 12 May 2026 at Parliament House, describing it as the most important and ambitious Budget in decades, citing global economic challenges as key drivers of the reform agenda.",
@@ -5418,31 +5370,6 @@
       "source": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/2026-27-budget-speech-parliament-house-canberra",
       "implementation_effort": "10_minutes",
       "id": "suggestion-20260619-597",
-      "timestamp": "2026-06-19T21:01:59.068Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "high",
-      "title": "CGT minimum 30% floor: Applies to all gains or only gains above inflation?",
-      "description": "There's a factual conflict about whether the new 30% minimum tax rate on capital gains applies to ALL nominal gains, or only to the inflation component of gains. Some sources claim it applies to all gains, while others suggest it only acts as a floor on real (inflation-adjusted) gains, meaning the structure is fundamentally different.",
-      "suggestion": "Add to debates.json: Government/treasury sources claim the 30% minimum applies to ALL capital gains. However, other credible sources suggest the minimum floor only applies to gains above inflation, meaning gains keeping pace with inflation would still be taxed at the individual's marginal rate. These are structurally different tax treatments with different implications for long-term investors.",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260619-705",
-      "timestamp": "2026-06-19T21:01:59.068Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/how-to-calculate-your-cgt"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "CGT discount: Preserved with choice or fully replaced by indexation?",
-      "description": "Multiple credible sources conflict on whether investors can choose between the 50% CGT discount and inflation indexation, or whether the discount is being replaced entirely with indexation.",
-      "suggestion": "Add to debates.json: NAB Budget Analysis states the CGT discount is 'replaced by cost base indexation' suggesting no choice. However, other credible sources suggest investors may be given a choice between the discount and indexation. This is a factual dispute about the mechanics of the reform.",
-      "source": "https://www.bdo.com.au/en-au/insights/real-estate-construction/what-the-2026-federal-budget-means-for-housing-construction-and-investment-into-the-sector; https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260619-281",
       "timestamp": "2026-06-19T21:01:59.068Z",
       "status": "pending"
     },
@@ -5481,18 +5408,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260619-771",
-      "timestamp": "2026-06-19T21:01:59.068Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -6699,6 +6614,59 @@
       "timestamp": "2026-05-31T20:48:39.166Z",
       "status": "implemented",
       "implemented_at": "2026-06-19T17:52:32.766Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "CGT minimum 30% floor: Applies to all gains or only gains above inflation?",
+      "description": "There's a factual conflict about whether the new 30% minimum tax rate on capital gains applies to ALL nominal gains, or only to the inflation component of gains. Some sources claim it applies to all gains, while others suggest it only acts as a floor on real (inflation-adjusted) gains, meaning the structure is fundamentally different.",
+      "suggestion": "Add to debates.json: Government/treasury sources claim the 30% minimum applies to ALL capital gains. However, other credible sources suggest the minimum floor only applies to gains above inflation, meaning gains keeping pace with inflation would still be taxed at the individual's marginal rate. These are structurally different tax treatments with different implications for long-term investors.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260619-705",
+      "timestamp": "2026-06-19T21:01:59.068Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/how-to-calculate-your-cgt",
+      "implemented_at": "2026-06-19T22:49:55.734Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Perpetual Analysis: New CGT Indexation Mirrors Pre-1999 Approach",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Investment management firm Perpetual confirms the new cost base indexation method under CGT reform is similar to the pre-1999 indexation method that applied before the 50% discount was introduced, providing technical continuity in tax treatment.",
+      "suggestion": "Add to budget-updates.json: Perpetual confirms new CGT cost base indexation mirrors 1985-1999 approach — historical method revival provides technical precedent for reform",
+      "source": "https://www.perpetual.com.au/insights/cgt-indexation-reform-analysis",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260619-829",
+      "timestamp": "2026-06-19T21:01:59.068Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-19T22:50:25.362Z"
+    },
+    {
+      "id": "suggestion-20260619-771",
+      "timestamp": "2026-06-19T21:01:59.068Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-19T22:51:12.682Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the 50% CGT discount be repealed or preserved with a choice of indexation?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] budget.gov.au indicates taxpayers can choose between cost base indexation and the 50% discount after July 2027. However, the Coalition has vowed to repeal these changes entirely if elected. This represents a genuine factual conflict about the future treatment of the CGT discount.",
+      "suggestion": "Add to debates.json: budget.gov.au says taxpayers can choose between cost base indexation and the 50% CGT discount from July 2027. The Guardian reports the Coalition will 'seek to defeat the changes' and 'repeal these measures if necessary.'",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260601-134",
+      "timestamp": "2026-06-01T06:46:57.501Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-19T22:51:46.134Z"
     }
   ],
   "skipped": [
@@ -7402,6 +7370,20 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-19T17:52:07.494Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "CGT discount: Preserved with choice or fully replaced by indexation?",
+      "description": "Multiple credible sources conflict on whether investors can choose between the 50% CGT discount and inflation indexation, or whether the discount is being replaced entirely with indexation.",
+      "suggestion": "Add to debates.json: NAB Budget Analysis states the CGT discount is 'replaced by cost base indexation' suggesting no choice. However, other credible sources suggest investors may be given a choice between the discount and indexation. This is a factual dispute about the mechanics of the reform.",
+      "source": "https://www.bdo.com.au/en-au/insights/real-estate-construction/what-the-2026-federal-budget-means-for-housing-construction-and-investment-into-the-sector; https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260619-281",
+      "timestamp": "2026-06-19T21:01:59.068Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-19T22:50:42.026Z"
     }
   ],
   "needs_manual_review": [

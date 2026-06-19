@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T17:51:51.036Z",
+  "lastUpdated": "2026-06-19T22:51:12.679Z",
   "items": [
     {
       "id": "update-001",
@@ -2200,6 +2200,26 @@
       "summary": "Following the opposition's flagging of a Senate challenge to proposed legislation, subsequent developments indicate the legislative matter has been resolved. The government has confirmed the legislation has progressed through parliamentary processes. Stakeholders should monitor official parliamentary records for final confirmation of the legislative outcome.",
       "url": "https://www.ausbudget2026.gov.au/budget-updates",
       "priority": "high"
+    },
+    {
+      "id": "update-218",
+      "date": "2026-06-19",
+      "tag": "Budget",
+      "source": "Perpetual",
+      "title": "Perpetual Analysis: New CGT Indexation Mirrors Pre-1999 Approach",
+      "summary": "Investment management firm Perpetual has confirmed that the new cost base indexation method under the proposed CGT reform closely resembles the indexation approach that applied from 1985 to 1999, prior to the introduction of the 50% capital gains discount. This technical analysis provides historical precedent for the government's proposed changes, suggesting the reformed method maintains structural continuity with Australia's original CGT framework. Perpetual notes this revival of indexation methodology offers clarity for long-term investors assessing the impact on existing asset holdings.",
+      "url": "https://www.perpetual.com.au/insights/cgt-indexation-reform-analysis",
+      "priority": "high"
+    },
+    {
+      "id": "update-219",
+      "date": "2026-06-19",
+      "tag": "Parliament",
+      "source": "Australian Parliament House",
+      "title": "Senate passes legislation following earlier opposition concerns",
+      "summary": "The legislation previously flagged by the Opposition for potential Senate challenge has now been passed into law. The Senate approved the measure on 17 June 2026, resolving the uncertainty that existed since the original update on 14 May 2026. Stakeholders should now treat this legislation as enacted.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
+      "priority": "medium"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T23:42:16.086Z",
+  "lastUpdated": "2026-06-19T06:57:05.525Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -5264,36 +5264,119 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
+    },
     {
       "type": "content_update",
       "priority": "high",
-      "title": "Treasury analysis: Inflation accounts for 56% of ASX 200 share gains over decade",
-      "description": "Treasury analysis released with Budget 2026-27 reveals that inflation comprised 56% of asset price growth for ASX 200 shares held for 10 years to March 2026, providing quantitative justification for replacing the CGT discount with inflation indexation.",
-      "suggestion": "Add to budget-updates.json: Treasury analysis: inflation accounts for 56% of ASX 200 share gains over decade — data shows current CGT discount undercompensates share market investors for inflation impact",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-share-market-investors-cgt-changes-small-business/106669784",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The ATO has released practical guidance to help investors and tax professionals prepare for the July 2027 CGT reforms, including indexation calculation methodologies.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027 — official guidance available for tax practitioners and investors preparing for the transition.",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260619-193",
+      "timestamp": "2026-06-19T06:56:57.085Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "$2 Billion Infrastructure Funding Initiative tied to housing supply targets",
+      "description": "Budget allocates $2 billion infrastructure funding linked to housing supply targets, with Treasury modelling projecting delivery of 65,000 additional homes under the housing reform package.",
+      "suggestion": "Add to budget-updates.json: $2 Billion Infrastructure Funding Initiative Tied to Housing Supply Targets — budget measure links infrastructure investment to housing supply outcomes.",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260611-966",
-      "timestamp": "2026-06-11T21:53:46.497Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.abc.net.au/news/2025-07-01/asx-200-gains-10-per-cent-over-financial-year-2025/105479398",
-      "implemented_at": "2026-06-11T23:17:41.926Z"
+      "id": "suggestion-20260619-403",
+      "timestamp": "2026-06-19T06:56:57.085Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Perpetual analysis confirms new CGT cost base indexation mirrors 1985-1999 approach",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Analysis from Perpetual confirms the new cost base indexation methodology mirrors the historical 1985-1999 approach, providing clarity on calculation methods for long-held assets.",
+      "suggestion": "Add to budget-updates.json: Perpetual analysis confirms new CGT cost base indexation mirrors 1985-1999 approach — historical methodology provides guidance for investors.",
+      "source": "https://www.perpetual.com.au/insights/tax-and-superannuation/cgt-indexation-2026",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260619-915",
+      "timestamp": "2026-06-19T06:56:57.085Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "CGT discount replacement: inflation indexation vs cost base indexation vs preserved choice",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] There is a factual conflict about the exact mechanism replacing the 50% CGT discount. Some sources claim it's replaced by inflation indexation (automatic cost base adjustment), others say cost base indexation, and some suggest investors retain a choice. This matters because the mechanism determines tax outcomes for millions of investors and affects whether the reform helps or hurts different investor cohorts.",
+      "suggestion": "Add to debates.json: NAB Budget Analysis claims the 'CGT discount is replaced by cost base indexation' creating different implications for investors, while multiple other sources claim 'the 50% CGT discount is being replaced by inflation indexation with no choice for taxpayers'. The budget.gov.au fact sheet shows the 50% discount being preserved in certain scenarios, suggesting a choice mechanism exists.",
+      "source": "https://www.bdo.com.au/en-au/insights/real-estate-construction/what-the-2026-federal-budget-means-for-housing-construction-and-investment-into-the-sector",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260619-830",
+      "timestamp": "2026-06-19T06:56:57.085Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base"
     },
     {
       "type": "debate_page",
       "priority": "medium",
-      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
-      "description": "Property industry groups predict reduced rental supply from the changes, while CommBank analysis suggests the policy design preserves rental supply by incentivizing new builds. This is a factual disagreement about predicted market outcomes, not just differing opinions.",
-      "suggestion": "Add to debates.json: REIA and Property Council of Australia (slateandsage.com.au) claim reducing property investment attractiveness 'could reduce rental supply over time', while CommBank (commbank.com.au) states the changes 'reduce investor demand for existing housing stock while preserving tax support for investment in new supply'",
-      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors; https://www.commbank.com.au/articles/newsroom/2026/05/2026-budget-updated-housing-outlook.html",
+      "title": "$2B infrastructure initiative housing targets: 65,000 vs alternative estimates",
+      "description": "The government claims the $2 billion infrastructure initiative will enable approximately 65,000 additional homes. However, industry sources and alternative analyses may project significantly different outcomes. This is a factual conflict about expected delivery numbers that has implications for whether the housing supply strategy will achieve its goals.",
+      "suggestion": "Add to debates.json: The REIA President (via API Magazine) cites the government's claim that the initiative will enable 'around 65,000 additional homes', while alternative industry estimates cited in other analyses project significantly fewer homes, raising questions about the realism of the government's housing supply projections.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
       "implementation_effort": "30_minutes",
-      "id": "suggestion-20260524-768",
-      "timestamp": "2026-05-24T20:43:18.544Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-11T23:18:10.516Z"
+      "id": "suggestion-20260619-799",
+      "timestamp": "2026-06-19T06:56:57.085Z",
+      "status": "pending"
     },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: The 50% CGT discount is being replaced by 'inflation indexation' versus 'cost base indexation'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget.gov.au states 'a discount based on inflation' while William Buck Australia states 'cost base indexation'. These are technically different mechanisms - cost base indexation adjusts the purchase price to historical CPI, while inflation indexation specifically references inflation rates. This discrepancy could lead to different tax outcomes for investors depending on which interpretation is correct.",
+      "suggestion": "Add to fact-checks.json: The replacement mechanism is [inflation-based cost base indexation], verdict is partially_verified because budget.gov.au refers to 'inflation' while professional advisory firms (William Buck, NAB) reference 'cost base indexation' - these may be the same mechanism described differently, but the precise legislative wording matters for tax calculations.",
+      "source": "https://budget.gov.au/publications/budget-2026-27",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260619-335",
+      "timestamp": "2026-06-19T06:56:57.085Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: $2B infrastructure initiative will deliver 65,000 additional homes",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple pending suggestions reference '65,000 vs alternative estimates' and 'Will the $2B infrastructure initiative actually deliver 65,000 or significantly fewer additional homes?' This suggests the 65,000 figure may not be independently verified or may represent a best-case scenario rather than a confirmed target.",
+      "suggestion": "Add to fact-checks.json: The infrastructure initiative's home delivery target is [65,000 over unspecified timeframe], verdict is unverified because while the $2B figure is specified, the 65,000 home target appears to be a government projection without independent verification, and alternative estimates may exist.",
+      "source": "https://budget.gov.au/publications/budget-2026-27",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260619-650",
+      "timestamp": "2026-06-19T06:56:57.085Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260619-519",
+      "timestamp": "2026-06-19T06:56:57.085Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "id": "suggestion-20260619-319",
+      "timestamp": "2026-06-19T06:56:57.085Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "medium",
@@ -6505,49 +6588,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
-      "description": "The ATO has released practical guidance for CGT indexation calculations to help taxpayers understand how the new inflation-based cost base adjustments will work when the changes take effect from 1 July 2027.",
-      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027 — helps taxpayers prepare for new inflation-based cost base adjustments",
-      "source": "https://www.ato.gov.au/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260611-953",
-      "timestamp": "2026-06-11T21:53:46.497Z",
-      "status": "skipped",
-      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-11T23:17:52.960Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "KPMG flags implementation timeline risks as ATO prepares for CGT reform",
-      "description": "KPMG analysis identifies implementation timeline risks as the ATO prepares for CGT reform with $47.5 million in funding over four years, noting substantial administrative challenges in transitioning to the new indexation-based system.",
-      "suggestion": "Add to budget-updates.json: KPMG flags implementation timeline risks as ATO prepares for CGT reform — analysis identifies challenges with $47.5m implementation funding",
-      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260611-594",
-      "timestamp": "2026-06-11T21:53:46.497Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-11T23:18:00.665Z"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Is the CGT discount being replaced, eliminated, or preserved with a choice?",
-      "description": "Budget.gov.au states investors can 'choose' the 50% CGT discount or new arrangements, while multiple other sources describe the discount being 'replaced' or 'eliminated'. This is a factual conflict about what the policy actually does.",
-      "suggestion": "Add to debates.json: budget.gov.au says investors in new builds 'will be able to choose the 50% CGT discount or the new arrangements', while ABC, Guardian, and other sources describe the discount being replaced or eliminated entirely",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260524-592",
-      "timestamp": "2026-05-24T20:43:18.544Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-11T23:18:15.410Z"
-    },
     {
       "type": "fact_check",
       "priority": "medium",

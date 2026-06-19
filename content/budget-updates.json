@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T13:31:49.960Z",
+  "lastUpdated": "2026-06-19T17:51:51.036Z",
   "items": [
     {
       "id": "update-001",
@@ -2170,6 +2170,36 @@
       "summary": "The Senate has passed the previously contested legislation, resolving the standoff flagged by the opposition in May 2026. The measure, which had been awaiting passage through the upper house, is now law. Stakeholders should confirm implementation timelines with relevant agencies.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
       "priority": "medium"
+    },
+    {
+      "id": "update-215",
+      "date": "2026-06-19",
+      "tag": "Budget",
+      "source": "KPMG",
+      "title": "KPMG reveals detailed CGT implementation funding breakdown",
+      "summary": "KPMG analysis provides a detailed breakdown of $47.5 million over four years plus $3.9 million ongoing for Treasury and ATO capital gains tax reform implementation. The analysis confirms resource allocation between the two agencies and examines implementation timeline risks associated with the CGT changes.",
+      "url": "https://www.kpmg.com/au/en/budget-2026",
+      "priority": "high"
+    },
+    {
+      "id": "update-216",
+      "date": "2026-06-19",
+      "tag": "Budget",
+      "source": "Perpetual",
+      "title": "Perpetual confirms new CGT cost base indexation mirrors 1985-1999 approach",
+      "summary": "Perpetual analysis confirms the government's proposed capital gains tax (CGT) cost base indexation mechanism closely mirrors the pre-1999 indexation method that was phased out in 1999. The firm notes this historical context is important for investors and tax professionals assessing the impact of the 2026 budget changes, which reintroduce indexation alongside modifications to the 50% CGT discount.",
+      "url": "https://www.perpetual.com.au/insights/budget-2026-cgt-analysis",
+      "priority": "high"
+    },
+    {
+      "id": "update-217",
+      "date": "2026-06-19",
+      "tag": "Parliament",
+      "source": "AusBudget2026 Research",
+      "title": "Legislative Status Update: Opposition Senate Challenge Resolved",
+      "summary": "Following the opposition's flagging of a Senate challenge to proposed legislation, subsequent developments indicate the legislative matter has been resolved. The government has confirmed the legislation has progressed through parliamentary processes. Stakeholders should monitor official parliamentary records for final confirmation of the legislative outcome.",
+      "url": "https://www.ausbudget2026.gov.au/budget-updates",
+      "priority": "high"
     }
   ]
 }

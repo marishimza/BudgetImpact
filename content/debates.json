@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T13:32:53.601Z",
+  "lastUpdated": "2026-06-19T17:52:32.763Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1761,6 +1761,29 @@
         "label": "The Guardian",
         "argument": "The Guardian reports that the 50% CGT discount is being replaced by inflation indexation",
         "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-074",
+      "slug": "budget-2026-housing-measures-6-4-billion-cost",
+      "title": "Will the 2026 budget housing measures cost $6.4 billion over four years?",
+      "category": "housing",
+      "type": "factual_dispute",
+      "summary": "ABC News reports the budget housing measures cost $6.4 billion over four years, but this figure does not appear in official budget papers or government communications, creating a factual conflict about the actual cost of the housing package.",
+      "view_a": {
+        "label": "ABC News Reports $6.4B",
+        "argument": "ABC News reports that the 2026 budget housing measures cost $6.4 billion over four years. This figure represents the total cost of the housing package as calculated by the ABC's analysis of budget documents and spending allocations.",
+        "sources": [
+          "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+        ]
+      },
+      "view_b": {
+        "label": "Official Budget Papers Silent",
+        "argument": "The official budget.gov.au tax reform page and Treasury budget documents do not mention a $6.4 billion figure for housing measures. The discrepancy raises questions about whether the ABC's figure represents new spending only, or includes reprioritised existing measures, or uses a different calculation methodology.",
+        "sources": [
+          "https://www.budget.gov.au"
+        ]
       },
       "verdict": null
     }

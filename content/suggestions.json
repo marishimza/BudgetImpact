@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T16:29:52.700Z",
+  "lastUpdated": "2026-06-19T17:52:32.766Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1392,18 +1392,6 @@
     {
       "type": "fact_check",
       "priority": "medium",
-      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Media frequently reports a flat '30% minimum tax' on capital gains, but the official budget.gov.au description states the 50% discount is being 'replaced' by inflation indexation with a minimum 30% tax rate on the discounted gain. This could mislead readers into thinking there's a flat 30% tax on all gains, when the actual tax rate depends on the individual's marginal rate and the indexation calculation.",
-      "suggestion": "Add to fact-checks.json: claim is that a flat 30% applies to ALL gains, verdict is partially_true because the policy introduces a minimum 30% rate on discounted/indexed gains, not a flat 30% on the total gain amount. The effective tax depends on the taxpayer's marginal rate applied to the adjusted gain.",
-      "source": "https://budget.gov.au/publications/budget-2026-27",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260531-874",
-      "timestamp": "2026-05-31T15:11:41.523Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
       "title": "Claim: Budget housing measures cost 'exactly $6.4 billion' over four years",
       "description": "Multiple sources cite '$6.4 billion over four years' as the cost of budget housing measures. However, this figure appears to come from ABC News analysis rather than official budget documents. The official budget documents may not specify this exact figure or may have different costings for individual measures.",
       "suggestion": "Add to fact-checks.json: claim is that housing measures cost exactly $6.4 billion, verdict is disputed because the figure originates from ABC News analysis rather than official budget documentation. The official budget may itemise different amounts for individual housing initiatives.",
@@ -1434,18 +1422,6 @@
       "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
       "implementation_effort": "15_minutes",
       "id": "suggestion-20260531-571",
-      "timestamp": "2026-05-31T20:48:39.166Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will the 2026 budget housing measures cost $6.4 billion over four years?",
-      "description": "ABC reports the budget housing measures cost $6.4 billion over four years, but the figure may not appear in official budget papers or government communications. This raises factual questions about the source, calculation methodology, and whether the $6.4B figure represents only new spending or includes reprioritised existing measures.",
-      "suggestion": "Add to debates.json: ABC News reports budget housing measures cost $6.4 billion over four years, but budget.gov.au official tax reform page makes no mention of this figure. This creates a factual conflict about how much the housing package actually costs.",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260531-711",
       "timestamp": "2026-05-31T20:48:39.166Z",
       "status": "pending"
     },
@@ -5339,30 +5315,6 @@
     },
     {
       "type": "content_update",
-      "priority": "medium",
-      "title": "KPMG reveals detailed CGT implementation funding breakdown",
-      "description": "KPMG analysis provides detailed breakdown of $47.5m over four years plus $3.9m ongoing for Treasury and ATO CGT reform implementation, with analysis of implementation timeline risks.",
-      "suggestion": "Add KPMG Budget Analysis: $47.5m implementation funding breakdown confirms ATO and Treasury resource allocation, including $3.9m ongoing operational funding",
-      "source": "https://www.kpmg.com/au/en/budget-2026",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260619-814",
-      "timestamp": "2026-06-19T16:29:45.465Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Perpetual confirms cost base indexation mirrors 1985-1999 approach",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Perpetual analysis confirms the new CGT cost base indexation mechanism closely mirrors the pre-1999 indexation method that was phased out in favour of the 50% discount.",
-      "suggestion": "Add Perpetual analysis confirming new CGT cost base indexation mirrors 1985-1999 approach, providing historical context for investors and tax professionals",
-      "source": "https://www.perpetual.com.au/insights/budget-2026-cgt-analysis",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260619-449",
-      "timestamp": "2026-06-19T16:29:45.465Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
       "priority": "low",
       "title": "Coalition votes against parliamentary committee endorsement of CGT changes",
       "description": "Liberals formally voted against the parliamentary committee endorsement of capital gains tax discount changes on 17 March 2026, signalling continued opposition to the reforms despite committee support from other parties.",
@@ -5432,18 +5384,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260619-636",
-      "timestamp": "2026-06-19T16:29:45.465Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -6652,6 +6592,58 @@
       "timestamp": "2026-05-31T15:11:41.523Z",
       "status": "implemented",
       "implemented_at": "2026-06-19T13:33:13.326Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG reveals detailed CGT implementation funding breakdown",
+      "description": "KPMG analysis provides detailed breakdown of $47.5m over four years plus $3.9m ongoing for Treasury and ATO CGT reform implementation, with analysis of implementation timeline risks.",
+      "suggestion": "Add KPMG Budget Analysis: $47.5m implementation funding breakdown confirms ATO and Treasury resource allocation, including $3.9m ongoing operational funding",
+      "source": "https://www.kpmg.com/au/en/budget-2026",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260619-814",
+      "timestamp": "2026-06-19T16:29:45.465Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-19T17:50:49.936Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Perpetual confirms cost base indexation mirrors 1985-1999 approach",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Perpetual analysis confirms the new CGT cost base indexation mechanism closely mirrors the pre-1999 indexation method that was phased out in favour of the 50% discount.",
+      "suggestion": "Add Perpetual analysis confirming new CGT cost base indexation mirrors 1985-1999 approach, providing historical context for investors and tax professionals",
+      "source": "https://www.perpetual.com.au/insights/budget-2026-cgt-analysis",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260619-449",
+      "timestamp": "2026-06-19T16:29:45.465Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-19T17:51:11.974Z"
+    },
+    {
+      "id": "suggestion-20260619-636",
+      "timestamp": "2026-06-19T16:29:45.465Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-19T17:51:51.039Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the 2026 budget housing measures cost $6.4 billion over four years?",
+      "description": "ABC reports the budget housing measures cost $6.4 billion over four years, but the figure may not appear in official budget papers or government communications. This raises factual questions about the source, calculation methodology, and whether the $6.4B figure represents only new spending or includes reprioritised existing measures.",
+      "suggestion": "Add to debates.json: ABC News reports budget housing measures cost $6.4 billion over four years, but budget.gov.au official tax reform page makes no mention of this figure. This creates a factual conflict about how much the housing package actually costs.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260531-711",
+      "timestamp": "2026-05-31T20:48:39.166Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-19T17:52:32.766Z"
     }
   ],
   "skipped": [
@@ -7355,6 +7347,20 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-19T13:32:02.318Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Media frequently reports a flat '30% minimum tax' on capital gains, but the official budget.gov.au description states the 50% discount is being 'replaced' by inflation indexation with a minimum 30% tax rate on the discounted gain. This could mislead readers into thinking there's a flat 30% tax on all gains, when the actual tax rate depends on the individual's marginal rate and the indexation calculation.",
+      "suggestion": "Add to fact-checks.json: claim is that a flat 30% applies to ALL gains, verdict is partially_true because the policy introduces a minimum 30% rate on discounted/indexed gains, not a flat 30% on the total gain amount. The effective tax depends on the taxpayer's marginal rate applied to the adjusted gain.",
+      "source": "https://budget.gov.au/publications/budget-2026-27",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260531-874",
+      "timestamp": "2026-05-31T15:11:41.523Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-19T17:52:07.494Z"
     }
   ],
   "needs_manual_review": [

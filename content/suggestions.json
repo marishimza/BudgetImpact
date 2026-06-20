@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T21:05:04.992Z",
+  "lastUpdated": "2026-06-20T23:03:56.054Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1484,30 +1484,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
-      "description": "The API Magazine cites the Government claiming the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes' as justification for the housing measures. However, industry bodies like the Real Estate Institute of Australia and Property Council of Australia have expressed concern that reducing property investment attractiveness could reduce rental supply over time. This raises a factual conflict about whether the infrastructure spending will offset potential investor exits and actually deliver the projected 65,000 homes.",
-      "suggestion": "Add to debates.json: View A from apimagazine.com.au says the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes'. View B from slateandsage.com.au (citing REIA and Property Council of Australia) says reducing property investment attractiveness 'could reduce rental supply over time', questioning whether the housing targets will be met.",
-      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260601-135",
-      "timestamp": "2026-06-01T22:30:25.717Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Is the Coalition's immigration cap proposal directly tied to budget housing measures or separate policy?",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources report the Coalition is vowing to repeal negative gearing and CGT changes. There's a conflict about whether the Coalition's immigration cap proposal is a direct response to the housing crisis created by budget measures, or a separate policy initiative. This matters because it affects how we interpret the political debate around housing affordability causation.",
-      "suggestion": "Add to debates.json: View A from abc.net.au and theguardian.com says the Coalition is focused on repealing negative gearing and CGT changes as direct budget responses. View B from johnsonsmme.com.au frames Coalition policy as 'returning tax settings to current conditions' alongside immigration proposals, suggesting multiple separate policy approaches rather than a coordinated budget response.",
-      "source": "https://abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260601-643",
-      "timestamp": "2026-06-01T22:30:25.717Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -5518,19 +5494,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases technical guidance on pre-1985 share valuation reset mechanism for July 2027 CGT changes",
-      "description": "The ATO has published specific technical guidance on the pre-1985 share valuation reset that will apply under the new CGT indexation rules from 1 July 2027. This guidance is distinct from the general CGT indexation calculation guidance and addresses a specific transitional mechanism for legacy shareholdings.",
-      "suggestion": "Add to budget-updates.json: ATO releases technical guidance on pre-1985 share valuation reset mechanism for 1 July 2027 CGT changes",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260620-193",
-      "timestamp": "2026-06-20T21:05:01.126Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "$2B infrastructure initiative housing targets: official 65,000 vs alternative estimates",
@@ -5541,19 +5504,6 @@
       "id": "suggestion-20260620-332",
       "timestamp": "2026-06-20T21:05:01.126Z",
       "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: Budget housing measures cost $6.4 billion over four years",
-      "description": "Multiple sources cite this exact figure for housing measures. However, this confuses total housing package cost ($6.4bn) with implementation costs ($47.5m). The KPMG source specifically identifies $47.5 million over four years for Treasury and ATO implementation of CGT/negative gearing reforms separately. This $6.4bn figure may be overstated if it includes measures not yet legislated or if it conflates different budget line items.",
-      "suggestion": "Add to fact-checks.json: The $6.4 billion figure appears to represent the total housing package over four years, but verification needed to confirm exact components and whether all measures are funded in the 2026-27 Budget.",
-      "source": "https://kpmg.com/au/en/home/media/2026/federal-budget-2026-27-analysis.html",
-      "implementation_effort": "45_minutes",
-      "id": "suggestion-20260620-814",
-      "timestamp": "2026-06-20T21:05:01.126Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966"
     },
     {
       "type": "fact_check",
@@ -5578,18 +5528,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260620-764",
-      "timestamp": "2026-06-20T21:05:01.126Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -6808,6 +6746,73 @@
       "timestamp": "2026-06-01T19:16:55.677Z",
       "status": "implemented",
       "implemented_at": "2026-06-20T17:21:32.116Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases technical guidance on pre-1985 share valuation reset mechanism for July 2027 CGT changes",
+      "description": "The ATO has published specific technical guidance on the pre-1985 share valuation reset that will apply under the new CGT indexation rules from 1 July 2027. This guidance is distinct from the general CGT indexation calculation guidance and addresses a specific transitional mechanism for legacy shareholdings.",
+      "suggestion": "Add to budget-updates.json: ATO releases technical guidance on pre-1985 share valuation reset mechanism for 1 July 2027 CGT changes",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260620-193",
+      "timestamp": "2026-06-20T21:05:01.126Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implemented_at": "2026-06-20T23:02:09.051Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Budget housing measures cost $6.4 billion over four years",
+      "description": "Multiple sources cite this exact figure for housing measures. However, this confuses total housing package cost ($6.4bn) with implementation costs ($47.5m). The KPMG source specifically identifies $47.5 million over four years for Treasury and ATO implementation of CGT/negative gearing reforms separately. This $6.4bn figure may be overstated if it includes measures not yet legislated or if it conflates different budget line items.",
+      "suggestion": "Add to fact-checks.json: The $6.4 billion figure appears to represent the total housing package over four years, but verification needed to confirm exact components and whether all measures are funded in the 2026-27 Budget.",
+      "source": "https://kpmg.com/au/en/home/media/2026/federal-budget-2026-27-analysis.html",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260620-814",
+      "timestamp": "2026-06-20T21:05:01.126Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/federal-budget-2026-winners-and-losers/106639966",
+      "implemented_at": "2026-06-20T23:02:37.489Z"
+    },
+    {
+      "id": "suggestion-20260620-764",
+      "timestamp": "2026-06-20T21:05:01.126Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-20T23:03:04.583Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "The API Magazine cites the Government claiming the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes' as justification for the housing measures. However, industry bodies like the Real Estate Institute of Australia and Property Council of Australia have expressed concern that reducing property investment attractiveness could reduce rental supply over time. This raises a factual conflict about whether the infrastructure spending will offset potential investor exits and actually deliver the projected 65,000 homes.",
+      "suggestion": "Add to debates.json: View A from apimagazine.com.au says the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes'. View B from slateandsage.com.au (citing REIA and Property Council of Australia) says reducing property investment attractiveness 'could reduce rental supply over time', questioning whether the housing targets will be met.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260601-135",
+      "timestamp": "2026-06-01T22:30:25.717Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-20T23:03:29.302Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the Coalition's immigration cap proposal directly tied to budget housing measures or separate policy?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources report the Coalition is vowing to repeal negative gearing and CGT changes. There's a conflict about whether the Coalition's immigration cap proposal is a direct response to the housing crisis created by budget measures, or a separate policy initiative. This matters because it affects how we interpret the political debate around housing affordability causation.",
+      "suggestion": "Add to debates.json: View A from abc.net.au and theguardian.com says the Coalition is focused on repealing negative gearing and CGT changes as direct budget responses. View B from johnsonsmme.com.au frames Coalition policy as 'returning tax settings to current conditions' alongside immigration proposals, suggesting multiple separate policy approaches rather than a coordinated budget response.",
+      "source": "https://abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260601-643",
+      "timestamp": "2026-06-01T22:30:25.717Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-20T23:03:56.054Z"
     }
   ],
   "skipped": [

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T11:54:53.857Z",
+  "lastUpdated": "2026-06-20T23:03:56.052Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1852,6 +1852,52 @@
         "argument": "The Government claims that limiting negative gearing to new builds will focus tax support on new supply and increase rental availability. By directing negative gearing benefits exclusively toward new construction, the policy is designed to incentivise developers to build more rental properties, thereby expanding the overall rental stock.",
         "sources": [
           "https://budget.gov.au/2026-27/content/overview.htm"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-078",
+      "slug": "will-2b-infrastructure-initiative-deliver-65000-homes",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "A factual conflict exists between the Government's projection that its $2B infrastructure initiative will enable 65,000 additional homes, and industry bodies expressing concern that reduced property investment attractiveness could offset these gains by decreasing rental supply over time.",
+      "view_a": {
+        "label": "Government projection",
+        "argument": "The Government claims the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes' as justification for its housing measures. This projection forms part of the Budget's housing affordability framework.",
+        "sources": [
+          "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades"
+        ]
+      },
+      "view_b": {
+        "label": "Industry concern",
+        "argument": "Industry bodies including the Real Estate Institute of Australia (REIA) and Property Council of Australia have expressed concern that reducing property investment attractiveness could reduce rental supply over time. They question whether the infrastructure spending will offset potential investor exits and actually deliver the projected 65,000 homes.",
+        "sources": [
+          "https://www.slateandsage.com.au/news"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-079",
+      "slug": "coalition-immigration-cap-housing-measures-debate",
+      "title": "Is the Coalition's immigration cap proposal directly tied to budget housing measures or separate policy?",
+      "category": "housing",
+      "type": "interpretation_difference",
+      "summary": "A dispute over whether the Coalition's immigration cap policy should be interpreted as a direct response to the housing affordability challenges created by recent budget measures, or as a separate policy initiative operating independently from budget housing policy.",
+      "view_a": {
+        "label": "Coordinated Budget Response",
+        "argument": "The Coalition's immigration cap proposal is directly tied to its fiscal strategy, specifically designed to address housing affordability concerns created by budget measures. The primary focus remains on repealing negative gearing and capital gains tax changes as the core budget housing response, with immigration policy serving as a complementary mechanism to ease demand-side pressures on housing.",
+        "sources": [
+          "https://abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294"
+        ]
+      },
+      "view_b": {
+        "label": "Separate Policy Approaches",
+        "argument": "The Coalition frames its policy agenda as 'returning tax settings to current conditions' alongside immigration proposals. This framing suggests multiple separate policy approaches rather than a coordinated budget response. The immigration cap is presented as a distinct initiative that operates alongside, rather than in direct response to, housing-related budget measures.",
+        "sources": [
+          "https://johnsonsmme.com.au"
         ]
       },
       "verdict": null

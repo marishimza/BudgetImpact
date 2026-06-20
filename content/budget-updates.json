@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T17:20:21.075Z",
+  "lastUpdated": "2026-06-20T23:03:04.580Z",
   "items": [
     {
       "id": "update-001",
@@ -2269,6 +2269,26 @@
       "title": "Update: Senate passes controversial budget legislation following negotiations",
       "summary": "The legislation referenced in the May 14 update has now passed the Senate after the government agreed to amendments proposed by minor parties. The revised legislation includes modified compliance measures that address opposition concerns. Businesses and individuals should review the final provisions as they will take effect from July 1, 2026.",
       "url": "https://ausbudget2026.example.com/updates/update-224",
+      "priority": "high"
+    },
+    {
+      "id": "update-225",
+      "date": "2026-06-20",
+      "tag": "Budget",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases technical guidance on pre-1985 share valuation reset mechanism for July 2027 CGT changes",
+      "summary": "The ATO has published specific technical guidance on the pre-1985 share valuation reset mechanism that will apply under the new CGT indexation rules from 1 July 2027. This guidance is distinct from the general CGT indexation calculation guidance and addresses a specific transitional mechanism for legacy shareholdings. Tax practitioners and individuals with pre-1985 shareholdings should review this guidance to understand how the valuation reset will operate.",
+      "url": "https://www.ato.gov.au/General/New-legislation/In-detail/Topics/Treasury-Laws-Amendment-2026-Tax-Reform/CGT-discount-changes",
+      "priority": "medium"
+    },
+    {
+      "id": "update-226",
+      "date": "2026-06-20",
+      "tag": "Parliament",
+      "source": "Australian Financial Review",
+      "title": "Government legislation passes Senate after opposition withdrawal of challenge",
+      "summary": "The government legislation that was the subject of an opposition Senate challenge has now passed into law after the opposition parties withdrew their blocking tactics. The legislation, which had been pending since mid-May, received royal assent following Senate negotiations. This resolves the uncertainty that had surrounded the budget measures affected by this legislation.",
+      "url": "https://www.afr.com.au/politics/federal/government-legislation-passes-senate-20260620",
       "priority": "high"
     }
   ]

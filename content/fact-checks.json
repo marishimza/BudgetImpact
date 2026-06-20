@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T17:21:32.113Z",
+  "lastUpdated": "2026-06-20T23:02:37.486Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1356,6 +1356,24 @@
       ],
       "date_checked": "2026-06-20",
       "category": "tax"
+    },
+    {
+      "id": "fc-071",
+      "slug": "budget-housing-measures-6-4-billion-claim",
+      "claim": "The 2026-27 Budget housing measures cost $6.4 billion over four years",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "The $6.4 billion figure may represent the total housing package, but it appears to conflate total package costs with much smaller implementation costs ($47.5m for Treasury/ATO), and verification is needed to confirm all components and whether measures are legislated.",
+      "detailed_explanation": "Multiple sources cite the $6.4 billion figure for housing measures in the 2026-27 Budget over four years. However, KPMG analysis identifies a separate figure of $47.5 million specifically for Treasury and ATO implementation costs of CGT and negative gearing reforms. This distinction suggests the $6.4 billion may represent the total housing package but could conflate different budget line items. Additionally, the figure may include measures not yet legislated, making the stated amount potentially overstated. Independent verification of exact components and funding breakdown is required.",
+      "sources": [
+        {
+          "name": "KPMG Federal Budget 2026-27 Analysis",
+          "url": "https://kpmg.com/au/en/home/media/2026/federal-budget-2026-27-analysis.html",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-20",
+      "category": "housing"
     }
   ]
 }

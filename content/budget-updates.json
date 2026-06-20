@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T22:51:12.679Z",
+  "lastUpdated": "2026-06-20T07:46:28.892Z",
   "items": [
     {
       "id": "update-001",
@@ -2220,6 +2220,16 @@
       "summary": "The legislation previously flagged by the Opposition for potential Senate challenge has now been passed into law. The Senate approved the measure on 17 June 2026, resolving the uncertainty that existed since the original update on 14 May 2026. Stakeholders should now treat this legislation as enacted.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
       "priority": "medium"
+    },
+    {
+      "id": "update-220",
+      "date": "2026-06-20",
+      "tag": "Property",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases technical guidance on pre-1985 share valuation reset mechanism",
+      "summary": "The ATO has released detailed technical guidance on how the pre-1985 share valuation reset mechanism will operate from 1 July 2027. Shareholders who acquired shares before the introduction of CGT in 1985 will be able to reset their cost base to market value as of that date, with significant implications for estate planning and long-term shareholding strategies. The guidance outlines eligibility criteria, application procedures, and interaction with existing CGT provisions.",
+      "url": "https://www.ato.gov.au/General/New-legislation/In-detail/Topics/Treasury-Laws-Amendment-2026-Tax-Reform/CGT-discount-changes",
+      "priority": "high"
     }
   ]
 }

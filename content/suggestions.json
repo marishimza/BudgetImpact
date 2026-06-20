@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T06:11:51.552Z",
+  "lastUpdated": "2026-06-20T07:47:52.368Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1448,30 +1448,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Is the Coalition's immigration cap a direct response to budget housing measures?",
-      "description": "The Guardian's May 13 coverage frames the Coalition's response around repealing negative gearing and CGT changes. The May 14 budget reply coverage explicitly frames immigration cuts as addressing the housing crisis created by the budget. This creates factual uncertainty about whether immigration restriction is presented as a complementary or counter response.",
-      "suggestion": "Add to debates.json: The Guardian (May 14) explicitly links the Coalition's immigration cap to the budget housing measures, stating Taylor said immigration 'will need to be significantly below the Coalition's cap' to address housing. The May 13 coverage focused on direct repeal of negative gearing and CGT changes as the primary response.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260601-517",
-      "timestamp": "2026-06-01T06:46:57.501Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources repeat a 30% minimum tax rate on capital gains, but the official budget.gov.au states 'minimum 30% tax on gains from 1 July 2027' applying to gains above inflation. The official source specifies the rate applies to 'real capital gains' (gains above inflation), not total gains. The distinction matters: an asset gaining 5% with 3% inflation would only have 2% taxed at minimum 30%, not the full 5%. This nuance is often lost in media reporting.",
-      "suggestion": "Add to fact-checks.json: claim that '30% minimum applies to ALL gains' is partially misleading. Verdict: nuanced. Budget official says 30% minimum applies to real gains (above inflation), with cost base indexed to inflation. Not all gains are subject to the 30% — only inflation-adjusted gains above the indexed cost base qualify.",
-      "source": "https://budget.gov.au/2026-27/tax-reform",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260601-565",
-      "timestamp": "2026-06-01T06:46:57.501Z",
-      "status": "pending"
     },
     {
       "id": "suggestion-20260601-482",
@@ -5412,36 +5388,12 @@
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "ATO releases technical guidance on pre-1985 share valuation reset mechanism",
-      "description": "The ATO has released detailed guidance on how the pre-1985 share valuation reset will work from 1 July 2027, allowing shareholders with holdings from before 1985 to reset their cost base to market value as of that date. This has significant implications for estate planning and long-term shareholding strategies.",
-      "suggestion": "Add ATO technical guidance on pre-1985 share valuation reset mechanism for assets acquired before CGT was introduced in 1985",
-      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260620-953",
-      "timestamp": "2026-06-20T06:11:46.216Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
       "title": "$2B infrastructure funding tied to housing supply targets faces delivery questions",
       "description": "The Budget's $2 billion infrastructure funding initiative is tied to delivering 65,000 additional homes, but independent analysis questions whether this target is achievable given current construction capacity and supply chain constraints. Industry groups have raised concerns about the link between infrastructure spending and actual housing delivery.",
       "suggestion": "Add analysis on $2B infrastructure initiative delivery risks and whether 65,000 home target is achievable",
       "source": "https://budget.gov.au/content/02-cost-of-living.htm",
       "implementation_effort": "20_minutes",
       "id": "suggestion-20260620-678",
-      "timestamp": "2026-06-20T06:11:46.216Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "CGT minimum 30% floor applies to all nominal gains, not just inflation adjustment",
-      "description": "Analysis of the CGT reform package reveals the minimum 30% tax floor applies to all capital gains, not merely the inflation-adjusted portion. This means a retiree on a 16% marginal tax rate with long-held shares faces 30% tax on nominal gains even after indexation, representing a significant increase from the current effective 8% rate.",
-      "suggestion": "Add clarification that CGT minimum 30% floor applies to all gains, with worked examples showing impact on retirees",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260620-431",
       "timestamp": "2026-06-20T06:11:46.216Z",
       "status": "pending"
     },
@@ -5504,18 +5456,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260620-434",
-      "timestamp": "2026-06-20T06:11:46.216Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -6735,6 +6675,45 @@
       "timestamp": "2026-06-01T06:46:57.501Z",
       "status": "implemented",
       "implemented_at": "2026-06-19T22:51:46.134Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO releases technical guidance on pre-1985 share valuation reset mechanism",
+      "description": "The ATO has released detailed guidance on how the pre-1985 share valuation reset will work from 1 July 2027, allowing shareholders with holdings from before 1985 to reset their cost base to market value as of that date. This has significant implications for estate planning and long-term shareholding strategies.",
+      "suggestion": "Add ATO technical guidance on pre-1985 share valuation reset mechanism for assets acquired before CGT was introduced in 1985",
+      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260620-953",
+      "timestamp": "2026-06-20T06:11:46.216Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-20T07:46:00.773Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "CGT minimum 30% floor applies to all nominal gains, not just inflation adjustment",
+      "description": "Analysis of the CGT reform package reveals the minimum 30% tax floor applies to all capital gains, not merely the inflation-adjusted portion. This means a retiree on a 16% marginal tax rate with long-held shares faces 30% tax on nominal gains even after indexation, representing a significant increase from the current effective 8% rate.",
+      "suggestion": "Add clarification that CGT minimum 30% floor applies to all gains, with worked examples showing impact on retirees",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260620-431",
+      "timestamp": "2026-06-20T06:11:46.216Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-20T07:46:28.896Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources repeat a 30% minimum tax rate on capital gains, but the official budget.gov.au states 'minimum 30% tax on gains from 1 July 2027' applying to gains above inflation. The official source specifies the rate applies to 'real capital gains' (gains above inflation), not total gains. The distinction matters: an asset gaining 5% with 3% inflation would only have 2% taxed at minimum 30%, not the full 5%. This nuance is often lost in media reporting.",
+      "suggestion": "Add to fact-checks.json: claim that '30% minimum applies to ALL gains' is partially misleading. Verdict: nuanced. Budget official says 30% minimum applies to real gains (above inflation), with cost base indexed to inflation. Not all gains are subject to the 30% — only inflation-adjusted gains above the indexed cost base qualify.",
+      "source": "https://budget.gov.au/2026-27/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260601-565",
+      "timestamp": "2026-06-01T06:46:57.501Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-20T07:47:52.368Z"
     }
   ],
   "skipped": [
@@ -7424,6 +7403,34 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-19T22:50:42.026Z"
+    },
+    {
+      "id": "suggestion-20260620-434",
+      "timestamp": "2026-06-20T06:11:46.216Z",
+      "status": "skipped",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-20T07:46:46.741Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the Coalition's immigration cap a direct response to budget housing measures?",
+      "description": "The Guardian's May 13 coverage frames the Coalition's response around repealing negative gearing and CGT changes. The May 14 budget reply coverage explicitly frames immigration cuts as addressing the housing crisis created by the budget. This creates factual uncertainty about whether immigration restriction is presented as a complementary or counter response.",
+      "suggestion": "Add to debates.json: The Guardian (May 14) explicitly links the Coalition's immigration cap to the budget housing measures, stating Taylor said immigration 'will need to be significantly below the Coalition's cap' to address housing. The May 13 coverage focused on direct repeal of negative gearing and CGT changes as the primary response.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260601-517",
+      "timestamp": "2026-06-01T06:46:57.501Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-20T07:47:19.843Z"
     }
   ],
   "needs_manual_review": [

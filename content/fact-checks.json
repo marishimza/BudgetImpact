@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T12:53:22.181Z",
+  "lastUpdated": "2026-06-20T07:47:52.366Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1282,6 +1282,26 @@
       ],
       "date_checked": "2026-06-18",
       "category": "superannuation"
+    },
+    {
+      "id": "fc-067",
+      "slug": "capital-gains-30-percent-minimum-not-on-all-gains",
+      "type": "fact_check",
+      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "claim": "That the 30% minimum tax rate on capital gains applies to ALL gains from 1 July 2027",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The 30% minimum applies to real capital gains (gains above inflation), not total gains. The cost base is indexed to inflation, meaning only inflation-adjusted gains qualify for the minimum rate.",
+      "detailed_explanation": "The Australian Government Budget 2026-27 specifies that a minimum 30% tax rate applies to 'real capital gains' from 1 July 2027. This means the cost base is indexed to inflation. For example, if an asset increases in value by 5% while inflation is 3%, only the 2% real gain above inflation would be subject to the minimum 30% rate—not the full 5%. This distinction between nominal and real gains is frequently lost in media reporting, which often implies the 30% applies to total gains. The policy is designed to ensure gains merely tracking inflation aren't heavily taxed while still applying the minimum to genuine investment returns.",
+      "sources": [
+        {
+          "name": "Australian Government Budget 2026-27",
+          "url": "https://budget.gov.au/2026-27/tax-reform",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-20",
+      "category": "tax"
     }
   ]
 }

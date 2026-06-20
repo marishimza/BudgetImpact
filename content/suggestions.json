@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T22:51:46.134Z",
+  "lastUpdated": "2026-06-20T06:11:51.552Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -5408,49 +5408,117 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO releases technical guidance on pre-1985 share valuation reset mechanism",
+      "description": "The ATO has released detailed guidance on how the pre-1985 share valuation reset will work from 1 July 2027, allowing shareholders with holdings from before 1985 to reset their cost base to market value as of that date. This has significant implications for estate planning and long-term shareholding strategies.",
+      "suggestion": "Add ATO technical guidance on pre-1985 share valuation reset mechanism for assets acquired before CGT was introduced in 1985",
+      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260620-953",
+      "timestamp": "2026-06-20T06:11:46.216Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "$2B infrastructure funding tied to housing supply targets faces delivery questions",
+      "description": "The Budget's $2 billion infrastructure funding initiative is tied to delivering 65,000 additional homes, but independent analysis questions whether this target is achievable given current construction capacity and supply chain constraints. Industry groups have raised concerns about the link between infrastructure spending and actual housing delivery.",
+      "suggestion": "Add analysis on $2B infrastructure initiative delivery risks and whether 65,000 home target is achievable",
+      "source": "https://budget.gov.au/content/02-cost-of-living.htm",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260620-678",
+      "timestamp": "2026-06-20T06:11:46.216Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "CGT minimum 30% floor applies to all nominal gains, not just inflation adjustment",
+      "description": "Analysis of the CGT reform package reveals the minimum 30% tax floor applies to all capital gains, not merely the inflation-adjusted portion. This means a retiree on a 16% marginal tax rate with long-held shares faces 30% tax on nominal gains even after indexation, representing a significant increase from the current effective 8% rate.",
+      "suggestion": "Add clarification that CGT minimum 30% floor applies to all gains, with worked examples showing impact on retirees",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260620-431",
+      "timestamp": "2026-06-20T06:11:46.216Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "$2B infrastructure initiative housing targets: 65,000 vs alternative estimates",
+      "description": "The REIA (industry body) and government sources claim the $2 billion infrastructure initiative will enable around 65,000 additional homes. However, multiple analysis sources suggest alternative lower estimates. This is a factual conflict about projected policy impact, not just opinion.",
+      "suggestion": "Add to debates.json: REIA President Jacob Caine states the initiative 'expected to enable around 65,000 additional homes' per API Magazine; multiple accounting/analysis firms suggest significantly lower alternative estimates in their budget analyses.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260620-372",
+      "timestamp": "2026-06-20T06:11:46.216Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "CGT discount replacement mechanism: inflation indexation vs cost base indexation",
+      "description": "Some sources describe the 50% CGT discount being 'replaced by inflation indexation' while others describe it as 'cost base indexation'. These are technically different mechanisms - inflation indexation adjusts gains for CPI changes, while cost base indexation adjusts the asset's purchase price. Multiple credible accounting firms appear to use different terminology for the same policy.",
+      "suggestion": "Add to debates.json: NAB Budget Analysis states 'CGT discount replaced by cost base indexation' while other sources (including Perpetual analysis) describe it as similar to the 1985-1999 'cost base indexation method'. Yet other sources use 'inflation indexation' terminology - creating confusion about which indexing mechanism actually applies.",
+      "source": "https://www.nab.com.au/content/nab/en/home/news/2026-budget-analysis.html",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260620-354",
+      "timestamp": "2026-06-20T06:11:46.216Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "description": "This specific percentage (56%) is cited in multiple sources (ABC News, ASX analysis) as coming from Treasury/budget data. However, the precise methodology, time period, and what 'inflation accounts for' means could be misrepresented in media reporting. The claim could oversimplify a complex Treasury analysis about how much of nominal capital gains represent real gains versus inflationary erosion.",
+      "suggestion": "Add to fact-checks.json: claim is 'Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over the past decade', verdict is partially_verified because this figure appears in budget documents but requires verification of methodology, exact time period, and whether it applies to all ASX 200 shares or a specific subset.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-property-shares/2026-05-13",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260620-534",
+      "timestamp": "2026-06-20T06:11:46.216Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "low",
+      "title": "Claim: More than half of the benefit of the CGT concession went to the top 1% of income earners",
+      "description": "This distributional claim about CGT concession benefits appears in media coverage but the exact source, time period, and methodology for determining the 'top 1%' threshold may vary between sources. This type of wealth/income distribution statistic is commonly cited but often lacks precise sourcing or uses different definitions across reports.",
+      "suggestion": "Add to fact-checks.json: claim is 'More than half of the benefit of the CGT concession went to the top 1% of income earners', verdict is unclear because the specific source, year, and methodology need verification before this can be confirmed or refuted.",
+      "source": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260620-689",
+      "timestamp": "2026-06-20T06:11:46.216Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260620-360",
+      "timestamp": "2026-06-20T06:11:46.216Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "id": "suggestion-20260620-434",
+      "timestamp": "2026-06-20T06:11:46.216Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Negative gearing cutoff timestamp: 7:30pm on Budget Night",
-      "description": "New details confirm the exact cutoff time for negative gearing changes on established properties: properties purchased after 7:30pm on 12 May 2026 are subject to the new restrictions from 1 July 2027. This precise timestamp differs from the general 1 July 2027 commencement date.",
-      "suggestion": "Add to budget-updates.json: Negative gearing restrictions for established residential properties will be abolished from 1 July 2027 for properties purchased after 7:30pm on Budget Night (12 May 2026)",
-      "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260612-124",
-      "timestamp": "2026-06-12T21:28:54.972Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implemented_at": "2026-06-12T23:11:44.113Z"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will the 2026 negative gearing and CGT reforms cause a prolonged property price slump or a brief correction?",
-      "description": "The Guardian reports economists forecast Australia's first national property price slump since 2022, with some linking this to budget tax changes weighing on sentiment. However, other analysis suggests any fall would be short-term due to persistent housing shortages. This conflict involves competing economic forecasts about the scale and duration of property market impacts.",
-      "suggestion": "Add to debates.json: The Guardian reports economists believe 'home values are set for their first national slump since 2022' with fear weighing on property prices. Meanwhile, other analysis suggests Australia's 'persistent housing shortage means any fall would be short term' - implying a brief correction rather than prolonged slump. These represent conflicting short-term price forecasts from credible sources.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260525-381",
-      "timestamp": "2026-05-25T11:43:29.000Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-12T23:12:17.530Z"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
-      "description": "Real estate industry groups and some economists warn that reducing the attractiveness of residential property investment will reduce rental supply over time. In contrast, housing advocacy groups and government-linked analyses argue the reforms will redirect investment toward new housing supply rather than established properties, potentially increasing overall rental availability.",
-      "suggestion": "Add to debates.json: view_a from REIA/Property Council (slateandsage.com.au) says restricting negative gearing 'could reduce rental supply over time', view_b from ACOSS/theguardian.com says negative gearing and CGT 'added little to rental supply' and reforms will redirect capital to new supply",
-      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260525-437",
-      "timestamp": "2026-05-25T16:16:58.595Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-12T23:13:05.600Z"
-    },
     {
       "type": "content_update",
       "priority": "medium",
@@ -6670,34 +6738,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Capital gains face a new 'minimum 30% tax rate on ALL gains' from July 2027",
-      "description": "Multiple sources state a 'minimum 30% tax rate' on capital gains, but ABC News clarifies this applies to 'real capital gains' (after inflation adjustment). Media headlines may oversimplify this as 30% on ALL nominal gains, when in reality only inflation-adjusted gains above inflation are subject to the 30% minimum. The indexation adjustment means the effective tax rate on nominal gains could be lower than 30%.",
-      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax on ALL capital gains', verdict is partially_true because the 30% minimum applies to REAL gains after inflation indexation, not nominal gains. The official budget.gov.au confirms a minimum 30% tax on gains from 1 July 2027, but ABC clarifies it applies to 'real capital gains', meaning nominal gains first have inflation deducted.",
-      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-federal-budget-could-shift-investment/10548308",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260525-978",
-      "timestamp": "2026-05-25T06:17:57.276Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-12T23:11:58.976Z"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Are Labor's negative gearing and CGT changes a 'broken promise' or legitimate policy evolution?",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Coalition (led by Shadow Treasurer Tim Wilson and Opposition Leader Angus Taylor) has labelled the changes 'toxic' and pledged to repeal them, framing it as a breach of trust. The Government frames the restrictions as calculated policy reform responding to housing affordability concerns. This conflict involves whether changed economic conditions and housing crisis severity justify reversing a previous electoral commitment.",
-      "suggestion": "Add to debates.json: The Coalition (via The Guardian, ABC) labels the changes 'toxic' and a 'broken promise' - Shadow Treasurer Tim Wilson said the Coalition would 'seek to defeat' and 'repeal these measures if necessary', framing it as 'broken trust built on bad faith'. Meanwhile, ABC and Government sources frame it as 'calculated' reform acknowledging that the popularity of curbing negative gearing will be 'worth the damage to trust' - suggesting changed circumstances justify the policy shift.",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260525-725",
-      "timestamp": "2026-05-25T11:43:29.000Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-12T23:12:46.658Z"
-    },
     {
       "type": "fact_check",
       "priority": "high",

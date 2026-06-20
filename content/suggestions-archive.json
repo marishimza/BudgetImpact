@@ -5618,6 +5618,74 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-12T18:04:17.367Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Negative gearing cutoff timestamp: 7:30pm on Budget Night",
+      "description": "New details confirm the exact cutoff time for negative gearing changes on established properties: properties purchased after 7:30pm on 12 May 2026 are subject to the new restrictions from 1 July 2027. This precise timestamp differs from the general 1 July 2027 commencement date.",
+      "suggestion": "Add to budget-updates.json: Negative gearing restrictions for established residential properties will be abolished from 1 July 2027 for properties purchased after 7:30pm on Budget Night (12 May 2026)",
+      "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260612-124",
+      "timestamp": "2026-06-12T21:28:54.972Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implemented_at": "2026-06-12T23:11:44.113Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the 2026 negative gearing and CGT reforms cause a prolonged property price slump or a brief correction?",
+      "description": "The Guardian reports economists forecast Australia's first national property price slump since 2022, with some linking this to budget tax changes weighing on sentiment. However, other analysis suggests any fall would be short-term due to persistent housing shortages. This conflict involves competing economic forecasts about the scale and duration of property market impacts.",
+      "suggestion": "Add to debates.json: The Guardian reports economists believe 'home values are set for their first national slump since 2022' with fear weighing on property prices. Meanwhile, other analysis suggests Australia's 'persistent housing shortage means any fall would be short term' - implying a brief correction rather than prolonged slump. These represent conflicting short-term price forecasts from credible sources.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260525-381",
+      "timestamp": "2026-05-25T11:43:29.000Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-12T23:12:17.530Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
+      "description": "Real estate industry groups and some economists warn that reducing the attractiveness of residential property investment will reduce rental supply over time. In contrast, housing advocacy groups and government-linked analyses argue the reforms will redirect investment toward new housing supply rather than established properties, potentially increasing overall rental availability.",
+      "suggestion": "Add to debates.json: view_a from REIA/Property Council (slateandsage.com.au) says restricting negative gearing 'could reduce rental supply over time', view_b from ACOSS/theguardian.com says negative gearing and CGT 'added little to rental supply' and reforms will redirect capital to new supply",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260525-437",
+      "timestamp": "2026-05-25T16:16:58.595Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-12T23:13:05.600Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains face a new 'minimum 30% tax rate on ALL gains' from July 2027",
+      "description": "Multiple sources state a 'minimum 30% tax rate' on capital gains, but ABC News clarifies this applies to 'real capital gains' (after inflation adjustment). Media headlines may oversimplify this as 30% on ALL nominal gains, when in reality only inflation-adjusted gains above inflation are subject to the 30% minimum. The indexation adjustment means the effective tax rate on nominal gains could be lower than 30%.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax on ALL capital gains', verdict is partially_true because the 30% minimum applies to REAL gains after inflation indexation, not nominal gains. The official budget.gov.au confirms a minimum 30% tax on gains from 1 July 2027, but ABC clarifies it applies to 'real capital gains', meaning nominal gains first have inflation deducted.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-federal-budget-could-shift-investment/10548308",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260525-978",
+      "timestamp": "2026-05-25T06:17:57.276Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-12T23:11:58.976Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Are Labor's negative gearing and CGT changes a 'broken promise' or legitimate policy evolution?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Coalition (led by Shadow Treasurer Tim Wilson and Opposition Leader Angus Taylor) has labelled the changes 'toxic' and pledged to repeal them, framing it as a breach of trust. The Government frames the restrictions as calculated policy reform responding to housing affordability concerns. This conflict involves whether changed economic conditions and housing crisis severity justify reversing a previous electoral commitment.",
+      "suggestion": "Add to debates.json: The Coalition (via The Guardian, ABC) labels the changes 'toxic' and a 'broken promise' - Shadow Treasurer Tim Wilson said the Coalition would 'seek to defeat' and 'repeal these measures if necessary', framing it as 'broken trust built on bad faith'. Meanwhile, ABC and Government sources frame it as 'calculated' reform acknowledging that the popularity of curbing negative gearing will be 'worth the damage to trust' - suggesting changed circumstances justify the policy shift.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260525-725",
+      "timestamp": "2026-05-25T11:43:29.000Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-12T23:12:46.658Z"
     }
   ]
 }

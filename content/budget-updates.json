@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T11:54:04.371Z",
+  "lastUpdated": "2026-06-20T17:20:21.075Z",
   "items": [
     {
       "id": "update-001",
@@ -2259,6 +2259,16 @@
       "title": "Senate passes contentious budget legislation following bipartisan negotiations",
       "summary": "The Senate has passed the previously contested budget legislation that the Opposition had threatened to challenge. Following weeks of negotiations, crossbench senators agreed to amendments that secured passage of the bill. The government has confirmed the legislation will receive Royal Assent within days, completing the legislative process that began earlier in the parliamentary session.",
       "url": "https://www.afr.com/politics/federal/senate-passes-budget-legislation-2026-06-20",
+      "priority": "high"
+    },
+    {
+      "id": "update-224",
+      "date": "2026-06-20",
+      "tag": "Parliament",
+      "source": "AusBudget2026",
+      "title": "Update: Senate passes controversial budget legislation following negotiations",
+      "summary": "The legislation referenced in the May 14 update has now passed the Senate after the government agreed to amendments proposed by minor parties. The revised legislation includes modified compliance measures that address opposition concerns. Businesses and individuals should review the final provisions as they will take effect from July 1, 2026.",
+      "url": "https://ausbudget2026.example.com/updates/update-224",
       "priority": "high"
     }
   ]

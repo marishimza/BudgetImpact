@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T07:47:52.366Z",
+  "lastUpdated": "2026-06-20T17:21:32.113Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1297,6 +1297,60 @@
         {
           "name": "Australian Government Budget 2026-27",
           "url": "https://budget.gov.au/2026-27/tax-reform",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-20",
+      "category": "tax"
+    },
+    {
+      "id": "fc-068",
+      "slug": "capital-gains-30-percent-minimum-indexed-gains",
+      "claim": "Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The 30% minimum applies to indexed (real) gains above inflation, not all nominal gains. For assets with 56% inflation component, only the remaining 44% real gain faces the 30% floor.",
+      "detailed_explanation": "Analysis shows the 30% floor applies to inflation-indexed or real gains, not nominal gains. For assets where inflation comprises 56% of growth (per Treasury analysis), the 30% minimum would apply only to the 44% real gain above inflation, not the total nominal gain. A retired investor on 16% marginal rate currently pays 8% on nominal gains (vs 30% on indexed gains under changes), suggesting the 30% floor targets real gains specifically. Describing it as 'ALL gains' may be misleading.",
+      "sources": [
+        {
+          "name": "ASX - What the Federal Budget Means for Investors",
+          "url": "https://www.asx.com.au/what-the-federal-budget-means-for-investors",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-20",
+      "category": "Tax"
+    },
+    {
+      "id": "fc-069",
+      "slug": "division-296-tax-on-earnings-not-balances",
+      "claim": "Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The 15% additional tax applies to earnings attributable to amounts exceeding $3m, not a flat tax on balances over $3m.",
+      "detailed_explanation": "Division 296 (part of the Better Targeted Super Concessions legislation) imposes an additional 15% tax on future earnings attributable to superannuation balances exceeding the $3 million threshold. However, this is frequently mischaracterised in media coverage. A person with a $4 million balance does not pay 15% on the entire $4 million—only on the earnings attributable to the $1 million excess portion above $3m. The tax is calculated on notional earnings on the excess amount, not on the excess balance directly.",
+      "sources": [
+        {
+          "name": "ATO - Better Targeted Super Concessions is law",
+          "url": "https://www.ato.gov.au/General/New-legislation/In-detail/Other-topics/Better-Targeted-Super-Concessions/",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-20",
+      "category": "superannuation"
+    },
+    {
+      "id": "fc-070",
+      "slug": "capital-gains-minimum-30-percent-tax-floor",
+      "claim": "Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The 30% rate is a floor/minimum, not a fixed rate. Actual tax payable depends on an individual's marginal tax rate and other factors.",
+      "detailed_explanation": "The Australian Government Budget states it will 'introduce a minimum 30 per cent tax on gains from 1 July 2027.' The word 'minimum' is critical — it establishes a floor rate, not the exclusive rate. Taxpayers may pay more than 30% depending on their marginal income tax rate. Additionally, indexation calculations can affect the taxable gain amount. Media coverage that drops 'minimum' and reports an exact 30% rate for all capital gains oversimplifies the policy. The actual tax liability depends on factors including: the individual's marginal income tax bracket, whether indexation applies, and the type of asset disposed of.",
+      "sources": [
+        {
+          "name": "Australian Government Budget - Tax Reform",
+          "url": "https://www.budget.gov.au/Tax-reform",
           "type": "official"
         }
       ],

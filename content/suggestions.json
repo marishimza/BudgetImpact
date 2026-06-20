@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T07:47:52.368Z",
+  "lastUpdated": "2026-06-20T10:27:03.559Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -5456,35 +5456,119 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "KPMG reveals detailed CGT implementation funding breakdown",
+      "description": "KPMG Budget Analysis confirms $47.5 million over four years from 2026-27 plus $3.9 million per year ongoing to Treasury and ATO for CGT reform rollout. This is more specific than generic 'implementation funding' coverage.",
+      "suggestion": "Add to budget-updates.json: Budget allocates $47.5 million over four years from 2026-27 (and $3.9 million per year ongoing) to Treasury and ATO for CGT reform implementation, per KPMG Budget Analysis.",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260620-616",
+      "timestamp": "2026-06-20T10:26:50.851Z",
+      "status": "pending",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-28/labor-cgt-challenge-deepens-as-biotech-sector-raises-alarm/106729796"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases practical guidance for CGT indexation calculations",
+      "description": "The ATO has released practical guidance to help investors and tax professionals prepare for July 2027 CGT indexation reforms. Multiple references in news items mention this guidance but no specific URL or detail is provided.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027 reforms to help investors and tax professionals prepare.",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260620-618",
+      "timestamp": "2026-06-20T10:26:50.851Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Stockspot CGT Calculator explains inflation indexation mechanism",
+      "description": "A consumer-facing explainer on how the new inflation-based indexation works compared to the current 50% discount. Clarifies the mechanism in accessible terms with a working calculator tool.",
+      "suggestion": "Add to budget-updates.json: Stockspot CGT Calculator provides detailed explanation of how inflation indexation replaces the 50% CGT discount under proposed Budget 2026 rules.",
+      "source": "https://www.stockspot.com.au/cgt-calculator/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260620-915",
+      "timestamp": "2026-06-20T10:26:50.851Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "$2B infrastructure initiative housing delivery: 65,000 vs alternative estimates",
+      "description": "The API Magazine/REIA source cites the government's claim that the $2B infrastructure initiative is expected to enable around 65,000 additional homes. However, some analyses suggest significantly lower delivery numbers (~30,000), raising questions about whether the government's projection is realistic or politically inflated.",
+      "suggestion": "Add to debates.json: Official government projections (via API Magazine/REIA) claim the $2B infrastructure initiative will deliver 65,000 additional homes, while alternative analyses estimate significantly fewer homes may be delivered (potentially around 30,000)",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260620-891",
+      "timestamp": "2026-06-20T10:26:50.851Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Property market impact: Brief correction vs prolonged slump",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] NAB's revised forecast projects the budget tax reforms will cause only a brief correction rather than a prolonged housing market slump. However, industry warnings suggest more severe and prolonged impacts are possible. This represents a factual disagreement about market trajectory based on different analytical methodologies.",
+      "suggestion": "Add to debates.json: NAB revised forecast predicts brief correction not prolonged slump following negative gearing and CGT changes, while industry groups warn of more severe prolonged market impacts",
+      "source": "https://www.bdo.com.au/en-au/insights/real-estate-construction/what-the-2026-federal-budget-means-for-housing-construction-and-investment-into-the-sector",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260620-742",
+      "timestamp": "2026-06-20T10:26:50.851Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Budget housing measures cost 'exactly $6.4 billion' over four years",
+      "description": "Multiple sources cite $6.4 billion for housing measures, but this figure appears in news analysis (ABC) rather than official budget documentation. The budget.gov.au sources provided do not explicitly confirm this exact figure. Need to verify if this represents the total package cost, specific allocation, or a rounded approximation.",
+      "suggestion": "Add to fact-checks.json: claim is 'Budget housing measures cost $6.4 billion over four years', verdict is unclear because while multiple news sources cite this figure, official budget documentation does not explicitly confirm this exact amount in the search results reviewed.",
+      "source": "https://www.abc.net.au/news/2026-05-13/federal-budget-2026-housing-measures-cost-6-billion",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260620-265",
+      "timestamp": "2026-06-20T10:26:50.851Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Budget allocates $47.5 million for CGT implementation to Treasury and ATO",
+      "description": "KPMG confirms this specific figure: '$47.5 million over four years from 2026–27 (and $3.9 million per year ongoing) to the Treasury and the ATO' for CGT reform implementation. This is a specific, verifiable dollar amount with a clear institutional recipient. However, media reports sometimes phrase this vaguely as 'CGT implementation' without the institutional details.",
+      "suggestion": "Add to fact-checks.json: claim is 'Budget allocates $47.5 million for CGT implementation', verdict is verified because KPMG's detailed budget analysis confirms this specific figure with institutional breakdown (Treasury and ATO).",
+      "source": "https://kpmg.com/au/en/home/insights/2026/05/australian-federal-budget-2026-2027.html",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260620-247",
+      "timestamp": "2026-06-20T10:26:50.851Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260620-551",
+      "timestamp": "2026-06-20T10:26:50.851Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "id": "suggestion-20260620-950",
+      "timestamp": "2026-06-20T10:26:50.851Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO releases Division 296 draft legislation with CGT relief provisions for SMSFs",
-      "description": "The ATO has released draft legislation for Division 296 (Better Targeted Super Concessions) with indexed thresholds and CGT relief provisions. The legislation confirms the $3m threshold applies from 1 July 2026, with 15% tax on earnings relating to total superannuation balance exceeding this threshold.",
-      "suggestion": "Add to budget-updates.json: ATO releases Division 296 draft legislation with CGT relief provisions",
-      "source": "https://www.heffron.com.au/news/division-296-tax-draft-legislation-released",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260613-172",
-      "timestamp": "2026-06-13T06:08:47.780Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-13T07:41:36.725Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The ATO has released practical guidance for calculating capital gains tax under the new inflation indexation rules that will apply from 1 July 2027. The guidance explains how to calculate capital gains using cost base indexation, similar to the method used between 1985 and 1999.",
-      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations",
-      "source": "https://www.perpetual.com.au/insights/federal-budget-2026/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260613-209",
-      "timestamp": "2026-06-13T06:08:47.780Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-13T07:42:01.725Z"
-    },
     {
       "type": "content_update",
       "priority": "high",
@@ -6717,49 +6801,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
-      "description": "This claim oversimplifies the Division 296 tax mechanism. The ATO source states the 15% tax applies to 'the proportion of earnings relating to your TSB that exceeds the LSBT' (the $3m threshold), not the entire balance over $3m. This is a meaningful distinction—for example, a $4m balance wouldn't pay 15% on $1m, but rather 15% on the earnings attributable to the portion exceeding $3m. The tax is on earnings, not on the excess balance itself.",
-      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because Division 296 applies 15% tax on the earnings attributable to the excess balance, not a flat 15% on the entire amount exceeding $3m. The ATO describes it as '15% on the proportion of earnings relating to your TSB that exceeds the LSBT'.",
-      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260613-376",
-      "timestamp": "2026-06-13T06:08:47.780Z",
-      "status": "skipped",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-13T07:41:25.339Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for different investor types",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ASX analysis reveals the 2026 CGT reforms create a 'two-speed' tax treatment for investors. A retired investor on a 16% marginal rate currently faces 8% tax on nominal gains under the 50% discount, but will face 30% on indexed gains under the new minimum 30% floor — a 22 percentage point effective tax rate increase.",
-      "suggestion": "Add to budget-updates.json: ASX analysis details 'two-speed' CGT treatment for different investor types",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260613-576",
-      "timestamp": "2026-06-13T06:08:47.780Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-13T07:42:14.529Z"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Is immigration or negative gearing the primary driver of Australia's housing crisis?",
-      "description": "The Coalition has pledged to drastically cut immigration and tie intake to new housing builds as their primary housing affordability response. However, the budget's tax reforms and other sources suggest negative gearing and CGT arrangements are the key drivers. This represents a genuine factual dispute about causation rather than opinion.",
-      "suggestion": "Add to debates.json: view_a from Coalition/Taylor (theguardian.com) says immigration 'will need to be significantly below' current levels and tied to housing builds, view_b from Budget measures/LSJ (lsj.com.au) says negative gearing is 'the key reason for the housing affordability and rental crisis'",
-      "source": "https://www.theguardian.com/australia-news/live/2026/may/14/budget-reply-angus-taylor-anthony-albanese-jim-chalmers-tax-reform-property-investment-negative-gearing-capital-gains-housing-ntwnfb",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260525-557",
-      "timestamp": "2026-05-25T16:16:58.595Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-13T07:42:19.982Z"
-    },
     {
       "type": "content_update",
       "priority": "medium",

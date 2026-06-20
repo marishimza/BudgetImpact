@@ -5755,6 +5755,73 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-13T07:42:19.982Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Trust tax treatment reform confirmed as core component of Budget 2026 asset taxation shift",
+      "description": "The Government has confirmed trust tax treatment reform as part of its broader strategy to shift taxation from income to assets. The reform targets discretionary trust distributions that currently allow income to be taxed at lower rates than individual earnings.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform confirmed as core component of Budget 2026 asset taxation shift — Government signals plan to address trust-based income splitting and shift burden from income to assets",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260613-594",
+      "timestamp": "2026-06-13T10:22:14.641Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-08/trust-reform-complicated-and-may-not-raise-much-money/106654470",
+      "implemented_at": "2026-06-13T11:51:41.605Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes",
+      "description": "The ATO has confirmed that pre-1985 share holdings will receive a valuation reset as part of the CGT reform package. This addresses how historic share holdings will be treated under the new inflation-indexed cost base rules.",
+      "suggestion": "Add to budget-updates.json: ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes — practical guidance released ahead of reform implementation",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260613-106",
+      "timestamp": "2026-06-13T10:22:14.641Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-13T11:52:10.606Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 super tax applies a 15% tax on all super balances over $3m'",
+      "description": "Multiple sources simplify Division 296 as a '15% tax on all super balances over $3m'. However, ATO confirms the tax applies to EARNINGS proportionately above the $3m threshold (total superannuation balance threshold), not the entire balance. The '15% on all amounts over $3m' phrasing misrepresents how the tax is calculated.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is 'partially_true' because Division 296 applies 15% tax on the EARNINGS attributable to the portion of TSB exceeding $3m (not the entire balance over $3m).",
+      "source": "https://www.ato.gov.au/about-business-tax-and-registers/super/businesses/self-managed-super-funds/smsf-technical/smsf-newsletter/better-targeted-super-concessions/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260525-800",
+      "timestamp": "2026-05-25T16:16:58.595Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-13T11:52:29.917Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Do negative gearing and CGT arrangements increase or decrease rental supply?",
+      "description": "This is a genuine factual conflict between peak bodies and community groups about whether negative gearing and CGT arrangements actually increase rental supply. ACOSS claims they 'added little to rental supply', while REIA and Property Council warn restricting these arrangements 'could reduce rental supply over time'. This directly affects the policy justification for the budget reforms.",
+      "suggestion": "Add to debates.json: View_a from ACOSS (via The Guardian, May 2026) says negative gearing and CGT 'added little to rental supply'. View_b from REIA and Property Council of Australia (via Slate & Sage) express concern that reducing attractiveness of residential property investment 'could reduce rental supply over time'.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/22/australia-negative-gearing-capital-gains-tax-housing-community-groups-urge-mps",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260526-847",
+      "timestamp": "2026-05-26T06:00:16.769Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-13T11:52:46.507Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: Retirement investor faces 22 percentage point CGT tax increase under reform package",
+      "description": "Analysis quantifies the impact on a retired investor on a 16% marginal tax rate who currently faces only 8% tax on nominal capital gains. Under the new indexed CGT rules with 30% minimum floor, the same investor would face 30% on indexed gains — a 22 percentage point increase.",
+      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT reform impact on retirement investors — retired investor on 16% marginal rate faces effective rate increase from 8% to 30% on long-held equity gains under new indexation-based rules",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260613-406",
+      "timestamp": "2026-06-13T10:22:14.641Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-13T11:51:47.323Z"
     }
   ]
 }

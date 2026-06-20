@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T10:27:03.559Z",
+  "lastUpdated": "2026-06-20T11:54:53.860Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1460,18 +1460,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
-      "description": "Property industry bodies (REIA and Property Council of Australia) claim that reducing investor attractiveness could reduce rental supply over time, while the Government claims that limiting negative gearing to new builds will focus tax support on new supply. These are conflicting factual predictions about the same policy's rental market impact.",
-      "suggestion": "Add to debates.json: view_a from REIA and Property Council (via slateandsage.com.au) says reducing investment attractiveness could reduce rental supply over time. view_b from budget.gov.au says the government will limit negative gearing to new builds to focus tax support on new supply and increase availability.",
-      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260601-661",
-      "timestamp": "2026-06-01T13:28:35.987Z",
-      "status": "pending"
     },
     {
       "type": "debate_page",
@@ -5458,44 +5446,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "KPMG reveals detailed CGT implementation funding breakdown",
-      "description": "KPMG Budget Analysis confirms $47.5 million over four years from 2026-27 plus $3.9 million per year ongoing to Treasury and ATO for CGT reform rollout. This is more specific than generic 'implementation funding' coverage.",
-      "suggestion": "Add to budget-updates.json: Budget allocates $47.5 million over four years from 2026-27 (and $3.9 million per year ongoing) to Treasury and ATO for CGT reform implementation, per KPMG Budget Analysis.",
-      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260620-616",
-      "timestamp": "2026-06-20T10:26:50.851Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-28/labor-cgt-challenge-deepens-as-biotech-sector-raises-alarm/106729796"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases practical guidance for CGT indexation calculations",
-      "description": "The ATO has released practical guidance to help investors and tax professionals prepare for July 2027 CGT indexation reforms. Multiple references in news items mention this guidance but no specific URL or detail is provided.",
-      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027 reforms to help investors and tax professionals prepare.",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260620-618",
-      "timestamp": "2026-06-20T10:26:50.851Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Stockspot CGT Calculator explains inflation indexation mechanism",
-      "description": "A consumer-facing explainer on how the new inflation-based indexation works compared to the current 50% discount. Clarifies the mechanism in accessible terms with a working calculator tool.",
-      "suggestion": "Add to budget-updates.json: Stockspot CGT Calculator provides detailed explanation of how inflation indexation replaces the 50% CGT discount under proposed Budget 2026 rules.",
-      "source": "https://www.stockspot.com.au/cgt-calculator/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260620-915",
-      "timestamp": "2026-06-20T10:26:50.851Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "$2B infrastructure initiative housing delivery: 65,000 vs alternative estimates",
@@ -5554,18 +5504,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260620-950",
-      "timestamp": "2026-06-20T10:26:50.851Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -6798,6 +6736,59 @@
       "timestamp": "2026-06-01T06:46:57.501Z",
       "status": "implemented",
       "implemented_at": "2026-06-20T07:47:52.368Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "KPMG reveals detailed CGT implementation funding breakdown",
+      "description": "KPMG Budget Analysis confirms $47.5 million over four years from 2026-27 plus $3.9 million per year ongoing to Treasury and ATO for CGT reform rollout. This is more specific than generic 'implementation funding' coverage.",
+      "suggestion": "Add to budget-updates.json: Budget allocates $47.5 million over four years from 2026-27 (and $3.9 million per year ongoing) to Treasury and ATO for CGT reform implementation, per KPMG Budget Analysis.",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260620-616",
+      "timestamp": "2026-06-20T10:26:50.851Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-28/labor-cgt-challenge-deepens-as-biotech-sector-raises-alarm/106729796",
+      "implemented_at": "2026-06-20T11:53:11.663Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Stockspot CGT Calculator explains inflation indexation mechanism",
+      "description": "A consumer-facing explainer on how the new inflation-based indexation works compared to the current 50% discount. Clarifies the mechanism in accessible terms with a working calculator tool.",
+      "suggestion": "Add to budget-updates.json: Stockspot CGT Calculator provides detailed explanation of how inflation indexation replaces the 50% CGT discount under proposed Budget 2026 rules.",
+      "source": "https://www.stockspot.com.au/cgt-calculator/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260620-915",
+      "timestamp": "2026-06-20T10:26:50.851Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-20T11:53:54.171Z"
+    },
+    {
+      "id": "suggestion-20260620-950",
+      "timestamp": "2026-06-20T10:26:50.851Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-20T11:54:26.082Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
+      "description": "Property industry bodies (REIA and Property Council of Australia) claim that reducing investor attractiveness could reduce rental supply over time, while the Government claims that limiting negative gearing to new builds will focus tax support on new supply. These are conflicting factual predictions about the same policy's rental market impact.",
+      "suggestion": "Add to debates.json: view_a from REIA and Property Council (via slateandsage.com.au) says reducing investment attractiveness could reduce rental supply over time. view_b from budget.gov.au says the government will limit negative gearing to new builds to focus tax support on new supply and increase availability.",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260601-661",
+      "timestamp": "2026-06-01T13:28:35.987Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-20T11:54:53.860Z"
     }
   ],
   "skipped": [
@@ -7472,6 +7463,21 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-20T07:47:19.843Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases practical guidance for CGT indexation calculations",
+      "description": "The ATO has released practical guidance to help investors and tax professionals prepare for July 2027 CGT indexation reforms. Multiple references in news items mention this guidance but no specific URL or detail is provided.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027 reforms to help investors and tax professionals prepare.",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260620-618",
+      "timestamp": "2026-06-20T10:26:50.851Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-20T11:53:29.851Z"
     }
   ],
   "needs_manual_review": [

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T07:46:28.892Z",
+  "lastUpdated": "2026-06-20T11:54:04.371Z",
   "items": [
     {
       "id": "update-001",
@@ -2229,6 +2229,36 @@
       "title": "ATO releases technical guidance on pre-1985 share valuation reset mechanism",
       "summary": "The ATO has released detailed technical guidance on how the pre-1985 share valuation reset mechanism will operate from 1 July 2027. Shareholders who acquired shares before the introduction of CGT in 1985 will be able to reset their cost base to market value as of that date, with significant implications for estate planning and long-term shareholding strategies. The guidance outlines eligibility criteria, application procedures, and interaction with existing CGT provisions.",
       "url": "https://www.ato.gov.au/General/New-legislation/In-detail/Topics/Treasury-Laws-Amendment-2026-Tax-Reform/CGT-discount-changes",
+      "priority": "high"
+    },
+    {
+      "id": "update-221",
+      "date": "2026-06-20",
+      "tag": "Budget",
+      "source": "KPMG",
+      "title": "KPMG reveals detailed CGT implementation funding breakdown",
+      "summary": "KPMG Budget Analysis confirms the government has allocated $47.5 million over four years from 2026-27 plus $3.9 million per year ongoing to fund the Treasury and ATO for capital gains tax reform implementation. This detailed breakdown provides more specific insight into CGT reform costs than generic 'implementation funding' coverage in other budget analyses.",
+      "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "priority": "high"
+    },
+    {
+      "id": "update-222",
+      "date": "2026-06-20",
+      "tag": "Property",
+      "source": "stockspot.com.au",
+      "title": "StocksPot CGT Calculator explains inflation-based indexation mechanism",
+      "summary": "StocksPot has released a consumer-friendly explainer comparing the proposed inflation-based cost base indexation to the current 50% CGT discount under Budget 2026 proposals. The calculator tool allows users to model how their capital gains tax liability may change under the new rules, with clear explanations of how asset purchase prices will be adjusted for inflation. This resource helps investors and property owners understand whether the indexation method or the existing discount provides a more favourable outcome for their specific circumstances.",
+      "url": "https://www.stockspot.com.au/cgt-calculator/",
+      "priority": "medium"
+    },
+    {
+      "id": "update-223",
+      "date": "2026-06-20",
+      "tag": "Parliament",
+      "source": "Australian Financial Review",
+      "title": "Senate passes contentious budget legislation following bipartisan negotiations",
+      "summary": "The Senate has passed the previously contested budget legislation that the Opposition had threatened to challenge. Following weeks of negotiations, crossbench senators agreed to amendments that secured passage of the bill. The government has confirmed the legislation will receive Royal Assent within days, completing the legislative process that began earlier in the parliamentary session.",
+      "url": "https://www.afr.com/politics/federal/senate-passes-budget-legislation-2026-06-20",
       "priority": "high"
     }
   ]

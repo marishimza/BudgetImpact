@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T22:51:46.131Z",
+  "lastUpdated": "2026-06-20T11:54:53.857Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1829,6 +1829,29 @@
         "argument": "The Coalition will seek to defeat the changes and repeal these measures entirely if elected, preserving the existing 50% CGT discount without any indexation choice. The opposition has stated they will reverse any CGT discount modifications through legislative action if necessary.",
         "sources": [
           "https://www.abc.net.au/news/2026-05-13/coalition-vows-to-repeal-budget-2026-tax-changes"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-077",
+      "slug": "restricting-negative-gearing-new-builds-rental-supply",
+      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "Property industry bodies (REIA and Property Council of Australia) claim that reducing investor attractiveness could reduce rental supply over time, while the Government claims that limiting negative gearing to new builds will focus tax support on new supply and increase availability. These are conflicting factual predictions about the same policy's rental market impact.",
+      "view_a": {
+        "label": "Industry bodies warn of reduced rental supply",
+        "argument": "Property industry bodies including the Real Estate Institute of Australia (REIA) and Property Council of Australia claim that reducing the attractiveness of property investment through limiting negative gearing could reduce rental supply over time. They argue that investor confidence would be negatively impacted, leading to fewer rental properties entering the market.",
+        "sources": [
+          "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades"
+        ]
+      },
+      "view_b": {
+        "label": "Government expects increased rental supply",
+        "argument": "The Government claims that limiting negative gearing to new builds will focus tax support on new supply and increase rental availability. By directing negative gearing benefits exclusively toward new construction, the policy is designed to incentivise developers to build more rental properties, thereby expanding the overall rental stock.",
+        "sources": [
+          "https://budget.gov.au/2026-27/content/overview.htm"
         ]
       },
       "verdict": null

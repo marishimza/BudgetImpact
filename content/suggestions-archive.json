@@ -6101,6 +6101,75 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-14T11:52:35.584Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The ATO has released practical guidance to help taxpayers calculate capital gains under the new indexation-based rules that take effect from 1 July 2027. The guidance comes as the tax office prepares for significant changes to CGT calculations under the reformed system.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027 — guidance explains cost base adjustment methodology under new rules",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260614-679",
+      "timestamp": "2026-06-14T15:43:22.155Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implemented_at": "2026-06-14T17:15:56.237Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the 2026 negative gearing and CGT reforms cause a prolonged property price slump or a brief correction?",
+      "description": "Economists are split on the housing market impact. The Guardian reports economists believe 'home values are set for their first national slump since 2022' due to CGT changes and negative gearing restrictions. However, NAB revised forecasts project a 'brief correction not prolonged slump' based on Australia's persistent housing shortage. This is a factual conflict about economic projections with significant implications for investors and homebuyers.",
+      "suggestion": "Add to debates.json: The Guardian (May 21) reports economists forecast the first national housing slump since 2022, noting 'Fear is expected to weigh on property prices' and sentiment is weighed down by rising interest rates. NAB revises housing forecast to 'brief correction not prolonged slump' citing Australia's persistent housing shortage as meaning 'any fall would be short term.'",
+      "source": "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260527-637",
+      "timestamp": "2026-05-27T11:30:46.058Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-14T17:16:36.955Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will restricting negative gearing to new builds increase or decrease rental supply?",
+      "description": "Property industry bodies and government analysts make conflicting factual claims about rental supply impacts. The REIA and Property Council warn these changes could 'reduce rental supply over time' by making residential property investment less attractive. However, official government analysis from the Budget documents and CommBank indicate the policy is designed to redirect investment from existing housing stock to new supply, which may maintain or increase rental supply through new construction. This is a factual conflict about the causal mechanism and outcomes.",
+      "suggestion": "Add to debates.json: REIA and Property Council say 'reducing the attractiveness of residential property investment could reduce rental supply over time.' CommBank analysis states the policy 'is designed to reduce investor demand for existing housing stock while preserving tax support for investment in new supply' to support new housing construction.",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260527-686",
+      "timestamp": "2026-05-27T11:30:46.058Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-14T17:16:50.756Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Budget confirms inflation-indexed CGT discount from July 2027 — minimum 30% tax on gains",
+      "description": "The official budget.gov.au tax reform page confirms the Government will replace the 50% CGT discount with an inflation-based discount and introduce a minimum 30% tax on capital gains from 1 July 2027. This marks a fundamental shift in how investment gains are taxed in Australia.",
+      "suggestion": "Add to budget-updates.json: Budget confirms minimum 30% tax on capital gains from July 2027 — 50% CGT discount replaced by inflation-based discount per official budget.gov.au page",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260614-331",
+      "timestamp": "2026-06-14T15:43:22.155Z",
+      "status": "skipped",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-14T17:16:04.995Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will 2026 budget tax reforms cause a prolonged housing market slump or a brief correction?",
+      "description": "Different credible sources provide conflicting forecasts on the short-term property price impact of negative gearing and CGT changes. The Guardian cites economists predicting 'the first national slump since 2022', while NAB's revised forecast projects a 'brief correction not slump'. These represent competing economic predictions based on different analytical assumptions.",
+      "suggestion": "Add to debates.json: The Guardian from [theguardian.com] cites economists predicting 'home values are set for their first national slump since 2022'; NAB from budget analysis projects 'brief correction not slump'; Guardian also notes 'persistent housing shortage means any fall would be short term'",
+      "source": "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260526-406",
+      "timestamp": "2026-05-26T21:28:40.512Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-14T17:16:08.675Z"
     }
   ]
 }

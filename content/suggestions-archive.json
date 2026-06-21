@@ -6030,6 +6030,77 @@
       "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-14T08:11:26.482Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The main housing reform bill containing negative gearing and CGT changes has been formally lodged with Parliament. The bill will need to pass both houses, with the Coalition signaling opposition and potential Senate challenge.",
+      "suggestion": "Add parliamentary tracking: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged — Coalition signals Senate challenge, legislation not yet passed into law",
+      "source": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260614-159",
+      "timestamp": "2026-06-14T10:44:57.998Z",
+      "status": "implemented",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
+      "implemented_at": "2026-06-14T11:51:48.664Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Division 296 Better Targeted Super Concessions legislation confirmed as enacted law — commences 1 July 2026",
+      "description": "ATO officially confirms that Division 296 (Better Targeted Super Concessions) is law. From 1 July 2026, individuals with total superannuation balance exceeding $3 million will be subject to 15% tax on earnings relating to the portion above the threshold. Draft legislation includes CGT relief provisions for SMSFs.",
+      "suggestion": "Add confirmed legislation status: ATO confirms Division 296 is enacted law — 15% tax on super earnings above $3m threshold applies from 1 July 2026 per enacted legislation, not pending",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260614-593",
+      "timestamp": "2026-06-14T10:44:57.998Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-06-14T11:52:21.904Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "The word 'minimum' implies a floor rate that could be higher for some taxpayers, but the actual policy appears to set a flat 30% rate on indexed gains. The distinction between 'minimum' and 'flat' is significant and commonly misreported.",
+      "suggestion": "Add to fact-checks.json: The claim uses 'minimum 30%' language, but sources describe this as a new tax rate, not a floor. The 30% applies to indexed gains; nominal gains below inflation may effectively face different treatment. Verdict: partially_true because the 'minimum' framing implies flexibility that may not exist.",
+      "source": "https://budget.gov.au, https://www.asx.com.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260614-249",
+      "timestamp": "2026-06-14T10:44:57.998Z",
+      "status": "skipped",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-14T11:51:30.297Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Trust tax treatment reform confirmed as core component of Budget 2026 asset taxation shift",
+      "description": "Budget confirms trust tax treatment reform as part of broader shift from income to asset taxation. The Guardian analysis confirms Government plan to rebalance system away from taxing incomes towards taxing assets. This is a separate reform from CGT changes affecting how trusts are taxed on distributions.",
+      "suggestion": "Add confirmed trust tax treatment reform: Government confirms separate reform to shift tax burden from income to assets, targeting trust structures alongside CGT changes",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260614-425",
+      "timestamp": "2026-06-14T10:44:57.998Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-14T11:51:36.447Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a minimum 30% tax rate on ALL gains' from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Several sources state capital gains will face a minimum 30% tax on ALL gains from July 2027. However, budget.gov.au and ABC News specify this applies to 'real capital gains' (gains above inflation). The minimum floor may only apply after indexation adjustments, meaning nominal gains fully explained by inflation could face different treatment. The 'ALL gains' framing could be misleading.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax on ALL capital gains', verdict is partially_true because the minimum floor applies to real capital gains (above inflation), and nominal gains attributable to inflation may be treated differently depending on indexation calculations.",
+      "source": "https://www.budget.gov.au/overview/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260526-795",
+      "timestamp": "2026-05-26T17:20:54.105Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-14T11:52:35.584Z"
     }
   ]
 }

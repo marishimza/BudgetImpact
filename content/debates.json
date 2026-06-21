@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T08:25:31.025Z",
+  "lastUpdated": "2026-06-21T17:25:20.839Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1946,6 +1946,71 @@
         "argument": "Budget documents indicate the reform replaces the CGT discount with inflation indexation, creating a floor based on CPI rather than a flat 30% minimum. Under this mechanism, gains below the inflation threshold could face effective rates below 30%, while gains above inflation would be measured against the indexed floor.",
         "sources": [
           "Budget documents showing indexation replacement for CGT discount"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-082",
+      "slug": "will-limiting-negative-gearing-to-new-builds-reduce-or-increase-rental-supply",
+      "title": "Will limiting negative gearing to new builds reduce or increase rental supply?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "Property industry bodies and the Government have opposing predictions about how limiting negative gearing to new builds will affect rental supply. Industry groups argue the policy could reduce rental supply by making property investment less attractive, while the Government contends the reform will boost housing availability by directing tax support toward new construction.",
+      "view_a": {
+        "label": "REIA and Property Council of Australia",
+        "argument": "Property industry bodies claim that restricting negative gearing could reduce rental supply over time by making property investment less attractive. This would discourage investors from entering the market or retaining existing properties.",
+        "sources": [
+          "https://www.propertycouncil.com.au/resources/submissions"
+        ]
+      },
+      "view_b": {
+        "label": "Government",
+        "argument": "The Government states the policy will limit negative gearing to new builds from 1 July 2027, to focus tax support on new supply and increase housing availability.",
+        "sources": [
+          "https://treasury.gov.au/featured-articles/2026-27-budget"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-083",
+      "slug": "cgt-minimum-30-floor-all-gains-or-above-inflation",
+      "title": "Does the CGT minimum 30% floor apply to all gains or only gains above inflation?",
+      "category": "taxation",
+      "type": "factual_dispute",
+      "summary": "The 2026 Budget introduces a minimum 30% tax rate on capital gains, but credible sources disagree on whether this floor applies to ALL capital gains or only to gains above inflation. This is a factual conflict about the mechanics of the policy with significant implications for investors.",
+      "view_a": {
+        "label": "Floor applies only when discount would result in less than 30%",
+        "argument": "The budget.gov.au fact sheets show examples where the 50% CGT discount still applies (e.g., property sold two years after policy commences), suggesting the minimum 30% floor only kicks in when the discount would otherwise result in an effective tax rate below 30%. Under this interpretation, gains are still subject to the discount, with the floor acting as a protective threshold rather than an all-encompassing levy.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Floor applies to all capital gains",
+        "argument": "Multiple analysis sources interpret the policy as imposing a 'minimum 30% tax on ALL gains', implying a blanket floor regardless of inflation or the existing discount mechanism. This interpretation suggests every capital gain faces at least 30% taxation, with the 50% discount potentially being overridden or restructured to ensure this floor is met across all scenarios.",
+        "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-084",
+      "slug": "will-the-2b-infrastructure-initiative-deliver-65-000-additional-homes",
+      "title": "Will the $2B infrastructure initiative deliver 65,000 additional homes?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "The Government claims its $2 billion infrastructure initiative will enable around 65,000 additional homes. This debate examines whether this target is realistic or adequately supported by independent analysis.",
+      "view_a": {
+        "label": "Government projection is a positive step",
+        "argument": "REIA President Jacob Caine states the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes' as a positive step towards addressing housing supply challenges.",
+        "sources": [
+          "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades"
+        ]
+      },
+      "view_b": {
+        "label": "Projection lacks independent verification",
+        "argument": "Skeptical analysis points out this is a government projection without independent modelling to verify the 65,000 figure is achievable, raising questions about the realism of the target.",
+        "sources": [
+          "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades"
         ]
       },
       "verdict": null

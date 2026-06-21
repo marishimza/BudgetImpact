@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T12:09:30.986Z",
+  "lastUpdated": "2026-06-21T17:23:40.119Z",
   "items": [
     {
       "id": "update-001",
@@ -2319,6 +2319,16 @@
       "title": "Parliamentary record confirms Liberal Senators voted against CGT committee endorsement on 17 March 2026",
       "summary": "Senate Economics Committee records confirm Liberal senators dissented from the parliamentary committee endorsement of CGT discount changes on 17 March 2026, while crossbench senators joined Labor and Greens in supporting the recommendation. This initial committee vote contrasts with the later Senate passage following cross-party negotiations on the Treasury Laws Amendment (More Housing, More Help) Bill 2026. The parliamentary record documents the evolving bipartisan support that ultimately led to the bill's passage.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Economics/CGTDiscountChanges2026/Report",
+      "priority": "high"
+    },
+    {
+      "id": "update-230",
+      "date": "2026-06-21",
+      "tag": "Property|Parliament",
+      "source": "Federal Register of Legislation",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 Receives Royal Assent",
+      "summary": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has received Royal Assent, formally enacting the government's housing reform package into law. The legislation introduces restrictions on negative gearing for existing properties and reforms to the capital gains tax (CGT) discount for property investors. The bill passed the Senate following earlier opposition challenges, with the formal assent recorded on the Federal Register of Legislation.",
+      "url": "https://www.legislation.gov.au/",
       "priority": "high"
     }
   ]

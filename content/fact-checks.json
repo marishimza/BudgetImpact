@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T08:25:46.104Z",
+  "lastUpdated": "2026-06-21T12:10:38.741Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1415,6 +1415,24 @@
       ],
       "date_checked": "2026-06-21",
       "category": "tax"
+    },
+    {
+      "id": "fc-074",
+      "slug": "housing-package-64-billion-total-cost",
+      "claim": "Budget housing measures cost $6.4 billion over four years",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The $6.4 billion figure is accurate for the entire housing package, but becomes misleading when used to describe only one component like negative gearing reform or CGT changes.",
+      "detailed_explanation": "Multiple sources correctly reference the $6.4 billion figure as the total cost of the housing package over four years. However, this figure represents the aggregate cost of the entire housing initiative, which includes multiple components: negative gearing reform, capital gains tax changes, housing infrastructure investment, and other measures. The figure is verified as accurate for the total package, but media or political statements that attribute this $6.4 billion cost to a single component (such as negative gearing changes alone) are misleading and represent a misuse of the data.",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-05-13/budget-winners-losers-housing-measures/2026-05-13",
+          "type": "news"
+        }
+      ],
+      "date_checked": "2026-06-21",
+      "category": "housing"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T11:00:34.306Z",
+  "lastUpdated": "2026-06-21T12:10:38.744Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1510,18 +1510,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains",
-      "description": "Many media sources and pending fact-checks describe this as a 'minimum 30% tax on ALL capital gains.' However, budget.gov.au and ABC News both specify the 30% minimum applies to 'real capital gains' (gains above inflation). The inflation-indexed cost base is subtracted before applying the minimum, meaning not all gains face this rate - only the inflationary component is effectively taxed at 0% via indexation. This oversimplification could mislead investors about their tax obligations.",
-      "suggestion": "Add to fact-checks.json: Claim is 'minimum 30% tax on ALL capital gains from July 2027' - verdict is PARTIALLY_TRUE/MISLEADING because while the 30% minimum rate does apply, the inflation indexation effectively results in 0% tax on inflationary gains before the minimum kicks in. The 30% applies to real (inflation-adjusted) gains, not the nominal gain. This distinction matters for tax planning.",
-      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-federal-budget-could-see-investment-shift-from-property-to-shares/2026-05-13",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260602-965",
-      "timestamp": "2026-06-02T06:29:20.489Z",
-      "status": "pending"
-    },
-    {
       "id": "suggestion-20260602-196",
       "timestamp": "2026-06-02T06:29:20.489Z",
       "status": "pending",
@@ -1542,30 +1530,6 @@
       "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
       "implementation_effort": "10_minutes",
       "id": "suggestion-20260602-181",
-      "timestamp": "2026-06-02T11:57:43.029Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will the $2B infrastructure initiative deliver 65,000 additional homes?",
-      "description": "The Government claims its $2 billion infrastructure initiative will enable approximately 65,000 additional homes to address Australia's housing shortage. However, real estate industry bodies (REIA and Property Council of Australia) have expressed concern that restricting negative gearing and CGT changes could reduce rental supply over time, creating a factual conflict about whether these measures will actually increase housing availability.",
-      "suggestion": "Add to debates.json: Government/budget.gov.au claims the $2B infrastructure initiative will enable ~65,000 additional homes to address housing shortage; REIA and Property Council of Australia express concern that reducing property investment attractiveness could reduce rental supply over time, questioning the net housing outcome.",
-      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260602-728",
-      "timestamp": "2026-06-02T11:57:43.029Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Budget housing measures cost $6.4 billion over four years'",
-      "description": "Multiple sources (ABC Budget analysis, KPMG) reference 'exactly $6.4 billion over four years' for housing measures. However, this appears to be the headline cost for the entire housing package, which includes multiple components (negative gearing changes, CGT reform, infrastructure, etc.). The claim could be misleading if used to describe only the negative gearing or CGT changes specifically, vs. the total package. Need to verify what exactly is included in this $6.4B figure and whether media uses it precisely or loosely.",
-      "suggestion": "Add to fact-checks.json: claim is 'housing package costs $6.4B over 4 years', verdict is verified as the total package cost, but note this covers the entire housing initiative (negative gearing reform, CGT changes, infrastructure). Misuse occurs when this figure is attributed to a single component.",
-      "source": "https://www.abc.net.au/news/2026-05-13/budget-winners-losers-housing-measures/2026-05-13",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260602-267",
       "timestamp": "2026-06-02T11:57:43.029Z",
       "status": "pending"
     },
@@ -5544,36 +5508,12 @@
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "Coalition signals potential reversal of grandfathered CGT arrangements under repeal scenario",
-      "description": "[UNVERIFIED — could not find corroborating source] Coalition has indicated any repeal legislation would target the full package, raising questions about whether grandfathered arrangements protecting existing property investors would be preserved or reversed. Industry bodies including the Property Council have flagged concerns about retrospective changes to settled tax positions.",
-      "suggestion": "Coalition signals any repeal legislation would target the full Budget 2026 housing package — raising questions about whether grandfathered protections for existing property investors would be maintained or reversed. Industry bodies warn retrospective changes would undermine investor confidence.",
-      "source": "https://www.abc.net.au/news/2026-05-15/federal-budget-2026-coalition-housing-reform-repeal-pledge",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260621-292",
-      "timestamp": "2026-06-21T11:00:29.480Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
       "title": "ATO releases technical guidance distinguishing cost base indexation from CGT discount for pre-1985 assets",
       "description": "ATO guidance confirms for pre-1985 assets acquired after 1 July 2027, cost base indexation methodology applies. Technical guidance clarifies how inflation-adjusted cost basis replaces the 50% discount mechanism for assets without existing CGT treatment.",
       "suggestion": "ATO technical guidance confirms pre-1985 share valuation reset applies cost base indexation methodology from 1 July 2027 — effectively replacing 50% discount with inflation-adjusted cost basis for affected assets without existing CGT treatment.",
       "source": "https://www.ato.gov.au/forms-and-guides/pg/cgt-indexation-calculator/personal-tax-and-super/cgt-indexation-calculator",
       "implementation_effort": "20_minutes",
       "id": "suggestion-20260621-374",
-      "timestamp": "2026-06-21T11:00:29.480Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Parliamentary record confirms Liberal Senators voted against CGT committee endorsement on 17 March 2026",
-      "description": "Senate selection committee records confirm Liberal senators dissented from the parliamentary committee endorsement of CGT discount changes, while crossbench senators joined Labor and Greens in supporting the recommendation. This contrasts with later Senate passage following bipartisan negotiations.",
-      "suggestion": "Parliamentary records confirm Liberal senators voted against parliamentary committee endorsement of CGT discount changes on 17 March 2026 — contrasting with later Senate passage following cross-party negotiations on the Treasury Laws Amendment (More Housing, More Help) Bill 2026.",
-      "source": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Economics/CGTDiscountChanges2026/Report",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260621-203",
       "timestamp": "2026-06-21T11:00:29.480Z",
       "status": "pending"
     },
@@ -6910,6 +6850,45 @@
       "timestamp": "2026-06-02T06:29:20.489Z",
       "status": "implemented",
       "implemented_at": "2026-06-21T08:26:05.667Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Coalition signals potential reversal of grandfathered CGT arrangements under repeal scenario",
+      "description": "[UNVERIFIED — could not find corroborating source] Coalition has indicated any repeal legislation would target the full package, raising questions about whether grandfathered arrangements protecting existing property investors would be preserved or reversed. Industry bodies including the Property Council have flagged concerns about retrospective changes to settled tax positions.",
+      "suggestion": "Coalition signals any repeal legislation would target the full Budget 2026 housing package — raising questions about whether grandfathered protections for existing property investors would be maintained or reversed. Industry bodies warn retrospective changes would undermine investor confidence.",
+      "source": "https://www.abc.net.au/news/2026-05-15/federal-budget-2026-coalition-housing-reform-repeal-pledge",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260621-292",
+      "timestamp": "2026-06-21T11:00:29.480Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-21T12:09:06.399Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Parliamentary record confirms Liberal Senators voted against CGT committee endorsement on 17 March 2026",
+      "description": "Senate selection committee records confirm Liberal senators dissented from the parliamentary committee endorsement of CGT discount changes, while crossbench senators joined Labor and Greens in supporting the recommendation. This contrasts with later Senate passage following bipartisan negotiations.",
+      "suggestion": "Parliamentary records confirm Liberal senators voted against parliamentary committee endorsement of CGT discount changes on 17 March 2026 — contrasting with later Senate passage following cross-party negotiations on the Treasury Laws Amendment (More Housing, More Help) Bill 2026.",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Economics/CGTDiscountChanges2026/Report",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260621-203",
+      "timestamp": "2026-06-21T11:00:29.480Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-21T12:09:30.990Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Budget housing measures cost $6.4 billion over four years'",
+      "description": "Multiple sources (ABC Budget analysis, KPMG) reference 'exactly $6.4 billion over four years' for housing measures. However, this appears to be the headline cost for the entire housing package, which includes multiple components (negative gearing changes, CGT reform, infrastructure, etc.). The claim could be misleading if used to describe only the negative gearing or CGT changes specifically, vs. the total package. Need to verify what exactly is included in this $6.4B figure and whether media uses it precisely or loosely.",
+      "suggestion": "Add to fact-checks.json: claim is 'housing package costs $6.4B over 4 years', verdict is verified as the total package cost, but note this covers the entire housing initiative (negative gearing reform, CGT changes, infrastructure). Misuse occurs when this figure is attributed to a single component.",
+      "source": "https://www.abc.net.au/news/2026-05-13/budget-winners-losers-housing-measures/2026-05-13",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260602-267",
+      "timestamp": "2026-06-02T11:57:43.029Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-21T12:10:38.743Z"
     }
   ],
   "skipped": [
@@ -7510,6 +7489,34 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-20T17:20:34.042Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains",
+      "description": "Many media sources and pending fact-checks describe this as a 'minimum 30% tax on ALL capital gains.' However, budget.gov.au and ABC News both specify the 30% minimum applies to 'real capital gains' (gains above inflation). The inflation-indexed cost base is subtracted before applying the minimum, meaning not all gains face this rate - only the inflationary component is effectively taxed at 0% via indexation. This oversimplification could mislead investors about their tax obligations.",
+      "suggestion": "Add to fact-checks.json: Claim is 'minimum 30% tax on ALL capital gains from July 2027' - verdict is PARTIALLY_TRUE/MISLEADING because while the 30% minimum rate does apply, the inflation indexation effectively results in 0% tax on inflationary gains before the minimum kicks in. The 30% applies to real (inflation-adjusted) gains, not the nominal gain. This distinction matters for tax planning.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-federal-budget-could-see-investment-shift-from-property-to-shares/2026-05-13",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260602-965",
+      "timestamp": "2026-06-02T06:29:20.489Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-21T12:09:54.640Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative deliver 65,000 additional homes?",
+      "description": "The Government claims its $2 billion infrastructure initiative will enable approximately 65,000 additional homes to address Australia's housing shortage. However, real estate industry bodies (REIA and Property Council of Australia) have expressed concern that restricting negative gearing and CGT changes could reduce rental supply over time, creating a factual conflict about whether these measures will actually increase housing availability.",
+      "suggestion": "Add to debates.json: Government/budget.gov.au claims the $2B infrastructure initiative will enable ~65,000 additional homes to address housing shortage; REIA and Property Council of Australia express concern that reducing property investment attractiveness could reduce rental supply over time, questioning the net housing outcome.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260602-728",
+      "timestamp": "2026-06-02T11:57:43.029Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-21T12:10:11.857Z"
     }
   ],
   "needs_manual_review": [

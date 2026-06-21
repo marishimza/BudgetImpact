@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T08:23:41.380Z",
+  "lastUpdated": "2026-06-21T12:09:30.986Z",
   "items": [
     {
       "id": "update-001",
@@ -2300,6 +2300,26 @@
       "summary": "KPMG analysis confirms $47.5 million over four years plus $3.9 million ongoing funding for Treasury and ATO to implement CGT and negative gearing reforms. The breakdown shows resource allocation between agencies for the implementation of these property tax changes.",
       "url": "https://kpmg.com/au/en/home/insights/2026/05/federal-budget-2026-cgt-implementation-funding.html",
       "priority": "medium"
+    },
+    {
+      "id": "update-228",
+      "date": "2026-05-15",
+      "tag": "Property",
+      "source": "ABC News",
+      "title": "Coalition signals potential reversal of grandfathered CGT arrangements under repeal scenario",
+      "summary": "The Coalition has signaled that any repeal legislation would target the full Budget 2026 housing package, raising questions about whether grandfathered arrangements protecting existing property investors would be preserved or reversed. Industry bodies including the Property Council have flagged concerns about retrospective changes to settled tax positions, warning that such moves would undermine investor confidence in the property market.",
+      "url": "https://www.abc.net.au/news/2026-05-15/federal-budget-2026-coalition-housing-reform-repeal-pledge",
+      "priority": "high"
+    },
+    {
+      "id": "update-229",
+      "date": "2026-03-17",
+      "tag": "Parliament",
+      "source": "Australian Parliament House",
+      "title": "Parliamentary record confirms Liberal Senators voted against CGT committee endorsement on 17 March 2026",
+      "summary": "Senate Economics Committee records confirm Liberal senators dissented from the parliamentary committee endorsement of CGT discount changes on 17 March 2026, while crossbench senators joined Labor and Greens in supporting the recommendation. This initial committee vote contrasts with the later Senate passage following cross-party negotiations on the Treasury Laws Amendment (More Housing, More Help) Bill 2026. The parliamentary record documents the evolving bipartisan support that ultimately led to the bill's passage.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Economics/CGTDiscountChanges2026/Report",
+      "priority": "high"
     }
   ]
 }

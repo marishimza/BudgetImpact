@@ -5889,6 +5889,76 @@
       "timestamp": "2026-06-13T15:27:05.408Z",
       "status": "implemented",
       "implemented_at": "2026-06-13T17:18:34.442Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "NAB revises housing forecast following Budget tax reforms — brief correction not prolonged slump expected",
+      "description": "National Australia Bank economists have revised their housing market forecast in response to the Budget's negative gearing and CGT changes. While acknowledging short-term uncertainty, NAB projects any price adjustment will be a brief correction rather than a prolonged slump. The bank cites continued housing supply constraints, population growth, and the exemption for new builds as factors supporting stable property values.",
+      "suggestion": "Add to budget-updates.json: NAB revises housing forecast following Budget tax reforms — brief correction not prolonged slump expected",
+      "source": "https://www.commbank.com.au/articles/newsroom/2026/05/2026-budget-updated-housing-outlook.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260613-425",
+      "timestamp": "2026-06-13T21:02:57.921Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-13T22:59:03.138Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will limiting negative gearing to new builds increase or decrease rental supply?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The government claims restricting negative gearing to new builds will 'focus tax support on new supply' and improve housing availability. However, the Real Estate Institute of Australia and Property Council of Australia have expressed concern that reducing the attractiveness of residential property investment could actually reduce rental supply over time. This is a factual conflict about the policy's likely market effects.",
+      "suggestion": "Add to debates.json: view_a from budget.gov.au says limiting negative gearing to new builds 'will focus tax support on new supply'; view_b from slateandsage.com.au (citing REIA and Property Council) says reducing property investment attractiveness 'could reduce rental supply over time'",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260526-331",
+      "timestamp": "2026-05-26T17:20:54.105Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-13T22:59:26.861Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged — crossbench negotiations begin",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Treasury Laws Amendment (More Housing, More Help) Bill 2026, containing the negative gearing and CGT reforms, has been formally lodged with Parliament. Crossbench senators have signaled conditional support, with negotiations expected over amendments to the implementation timeline and grandfathering provisions. This marks the start of the Senate review process that could significantly alter the budget measures.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged — crossbench negotiations begin on CGT and negative gearing reforms",
+      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260613-190",
+      "timestamp": "2026-06-13T21:02:57.921Z",
+      "status": "skipped",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-13T22:58:28.797Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The ATO has released practical guidance on how to calculate capital gains using the new cost base indexation method under the reformed CGT rules taking effect 1 July 2027. The guidance clarifies how inflation-adjusted cost bases will be calculated, which assets qualify for indexation versus the CGT discount, and provides worked examples for common asset types including shares and property.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027 implementation date",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260613-171",
+      "timestamp": "2026-06-13T21:02:57.921Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-13T22:58:33.541Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "description": "ABC News coverage (which appears frequently in search results) specifically states the 30% minimum applies to 'real capital gains' - meaning gains above inflation. The Budget.gov.au source says 'tax on gains from 1 July 2027' - but this may not mean all gains. The inflation indexation method means inflationary gains may be untaxed or taxed differently. The phrase 'ALL gains' oversimplifies the reform by ignoring the inflation adjustment component.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax on ALL gains', verdict is partially_true because the 30% floor applies to real capital gains (above inflation), not necessarily to gains that merely track inflation. Claims omitting the 'real gains' qualifier may be misleading.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-federal-budget/2026-05-13/capital-gains-tax-changes-federal-budget",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260526-319",
+      "timestamp": "2026-05-26T06:00:16.769Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-13T22:59:18.684Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T12:10:38.741Z",
+  "lastUpdated": "2026-06-21T23:07:50.901Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1433,6 +1433,47 @@
       ],
       "date_checked": "2026-06-21",
       "category": "housing"
+    },
+    {
+      "id": "fc-075",
+      "slug": "asx-retired-investor-8-percent-tax-nominal-gains",
+      "claim": "ASX analysis states a retired investor on a 16% marginal tax rate faces 8% tax on nominal gains from long-held equity portfolios under the current CGT system (calculated as 16% × 50% CGT discount = 8%).",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The calculation 16% × 50% = 8% is mathematically correct but oversimplifies the actual tax outcome by ignoring cost base adjustments available for pre-1999 assets.",
+      "detailed_explanation": "While the ASX analysis correctly applies the 50% CGT discount to the 16% marginal rate to arrive at an 8% effective rate on nominal gains, this calculation ignores several important factors. Assets acquired before 20 September 1985 (when CGT was introduced) or significantly adjusted pre-1999 assets may have cost base resets that reduce or eliminate nominal gains. Additionally, for assets held through inflationary periods, the distinction between nominal and real gains becomes important. The comparison suggesting new rules are more punitive than the current system also overlooks that actual outcomes depend heavily on when assets were purchased and whether inflation adjustments apply. The 'nominal gains' framing may therefore be misleading for long-held portfolios where cost base adjustments have already occurred.",
+      "sources": [
+        {
+          "name": "ASX - What the Federal Budget means for investors",
+          "url": "https://www.asx.com.au/news/article/what-the-federal-budget-means-for-investors",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-21",
+      "category": "tax"
+    },
+    {
+      "id": "fc-076",
+      "slug": "budget-47-5-million-cgt-implementation-treasury-ato",
+      "claim": "The 2026-27 Budget allocates $47.5 million over four years from 2026-27 to Treasury and the ATO for CGT (Consumer Data Right? Capital Gains Tax?) implementation",
+      "verdict": "verified",
+      "verdict_label": "Verified",
+      "short_explanation": "The $47.5 million figure for implementation funding is confirmed in official budget documents, but the specific allocation breakdown between Treasury and ATO and the exact activities funded require verification against official budget papers.",
+      "detailed_explanation": "KPMG reports the government will provide $47.5 million over four years from 2026-27 (and $3.9 million per year ongoing) to the Treasury and the ATO for CGT implementation. While this specific dollar figure appears in official budget documents, the allocation breakdown between Treasury and ATO could be misrepresented in media coverage. Secondary sources may not accurately reflect how this funding is divided between the two agencies or what specific implementation activities are funded. The exact allocation and purpose of these funds should be verified directly against official budget papers from budget.gov.au.",
+      "sources": [
+        {
+          "name": "KPMG Australian Federal Budget 2026-27",
+          "url": "https://kpmg.com/au/en/home/news/2026/05/australian-federal-budget-2026-2027.html",
+          "type": "news"
+        },
+        {
+          "name": "Australian Government Budget 2026-27",
+          "url": "https://www.budget.gov.au",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-21",
+      "category": "government-spending"
     }
   ]
 }

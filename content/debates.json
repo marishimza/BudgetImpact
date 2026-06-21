@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T17:25:20.839Z",
+  "lastUpdated": "2026-06-21T23:08:26.361Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2011,6 +2011,71 @@
         "argument": "Skeptical analysis points out this is a government projection without independent modelling to verify the 65,000 figure is achievable, raising questions about the realism of the target.",
         "sources": [
           "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-085",
+      "slug": "cgt-discount-replaced-or-preserved-with-choice",
+      "title": "Is the CGT discount being replaced by indexation or preserved with a choice?",
+      "category": "Capital Gains Tax",
+      "type": "factual_dispute",
+      "summary": "A factual conflict exists between the government's official budget fact sheet and financial institution analysis regarding whether the 50% CGT discount is being preserved, replaced by cost base indexation, or offered as a choice for property investors. The budget.gov.au fact sheet presents an example where a property investor retains the 50% CGT discount, while NAB Budget Analysis and other sources state the discount is being 'replaced' by cost base indexation.",
+      "view_a": {
+        "label": "Government Fact Sheet",
+        "argument": "The budget.gov.au fact sheet (12 May 2026) presents an example where Michael sells an established property bought before policy commencement and still receives the 50% CGT discount, suggesting the existing discount is preserved for pre-existing assets.",
+        "sources": [
+          "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
+        ]
+      },
+      "view_b": {
+        "label": "Financial Institution Analysis",
+        "argument": "NAB Budget Analysis and other financial commentators claim the 50% CGT discount is being 'replaced' by cost base inflation indexation with no choice element, meaning investors automatically receive indexed cost base adjustments rather than the 50% discount. This has significant implications for property investors' tax positions.",
+        "sources": [
+          "https://www.nab.com.au/en/blog/budget-2026-27"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-086",
+      "slug": "will-2b-infrastructure-initiative-deliver-65k-homes",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "This debate concerns whether the federal government's $2B infrastructure initiative will actually deliver the projected 65,000 additional homes. REIA President Jacob Caine supports the initiative as a positive step that is expected to enable around 65,000 additional homes, while skeptical analyses question whether this target will actually be achieved.",
+      "view_a": {
+        "label": "REIA President Jacob Caine",
+        "argument": "The $2B infrastructure initiative is expected to enable around 65,000 additional homes and represents a positive and necessary step for addressing housing supply. This investment in infrastructure is viewed as a critical enabler for new housing development.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Skeptical Analysis",
+        "argument": "Multiple analyses question whether the 65,000 home projection will actually be delivered. These skeptical views raise concerns about the feasibility of this housing target and whether the infrastructure funding will translate into actual completed homes.",
+        "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-087",
+      "slug": "cgt-grandfathering-dispute",
+      "title": "Is the 50% CGT discount fully eliminated or grandfathered for existing property investors?",
+      "category": "Capital Gains Tax",
+      "type": "factual_dispute",
+      "summary": "Budget.gov.au fact sheets suggest existing property investors retain the 50% CGT discount (grandfathered), while news outlets describe CGT changes as applying a 'minimum 30% tax on ALL gains' without mentioning this protection.",
+      "view_a": {
+        "label": "Budget.gov.au Fact Sheet",
+        "argument": "The official budget fact sheet shows a worked example where Michael retains the 50% CGT discount on an existing property sale after reforms commence, indicating grandfathering provisions protect existing investors from losing their discounted rate on pre-reform assets.",
+        "sources": [
+          "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
+        ]
+      },
+      "view_b": {
+        "label": "News Outlets (e.g., ABC News)",
+        "argument": "Multiple news sources describe the CGT changes as creating a 'minimum 30% tax on ALL gains' without acknowledging any grandfathering carve-out for existing investors, suggesting all gains—including those from properties held before the reforms—face the minimum rate.",
+        "sources": [
+          "https://www.abc.net.au/news"
         ]
       },
       "verdict": null

@@ -5959,6 +5959,77 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-13T22:59:18.684Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative deliver 65,000 additional homes?",
+      "description": "The Real Estate Institute of Australia (via API Magazine) claims the government's $2 billion infrastructure initiative is 'expected to enable around 65,000 additional homes.' However, this projection comes from a peak industry body with a direct interest in supporting government housing measures, and no independent verification or Treasury modelling is cited to support the specific figure.",
+      "suggestion": "Add to debates.json: view_a from apimagazine.com.au (citing REIA President Jacob Caine) claims the $2B infrastructure 'expected to enable around 65,000 additional homes'; view_b would require sources questioning the reliability of this figure or providing alternative projections",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260526-981",
+      "timestamp": "2026-05-26T17:20:54.105Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-14T08:11:47.632Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Division 296 super tax 'applies a 15% tax on all super balances over $3m'",
+      "description": "Multiple sources simplify Division 296 as imposing 15% tax on all superannuation above $3m. However, the ATO specifically states it applies 15% on 'the proportion of earnings relating to your TSB that exceeds the LSBT' (Lifetime Superannuation Balance). This is a narrow tax on earnings attributable to the excess, not on the entire balance. Confusing these could significantly overstate the tax impact for someone with a $3.1m balance.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax applies to all super balances over $3m', verdict is disputed because Division 296 taxes only the earnings proportion attributable to amounts exceeding the threshold, not the entire balance over $3m. A $3.1m account with $100k in earnings would not pay 15% on $100k.",
+      "source": "https://www.ato.gov.au/general/new-laws-and-key-dates/better-targeted-super-concessions/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260526-404",
+      "timestamp": "2026-05-26T17:20:54.105Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-14T08:12:04.893Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The ATO has published detailed practical guidance for calculating capital gains tax under the new inflation-indexation rules taking effect 1 July 2027. The guidance explains how to apply cost base indexation methodology, helping taxpayers and tax professionals prepare for the transition from the 50% discount to the new system.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260614-523",
+      "timestamp": "2026-06-14T06:26:33.594Z",
+      "status": "skipped",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-14T08:11:08.641Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Negative gearing has been fully abolished for all investors from 1 July 2027'",
+      "description": "According to williambuck.com, negative gearing is abolished 'for established residential properties' purchased after 7:30pm on 12 May 2026. This implies new builds may still be eligible for negative gearing. Also, investors with existing negatively-geared properties may have grandfathered arrangements. The claim 'fully abolished for all investors' appears to overstate the scope of the reform.",
+      "suggestion": "Add to fact-checks.json: claim is partially_true, verdict is disputed because negative gearing restrictions apply specifically to established residential properties purchased after Budget Night (12 May 2026, 7:30pm). New builds and existing negatively-geared investments may have different treatment.",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260614-369",
+      "timestamp": "2026-06-14T06:26:33.594Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-14T08:11:19.645Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The word 'ALL' may be misleading. According to budget.gov.au, the 30% minimum applies to gains calculated using the new inflation indexation method—not to all nominal gains. Assets taxed under the old 50% discount method (for pre-existing arrangements or if grandfathered) would not necessarily face this floor. The ASX analysis distinguishes between 'nominal gains' (8% under current rules) and 'indexed gains' (30% under new rules), suggesting the 30% floor applies to indexed gains specifically, not all gains.",
+      "suggestion": "Add to fact-checks.json: claim is partially_true, verdict is disputed because the 30% minimum tax applies to indexed gains, not necessarily all nominal gains. The 'ALL' qualifier may oversimplify the transition rules.",
+      "source": "https://budget.gov.au/2026-27/atas/tax-reform",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260614-669",
+      "timestamp": "2026-06-14T06:26:33.594Z",
+      "status": "skipped",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-14T08:11:26.482Z"
     }
   ]
 }

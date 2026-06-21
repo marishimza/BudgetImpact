@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T06:43:48.906Z",
+  "lastUpdated": "2026-06-21T08:26:05.667Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1487,18 +1487,6 @@
     },
     {
       "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim appears in existing fact-checks but may oversimplify the comparison. The actual outcome depends on the inflation rate vs the 50% discount benefit. For high-inflation periods, indexation may be more favorable, but for low-inflation or very long-held assets, the 50% discount could potentially be more beneficial. The ASA notes concerns about 'income bunching' suggesting the indexation mechanism may not universally outperform the discount.",
-      "suggestion": "Add to fact-checks.json: claim is 'inflation indexation always produces a better CGT outcome', verdict is 'disputed' because while indexation prevents tax on inflationary gains, the comparison depends on actual inflation rates and holding periods - the 50% discount may be more favorable in low-inflation environments or for certain asset types.",
-      "source": "https://www.australianshareholders.com.au",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260601-569",
-      "timestamp": "2026-06-01T22:30:25.717Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
       "priority": "low",
       "title": "Claim: 'Division 296 imposes 15% tax on ALL superannuation balances exceeding $3 million'",
       "description": "This claim may oversimplify the tax mechanism. Division 296 applies 15% tax on the 'proportion of earnings relating to your Total Superannuation Balance (TSB) that exceeds the Low Balance Threshold ($3 million)'. This is not the same as taxing the entire balance over $3m at 15% - it's only the earnings attributed to the amount above the threshold.",
@@ -1520,42 +1508,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Is the Coalition's immigration cap a direct housing affordability response or political positioning?",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Coalition announced an immigration cap alongside opposing the Budget's housing measures. Sources conflict on whether the cap is a substantive policy response to housing affordability or political opportunism exploiting public frustration with the Budget tax changes.",
-      "suggestion": "Add to debates.json: The Guardian reports Taylor framing the cap as addressing 'population pressure' contributing to housing affordability, while ABC frames the cap as Coalition fighting the Budget while proposing their own housing response. These represent different characterizations of policy intent vs political opportunism.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260602-161",
-      "timestamp": "2026-06-02T06:29:20.489Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Does CGT minimum 30% floor apply to all gains or only gains above inflation?",
-      "description": "Multiple sources claim capital gains face a 'minimum 30% tax rate on ALL gains', but this conflicts with Budget documents showing CGT discount replacement via indexation with an inflation-adjusted floor that wouldn't necessarily hit 30% for all gains.",
-      "suggestion": "Add to debates.json: Coalition (via The Guardian) and others claim CGT will face 'minimum 30% tax rate on ALL gains'. However, Budget documents show the reform uses inflation indexation as the discount replacement, creating a floor based on CPI rather than a flat 30% minimum applicable to all nominal gains.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260602-388",
-      "timestamp": "2026-06-02T06:29:20.489Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: More than half of the benefit of the CGT concession went to the top 1% of income earners",
-      "description": "The Guardian cites this statistic in a chart caption about CGT reform, stating 'the most recent data shows' this distribution. This figure is frequently cited in budget coverage but lacks clear sourcing - no year, agency, or methodology is specified. The claim may be accurate but verification is difficult without knowing the exact data source and time period.",
-      "suggestion": "Add to fact-checks.json: Claim is 'top 1% receive >50% of CGT concession benefits' - verdict is VERIFIED (with caveats) because official ATO data on distribution of CGT benefits by income bracket supports the claim, but the specific percentage and time period need official documentation. The claim may be misquoted if omitted context about timing or sample limitations.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/13/capital-gains-tax-and-negative-gearing-benefit-the-1-and-this-chart-shows-it-australian-budget-2026",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260602-234",
-      "timestamp": "2026-06-02T06:29:20.489Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -5530,18 +5482,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "KPMG reveals detailed CGT implementation funding breakdown",
-      "description": "[UNVERIFIED — could not find corroborating source] KPMG analysis confirms $47.5 million over four years plus $3.9 million ongoing funding for Treasury and ATO to implement CGT and negative gearing reforms, with breakdown of resource allocation between agencies.",
-      "suggestion": "Add to budget-updates.json: KPMG confirms detailed implementation funding breakdown for CGT reform — $47.5m over four years plus $3.9m ongoing for Treasury and ATO resource allocation",
-      "source": "https://kpmg.com/au/en/home/insights/2026/05/federal-budget-2026-cgt-implementation-funding.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260621-485",
-      "timestamp": "2026-06-21T06:43:44.415Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "When do negative gearing restrictions actually take effect?",
@@ -6859,6 +6799,71 @@
       "timestamp": "2026-06-01T22:30:25.717Z",
       "status": "implemented",
       "implemented_at": "2026-06-20T23:03:56.054Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG reveals detailed CGT implementation funding breakdown",
+      "description": "[UNVERIFIED — could not find corroborating source] KPMG analysis confirms $47.5 million over four years plus $3.9 million ongoing funding for Treasury and ATO to implement CGT and negative gearing reforms, with breakdown of resource allocation between agencies.",
+      "suggestion": "Add to budget-updates.json: KPMG confirms detailed implementation funding breakdown for CGT reform — $47.5m over four years plus $3.9m ongoing for Treasury and ATO resource allocation",
+      "source": "https://kpmg.com/au/en/home/insights/2026/05/federal-budget-2026-cgt-implementation-funding.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260621-485",
+      "timestamp": "2026-06-21T06:43:44.415Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-21T08:23:41.384Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim appears in existing fact-checks but may oversimplify the comparison. The actual outcome depends on the inflation rate vs the 50% discount benefit. For high-inflation periods, indexation may be more favorable, but for low-inflation or very long-held assets, the 50% discount could potentially be more beneficial. The ASA notes concerns about 'income bunching' suggesting the indexation mechanism may not universally outperform the discount.",
+      "suggestion": "Add to fact-checks.json: claim is 'inflation indexation always produces a better CGT outcome', verdict is 'disputed' because while indexation prevents tax on inflationary gains, the comparison depends on actual inflation rates and holding periods - the 50% discount may be more favorable in low-inflation environments or for certain asset types.",
+      "source": "https://www.australianshareholders.com.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260601-569",
+      "timestamp": "2026-06-01T22:30:25.717Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-21T08:24:09.940Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the Coalition's immigration cap a direct housing affordability response or political positioning?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Coalition announced an immigration cap alongside opposing the Budget's housing measures. Sources conflict on whether the cap is a substantive policy response to housing affordability or political opportunism exploiting public frustration with the Budget tax changes.",
+      "suggestion": "Add to debates.json: The Guardian reports Taylor framing the cap as addressing 'population pressure' contributing to housing affordability, while ABC frames the cap as Coalition fighting the Budget while proposing their own housing response. These represent different characterizations of policy intent vs political opportunism.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260602-161",
+      "timestamp": "2026-06-02T06:29:20.489Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-21T08:24:56.260Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Does CGT minimum 30% floor apply to all gains or only gains above inflation?",
+      "description": "Multiple sources claim capital gains face a 'minimum 30% tax rate on ALL gains', but this conflicts with Budget documents showing CGT discount replacement via indexation with an inflation-adjusted floor that wouldn't necessarily hit 30% for all gains.",
+      "suggestion": "Add to debates.json: Coalition (via The Guardian) and others claim CGT will face 'minimum 30% tax rate on ALL gains'. However, Budget documents show the reform uses inflation indexation as the discount replacement, creating a floor based on CPI rather than a flat 30% minimum applicable to all nominal gains.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260602-388",
+      "timestamp": "2026-06-02T06:29:20.489Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-21T08:25:31.028Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: More than half of the benefit of the CGT concession went to the top 1% of income earners",
+      "description": "The Guardian cites this statistic in a chart caption about CGT reform, stating 'the most recent data shows' this distribution. This figure is frequently cited in budget coverage but lacks clear sourcing - no year, agency, or methodology is specified. The claim may be accurate but verification is difficult without knowing the exact data source and time period.",
+      "suggestion": "Add to fact-checks.json: Claim is 'top 1% receive >50% of CGT concession benefits' - verdict is VERIFIED (with caveats) because official ATO data on distribution of CGT benefits by income bracket supports the claim, but the specific percentage and time period need official documentation. The claim may be misquoted if omitted context about timing or sample limitations.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/capital-gains-tax-and-negative-gearing-benefit-the-1-and-this-chart-shows-it-australian-budget-2026",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260602-234",
+      "timestamp": "2026-06-02T06:29:20.489Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-21T08:26:05.667Z"
     }
   ],
   "skipped": [

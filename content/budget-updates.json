@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T23:03:04.580Z",
+  "lastUpdated": "2026-06-21T08:23:41.380Z",
   "items": [
     {
       "id": "update-001",
@@ -2290,6 +2290,16 @@
       "summary": "The government legislation that was the subject of an opposition Senate challenge has now passed into law after the opposition parties withdrew their blocking tactics. The legislation, which had been pending since mid-May, received royal assent following Senate negotiations. This resolves the uncertainty that had surrounded the budget measures affected by this legislation.",
       "url": "https://www.afr.com.au/politics/federal/government-legislation-passes-senate-20260620",
       "priority": "high"
+    },
+    {
+      "id": "update-227",
+      "date": "2026-06-21",
+      "tag": "Property",
+      "source": "KPMG",
+      "title": "KPMG reveals detailed CGT implementation funding breakdown",
+      "summary": "KPMG analysis confirms $47.5 million over four years plus $3.9 million ongoing funding for Treasury and ATO to implement CGT and negative gearing reforms. The breakdown shows resource allocation between agencies for the implementation of these property tax changes.",
+      "url": "https://kpmg.com/au/en/home/insights/2026/05/federal-budget-2026-cgt-implementation-funding.html",
+      "priority": "medium"
     }
   ]
 }

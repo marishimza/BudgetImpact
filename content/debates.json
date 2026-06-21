@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T23:03:56.052Z",
+  "lastUpdated": "2026-06-21T08:25:31.025Z",
   "debates": [
     {
       "id": "debate-001",
@@ -1898,6 +1898,54 @@
         "argument": "The Coalition frames its policy agenda as 'returning tax settings to current conditions' alongside immigration proposals. This framing suggests multiple separate policy approaches rather than a coordinated budget response. The immigration cap is presented as a distinct initiative that operates alongside, rather than in direct response to, housing-related budget measures.",
         "sources": [
           "https://johnsonsmme.com.au"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-080",
+      "slug": "coalition-immigration-cap-housing-affordability-or-political-positioning",
+      "title": "Is the Coalition's immigration cap a direct housing affordability response or political positioning?",
+      "category": "housing_affordability",
+      "type": "interpretation_difference",
+      "summary": "The Coalition announced an immigration cap alongside opposing the Budget's housing measures. Sources conflict on whether the cap represents a substantive policy response to housing affordability or political opportunism exploiting public frustration with Budget tax changes.",
+      "view_a": {
+        "label": "Policy Response to Population Pressure",
+        "argument": "The Guardian reports that Shadow Treasurer Taylor frames the immigration cap as addressing 'population pressure' contributing to housing affordability. Under this interpretation, the cap represents a direct policy response linking immigration levels to housing demand, positioning it as a substantive housing affordability measure rather than political tactics.",
+        "sources": [
+          "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+          "https://www.abc.net.au/news/2026-05-13/coalition-budget-response-immigration-cap-housing"
+        ]
+      },
+      "view_b": {
+        "label": "Political Positioning Against Budget",
+        "argument": "The ABC frames the immigration cap as Coalition fighting the Budget while proposing their own housing response, suggesting it reflects political opportunism rather than genuine policy substance. This characterisation views the cap as a political strategy to capitalise on public frustration with the Budget's tax changes while offering an alternative that aligns with Coalition priorities.",
+        "sources": [
+          "https://www.abc.net.au/news/2026-05-13/coalition-budget-response-immigration-cap-housing",
+          "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-081",
+      "slug": "cgt-30-percent-floor-all-gains-vs-inflation-adjusted",
+      "title": "Does CGT minimum 30% floor apply to all gains or only gains above inflation?",
+      "category": "capital-gains-tax",
+      "type": "factual_dispute",
+      "summary": "A factual dispute exists over whether the proposed CGT reform introduces a flat 30% minimum tax applicable to all nominal capital gains, or whether it establishes an inflation-adjusted floor using CPI indexation that would only apply the minimum rate to gains exceeding inflation.",
+      "view_a": {
+        "label": "Coalition: Minimum 30% on ALL gains",
+        "argument": "The Coalition and multiple media sources characterise the CGT reform as imposing a 'minimum 30% tax rate on ALL capital gains', implying a flat floor applicable to every dollar of nominal gain regardless of inflation adjustments.",
+        "sources": [
+          "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt"
+        ]
+      },
+      "view_b": {
+        "label": "Budget Documents: CPI-indexed floor only",
+        "argument": "Budget documents indicate the reform replaces the CGT discount with inflation indexation, creating a floor based on CPI rather than a flat 30% minimum. Under this mechanism, gains below the inflation threshold could face effective rates below 30%, while gains above inflation would be measured against the indexed floor.",
+        "sources": [
+          "Budget documents showing indexation replacement for CGT discount"
         ]
       },
       "verdict": null

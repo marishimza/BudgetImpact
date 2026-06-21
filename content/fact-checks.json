@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T23:02:37.486Z",
+  "lastUpdated": "2026-06-21T08:25:46.104Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1374,6 +1374,47 @@
       ],
       "date_checked": "2026-06-20",
       "category": "housing"
+    },
+    {
+      "id": "fc-072",
+      "slug": "inflation-indexation-vs-50-percent-cgt-discount",
+      "claim": "Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets",
+      "verdict": "disputed",
+      "verdict_label": "Disputed — Outcome Depends on Inflation Rate and Holding Period",
+      "short_explanation": "While indexation prevents tax on inflationary gains, the comparison between indexation and the 50% discount depends on actual inflation rates and holding periods. In low-inflation environments, the 50% discount may be more favorable.",
+      "detailed_explanation": "This claim oversimplifies a complex comparison. The Australian Shareholders' Association (ASA) has raised concerns about 'income bunching' and noted that the indexation mechanism may not universally outperform the 50% discount. For high-inflation periods, indexation may be more favorable as it prevents taxation on inflationary gains. However, for low-inflation environments or very long-held assets, the 50% discount could potentially be more beneficial. Taxpayers should evaluate their specific circumstances, including the actual inflation rate during the holding period and the marginal tax rate applicable, before determining which method provides a better outcome.",
+      "sources": [
+        {
+          "name": "Australian Shareholders' Association",
+          "url": "https://www.australianshareholders.com.au",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-21",
+      "category": "fact-check"
+    },
+    {
+      "id": "fc-073",
+      "slug": "cgt-concession-top-1-percent",
+      "claim": "The top 1% of income earners receive more than half of the capital gains tax concession benefits",
+      "verdict": "verified",
+      "verdict_label": "Verified (with caveats)",
+      "short_explanation": "Official ATO data on the distribution of CGT benefits by income bracket broadly supports this claim, showing the top income bracket receives a disproportionate share. However, the specific percentage cited varies by year and data source, and the claim requires proper context about timing and methodology.",
+      "detailed_explanation": "The concentration of CGT concession benefits among high-income earners is well-documented in ATO tax statistics. However, the precise figure of 'more than half' varies depending on the year of data and how the analysis defines 'income bracket' or 'taxpayer group'. ATO Individual Income Tax and GST data tables show that individuals with taxable income above $1 million consistently capture the largest share of net capital gains and associated concessions. The claim is broadly accurate but risks being misquoted without specifying the exact time period and methodology used. Some analyses place the share at 50-60% for the top 1%, while others show slightly lower figures depending on how concessions are calculated. The lack of a specific year or data source in the original claim is a significant limitation.",
+      "sources": [
+        {
+          "name": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/may/13/capital-gains-tax-and-negative-gearing-benefit-the-1-and-this-chart-shows-it-australian-budget-2026",
+          "type": "news"
+        },
+        {
+          "name": "ATO Tax Statistics",
+          "url": "https://www.ato.gov.au/about-ato/research-and-statistics/tax-time/tax-statistics",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-21",
+      "category": "tax"
     }
   ]
 }

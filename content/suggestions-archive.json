@@ -6239,6 +6239,73 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-14T23:03:28.555Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This absolute claim appears in multiple fact-checks as verified, but the word 'always' makes it potentially misleading. For very long-held assets with high cumulative inflation, indexed cost basis could produce larger taxable gains than the 50% discount method. The actual outcome depends on the inflation rate during the holding period, the asset type, and the investor's marginal tax rate. A retired investor on a 16% marginal rate currently pays 8% on nominal gains (16% × 50% discount) - for assets with modest inflation over the holding period, this may remain lower than the indexed approach.",
+      "suggestion": "Add to fact-checks.json: claim is 'inflation indexation always produces a better outcome than 50% discount', verdict is disputed/oversimplified because 'always' is too absolute - outcomes depend on inflation rate, holding period, and marginal tax rate. For low-inflation environments or short holding periods, the 50% discount may produce equal or better results.",
+      "source": "https://www.asx.com.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260615-683",
+      "timestamp": "2026-06-15T07:09:04.307Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base",
+      "implemented_at": "2026-06-15T09:56:06.119Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Bill implementing CGT discount replacement and negative gearing restrictions has been formally lodged. Details on parliamentary progress and Senate outlook.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged — Bill contains CGT discount replacement and negative gearing restrictions, with Senate challenge signalled by Coalition",
+      "source": "https://www.pitcher.com.au/insights/federal-budget-2026-27-superannuation-unchanged-but-ripple-effects-remain",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260615-421",
+      "timestamp": "2026-06-15T07:09:04.307Z",
+      "status": "implemented",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
+      "implemented_at": "2026-06-15T09:56:17.256Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis: CGT reform creates 'two-speed' tax treatment for different investor types",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] ASX analysis details how CGT reform creates different effective tax rates depending on asset type, holding period, and investor circumstances.",
+      "suggestion": "Add to budget-updates.json: ASX analysis details CGT reform impact creating 'two-speed' tax treatment for different investor types under reform package",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260615-852",
+      "timestamp": "2026-06-15T07:09:04.307Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-15T09:56:33.949Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a 'minimum 30% tax rate on ALL gains' from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources claim the Budget introduces a minimum 30% tax on capital gains. However, the actual mechanism links the 30% minimum to inflation indexation — the minimum applies to 'real capital gains' (gains after accounting for inflation). This could be misread as a 30% tax on gross gains, which would be an oversimplification. The distinction between nominal gains, inflation-indexed gains, and the minimum 30% floor on real gains matters significantly for tax calculation accuracy.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax on ALL capital gains', verdict is disputed/unclear because the 30% minimum applies to real gains after inflation indexation, not necessarily gross nominal gains, and the interaction between indexation and the floor rate needs clarification.",
+      "source": "https://www.budget.gov.au/Budget-2026-27/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260527-839",
+      "timestamp": "2026-05-27T16:58:38.452Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-15T09:56:46.198Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the Coalition's pledge to repeal negative gearing and CGT changes affect investor behaviour and property market stability?",
+      "description": "The Coalition has vowed to 'repeal these measures if necessary' and labeled them 'toxic', but it remains unclear whether this political positioning creates actual market uncertainty or is standard opposition behaviour. Industry groups may have different views on whether investor behaviour is being affected.",
+      "suggestion": "Add to debates.json: Coalition (Tim Wilson) from theguardian.com vows to 'repeal these measures if necessary'. Meanwhile property industry from slateandsage.com.au and apimagazine.com.au expresses concerns about investor uncertainty. These represent different views on whether Coalition opposition creates market instability.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260527-744",
+      "timestamp": "2026-05-27T21:46:25.751Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-15T09:57:07.301Z"
     }
   ]
 }

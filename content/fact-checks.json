@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T15:19:09.138Z",
+  "lastUpdated": "2026-06-22T19:22:08.123Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1524,6 +1524,29 @@
           "name": "Australian Government Budget",
           "url": "https://www.budget.gov.au/tax-reform",
           "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-22",
+      "category": "tax"
+    },
+    {
+      "id": "fc-080",
+      "slug": "negative-gearing-budget-night-vs-1-july-2027",
+      "claim": "Negative gearing is restricted from Budget Night (12 May 2026)",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The 7:30pm Budget Night cutoff applies to new property purchases, but existing negatively-geared properties retain their status until 1 July 2027.",
+      "detailed_explanation": "While the government announced changes at 7:30pm on Budget Night (12 May 2026), this timing marks the cutoff for new property purchases to be affected by the restrictions. Existing negatively-geared properties maintain their current status and benefits until the changes take full effect on 1 July 2027. This creates an important distinction between the announcement/calculation cutoff date (7:30pm Budget Night) and the full implementation date (1 July 2027). Media reporting may conflate these dates, suggesting restrictions apply immediately when they actually target future purchases.",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-05-13/negative-gearing-capital-gains-tax-budget-changes/...",
+          "type": "news"
+        },
+        {
+          "name": "William Buck",
+          "url": "https://www.williambuck.com/insights/advice/negative-gearing-changes-explained",
+          "type": "analysis"
         }
       ],
       "date_checked": "2026-06-22",

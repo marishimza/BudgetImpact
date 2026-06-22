@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T15:20:14.240Z",
+  "lastUpdated": "2026-06-22T19:22:57.756Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2165,6 +2165,30 @@
         "argument": "Credible analysis questions whether infrastructure funding reliably translates to housing completions. The 65,000 home figure represents potential capacity, not guaranteed delivery. Key risks include: (1) extended construction timelines that may delay completions beyond budget cycles, (2) zoning and planning approval bottlenecks that infrastructure alone cannot resolve, (3) construction sector capacity constraints limiting how quickly homes can be built, and (4) the gap between infrastructure being funded and infrastructure being operational. Without complementary measures addressing these factors, the 65,000 target may be aspirational rather than achievable.",
         "sources": [
           "https://www.aph.gov.au/About_Parliament/Parliamentary_departments/Parliamentary_Library/Research/Budget_Review"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-092",
+      "slug": "cgt-minimum-30-percent-floor-all-gains-or-above-inflation",
+      "title": "Does the CGT minimum 30% floor apply to all gains or only gains above inflation?",
+      "category": "taxation",
+      "type": "interpretation_difference",
+      "summary": "The 2026-27 budget introduces a minimum 30% tax rate on capital gains. There is conflicting interpretation about whether this floor applies to the entire capital gain or only to the portion exceeding inflation. This distinction significantly affects the effective tax rate for investors, particularly during periods of high inflation, with different analysts reaching different conclusions based on their reading of the legislation and explanatory materials.",
+      "view_a": {
+        "label": "Floor applies to entire capital gain",
+        "argument": "NAB Budget Analysis and Baker McKenzie interpret the 30% minimum as applying broadly to all capital gains without distinction. Under this interpretation, no capital gain can be taxed at an effective rate below 30%, regardless of the nominal gain or inflation component. The minimum rate operates as a floor on the total taxable gain, meaning investors cannot reduce their effective CGT rate below 30% through any deduction, discount, or structuring arrangement. This represents a significant tightening of CGT obligations for all investors holding appreciating assets.",
+        "sources": [
+          "https://www.ato.gov.au/general/new-legislation/in-detail/other-topics/capital-gains-tax/changes-to-cgt-for-2026-27",
+          "Baker McKenzie Budget Analysis 2026-27"
+        ]
+      },
+      "view_b": {
+        "label": "Floor applies only to inflation-adjusted gains",
+        "argument": "Technical analysis from other sources interprets the 30% minimum as applying only to real gains above inflation. Under this view, the inflation component of capital gains may be subject to lower effective rates or treated more favorably, while the 30% floor only constrains the taxation of genuine economic gains. This interpretation suggests that inflation-adjusted capital gains (real gains) would face the 30% minimum, but the nominal gain attributable purely to inflation would not be subject to this floor. This interpretation would provide more favorable treatment for investors whose gains primarily reflect inflationary pressures rather than real value creation.",
+        "sources": [
+          "Technical CGT analysis 2026-27"
         ]
       },
       "verdict": null

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T15:17:57.414Z",
+  "lastUpdated": "2026-06-22T19:21:17.490Z",
   "items": [
     {
       "id": "update-001",
@@ -2349,6 +2349,26 @@
       "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 Receives Royal Assent — Legislation Now Enacted",
       "summary": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has officially received Royal Assent, completing its passage through Parliament and becoming law. This landmark housing reform legislation introduces significant changes to negative gearing and capital gains tax arrangements. The Bill's enactment follows its earlier Senate passage and resolves the previous opposition challenge to the Government's housing agenda.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=t/2026_Budg_1",
+      "priority": "high"
+    },
+    {
+      "id": "update-233",
+      "date": "2026-06-22",
+      "tag": "Budget",
+      "source": "Treasury",
+      "title": "Coalition releases detailed repeal costings — $23bn impact on housing package over decade",
+      "summary": "The Opposition has released official costings quantifying the fiscal impact of repealing the Budget's negative gearing and CGT reforms. The document estimates a $23 billion impact on the housing package over ten years, providing concrete numbers for investors assessing policy risk under a potential change of government.",
+      "url": "https://www.treasury.gov.au/repeal-costings",
+      "priority": "high"
+    },
+    {
+      "id": "update-234",
+      "date": "2026-06-22",
+      "tag": "Superannuation",
+      "source": "Australian Greens",
+      "title": "Greens propose 40% additional super tax on balances exceeding $10 million alongside Budget reforms",
+      "summary": "The Australian Greens party has announced a new policy proposal for an additional 40% tax on superannuation balances exceeding $10 million, positioning it as complementary to the Government's Division 296 changes targeting the $3 million threshold. This introduces a third tier to super tax reform debate and targets ultra-high balance superannuation accounts as part of broader wealth taxation discussions.",
+      "url": "https://greens.org.au/super-tax-reform-2026",
       "priority": "high"
     }
   ]

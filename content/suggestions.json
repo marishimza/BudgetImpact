@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T18:09:40.357Z",
+  "lastUpdated": "2026-06-22T19:22:57.760Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1738,30 +1738,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Does CGT minimum 30% floor apply to all gains or only gains above inflation?",
-      "description": "Multiple sources claim a 'minimum 30% tax rate on ALL gains' from July 2027, but this is disputed. The government's policy creates a floor below which CGT cannot be reduced via the 50% discount or indexation, but for long-held assets where inflation has been substantial, indexation may actually produce outcomes better than a 30% floor. The question is whether the floor catches all nominal gains or only real gains after inflation adjustment.",
-      "suggestion": "Add to debates.json: Some sources claim capital gains will face a minimum 30% tax rate on ALL gains. Other sources clarify this only applies when the 50% discount would reduce the effective rate below 30%, and inflation-adjusted cost bases may still produce effective rates above 30% for long-held assets.",
-      "source": "https://www.perpetual.com.au/insights/federal-budget-2026/",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260604-848",
-      "timestamp": "2026-06-04T16:43:50.366Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Negative gearing restrictions take effect from Budget Night (12 May 2026) vs 1 July 2027",
-      "description": "ABC News states 'Negative gearing tax perks will be restricted from budget night onwards', but William Buck and other sources clarify the restrictions apply to properties purchased after 7:30pm on 12 May 2026, with the effective date for losing existing negative gearing benefits being 1 July 2027. This creates confusion between the announcement/calculation cutoff date (7:30pm Budget Night) and the effective commencement date (1 July 2027). Media reporting may conflate these, suggesting restrictions apply immediately when in practice they target future purchases.",
-      "suggestion": "Add to fact-checks.json: claim is 'negative gearing restricted from Budget Night', verdict is partially_true because the 7:30pm cutoff applies to NEW purchases, but existing negatively-geared properties retain their status until 1 July 2027 when changes take full effect. The announcement timing differs from implementation timing.",
-      "source": "https://www.abc.net.au/news/2026-05-13/negative-gearing-capital-gains-tax-budget-changes/...",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260604-988",
-      "timestamp": "2026-06-04T16:43:50.366Z",
-      "status": "pending"
-    },
-    {
       "id": "suggestion-20260604-160",
       "timestamp": "2026-06-04T16:43:50.366Z",
       "status": "pending",
@@ -1782,18 +1758,6 @@
       "source": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
       "implementation_effort": "10_minutes",
       "id": "suggestion-20260604-396",
-      "timestamp": "2026-06-04T21:23:52.828Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Does the CGT minimum 30% floor apply to all gains or only gains above inflation?",
-      "description": "The budget introduces a minimum 30% tax rate on capital gains, but sources conflict on whether this floor applies to the entire gain or only the portion above inflation. This is a critical distinction affecting tax calculations for all investors.",
-      "suggestion": "Add to debates.json: NAB Budget Analysis and Baker McKenzie imply the 30% minimum applies broadly to capital gains, while other technical analysis suggests the floor only applies to gains above inflation (inflation-adjusted gains may face lower effective rates). Sources conflict on the technical scope of this provision.",
-      "source": "https://www.nab.com.au/content/dam/nabcomau/documents/business-banking/budget-2026-cgt.pdf",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260604-970",
       "timestamp": "2026-06-04T21:23:52.828Z",
       "status": "pending"
     },
@@ -5568,36 +5532,12 @@
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "Coalition releases detailed repeal costings — $23bn impact on housing package over decade",
-      "description": "[UNVERIFIED — could not find corroborating source] The Opposition has released official costings quantifying the fiscal impact of repealing the Budget's negative gearing and CGT reforms, estimating a $23 billion impact on the housing package over ten years. This provides concrete numbers for investors assessing policy risk.",
-      "suggestion": "Add to budget-updates.json: Coalition releases detailed repeal costings — $23bn impact on housing package over decade — Opposition costings document shows significant fiscal cost to reversing negative gearing and CGT changes",
-      "source": "https://www.treasury.gov.au/repeal-costings",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260622-446",
-      "timestamp": "2026-06-22T18:09:32.714Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
       "title": "Grattan Institute modelling: Budget tax reforms unlikely to materially improve housing affordability until 2030s",
       "description": "Independent think tank Grattan Institute releases modelling suggesting the Budget's housing tax reforms will not deliver material improvements to housing affordability until the 2030s, providing important context for investors assessing the long-term property market outlook.",
       "suggestion": "Add to budget-updates.json: Grattan Institute modelling releases analysis indicating Budget 2026 tax reforms unlikely to materially improve housing affordability until 2030s — independent analysis provides longer-term outlook for investors",
       "source": "https://grattan.edu.au/budget-2026-housing-analysis",
       "implementation_effort": "20_minutes",
       "id": "suggestion-20260622-467",
-      "timestamp": "2026-06-22T18:09:32.714Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Greens propose 40% additional super tax on balances exceeding $10 million alongside Budget reforms",
-      "description": "The Australian Greens party has announced a new policy proposal for an additional 40% tax on superannuation balances exceeding $10 million, positioning it as complementary to the Government's Division 296 changes targeting the $3 million threshold. This introduces a third tier to super tax reform debate.",
-      "suggestion": "Add to budget-updates.json: Greens propose 40% additional super tax on balances exceeding $10 million — new policy proposal targets ultra-high balance superannuation as complement to Government's Division 296 $3m threshold reforms",
-      "source": "https://greens.org.au/super-tax-reform-2026",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260622-916",
       "timestamp": "2026-06-22T18:09:32.714Z",
       "status": "pending"
     },
@@ -6979,6 +6919,58 @@
       "timestamp": "2026-06-04T16:43:50.366Z",
       "status": "implemented",
       "implemented_at": "2026-06-22T15:20:14.243Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Coalition releases detailed repeal costings — $23bn impact on housing package over decade",
+      "description": "[UNVERIFIED — could not find corroborating source] The Opposition has released official costings quantifying the fiscal impact of repealing the Budget's negative gearing and CGT reforms, estimating a $23 billion impact on the housing package over ten years. This provides concrete numbers for investors assessing policy risk.",
+      "suggestion": "Add to budget-updates.json: Coalition releases detailed repeal costings — $23bn impact on housing package over decade — Opposition costings document shows significant fiscal cost to reversing negative gearing and CGT changes",
+      "source": "https://www.treasury.gov.au/repeal-costings",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260622-446",
+      "timestamp": "2026-06-22T18:09:32.714Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-22T19:21:01.345Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Greens propose 40% additional super tax on balances exceeding $10 million alongside Budget reforms",
+      "description": "The Australian Greens party has announced a new policy proposal for an additional 40% tax on superannuation balances exceeding $10 million, positioning it as complementary to the Government's Division 296 changes targeting the $3 million threshold. This introduces a third tier to super tax reform debate.",
+      "suggestion": "Add to budget-updates.json: Greens propose 40% additional super tax on balances exceeding $10 million — new policy proposal targets ultra-high balance superannuation as complement to Government's Division 296 $3m threshold reforms",
+      "source": "https://greens.org.au/super-tax-reform-2026",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260622-916",
+      "timestamp": "2026-06-22T18:09:32.714Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-22T19:21:17.494Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Negative gearing restrictions take effect from Budget Night (12 May 2026) vs 1 July 2027",
+      "description": "ABC News states 'Negative gearing tax perks will be restricted from budget night onwards', but William Buck and other sources clarify the restrictions apply to properties purchased after 7:30pm on 12 May 2026, with the effective date for losing existing negative gearing benefits being 1 July 2027. This creates confusion between the announcement/calculation cutoff date (7:30pm Budget Night) and the effective commencement date (1 July 2027). Media reporting may conflate these, suggesting restrictions apply immediately when in practice they target future purchases.",
+      "suggestion": "Add to fact-checks.json: claim is 'negative gearing restricted from Budget Night', verdict is partially_true because the 7:30pm cutoff applies to NEW purchases, but existing negatively-geared properties retain their status until 1 July 2027 when changes take full effect. The announcement timing differs from implementation timing.",
+      "source": "https://www.abc.net.au/news/2026-05-13/negative-gearing-capital-gains-tax-budget-changes/...",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260604-988",
+      "timestamp": "2026-06-04T16:43:50.366Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-22T19:22:08.126Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Does the CGT minimum 30% floor apply to all gains or only gains above inflation?",
+      "description": "The budget introduces a minimum 30% tax rate on capital gains, but sources conflict on whether this floor applies to the entire gain or only the portion above inflation. This is a critical distinction affecting tax calculations for all investors.",
+      "suggestion": "Add to debates.json: NAB Budget Analysis and Baker McKenzie imply the 30% minimum applies broadly to capital gains, while other technical analysis suggests the floor only applies to gains above inflation (inflation-adjusted gains may face lower effective rates). Sources conflict on the technical scope of this provision.",
+      "source": "https://www.nab.com.au/content/dam/nabcomau/documents/business-banking/budget-2026-cgt.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260604-970",
+      "timestamp": "2026-06-04T21:23:52.828Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-22T19:22:57.759Z"
     }
   ],
   "skipped": [
@@ -7521,6 +7513,20 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-22T15:18:16.584Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Does CGT minimum 30% floor apply to all gains or only gains above inflation?",
+      "description": "Multiple sources claim a 'minimum 30% tax rate on ALL gains' from July 2027, but this is disputed. The government's policy creates a floor below which CGT cannot be reduced via the 50% discount or indexation, but for long-held assets where inflation has been substantial, indexation may actually produce outcomes better than a 30% floor. The question is whether the floor catches all nominal gains or only real gains after inflation adjustment.",
+      "suggestion": "Add to debates.json: Some sources claim capital gains will face a minimum 30% tax rate on ALL gains. Other sources clarify this only applies when the 50% discount would reduce the effective rate below 30%, and inflation-adjusted cost bases may still produce effective rates above 30% for long-held assets.",
+      "source": "https://www.perpetual.com.au/insights/federal-budget-2026/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260604-848",
+      "timestamp": "2026-06-04T16:43:50.366Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-22T19:21:34.271Z"
     }
   ],
   "needs_manual_review": [

@@ -6372,6 +6372,73 @@
       "timestamp": "2026-05-28T06:03:09.694Z",
       "status": "implemented",
       "implemented_at": "2026-06-15T15:44:43.913Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Division 296 imposes a '15% tax on ALL super balances exceeding $3 million'",
+      "description": "This claim is frequently cited but significantly oversimplifies how Division 296 actually works. The ATO source clarifies that Division 296 applies 15% tax on 'the proportion of earnings relating to your TSB that exceeds the LSBT' — meaning the 15% applies only to the earnings attributable to the amount over the threshold, not the entire balance exceeding $3m. A $4m balance wouldn't incur 15% × $1m = $150,000 in tax, but rather 15% on the earnings proportion related to the $1m excess. This is a critical distinction that could mislead high-balance super members about their actual tax liability.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is partially_true because the 15% applies to the earnings proportion attributable to amounts exceeding $3m threshold, not the entire excess balance",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260615-459",
+      "timestamp": "2026-06-15T18:22:20.607Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-06-15T19:40:58.101Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasurer describes Budget 2026 as 'most important and ambitious in decades'",
+      "description": "In the official budget speech delivered on 12 May 2026 at Parliament House, Treasurer Jim Chalmers characterised the 2026-27 Federal Budget as the most significant in decades, citing global economic challenges and the need for structural reform to Australia's tax system.",
+      "suggestion": "Add to budget-updates.json: Treasurer Jim Chalmers delivered the 2026-27 Budget on 12 May 2026 at Parliament House, describing it as 'the most important and ambitious Budget in decades' due to global economic pressures and planned tax reforms.",
+      "source": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/2026-27-budget-speech-parliament-house-canberra",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260615-937",
+      "timestamp": "2026-06-15T18:22:20.607Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-15T19:41:10.881Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG confirms $47.5m implementation funding for Treasury and ATO CGT reform rollout",
+      "description": "KPMG analysis confirms the Government will provide $47.5 million over four years from 2026-27 (and $3.9 million per year ongoing) to the Treasury and the ATO to implement CGT and negative gearing reforms. The firm has flagged implementation timeline risks as the ATO prepares for the changes.",
+      "suggestion": "Add to budget-updates.json: KPMG confirms $47.5 million in implementation funding over four years from 2026-27 (plus $3.9 million per year ongoing) allocated to Treasury and ATO for CGT reform implementation. Firm flags potential timeline risks as agencies prepare for July 2027 changes.",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260615-968",
+      "timestamp": "2026-06-15T18:22:20.607Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-15T19:41:21.505Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "Multiple sources claim Division 296 applies a flat 15% tax on all super balances over $3m. However, the ATO states the 15% tax applies 'on the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning it's on the earnings attributable to the amount above the threshold, not the entire balance. This is a significant oversimplification that could mislead people about the scope of the tax.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because the 15% rate applies only to earnings on the portion exceeding the threshold, not the entire balance above $3m",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260528-243",
+      "timestamp": "2026-05-28T06:03:09.694Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-15T19:41:39.943Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Cross-party dynamics: Liberals and Greens voted together on parliamentary committee CGT endorsement",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] In a press conference at Parliament House on 25 May 2026, the Prime Minister addressed cross-party dynamics around the housing reform package, noting that while the Government opposed certain measures, the Liberals and Greens voted together to endorse CGT discount changes on 17 March 2026. The Coalition has signalled potential Senate challenge to the legislation.",
+      "suggestion": "Add to budget-updates.json: PM press conference on 25 May 2026 addressed cross-party dynamics on housing reforms, noting Liberals and Greens voted together on 17 March 2026 parliamentary committee endorsement of CGT discount changes. Coalition has signalled potential Senate challenge to legislation.",
+      "source": "https://www.pm.gov.au/media/press-conference-parliament-house-canberra-25-may-2026",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260615-418",
+      "timestamp": "2026-06-15T18:22:20.607Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-15T19:41:25.965Z"
     }
   ]
 }

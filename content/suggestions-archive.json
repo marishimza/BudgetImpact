@@ -6170,6 +6170,75 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-14T17:16:08.675Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "Media commonly describes Division 296 as a '15% tax on balances over $3m', but the ATO source specifies the tax applies to 'earnings' (not the balance itself) that exceed the Low Balance Super Account threshold. This is a significant technical distinction—it's a tax on excess earnings, not on the $3m+ balance itself. The phrasing could mislead Australians into thinking their entire super balance is taxed at 15% if it exceeds $3m.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because Division 296 taxes the proportion of earnings exceeding the threshold, not the balance itself. The actual mechanism is earnings-based, not balance-based.",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260614-193",
+      "timestamp": "2026-06-14T20:59:45.057Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-06-14T23:02:38.560Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: The 50% CGT discount is being 'replaced' by inflation indexation with no choice",
+      "description": "Multiple sources state the 50% discount is simply 'replaced' by indexation, suggesting investors have no choice. However, William Buck mentions 'transitional rules' and there may be scenarios where the old 50% discount produces a better outcome for investors. The 'replacement' framing may oversimplify if investors can still benefit from the old rules in certain circumstances.",
+      "suggestion": "Add to fact-checks.json: claim is '50% discount replaced by indexation (no choice)' - verdict is partially_true because transitional arrangements may preserve the 50% discount for certain assets acquired before the cut-off date. Verify whether any grandfathering provisions exist.",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026/capital-gains-tax/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260527-787",
+      "timestamp": "2026-05-27T11:30:46.058Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-14T23:03:11.803Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will restricting negative gearing to new builds reduce or increase rental supply?",
+      "description": "The Real Estate Institute of Australia (REIA) and Property Council of Australia claim that reducing negative gearing attractiveness could reduce rental supply over time. However, ACOSS argues that negative gearing and CGT arrangements have 'added little to rental supply' despite their costs. These are directly conflicting factual claims about whether the policy actually increases rental stock.",
+      "suggestion": "Add to debates.json: View A from REIA/Property Council (slateandsage.com.au) says restricting negative gearing could reduce rental supply over time; View B from ACOSS policy director Jacqueline Phillips (theguardian.com) says negative gearing 'added little to rental supply' - a direct factual conflict on whether the policy meaningfully increases housing supply",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260527-914",
+      "timestamp": "2026-05-27T16:58:38.452Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-14T23:03:16.504Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Budget documents state the $2 billion infrastructure initiative is expected to enable around 65,000 additional homes. However, this is a forward-looking projection without independent verification, and the Coalition has pledged to repeal the housing measures. This creates a credibility conflict about whether the stated output is achievable.",
+      "suggestion": "Add to debates.json: Budget.gov.au claims $2B infrastructure initiative will enable 'around 65,000 additional homes'; Coalition has pledged to repeal the measures, implying skepticism about effectiveness and deliverability of this target",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260527-139",
+      "timestamp": "2026-05-27T16:58:38.452Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-14T23:03:23.563Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Division 296 imposes a '15% tax on all superannuation balances exceeding $3 million'",
+      "description": "Multiple sources claim Division 296 applies a flat 15% tax on super balances over $3m. However, the ATO source clarifies the tax is '15% on the proportion of earnings relating to your TSB that exceeds the LSBT' — meaning the 15% only applies to the earnings attributable to the amount above $3m, not the entire balance. This is a significant distinction that could mislead people into thinking they'd pay 15% of their total balance if they exceed $3m.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all balances over $3m', verdict is partially_true because the tax only applies to earnings attributable to the amount exceeding the threshold, not the entire balance.",
+      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260527-375",
+      "timestamp": "2026-05-27T16:58:38.452Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-14T23:03:28.555Z"
     }
   ]
 }

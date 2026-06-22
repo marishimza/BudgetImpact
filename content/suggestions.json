@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T07:12:00.930Z",
+  "lastUpdated": "2026-06-22T09:45:29.340Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1608,18 +1608,6 @@
     {
       "type": "fact_check",
       "priority": "medium",
-      "title": "Claim: 'A retired investor on a 16% marginal rate faces 8% tax on nominal gains' under current CGT system",
-      "description": "The ASX analysis claims that under current rules, a retiree on 16% marginal rate selling a long-held equity portfolio faces 8% tax on nominal gains (as opposed to 30% on indexed gains under new rules). While mathematically the 50% discount does result in an effective 8% rate on nominal gains at a 16% marginal rate, the phrasing could be misleading—8% is the effective rate on the taxed portion, not the nominal gain. The claim also implies this represents a dramatic increase to 30% under the new system, but the 30% only applies to indexed (inflation-adjusted) gains, and inflation indexation means less actual gain is taxable. This claim oversimplifies the comparative impact.",
-      "suggestion": "Add to fact-checks.json: claim is partially_true because while the 50% discount does result in an 8% effective rate at 16% marginal rate on gains, the comparison to '30% on indexed gains' understates how indexation reduces taxable gains. Verdict: misleading comparison.",
-      "source": "https://www.asx.com.au/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260603-286",
-      "timestamp": "2026-06-03T12:30:24.993Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
       "title": "Claim: 'More than half of the benefit of the CGT concession went to the top 1% of income earners'",
       "description": "The Guardian cites this claim with 'the most recent data shows' but does not specify which year of data, what type of CGT assets (property vs shares), or the methodology used. This is a commonly cited statistic that could be outdated, specific to property only, or based on selective interpretation. Different data sources may show varying distributions depending on whether they include or exclude the family home exemption.",
       "suggestion": "Add to fact-checks.json: claim is partially_verified because CGT data from Treasury and ATO shows top earners receive disproportionate benefits, but the specific 'top 1%' figure and 'more than half' threshold requires verification of the exact source year, asset class scope, and methodology. Verdict: likely broadly accurate but requires specific sourcing.",
@@ -1640,42 +1628,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
-      "description": "REIA President Jacob Caine (API Magazine) calls the 65,000 homes projection a 'positive and necessary step' toward addressing housing shortage. However, no independent verification or critique of this figure appears in the results. The claim may be optimistic given infrastructure-to-housing delivery challenges.",
-      "suggestion": "Add to debates.json: API Magazine cites REIA President Jacob Caine claiming $2B infrastructure initiative 'expected to enable around 65,000 additional homes' as positive; however, no credible source directly verifies this projection or offers alternative estimates.",
-      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260603-513",
-      "timestamp": "2026-06-03T18:17:27.522Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Broken promise vs legitimate policy evolution: How should negative gearing reform be characterized?",
-      "description": "ABC News explicitly frames the changes as the government 'breaking promise' by calculating popularity versus trust damage. Coalition (Guardian) calls changes 'toxic' and vows repeal. Government source frames same policy as 'tax reform' limiting negative gearing to new builds to 'focus tax support on new supply.' These represent conflicting characterizations rather than factual disputes about the policy itself.",
-      "suggestion": "Add to debates.json: ABC News says government 'breaks promise' and calculated damage to trust; The Guardian quotes Coalition calling changes 'toxic' and vowing repeal; budget.gov.au frames same changes as legitimate 'tax reform' targeting new supply.",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260603-127",
-      "timestamp": "2026-06-03T18:17:27.522Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Media coverage often states a flat 30% minimum applies to all capital gains, but budget.gov.au specifies 'a minimum 30% tax on gains' with inflation indexation replacing the 50% discount. The actual tax rate depends on the taxpayer's marginal rate, with indexation determining the taxable gain amount. This oversimplification may mislead people about the actual impact on their personal tax situation.",
-      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax rate on ALL capital gains from July 2027', verdict is partially_true because the minimum 30% applies to indexed gains, not necessarily a flat 30% on nominal gains, and actual rates depend on marginal tax rate.",
-      "source": "https://budget.gov.au/2026-27/tax-reform",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260603-645",
-      "timestamp": "2026-06-03T18:17:27.522Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -5544,18 +5496,6 @@
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "Coalition signals potential reversal of grandfathered CGT arrangements under repeal scenario",
-      "description": "[UNVERIFIED — could not find corroborating source] Coalition has indicated that any repeal of the housing reform package could extend to grandfathered arrangements for existing property investors, not just future changes. Liberal Senators voted against the parliamentary committee endorsement on 17 March 2026, signalling intent to challenge the entire package including existing CGT discount grandfathering protections.",
-      "suggestion": "Add to budget-updates.json: Coalition signals repeal could target grandfathered CGT arrangements for existing property investors, not just future changes",
-      "source": "https://www.aph.gov.au/Parliamentary_Business/Committees/House_of_Representatives_Committees?url=tc/2026",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260622-589",
-      "timestamp": "2026-06-22T07:11:56.078Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
       "title": "ATO releases technical guidance distinguishing cost base indexation from CGT discount for pre-1985 assets",
       "description": "ATO technical guidance released ahead of July 2027 reforms clarifies the specific differences between the new cost base indexation method and the existing 50% CGT discount. The guidance specifically addresses pre-1985 share holdings where cost base reset valuation applies, explaining how indexation percentages are calculated and when each method is applicable.",
       "suggestion": "Add to budget-updates.json: ATO releases technical guidance on cost base indexation vs CGT discount for pre-1985 assets ahead of July 2027",
@@ -6971,6 +6911,71 @@
       "timestamp": "2026-06-03T12:30:24.993Z",
       "status": "implemented",
       "implemented_at": "2026-06-21T23:08:26.364Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Coalition signals potential reversal of grandfathered CGT arrangements under repeal scenario",
+      "description": "[UNVERIFIED — could not find corroborating source] Coalition has indicated that any repeal of the housing reform package could extend to grandfathered arrangements for existing property investors, not just future changes. Liberal Senators voted against the parliamentary committee endorsement on 17 March 2026, signalling intent to challenge the entire package including existing CGT discount grandfathering protections.",
+      "suggestion": "Add to budget-updates.json: Coalition signals repeal could target grandfathered CGT arrangements for existing property investors, not just future changes",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Committees/House_of_Representatives_Committees?url=tc/2026",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260622-589",
+      "timestamp": "2026-06-22T07:11:56.078Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-22T09:43:02.487Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'A retired investor on a 16% marginal rate faces 8% tax on nominal gains' under current CGT system",
+      "description": "The ASX analysis claims that under current rules, a retiree on 16% marginal rate selling a long-held equity portfolio faces 8% tax on nominal gains (as opposed to 30% on indexed gains under new rules). While mathematically the 50% discount does result in an effective 8% rate on nominal gains at a 16% marginal rate, the phrasing could be misleading—8% is the effective rate on the taxed portion, not the nominal gain. The claim also implies this represents a dramatic increase to 30% under the new system, but the 30% only applies to indexed (inflation-adjusted) gains, and inflation indexation means less actual gain is taxable. This claim oversimplifies the comparative impact.",
+      "suggestion": "Add to fact-checks.json: claim is partially_true because while the 50% discount does result in an 8% effective rate at 16% marginal rate on gains, the comparison to '30% on indexed gains' understates how indexation reduces taxable gains. Verdict: misleading comparison.",
+      "source": "https://www.asx.com.au/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260603-286",
+      "timestamp": "2026-06-03T12:30:24.993Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-22T09:43:44.320Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "REIA President Jacob Caine (API Magazine) calls the 65,000 homes projection a 'positive and necessary step' toward addressing housing shortage. However, no independent verification or critique of this figure appears in the results. The claim may be optimistic given infrastructure-to-housing delivery challenges.",
+      "suggestion": "Add to debates.json: API Magazine cites REIA President Jacob Caine claiming $2B infrastructure initiative 'expected to enable around 65,000 additional homes' as positive; however, no credible source directly verifies this projection or offers alternative estimates.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260603-513",
+      "timestamp": "2026-06-03T18:17:27.522Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-22T09:44:21.110Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Broken promise vs legitimate policy evolution: How should negative gearing reform be characterized?",
+      "description": "ABC News explicitly frames the changes as the government 'breaking promise' by calculating popularity versus trust damage. Coalition (Guardian) calls changes 'toxic' and vows repeal. Government source frames same policy as 'tax reform' limiting negative gearing to new builds to 'focus tax support on new supply.' These represent conflicting characterizations rather than factual disputes about the policy itself.",
+      "suggestion": "Add to debates.json: ABC News says government 'breaks promise' and calculated damage to trust; The Guardian quotes Coalition calling changes 'toxic' and vowing repeal; budget.gov.au frames same changes as legitimate 'tax reform' targeting new supply.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260603-127",
+      "timestamp": "2026-06-03T18:17:27.522Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-22T09:44:55.631Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Media coverage often states a flat 30% minimum applies to all capital gains, but budget.gov.au specifies 'a minimum 30% tax on gains' with inflation indexation replacing the 50% discount. The actual tax rate depends on the taxpayer's marginal rate, with indexation determining the taxable gain amount. This oversimplification may mislead people about the actual impact on their personal tax situation.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax rate on ALL capital gains from July 2027', verdict is partially_true because the minimum 30% applies to indexed gains, not necessarily a flat 30% on nominal gains, and actual rates depend on marginal tax rate.",
+      "source": "https://budget.gov.au/2026-27/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260603-645",
+      "timestamp": "2026-06-03T18:17:27.522Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-22T09:45:29.340Z"
     }
   ],
   "skipped": [

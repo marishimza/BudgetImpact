@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T17:23:40.119Z",
+  "lastUpdated": "2026-06-22T09:43:02.485Z",
   "items": [
     {
       "id": "update-001",
@@ -2329,6 +2329,16 @@
       "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 Receives Royal Assent",
       "summary": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has received Royal Assent, formally enacting the government's housing reform package into law. The legislation introduces restrictions on negative gearing for existing properties and reforms to the capital gains tax (CGT) discount for property investors. The bill passed the Senate following earlier opposition challenges, with the formal assent recorded on the Federal Register of Legislation.",
       "url": "https://www.legislation.gov.au/",
+      "priority": "high"
+    },
+    {
+      "id": "update-231",
+      "date": "2026-03-17",
+      "tag": "Property",
+      "source": "Australian Parliament House",
+      "title": "Coalition signals potential reversal of grandfathered CGT arrangements under repeal scenario",
+      "summary": "The Coalition has indicated that any repeal of the housing reform package could extend to grandfathered arrangements for existing property investors, not just future changes. Liberal Senators voted against the parliamentary committee endorsement on 17 March 2026, signalling intent to challenge the entire package including existing CGT discount grandfathering protections. This positions the debate over housing reforms as broader than initially anticipated, potentially affecting investors who locked in existing CGT arrangements.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/House_of_Representatives_Committees?url=tc/2026",
       "priority": "high"
     }
   ]

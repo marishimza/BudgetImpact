@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T23:08:26.361Z",
+  "lastUpdated": "2026-06-22T09:44:41.193Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2076,6 +2076,48 @@
         "argument": "Multiple news sources describe the CGT changes as creating a 'minimum 30% tax on ALL gains' without acknowledging any grandfathering carve-out for existing investors, suggesting all gains—including those from properties held before the reforms—face the minimum rate.",
         "sources": [
           "https://www.abc.net.au/news"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-088",
+      "slug": "will-2b-infrastructure-initiative-deliver-65000-homes",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "The REIA President has endorsed the 65,000 homes projection from the $2B infrastructure initiative, but no independent verification exists for this figure. The realistic delivery of infrastructure-to-housing outcomes is questioned.",
+      "view_a": {
+        "label": "Projection is credible and achievable",
+        "argument": "The Real Estate Institute of Australia President Jacob Caine has endorsed the 65,000 additional homes projection as a 'positive and necessary step' toward addressing Australia's housing shortage. The initiative is designed to accelerate housing supply through targeted infrastructure investment, which industry experts believe will enable faster delivery of new homes.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Projection lacks verification and may be optimistic",
+        "argument": "The 65,000 homes figure has not been independently verified or critically examined by housing economists or policy analysts. Historical infrastructure-to-housing delivery rates suggest that actual completions often fall short of initial projections due to planning delays, construction bottlenecks, and infrastructure coordination challenges. The lack of independent scrutiny raises concerns about whether this target is realistic.",
+        "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-089",
+      "slug": "negative-gearing-reform-characterization-debate",
+      "title": "Broken promise vs legitimate policy evolution: How should negative gearing reform be characterized?",
+      "category": "Housing & Tax",
+      "type": "interpretation_difference",
+      "summary": "The same negative gearing reform is characterized in conflicting ways by different sources - as a broken election promise, as toxic policy requiring repeal, or as legitimate tax reform targeting new housing supply. This debate examines how framing choices shape public perception of identical policy changes.",
+      "view_a": {
+        "label": "Broken promise",
+        "argument": "ABC News reports the government has 'broken promise' on negative gearing, framing the changes as a political calculation where trust damage outweighs popularity. The news coverage explicitly characterizes this as the government reneging on previous commitments to voters.",
+        "sources": [
+          "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+        ]
+      },
+      "view_b": {
+        "label": "Legitimate policy evolution",
+        "argument": "Government sources frame the same changes as 'tax reform' limiting negative gearing to new builds to 'focus tax support on new supply.' Budget.gov.au characterizes this as legitimate policy refinement rather than promise-breaking, positioning the changes as targeted intervention to address housing supply.",
+        "sources": [
+          "https://www.budget.gov.au"
         ]
       },
       "verdict": null

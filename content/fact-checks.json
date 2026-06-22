@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T23:07:50.901Z",
+  "lastUpdated": "2026-06-22T09:45:29.338Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1474,6 +1474,42 @@
       ],
       "date_checked": "2026-06-21",
       "category": "government-spending"
+    },
+    {
+      "id": "fc-077",
+      "slug": "cgt-retiree-16-marginal-rate-8-percent-nominal-gains",
+      "claim": "A retired investor on a 16% marginal tax rate faces 8% tax on nominal gains under the current CGT system",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "While the 50% CGT discount does result in an effective 8% rate at a 16% marginal rate, this represents the rate on the discounted gain portion, not the full nominal gain, and the comparison to indexed gains understates how indexation reduces taxable amounts.",
+      "detailed_explanation": "The claim correctly identifies that the 50% capital gains tax discount reduces the taxable portion of gains by half. At a 16% marginal tax rate, this produces an effective rate of 8% on the taxed portion. However, the claim contains two issues: (1) 8% is the effective rate on the discounted portion, not on the nominal gain itself—only half the gain is taxable; (2) comparing this to '30% on indexed gains' under the proposed new system is misleading because indexation adjusts the cost base for inflation, meaning a smaller nominal amount qualifies as taxable gain. The comparison oversimplifies the relative tax burden by not accounting for how inflation indexation reduces the quantum of taxable gains.",
+      "sources": [
+        {
+          "name": "ASX - What the Federal Budget Means for Investors",
+          "url": "https://www.asx.com.au/what-the-federal-budget-means-for-investors",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-22",
+      "category": "tax"
+    },
+    {
+      "id": "fc-078",
+      "slug": "30-percent-minimum-tax-rate-capital-gains",
+      "claim": "Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The 30% minimum applies to inflation-indexed capital gains, not necessarily all nominal gains. Actual tax rates depend on the taxpayer's marginal rate.",
+      "detailed_explanation": "Media coverage often states that a flat 30% minimum applies to all capital gains, but the budget.gov.au tax reform page specifies 'a minimum 30% tax on gains' in the context of inflation indexation replacing the 50% general discount. The actual tax rate depends on the taxpayer's marginal rate, with indexation determining the taxable gain amount. For example, a taxpayer on the 47% marginal rate would pay 47% on indexed gains, not a flat 30%. The 30% minimum effectively applies when the indexed gain would otherwise be taxed at a lower rate. This oversimplification may mislead people about the actual impact on their personal tax situation.",
+      "sources": [
+        {
+          "name": "Australian Government Budget 2026-27",
+          "url": "https://budget.gov.au/2026-27/tax-reform",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-22",
+      "category": "fact_check"
     }
   ]
 }

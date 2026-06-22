@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T09:45:29.338Z",
+  "lastUpdated": "2026-06-22T15:19:09.138Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1510,6 +1510,24 @@
       ],
       "date_checked": "2026-06-22",
       "category": "fact_check"
+    },
+    {
+      "id": "fc-079",
+      "slug": "capital-gains-30-percent-floor-inflation-adjustment",
+      "claim": "Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "The 30% minimum tax rate may only apply to gains above inflation, not to all capital gains.",
+      "detailed_explanation": "The official budget documentation describes a discount based on inflation, suggesting that the taxable portion would be calculated as (nominal gain - inflation adjustment), with the 30% floor applying only to that inflation-adjusted portion. This means gains that merely track inflation could face different treatment compared to gains significantly above inflation. The claim oversimplifies by suggesting all gains face a flat 30% minimum, when the mechanism appears more nuanced.",
+      "sources": [
+        {
+          "name": "Australian Government Budget",
+          "url": "https://www.budget.gov.au/tax-reform",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-22",
+      "category": "tax"
     }
   ]
 }

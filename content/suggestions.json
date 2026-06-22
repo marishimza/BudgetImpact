@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T13:27:10.087Z",
+  "lastUpdated": "2026-06-22T15:20:14.244Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1690,30 +1690,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Is the 50% CGT discount being eliminated, replaced, or grandfathered for existing properties?",
-      "description": "Government budget fact sheets show the 50% CGT discount still applies to existing properties, while media reports characterize the changes as the discount being 'replaced' or eliminated. This creates confusion about whether existing investors retain their current tax treatment.",
-      "suggestion": "Add to debates.json: view_a from budget.gov.au says existing property investors retain 50% CGT discount (example shows Michael selling in 2028 still receives 50% discount), view_b from ABC News says government 'breaks promise' with restrictions to CGT discount, implying elimination or major change",
-      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260604-921",
-      "timestamp": "2026-06-04T06:30:05.088Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
-      "description": "The Real Estate Institute of Australia President claims the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes.' This is a specific quantitative claim that lacks independent verification and may conflict with treasury/cost estimate skeptics.",
-      "suggestion": "Add to debates.json: view_a from API Magazine/REIA says $2B infrastructure will enable 65,000 additional homes, view_b from economic analysts question whether the $2B allocation can realistically deliver this target given infrastructure costs and housing supply chain constraints",
-      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260604-804",
-      "timestamp": "2026-06-04T06:30:05.088Z",
-      "status": "pending"
-    },
-    {
       "id": "suggestion-20260604-258",
       "timestamp": "2026-06-04T06:30:05.088Z",
       "status": "pending",
@@ -1740,18 +1716,6 @@
     {
       "type": "fact_check",
       "priority": "medium",
-      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The 30% floor may only apply to gains above inflation, not all gains. The official budget description states 'a discount based on inflation' which could mean: (nominal gain - inflation adjustment) is taxed, with a 30% floor on that taxable portion. This is a significant difference from 'tax on ALL gains is minimum 30%'. The ASX analysis also shows an example of 8% vs 30% for nominal vs indexed gains, suggesting the 30% only applies to inflation-adjusted gains.",
-      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax on ALL capital gains', verdict is disputed because the 30% floor may apply only to gains above inflation rather than all gains, making the claim an oversimplification.",
-      "source": "https://www.budget.gov.au/tax-reform",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260604-337",
-      "timestamp": "2026-06-04T10:55:08.650Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
       "title": "Claim: Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over the past decade",
       "description": "This specific percentage (56%) appears in ABC News citing budget Treasury data for shares held 10 years to March 2026. However, this is highly asset-class and time-period specific. Different asset classes (property vs shares vs other) and different holding periods would yield different percentages. The claim could be misapplied if cited generally.",
       "suggestion": "Add to fact-checks.json: claim is 'inflation accounts for 56% of ASX 200 share gains over 10 years', verdict is partially_true because the 56% figure is specifically for ASX 200 shares held 10 years to March 2026, and shouldn't be applied to other asset classes or time periods.",
@@ -1772,18 +1736,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
-      "description": "The government's budget measures include a $2B infrastructure initiative claimed to enable ~65,000 additional homes. REIA supports this claim as 'positive and necessary', but credible analysis often questions whether infrastructure funding reliably translates to housing completions, given construction timelines, zoning constraints, and other delivery risks. This tests the credibility of a major budget housing promise.",
-      "suggestion": "Add to debates.json: budget.gov.au and apimagazine.com.au (REIA) present the $2B infrastructure initiative as expected to deliver ~65,000 additional homes as a key housing supply measure. However, credible critics question whether infrastructure funding alone can reliably produce specific housing outcomes given project timelines, planning approvals, and construction capacity constraints.",
-      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260604-775",
-      "timestamp": "2026-06-04T16:43:50.366Z",
-      "status": "pending"
     },
     {
       "type": "debate_page",
@@ -5556,18 +5508,6 @@
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 Receives Royal Assent — Legislation Now Enacted",
-      "description": "[UNVERIFIED — could not find corroborating source] The housing reform bill containing negative gearing and CGT changes has officially received Royal Assent, making the legislation law. This follows earlier Senate passage and resolves the earlier opposition challenge.",
-      "suggestion": "Update legislative status from 'Senate passes legislation' to 'Royal Assent obtained — legislation enacted' with effective dates confirmed.",
-      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=t/2026_Budg_1",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260622-583",
-      "timestamp": "2026-06-22T13:27:03.257Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
       "title": "Coalition releases detailed repeal costings — $23bn impact on housing package over decade",
       "description": "Opposition Treasury analysis quantifies cost to budget of maintaining negative gearing and CGT changes, providing the first detailed fiscal impact of potential reversal under a change of government.",
       "suggestion": "Add new analysis section on Coalition repeal costings with fiscal impact figures and implementation timeline if elected.",
@@ -6981,6 +6921,58 @@
       "timestamp": "2026-06-03T18:17:27.522Z",
       "status": "implemented",
       "implemented_at": "2026-06-22T09:45:29.340Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 Receives Royal Assent — Legislation Now Enacted",
+      "description": "[UNVERIFIED — could not find corroborating source] The housing reform bill containing negative gearing and CGT changes has officially received Royal Assent, making the legislation law. This follows earlier Senate passage and resolves the earlier opposition challenge.",
+      "suggestion": "Update legislative status from 'Senate passes legislation' to 'Royal Assent obtained — legislation enacted' with effective dates confirmed.",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=t/2026_Budg_1",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260622-583",
+      "timestamp": "2026-06-22T13:27:03.257Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-22T15:17:57.418Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "The Real Estate Institute of Australia President claims the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes.' This is a specific quantitative claim that lacks independent verification and may conflict with treasury/cost estimate skeptics.",
+      "suggestion": "Add to debates.json: view_a from API Magazine/REIA says $2B infrastructure will enable 65,000 additional homes, view_b from economic analysts question whether the $2B allocation can realistically deliver this target given infrastructure costs and housing supply chain constraints",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260604-804",
+      "timestamp": "2026-06-04T06:30:05.088Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-22T15:18:59.330Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The 30% floor may only apply to gains above inflation, not all gains. The official budget description states 'a discount based on inflation' which could mean: (nominal gain - inflation adjustment) is taxed, with a 30% floor on that taxable portion. This is a significant difference from 'tax on ALL gains is minimum 30%'. The ASX analysis also shows an example of 8% vs 30% for nominal vs indexed gains, suggesting the 30% only applies to inflation-adjusted gains.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax on ALL capital gains', verdict is disputed because the 30% floor may apply only to gains above inflation rather than all gains, making the claim an oversimplification.",
+      "source": "https://www.budget.gov.au/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260604-337",
+      "timestamp": "2026-06-04T10:55:08.650Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-22T15:19:29.927Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "The government's budget measures include a $2B infrastructure initiative claimed to enable ~65,000 additional homes. REIA supports this claim as 'positive and necessary', but credible analysis often questions whether infrastructure funding reliably translates to housing completions, given construction timelines, zoning constraints, and other delivery risks. This tests the credibility of a major budget housing promise.",
+      "suggestion": "Add to debates.json: budget.gov.au and apimagazine.com.au (REIA) present the $2B infrastructure initiative as expected to deliver ~65,000 additional homes as a key housing supply measure. However, credible critics question whether infrastructure funding alone can reliably produce specific housing outcomes given project timelines, planning approvals, and construction capacity constraints.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260604-775",
+      "timestamp": "2026-06-04T16:43:50.366Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-22T15:20:14.243Z"
     }
   ],
   "skipped": [
@@ -7509,6 +7501,20 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-21T17:25:36.923Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the 50% CGT discount being eliminated, replaced, or grandfathered for existing properties?",
+      "description": "Government budget fact sheets show the 50% CGT discount still applies to existing properties, while media reports characterize the changes as the discount being 'replaced' or eliminated. This creates confusion about whether existing investors retain their current tax treatment.",
+      "suggestion": "Add to debates.json: view_a from budget.gov.au says existing property investors retain 50% CGT discount (example shows Michael selling in 2028 still receives 50% discount), view_b from ABC News says government 'breaks promise' with restrictions to CGT discount, implying elimination or major change",
+      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260604-921",
+      "timestamp": "2026-06-04T06:30:05.088Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-22T15:18:16.584Z"
     }
   ],
   "needs_manual_review": [

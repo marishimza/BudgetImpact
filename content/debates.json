@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T09:44:41.193Z",
+  "lastUpdated": "2026-06-22T15:20:14.240Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2118,6 +2118,53 @@
         "argument": "Government sources frame the same changes as 'tax reform' limiting negative gearing to new builds to 'focus tax support on new supply.' Budget.gov.au characterizes this as legitimate policy refinement rather than promise-breaking, positioning the changes as targeted intervention to address housing supply.",
         "sources": [
           "https://www.budget.gov.au"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-090",
+      "slug": "will-2b-infrastructure-initiative-deliver-65000-homes",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "category": "Housing",
+      "type": "projection_disagreement",
+      "summary": "The Real Estate Institute of Australia claims the federal government's $2B infrastructure initiative will enable approximately 65,000 additional homes. However, economic analysts question whether this ambitious target is achievable given infrastructure costs, construction capacity constraints, and housing supply chain limitations.",
+      "view_a": {
+        "label": "REIA optimistic projection",
+        "argument": "The Real Estate Institute of Australia President has stated that the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes.' The REIA argues that strategic infrastructure investment removes key bottlenecks to development, including transport connectivity, utilities provision, and community facilities that previously made certain sites unviable for housing construction. The initiative targets areas with high development potential where infrastructure gaps have historically prevented projects from proceeding, making the 65,000 target a realistic expectation based on identified pipeline opportunities.",
+        "sources": [
+          "REIA official statements on Budget 2026 housing measures"
+        ]
+      },
+      "view_b": {
+        "label": "Economic analysts sceptical",
+        "argument": "Economic analysts and treasury cost estimators question whether the $2B allocation can realistically deliver 65,000 additional homes. Critics point out that infrastructure costs per dwelling can vary significantly depending on location and existing utility networks, with some estimates suggesting costs could exceed initial projections. Additionally, housing supply chain constraints including labour shortages, material costs, and planning approval backlogs limit the construction sector's capacity to rapidly scale output regardless of infrastructure investment. Independent cost modelling may be needed to verify whether the 65,000 figure represents a realistic delivery target or an optimistic projection.",
+        "sources": [
+          "Independent economic analysis of infrastructure cost per dwelling"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-091",
+      "slug": "will-2b-infrastructure-initiative-actually-deliver-65000-homes",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "The government claims its $2B infrastructure initiative will enable ~65,000 additional homes. Supporters argue this funding is essential for unlocking housing supply, while critics question whether infrastructure investment alone can reliably produce specific housing outcomes given planning, timeline, and capacity constraints.",
+      "view_a": {
+        "label": "Government/Industry Support",
+        "argument": "The $2B infrastructure investment is a targeted and necessary measure to unlock housing supply. Infrastructure bottlenecks—including inadequate roads, utilities, and community facilities—are key constraints on housing development. By addressing these barriers, the government can enable developers to build at scale. REIA has described the measure as 'positive and necessary', and the budget documentation identifies the 65,000 home target as a realistic projection based on infrastructure capacity analysis.",
+        "sources": [
+          "https://budget.gov.au/2026-27/content/overview.htm",
+          "https://www.aph.gov.au/About_Parliament/Parliamentary_departments/Parliamentary_Library/Research/Budget_Review"
+        ]
+      },
+      "view_b": {
+        "label": "Critical Analysis",
+        "argument": "Credible analysis questions whether infrastructure funding reliably translates to housing completions. The 65,000 home figure represents potential capacity, not guaranteed delivery. Key risks include: (1) extended construction timelines that may delay completions beyond budget cycles, (2) zoning and planning approval bottlenecks that infrastructure alone cannot resolve, (3) construction sector capacity constraints limiting how quickly homes can be built, and (4) the gap between infrastructure being funded and infrastructure being operational. Without complementary measures addressing these factors, the 65,000 target may be aspirational rather than achievable.",
+        "sources": [
+          "https://www.aph.gov.au/About_Parliament/Parliamentary_departments/Parliamentary_Library/Research/Budget_Review"
         ]
       },
       "verdict": null

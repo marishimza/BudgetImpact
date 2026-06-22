@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T21:55:41.072Z",
+  "lastUpdated": "2026-06-22T23:17:34.989Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1758,42 +1758,6 @@
       "source": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
       "implementation_effort": "10_minutes",
       "id": "suggestion-20260604-396",
-      "timestamp": "2026-06-04T21:23:52.828Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Is the CGT discount being eliminated, replaced with indexation, or preserved with a choice?",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The 50% CGT discount faces different characterizations across sources—some state it is being 'replaced' by indexation, others suggest investors can choose between methods. This fundamental disagreement affects how investors plan for the July 2027 changes.",
-      "suggestion": "Add to debates.json: NAB Budget Analysis states 'CGT discount replaced by cost base indexation,' suggesting no choice. However, other sources (including government fact sheets and Baker McKenzie) indicate taxpayers may have a choice between the discount and indexation method. These descriptions are contradictory.",
-      "source": "https://www.bakermckenzie.com/en/insight/publications/2026/05/australia-budget-bites-cgt-discount-and-negative-gearing",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260604-741",
-      "timestamp": "2026-06-04T21:23:52.828Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over the past decade",
-      "description": "Multiple sources cite Treasury data stating that 'inflation made up 56 per cent of asset price growth for ASX 200 shares held for 10 years to March 2026.' This is a specific percentage claim attributed to official government sources (Treasury, ASX, ABS) that could be verified for accuracy, methodology, and proper context. The claim uses a specific time period ('10 years to March 2026') and a specific percentage that could be misquoted or taken out of context if used to justify CGT changes.",
-      "suggestion": "Add to fact-checks.json: Verify the specific 56% figure, its calculation methodology (how inflation was measured), and whether this applies uniformly across all asset types or only shares. The claim could be partially true but oversimplified if it doesn't account for different asset classes or holding periods.",
-      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-investment-property-shares/2026-05-13",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260604-266",
-      "timestamp": "2026-06-04T21:23:52.828Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: A retired investor on a 16% marginal tax rate 'faces 8% tax on nominal gains' under the current CGT system",
-      "description": "The ASX analysis states that 'a retired investor on a 16% marginal rate selling a long-held equity portfolio currently faces 8% tax on nominal gains, as opposed to 30% on indexed gains.' This creates a dramatic comparison (8% vs 30%) that could be misleading. The 8% figure represents the effective tax rate after the 50% CGT discount (16% × 50% = 8%), but this comparison doesn't account for whether indexation or the 50% discount produces a better outcome for different holding periods and inflation scenarios.",
-      "suggestion": "Add to fact-checks.json: Verify this claim by checking whether the 8% vs 30% comparison accurately represents the change, and whether indexation always produces a higher tax burden than the 50% discount for long-held assets. The claim appears to contrast nominal gains (no indexation) with indexed gains, but may oversimplify the choice between discount and indexation.",
-      "source": "https://www.asx.com.au/au/resources/investing-in-shares/federal-budget.html",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260604-941",
       "timestamp": "2026-06-04T21:23:52.828Z",
       "status": "pending"
     },
@@ -5590,30 +5554,6 @@
       "status": "pending"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Coalition releases detailed repeal costings — $23bn impact on housing package over decade",
-      "description": "[UNVERIFIED — could not find corroborating source] The opposition has released detailed costings for its proposed repeal of negative gearing and CGT changes, quantifying a $23 billion impact on the housing package over ten years. This provides voters with clear fiscal comparison between government and opposition housing tax policies.",
-      "suggestion": "Add Coalition repeal costings to opposition-analysis section alongside Treasury's original $6.4bn costing",
-      "source": "https://www.liberals.org.au",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260622-593",
-      "timestamp": "2026-06-22T21:55:35.715Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Greens propose 40% additional super tax on balances exceeding $10 million alongside Budget reforms",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Australian Greens have proposed an additional 40% tax on superannuation balances exceeding $10 million, positioned alongside the Government's Division 296 reforms targeting the $3 million threshold. This represents a different approach to addressing superannuation tax concessions.",
-      "suggestion": "Add Greens super tax proposal to super-tax-comparison section as alternative policy position",
-      "source": "https://greens.org.au",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260622-360",
-      "timestamp": "2026-06-22T21:55:35.715Z",
-      "status": "pending"
-    },
-    {
       "type": "fact_check",
       "priority": "medium",
       "title": "Claim: $2B infrastructure initiative will deliver 65,000 additional homes",
@@ -6990,6 +6930,58 @@
       "timestamp": "2026-06-04T21:23:52.828Z",
       "status": "implemented",
       "implemented_at": "2026-06-22T19:22:57.759Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Coalition releases detailed repeal costings — $23bn impact on housing package over decade",
+      "description": "[UNVERIFIED — could not find corroborating source] The opposition has released detailed costings for its proposed repeal of negative gearing and CGT changes, quantifying a $23 billion impact on the housing package over ten years. This provides voters with clear fiscal comparison between government and opposition housing tax policies.",
+      "suggestion": "Add Coalition repeal costings to opposition-analysis section alongside Treasury's original $6.4bn costing",
+      "source": "https://www.liberals.org.au",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260622-593",
+      "timestamp": "2026-06-22T21:55:35.715Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-22T23:15:25.715Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Greens propose 40% additional super tax on balances exceeding $10 million alongside Budget reforms",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Australian Greens have proposed an additional 40% tax on superannuation balances exceeding $10 million, positioned alongside the Government's Division 296 reforms targeting the $3 million threshold. This represents a different approach to addressing superannuation tax concessions.",
+      "suggestion": "Add Greens super tax proposal to super-tax-comparison section as alternative policy position",
+      "source": "https://greens.org.au",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260622-360",
+      "timestamp": "2026-06-22T21:55:35.715Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-22T23:15:49.589Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the CGT discount being eliminated, replaced with indexation, or preserved with a choice?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The 50% CGT discount faces different characterizations across sources—some state it is being 'replaced' by indexation, others suggest investors can choose between methods. This fundamental disagreement affects how investors plan for the July 2027 changes.",
+      "suggestion": "Add to debates.json: NAB Budget Analysis states 'CGT discount replaced by cost base indexation,' suggesting no choice. However, other sources (including government fact sheets and Baker McKenzie) indicate taxpayers may have a choice between the discount and indexation method. These descriptions are contradictory.",
+      "source": "https://www.bakermckenzie.com/en/insight/publications/2026/05/australia-budget-bites-cgt-discount-and-negative-gearing",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260604-741",
+      "timestamp": "2026-06-04T21:23:52.828Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-22T23:16:21.552Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: A retired investor on a 16% marginal tax rate 'faces 8% tax on nominal gains' under the current CGT system",
+      "description": "The ASX analysis states that 'a retired investor on a 16% marginal rate selling a long-held equity portfolio currently faces 8% tax on nominal gains, as opposed to 30% on indexed gains.' This creates a dramatic comparison (8% vs 30%) that could be misleading. The 8% figure represents the effective tax rate after the 50% CGT discount (16% × 50% = 8%), but this comparison doesn't account for whether indexation or the 50% discount produces a better outcome for different holding periods and inflation scenarios.",
+      "suggestion": "Add to fact-checks.json: Verify this claim by checking whether the 8% vs 30% comparison accurately represents the change, and whether indexation always produces a higher tax burden than the 50% discount for long-held assets. The claim appears to contrast nominal gains (no indexation) with indexed gains, but may oversimplify the choice between discount and indexation.",
+      "source": "https://www.asx.com.au/au/resources/investing-in-shares/federal-budget.html",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260604-941",
+      "timestamp": "2026-06-04T21:23:52.828Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-22T23:17:34.989Z"
     }
   ],
   "skipped": [
@@ -7532,6 +7524,20 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-22T19:21:34.271Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "description": "Multiple sources cite Treasury data stating that 'inflation made up 56 per cent of asset price growth for ASX 200 shares held for 10 years to March 2026.' This is a specific percentage claim attributed to official government sources (Treasury, ASX, ABS) that could be verified for accuracy, methodology, and proper context. The claim uses a specific time period ('10 years to March 2026') and a specific percentage that could be misquoted or taken out of context if used to justify CGT changes.",
+      "suggestion": "Add to fact-checks.json: Verify the specific 56% figure, its calculation methodology (how inflation was measured), and whether this applies uniformly across all asset types or only shares. The claim could be partially true but oversimplified if it doesn't account for different asset classes or holding periods.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-investment-property-shares/2026-05-13",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260604-266",
+      "timestamp": "2026-06-04T21:23:52.828Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-22T23:16:39.158Z"
     }
   ],
   "needs_manual_review": [

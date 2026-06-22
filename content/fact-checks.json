@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T19:22:08.123Z",
+  "lastUpdated": "2026-06-22T23:17:34.986Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1551,6 +1551,29 @@
       ],
       "date_checked": "2026-06-22",
       "category": "tax"
+    },
+    {
+      "id": "fc-081",
+      "slug": "cgt-discount-vs-indexation-comparison-misleading",
+      "claim": "A retired investor on a 16% marginal tax rate 'faces 8% tax on nominal gains' under the current CGT system, as opposed to 30% on indexed gains.",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The 8% figure is mathematically correct (16% × 50% CGT discount = 8% effective rate), and the 30% on indexed gains reflects the old indexation method. However, the comparison is misleading because it presents these as fixed outcomes rather than alternative calculation methods taxpayers can choose between based on which produces the lower tax liability.",
+      "detailed_explanation": "The claim's numbers are arithmetically accurate: under the current CGT system, individual investors on a 16% marginal tax rate who qualify for the 50% CGT discount face an effective rate of 8% on nominal capital gains. The 30% figure represents the tax on fully indexed gains at the old system (indexed cost base multiplied by 30% marginal rate). However, the claim creates a misleading comparison by treating these as the only two applicable rates. In reality, for assets acquired after 21 September 1999, taxpayers can choose between calculating CGT using the 50% discount method or the indexation method—whichever results in a lower tax liability. The actual outcome depends on the holding period and inflation during ownership. For short holding periods, the 50% discount typically produces lower CGT. For long-held assets with high inflation, indexation may produce a lower or comparable result. The ASX analysis correctly notes the dramatic 8% vs 30% comparison, but framing this as the 'choice' facing investors oversimplifies the decision-making process and may mislead readers about the relative burden of the current system.",
+      "sources": [
+        {
+          "name": "ASX - Investing in Shares",
+          "url": "https://www.asx.com.au/au/resources/investing-in-shares/federal-budget.html",
+          "type": "analysis"
+        },
+        {
+          "name": "ATO - Capital gains tax",
+          "url": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-22",
+      "category": "taxation"
     }
   ]
 }

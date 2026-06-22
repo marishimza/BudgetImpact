@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T19:21:17.490Z",
+  "lastUpdated": "2026-06-22T23:15:49.586Z",
   "items": [
     {
       "id": "update-001",
@@ -2369,6 +2369,26 @@
       "title": "Greens propose 40% additional super tax on balances exceeding $10 million alongside Budget reforms",
       "summary": "The Australian Greens party has announced a new policy proposal for an additional 40% tax on superannuation balances exceeding $10 million, positioning it as complementary to the Government's Division 296 changes targeting the $3 million threshold. This introduces a third tier to super tax reform debate and targets ultra-high balance superannuation accounts as part of broader wealth taxation discussions.",
       "url": "https://greens.org.au/super-tax-reform-2026",
+      "priority": "high"
+    },
+    {
+      "id": "update-235",
+      "date": "2026-06-22",
+      "tag": "Property",
+      "source": "Liberal Party of Australia",
+      "title": "Coalition releases detailed repeal costings — $23bn impact on housing package over decade",
+      "summary": "The opposition has released detailed costings for its proposed repeal of negative gearing and CGT changes, quantifying a $23 billion impact on the housing package over ten years. This provides voters with a clear fiscal comparison between government and opposition housing tax policies. The figure sits notably higher than Treasury's original $6.4 billion costing for the housing measures.",
+      "url": "https://www.liberals.org.au",
+      "priority": "medium"
+    },
+    {
+      "id": "update-236",
+      "date": "2026-06-22",
+      "tag": "Superannuation",
+      "source": "Australian Greens",
+      "title": "Greens propose 40% additional super tax on balances exceeding $10 million alongside Budget reforms",
+      "summary": "The Australian Greens have proposed an additional 40% tax on superannuation balances exceeding $10 million, representing a more targeted approach to addressing super tax concessions compared to the Government's Division 296 reforms targeting the $3 million threshold. The Greens position frames this as an alternative policy pathway for funding Budget initiatives while maintaining relief for middle-income earners. This proposal adds to the policy debate on superannuation taxation reform ahead of the 2026-27 financial year.",
+      "url": "https://greens.org.au/policies/economy/superannuation",
       "priority": "high"
     }
   ]

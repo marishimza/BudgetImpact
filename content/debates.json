@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T19:22:57.756Z",
+  "lastUpdated": "2026-06-22T23:16:21.549Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2189,6 +2189,30 @@
         "argument": "Technical analysis from other sources interprets the 30% minimum as applying only to real gains above inflation. Under this view, the inflation component of capital gains may be subject to lower effective rates or treated more favorably, while the 30% floor only constrains the taxation of genuine economic gains. This interpretation suggests that inflation-adjusted capital gains (real gains) would face the 30% minimum, but the nominal gain attributable purely to inflation would not be subject to this floor. This interpretation would provide more favorable treatment for investors whose gains primarily reflect inflationary pressures rather than real value creation.",
         "sources": [
           "Technical CGT analysis 2026-27"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-093",
+      "slug": "is-the-cgt-discount-being-eliminated-replaced-with-indexation-or-preserved-with-a-choice",
+      "title": "Is the CGT discount being eliminated, replaced with indexation, or preserved with a choice?",
+      "category": "tax",
+      "type": "factual_dispute",
+      "summary": "The characterisation of the 50% CGT discount under the proposed July 2027 changes is contested. Some sources indicate the discount is being outright replaced by cost base indexation, while others—including government fact sheets and legal analysis—suggest taxpayers will retain the ability to choose between the discount and indexation methods. This fundamental disagreement affects how investors plan for the impending tax changes.",
+      "view_a": {
+        "label": "Discount Replaced by Indexation",
+        "argument": "NAB Budget Analysis characterises the change as a direct replacement of the 50% CGT discount with cost base indexation. Under this interpretation, investors lose access to the discount entirely and the indexation method becomes the sole mechanism for calculating capital gains for assets acquired after 8 May 2025.",
+        "sources": [
+          "NAB Budget Analysis"
+        ]
+      },
+      "view_b": {
+        "label": "Discount Preserved with Choice",
+        "argument": "Government fact sheets and legal analysis from Baker McKenzie indicate that the 50% CGT discount is not eliminated but rather preserved alongside a new indexation option. Taxpayers may choose between the discount method and the indexation method depending on which is more advantageous for their circumstances. This preserves flexibility for investors rather than mandating a single calculation method.",
+        "sources": [
+          "Baker McKenzie – Australia Budget Bites: CGT Discount and Negative Gearing (May 2026)",
+          "Government fact sheets"
         ]
       },
       "verdict": null

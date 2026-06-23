@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T07:43:30.457Z",
+  "lastUpdated": "2026-06-23T12:30:04.253Z",
   "items": [
     {
       "id": "update-001",
@@ -2399,6 +2399,26 @@
       "title": "Grattan Institute: Budget tax reforms unlikely to materially improve housing affordability until 2030s",
       "summary": "The Grattan Institute's independent modelling suggests that while the budget's negative gearing and capital gains tax changes represent architecturally significant reforms, they are unlikely to materially improve housing affordability until the 2030s. The think tank warns that housing supply constraints and strong investor demand will continue to pressure prices despite the tax policy changes. The analysis indicates that broader structural interventions beyond tax adjustments may be necessary to meaningfully address Australia's housing affordability challenges.",
       "url": "https://grattan.edu.au/report/housing-affordability-2026-budget-analysis/",
+      "priority": "medium"
+    },
+    {
+      "id": "update-238",
+      "date": "2026-05-15",
+      "tag": "Property",
+      "source": "ABC News",
+      "title": "Coalition releases detailed repeal costings: $23bn impact on housing package over decade",
+      "summary": "The Coalition has released detailed costings showing their proposed repeal of negative gearing and capital gains tax changes would cost $23 billion over ten years, directly affecting the government's housing package. This quantified data provides insight into the fiscal impact of potential policy reversal under alternative government. The costings highlight the significant budgetary implications of reverting to previous property investment tax arrangements.",
+      "url": "https://www.abc.net.au/news/2026-05-15/coalition-repeal-costings-housing-package",
+      "priority": "high"
+    },
+    {
+      "id": "update-239",
+      "date": "2026-06-23",
+      "tag": "Property",
+      "source": "Grattan Institute",
+      "title": "Grattan Institute: Budget tax reforms unlikely to materially improve housing affordability until 2030s",
+      "summary": "Independent think tank Grattan Institute modelling suggests the 2026 Budget housing measures—including negative gearing restrictions and capital gains tax changes—will not materially improve housing affordability until the 2030s. The analysis cites the extended time required for supply responses and behavioural changes to take effect. Grattan notes that while the reforms address structural issues, households should not expect significant relief in the near term.",
+      "url": "https://grattan.edu.au/news/budget-2026-housing-reform-timeline",
       "priority": "medium"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T23:16:21.549Z",
+  "lastUpdated": "2026-06-23T07:44:12.010Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2214,6 +2214,27 @@
           "Baker McKenzie – Australia Budget Bites: CGT Discount and Negative Gearing (May 2026)",
           "Government fact sheets"
         ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-094",
+      "slug": "negative-gearing-housing-crisis-debate",
+      "title": "Is negative gearing the key driver of Australia's housing crisis?",
+      "category": "Housing/Affordability",
+      "type": "factual_dispute",
+      "summary": "A factual disagreement exists between the Law Society Journal, citing economists who argue negative gearing is 'the key reason' for Australia's housing affordability and rental crisis, and the Real Estate Institute of Australia (REIA), which takes a nuanced supply-side approach without endorsing negative gearing as the primary driver of the crisis.",
+      "view_a": {
+        "label": "Law Society Journal (citing economists)",
+        "argument": "Negative gearing is 'the key reason' for Australia's housing affordability and rental crisis. Economists cited by the Law Society Journal argue that this tax policy distorts property investment decisions, incentivising speculative purchases of existing housing stock over new construction, thereby exacerbating both prices and rents for Australian households.",
+        "sources": [
+          "https://lsj.com.au/articles/federal-budget-2026-limits-to-negative-gearing-and-capital-gains-tax-reform/"
+        ]
+      },
+      "view_b": {
+        "label": "REIA President Jacob Caine",
+        "argument": "While supporting budget measures addressing housing supply, the REIA does not endorse negative gearing as the primary cause of the crisis. President Jacob Caine has praised measures that support new housing supply as 'positive and necessary steps toward addressing Australia's housing shortage', emphasising a supply-side solution rather than attributing the crisis primarily to negative gearing.",
+        "sources": []
       },
       "verdict": null
     }

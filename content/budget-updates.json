@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T23:15:49.586Z",
+  "lastUpdated": "2026-06-23T07:43:30.457Z",
   "items": [
     {
       "id": "update-001",
@@ -2390,6 +2390,16 @@
       "summary": "The Australian Greens have proposed an additional 40% tax on superannuation balances exceeding $10 million, representing a more targeted approach to addressing super tax concessions compared to the Government's Division 296 reforms targeting the $3 million threshold. The Greens position frames this as an alternative policy pathway for funding Budget initiatives while maintaining relief for middle-income earners. This proposal adds to the policy debate on superannuation taxation reform ahead of the 2026-27 financial year.",
       "url": "https://greens.org.au/policies/economy/superannuation",
       "priority": "high"
+    },
+    {
+      "id": "update-237",
+      "date": "2026-06-23",
+      "tag": "Property",
+      "source": "Grattan Institute",
+      "title": "Grattan Institute: Budget tax reforms unlikely to materially improve housing affordability until 2030s",
+      "summary": "The Grattan Institute's independent modelling suggests that while the budget's negative gearing and capital gains tax changes represent architecturally significant reforms, they are unlikely to materially improve housing affordability until the 2030s. The think tank warns that housing supply constraints and strong investor demand will continue to pressure prices despite the tax policy changes. The analysis indicates that broader structural interventions beyond tax adjustments may be necessary to meaningfully address Australia's housing affordability challenges.",
+      "url": "https://grattan.edu.au/report/housing-affordability-2026-budget-analysis/",
+      "priority": "medium"
     }
   ]
 }

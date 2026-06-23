@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T23:17:34.986Z",
+  "lastUpdated": "2026-06-23T07:44:45.824Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1573,6 +1573,24 @@
         }
       ],
       "date_checked": "2026-06-22",
+      "category": "taxation"
+    },
+    {
+      "id": "fc-082",
+      "slug": "capital-gains-30-percent-floor-indexed-gains",
+      "claim": "Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The 30% minimum rate applies to indexed (inflation-adjusted) gains above the cost base, not to total nominal gains.",
+      "detailed_explanation": "The 30% floor does not apply to total nominal gains as commonly reported. Under the new system, the cost base is first indexed to inflation, and only gains above this indexed threshold are subject to the minimum 30% rate. For example, an investor currently on a 16% marginal rate facing 8% tax on nominal gains would see those gains taxed at 30% on the indexed portion only. The indexation mechanism means that where significant inflation has occurred, the indexed cost base may be substantially higher, reducing the taxable gain. Investors in lower tax brackets or where indexation significantly reduces gains may face effective rates substantially different from 30%. The phrase 'on ALL gains' overstates the floor's actual application to indexed taxable gains only.",
+      "sources": [
+        {
+          "name": "ASX Budget 2026-27 Analysis",
+          "url": "https://www.asx.com.au/content/dam/asx/investors/ASX%20Budget%202026-27.pdf",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-23",
       "category": "taxation"
     }
   ]

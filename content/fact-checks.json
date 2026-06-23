@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T17:49:48.161Z",
+  "lastUpdated": "2026-06-23T23:04:01.067Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1638,6 +1638,24 @@
       ],
       "date_checked": "2026-06-23",
       "category": "fact_check"
+    },
+    {
+      "id": "fc-085",
+      "slug": "division-296-tax-base-super-balances",
+      "claim": "15% tax on all super balances over $3m",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "Division 296 applies 15% tax only to the earnings attributable to the portion of a super balance exceeding $3m, not the entire balance above the threshold.",
+      "detailed_explanation": "The claim conflates the tax base. According to the ATO, Division 296 tax is 15% on 'the proportion of earnings relating to your total superannuation balance (TSB) that exceeds the $3m threshold' — not on the balance itself. Media coverage often simplifies this to '15% on balances over $3m', which overstates the tax impact since only earnings (not principal) above the threshold are taxed. The $3m threshold is based on an individual's Total Superannuation Balance, and the 15% additional tax applies only to the share of income derived from assets that correspond to the amount above $3m.",
+      "sources": [
+        {
+          "name": "Australian Taxation Office",
+          "url": "https://www.ato.gov.au/Super/APRA-regulated-funds/Your-superannuation/Super-contributions/Division-296-tax/",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-23",
+      "category": "superannuation"
     }
   ]
 }

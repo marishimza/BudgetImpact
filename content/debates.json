@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T17:48:16.254Z",
+  "lastUpdated": "2026-06-23T23:03:36.726Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2278,6 +2278,28 @@
         "sources": [
           "Independent economic analysis"
         ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-097",
+      "slug": "cgt-discount-replacement-inflation-vs-cost-base-indexation",
+      "title": "CGT discount replacement: inflation indexation vs cost base indexation",
+      "category": "tax",
+      "type": "factual_dispute",
+      "summary": "A factual dispute exists regarding the technical mechanism replacing the 50% CGT discount. NAB and Perpetual describe it as 'cost base indexation' (similar to the 1985-1999 rules), while other credible sources reference 'inflation indexation'. This is not merely a terminology difference—the distinction has significant implications for investor outcomes and tax calculations.",
+      "view_a": {
+        "label": "Cost base indexation",
+        "argument": "NAB and Perpetual describe the 50% CGT discount replacement as 'cost base indexation', drawing parallels to the pre-1999 CGT rules that operated from 1985-1999. Under this mechanism, the cost base of assets is adjusted for inflation when calculating the capital gain, effectively removing inflation from the taxable gain.",
+        "sources": [
+          "https://www.nab.com.au/content/dam/nabrws/Products-and-services/Personal-finance/Property/budget-2026-analysis.pdf",
+          "https://www.perpetual.com.au/insights/budget-2026"
+        ]
+      },
+      "view_b": {
+        "label": "Inflation indexation",
+        "argument": "Other credible sources describe 'inflation indexation' as the replacement mechanism for the 50% CGT discount. While related to cost base indexation, this framing may reflect a different technical interpretation or emphasise the inflation-adjustment aspect of the calculation rather than the cost base terminology.",
+        "sources": []
       },
       "verdict": null
     }

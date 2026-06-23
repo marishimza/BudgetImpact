@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T17:49:19.690Z",
+  "lastUpdated": "2026-06-23T23:06:24.002Z",
   "items": [
     {
       "id": "update-001",
@@ -2449,6 +2449,36 @@
       "title": "Coalition release detailed repeal costings: $23 billion impact over decade",
       "summary": "The Opposition has released detailed costings for their proposed repeal of the housing reform package, estimating a $23 billion impact on the housing package over ten years if elected. The costings also clarify the scope of grandfathered arrangements under a potential repeal scenario. The release provides the first comprehensive financial analysis of the Coalition's alternative housing policy approach ahead of the next election cycle.",
       "url": "https://www.liberal.org.au/latest-news",
+      "priority": "high"
+    },
+    {
+      "id": "update-243",
+      "date": "2026-06-23",
+      "tag": "Parliament",
+      "source": "Australian Government Treasury",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 Receives Royal Assent — Legislation Now Enacted",
+      "summary": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has passed both houses of Parliament and received Royal Assent, formally enacting the government's housing tax reform package. The legislation replaces the 50% CGT discount with inflation indexation and introduces a 30% minimum tax on capital gains from investment properties. Negative gearing restrictions on established properties have also been implemented as part of this landmark housing reform.",
+      "url": "https://budget.gov.au/content/04-tax-reform.htm",
+      "priority": "high"
+    },
+    {
+      "id": "update-244",
+      "date": "2026-06-23",
+      "tag": "Parliament",
+      "source": "Australian Parliament House",
+      "title": "Coalition releases detailed repeal costings: $23 billion impact on housing package over decade",
+      "summary": "The Opposition has released detailed costings showing that repealing the housing tax reform package would cost $23 billion in revenue over a decade. The costings detail the impact on negative gearing and CGT changes, including implications for grandfathered arrangements for existing property investors.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/bd/bd2526",
+      "priority": "high"
+    },
+    {
+      "id": "update-245",
+      "date": "2026-05-11",
+      "tag": "Budget",
+      "source": "budget.gov.au",
+      "title": "Venture Capital Tax Incentives Expanded from July 2027 Under Budget 2026 Measures",
+      "summary": "The 2026 Budget confirms the expansion of venture capital tax incentives from July 2027 as part of broader tax reform measures. The expansion is designed to support innovation and startup investment alongside changes to negative gearing and CGT arrangements. This measure aims to strengthen Australia's venture capital ecosystem and encourage greater private investment in early-stage companies.",
+      "url": "https://budget.gov.au/content/04-tax-reform.htm",
       "priority": "high"
     }
   ]

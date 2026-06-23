@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T12:30:04.253Z",
+  "lastUpdated": "2026-06-23T17:49:19.690Z",
   "items": [
     {
       "id": "update-001",
@@ -2420,6 +2420,36 @@
       "summary": "Independent think tank Grattan Institute modelling suggests the 2026 Budget housing measures—including negative gearing restrictions and capital gains tax changes—will not materially improve housing affordability until the 2030s. The analysis cites the extended time required for supply responses and behavioural changes to take effect. Grattan notes that while the reforms address structural issues, households should not expect significant relief in the near term.",
       "url": "https://grattan.edu.au/news/budget-2026-housing-reform-timeline",
       "priority": "medium"
+    },
+    {
+      "id": "update-240",
+      "date": "2026-06-23",
+      "tag": "Parliament",
+      "source": "The Guardian",
+      "title": "Labor-Greens deal confirms CGT and negative gearing reforms will pass Parliament",
+      "summary": "The Labor government has reached a deal with the Greens to secure passage of the Treasury Laws Amendment (More Housing, More Help) Bill 2026, ending weeks of parliamentary negotiations over negative gearing and CGT discount reforms. The cross-party agreement ensures the controversial housing affordability measures will pass both houses of Parliament. The legislation marks a significant shift in tax treatment of investment properties and capital gains.",
+      "url": "https://www.theguardian.com/australia-news/2026/jun/23/labor-greens-deal-capital-gains-tax-negative-gearing-reforms",
+      "priority": "high"
+    },
+    {
+      "id": "update-241",
+      "date": "2026-06-23",
+      "tag": "Property",
+      "source": "Grattan Institute",
+      "title": "Grattan Institute: Housing affordability impact unlikely until 2030s",
+      "summary": "Independent analysis from the Grattan Institute suggests Budget 2026 tax reforms—including negative gearing restrictions and CGT changes—are unlikely to materially improve housing affordability until the 2030s. The modelling raises questions about the timeline of expected benefits from the government's housing policy interventions. Property analysts note that the delayed impact reflects the long-term nature of housing market dynamics and the time required for policy changes to flow through the system.",
+      "url": "https://grattan.edu.au/news/budget-2026-housing-reforms-impact",
+      "priority": "high"
+    },
+    {
+      "id": "update-242",
+      "date": "2026-06-23",
+      "tag": "Budget",
+      "source": "Liberal Party",
+      "title": "Coalition release detailed repeal costings: $23 billion impact over decade",
+      "summary": "The Opposition has released detailed costings for their proposed repeal of the housing reform package, estimating a $23 billion impact on the housing package over ten years if elected. The costings also clarify the scope of grandfathered arrangements under a potential repeal scenario. The release provides the first comprehensive financial analysis of the Coalition's alternative housing policy approach ahead of the next election cycle.",
+      "url": "https://www.liberal.org.au/latest-news",
+      "priority": "high"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T12:30:32.363Z",
+  "lastUpdated": "2026-06-23T17:49:48.161Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1610,6 +1610,34 @@
       ],
       "date_checked": "2026-06-23",
       "category": "superannuation"
+    },
+    {
+      "id": "fc-084",
+      "slug": "inflation-56-percent-asx200-share-gains",
+      "claim": "Inflation accounts for 56% of ASX 200 share gains over 10 years to March 2026",
+      "verdict": "verified",
+      "verdict_label": "Verified with caveats",
+      "short_explanation": "Treasury and budget.gov.au data confirms the 56% figure, but it applies specifically to shares held for exactly 10 years and does not apply to property or other asset classes.",
+      "detailed_explanation": "The Treasury analysis cited in the 2026-27 Budget documents and by the ABC confirms that inflation accounted for 56% of ASX 200 asset price growth for shares held over the 10-year period to March 2026. This statistic is accurate as presented. However, important context is required: (1) The 56% figure refers to inflation's contribution to price growth, not total returns including dividends; (2) The figure applies specifically to shares held for exactly 10 years and may differ for shorter or longer holding periods; (3) This analysis is specific to ASX 200 shares and should not be applied to residential property or other asset classes, which have different inflation dynamics and tax treatments; (4) The figure should not be misrepresented as '56% of investment returns' more broadly.",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-investment-shift/2026-05-13",
+          "type": "news"
+        },
+        {
+          "name": "Australian Treasury",
+          "url": "https://www.treasury.gov.au",
+          "type": "official"
+        },
+        {
+          "name": "Budget 2026-27",
+          "url": "https://www.budget.gov.au",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-23",
+      "category": "fact_check"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T12:31:25.513Z",
+  "lastUpdated": "2026-06-23T17:48:16.254Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2254,6 +2254,30 @@
         "label": "Skeptical view",
         "argument": "Critics question whether the 65,000 figure is achievable or merely aspirational. This is a forward-looking projection from an industry body, not a confirmed delivery figure. The gap between 'expected to enable' and 'will deliver' represents a factual dispute about reliability, with budget.gov.au's more cautious 'expected to enable' framing suggesting uncertainty about actual outcomes.",
         "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-096",
+      "slug": "will-2b-infrastructure-initiative-deliver-65000-additional-homes",
+      "title": "Will $2B infrastructure initiative deliver 65,000 additional homes?",
+      "category": "Housing",
+      "type": "projection_disagreement",
+      "summary": "Government and industry bodies project the $2 billion infrastructure initiative will enable 65,000 additional homes, while independent analysis questions these projections and suggests affordability improvements remain distant.",
+      "view_a": {
+        "label": "Government & Industry Projections",
+        "argument": "Government and industry bodies including REIA claim the $2 billion infrastructure initiative will enable around 65,000 additional homes across Australia, providing significant support for housing supply growth and addressing the national housing shortage.",
+        "sources": [
+          "Federal Government announcements",
+          "Real Estate Institute of Australia (REIA)"
+        ]
+      },
+      "view_b": {
+        "label": "Independent Analysis",
+        "argument": "Independent sources explicitly question the 65,000 figure, with alternative estimates significantly lower than government projections. Independent modelling suggests housing affordability improvements won't materialise until the 2030s, raising concerns about the initiative's effectiveness and timeline.",
+        "sources": [
+          "Independent economic analysis"
+        ]
       },
       "verdict": null
     }

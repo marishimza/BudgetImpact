@@ -6439,6 +6439,85 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-15T19:41:25.965Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the CGT discount being eliminated, replaced, or preserved with a choice?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Budget and ABC News state investors can 'choose' between the 50% CGT discount or new arrangements. However, multiple sources (NAB, Guardian, ASA) describe the discount as being 'replaced' by indexation with no choice mentioned. This is a factual conflict about the structure of the reform.",
+      "suggestion": "Add to debates.json: Budget.gov.au says investors can 'choose' the 50% discount or new arrangements, while NAB and Guardian descriptions suggest indexation replaces the discount entirely with no choice provided for taxpayers.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm vs https://www.nab.com.au/content/dam/nab/documents/institutional/budget-2026-analysis.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260528-300",
+      "timestamp": "2026-05-28T17:32:16.402Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-15T23:30:29.953Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the 2026 budget tax reforms cause a prolonged housing market slump or a brief correction?",
+      "description": "NAB's revised forecast projects a 'brief correction not prolonged slump' following the negative gearing and CGT changes. However, other sources warn of potential market instability from investor behaviour changes and Coalition pledges to repeal the reforms. These represent conflicting market impact projections.",
+      "suggestion": "Add to debates.json: NAB Budget Analysis forecasts 'brief correction not prolonged slump', while concerns about Coalition repeal pledges and investor exit strategies suggest potential for more significant market disruption.",
+      "source": "https://www.superguide.com.au/super-booster/federal-budget-2026-overview vs https://parkerhadley.com.au/how-the-2026-australian-federal-budget-affects-property-investors/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260528-118",
+      "timestamp": "2026-05-28T17:32:16.402Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-15T23:31:13.196Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Negative gearing has been fully abolished for all established property investors from 1 July 2027'",
+      "description": "Media often frames this as a blanket removal affecting all established property investors. However, William Buck specifies the changes apply 'for established properties purchased after 7:30pm on 12 May 2026', and ABC confirms 'new property purchases will not be eligible'. This suggests existing negatively-geared investments may be grandfathered. The claim overstates the universality of the change.",
+      "suggestion": "Add to fact-checks.json: claim is 'negative gearing fully abolished for all established property investors from 1 July 2027', verdict is partially_true/disputed because changes apply to NEW purchases of established properties after 7:30pm 12 May 2026, not all existing investors",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260528-911",
+      "timestamp": "2026-05-28T06:03:09.694Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-15T23:29:52.799Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Does the super performance test protect members or constrain fund investment options?",
+      "description": "The Government claims the super performance test has been successful in protecting Australians from persistent underperformance. However, industry experts warn it constrains funds because it doesn't cater for all investments, particularly ESG, energy, venture capital and housing. This is a factual disagreement about whether the test serves members' interests or limits investment options.",
+      "suggestion": "Add to debates.json: View_a from CSC (csc.gov.au) says the performance test 'has had some success in protecting Australians from persistent underperformance.' View_b from Superguide (superguide.com.au) reports industry experts warning that it 'constrains funds because it doesn't cater for all investments, particularly ESG, energy, venture capital and housing.'",
+      "source": "https://www.superguide.com.au/super-booster/federal-budget-2026-overview",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260528-870",
+      "timestamp": "2026-05-28T11:30:30.085Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-15T23:30:04.121Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: The 50% CGT discount has been 'replaced' with no choice for taxpayers",
+      "description": "Several sources claim the 50% CGT discount is being 'replaced' by indexation with no choice. However, William Buck notes 'replaced by cost base indexation' while others say 'inflation indexation'. The critical question is whether existing property owners can choose between the old 50% discount and the new indexation method. The ASA specifically calls for 'averaging mechanism alongside indexation reform' suggesting some flexibility may exist. If the old discount remains available for existing assets as a choice, claims of complete 'replacement' would be inaccurate.",
+      "suggestion": "Add to fact-checks.json: claim is '50% discount is fully replaced with indexation (no choice)', verdict is partially_true because while the government proposes replacing the discount with indexation, legislation may preserve optionality for certain asset classes or grandfather existing holdings. Verify whether existing property investors can choose between methods.",
+      "source": "https://business.nab.com.au/2026-federal-budget-what-it-means-for-individuals/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260528-507",
+      "timestamp": "2026-05-28T11:30:30.085Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-15T23:30:10.976Z"
+    },
+    {
+      "id": "health-1781561450547-94tk",
+      "timestamp": "2026-06-15T22:10:50.547Z",
+      "status": "needs_manual_review",
+      "priority": "high",
+      "type": "site_health",
+      "title": "[HEALTH] $%7Bitem.Url%20||%20' page: HTTP 404",
+      "description": "HTTP 404",
+      "suggestion": "Investigate https://marishimza.github.io/BudgetImpact/$%7Bitem.url%20||%20'#'} — page failed health check. Check deployment and content files.",
+      "source": "https://marishimza.github.io/BudgetImpact/$%7Bitem.url%20||%20'#'}"
     }
   ]
 }

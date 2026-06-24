@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T17:50:14.765Z",
+  "lastUpdated": "2026-06-24T23:01:41.577Z",
   "items": [
     {
       "id": "update-001",
@@ -2549,6 +2549,16 @@
       "title": "Senate passes controversial budget measures — legislation now enacted",
       "summary": "The Senate has approved key budget legislation that was previously flagged for challenge by the opposition. The measures, which include tax reforms and spending adjustments, will now proceed to final royal assent. Crossbench senators reached a compromise on certain amendments before voting in favour of the package.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Information",
+      "priority": "high"
+    },
+    {
+      "id": "update-253",
+      "date": "2026-06-24",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Senate passes Budget Legislation — Opposition challenge resolved",
+      "summary": "The Senate has passed the key budget legislation that was previously subject to an opposition challenge flagged in May 2026. The passage clears the way for implementation of several budget measures that had been held pending legislative resolution. The government secured the necessary crossbench support to secure passage of the contentious bills.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Digests/Current_Sitting",
       "priority": "high"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T07:38:11.913Z",
+  "lastUpdated": "2026-06-24T12:15:43.682Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1674,6 +1674,24 @@
       ],
       "date_checked": "2026-06-24",
       "category": "fact_check"
+    },
+    {
+      "id": "fc-087",
+      "slug": "division-296-earnings-not-balance-tax",
+      "claim": "15% tax on all super balances over $3m",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "Division 296 taxes investment earnings, not the superannuation balance itself. The 15% tax applies only to the portion of earnings attributable to balances exceeding the $3m threshold.",
+      "detailed_explanation": "The claim mischaracterises how Division 296 operates. Rather than imposing a flat 15% tax on the amount by which a superannuation balance exceeds $3 million, the tax applies specifically to 'taxable super earnings' (investment returns). The 15% levy is calculated on the proportion of those earnings that relate to the portion of an individual's Total Superannuation Balance (TSB) above the Low Balance Super Threshold (LSBT) of $3 million. For example, a $5 million balance would not attract a tax of $300,000 (15% × $2 million). Instead, the tax would be 15% of the investment earnings that can be attributed to the $2 million excess above the threshold. This distinction is significant because the actual liability depends on investment performance, not merely account size.",
+      "sources": [
+        {
+          "name": "Australian Taxation Office",
+          "url": "https://ato.gov.au/tax-professionals/news-and-updates/supporting-productivity-for-individuals/income-tax/rates-and-thresholds",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-24",
+      "category": "superannuation"
     }
   ]
 }

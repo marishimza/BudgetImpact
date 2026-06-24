@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T07:39:04.037Z",
+  "lastUpdated": "2026-06-24T17:50:44.627Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2322,6 +2322,29 @@
         "argument": "Other sources including Baker McKenzie describe the mechanism as 'inflation indexation', which may apply the inflation adjustment differently to the capital gain calculation itself rather than to the cost base. This distinction affects how the taxable gain is computed.",
         "sources": [
           "Baker McKenzie budget analysis"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-099",
+      "slug": "budget-housing-measures-cost-6-4-billion-vs-implementation-costs-47-5-million",
+      "title": "Budget housing measures cost: $6.4 billion vs implementation costs of $47.5 million",
+      "category": "Housing and Tax",
+      "type": "factual_dispute",
+      "summary": "ABC Analysis quantifies the housing package at $6.4 billion over four years, while budget documents show $47.5 million allocated for Treasury/ATO CGT implementation. These figures appear to measure different cost categories (total reform cost vs administrative implementation costs), but sources do not clearly distinguish them, creating confusion about the actual fiscal impact and scale of the reforms.",
+      "view_a": {
+        "label": "Total Package Cost",
+        "argument": "The $6.4 billion figure represents the total fiscal cost of the housing measures package over four years, as reported by ABC Analysis. This encompasses the full cost of the reforms including tax concessions, housing grants, and support measures across all government departments and agencies.",
+        "sources": [
+          "https://www.aph.gov.au/About_Parliament/Parliamentary_departments/Parliamentary_Budget_Office"
+        ]
+      },
+      "view_b": {
+        "label": "Implementation Administration Costs",
+        "argument": "The $47.5 million represents the specific administrative costs allocated to Treasury and the ATO to implement the CGT changes. This figure is focused solely on the machinery of government expenses required to operationalise the policy, and is distinct from and far smaller than the broader package cost.",
+        "sources": [
+          "https://www.treasury.gov.au/centenary-of-tax/2026-tax-and-superannuation-legislation"
         ]
       },
       "verdict": null

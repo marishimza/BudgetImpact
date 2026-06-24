@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T12:17:09.029Z",
+  "lastUpdated": "2026-06-24T17:50:14.765Z",
   "items": [
     {
       "id": "update-001",
@@ -2529,6 +2529,26 @@
       "title": "Update on pending legislation status following Senate review",
       "summary": "The Senate has concluded its review of the previously flagged budget legislation, with the government securing enough crossbench support for passage. The opposition has confirmed it will not proceed with further challenges to this measure. This resolves the uncertainty noted in the earlier update regarding the legislative timeline.",
       "url": "https://ausbudget2026.example/budget-updates#update-250",
+      "priority": "high"
+    },
+    {
+      "id": "update-251",
+      "date": "2026-06-24",
+      "tag": "Parliament",
+      "source": "Australian Parliament House",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 Receives Royal Assent — Legislation Now Enacted",
+      "summary": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has received Royal Assent, officially enacting the housing reform legislation into law. The Bill, which includes significant changes to negative gearing arrangements and capital gains tax provisions, passed the Senate before receiving Assent. The reforms are now locked in regardless of future political opposition, marking a major shift in Australian housing tax policy.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search/Results?Word_Search=More+Housing+More+Help+Bill+2026",
+      "priority": "high"
+    },
+    {
+      "id": "update-252",
+      "date": "2026-06-24",
+      "tag": "Parliament",
+      "source": "Australian Parliament House",
+      "title": "Senate passes controversial budget measures — legislation now enacted",
+      "summary": "The Senate has approved key budget legislation that was previously flagged for challenge by the opposition. The measures, which include tax reforms and spending adjustments, will now proceed to final royal assent. Crossbench senators reached a compromise on certain amendments before voting in favour of the package.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Information",
       "priority": "high"
     }
   ]

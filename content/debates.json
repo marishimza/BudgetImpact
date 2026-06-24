@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T23:03:36.726Z",
+  "lastUpdated": "2026-06-24T07:39:04.037Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2300,6 +2300,29 @@
         "label": "Inflation indexation",
         "argument": "Other credible sources describe 'inflation indexation' as the replacement mechanism for the 50% CGT discount. While related to cost base indexation, this framing may reflect a different technical interpretation or emphasise the inflation-adjustment aspect of the calculation rather than the cost base terminology.",
         "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-098",
+      "slug": "cgt-discount-replacement-inflation-indexation-vs-cost-base-indexation",
+      "title": "CGT discount replacement mechanism: inflation indexation vs cost base indexation",
+      "category": "tax",
+      "type": "factual_dispute",
+      "summary": "NAB Budget Analysis describes the CGT discount replacement as 'cost base indexation' while other sources including Baker McKenzie describe it as 'inflation indexation'. These are technically different mechanisms - cost base indexation adjusts the original purchase price of assets by inflation, while inflation indexation may apply differently to the capital gain calculation itself. This represents a factual conflict about what the policy actually does, not merely a semantic difference.",
+      "view_a": {
+        "label": "Cost base indexation (NAB)",
+        "argument": "NAB Budget Analysis states the CGT discount is 'replaced by cost base indexation', which adjusts the original purchase price of assets by inflation to reduce the taxable capital gain. This mechanism directly modifies the cost base used when calculating the gain.",
+        "sources": [
+          "https://www.nab.com.au/content/dam/nab-com-au/news/budget-2026-analysis.pdf"
+        ]
+      },
+      "view_b": {
+        "label": "Inflation indexation (Other sources)",
+        "argument": "Other sources including Baker McKenzie describe the mechanism as 'inflation indexation', which may apply the inflation adjustment differently to the capital gain calculation itself rather than to the cost base. This distinction affects how the taxable gain is computed.",
+        "sources": [
+          "Baker McKenzie budget analysis"
+        ]
       },
       "verdict": null
     }

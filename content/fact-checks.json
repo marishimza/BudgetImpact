@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T23:04:01.067Z",
+  "lastUpdated": "2026-06-24T07:38:11.913Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1656,6 +1656,24 @@
       ],
       "date_checked": "2026-06-23",
       "category": "superannuation"
+    },
+    {
+      "id": "fc-086",
+      "slug": "retired-investor-cgt-discount-8-percent",
+      "claim": "A retired investor on a 16% marginal tax rate pays 8% effective tax on capital gains under current rules",
+      "verdict": "verified",
+      "verdict_label": "Verified",
+      "short_explanation": "The 8% figure is mathematically correct (16% × 50% CGT discount = 8%), resulting from the standard 50% CGT discount available to all eligible taxpayers, not a special low rate.",
+      "detailed_explanation": "The ASX analysis correctly calculates that a retired investor on a 16% marginal tax rate faces an 8% effective tax rate on nominal capital gains. This results from applying the standard 50% CGT discount: 16% × 50% = 8%. However, media coverage often oversimplifies this as 'paying only 8% tax' without explaining the underlying discount mechanism. The 50% CGT discount applies to all eligible assets held for more than 12 months by eligible taxpayers—including individuals, trusts, and partnerships—not exclusively to retired investors. This comparison with the 30% rate for indexed gains highlights the preferential treatment of nominal versus indexed gains, but the 8% figure reflects the standard discount mechanism rather than a special low rate designed for retirees.",
+      "sources": [
+        {
+          "name": "ASX - What the Federal Budget means for investors",
+          "url": "https://www.asx.com.au/au/resources/2026-27-federal-budget/what-the-federal-budget-means-for-investors",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-24",
+      "category": "fact_check"
     }
   ]
 }

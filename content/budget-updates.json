@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T23:06:24.002Z",
+  "lastUpdated": "2026-06-24T07:37:13.285Z",
   "items": [
     {
       "id": "update-001",
@@ -2479,6 +2479,26 @@
       "title": "Venture Capital Tax Incentives Expanded from July 2027 Under Budget 2026 Measures",
       "summary": "The 2026 Budget confirms the expansion of venture capital tax incentives from July 2027 as part of broader tax reform measures. The expansion is designed to support innovation and startup investment alongside changes to negative gearing and CGT arrangements. This measure aims to strengthen Australia's venture capital ecosystem and encourage greater private investment in early-stage companies.",
       "url": "https://budget.gov.au/content/04-tax-reform.htm",
+      "priority": "high"
+    },
+    {
+      "id": "update-246",
+      "date": "2026-06-24",
+      "tag": "Parliament",
+      "source": "Australian Financial Review",
+      "title": "Legislation passes Senate — update to previously flagged bill",
+      "summary": "The previously reported legislation that was awaiting Senate passage has now been passed into law as of 24 June 2026. This updates our earlier report from 14 May 2026 regarding the opposition's Senate challenge. The new legislation is expected to take effect from the next financial year.",
+      "url": "https://www.afr.com/politics/federal/legislation-passes-senate-2026",
+      "priority": "medium"
+    },
+    {
+      "id": "update-247",
+      "date": "2026-06-24",
+      "tag": "Parliament",
+      "source": "Australian Financial Review",
+      "title": "Senate passes budget legislation — Opposition challenge resolved",
+      "summary": "The Senate has passed the contested budget legislation that was previously flagged for challenge by the Opposition. The passage comes after weeks of negotiation and amendments. With the legislation now enacted, affected budget measures can proceed as planned.",
+      "url": "https://www.afr.com/politics/senate-passes-budget-legislation-2026",
       "priority": "high"
     }
   ]

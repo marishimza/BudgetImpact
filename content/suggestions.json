@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T07:40:21.030Z",
+  "lastUpdated": "2026-06-25T10:35:30.514Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -5912,49 +5912,118 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
+    },
     {
       "type": "content_update",
       "priority": "high",
-      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
-      "description": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has been formally lodged with Parliament, containing the legislative framework for negative gearing restrictions and CGT discount reforms. The Bill is currently before the Senate Economics Legislation Committee.",
-      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament — contains negative gearing and CGT discount legislative framework",
-      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_this_Week/Current_Business",
+      "title": "Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament",
+      "description": "Bills Search Results page shows Tax Reform No. 1 Bill 2026 (bId=r7493) has been formally introduced to Parliament, separate from the Housing Bill, suggesting the Government is progressing CGT and trust reforms through a dedicated tax reform bill rather than combining all measures in one piece of legislation.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament — separate from Housing Bill, suggesting dual-track legislative approach for CGT and trust tax reforms",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7493",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260618-838",
-      "timestamp": "2026-06-18T06:45:15.473Z",
-      "status": "implemented",
-      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
-      "implemented_at": "2026-06-18T08:41:46.840Z"
+      "id": "suggestion-20260625-887",
+      "timestamp": "2026-06-25T10:35:25.616Z",
+      "status": "pending",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
     },
     {
-      "id": "suggestion-20260618-472",
-      "timestamp": "2026-06-18T06:45:15.474Z",
-      "status": "implemented",
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Grattan Institute questions $2B infrastructure housing delivery targets",
+      "description": "Independent think tank modelling questions whether the $2 billion infrastructure funding tied to housing supply milestones can deliver the promised 65,000 additional homes, citing construction capacity constraints and timeline feasibility concerns.",
+      "suggestion": "Add to budget-updates.json: Grattan Institute modelling questions whether $2B infrastructure initiative can deliver 65,000 additional homes target — independent analysis cites construction capacity and timeline concerns",
+      "source": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260625-597",
+      "timestamp": "2026-06-25T10:35:25.616Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO releases Division 296 indexed thresholds and CGT relief details for SMSFs",
+      "description": "The ATO has confirmed the indexed thresholds for Division 296 (Better Targeted Super Concessions) and released CGT relief provisions specifically applicable to self-managed superannuation funds affected by the new high-balance super tax.",
+      "suggestion": "Add to budget-updates.json: ATO releases Division 296 indexed thresholds and CGT relief details for SMSFs — confirms 15% tax mechanics and transitional relief provisions",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260625-527",
+      "timestamp": "2026-06-25T10:35:25.616Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "$2B infrastructure initiative housing delivery: Can it actually deliver 65,000 homes?",
+      "description": "The government claims its $2 billion infrastructure initiative will enable 65,000 additional homes. Independent analysts (Grattan Institute) question whether this target is achievable, raising questions about the policy's housing supply impact. This is a factual dispute about delivery capacity vs. official projections.",
+      "suggestion": "Add to debates.json: view_a from budget.gov.au and apimagazine.com.au states the $2B infrastructure initiative is expected to enable around 65,000 additional homes; view_b from Grattan Institute and independent analysts (referenced in search results) questions the delivery capacity and suggests the 65,000 target may not be achieved.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260625-176",
+      "timestamp": "2026-06-25T10:35:25.616Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "CGT minimum 30% floor: Applies to all gains or only gains above inflation?",
+      "description": "Multiple sources make conflicting claims about the scope of the 30% CGT minimum floor. Some claim it applies to ALL capital gains, while others indicate it only applies to gains above inflation. This is a factual dispute about the mechanics of the new tax rule.",
+      "suggestion": "Add to debates.json: view_a from government sources (budget.gov.au factsheets) describes the minimum floor applying broadly; view_b from technical analysis sources clarify the floor only applies to gains above inflation adjustment, creating different effective tax outcomes for investors.",
+      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260625-103",
+      "timestamp": "2026-06-25T10:35:25.616Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "This claim appears frequently across multiple sources, but the ATO's official guidance states that Division 296 imposes 15% tax on 'the proportion of earnings relating to your TSB that exceeds the LSBT' ($3m). This is a 15% tax on the EARNINGS attributable to the excess balance, not a flat 15% on the entire amount above $3m. The distinction between a flat tax on balance versus a tax on earnings is significant and commonly conflated in media reporting.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is partially_true/misleading because Division 296 actually applies 15% to earnings on the portion exceeding $3m, not a flat 15% on the entire excess balance",
+      "source": "https://www.ato.gov.au/Better-targeted-super-concessions",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260625-862",
+      "timestamp": "2026-06-25T10:35:25.616Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
+      "description": "This absolute claim appears multiple times in existing fact-checks and pending suggestions. However, whether indexation or the 50% discount produces a better outcome depends on: (1) the inflation rate during the holding period, (2) the actual capital growth rate, and (3) the taxpayer's marginal tax rate. For assets with high capital growth relative to inflation, the 50% discount may still be more favorable. Perpetual's analysis notes indexation 'may not address income bunching.' The claim is mathematically conditional, not absolute.",
+      "suggestion": "Add to fact-checks.json: claim is 'Inflation indexation always produces a better CGT outcome than the 50% discount', verdict is disputed/misleading because outcome depends on inflation vs growth rates and marginal tax rate; indexation is not universally better",
+      "source": "https://www.perpetual.com.au/wealth/analyses/the-federal-budget-2026",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260625-639",
+      "timestamp": "2026-06-25T10:35:25.616Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260625-857",
+      "timestamp": "2026-06-25T10:35:25.617Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "id": "suggestion-20260625-205",
+      "timestamp": "2026-06-25T10:35:25.617Z",
+      "status": "pending",
       "priority": "medium",
       "type": "content_update",
       "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
       "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
       "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
       "source": "",
-      "implementation_effort": "15_minutes",
-      "implemented_at": "2026-06-18T08:42:48.837Z"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will the Coalition's pledge to repeal negative gearing and CGT changes affect investor behaviour?",
-      "description": "The Coalition has pledged to repeal the changes if elected, creating uncertainty about whether investors will alter their behaviour now in anticipation. Financial institutions and political commentators are making conflicting assessments of this political risk.",
-      "suggestion": "Add to debates.json: The Coalition (via Tim Wilson) states they will 'look to repeal the changes if necessary' and 'defeat the changes', while financial market analysts suggest investor behaviour may remain unchanged pending electoral outcome, with some arguing the policy creates a 'two-speed' tax treatment regardless of political outcome.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt; https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260530-954",
-      "timestamp": "2026-05-30T14:59:21.286Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-18T08:43:39.687Z"
-    },
+      "implementation_effort": "15_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "medium",
@@ -7348,34 +7417,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "KPMG Budget Analysis: $47.5m CGT implementation funding breakdown reveals ATO and Treasury resource allocation",
-      "description": "KPMG analysis reveals detailed breakdown of the $47.5 million implementation funding for CGT and negative gearing reforms over four years, plus $3.9 million in ongoing costs. Funding allocated to Treasury and ATO for system updates, staff training, and taxpayer guidance development.",
-      "suggestion": "Add to budget-updates.json: KPMG reveals detailed CGT implementation funding breakdown — $47.5m over four years plus $3.9m ongoing for Treasury and ATO",
-      "source": "https://kpmg.com/au/en/home/insights/2026/05/federal-budget-2026-analysis.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260618-211",
-      "timestamp": "2026-06-18T06:45:15.473Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-18T08:41:59.644Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "NAB revises housing forecast: brief correction not prolonged slump expected after Budget tax reforms",
-      "description": "National Australia Bank has revised its housing market forecast following Budget 2026 tax reforms, projecting a brief correction rather than a prolonged slump. NAB analysts note the impact of negative gearing restrictions will be contained, with new build activity expected to offset established property market softness.",
-      "suggestion": "Add to budget-updates.json: NAB revises housing forecast — brief correction not prolonged slump expected after Budget tax reforms",
-      "source": "https://www.nab.com.au/content/dam/nabr/documents/reports/economics/2026/housing-market-outlook-may-2026.pdf",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260618-450",
-      "timestamp": "2026-06-18T06:45:15.473Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-18T08:42:12.964Z"
-    },
     {
       "type": "fact_check",
       "priority": "medium",

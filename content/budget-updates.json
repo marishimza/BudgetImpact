@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T12:14:37.064Z",
+  "lastUpdated": "2026-06-25T23:13:27.106Z",
   "items": [
     {
       "id": "update-001",
@@ -2610,6 +2610,16 @@
       "summary": "The Senate has passed the controversial budget measures that were previously flagged for a challenge by the opposition. The legislation, which includes changes to superannuation contribution caps and instant asset write-off provisions, cleared the upper house after weeks of crossbench negotiations. The government secured the necessary votes by agreeing to amendments protecting low-income earners from bracket creep.",
       "url": "https://www.afr.com/politics/federal/senate-passes-budget-legislation-2026",
       "priority": "high"
+    },
+    {
+      "id": "update-259",
+      "date": "2026-06-25",
+      "tag": "Parliament",
+      "source": "AusBudget2026",
+      "title": "Senate passes contentious legislation — previous opposition challenge resolved",
+      "summary": "The Senate has passed the previously contested legislation that had prompted opposition warnings of a Senate challenge. The bill, which had been flagged as pending in update-007, has now cleared both houses and awaits Royal Assent. The passage concludes weeks of parliamentary negotiation and removes the uncertainty surrounding the budget measure.",
+      "url": "",
+      "priority": "medium"
     }
   ]
 }

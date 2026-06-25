@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T21:22:20.505Z",
+  "lastUpdated": "2026-06-25T23:14:07.351Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1880,18 +1880,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Negative gearing cutoff: When do the restrictions actually take effect?",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Guardian reports restrictions begin for investors buying 'after 12 May' (Budget Night), implying investors purchasing between 12 May 2026 and 1 July 2027 face immediate limitations. However, budget.gov.au fact sheets show grandfathering where investors who bought before 12 May 2026 can continue negative gearing indefinitely. Sources conflict on whether the practical impact is immediate (from Budget Night) or deferred (to 1 July 2027 when legislation commences), with different implications for investors purchasing in the transition period.",
-      "suggestion": "Add to debates.json: view_a from The Guardian says restrictions apply to 'investors buying after 12 May', view_b from budget.gov.au fact sheet shows pre-12 May buyers retain ongoing negative gearing rights indefinitely",
-      "source": "https://www.theguardian.com/australia-news/2026/jun/06/australia-housing-house-prices-supply-before-budget-after-cgt-capital-gains-tax-negative-gearing-changes",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260606-707",
-      "timestamp": "2026-06-06T15:06:32.685Z",
-      "status": "pending"
     },
     {
       "type": "debate_page",
@@ -5974,43 +5962,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Parliamentary concern: Women disproportionately affected by CGT and negative gearing changes",
-      "description": "Monash MP Mary Aldred raised concerns during parliamentary debate that thousands of Australian women—including widows, divorcees, and victims of domestic violence—will be disproportionately impacted by the 'rushed changes' to property taxes under the Treasury Laws Amendment (More Housing, More Help) Bill 2026.",
-      "suggestion": "Add to budget-updates.json: Parliamentary concern raised about women disproportionately affected by CGT and negative gearing changes — Monash MP Mary Aldred asks Housing Minister Clare O'Neil for confirmation on impact on widows, divorcees, and domestic violence victims during Senate debate on Treasury Laws Amendment (More Housing, More Help) Bill 2026.",
-      "source": "https://www.abc.net.au/news/2026-06-25/federal-politics-live-blog-teal-political-party/106839082",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260625-613",
-      "timestamp": "2026-06-25T21:22:16.250Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/news/2026-06-25/federal-politics-live-blog-teal-political-party/106839082"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027 reforms",
-      "description": "The Australian Taxation Office has published practical guidance to help investors and tax professionals prepare for the July 2027 CGT reforms, including detailed information on calculating indexed cost bases and distinguishing between cost base indexation and the previous discount approach.",
-      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations to help investors and tax professionals prepare for July 2027 reforms.",
-      "source": "https://www.ato.gov.au/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260625-587",
-      "timestamp": "2026-06-25T21:22:16.250Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Division 296: ATO confirms indexed thresholds and CGT relief for SMSFs",
-      "description": "The ATO has released confirmed indexed thresholds for Division 296 (Better Targeted Super Concessions) tax which applies from 1 July 2026, along with CGT relief provisions specifically for self-managed superannuation funds affected by the high-balance super tax.",
-      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details for SMSFs — legislation enacted March 2026 commences 1 July 2026.",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260625-166",
-      "timestamp": "2026-06-25T21:22:16.250Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "How exactly does the CGT discount replacement work?",
@@ -6069,18 +6020,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260625-897",
-      "timestamp": "2026-06-25T21:22:16.250Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -7450,6 +7389,32 @@
       "timestamp": "2026-06-06T09:53:52.170Z",
       "status": "implemented",
       "implemented_at": "2026-06-25T18:06:46.178Z"
+    },
+    {
+      "id": "suggestion-20260625-897",
+      "timestamp": "2026-06-25T21:22:16.250Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-25T23:13:27.110Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Negative gearing cutoff: When do the restrictions actually take effect?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Guardian reports restrictions begin for investors buying 'after 12 May' (Budget Night), implying investors purchasing between 12 May 2026 and 1 July 2027 face immediate limitations. However, budget.gov.au fact sheets show grandfathering where investors who bought before 12 May 2026 can continue negative gearing indefinitely. Sources conflict on whether the practical impact is immediate (from Budget Night) or deferred (to 1 July 2027 when legislation commences), with different implications for investors purchasing in the transition period.",
+      "suggestion": "Add to debates.json: view_a from The Guardian says restrictions apply to 'investors buying after 12 May', view_b from budget.gov.au fact sheet shows pre-12 May buyers retain ongoing negative gearing rights indefinitely",
+      "source": "https://www.theguardian.com/australia-news/2026/jun/06/australia-housing-house-prices-supply-before-budget-after-cgt-capital-gains-tax-negative-gearing-changes",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260606-707",
+      "timestamp": "2026-06-06T15:06:32.685Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-25T23:14:07.351Z"
     }
   ],
   "skipped": [
@@ -7965,6 +7930,49 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-25T18:07:17.654Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Parliamentary concern: Women disproportionately affected by CGT and negative gearing changes",
+      "description": "Monash MP Mary Aldred raised concerns during parliamentary debate that thousands of Australian women—including widows, divorcees, and victims of domestic violence—will be disproportionately impacted by the 'rushed changes' to property taxes under the Treasury Laws Amendment (More Housing, More Help) Bill 2026.",
+      "suggestion": "Add to budget-updates.json: Parliamentary concern raised about women disproportionately affected by CGT and negative gearing changes — Monash MP Mary Aldred asks Housing Minister Clare O'Neil for confirmation on impact on widows, divorcees, and domestic violence victims during Senate debate on Treasury Laws Amendment (More Housing, More Help) Bill 2026.",
+      "source": "https://www.abc.net.au/news/2026-06-25/federal-politics-live-blog-teal-political-party/106839082",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260625-613",
+      "timestamp": "2026-06-25T21:22:16.250Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.abc.net.au/news/2026-06-25/federal-politics-live-blog-teal-political-party/106839082",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-25T23:11:44.696Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027 reforms",
+      "description": "The Australian Taxation Office has published practical guidance to help investors and tax professionals prepare for the July 2027 CGT reforms, including detailed information on calculating indexed cost bases and distinguishing between cost base indexation and the previous discount approach.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations to help investors and tax professionals prepare for July 2027 reforms.",
+      "source": "https://www.ato.gov.au/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260625-587",
+      "timestamp": "2026-06-25T21:22:16.250Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-25T23:11:56.741Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Division 296: ATO confirms indexed thresholds and CGT relief for SMSFs",
+      "description": "The ATO has released confirmed indexed thresholds for Division 296 (Better Targeted Super Concessions) tax which applies from 1 July 2026, along with CGT relief provisions specifically for self-managed superannuation funds affected by the high-balance super tax.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds and CGT relief details for SMSFs — legislation enacted March 2026 commences 1 July 2026.",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260625-166",
+      "timestamp": "2026-06-25T21:22:16.250Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-25T23:12:03.664Z"
     }
   ],
   "needs_manual_review": [

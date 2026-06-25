@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T18:06:46.163Z",
+  "lastUpdated": "2026-06-25T23:14:07.347Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2408,6 +2408,29 @@
         "argument": "REIA President Jacob Caine welcomed the government's $2 billion infrastructure initiative as a positive step that could enable 65,000 additional homes, arguing this directly addresses the rental shortage through supply-side expansion.",
         "sources": [
           "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-103",
+      "slug": "negative-gearing-cutoff-effective-date",
+      "title": "Negative gearing cutoff: When do the restrictions actually take effect?",
+      "category": "tax",
+      "type": "interpretation_difference",
+      "summary": "There is conflicting information about when negative gearing restrictions for property investors take effect. The Guardian reports restrictions begin for investors buying after 12 May (Budget Night), while budget.gov.au fact sheets indicate investors who purchased before 12 May 2026 can continue negative gearing indefinitely due to grandfathering provisions. The key dispute is whether the practical impact is immediate (from Budget Night) or deferred (to 1 July 2027 when legislation commences), with different implications for investors in the transition period.",
+      "view_a": {
+        "label": "The Guardian interpretation",
+        "argument": "Restrictions apply immediately to investors buying after 12 May (Budget Night). This means investors purchasing between 12 May 2026 and 1 July 2027 face immediate limitations on negative gearing, not just from when legislation formally commences.",
+        "sources": [
+          "https://www.theguardian.com/australia"
+        ]
+      },
+      "view_b": {
+        "label": "Budget.gov.au fact sheet",
+        "argument": "Investors who purchased property before 12 May 2026 are grandfathered and can continue negative gearing indefinitely on existing and new purchases. New investors purchasing after this date will face restrictions once legislation formally commences on 1 July 2027.",
+        "sources": [
+          "https://budget.gov.au/2026-27/fact-sheets"
         ]
       },
       "verdict": null

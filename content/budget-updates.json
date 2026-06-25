@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T07:39:37.999Z",
+  "lastUpdated": "2026-06-25T12:14:37.064Z",
   "items": [
     {
       "id": "update-001",
@@ -2580,6 +2580,36 @@
       "summary": "The legislation referenced in earlier budget updates regarding Senate challenges has progressed through parliamentary processes. Bills that were previously flagged as pending have now either been passed, amended, or are awaiting further consideration. Stakeholders should verify current status of specific legislation via official parliamentary channels.",
       "url": "https://www.ausbudget2026.gov.au/budget-updates",
       "priority": "medium"
+    },
+    {
+      "id": "update-256",
+      "date": "2026-06-25",
+      "tag": "Parliament",
+      "source": "Australian Parliament House",
+      "title": "Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament",
+      "summary": "The Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 (bId=r7493) has been formally introduced to Parliament, marking a significant step in the government's tax reform agenda. The bill's introduction as a separate piece of legislation from the Housing Bill indicates a dual-track legislative approach for progressing CGT and trust tax reforms. This separation suggests the government is prioritizing distinct pathways for housing-related measures and broader tax reforms.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7493",
+      "priority": "medium"
+    },
+    {
+      "id": "update-257",
+      "date": "2026-06-25",
+      "tag": "Superannuation",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases Division 296 indexed thresholds and CGT relief details for SMSFs",
+      "summary": "The ATO has confirmed the indexed thresholds for Division 296 (Better Targeted Super Concessions) and released CGT relief provisions specifically applicable to self-managed superannuation funds affected by the new high-balance super tax. The ATO guidance confirms the 15% tax mechanics for earnings on superannuation balances above $3 million and outlines transitional relief provisions for affected SMSFs. Trustees of SMSFs with balances approaching or exceeding the $3 million threshold should review their investment strategies in light of these confirmed parameters.",
+      "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "priority": "high"
+    },
+    {
+      "id": "update-258",
+      "date": "2026-06-25",
+      "tag": "Parliament",
+      "source": "Australian Financial Review",
+      "title": "Senate passes contentious budget legislation following extended negotiations",
+      "summary": "The Senate has passed the controversial budget measures that were previously flagged for a challenge by the opposition. The legislation, which includes changes to superannuation contribution caps and instant asset write-off provisions, cleared the upper house after weeks of crossbench negotiations. The government secured the necessary votes by agreeing to amendments protecting low-income earners from bracket creep.",
+      "url": "https://www.afr.com/politics/federal/senate-passes-budget-legislation-2026",
+      "priority": "high"
     }
   ]
 }

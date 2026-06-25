@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T10:35:30.514Z",
+  "lastUpdated": "2026-06-25T12:15:25.570Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1846,18 +1846,6 @@
       "status": "pending"
     },
     {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Does CGT minimum 30% floor apply to ALL gains or only gains above inflation?",
-      "description": "Multiple sources assert a 'minimum 30% tax rate on ALL gains' from July 2027, while other analyses suggest the floor may only apply to gains above inflation-adjusted cost base. This is a substantive factual difference: a taxpayer with modest nominal gains could face very different effective tax rates depending on which interpretation is correct.",
-      "suggestion": "Add to debates.json: Multiple sources claim 'minimum 30% tax rate on ALL gains' from July 2027, while other analyses suggest the floor applies only to gains above indexed cost base — creating factual conflict over whether modest nominal gains are caught by the minimum",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860 vs https://www.perpetual.com.au/insights/federal-budget-2026/",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260605-827",
-      "timestamp": "2026-06-05T21:17:32.295Z",
-      "status": "pending"
-    },
-    {
       "id": "suggestion-20260605-687",
       "timestamp": "2026-06-05T21:17:32.296Z",
       "status": "pending",
@@ -1868,18 +1856,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will 2026 housing tax reforms increase or decrease rental supply?",
-      "description": "Industry bodies express conflicting views on whether restricting negative gearing and CGT changes will help or harm rental supply. REIA's leadership endorses the measures while its broader membership warns of reduced rental supply.",
-      "suggestion": "Add to debates.json: view_a from REIA/Property Council (slateandsage.com.au) warns that reducing property investment attractiveness 'could reduce rental supply over time'; view_b from REIA President Jacob Caine (apimagazine.com.au) says the measures including $2B infrastructure 'were positive and necessary steps toward addressing Australia's housing shortage'",
-      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors and https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260606-195",
-      "timestamp": "2026-06-06T05:47:03.121Z",
-      "status": "pending"
     },
     {
       "id": "suggestion-20260606-880",
@@ -5915,19 +5891,6 @@
     },
     {
       "type": "content_update",
-      "priority": "high",
-      "title": "Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament",
-      "description": "Bills Search Results page shows Tax Reform No. 1 Bill 2026 (bId=r7493) has been formally introduced to Parliament, separate from the Housing Bill, suggesting the Government is progressing CGT and trust reforms through a dedicated tax reform bill rather than combining all measures in one piece of legislation.",
-      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament — separate from Housing Bill, suggesting dual-track legislative approach for CGT and trust tax reforms",
-      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7493",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260625-887",
-      "timestamp": "2026-06-25T10:35:25.616Z",
-      "status": "pending",
-      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
-    },
-    {
-      "type": "content_update",
       "priority": "medium",
       "title": "Grattan Institute questions $2B infrastructure housing delivery targets",
       "description": "Independent think tank modelling questions whether the $2 billion infrastructure funding tied to housing supply milestones can deliver the promised 65,000 additional homes, citing construction capacity constraints and timeline feasibility concerns.",
@@ -5935,18 +5898,6 @@
       "source": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
       "implementation_effort": "20_minutes",
       "id": "suggestion-20260625-597",
-      "timestamp": "2026-06-25T10:35:25.616Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO releases Division 296 indexed thresholds and CGT relief details for SMSFs",
-      "description": "The ATO has confirmed the indexed thresholds for Division 296 (Better Targeted Super Concessions) and released CGT relief provisions specifically applicable to self-managed superannuation funds affected by the new high-balance super tax.",
-      "suggestion": "Add to budget-updates.json: ATO releases Division 296 indexed thresholds and CGT relief details for SMSFs — confirms 15% tax mechanics and transitional relief provisions",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260625-527",
       "timestamp": "2026-06-25T10:35:25.616Z",
       "status": "pending"
     },
@@ -6009,18 +5960,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260625-205",
-      "timestamp": "2026-06-25T10:35:25.617Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -7414,6 +7353,59 @@
       "timestamp": "2026-06-05T21:17:32.295Z",
       "status": "implemented",
       "implemented_at": "2026-06-25T07:40:21.029Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament",
+      "description": "Bills Search Results page shows Tax Reform No. 1 Bill 2026 (bId=r7493) has been formally introduced to Parliament, separate from the Housing Bill, suggesting the Government is progressing CGT and trust reforms through a dedicated tax reform bill rather than combining all measures in one piece of legislation.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament — separate from Housing Bill, suggesting dual-track legislative approach for CGT and trust tax reforms",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7493",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260625-887",
+      "timestamp": "2026-06-25T10:35:25.616Z",
+      "status": "implemented",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
+      "implemented_at": "2026-06-25T12:13:35.721Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO releases Division 296 indexed thresholds and CGT relief details for SMSFs",
+      "description": "The ATO has confirmed the indexed thresholds for Division 296 (Better Targeted Super Concessions) and released CGT relief provisions specifically applicable to self-managed superannuation funds affected by the new high-balance super tax.",
+      "suggestion": "Add to budget-updates.json: ATO releases Division 296 indexed thresholds and CGT relief details for SMSFs — confirms 15% tax mechanics and transitional relief provisions",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260625-527",
+      "timestamp": "2026-06-25T10:35:25.616Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-25T12:14:11.058Z"
+    },
+    {
+      "id": "suggestion-20260625-205",
+      "timestamp": "2026-06-25T10:35:25.617Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-25T12:14:37.068Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Does CGT minimum 30% floor apply to ALL gains or only gains above inflation?",
+      "description": "Multiple sources assert a 'minimum 30% tax rate on ALL gains' from July 2027, while other analyses suggest the floor may only apply to gains above inflation-adjusted cost base. This is a substantive factual difference: a taxpayer with modest nominal gains could face very different effective tax rates depending on which interpretation is correct.",
+      "suggestion": "Add to debates.json: Multiple sources claim 'minimum 30% tax rate on ALL gains' from July 2027, while other analyses suggest the floor applies only to gains above indexed cost base — creating factual conflict over whether modest nominal gains are caught by the minimum",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860 vs https://www.perpetual.com.au/insights/federal-budget-2026/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260605-827",
+      "timestamp": "2026-06-05T21:17:32.295Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-25T12:15:11.593Z"
     }
   ],
   "skipped": [
@@ -7901,6 +7893,20 @@
       "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-25T07:38:43.589Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will 2026 housing tax reforms increase or decrease rental supply?",
+      "description": "Industry bodies express conflicting views on whether restricting negative gearing and CGT changes will help or harm rental supply. REIA's leadership endorses the measures while its broader membership warns of reduced rental supply.",
+      "suggestion": "Add to debates.json: view_a from REIA/Property Council (slateandsage.com.au) warns that reducing property investment attractiveness 'could reduce rental supply over time'; view_b from REIA President Jacob Caine (apimagazine.com.au) says the measures including $2B infrastructure 'were positive and necessary steps toward addressing Australia's housing shortage'",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors and https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260606-195",
+      "timestamp": "2026-06-06T05:47:03.121Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-25T12:15:25.570Z"
     }
   ],
   "needs_manual_review": [

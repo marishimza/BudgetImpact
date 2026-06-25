@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T07:40:21.025Z",
+  "lastUpdated": "2026-06-25T12:15:11.589Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2365,6 +2365,27 @@
         "label": "Professional analysis indicates discount replaced by indexation",
         "argument": "NAB Budget Analysis and other professional sources state the CGT discount is being 'replaced' by cost base indexation or inflation indexation. This implies a mandatory replacement mechanism where the traditional discount no longer applies, with the indexation approach providing different tax treatment.",
         "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-101",
+      "slug": "cgt-minimum-30-percent-floor-all-gains-vs-inflation-adjusted",
+      "title": "Does CGT minimum 30% floor apply to ALL gains or only gains above inflation?",
+      "category": "Capital Gains Tax",
+      "type": "interpretation_difference",
+      "summary": "The 2026-27 federal budget introduced a minimum 30% tax rate on capital gains from July 2027. Sources differ on whether this floor applies to all nominal gains or only to gains exceeding inflation-adjusted cost bases. This creates substantial variation in effective tax rates for taxpayers with modest nominal gains, depending on which interpretation prevails.",
+      "view_a": {
+        "label": "Floor applies to ALL nominal gains",
+        "argument": "The minimum 30% tax rate applies to all capital gains without adjustment for inflation. Any nominal gain above the tax-free threshold faces the 30% floor, regardless of whether the real (inflation-adjusted) value of the gain is positive.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Floor applies only to gains above inflation-adjusted cost base",
+        "argument": "The 30% floor only applies to gains that exceed the inflation-adjusted cost base. Gains that merely track or fall below inflation are not subject to the minimum rate, as they represent no real economic gain.",
+        "sources": [
+          "https://www.perpetual.com.au/insights/federal-budget-2026/"
+        ]
       },
       "verdict": null
     }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T12:15:11.589Z",
+  "lastUpdated": "2026-06-25T18:06:46.163Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2385,6 +2385,29 @@
         "argument": "The 30% floor only applies to gains that exceed the inflation-adjusted cost base. Gains that merely track or fall below inflation are not subject to the minimum rate, as they represent no real economic gain.",
         "sources": [
           "https://www.perpetual.com.au/insights/federal-budget-2026/"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-102",
+      "slug": "2026-negative-gearing-cgt-reforms-rental-supply-impact",
+      "title": "Will the 2026 negative gearing and CGT reforms maintain or reduce rental supply?",
+      "category": "Housing and Tax Policy",
+      "type": "projection_disagreement",
+      "summary": "The Real Estate Institute of Australia and Property Council of Australia warn that reducing property investment attractiveness could reduce rental supply over time. However, REIA President Jacob Caine separately welcomed the government's $2 billion infrastructure initiative as a positive step that could enable 65,000 additional homes, creating a factual conflict about whether the overall package will increase or decrease rental supply.",
+      "view_a": {
+        "label": "Investment reduction may shrink supply",
+        "argument": "REIA and Property Council warn that reducing property investment attractiveness through negative gearing and CGT changes could reduce rental supply over time as investors exit the market or reduce their property acquisitions.",
+        "sources": [
+          "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors"
+        ]
+      },
+      "view_b": {
+        "label": "Infrastructure investment boosts supply",
+        "argument": "REIA President Jacob Caine welcomed the government's $2 billion infrastructure initiative as a positive step that could enable 65,000 additional homes, arguing this directly addresses the rental shortage through supply-side expansion.",
+        "sources": [
+          "https://www.apimagazine.com.au/news/article/federal-budget-2026-makes-most-sweeping-changes-to-property-landscape-in-decades"
         ]
       },
       "verdict": null

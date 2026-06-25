@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T12:15:43.682Z",
+  "lastUpdated": "2026-06-25T18:05:22.340Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1692,6 +1692,24 @@
       ],
       "date_checked": "2026-06-24",
       "category": "superannuation"
+    },
+    {
+      "id": "fc-088",
+      "slug": "$2b-infrastructure-65k-homes-disputed",
+      "claim": "$2 billion infrastructure initiative will deliver 65,000 additional homes",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "Government projections cite this target, but independent analysis questions whether it is achievable due to delivery capacity and methodology concerns.",
+      "detailed_explanation": "Multiple government sources cite the $2 billion infrastructure initiative as projected to deliver 65,000 additional homes. However, the Grattan Institute and independent analysts have disputed this figure, questioning whether the target is achievable. Concerns centre on delivery capacity constraints, methodology assumptions, and the failure to account for potential delays or infrastructure bottlenecks that could significantly reduce actual home delivery numbers. Independent modelling suggests actual delivery could fall well short of the 65,000 projection.",
+      "sources": [
+        {
+          "name": "Grattan Institute",
+          "url": "https://www.grattan.edu.au",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-25",
+      "category": "housing"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T12:15:25.570Z",
+  "lastUpdated": "2026-06-25T16:17:29.560Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -5960,74 +5960,82 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Infrastructure funding link: $2B initiative tied to CGT and negative gearing reform package",
-      "description": "Budget 2026 allocates $2 billion infrastructure funding alongside the $6.4 billion housing package, with government claiming combined measures will deliver 65,000 additional homes. Independent analysis questions whether this target is realistic given implementation timelines and supply chain constraints.",
-      "suggestion": "Add to budget-updates.json: Infrastructure funding details: $2B initiative linked to housing supply targets of 65,000 additional homes as part of Budget 2026 housing affordability package.",
-      "source": "https://budget.gov.au/content/overview/download/budget-overview-2026-27.pdf",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260618-302",
-      "timestamp": "2026-06-18T11:46:29.773Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-18T12:51:43.358Z"
     },
     {
-      "id": "suggestion-20260618-214",
-      "timestamp": "2026-06-18T11:46:29.773Z",
-      "status": "implemented",
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "$2B infrastructure initiative housing targets: official 65,000 vs independent estimates",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Budget claims $2 billion in infrastructure funding will enable around 65,000 additional homes. Independent analysts including Grattan Institute have questioned whether this target is achievable, with some sources suggesting alternative estimates significantly lower. This is a factual conflict about projected housing output from a specific policy commitment.",
+      "suggestion": "Add to debates.json: Government/budget.gov.au claims the $2B infrastructure initiative will enable 'around 65,000 additional homes'. Grattan Institute modelling questions the infrastructure initiative's housing delivery capacity, with independent sources suggesting alternative estimates that may be significantly lower (with one source asking if it will deliver '65,000 or 30,000').",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260625-347",
+      "timestamp": "2026-06-25T16:17:26.084Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Short-term housing price impact: brief correction vs prolonged slump forecasts",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Financial institutions and industry groups are providing conflicting short-term forecasts for property prices following the Budget tax reforms. NAB revised their forecast projecting a brief correction rather than a prolonged slump, while some industry warnings suggest a more severe market downturn.",
+      "suggestion": "Add to debates.json: NAB revised forecast following Budget tax reforms projects 'brief correction not prolonged slump'. However, industry warnings from other sources suggest potential for 'prolonged slump' rather than brief correction, representing conflicting short-term property price impact forecasts.",
+      "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260625-469",
+      "timestamp": "2026-06-25T16:17:26.084Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: '$2 billion infrastructure initiative will deliver 65,000 additional homes'",
+      "description": "Multiple sources cite this specific figure as government projections. However, the Grattan Institute and independent analysts have questioned whether this target is achievable, with concerns about delivery capacity and methodology. The official claim doesn't account for potential delays or infrastructure constraints that could significantly reduce actual home delivery.",
+      "suggestion": "Add to fact-checks.json: claim is '$2B initiative will deliver 65,000 homes', verdict is disputed because independent modelling (Grattan Institute) questions whether this target is achievable, with delivery potentially falling significantly short of projections.",
+      "source": "https://www.grattan.edu.au (referenced in multiple search results as questioning $2B infrastructure delivery capacity)",
+      "implementation_effort": "1_hour",
+      "id": "suggestion-20260625-430",
+      "timestamp": "2026-06-25T16:17:26.084Z",
+      "status": "pending",
+      "corroborated_by": "https://www.smh.com.au/politics/federal/chalmers-doubles-down-on-housing-with-2-billion-for-roads-and-pipes-20260509-p5zv9w.html"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: '30% minimum tax on ALL capital gains from July 2027'",
+      "description": "The ASX analysis (budget.gov.au) states 'a retired investor on a 16% marginal rate...faces 8% tax on nominal gains...as opposed to 30% on indexed gains'. This suggests the 30% floor applies specifically to inflation-indexed gains, not all nominal gains. A flat 30% on ALL gains would represent a much larger tax increase than the policy intends for lower-rate taxpayers.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax applies to ALL gains', verdict is disputed/partially_true because the 30% floor appears to apply to indexed gains, meaning lower-rate taxpayers on nominal gains may still pay less than 30% after the discount/indexation calculation.",
+      "source": "https://www.asx.com.au (What the Federal Budget means for investors - states '30% on indexed gains' not '30% on all gains')",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260625-163",
+      "timestamp": "2026-06-25T16:17:26.084Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260625-927",
+      "timestamp": "2026-06-25T16:17:26.084Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "id": "suggestion-20260625-588",
+      "timestamp": "2026-06-25T16:17:26.084Z",
+      "status": "pending",
       "priority": "medium",
       "type": "content_update",
       "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
       "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
       "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
       "source": "",
-      "implementation_effort": "15_minutes",
-      "implemented_at": "2026-06-18T12:52:10.507Z"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Capital gains will face a 'minimum 30% tax rate on ALL gains' from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources claim a 30% minimum tax applies to ALL capital gains. However, budget.gov.au and ABC News specify it applies to 'real capital gains' (gains above inflation). The policy replaces the 50% discount with inflation indexation—meaning gains that merely track inflation may face 0% CGT. The claim 'ALL gains' is misleading; the 30% floor only applies to gains above inflation after indexation.",
-      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% on ALL gains', verdict is partially_true/misleading because the 30% floor only applies to real gains above inflation, not nominal gains.",
-      "source": "https://budget.gov.au/publications/budget-2026-27/tax-reform",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260530-725",
-      "timestamp": "2026-05-30T14:59:21.286Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-18T12:52:38.115Z"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Division 296 imposes '15% tax on all super balances exceeding $3 million'",
-      "description": "The ATO clarifies that Division 296 applies 15% tax on the 'proportion of earnings relating to your total superannuation balance (TSB) that exceeds the $3 million threshold'—not 15% on the entire balance above $3m. For example, a $3.1m balance would only have the earnings attributable to $100k taxed at 15%, not the full $3.1m. This oversimplification appears frequently in media coverage.",
-      "suggestion": "Add to fact-checks.json: claim is '15% on all balances over $3m', verdict is disputed because the 15% applies only to the proportion of earnings attributable to the excess above $3m, not the entire balance.",
-      "source": "https://www.ato.gov.au/about-us/legislation/law-of-the-fairer-tax-system-for-super",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260530-499",
-      "timestamp": "2026-05-30T14:59:21.286Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-18T12:53:22.183Z"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will limiting negative gearing to new builds reduce or increase rental supply?",
-      "description": "The government and CBA say the policy is designed to shift investor demand from established homes to new builds, targeting new supply. However, REIA and Property Council of Australia argue reducing investment attractiveness could reduce rental supply over time. This is a factual conflict about cause and effect rather than just differing opinions.",
-      "suggestion": "Add to debates.json: Government states limiting negative gearing to new builds will 'focus tax support on new supply' (budget.gov.au) and CBA analysis confirms change is 'designed to reduce investor demand for existing housing stock while preserving tax support for new supply' (commbank.com.au). However, REIA and Property Council warn reducing attractiveness of residential property investment could reduce rental supply over time (slateandsage.com.au, apimagazine.com.au).",
-      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260530-767",
-      "timestamp": "2026-05-30T20:43:55.919Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-18T12:54:11.931Z"
-    },
+      "implementation_effort": "15_minutes"
+    }
+  ],
+  "implemented": [
     {
       "id": "suggestion-20260618-679",
       "timestamp": "2026-06-18T16:52:24.086Z",

@@ -7130,6 +7130,71 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-18T08:42:12.964Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Infrastructure funding link: $2B initiative tied to CGT and negative gearing reform package",
+      "description": "Budget 2026 allocates $2 billion infrastructure funding alongside the $6.4 billion housing package, with government claiming combined measures will deliver 65,000 additional homes. Independent analysis questions whether this target is realistic given implementation timelines and supply chain constraints.",
+      "suggestion": "Add to budget-updates.json: Infrastructure funding details: $2B initiative linked to housing supply targets of 65,000 additional homes as part of Budget 2026 housing affordability package.",
+      "source": "https://budget.gov.au/content/overview/download/budget-overview-2026-27.pdf",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260618-302",
+      "timestamp": "2026-06-18T11:46:29.773Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-18T12:51:43.358Z"
+    },
+    {
+      "id": "suggestion-20260618-214",
+      "timestamp": "2026-06-18T11:46:29.773Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-18T12:52:10.507Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a 'minimum 30% tax rate on ALL gains' from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources claim a 30% minimum tax applies to ALL capital gains. However, budget.gov.au and ABC News specify it applies to 'real capital gains' (gains above inflation). The policy replaces the 50% discount with inflation indexation—meaning gains that merely track inflation may face 0% CGT. The claim 'ALL gains' is misleading; the 30% floor only applies to gains above inflation after indexation.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% on ALL gains', verdict is partially_true/misleading because the 30% floor only applies to real gains above inflation, not nominal gains.",
+      "source": "https://budget.gov.au/publications/budget-2026-27/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-725",
+      "timestamp": "2026-05-30T14:59:21.286Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-18T12:52:38.115Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Division 296 imposes '15% tax on all super balances exceeding $3 million'",
+      "description": "The ATO clarifies that Division 296 applies 15% tax on the 'proportion of earnings relating to your total superannuation balance (TSB) that exceeds the $3 million threshold'—not 15% on the entire balance above $3m. For example, a $3.1m balance would only have the earnings attributable to $100k taxed at 15%, not the full $3.1m. This oversimplification appears frequently in media coverage.",
+      "suggestion": "Add to fact-checks.json: claim is '15% on all balances over $3m', verdict is disputed because the 15% applies only to the proportion of earnings attributable to the excess above $3m, not the entire balance.",
+      "source": "https://www.ato.gov.au/about-us/legislation/law-of-the-fairer-tax-system-for-super",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-499",
+      "timestamp": "2026-05-30T14:59:21.286Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-18T12:53:22.183Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will limiting negative gearing to new builds reduce or increase rental supply?",
+      "description": "The government and CBA say the policy is designed to shift investor demand from established homes to new builds, targeting new supply. However, REIA and Property Council of Australia argue reducing investment attractiveness could reduce rental supply over time. This is a factual conflict about cause and effect rather than just differing opinions.",
+      "suggestion": "Add to debates.json: Government states limiting negative gearing to new builds will 'focus tax support on new supply' (budget.gov.au) and CBA analysis confirms change is 'designed to reduce investor demand for existing housing stock while preserving tax support for new supply' (commbank.com.au). However, REIA and Property Council warn reducing attractiveness of residential property investment could reduce rental supply over time (slateandsage.com.au, apimagazine.com.au).",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260530-767",
+      "timestamp": "2026-05-30T20:43:55.919Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-18T12:54:11.931Z"
     }
   ]
 }

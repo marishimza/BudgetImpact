@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T17:50:44.627Z",
+  "lastUpdated": "2026-06-25T07:40:21.025Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2346,6 +2346,25 @@
         "sources": [
           "https://www.treasury.gov.au/centenary-of-tax/2026-tax-and-superannuation-legislation"
         ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-100",
+      "slug": "cgt-discount-replacement-indexation-choice",
+      "title": "CGT discount replacement: inflation indexation vs cost base indexation vs preserved choice",
+      "category": "tax",
+      "type": "factual_dispute",
+      "summary": "The 2026-27 budget introduced changes to CGT treatment of assets acquired after May 2026, but sources conflict on whether the 50% discount is being replaced, which indexation method applies, and whether taxpayers retain any choice in the mechanism.",
+      "view_a": {
+        "label": "Official government sources show preserved discount",
+        "argument": "Budget.gov.au fact sheets (May 12, 2026) still show worked examples where the 50% CGT discount applies to qualifying assets. The official material does not indicate the discount is being abolished or universally replaced, suggesting the discount remains available in certain scenarios.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Professional analysis indicates discount replaced by indexation",
+        "argument": "NAB Budget Analysis and other professional sources state the CGT discount is being 'replaced' by cost base indexation or inflation indexation. This implies a mandatory replacement mechanism where the traditional discount no longer applies, with the indexation approach providing different tax treatment.",
+        "sources": []
       },
       "verdict": null
     }

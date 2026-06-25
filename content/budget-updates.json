@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T23:01:41.577Z",
+  "lastUpdated": "2026-06-25T07:39:37.999Z",
   "items": [
     {
       "id": "update-001",
@@ -2560,6 +2560,26 @@
       "summary": "The Senate has passed the key budget legislation that was previously subject to an opposition challenge flagged in May 2026. The passage clears the way for implementation of several budget measures that had been held pending legislative resolution. The government secured the necessary crossbench support to secure passage of the contentious bills.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Digests/Current_Sitting",
       "priority": "high"
+    },
+    {
+      "id": "update-254",
+      "date": "2026-06-25",
+      "tag": "Budget",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases technical guidance on pre-1985 share valuation reset for July 2027 CGT changes",
+      "summary": "The ATO has released technical guidance confirming that pre-1985 share holdings will receive a valuation reset to market value as at 30 June 2025 under the new CGT indexation regime taking effect 1 July 2027. The guidance distinguishes between cost base indexation and CGT discount methods for these assets, providing clarity for investors holding historic share portfolios. Taxpayers with pre-1985 share holdings should review the guidance to understand the impact on their CGT calculations from 1 July 2027.",
+      "url": "https://www.ato.gov.au/General/New-legislation/In-detail/Topics/Treasury-Laws-Amendment-2026-Tax-Reform",
+      "priority": "medium"
+    },
+    {
+      "id": "update-255",
+      "date": "2026-06-25",
+      "tag": "Parliament",
+      "source": "AusBudget2026",
+      "title": "Legislative update: Senate legislation status review",
+      "summary": "The legislation referenced in earlier budget updates regarding Senate challenges has progressed through parliamentary processes. Bills that were previously flagged as pending have now either been passed, amended, or are awaiting further consideration. Stakeholders should verify current status of specific legislation via official parliamentary channels.",
+      "url": "https://www.ausbudget2026.gov.au/budget-updates",
+      "priority": "medium"
     }
   ]
 }

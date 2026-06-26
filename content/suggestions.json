@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T23:14:07.351Z",
+  "lastUpdated": "2026-06-26T06:02:01.142Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -6020,36 +6020,82 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Treasury Laws Amendment Bill formally lodged with Parliament",
-      "description": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has been formally lodged, containing the negative gearing and CGT reform measures.",
-      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament — contains negative gearing restrictions and CGT indexation changes",
-      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_this_Cession",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260618-300",
-      "timestamp": "2026-06-18T21:57:33.433Z",
-      "status": "implemented",
-      "corroborated_by": "https://treasury.gov.au/sites/default/files/2025-01/c2025-621576-em-bill.pdf",
-      "implemented_at": "2026-06-18T23:41:05.087Z"
     },
     {
-      "id": "suggestion-20260618-315",
-      "timestamp": "2026-06-18T21:57:33.433Z",
-      "status": "implemented",
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "$2B Infrastructure Initiative: Will it deliver 65,000 homes or significantly fewer?",
+      "description": "The government claims its $2 billion infrastructure initiative will enable 65,000 additional homes, but independent analysis consistently questions this figure. Grattan Institute modelling and other independent estimates suggest the actual delivery may be substantially lower, potentially around 30,000 homes. This is a factual conflict about projected housing outcomes.",
+      "suggestion": "Add to debates.json: Government budget sources claim the $2B infrastructure initiative will deliver 65,000 additional homes, while Grattan Institute modelling and independent analysis question this target, suggesting significantly fewer homes (approximately 30,000) will actually be delivered.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained; https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260626-289",
+      "timestamp": "2026-06-26T06:01:54.040Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Budget housing reforms: When will affordability actually improve?",
+      "description": "The government presents its housing tax reforms as addressing affordability, but Grattan Institute modelling projects these changes are unlikely to materially improve housing affordability until the 2030s. This creates a factual conflict about the timeline and effectiveness of the budget measures.",
+      "suggestion": "Add to debates.json: Government presents housing tax reforms as addressing affordability, but Grattan Institute modelling explicitly projects these measures will be unlikely to materially improve housing affordability until the 2030s — suggesting a significant gap between government claims and independent assessment of when households will benefit.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/budget-2026-live-updates-reaction-jim-chalmers-tim-wilson-cost-of-living-capital-gains-negative-gearing-housing-tax-ntwnfb; https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260626-583",
+      "timestamp": "2026-06-26T06:01:54.040Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: '$2 billion infrastructure initiative will deliver 65,000 additional homes'",
+      "description": "Multiple sources cite the government's $2B infrastructure initiative as delivering 65,000 additional homes. However, search results indicate Grattan Institute and independent modelling question whether this target is achievable. The official government figure appears to conflict with independent expert estimates.",
+      "suggestion": "Add to fact-checks.json: 'Claim: $2B infrastructure initiative will deliver 65,000 additional homes' - Verdict: DISPUTED. While government sources cite 65,000 homes, Grattan Institute and independent analysis question whether the target is realistic or achievable. The $2B funding is tied to housing supply milestones, suggesting conditional rather than guaranteed delivery.",
+      "source": "https://www.budget.gov.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260626-532",
+      "timestamp": "2026-06-26T06:01:54.040Z",
+      "status": "pending",
+      "corroborated_by": "https://www.smh.com.au/politics/federal/chalmers-doubles-down-on-housing-with-2-billion-for-roads-and-pipes-20260509-p5zv9w.html"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "This claim is widely repeated but potentially misleading. The ATO explicitly states Division 296 imposes 15% tax on 'the proportion of earnings relating to your TSB that exceeds the LSBT' — not on the entire balance above $3m. This is a significant distinction that affects the actual tax payable.",
+      "suggestion": "Add to fact-checks.json: 'Claim: Division 296 imposes 15% tax on all super balances over $3m' - Verdict: MISLEADING. The 15% applies to taxable super earnings attributable to the balance above $3m threshold, not the entire balance. A $4m balance doesn't pay 15% on $1m — it pays 15% on the earnings proportionally attributed to the amount exceeding the threshold.",
+      "source": "https://ato.gov.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260626-647",
+      "timestamp": "2026-06-26T06:01:54.040Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260626-718",
+      "timestamp": "2026-06-26T06:01:54.040Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "id": "suggestion-20260626-493",
+      "timestamp": "2026-06-26T06:01:54.040Z",
+      "status": "pending",
       "priority": "medium",
       "type": "content_update",
       "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
       "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
       "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
       "source": "",
-      "implementation_effort": "15_minutes",
-      "implemented_at": "2026-06-18T23:41:57.642Z"
-    },
+      "implementation_effort": "15_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "medium",
@@ -7418,49 +7464,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases Division 296 indexed thresholds for 2026-27",
-      "description": "The ATO has confirmed the indexed thresholds for Division 296 (Better Targeted Super Concessions) tax, which applies from 1 July 2026 to superannuation accounts exceeding $3 million.",
-      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 indexed thresholds for 2026-27 — $3m threshold applies with 15% tax on earnings above threshold from 1 July 2026",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260618-978",
-      "timestamp": "2026-06-18T21:57:33.433Z",
-      "status": "skipped",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-18T23:41:19.649Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO releases practical guidance for CGT indexation calculations",
-      "description": "The ATO has released practical guidance to help investors and tax professionals prepare for the July 2027 CGT indexation reforms.",
-      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations ahead of July 2027 reforms",
-      "source": "https://www.ato.gov.au/general/new-legislation/in-detail/other-topics/cgt-indexation-guidance",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260618-980",
-      "timestamp": "2026-06-18T21:57:33.433Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-18T23:41:34.940Z"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Capital gains face a minimum 30% tax rate on ALL gains from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources claim a 'minimum 30% tax on ALL gains' but the official budget.gov.au wording is 'minimum 30 per cent tax on gains' based on inflation indexation. This suggests the 30% minimum applies to real gains (above inflation), not the total gain. Saying 'ALL gains' could mislead investors about whether inflationary gains are also subject to the 30% minimum.",
-      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax on ALL capital gains', verdict is disputed/partially_true because the official measure is indexation-based with a 30% floor on real gains above inflation, not necessarily on total gains.",
-      "source": "https://budget.gov.au/2026-27/tax-reform.htm",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260531-514",
-      "timestamp": "2026-05-31T06:10:31.520Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-18T23:42:16.086Z"
-    },
     {
       "type": "debate_page",
       "priority": "high",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T17:44:04.392Z",
+  "lastUpdated": "2026-06-26T23:01:35.881Z",
   "items": [
     {
       "id": "update-001",
@@ -2689,6 +2689,16 @@
       "title": "Legislation passes Senate — Opposition challenge resolved",
       "summary": "The legislation previously flagged by the Opposition for a Senate challenge has now passed into law following a vote in the Senate on 25 June 2026. The government secured the necessary crossbench support to have the bill assented to, resolving the uncertainty noted in the May update. Budget measures dependent on this legislation can now proceed as planned.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Live",
+      "priority": "high"
+    },
+    {
+      "id": "update-267",
+      "date": "2026-06-26",
+      "tag": "Parliament",
+      "source": "The Australian",
+      "title": "Senate Passes Contested Budget Legislation Following Opposition U-Turn",
+      "summary": "The Senate has passed the contested budget legislation that was previously flagged for challenge by the opposition. The bill, which was not yet law as of mid-May, cleared both chambers on Thursday with crossbench support. Government sources confirm the legislation is now enacted, ending weeks of parliamentary uncertainty.",
+      "url": "https://www.theaustralian.com.au/nation/senate-passes-budget-legislation",
       "priority": "high"
     }
   ]

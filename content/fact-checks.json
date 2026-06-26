@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T18:05:22.340Z",
+  "lastUpdated": "2026-06-26T07:44:31.837Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1710,6 +1710,24 @@
       ],
       "date_checked": "2026-06-25",
       "category": "housing"
+    },
+    {
+      "id": "fc-089",
+      "slug": "2b-infrastructure-initiative-65k-homes-disputed",
+      "claim": "The government's $2 billion infrastructure initiative will deliver 65,000 additional homes",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "While government sources cite 65,000 homes, Grattan Institute and independent analysis question whether the target is realistic or achievable.",
+      "detailed_explanation": "Multiple government sources cite the $2B infrastructure initiative as delivering 65,000 additional homes. However, Grattan Institute and independent modelling question whether this target is achievable. The $2B funding is tied to housing supply milestones, suggesting conditional rather than guaranteed delivery. Independent experts suggest the timeline and delivery mechanisms may not support such a specific figure.",
+      "sources": [
+        {
+          "name": "Australian Government Budget",
+          "url": "https://www.budget.gov.au",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-26",
+      "category": "Housing"
     }
   ]
 }

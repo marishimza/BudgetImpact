@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T06:02:01.142Z",
+  "lastUpdated": "2026-06-26T07:47:34.641Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1880,42 +1880,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will CGT minimum 30% floor apply to all gains or only gains above inflation?",
-      "description": "Multiple pending suggestions show this as an unresolved question. The budget's 'minimum 30% tax rate' on capital gains could mean either: (a) a floor that applies to all nominal gains (resulting in potentially higher tax for low-rate earners), or (b) a floor that only applies to real gains after indexation. NAB analysis implies different outcomes for retirees on 16% marginal rate facing potential 8% vs 30% tax, while Treasury analysis showing 'inflation accounts for 56% of ASX 200 share gains' suggests indexation is significant. The distinction affects whether the reform is neutral, a reduction, or an increase for different taxpayer segments.",
-      "suggestion": "Add to debates.json: view_a from NAB analysis implies minimum floor applies to nominal gains creating large increases for low-rate retirees, view_b from Treasury analysis on inflation adjustment suggests real gains calculation is central to the reform design",
-      "source": "https://www.nab.com.au/content/dam/nabcom.au/documents/economics/20260513-budget-analysis-cgt.pdf",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260606-805",
-      "timestamp": "2026-06-06T15:06:32.685Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources claim a flat 30% minimum applies to ALL capital gains. However, budget.gov.au states the 30% rate applies to 'gains from 1 July 2027' after inflation indexation is applied to the cost base. This suggests the 30% applies to indexed gains (gains minus inflation adjustment), not necessarily all nominal gains. The actual tax could be higher than 30% of nominal gains depending on how indexation is calculated.",
-      "suggestion": "Add to fact-checks.json: claim is '30% minimum on all gains', verdict is disputed because official source indicates 30% applies to inflation-adjusted gains, not necessarily all nominal gains. Tax payable may differ from simple 30% calculation on gross proceeds.",
-      "source": "https://budget.gov.au/content/tax-reform/index.htm",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260606-305",
-      "timestamp": "2026-06-06T15:06:32.685Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: ASX analysis states retired investor on 16% marginal rate faces 8% tax on nominal gains under current CGT system",
-      "description": "ASX analysis claims a retired investor on 16% marginal rate 'faces 8% tax on nominal gains' under current rules, versus 30% on indexed gains under proposed changes. This specific comparison appears in multiple sources. The 8% figure (16% × 50% discount) is mathematically correct for current rules but may oversimplify the comparison by not accounting for CGT exemptions, timing of gains, or other variables that affect actual tax outcomes.",
-      "suggestion": "Add to fact-checks.json: claim is '8% vs 30% tax comparison for 16% marginal rate investor', verdict is partially_true because 8% calculation (16% × 50%) is mathematically correct under current rules, but the comparison may be oversimplified as actual outcomes depend on asset type, holding period, and individual circumstances.",
-      "source": "https://www.asx.com.au/content/dam/asx/investors/ASX%20Budget%202026-27%20investor%20guide.pdf",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260606-978",
-      "timestamp": "2026-06-06T15:06:32.685Z",
-      "status": "pending"
     },
     {
       "id": "suggestion-20260606-827",
@@ -6047,19 +6011,6 @@
     },
     {
       "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: '$2 billion infrastructure initiative will deliver 65,000 additional homes'",
-      "description": "Multiple sources cite the government's $2B infrastructure initiative as delivering 65,000 additional homes. However, search results indicate Grattan Institute and independent modelling question whether this target is achievable. The official government figure appears to conflict with independent expert estimates.",
-      "suggestion": "Add to fact-checks.json: 'Claim: $2B infrastructure initiative will deliver 65,000 additional homes' - Verdict: DISPUTED. While government sources cite 65,000 homes, Grattan Institute and independent analysis question whether the target is realistic or achievable. The $2B funding is tied to housing supply milestones, suggesting conditional rather than guaranteed delivery.",
-      "source": "https://www.budget.gov.au",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260626-532",
-      "timestamp": "2026-06-26T06:01:54.040Z",
-      "status": "pending",
-      "corroborated_by": "https://www.smh.com.au/politics/federal/chalmers-doubles-down-on-housing-with-2-billion-for-roads-and-pipes-20260509-p5zv9w.html"
-    },
-    {
-      "type": "fact_check",
       "priority": "medium",
       "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
       "description": "This claim is widely repeated but potentially misleading. The ATO explicitly states Division 296 imposes 15% tax on 'the proportion of earnings relating to your TSB that exceeds the LSBT' — not on the entire balance above $3m. This is a significant distinction that affects the actual tax payable.",
@@ -6081,18 +6032,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260626-493",
-      "timestamp": "2026-06-26T06:01:54.040Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -7461,6 +7400,46 @@
       "timestamp": "2026-06-06T15:06:32.685Z",
       "status": "implemented",
       "implemented_at": "2026-06-25T23:14:07.351Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: '$2 billion infrastructure initiative will deliver 65,000 additional homes'",
+      "description": "Multiple sources cite the government's $2B infrastructure initiative as delivering 65,000 additional homes. However, search results indicate Grattan Institute and independent modelling question whether this target is achievable. The official government figure appears to conflict with independent expert estimates.",
+      "suggestion": "Add to fact-checks.json: 'Claim: $2B infrastructure initiative will deliver 65,000 additional homes' - Verdict: DISPUTED. While government sources cite 65,000 homes, Grattan Institute and independent analysis question whether the target is realistic or achievable. The $2B funding is tied to housing supply milestones, suggesting conditional rather than guaranteed delivery.",
+      "source": "https://www.budget.gov.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260626-532",
+      "timestamp": "2026-06-26T06:01:54.040Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.smh.com.au/politics/federal/chalmers-doubles-down-on-housing-with-2-billion-for-roads-and-pipes-20260509-p5zv9w.html",
+      "implemented_at": "2026-06-26T07:44:46.733Z"
+    },
+    {
+      "id": "suggestion-20260626-493",
+      "timestamp": "2026-06-26T06:01:54.040Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-26T07:46:33.631Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will CGT minimum 30% floor apply to all gains or only gains above inflation?",
+      "description": "Multiple pending suggestions show this as an unresolved question. The budget's 'minimum 30% tax rate' on capital gains could mean either: (a) a floor that applies to all nominal gains (resulting in potentially higher tax for low-rate earners), or (b) a floor that only applies to real gains after indexation. NAB analysis implies different outcomes for retirees on 16% marginal rate facing potential 8% vs 30% tax, while Treasury analysis showing 'inflation accounts for 56% of ASX 200 share gains' suggests indexation is significant. The distinction affects whether the reform is neutral, a reduction, or an increase for different taxpayer segments.",
+      "suggestion": "Add to debates.json: view_a from NAB analysis implies minimum floor applies to nominal gains creating large increases for low-rate retirees, view_b from Treasury analysis on inflation adjustment suggests real gains calculation is central to the reform design",
+      "source": "https://www.nab.com.au/content/dam/nabcom.au/documents/economics/20260513-budget-analysis-cgt.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260606-805",
+      "timestamp": "2026-06-06T15:06:32.685Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-26T07:47:00.710Z"
     }
   ],
   "skipped": [
@@ -7976,6 +7955,34 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-25T23:12:03.664Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources claim a flat 30% minimum applies to ALL capital gains. However, budget.gov.au states the 30% rate applies to 'gains from 1 July 2027' after inflation indexation is applied to the cost base. This suggests the 30% applies to indexed gains (gains minus inflation adjustment), not necessarily all nominal gains. The actual tax could be higher than 30% of nominal gains depending on how indexation is calculated.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum on all gains', verdict is disputed because official source indicates 30% applies to inflation-adjusted gains, not necessarily all nominal gains. Tax payable may differ from simple 30% calculation on gross proceeds.",
+      "source": "https://budget.gov.au/content/tax-reform/index.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260606-305",
+      "timestamp": "2026-06-06T15:06:32.685Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-26T07:47:21.615Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: ASX analysis states retired investor on 16% marginal rate faces 8% tax on nominal gains under current CGT system",
+      "description": "ASX analysis claims a retired investor on 16% marginal rate 'faces 8% tax on nominal gains' under current rules, versus 30% on indexed gains under proposed changes. This specific comparison appears in multiple sources. The 8% figure (16% × 50% discount) is mathematically correct for current rules but may oversimplify the comparison by not accounting for CGT exemptions, timing of gains, or other variables that affect actual tax outcomes.",
+      "suggestion": "Add to fact-checks.json: claim is '8% vs 30% tax comparison for 16% marginal rate investor', verdict is partially_true because 8% calculation (16% × 50%) is mathematically correct under current rules, but the comparison may be oversimplified as actual outcomes depend on asset type, holding period, and individual circumstances.",
+      "source": "https://www.asx.com.au/content/dam/asx/investors/ASX%20Budget%202026-27%20investor%20guide.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260606-978",
+      "timestamp": "2026-06-06T15:06:32.685Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-26T07:47:34.641Z"
     }
   ],
   "needs_manual_review": [

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T23:14:07.347Z",
+  "lastUpdated": "2026-06-26T07:47:00.706Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2431,6 +2431,29 @@
         "argument": "Investors who purchased property before 12 May 2026 are grandfathered and can continue negative gearing indefinitely on existing and new purchases. New investors purchasing after this date will face restrictions once legislation formally commences on 1 July 2027.",
         "sources": [
           "https://budget.gov.au/2026-27/fact-sheets"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-104",
+      "slug": "will-cgt-minimum-30-percent-floor-apply-to-all-gains-or-only-gains-above-inflation",
+      "title": "Will CGT minimum 30% floor apply to all gains or only gains above inflation?",
+      "category": "capital_gains_tax",
+      "type": "interpretation_difference",
+      "summary": "The budget's 'minimum 30% tax rate' on capital gains raises a fundamental interpretive question: does the floor apply to all nominal gains regardless of inflation, or only to real gains after indexation for inflation? This distinction significantly affects whether the reform is revenue-neutral, a reduction, or a substantial increase for different taxpayer segments, particularly retirees and low-rate earners.",
+      "view_a": {
+        "label": "Nominal gains floor",
+        "argument": "NAB analysis suggests the minimum 30% floor applies to all nominal capital gains, meaning the effective tax rate on gross gains cannot fall below 30% regardless of the taxpayer's marginal tax rate. Under this interpretation, a retiree on a 16% marginal tax rate who realizes $100,000 in nominal gains would face an effective CGT rate of 30% rather than their standard marginal rate, resulting in an effective tax rate nearly doubling their previous obligation. This creates substantial increases for low-rate earners who previously benefited from the 50% CGT discount bringing their effective rate to 11.5%.",
+        "sources": [
+          "https://www.nab.com.au/content/dam/nabcom.au/documents/economics/20250513-budget-analysis-cgt.pdf"
+        ]
+      },
+      "view_b": {
+        "label": "Real gains after indexation",
+        "argument": "Treasury analysis indicating that 'inflation accounts for 56% of ASX 200 share gains' suggests the reform's design centers on real gains calculation. Under this interpretation, the minimum 30% floor would only apply to gains above inflation, effectively treating indexed or inflation-adjusted gains as the tax base. This approach would maintain rough neutrality for long-term holders whose gains primarily reflect inflation, while ensuring that genuine real gains face a minimum 30% burden. The significance of the 56% inflation component in historical returns implies this distinction materially affects the reform's impact across different holding periods and asset classes.",
+        "sources": [
+          "https://www.nab.com.au/content/dam/nabcom.au/documents/economics/20250513-budget-analysis-cgt.pdf"
         ]
       },
       "verdict": null

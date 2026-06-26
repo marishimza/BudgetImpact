@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T23:13:27.106Z",
+  "lastUpdated": "2026-06-26T07:46:33.628Z",
   "items": [
     {
       "id": "update-001",
@@ -2620,6 +2620,16 @@
       "summary": "The Senate has passed the previously contested legislation that had prompted opposition warnings of a Senate challenge. The bill, which had been flagged as pending in update-007, has now cleared both houses and awaits Royal Assent. The passage concludes weeks of parliamentary negotiation and removes the uncertainty surrounding the budget measure.",
       "url": "",
       "priority": "medium"
+    },
+    {
+      "id": "update-260",
+      "date": "2026-06-26",
+      "tag": "Parliament",
+      "source": "AusBudget2026",
+      "title": "Update: Senate legislation passes — Budget measures now law",
+      "summary": "The Senate has passed the previously contested budget legislation, with the Opposition dropping its challenge. The measures, originally flagged as potentially contentious in May 2026, have now received Royal Assent and are fully enacted. This resolves the uncertainty noted in earlier coverage regarding implementation timelines.",
+      "url": "https://www.ausbudget2026.gov.au/budget-updates",
+      "priority": "high"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T17:44:24.681Z",
+  "lastUpdated": "2026-06-26T21:13:31.528Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -6116,61 +6116,107 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
+    },
     {
       "type": "content_update",
-      "priority": "medium",
-      "title": "KPMG reveals detailed CGT implementation funding breakdown",
-      "description": "KPMG analysis provides detailed breakdown of $47.5m over four years plus $3.9m ongoing for Treasury and ATO CGT reform implementation, with analysis of implementation timeline risks.",
-      "suggestion": "Add KPMG Budget Analysis: $47.5m implementation funding breakdown confirms ATO and Treasury resource allocation, including $3.9m ongoing operational funding",
-      "source": "https://www.kpmg.com/au/en/budget-2026",
+      "priority": "high",
+      "title": "ATO releases technical guidance on pre-1985 share valuation reset mechanism",
+      "description": "The ATO has released technical guidance clarifying the pre-1985 share valuation reset for the July 2027 CGT changes. This guidance helps investors and tax professionals understand how pre-1985 assets will be treated under the new indexation rules, distinguishing between cost base indexation and the former CGT discount approach.",
+      "suggestion": "Add ATO technical guidance on pre-1985 share valuation reset for July 2027 CGT changes",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260619-814",
-      "timestamp": "2026-06-19T16:29:45.465Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-19T17:50:49.936Z"
+      "id": "suggestion-20260626-508",
+      "timestamp": "2026-06-26T21:13:24.840Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/law/view/document?docid=TXR/TR9430/NAT/ATO/00001"
     },
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "Perpetual confirms cost base indexation mirrors 1985-1999 approach",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Perpetual analysis confirms the new CGT cost base indexation mechanism closely mirrors the pre-1999 indexation method that was phased out in favour of the 50% discount.",
-      "suggestion": "Add Perpetual analysis confirming new CGT cost base indexation mirrors 1985-1999 approach, providing historical context for investors and tax professionals",
-      "source": "https://www.perpetual.com.au/insights/budget-2026-cgt-analysis",
+      "title": "Perpetual analysis: New CGT cost base indexation mirrors 1985-1999 approach with transitional calculation methodology",
+      "description": "Perpetual's wealth analysis confirms the new CGT cost base indexation method mirrors the pre-1999 approach used from 1985-1999, explaining the transitional calculation methodology for assets acquired before and after the reform date. This technical detail helps investors understand how their CGT liability will be calculated under the new rules.",
+      "suggestion": "Add Perpetual analysis on CGT indexation method and transitional calculation methodology",
+      "source": "https://www.perpetual.com.au/insights/federal-budget-2026/",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260619-449",
-      "timestamp": "2026-06-19T16:29:45.465Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-19T17:51:11.974Z"
+      "id": "suggestion-20260626-745",
+      "timestamp": "2026-06-26T21:13:24.840Z",
+      "status": "pending"
     },
     {
-      "id": "suggestion-20260619-636",
-      "timestamp": "2026-06-19T16:29:45.465Z",
-      "status": "implemented",
+      "type": "content_update",
+      "priority": "low",
+      "title": "Grattan Institute questions $2B infrastructure housing delivery capacity and 65,000 home target feasibility",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Independent analysis from the Grattan Institute questions whether the $2 billion infrastructure funding initiative tied to housing supply milestones can actually deliver the promised 65,000 additional homes. The analysis suggests the target may be optimistic and questions the delivery mechanism linking infrastructure spending to housing outcomes.",
+      "suggestion": "Add Grattan Institute analysis questioning $2B infrastructure initiative delivery capacity and 65,000 home target",
+      "source": "https://www.treasury.gov.au/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260626-855",
+      "timestamp": "2026-06-26T21:13:24.840Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "$2B infrastructure initiative housing delivery: Can it actually deliver 65,000 homes?",
+      "description": "The government claims its $2 billion infrastructure initiative will deliver 65,000 additional homes to address housing supply. However, Grattan Institute modelling and independent analysis question whether this target is achievable, creating a factual dispute about the policy's likely effectiveness.",
+      "suggestion": "Add to debates.json: Government sources (budget.gov.au) claim the $2B infrastructure initiative will deliver 65,000 additional homes. Grattan Institute and independent analysts question whether this target is realistic, with alternative estimates suggesting significantly fewer homes may be delivered.",
+      "source": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260626-254",
+      "timestamp": "2026-06-26T21:13:24.840Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million",
+      "description": "Multiple sources claim Division 296 imposes a flat 15% tax on super balances over $3m. However, the ATO source states: '15% on the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning it's a 15% tax on EARNINGS (not the balance itself), and only on the portion of earnings attributable to the excess balance. This is a significant distinction that could mislead taxpayers into thinking they're paying 15% on $3m+ of their super balance.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on super balances over $3m', verdict is partially_true because Division 296 imposes 15% tax on taxable superannuation EARNINGS attributable to balances exceeding $3m, not a flat 15% on the entire balance.",
+      "source": "https://ato.gov.au/Better-Targeted-Super-Concessions",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260626-647",
+      "timestamp": "2026-06-26T21:13:24.840Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: The 50% CGT discount is being replaced by 'inflation indexation'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget.gov.au states 'a discount based on inflation' while William Buck says 'cost base indexation'. Perpetual notes the method is 'similar to 1985-1999 approach' which used cost base indexation (based on CPI). The distinction matters: true inflation indexation adjusts cost basis by CPI, while cost base indexation is a broader term. Media may conflate these terms.",
+      "suggestion": "Add to fact-checks.json: claim is 'CGT discount replaced by inflation indexation', verdict is partially_true because the replacement uses cost base indexation based on CPI (similar to pre-1999 rules), not pure inflation adjustment, and transitional rules with new build exemptions create complexity.",
+      "source": "https://budget.gov.au/2026-27/tax-reform",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260626-969",
+      "timestamp": "2026-06-26T21:13:24.840Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260626-415",
+      "timestamp": "2026-06-26T21:13:24.840Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "id": "suggestion-20260626-139",
+      "timestamp": "2026-06-26T21:13:24.840Z",
+      "status": "pending",
       "priority": "medium",
       "type": "content_update",
       "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
       "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
       "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
       "source": "",
-      "implementation_effort": "15_minutes",
-      "implemented_at": "2026-06-19T17:51:51.039Z"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will the 2026 budget housing measures cost $6.4 billion over four years?",
-      "description": "ABC reports the budget housing measures cost $6.4 billion over four years, but the figure may not appear in official budget papers or government communications. This raises factual questions about the source, calculation methodology, and whether the $6.4B figure represents only new spending or includes reprioritised existing measures.",
-      "suggestion": "Add to debates.json: ABC News reports budget housing measures cost $6.4 billion over four years, but budget.gov.au official tax reform page makes no mention of this figure. This creates a factual conflict about how much the housing package actually costs.",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260531-711",
-      "timestamp": "2026-05-31T20:48:39.166Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-19T17:52:32.766Z"
-    },
+      "implementation_effort": "15_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "debate_page",
       "priority": "high",
@@ -7544,20 +7590,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Media frequently reports a flat '30% minimum tax' on capital gains, but the official budget.gov.au description states the 50% discount is being 'replaced' by inflation indexation with a minimum 30% tax rate on the discounted gain. This could mislead readers into thinking there's a flat 30% tax on all gains, when the actual tax rate depends on the individual's marginal rate and the indexation calculation.",
-      "suggestion": "Add to fact-checks.json: claim is that a flat 30% applies to ALL gains, verdict is partially_true because the policy introduces a minimum 30% rate on discounted/indexed gains, not a flat 30% on the total gain amount. The effective tax depends on the taxpayer's marginal rate applied to the adjusted gain.",
-      "source": "https://budget.gov.au/publications/budget-2026-27",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260531-874",
-      "timestamp": "2026-05-31T15:11:41.523Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-19T17:52:07.494Z"
-    },
     {
       "type": "debate_page",
       "priority": "medium",

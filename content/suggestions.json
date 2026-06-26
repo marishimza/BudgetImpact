@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T16:07:57.845Z",
+  "lastUpdated": "2026-06-26T17:44:24.681Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1892,18 +1892,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Negative gearing cutoff: 12 May 2026 or 1 July 2027?",
-      "description": "The Guardian reports that investors buying after 12 May 2026 (Budget Night) cannot negatively gear established properties. However, the official budget.gov.au fact sheet provides an example showing Michael buying on 12 May 2026 who CAN continue negatively gearing in future years. This is a factual conflict about the effective cutoff date and grandfathering rules.",
-      "suggestion": "Add to debates.json: The Guardian states investors buying after 12 May cannot negatively gear established properties beyond mid-2027. Meanwhile, budget.gov.au fact sheet shows Michael buying on 12 May 2026 'can continue to negatively gear this property in future years.' These sources directly conflict on whether the Budget Night date creates an immediate cutoff or whether grandfathering preserves existing investors' rights.",
-      "source": "https://www.theguardian.com/australia-news/2026/jun/06/australia-housing-house-prices-supply-before-budget-after-cgt-capital-gains-tax-negative-gearing-changes",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260606-470",
-      "timestamp": "2026-06-06T20:54:34.315Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -6070,44 +6058,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Budget.gov.au official tax reform page confirms CGT changes",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Official budget.gov.au page confirms the 50% CGT discount will be replaced by inflation-based indexation and a minimum 30% tax on gains from 1 July 2027, providing authoritative confirmation of the government's tax reform direction.",
-      "suggestion": "Add to budget-updates.json: Official budget.gov.au tax reform page confirms CGT changes — 50% discount replaced by inflation indexation and 30% minimum tax from 1 July 2027",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260626-892",
-      "timestamp": "2026-06-26T16:07:49.878Z",
-      "status": "pending",
-      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO confirms Division 296 Better Targeted Super Concessions is law",
-      "description": "ATO official page confirms Division 296 legislation enacted in March 2026 is now law, with 15% tax on taxable super earnings applying from 1 July 2026 for individuals with total superannuation balances exceeding $3 million.",
-      "suggestion": "Add to budget-updates.json: ATO confirms Better Targeted Super Concessions (Division 296) is enacted law — 15% tax on earnings above $3m threshold applies from 1 July 2026",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260626-257",
-      "timestamp": "2026-06-26T16:07:49.878Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Stockspot CGT Calculator explains inflation indexation mechanism",
-      "description": "Detailed explanation of how the current 12-month holding CGT discount (50%) will be replaced by cost base indexation, with practical examples of how the new system calculates capital gains based on inflation adjustments rather than a simple discount percentage.",
-      "suggestion": "Add to budget-updates.json: Stockspot CGT Calculator explains inflation-based indexation mechanism replacing 50% discount — details transition from discount to cost base indexation",
-      "source": "https://www.stockspot.com.au/cgt-calculator/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260626-788",
-      "timestamp": "2026-06-26T16:07:49.878Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "$2B Infrastructure Initiative: Can it deliver 65,000 additional homes?",
@@ -6166,18 +6116,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260626-174",
-      "timestamp": "2026-06-26T16:07:49.878Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -7563,6 +7501,46 @@
       "status": "implemented",
       "corroborated_by": "https://www.smh.com.au/politics/federal/chalmers-doubles-down-on-housing-with-2-billion-for-roads-and-pipes-20260509-p5zv9w.html",
       "implemented_at": "2026-06-26T12:23:42.890Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Budget.gov.au official tax reform page confirms CGT changes",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Official budget.gov.au page confirms the 50% CGT discount will be replaced by inflation-based indexation and a minimum 30% tax on gains from 1 July 2027, providing authoritative confirmation of the government's tax reform direction.",
+      "suggestion": "Add to budget-updates.json: Official budget.gov.au tax reform page confirms CGT changes — 50% discount replaced by inflation indexation and 30% minimum tax from 1 July 2027",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260626-892",
+      "timestamp": "2026-06-26T16:07:49.878Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implemented_at": "2026-06-26T17:42:55.864Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Stockspot CGT Calculator explains inflation indexation mechanism",
+      "description": "Detailed explanation of how the current 12-month holding CGT discount (50%) will be replaced by cost base indexation, with practical examples of how the new system calculates capital gains based on inflation adjustments rather than a simple discount percentage.",
+      "suggestion": "Add to budget-updates.json: Stockspot CGT Calculator explains inflation-based indexation mechanism replacing 50% discount — details transition from discount to cost base indexation",
+      "source": "https://www.stockspot.com.au/cgt-calculator/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260626-788",
+      "timestamp": "2026-06-26T16:07:49.878Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-26T17:43:33.526Z"
+    },
+    {
+      "id": "suggestion-20260626-174",
+      "timestamp": "2026-06-26T16:07:49.878Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-26T17:44:04.396Z"
     }
   ],
   "skipped": [
@@ -8063,6 +8041,35 @@
       "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-26T12:20:05.343Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO confirms Division 296 Better Targeted Super Concessions is law",
+      "description": "ATO official page confirms Division 296 legislation enacted in March 2026 is now law, with 15% tax on taxable super earnings applying from 1 July 2026 for individuals with total superannuation balances exceeding $3 million.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Better Targeted Super Concessions (Division 296) is enacted law — 15% tax on earnings above $3m threshold applies from 1 July 2026",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260626-257",
+      "timestamp": "2026-06-26T16:07:49.878Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-26T17:43:15.105Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Negative gearing cutoff: 12 May 2026 or 1 July 2027?",
+      "description": "The Guardian reports that investors buying after 12 May 2026 (Budget Night) cannot negatively gear established properties. However, the official budget.gov.au fact sheet provides an example showing Michael buying on 12 May 2026 who CAN continue negatively gearing in future years. This is a factual conflict about the effective cutoff date and grandfathering rules.",
+      "suggestion": "Add to debates.json: The Guardian states investors buying after 12 May cannot negatively gear established properties beyond mid-2027. Meanwhile, budget.gov.au fact sheet shows Michael buying on 12 May 2026 'can continue to negatively gear this property in future years.' These sources directly conflict on whether the Budget Night date creates an immediate cutoff or whether grandfathering preserves existing investors' rights.",
+      "source": "https://www.theguardian.com/australia-news/2026/jun/06/australia-housing-house-prices-supply-before-budget-after-cgt-capital-gains-tax-negative-gearing-changes",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260606-470",
+      "timestamp": "2026-06-06T20:54:34.315Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-26T17:44:24.681Z"
     }
   ],
   "needs_manual_review": [

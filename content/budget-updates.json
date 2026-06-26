@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T12:22:18.386Z",
+  "lastUpdated": "2026-06-26T17:44:04.392Z",
   "items": [
     {
       "id": "update-001",
@@ -2659,6 +2659,36 @@
       "title": "Grattan Institute: Budget tax reforms unlikely to materially improve housing affordability until 2030s",
       "summary": "The Grattan Institute has released independent analysis projecting that the Budget's housing tax reforms, including changes to negative gearing and capital gains tax, are unlikely to materially improve housing affordability until the 2030s. The Institute has also raised concerns about whether the federal government's $2 billion infrastructure initiative can deliver on its target of 65,000 additional homes, questioning the program's feasibility.",
       "url": "https://www.abc.net.au/news/2026-06-25/federal-politics-live-blog-teal-political-party/106839082",
+      "priority": "high"
+    },
+    {
+      "id": "update-264",
+      "date": "2026-06-26",
+      "tag": "Property",
+      "source": "budget.gov.au",
+      "title": "Budget.gov.au Confirms CGT Reform: 50% Discount Replaced by Inflation Indexation and 30% Minimum Tax",
+      "summary": "The official Australian Government Budget website has published its tax reform page confirming that the existing 50% Capital Gains Tax discount will be abolished from 1 July 2027, replaced by an inflation-based indexation method. The reform introduces a minimum 30% tax on capital gains, affecting property investors and shareholders who will no longer benefit from the previous discount system. This change represents a fundamental shift in how capital gains are calculated and taxed in Australia.",
+      "url": "https://budget.gov.au/content/04-tax-reform.htm",
+      "priority": "high"
+    },
+    {
+      "id": "update-265",
+      "date": "2026-06-26",
+      "tag": "Budget",
+      "source": "Stockspot",
+      "title": "Stockspot CGT Calculator explains inflation indexation mechanism",
+      "summary": "Stockspot's CGT Calculator provides a detailed breakdown of how the 50% capital gains tax discount for assets held over 12 months will be replaced by a cost base indexation approach. The calculator demonstrates practical examples showing how gains will be adjusted for inflation from the date of acquisition rather than applying a flat percentage discount. This tool helps investors understand how their tax obligations will change under the new system, with the indexation factor automatically applied based on the quarter when the asset was purchased.",
+      "url": "https://www.stockspot.com.au/cgt-calculator/",
+      "priority": "high"
+    },
+    {
+      "id": "update-266",
+      "date": "2026-06-26",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Legislation passes Senate — Opposition challenge resolved",
+      "summary": "The legislation previously flagged by the Opposition for a Senate challenge has now passed into law following a vote in the Senate on 25 June 2026. The government secured the necessary crossbench support to have the bill assented to, resolving the uncertainty noted in the May update. Budget measures dependent on this legislation can now proceed as planned.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Live",
       "priority": "high"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T07:44:31.837Z",
+  "lastUpdated": "2026-06-26T12:23:42.888Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1728,6 +1728,29 @@
       ],
       "date_checked": "2026-06-26",
       "category": "Housing"
+    },
+    {
+      "id": "fc-090",
+      "slug": "2b-infrastructure-65k-homes-disputed",
+      "claim": "The $2 billion infrastructure initiative will deliver 65,000 additional homes",
+      "verdict": "disputed",
+      "verdict_label": "DISPUTED",
+      "short_explanation": "Independent analysis, including Grattan Institute modelling, questions whether this housing target is achievable, and the $2B figure may represent aspirational targets rather than guaranteed delivery.",
+      "detailed_explanation": "The claim conflates infrastructure spending with guaranteed housing delivery. While the government has cited a 65,000 home figure in association with the $2 billion infrastructure initiative, independent modelling from the Grattan Institute raises significant questions about whether this target is realistic or achievable. The $2 billion in infrastructure funding may be tied to housing supply milestones rather than guaranteeing 65,000 new homes will be built. Housing delivery depends on multiple factors beyond infrastructure investment, including developer capacity, planning approvals, construction costs, and market conditions. The 65,000 figure should be understood as an aspirational target or upper estimate rather than a confirmed projection backed by independent verification.",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-05-13/budget-capital-gains-tax-changes-explained/",
+          "type": "news"
+        },
+        {
+          "name": "Grattan Institute",
+          "url": "https://grattan.edu.au",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-26",
+      "category": "housing"
     }
   ]
 }

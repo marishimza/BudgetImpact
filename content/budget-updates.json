@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T07:46:33.628Z",
+  "lastUpdated": "2026-06-26T12:22:18.386Z",
   "items": [
     {
       "id": "update-001",
@@ -2629,6 +2629,36 @@
       "title": "Update: Senate legislation passes — Budget measures now law",
       "summary": "The Senate has passed the previously contested budget legislation, with the Opposition dropping its challenge. The measures, originally flagged as potentially contentious in May 2026, have now received Royal Assent and are fully enacted. This resolves the uncertainty noted in earlier coverage regarding implementation timelines.",
       "url": "https://www.ausbudget2026.gov.au/budget-updates",
+      "priority": "high"
+    },
+    {
+      "id": "update-261",
+      "date": "2026-06-25",
+      "tag": "Parliament",
+      "source": "ABC News",
+      "title": "Coalition releases repeal costings — $23bn impact on housing package over decade",
+      "summary": "The Opposition has released detailed costings for its proposed repeal of negative gearing and CGT changes, quantifying the impact at $23 billion over ten years compared to the Government's $6.4 billion package. The costings also address whether a Coalition repeal would affect only future investors or also grandfathered arrangements. The release marks a significant escalation in the political debate over housing tax policy ahead of the next election.",
+      "url": "https://www.abc.net.au/news/2026-06-25/federal-politics-live-blog-teal-political-party/106839082",
+      "priority": "high"
+    },
+    {
+      "id": "update-262",
+      "date": "2026-06-26",
+      "tag": "Parliament",
+      "source": "ABC News",
+      "title": "Housing reform legislation receives Royal Assent — Treasury Laws Amendment (More Housing, More Help) Bill 2026 enacted",
+      "summary": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has received Royal Assent, formally enacting significant negative gearing and capital gains tax (CGT) reforms into Australian law. The legislation passed the Senate following earlier opposition challenges and cross-party negotiations, marking a landmark shift in housing tax policy. Property investors and first-home buyers will be affected by the new rules, which aim to improve housing affordability and supply across the country.",
+      "url": "https://www.abc.net.au/news/2026-06-25/federal-politics-live-blog-teal-political-party/106839082",
+      "priority": "high"
+    },
+    {
+      "id": "update-263",
+      "date": "2026-06-25",
+      "tag": "Budget",
+      "source": "ABC News",
+      "title": "Grattan Institute: Budget tax reforms unlikely to materially improve housing affordability until 2030s",
+      "summary": "The Grattan Institute has released independent analysis projecting that the Budget's housing tax reforms, including changes to negative gearing and capital gains tax, are unlikely to materially improve housing affordability until the 2030s. The Institute has also raised concerns about whether the federal government's $2 billion infrastructure initiative can deliver on its target of 65,000 additional homes, questioning the program's feasibility.",
+      "url": "https://www.abc.net.au/news/2026-06-25/federal-politics-live-blog-teal-political-party/106839082",
       "priority": "high"
     }
   ]

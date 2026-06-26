@@ -7402,6 +7402,72 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-19T09:03:26.272Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG reveals detailed CGT implementation funding breakdown",
+      "description": "KPMG analysis confirms $47.5m over four years plus $3.9m ongoing funding for Treasury and ATO to implement CGT and negative gearing reforms. This provides granular detail on administrative costs of the housing tax reform package.",
+      "suggestion": "Add to budget-updates.json: KPMG reveals detailed CGT implementation funding breakdown: $47.5m over four years plus $3.9m ongoing for Treasury and ATO reform rollout",
+      "source": "https://www.kpmg.com/au/en/home/insights/2026/05/federal-budget-2026-cgt-implementation-funding.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260619-503",
+      "timestamp": "2026-06-19T12:00:31.259Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-19T13:31:17.780Z"
+    },
+    {
+      "id": "suggestion-20260619-864",
+      "timestamp": "2026-06-19T12:00:31.259Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-19T13:31:49.963Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Short-term housing price impact: prolonged slump vs brief correction",
+      "description": "Economists and financial institutions are making conflicting projections about the severity and duration of any housing price decline following the 2026 Budget tax reforms. This matters for buyers, investors, and policymakers assessing the reforms' immediate impact.",
+      "suggestion": "Add to debates.json: The Guardian reports economists believe 'home values are set for their first national slump since 2022' while NAB's revised forecast projects 'brief correction not prolonged slump' — these are contradictory short-term price projections from credible financial sources.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/21/australia-house-prices-labor-federal-budget-negative-gearing-cgt-capital-gains-tax",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260531-968",
+      "timestamp": "2026-05-31T15:11:41.523Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-19T13:32:36.904Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "CGT discount replacement mechanism: cost base indexation vs inflation indexation",
+      "description": "NAB's budget analysis and The Guardian describe the CGT discount reform using different technical mechanisms — cost base indexation versus inflation indexation. These are distinct tax calculation approaches that could affect investors differently, making this a factual conflict about how the policy actually works.",
+      "suggestion": "Add to debates.json: NAB Budget Analysis states 'CGT discount replaced by cost base indexation' while The Guardian reports '50% CGT discount is being replaced by inflation indexation' — these describe different technical mechanisms for calculating capital gains tax.",
+      "source": "https://www.commbank.com.au/articles/newsroom/2026/05/2026-budget-updated-housing-outlook.html",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260531-463",
+      "timestamp": "2026-05-31T15:11:41.523Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-19T13:33:13.326Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Division 296 imposes 15% tax on superannuation balances exceeding $3 million",
+      "description": "This claim appears frequently but is inaccurate. The ATO clarifies that Division 296 imposes 15% on 'the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning the 15% applies to earnings attributable to the amount over $3m, not a flat 15% on the entire balance above $3m. For example, if $3.5m was in accumulation phase with 8% return ($280k earnings), only the $40k excess would be subject to the 15% tax, not the entire $500k excess.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because Division 296 applies 15% tax on the earnings attributable to the balance exceeding $3m threshold, not a flat 15% on total superannuation over $3m.",
+      "source": "https://www.ato.gov.au/About-ATO/Legislation/Better-targeted-super-concessions/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260531-606",
+      "timestamp": "2026-05-31T06:10:31.520Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-19T13:32:02.318Z"
     }
   ]
 }

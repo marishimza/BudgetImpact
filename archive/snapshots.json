@@ -2,6 +2,24 @@
   "lastUpdated": "2026-05-17T00:00:00+10:00",
   "snapshots": [
     {
+      "snapshot_id": "snapshot-20260627-1126",
+      "timestamp": "2026-06-27T11:26:23.859Z",
+      "git_commit": "767a05f4a59c40c149e679df940f813e7d444000",
+      "pages_changed": [
+        "content/fact-checks.json",
+        "content/budget-updates.json",
+        "content/debates.json",
+        "content/suggestions.json"
+      ],
+      "suggestions_implemented": [
+        "suggestion-20260627-407",
+        "suggestion-20260627-228",
+        "suggestion-20260627-541",
+        "suggestion-20260607-234",
+        "suggestion-20260607-225"
+      ]
+    },
+    {
       "snapshot_id": "snapshot-20260627-0650",
       "timestamp": "2026-06-27T06:50:28.837Z",
       "git_commit": "c554be31338d8ea910aeef893e09216f30ca76aa",

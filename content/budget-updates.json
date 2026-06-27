@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T17:04:30.841Z",
+  "lastUpdated": "2026-06-27T22:59:01.733Z",
   "items": [
     {
       "id": "update-001",
@@ -2749,6 +2749,26 @@
       "title": "Senate passes controversial budget measure — opposition challenge withdrawn",
       "summary": "The Senate has passed the previously contested budget legislation following weeks of negotiations between the government and crossbench senators. The opposition has withdrawn its promised challenge after reaching a compromise on certain provisions. The legislation now awaits Royal Assent to become law.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
+      "priority": "high"
+    },
+    {
+      "id": "update-273",
+      "date": "2026-06-27",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Legislation passes Senate — pending items resolved",
+      "summary": "The Senate has passed the previously pending legislation that was the subject of opposition concern. The opposition has withdrawn its proposed challenge to the measures. The legislation will now proceed to finalisation and royal assent. Budget impact assessments are being updated to reflect the new status.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
+      "priority": "medium"
+    },
+    {
+      "id": "update-274",
+      "date": "2026-06-27",
+      "tag": "Parliament",
+      "source": "The Australian Financial Review",
+      "title": "Senate Passes Contested Budget Legislation After Coalition U-Turn",
+      "summary": "The Senate has passed the controversial budget legislation following the Coalition's unexpected U-turn on key provisions. The bill, which includes changes to stage 3 tax cuts and certain welfare adjustments, cleared the upper house with minor amendments after extended negotiations. The government expects the legislation to deliver its projected budget improvements over the forward estimates.",
+      "url": "https://www.afr.com/politics/federal/senate-passes-budget-legislation-coalition-u-turn-2026-06-27",
       "priority": "high"
     }
   ]

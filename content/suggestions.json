@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T20:51:11.913Z",
+  "lastUpdated": "2026-06-27T22:59:25.603Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1964,18 +1964,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Does the CGT minimum 30% floor apply to all gains or only gains above inflation?",
-      "description": "Multiple sources claim capital gains will face a minimum 30% tax rate on 'ALL gains' from July 2027. However, other sources suggest this interpretation may be incorrect - the minimum floor may only apply to gains above inflation, not nominal gains. This is a factual conflict about the actual operation of the new CGT rules.",
-      "suggestion": "Add to debates.json: Sources disagree on whether the 30% minimum CGT floor applies to ALL capital gains or only gains above inflation",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860 vs https://www.perpetual.com.au/insights/federal-budget-2026/",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260607-714",
-      "timestamp": "2026-06-07T15:19:36.293Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -6262,32 +6250,6 @@
       "status": "pending"
     },
     {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'The 50% CGT discount is being replaced by inflation indexation'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources use conflicting terminology. Budget.gov.au and The Guardian use 'inflation indexation' while NAB and Perpetual use 'cost base indexation'. These are technically different methods - inflation indexation adjusts cost base for CPI inflation only, while cost base indexation may use a different methodology. This semantic difference could lead to different tax outcomes and has appeared in media without clarification.",
-      "suggestion": "Add to fact-checks.json: claim is 'replaced by inflation indexation', verdict is partially_true because budget.gov.au confirms inflation-based indexation but NAB and Perpetual reference 'cost base indexation' suggesting potential inconsistency in how the policy is described across official and analysis sources.",
-      "source": "https://budget.gov.au/publications/pdfs/tax-reform.pdf",
-      "implementation_effort": "45_minutes",
-      "id": "suggestion-20260627-598",
-      "timestamp": "2026-06-27T20:51:04.069Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Division 296 imposes 15% tax on all superannuation balances exceeding $3 million'",
-      "description": "Media coverage commonly describes this as a flat 15% tax on balances over $3m. However, the ATO source clarifies it is '15% on the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning the 15% applies only to the earnings attributable to the amount above $3m, not the entire balance above the threshold. This is a significant oversimplification that misrepresents how the tax is calculated.",
-      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because ATO confirms the 15% rate applies only to the earnings portion attributable to the balance exceeding $3m threshold, not a flat 15% on the entire balance above $3m.",
-      "source": "https://www.ato.gov.au/about-us/media-centre/recent-changes/better-targeted-super-concessions-is-law/",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260627-950",
-      "timestamp": "2026-06-27T20:51:04.069Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
-    },
-    {
       "id": "suggestion-20260627-762",
       "timestamp": "2026-06-27T20:51:04.069Z",
       "status": "pending",
@@ -6298,30 +6260,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260627-321",
-      "timestamp": "2026-06-27T20:51:04.069Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260627-766",
-      "timestamp": "2026-06-27T20:51:04.069Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -7696,6 +7634,45 @@
       "timestamp": "2026-06-07T15:19:36.293Z",
       "status": "implemented",
       "implemented_at": "2026-06-27T17:07:33.352Z"
+    },
+    {
+      "id": "suggestion-20260627-321",
+      "timestamp": "2026-06-27T20:51:04.069Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-27T22:58:41.119Z"
+    },
+    {
+      "id": "suggestion-20260627-766",
+      "timestamp": "2026-06-27T20:51:04.069Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-27T22:59:01.737Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Does the CGT minimum 30% floor apply to all gains or only gains above inflation?",
+      "description": "Multiple sources claim capital gains will face a minimum 30% tax rate on 'ALL gains' from July 2027. However, other sources suggest this interpretation may be incorrect - the minimum floor may only apply to gains above inflation, not nominal gains. This is a factual conflict about the actual operation of the new CGT rules.",
+      "suggestion": "Add to debates.json: Sources disagree on whether the 30% minimum CGT floor applies to ALL capital gains or only gains above inflation",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860 vs https://www.perpetual.com.au/insights/federal-budget-2026/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260607-714",
+      "timestamp": "2026-06-07T15:19:36.293Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-27T22:59:25.603Z"
     }
   ],
   "skipped": [
@@ -8212,6 +8189,36 @@
       "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-27T06:50:27.428Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Division 296 imposes 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "Media coverage commonly describes this as a flat 15% tax on balances over $3m. However, the ATO source clarifies it is '15% on the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning the 15% applies only to the earnings attributable to the amount above $3m, not the entire balance above the threshold. This is a significant oversimplification that misrepresents how the tax is calculated.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because ATO confirms the 15% rate applies only to the earnings portion attributable to the balance exceeding $3m threshold, not a flat 15% on the entire balance above $3m.",
+      "source": "https://www.ato.gov.au/about-us/media-centre/recent-changes/better-targeted-super-concessions-is-law/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260627-950",
+      "timestamp": "2026-06-27T20:51:04.069Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-27T22:58:04.633Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'The 50% CGT discount is being replaced by inflation indexation'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources use conflicting terminology. Budget.gov.au and The Guardian use 'inflation indexation' while NAB and Perpetual use 'cost base indexation'. These are technically different methods - inflation indexation adjusts cost base for CPI inflation only, while cost base indexation may use a different methodology. This semantic difference could lead to different tax outcomes and has appeared in media without clarification.",
+      "suggestion": "Add to fact-checks.json: claim is 'replaced by inflation indexation', verdict is partially_true because budget.gov.au confirms inflation-based indexation but NAB and Perpetual reference 'cost base indexation' suggesting potential inconsistency in how the policy is described across official and analysis sources.",
+      "source": "https://budget.gov.au/publications/pdfs/tax-reform.pdf",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260627-598",
+      "timestamp": "2026-06-27T20:51:04.069Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-27T22:58:16.097Z"
     }
   ],
   "needs_manual_review": [

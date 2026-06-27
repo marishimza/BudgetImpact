@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T17:07:33.349Z",
+  "lastUpdated": "2026-06-27T22:59:25.599Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2539,6 +2539,27 @@
         "sources": [
           "https://www.theguardian.com/australia-news",
           "https://www.afr.com/policy/economy"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-109",
+      "slug": "cgt-30-percent-floor-all-gains-vs-inflation-adjusted",
+      "title": "Does the CGT 30% minimum floor apply to all gains or only gains above inflation?",
+      "category": "tax",
+      "type": "factual_dispute",
+      "summary": "There is conflicting interpretation about whether the 30% minimum CGT rate from July 2027 applies to all nominal capital gains or only to gains above inflation. Some sources state it applies to all gains, while others suggest it only applies to real (inflation-adjusted) gains, meaning nominal gains that merely keep pace with inflation would not face the minimum rate.",
+      "view_a": {
+        "label": "30% floor applies to all gains",
+        "argument": "Multiple media outlets and commentators state that the new CGT rules will impose a minimum 30% tax rate on ALL capital gains from July 2027. Under this interpretation, no capital gain can be taxed below this rate regardless of nominal value, meaning even small nominal gains face the minimum threshold.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "30% floor only applies to gains above inflation",
+        "argument": "Other analysis suggests the minimum 30% floor only applies to real gains that exceed inflation. Under this interpretation, nominal gains that merely keep pace with inflation would be treated differently, and only gains above the inflation-adjusted threshold would be subject to the 30% minimum rate.",
+        "sources": [
+          "https://www.perpetual.com.au/insights/federal-budget-2026/"
         ]
       },
       "verdict": null

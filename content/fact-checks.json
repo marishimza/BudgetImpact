@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T23:00:56.299Z",
+  "lastUpdated": "2026-06-27T06:49:34.872Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1769,6 +1769,24 @@
       ],
       "date_checked": "2026-06-26",
       "category": "superannuation"
+    },
+    {
+      "id": "fc-092",
+      "slug": "inflation-indexation-cgt-50-percent-discount",
+      "claim": "Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets",
+      "verdict": "disputed",
+      "verdict_label": "Disputed - Depends on Multiple Factors",
+      "short_explanation": "The relative benefit of inflation indexation versus the 50% CGT discount depends on inflation rates, holding period, and marginal tax rate—it is not universally better.",
+      "detailed_explanation": "This absolute claim is mathematically false in certain scenarios. The actual outcome depends on three key factors: (1) the inflation rate during the holding period, (2) the taxpayer's marginal tax rate, and (3) how long the asset is held. For high-income earners with short holding periods and low inflation, the 50% discount may still be more favorable. While Treasury analysis citing that 'inflation accounts for 56% of ASX 200 gains over the decade' supports the potential benefit of indexation, this data does not prove that indexation 'always' outperforms the discount across all circumstances. Taxpayers should model both scenarios based on their specific situation rather than assuming one method is universally superior.",
+      "sources": [
+        {
+          "name": "Australian Government Budget 2026-27",
+          "url": "https://budget.gov.au/2026-27/tax-reform",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-27",
+      "category": "Capital Gains Tax"
     }
   ]
 }

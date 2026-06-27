@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T23:01:35.881Z",
+  "lastUpdated": "2026-06-27T06:50:09.994Z",
   "items": [
     {
       "id": "update-001",
@@ -2700,6 +2700,26 @@
       "summary": "The Senate has passed the contested budget legislation that was previously flagged for challenge by the opposition. The bill, which was not yet law as of mid-May, cleared both chambers on Thursday with crossbench support. Government sources confirm the legislation is now enacted, ending weeks of parliamentary uncertainty.",
       "url": "https://www.theaustralian.com.au/nation/senate-passes-budget-legislation",
       "priority": "high"
+    },
+    {
+      "id": "update-268",
+      "date": "2026-06-27",
+      "tag": "Budget",
+      "source": "KPMG",
+      "title": "KPMG reveals detailed $47.5m CGT implementation funding breakdown for Treasury and ATO",
+      "summary": "Budget allocates $47.5 million over four years from 2026-27 plus $3.9 million per year ongoing to Treasury and ATO for CGT reform implementation. KPMG flags implementation timeline risks as tax office prepares practical guidance and systems for inflation-indexed CGT calculations. The funding will support the ATO in developing guidance and updating systems ahead of the July 2027 changes to capital gains tax treatment.",
+      "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "priority": "high"
+    },
+    {
+      "id": "update-269",
+      "date": "2026-06-27",
+      "tag": "ASX",
+      "source": "Fool.com.au",
+      "title": "How new capital gains tax affects ASX shares",
+      "summary": "Fool.com.au analysis examines how Budget 2026 CGT changes specifically affect ASX share investors, noting the shift from 50% CGT discount to inflation-based cost base indexation plus 30% minimum tax floor creates different outcomes depending on asset holding period and inflation environment. The practical guidance helps investors understand how these changes may impact their equity portfolio taxation moving forward.",
+      "url": "https://www.fool.com.au/2026/05/13/how-will-the-new-capital-gains-tax-affect-asx-shares/",
+      "priority": "medium"
     }
   ]
 }

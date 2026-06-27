@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T11:26:22.558Z",
+  "lastUpdated": "2026-06-27T17:07:33.349Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2497,6 +2497,49 @@
         "label": "Political opportunism",
         "argument": "The immigration cap proposal is political positioning designed to appeal to voters frustrated with housing costs. The timing of the announcement and the Coalition's simultaneous opposition to negative gearing and CGT reforms—reforms that would actually address housing investor demand—reveals this as a distraction from meaningful tax reform. The framing deliberately deflects attention from investor-focused housing policy while appealing to anti-immigration sentiment.",
         "sources": null
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-107",
+      "slug": "will-restricting-negative-gearing-to-new-builds-increase-or-decrease-rental-supply",
+      "title": "Will restricting negative gearing to new builds increase or decrease rental supply?",
+      "category": "housing",
+      "type": "factual_dispute",
+      "summary": "Real estate industry bodies argue that restricting negative gearing to new builds will reduce rental supply over time, while the government claims the policy focuses tax support on new supply to address housing shortages. This represents a factual conflict about the directional impact of the policy on rental availability.",
+      "view_a": {
+        "label": "REIA/Property Council Position",
+        "argument": "Restricting negative gearing to new builds only will reduce the attractiveness of residential property investment, leading investors to exit the market or reduce their activity. This reduced investor confidence will result in fewer rental properties being brought to market, decreasing rental supply over time.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Government Position",
+        "argument": "Limiting negative gearing to new builds will focus tax support on new supply, directing investment toward the construction of new housing. This targeted approach addresses housing shortages by incentivising the development of additional rental properties.",
+        "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-108",
+      "slug": "cgt-50-percent-discount-preserved-or-eliminated-2026-budget",
+      "title": "Is the 50% CGT discount preserved or eliminated under 2026 Budget reforms?",
+      "category": "tax-reform",
+      "type": "factual_dispute",
+      "summary": "The 2026 Federal Budget proposes changes to negative gearing and capital gains tax. Government factsheets indicate the existing 50% CGT discount remains available for assets held before the reforms (grandfathered), while multiple media outlets report the discount has been 'replaced' by inflation-based indexation. This represents a factual conflict about whether the discount continues to exist for pre-reform asset holders.",
+      "view_a": {
+        "label": "Budget factsheet: Discount preserved for existing assets",
+        "argument": "The official budget.gov.au factsheet on negative gearing and CGT includes a worked example demonstrating that a property investor 'still receives the 50% CGT discount' after the reforms. The discount is explicitly preserved (grandfathered) for existing assets acquired before the reform date. The reforms introduce inflation-based indexation as an alternative mechanism for newly acquired assets, not as a direct replacement for the discount on existing holdings.",
+        "sources": [
+          "https://budget.gov.au/2026-27/fact-sheets/negative-gearing-and-capital-gains-tax"
+        ]
+      },
+      "view_b": {
+        "label": "Media: Discount replaced by indexation",
+        "argument": "Multiple news sources (The Guardian, AFR) describe the 2026 Budget changes as the 50% CGT discount being 'replaced' by inflation-based indexation. These reports focus on the new cost-base indexation mechanism but may not clearly distinguish between the treatment of existing versus newly acquired assets, potentially creating the impression that all investors lose access to the discount rather than only those purchasing after the reform date.",
+        "sources": [
+          "https://www.theguardian.com/australia-news",
+          "https://www.afr.com/policy/economy"
+        ]
       },
       "verdict": null
     }

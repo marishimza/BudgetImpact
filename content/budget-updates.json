@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T11:24:56.180Z",
+  "lastUpdated": "2026-06-27T17:04:30.841Z",
   "items": [
     {
       "id": "update-001",
@@ -2738,6 +2738,16 @@
       "source": "Parliament of Australia",
       "title": "Senate passes key budget legislation following earlier opposition challenge",
       "summary": "The Senate has passed the previously contested budget legislation that was flagged for challenge by the opposition on 2026-05-14. The passage follows successful negotiations between crossbench senators and the government. The legislation, which had been held up pending resolution, will now proceed to final enactment and integration into the 2026-27 budget framework.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
+      "priority": "high"
+    },
+    {
+      "id": "update-272",
+      "date": "2026-06-27",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Senate passes controversial budget measure — opposition challenge withdrawn",
+      "summary": "The Senate has passed the previously contested budget legislation following weeks of negotiations between the government and crossbench senators. The opposition has withdrawn its promised challenge after reaching a compromise on certain provisions. The legislation now awaits Royal Assent to become law.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
       "priority": "high"
     }

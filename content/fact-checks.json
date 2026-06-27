@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T11:24:08.534Z",
+  "lastUpdated": "2026-06-27T17:06:24.987Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1805,6 +1805,42 @@
       ],
       "date_checked": "2026-06-27",
       "category": "superannuation"
+    },
+    {
+      "id": "fc-094",
+      "slug": "negative-gearing-fully-abolished-claim",
+      "claim": "negative gearing has been fully abolished for all investors",
+      "verdict": "disputed",
+      "verdict_label": "Claim is disputed",
+      "short_explanation": "Negative gearing has not been fully abolished. It remains available for existing property investors and is restricted to new builds only from 1 July 2027.",
+      "detailed_explanation": "The claim that negative gearing has been fully abolished is inaccurate. Under the 2026 Budget measures, negative gearing is being restricted to newly constructed residential properties only, effective 1 July 2027. Properties purchased before 7:30pm on Budget Night (12 May 2026) are grandfathered, meaning existing negative gearing arrangements remain intact for those investors. This represents a significant reform rather than an abolition of negative gearing, and existing property investors are largely unaffected by the change.",
+      "sources": [
+        {
+          "name": "William Buck Federal Budget Analysis 2026",
+          "url": "https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-27",
+      "category": "Housing & Tax"
+    },
+    {
+      "id": "fc-095",
+      "slug": "inflation-indexation-always-better-than-50-percent-cgt-discount",
+      "claim": "Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets",
+      "verdict": "disputed",
+      "verdict_label": "This claim is disputed",
+      "short_explanation": "For high-growth assets, the 50% discount can produce a lower effective tax rate than inflation indexation, depending on the investor's marginal tax rate and asset performance.",
+      "detailed_explanation": "Analysis by the ASX shows that for a retired investor on a 16% marginal tax rate, the 50% CGT discount results in an effective 8% tax on nominal gains, compared to 30% on indexed gains under inflation indexation rules. While inflation indexation adjusts gains for purchasing power erosion, the 50% discount applies to the full nominal gain. For assets with significant nominal growth, the percentage reduction from the 50% discount often exceeds the inflation adjustment benefit. The optimal approach depends on the asset's performance, the investor's marginal rate, and holding period. Neither method universally outperforms the other across all scenarios.",
+      "sources": [
+        {
+          "name": "ASX - What the Federal Budget Means for Investors",
+          "url": "https://www.asx.com.au/content/dam/asx/community/investing-tools-resources/commentary/2026/what-the-federal-budget-means-for-investors.pdf",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-27",
+      "category": "tax"
     }
   ]
 }

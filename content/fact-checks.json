@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T06:49:34.872Z",
+  "lastUpdated": "2026-06-27T11:24:08.534Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1787,6 +1787,24 @@
       ],
       "date_checked": "2026-06-27",
       "category": "Capital Gains Tax"
+    },
+    {
+      "id": "fc-093",
+      "slug": "division-296-tax-super-balances-over-3-million",
+      "claim": "Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The 15% Division 296 tax applies only to the earnings attributable to superannuation balances above the $3m threshold, not the entire balance.",
+      "detailed_explanation": "Division 296 (the 'Better Targeted Super Concessions' measure) does not impose a 15% tax on the entire superannuation balance for accounts exceeding $3 million. Instead, it applies a 15% tax on the earnings proportion that relates to the portion of an individual's Total Superannuation Balance (TSB) exceeding the Low Balance Super Threshold (LSBT) of $3 million. For example, a $4 million balance does not incur $600,000 in tax (15% × $4m); rather, only the earnings attributable to the $1 million excess would be subject to the 15% tax. This distinction is significant because it means the actual tax liability for most affected members is considerably lower than commonly reported, and the tax is based on earnings, not the principal balance.",
+      "sources": [
+        {
+          "name": "Australian Taxation Office",
+          "url": "https://www.ato.gov.au/Individuals/Super/Super-and-retirement/Super-changes/Better-Targeted-Super-Concessions",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-27",
+      "category": "superannuation"
     }
   ]
 }

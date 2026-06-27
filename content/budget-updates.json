@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T06:50:09.994Z",
+  "lastUpdated": "2026-06-27T11:24:56.180Z",
   "items": [
     {
       "id": "update-001",
@@ -2720,6 +2720,26 @@
       "summary": "Fool.com.au analysis examines how Budget 2026 CGT changes specifically affect ASX share investors, noting the shift from 50% CGT discount to inflation-based cost base indexation plus 30% minimum tax floor creates different outcomes depending on asset holding period and inflation environment. The practical guidance helps investors understand how these changes may impact their equity portfolio taxation moving forward.",
       "url": "https://www.fool.com.au/2026/05/13/how-will-the-new-capital-gains-tax-affect-asx-shares/",
       "priority": "medium"
+    },
+    {
+      "id": "update-270",
+      "date": "2026-06-27",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Legislation passes Senate — government budget measures now law",
+      "summary": "The previously contested legislation referenced in update-007 has now passed the Senate following crossbench support. The government secured the necessary votes after amendments addressing opposition concerns were incorporated into the final bill. The legislation, which includes key budget measures, will now proceed to Royal Assent before becoming operative.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
+      "priority": "high"
+    },
+    {
+      "id": "update-271",
+      "date": "2026-06-27",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Senate passes key budget legislation following earlier opposition challenge",
+      "summary": "The Senate has passed the previously contested budget legislation that was flagged for challenge by the opposition on 2026-05-14. The passage follows successful negotiations between crossbench senators and the government. The legislation, which had been held up pending resolution, will now proceed to final enactment and integration into the 2026-27 budget framework.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
+      "priority": "high"
     }
   ]
 }

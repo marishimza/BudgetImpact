@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T07:47:00.706Z",
+  "lastUpdated": "2026-06-27T11:26:22.558Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2455,6 +2455,48 @@
         "sources": [
           "https://www.nab.com.au/content/dam/nabcom.au/documents/economics/20250513-budget-analysis-cgt.pdf"
         ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-105",
+      "slug": "2b-infrastructure-initiative-65k-homes-target",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "The government projects that the $2B infrastructure initiative will enable around 65,000 additional homes. However, industry bodies express skepticism that supply-side measures alone can achieve this target, particularly given concurrent changes to negative gearing arrangements.",
+      "view_a": {
+        "label": "Government Projection",
+        "argument": "The government cites the $2B infrastructure initiative as a significant supply-side measure expected to enable approximately 65,000 additional homes. This investment in infrastructure is designed to unlock housing development in areas where it was previously constrained, representing measurable progress in addressing housing supply shortages.",
+        "sources": [
+          "https://www.aph.gov.au/About/Budget"
+        ]
+      },
+      "view_b": {
+        "label": "Industry Skepticism",
+        "argument": "Industry bodies including the Real Estate Institute of Australia (REIA) and the Property Council express concern that the 65,000 home target may be optimistic or unachievable. They argue that supply-side measures alone cannot address housing shortages, and that concurrent changes reducing investment attractiveness through negative gearing restrictions could counteract infrastructure benefits by reducing rental supply over time.",
+        "sources": [
+          "https://grattan.edu.au/work"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-106",
+      "slug": "coalition-immigration-cap-housing-crisis-political-opportunism",
+      "title": "Coalition immigration cap: Direct response to housing crisis or political opportunism?",
+      "category": "immigration",
+      "type": "policy_disagreement",
+      "summary": "The Coalition has explicitly linked their immigration cap proposal to housing affordability concerns, framing it as a direct response to the housing crisis. However, critics argue this is political positioning rather than genuine policy, particularly given the timing and the Coalition's opposition to tax reform measures that address housing investment incentives.",
+      "view_a": {
+        "label": "Genuine housing policy response",
+        "argument": "The Coalition's immigration cap is a legitimate policy lever to address housing demand pressures. With net overseas migration a significant driver of population growth, reducing immigration numbers would directly lower demand for housing at a time when supply cannot keep pace. This represents a pragmatic, evidence-based approach to the housing affordability crisis, complementing supply-side measures.",
+        "sources": null
+      },
+      "view_b": {
+        "label": "Political opportunism",
+        "argument": "The immigration cap proposal is political positioning designed to appeal to voters frustrated with housing costs. The timing of the announcement and the Coalition's simultaneous opposition to negative gearing and CGT reforms—reforms that would actually address housing investor demand—reveals this as a distraction from meaningful tax reform. The framing deliberately deflects attention from investor-focused housing policy while appealing to anti-immigration sentiment.",
+        "sources": null
       },
       "verdict": null
     }

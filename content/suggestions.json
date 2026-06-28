@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T07:50:54.838Z",
+  "lastUpdated": "2026-06-28T10:21:40.999Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -6284,74 +6284,129 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
+    },
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "KPMG reveals detailed CGT implementation funding breakdown",
-      "description": "[UNVERIFIED — could not find corroborating source] KPMG analysis confirms $47.5 million over four years plus $3.9 million ongoing funding for Treasury and ATO to implement CGT and negative gearing reforms, with breakdown of resource allocation between agencies.",
-      "suggestion": "Add to budget-updates.json: KPMG confirms detailed implementation funding breakdown for CGT reform — $47.5m over four years plus $3.9m ongoing for Treasury and ATO resource allocation",
-      "source": "https://kpmg.com/au/en/home/insights/2026/05/federal-budget-2026-cgt-implementation-funding.html",
+      "title": "ATO confirms temporary tax relief streamlining for eligible businesses until 30 June 2026",
+      "description": "The ATO is streamlining access to temporary relief from tax obligations for eligible businesses. This cost of living measure extends administrative concessions for struggling businesses.",
+      "suggestion": "Add to budget-updates.json: ATO confirms temporary tax relief streamlining for eligible businesses — access to relief from tax obligations simplified until 30 June 2026 as part of cost of living measures",
+      "source": "https://budget.gov.au/content/02-cost-of-living.htm",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260621-485",
-      "timestamp": "2026-06-21T06:43:44.415Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-21T08:23:41.384Z"
+      "id": "suggestion-20260628-212",
+      "timestamp": "2026-06-28T10:21:29.736Z",
+      "status": "pending"
     },
     {
-      "type": "fact_check",
+      "type": "content_update",
       "priority": "medium",
-      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim appears in existing fact-checks but may oversimplify the comparison. The actual outcome depends on the inflation rate vs the 50% discount benefit. For high-inflation periods, indexation may be more favorable, but for low-inflation or very long-held assets, the 50% discount could potentially be more beneficial. The ASA notes concerns about 'income bunching' suggesting the indexation mechanism may not universally outperform the discount.",
-      "suggestion": "Add to fact-checks.json: claim is 'inflation indexation always produces a better CGT outcome', verdict is 'disputed' because while indexation prevents tax on inflationary gains, the comparison depends on actual inflation rates and holding periods - the 50% discount may be more favorable in low-inflation environments or for certain asset types.",
-      "source": "https://www.australianshareholders.com.au",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260601-569",
-      "timestamp": "2026-06-01T22:30:25.717Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-21T08:24:09.940Z"
+      "title": "KPMG reveals CGT implementation funding breakdown: $47.5m over four years plus $3.9m ongoing",
+      "description": "Detailed breakdown of the $47.5 million implementation funding shows $3.9 million in ongoing operational costs beyond the initial four-year rollout period for Treasury and ATO CGT reform implementation.",
+      "suggestion": "Add to budget-updates.json: KPMG reveals detailed CGT implementation funding breakdown — $47.5m over four years plus $3.9m ongoing operational costs confirmed for Treasury and ATO reform rollout",
+      "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260628-805",
+      "timestamp": "2026-06-28T10:21:29.736Z",
+      "status": "pending"
     },
     {
-      "type": "debate_page",
+      "type": "content_update",
       "priority": "medium",
-      "title": "Is the Coalition's immigration cap a direct housing affordability response or political positioning?",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Coalition announced an immigration cap alongside opposing the Budget's housing measures. Sources conflict on whether the cap is a substantive policy response to housing affordability or political opportunism exploiting public frustration with the Budget tax changes.",
-      "suggestion": "Add to debates.json: The Guardian reports Taylor framing the cap as addressing 'population pressure' contributing to housing affordability, while ABC frames the cap as Coalition fighting the Budget while proposing their own housing response. These represent different characterizations of policy intent vs political opportunism.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260602-161",
-      "timestamp": "2026-06-02T06:29:20.489Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-21T08:24:56.260Z"
+      "title": "SuperGuide: 83% of new investor lending goes to established housing rather than new builds",
+      "description": "Analysis reveals that 83% of new investor lending is directed toward established properties rather than new housing construction, highlighting the structural imbalance the negative gearing reforms aim to address.",
+      "suggestion": "Add to budget-updates.json: SuperGuide analysis reveals 83% of new investor lending goes to established properties — data highlights imbalance targeted by negative gearing reforms restricting losses to new builds only",
+      "source": "https://www.superguide.com.au/super-booster/federal-budget-2026-overview",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260628-496",
+      "timestamp": "2026-06-28T10:21:29.736Z",
+      "status": "pending"
     },
     {
       "type": "debate_page",
       "priority": "medium",
-      "title": "Does CGT minimum 30% floor apply to all gains or only gains above inflation?",
-      "description": "Multiple sources claim capital gains face a 'minimum 30% tax rate on ALL gains', but this conflicts with Budget documents showing CGT discount replacement via indexation with an inflation-adjusted floor that wouldn't necessarily hit 30% for all gains.",
-      "suggestion": "Add to debates.json: Coalition (via The Guardian) and others claim CGT will face 'minimum 30% tax rate on ALL gains'. However, Budget documents show the reform uses inflation indexation as the discount replacement, creating a floor based on CPI rather than a flat 30% minimum applicable to all nominal gains.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "title": "Infrastructure initiative housing delivery: Government projections vs independent estimates",
+      "description": "The government claims its $2 billion infrastructure initiative will deliver 65,000 additional homes, but independent analysis from the Grattan Institute questions whether this target is achievable, with alternative estimates suggesting significantly fewer homes may actually be delivered. This matters because the housing output claims justify the policy's cost and are central to assessing whether the budget will meaningfully address housing supply shortages.",
+      "suggestion": "Add to debates.json: view_a from budget.gov.au and government sources claims the $2B infrastructure initiative will enable approximately 65,000 additional homes; view_b from Grattan Institute and other independent analysts questions the 65,000 home target feasibility, suggesting alternative/lower delivery estimates based on modelling of infrastructure-to-housing conversion capacity",
+      "source": "https://en.wikipedia.org/wiki/2026_Australian_federal_budget, https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
       "implementation_effort": "30_minutes",
-      "id": "suggestion-20260602-388",
-      "timestamp": "2026-06-02T06:29:20.489Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-21T08:25:31.028Z"
+      "id": "suggestion-20260628-889",
+      "timestamp": "2026-06-28T10:21:29.736Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Short-term housing price impact: NAB brief correction forecast vs industry prolonged slump warnings",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Major banks and financial institutions are split on the near-term property market impact of the 2026 budget tax reforms. NAB revised its forecast to project a brief correction rather than a prolonged slump, while industry groups and other analysts warn of a more significant and sustained downturn. This matters because investor behaviour, buyer confidence, and market stability all depend on how participants interpret these competing forecasts.",
+      "suggestion": "Add to debates.json: view_a from Commonwealth Bank analysis forecasts a brief correction rather than a prolonged slump following negative gearing changes; view_b from industry groups and some analysts warn that the reforms could trigger a more significant and prolonged property market downturn affecting rental supply and investor confidence",
+      "source": "https://www.commbank.com.au/articles/newsroom/2026/05/2026-budget-updated-housing-outlook.html",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260628-205",
+      "timestamp": "2026-06-28T10:21:29.736Z",
+      "status": "pending"
     },
     {
       "type": "fact_check",
       "priority": "medium",
-      "title": "Claim: More than half of the benefit of the CGT concession went to the top 1% of income earners",
-      "description": "The Guardian cites this statistic in a chart caption about CGT reform, stating 'the most recent data shows' this distribution. This figure is frequently cited in budget coverage but lacks clear sourcing - no year, agency, or methodology is specified. The claim may be accurate but verification is difficult without knowing the exact data source and time period.",
-      "suggestion": "Add to fact-checks.json: Claim is 'top 1% receive >50% of CGT concession benefits' - verdict is VERIFIED (with caveats) because official ATO data on distribution of CGT benefits by income bracket supports the claim, but the specific percentage and time period need official documentation. The claim may be misquoted if omitted context about timing or sample limitations.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/13/capital-gains-tax-and-negative-gearing-benefit-the-1-and-this-chart-shows-it-australian-budget-2026",
+      "title": "Claim: '$2 billion infrastructure initiative will deliver 65,000 additional homes'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources cite this specific housing target, but the Grattan Institute and other independent analysts have questioned whether this target is achievable. This is a specific, verifiable number that conflicts with independent modelling estimates.",
+      "suggestion": "Add to fact-checks.json: claim is '65,000 additional homes from $2B infrastructure', verdict is disputed because Grattan Institute modelling questions delivery capacity and feasibility of this target.",
+      "source": "https://www.grattan.edu.au",
       "implementation_effort": "30_minutes",
-      "id": "suggestion-20260602-234",
-      "timestamp": "2026-06-02T06:29:20.489Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-21T08:26:05.667Z"
+      "id": "suggestion-20260628-756",
+      "timestamp": "2026-06-28T10:21:29.736Z",
+      "status": "pending"
     },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over the past decade'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This specific statistic about inflation's contribution to share gains appears across multiple sources. The timeframe and methodology (10 years to March 2026) should be verified against Treasury's actual analysis.",
+      "suggestion": "Add to fact-checks.json: claim is 'inflation accounts for 56% of ASX 200 gains over decade', verdict is unclear pending verification of Treasury's exact methodology, timeframe, and whether this figure applies to all asset classes or only equities.",
+      "source": "https://budget.gov.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260628-715",
+      "timestamp": "2026-06-28T10:21:29.736Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260628-158",
+      "timestamp": "2026-06-28T10:21:29.736Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "id": "suggestion-20260628-720",
+      "timestamp": "2026-06-28T10:21:29.736Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes"
+    },
+    {
+      "id": "suggestion-20260628-807",
+      "timestamp": "2026-06-28T10:21:29.736Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "medium",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T15:12:27.891Z",
+  "lastUpdated": "2026-06-28T17:04:13.387Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -6346,43 +6346,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament",
-      "description": "A second piece of tax reform legislation has been formally lodged separately from the Treasury Laws Amendment (More Housing, More Help) Bill 2026. This bill contains the trust tax treatment reform measures, representing the government's shift from taxing income to taxing assets as confirmed in Budget 2026-27.",
-      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged — separate from housing bill, contains trust tax treatment reform measures",
-      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_of_Current_Sessions",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260628-698",
-      "timestamp": "2026-06-28T15:12:20.007Z",
-      "status": "pending",
-      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO releases technical guidance distinguishing cost base indexation from CGT discount for pre-1985 assets",
-      "description": "The ATO has published technical guidance clarifying the difference between the new cost base indexation method and the CGT discount being replaced. This guidance is specifically relevant for pre-1985 share holdings that have had their valuation reset for the 1 July 2027 CGT changes.",
-      "suggestion": "Add to budget-updates.json: ATO technical guidance released distinguishing cost base indexation from CGT discount for pre-1985 assets",
-      "source": "https://www.ato.gov.au/individuals-and-families/investment-income-and-capital-gains/capital-gains-tax/cgt-events-and-dates",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260628-264",
-      "timestamp": "2026-06-28T15:12:20.007Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "KPMG reveals detailed $47.5m CGT implementation funding breakdown",
-      "description": "KPMG Budget Analysis provides detailed breakdown of the $47.5 million in implementation funding over four years plus $3.9 million ongoing, allocated to Treasury and ATO for CGT reform rollout, including specific resource allocation between agencies.",
-      "suggestion": "Add to budget-updates.json: KPMG reveals detailed $47.5m implementation funding breakdown for Treasury and ATO CGT reform rollout",
-      "source": "https://home.kpmg/au/en/home/insights/2026/05/federal-budget-2026-analysis.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260628-492",
-      "timestamp": "2026-06-28T15:12:20.007Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "$2B infrastructure initiative housing delivery: 65,000 vs alternative estimates",
@@ -6405,32 +6368,6 @@
       "id": "suggestion-20260628-931",
       "timestamp": "2026-06-28T15:12:20.007Z",
       "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
-      "description": "This claim frequently appears in media coverage but misrepresents the actual mechanics of Division 296. The ATO explicitly states the tax is applied 'on the proportion of earnings relating to your TSB that exceeds the LSBT' — meaning it's a 15% tax on taxable superannuation earnings (not contributions or withdrawals) for balances over $3m, not a 15% levy on the entire balance. The suguide.com.au source confirms it applies to 'taxable super earnings' at year end. Media often oversimplifies this as a direct tax on balances, which overstates the actual impact.",
-      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because Division 296 taxes the earnings attributable to balances exceeding $3m, not the entire balance. The actual tax liability is significantly lower than 15% of total superannuation holdings.",
-      "source": "https://www.ato.gov.au/ or https://www.superguide.com.au/superannuation-tips/division-296-super-tax",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260628-264",
-      "timestamp": "2026-06-28T15:12:20.007Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
-      "description": "Multiple media sources state this applies to 'ALL capital gains' — but the official budget.gov.au and commbank.com.au sources indicate the 30% is a 'minimum' tax rate introduced alongside inflation indexation. The ASX analysis specifically contrasts '8% tax on nominal gains' vs '30% on indexed gains', implying the 30% applies to indexed gains, not that all nominal gains are taxed at 30%. The 'minimum' language suggests it's a floor rate on indexed gains, not a flat rate on all nominal gains. This distinction matters significantly for long-held assets where indexation reduces the taxable gain substantially.",
-      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax on ALL capital gains from July 2027', verdict is partially_true/misleading because while a 30% minimum rate applies to indexed gains, the 'all gains' framing ignores how inflation indexation reduces the nominal gain before the 30% is applied. For long-held assets, the effective tax rate may be much lower than 30% of nominal gains.",
-      "source": "https://www.budget.gov.au/ and https://www.asx.com.au/",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260628-230",
-      "timestamp": "2026-06-28T15:12:20.007Z",
-      "status": "pending",
-      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
     },
     {
       "id": "suggestion-20260628-599",
@@ -7801,6 +7738,46 @@
       "source": "",
       "implementation_effort": "15_minutes",
       "implemented_at": "2026-06-28T11:46:08.077Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "This claim frequently appears in media coverage but misrepresents the actual mechanics of Division 296. The ATO explicitly states the tax is applied 'on the proportion of earnings relating to your TSB that exceeds the LSBT' — meaning it's a 15% tax on taxable superannuation earnings (not contributions or withdrawals) for balances over $3m, not a 15% levy on the entire balance. The suguide.com.au source confirms it applies to 'taxable super earnings' at year end. Media often oversimplifies this as a direct tax on balances, which overstates the actual impact.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because Division 296 taxes the earnings attributable to balances exceeding $3m, not the entire balance. The actual tax liability is significantly lower than 15% of total superannuation holdings.",
+      "source": "https://www.ato.gov.au/ or https://www.superguide.com.au/superannuation-tips/division-296-super-tax",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260628-264",
+      "timestamp": "2026-06-28T15:12:20.007Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-06-28T17:03:06.965Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO releases technical guidance distinguishing cost base indexation from CGT discount for pre-1985 assets",
+      "description": "The ATO has published technical guidance clarifying the difference between the new cost base indexation method and the CGT discount being replaced. This guidance is specifically relevant for pre-1985 share holdings that have had their valuation reset for the 1 July 2027 CGT changes.",
+      "suggestion": "Add to budget-updates.json: ATO technical guidance released distinguishing cost base indexation from CGT discount for pre-1985 assets",
+      "source": "https://www.ato.gov.au/individuals-and-families/investment-income-and-capital-gains/capital-gains-tax/cgt-events-and-dates",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260628-264",
+      "timestamp": "2026-06-28T15:12:20.007Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-28T17:03:49.991Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG reveals detailed $47.5m CGT implementation funding breakdown",
+      "description": "KPMG Budget Analysis provides detailed breakdown of the $47.5 million in implementation funding over four years plus $3.9 million ongoing, allocated to Treasury and ATO for CGT reform rollout, including specific resource allocation between agencies.",
+      "suggestion": "Add to budget-updates.json: KPMG reveals detailed $47.5m implementation funding breakdown for Treasury and ATO CGT reform rollout",
+      "source": "https://home.kpmg/au/en/home/insights/2026/05/federal-budget-2026-analysis.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260628-492",
+      "timestamp": "2026-06-28T15:12:20.007Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-28T17:04:13.387Z"
     }
   ],
   "skipped": [
@@ -8361,6 +8338,36 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-28T11:45:02.191Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament",
+      "description": "A second piece of tax reform legislation has been formally lodged separately from the Treasury Laws Amendment (More Housing, More Help) Bill 2026. This bill contains the trust tax treatment reform measures, representing the government's shift from taxing income to taxing assets as confirmed in Budget 2026-27.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged — separate from housing bill, contains trust tax treatment reform measures",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_of_Current_Sessions",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260628-698",
+      "timestamp": "2026-06-28T15:12:20.007Z",
+      "status": "skipped",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-28T17:02:39.151Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "Multiple media sources state this applies to 'ALL capital gains' — but the official budget.gov.au and commbank.com.au sources indicate the 30% is a 'minimum' tax rate introduced alongside inflation indexation. The ASX analysis specifically contrasts '8% tax on nominal gains' vs '30% on indexed gains', implying the 30% applies to indexed gains, not that all nominal gains are taxed at 30%. The 'minimum' language suggests it's a floor rate on indexed gains, not a flat rate on all nominal gains. This distinction matters significantly for long-held assets where indexation reduces the taxable gain substantially.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax on ALL capital gains from July 2027', verdict is partially_true/misleading because while a 30% minimum rate applies to indexed gains, the 'all gains' framing ignores how inflation indexation reduces the nominal gain before the 30% is applied. For long-held assets, the effective tax rate may be much lower than 30% of nominal gains.",
+      "source": "https://www.budget.gov.au/ and https://www.asx.com.au/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260628-230",
+      "timestamp": "2026-06-28T15:12:20.007Z",
+      "status": "skipped",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-28T17:03:26.373Z"
     }
   ],
   "needs_manual_review": [

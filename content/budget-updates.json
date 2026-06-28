@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T11:46:08.073Z",
+  "lastUpdated": "2026-06-28T17:04:13.383Z",
   "items": [
     {
       "id": "update-001",
@@ -2820,6 +2820,26 @@
       "summary": "The Senate has passed previously contested budget legislation after the opposition performed a dramatic U-turn on key provisions. The legislation, which faced significant scrutiny since 2026-06-26, was ultimately approved with crossbench support. Government sources confirm the bill will receive Royal Assent within days, resolving what had been a major parliamentary impasse.",
       "url": "https://www.afr.com/politics/federal/senate-passes-budget-legislation-2026",
       "priority": "high"
+    },
+    {
+      "id": "update-280",
+      "date": "2026-06-28",
+      "tag": "Budget",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases technical guidance distinguishing cost base indexation from CGT discount for pre-1985 assets",
+      "summary": "The ATO has published technical guidance clarifying the distinction between the new cost base indexation method and the CGT discount being replaced. This guidance is specifically relevant for pre-1985 share holdings that have had their valuation reset for the 1 July 2027 CGT changes. The guidance helps investors understand how to correctly apply indexation to their cost base calculations under the new framework.",
+      "url": "https://www.ato.gov.au/individuals-and-families/investment-income-and-capital-gains/capital-gains-tax/cgt-events-and-dates",
+      "priority": "high"
+    },
+    {
+      "id": "update-281",
+      "date": "2026-05-14",
+      "tag": "Budget",
+      "source": "KPMG Australia",
+      "title": "KPMG reveals detailed $47.5m CGT implementation funding breakdown",
+      "summary": "KPMG's Federal Budget 2026 Analysis provides a detailed breakdown of the $47.5 million in implementation funding allocated over four years, plus $3.9 million in ongoing funding, designated for Treasury and the ATO to manage the CGT reform rollout. The analysis outlines specific resource allocation between the two agencies to ensure effective implementation of the proposed changes.",
+      "url": "https://home.kpmg/au/en/home/insights/2026/05/federal-budget-2026-analysis.html",
+      "priority": "medium"
     }
   ]
 }

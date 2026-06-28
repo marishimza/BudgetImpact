@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T20:53:08.296Z",
+  "lastUpdated": "2026-06-28T22:59:20.605Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -6382,68 +6382,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "id": "suggestion-20260628-579",
-      "timestamp": "2026-06-28T15:12:20.007Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260628-758",
-      "timestamp": "2026-06-28T15:12:20.007Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Trust Tax Treatment Reform Confirmed as Separate Legislation Under Treasury Laws Amendment (Tax Reform No. 1) Bill 2026",
-      "description": "The government has formally lodged a second piece of tax reform legislation with Parliament. The Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 deals specifically with trust tax treatment reform, confirming the shift from income to asset-based taxation.",
-      "suggestion": "Add to budget-updates.json: Trust tax treatment reform confirmed as core part of asset taxation shift — Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged separately from housing package",
-      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Legislation_List",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260628-469",
-      "timestamp": "2026-06-28T20:52:58.846Z",
-      "status": "pending",
-      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO Confirms Pre-1985 Share Valuation Reset for 1 July 2027 CGT Changes",
-      "description": "The ATO has released technical guidance on the pre-1985 share valuation reset mechanism that applies from 1 July 2027 under the new CGT indexation rules. This guidance distinguishes between cost base indexation and the CGT discount for pre-1985 assets.",
-      "suggestion": "Add to budget-updates.json: ATO releases technical guidance on pre-1985 share valuation reset mechanism for July 2027 CGT changes — distinguishes cost base indexation from CGT discount",
-      "source": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-assets-acquired-before-cgt-started",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260628-864",
-      "timestamp": "2026-06-28T20:52:58.846Z",
-      "status": "pending",
-      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Grattan Institute Questions $2B Infrastructure Housing Delivery Targets",
-      "description": "Independent analysis from the Grattan Institute questions whether the $2 billion infrastructure initiative can actually deliver the government's claimed 65,000 additional homes, with modelling suggesting the target may not be achievable within proposed timeframes.",
-      "suggestion": "Add to budget-updates.json: Grattan Institute modelling questions $2B infrastructure initiative housing delivery capacity — 65,000 home target feasibility doubted by independent analysts",
-      "source": "https://grattan.edu.au/news/budget-2026-wont-fix-housing-until-the-2030s/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260628-875",
-      "timestamp": "2026-06-28T20:52:58.846Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "$2B infrastructure initiative housing delivery: Government 65,000 target vs independent feasibility questions",
@@ -7837,6 +7775,46 @@
       "timestamp": "2026-06-28T15:12:20.007Z",
       "status": "implemented",
       "implemented_at": "2026-06-28T17:04:13.387Z"
+    },
+    {
+      "id": "suggestion-20260628-579",
+      "timestamp": "2026-06-28T15:12:20.007Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-28T22:58:08.770Z"
+    },
+    {
+      "id": "suggestion-20260628-758",
+      "timestamp": "2026-06-28T15:12:20.007Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-28T22:58:39.336Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO Confirms Pre-1985 Share Valuation Reset for 1 July 2027 CGT Changes",
+      "description": "The ATO has released technical guidance on the pre-1985 share valuation reset mechanism that applies from 1 July 2027 under the new CGT indexation rules. This guidance distinguishes between cost base indexation and the CGT discount for pre-1985 assets.",
+      "suggestion": "Add to budget-updates.json: ATO releases technical guidance on pre-1985 share valuation reset mechanism for July 2027 CGT changes — distinguishes cost base indexation from CGT discount",
+      "source": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-assets-acquired-before-cgt-started",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260628-864",
+      "timestamp": "2026-06-28T20:52:58.846Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implemented_at": "2026-06-28T22:59:09.894Z"
     }
   ],
   "skipped": [
@@ -8413,6 +8391,35 @@
       "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-28T17:03:26.373Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Trust Tax Treatment Reform Confirmed as Separate Legislation Under Treasury Laws Amendment (Tax Reform No. 1) Bill 2026",
+      "description": "The government has formally lodged a second piece of tax reform legislation with Parliament. The Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 deals specifically with trust tax treatment reform, confirming the shift from income to asset-based taxation.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform confirmed as core part of asset taxation shift — Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged separately from housing package",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Legislation_List",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260628-469",
+      "timestamp": "2026-06-28T20:52:58.846Z",
+      "status": "skipped",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-28T22:58:47.498Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Grattan Institute Questions $2B Infrastructure Housing Delivery Targets",
+      "description": "Independent analysis from the Grattan Institute questions whether the $2 billion infrastructure initiative can actually deliver the government's claimed 65,000 additional homes, with modelling suggesting the target may not be achievable within proposed timeframes.",
+      "suggestion": "Add to budget-updates.json: Grattan Institute modelling questions $2B infrastructure initiative housing delivery capacity — 65,000 home target feasibility doubted by independent analysts",
+      "source": "https://grattan.edu.au/news/budget-2026-wont-fix-housing-until-the-2030s/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260628-875",
+      "timestamp": "2026-06-28T20:52:58.846Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-28T22:59:20.605Z"
     }
   ],
   "needs_manual_review": [

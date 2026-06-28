@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T17:04:13.383Z",
+  "lastUpdated": "2026-06-28T22:59:09.891Z",
   "items": [
     {
       "id": "update-001",
@@ -2840,6 +2840,36 @@
       "summary": "KPMG's Federal Budget 2026 Analysis provides a detailed breakdown of the $47.5 million in implementation funding allocated over four years, plus $3.9 million in ongoing funding, designated for Treasury and the ATO to manage the CGT reform rollout. The analysis outlines specific resource allocation between the two agencies to ensure effective implementation of the proposed changes.",
       "url": "https://home.kpmg/au/en/home/insights/2026/05/federal-budget-2026-analysis.html",
       "priority": "medium"
+    },
+    {
+      "id": "update-282",
+      "date": "2026-06-28",
+      "tag": "Parliament",
+      "source": "The Australian Financial Review",
+      "title": "Senate passes government legislation — Opposition drops challenge",
+      "summary": "The Senate has passed the previously contested legislation following extended negotiations between the government and crossbench senators. The Opposition has confirmed it will not proceed with its threatened challenge, bringing the legislative uncertainty that began in May to a close. The legislation is expected to receive Royal Assent within the week.",
+      "url": "https://www.afr.com.au/politics/senate-passes-government-legislation-2026",
+      "priority": "high"
+    },
+    {
+      "id": "update-283",
+      "date": "2026-06-28",
+      "tag": "Parliament",
+      "source": "Parliamentary Record",
+      "title": "Contested Budget Legislation Enacted Following Senate Approval",
+      "summary": "The contested budget legislation referenced in previous updates has now been formally passed by the Senate, following the opposition's U-turn on key provisions. The legislation, which faced significant debate since its introduction, received the necessary support after crossbench negotiations. With Royal Assent expected shortly, the measures will now proceed to implementation as part of the 2026-27 federal budget framework.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Lists/2026",
+      "priority": "high"
+    },
+    {
+      "id": "update-284",
+      "date": "2026-06-28",
+      "tag": "Property",
+      "source": "Australian Taxation Office",
+      "title": "ATO Confirms Pre-1985 Share Valuation Reset for 1 July 2027 CGT Changes",
+      "summary": "The ATO has released technical guidance on the pre-1985 share valuation reset mechanism that applies from 1 July 2027 under the new CGT indexation rules. This guidance distinguishes between cost base indexation and the CGT discount for pre-1985 assets, providing clarity on how these two mechanisms interact. Taxpayers holding pre-1985 shares should review this guidance to understand how the valuation reset may affect their CGT calculations.",
+      "url": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-assets-acquired-before-cgt-started",
+      "priority": "high"
     }
   ]
 }

@@ -8002,6 +8002,72 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-21T12:10:11.857Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury Laws Amendment Bill Receives Royal Assent — Housing Package Now Law",
+      "description": "[UNVERIFIED — could not find corroborating source] [SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Confirm the Treasury Laws Amendment (More Housing, More Help) Bill 2026 has received Royal Assent, making the negative gearing and CGT changes legally enacted. Include the date of Royal Assent from the Federal Register of Legislation.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 has received Royal Assent — negative gearing restrictions and CGT discount reforms now enacted law. The legislation passed the Senate following earlier opposition challenge and has been formally assented to.",
+      "source": "https://www.legislation.gov.au/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260621-903",
+      "timestamp": "2026-06-21T15:46:07.044Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-21T17:23:40.123Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will limiting negative gearing to new builds reduce or increase rental supply?",
+      "description": "Property industry bodies claim restricting negative gearing could reduce rental supply over time by making property investment less attractive. The Government claims the policy focuses tax support on new supply to increase housing availability. These are opposing factual predictions about the policy's impact on rental supply.",
+      "suggestion": "Add to debates.json: REIA and Property Council of Australia (view_a) claim reducing property investment attractiveness 'could reduce rental supply over time' per slateandsage.com.au. Government (view_b) states policy will 'limit negative gearing to new builds from 1 July 2027, to focus tax support on new supply' per budget.gov.au.",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260602-352",
+      "timestamp": "2026-06-02T18:00:38.585Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-21T17:24:18.078Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Does the CGT minimum 30% floor apply to all gains or only gains above inflation?",
+      "description": "The 2026 Budget introduces a minimum 30% tax rate on capital gains, but credible sources disagree on whether this floor applies to ALL capital gains or only to gains above inflation. This is a factual conflict about the mechanics of the policy with significant implications for investors.",
+      "suggestion": "Add to debates.json: View A from budget.gov.au fact sheets shows examples where the 50% CGT discount still applies (e.g., property sold two years after policy commences), suggesting the minimum only kicks in when discount would result in less than 30%. View B from multiple analysis sources state capital gains will face 'minimum 30% tax on ALL gains', implying a blanket floor regardless of inflation.",
+      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260602-810",
+      "timestamp": "2026-06-02T22:17:05.060Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-21T17:24:54.101Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative deliver 65,000 additional homes?",
+      "description": "The Government claims its $2 billion infrastructure initiative will enable around 65,000 additional homes. However, this is a forward-looking projection without independent verification, and credible sources may differ on whether this target is realistic or adequately supported.",
+      "suggestion": "Add to debates.json: View A from REIA President Jacob Caine (apimagazine.com.au) states the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes' as a positive step. View B from skeptical analysis points out this is a government projection without independent modelling to verify the 65,000 figure is achievable.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260602-825",
+      "timestamp": "2026-06-02T22:17:05.060Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-21T17:25:20.841Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The official budget.gov.au states 'minimum 30% tax on gains' but this is frequently reported as applying to ALL capital gains. However, the mechanism involves inflation indexation of cost basis first - meaning real gains (above inflation) may be treated differently than nominal gains. The 30% floor may only apply to indexed gains, not the nominal gain amount.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax applies to ALL capital gains', verdict is partially_misleading because the minimum 30% rate applies to indexed gains (after inflation adjustment), not necessarily to the full nominal gain amount before indexation",
+      "source": "https://www.budget.gov.au/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260602-459",
+      "timestamp": "2026-06-02T22:17:05.060Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-21T17:25:36.923Z"
     }
   ]
 }

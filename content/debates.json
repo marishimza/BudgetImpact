@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T22:59:25.599Z",
+  "lastUpdated": "2026-06-28T07:49:52.655Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2560,6 +2560,53 @@
         "argument": "Other analysis suggests the minimum 30% floor only applies to real gains that exceed inflation. Under this interpretation, nominal gains that merely keep pace with inflation would be treated differently, and only gains above the inflation-adjusted threshold would be subject to the 30% minimum rate.",
         "sources": [
           "https://www.perpetual.com.au/insights/federal-budget-2026/"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-110",
+      "slug": "will-2b-infrastructure-initiative-deliver-65k-homes",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "The government and Property Council claim the $2B infrastructure initiative will enable approximately 65,000 additional homes through strategic infrastructure investment. However, Grattan Institute independent modelling questions the housing delivery capacity and feasibility of achieving this target.",
+      "view_a": {
+        "label": "Government and Property Council",
+        "argument": "The government and Property Council of Australia support the $2 billion infrastructure initiative as a catalyst for housing supply. They argue that strategic infrastructure investment will unlock developable land and remove bottlenecks to housing construction, enabling approximately 65,000 additional homes across Australia. The Property Council has described the federal budget's changes as the most sweeping to the property and land landscape in decades, suggesting significant delivery potential.",
+        "sources": [
+          "https://budget.gov.au/content/04-tax-reform.htm"
+        ]
+      },
+      "view_b": {
+        "label": "Grattan Institute",
+        "argument": "The Grattan Institute's independent modelling questions whether the $2 billion infrastructure initiative can realistically deliver 65,000 additional homes. Their analysis casts doubt on the feasibility of these housing projections, suggesting the target may be optimistic given practical constraints on housing construction capacity, infrastructure sequencing, and development timelines.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Australian_federal_budget"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-111",
+      "slug": "infrastructure-initiative-housing-delivery-projections",
+      "title": "Infrastructure initiative housing delivery: Government projections vs independent estimates",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "Government housing target of 65,000 additional homes from $2B infrastructure funding faces credibility questions from Grattan Institute, which questions whether the initiative can deliver on these projections, with industry sources noting infrastructure spending is tied to housing supply milestones.",
+      "view_a": {
+        "label": "Government Projections",
+        "argument": "The government projects that its $2 billion infrastructure initiative will deliver 65,000 additional homes, linking infrastructure spending directly to housing supply milestones. Officials argue this represents a coordinated approach where infrastructure investment enables housing development in key growth areas.",
+        "sources": [
+          "https://budget.gov.au/content/04-tax-reform.htm",
+          "https://en.wikipedia.org/wiki/2026_Australian_federal_budget"
+        ]
+      },
+      "view_b": {
+        "label": "Independent Analysis",
+        "argument": "The Grattan Institute and other independent analysts question whether the 65,000 home target represents realistic delivery capacity or merely optimistic government projections. Industry sources note that infrastructure spending tied to housing milestones may face implementation delays, planning bottlenecks, and construction capacity constraints that could significantly reduce actual delivery numbers.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Australian_federal_budget"
         ]
       },
       "verdict": null

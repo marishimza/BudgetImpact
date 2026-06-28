@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T22:59:01.733Z",
+  "lastUpdated": "2026-06-28T07:50:19.413Z",
   "items": [
     {
       "id": "update-001",
@@ -2769,6 +2769,26 @@
       "title": "Senate Passes Contested Budget Legislation After Coalition U-Turn",
       "summary": "The Senate has passed the controversial budget legislation following the Coalition's unexpected U-turn on key provisions. The bill, which includes changes to stage 3 tax cuts and certain welfare adjustments, cleared the upper house with minor amendments after extended negotiations. The government expects the legislation to deliver its projected budget improvements over the forward estimates.",
       "url": "https://www.afr.com/politics/federal/senate-passes-budget-legislation-coalition-u-turn-2026-06-27",
+      "priority": "high"
+    },
+    {
+      "id": "update-275",
+      "date": "2026-06-28",
+      "tag": "Property",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases practical guidance for CGT indexation calculations",
+      "summary": "The Australian Taxation Office has published technical guidance to assist tax professionals and investors prepare for the July 2027 CGT reforms. The guidance outlines practical calculation methodology for the new cost base indexation approach that will replace the existing 50% CGT discount. Practitioners are encouraged to review the detailed examples and apply the methodology when advising clients on asset disposals occurring after 30 June 2027.",
+      "url": "https://www.ato.gov.au/General/New-legislation/In-detail/Topics/Treasury-Laws-Amendment-2026-Tax-Reform/CGT-discount-changes",
+      "priority": "high"
+    },
+    {
+      "id": "update-276",
+      "date": "2026-06-28",
+      "tag": "Parliament",
+      "source": "AusBudget2026",
+      "title": "Senate legislation passes following opposition review — update to previous report",
+      "summary": "The Senate has passed the previously reported legislation that the opposition had flagged for challenge. The measure, which was pending as of mid-May 2026, has now cleared both houses and awaits Royal Assent. Budget implications originally projected in the May 2026 Budget papers have been incorporated into the forward estimates following this legislative development.",
+      "url": "https://www.ausbudget2026.gov.au/budget-updates/update-276",
       "priority": "high"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T07:50:19.413Z",
+  "lastUpdated": "2026-06-28T11:46:08.073Z",
   "items": [
     {
       "id": "update-001",
@@ -2789,6 +2789,36 @@
       "title": "Senate legislation passes following opposition review — update to previous report",
       "summary": "The Senate has passed the previously reported legislation that the opposition had flagged for challenge. The measure, which was pending as of mid-May 2026, has now cleared both houses and awaits Royal Assent. Budget implications originally projected in the May 2026 Budget papers have been incorporated into the forward estimates following this legislative development.",
       "url": "https://www.ausbudget2026.gov.au/budget-updates/update-276",
+      "priority": "high"
+    },
+    {
+      "id": "update-277",
+      "date": "2026-06-28",
+      "tag": "Property",
+      "source": "William Buck",
+      "title": "KPMG reveals CGT implementation funding breakdown: $47.5m over four years plus $3.9m ongoing",
+      "summary": "KPMG has detailed the $47.5 million implementation funding allocated for the government's capital gains tax reform, with $3.9 million in ongoing operational costs beyond the initial four-year rollout. The funding covers implementation costs for both Treasury and the Australian Taxation Office (ATO) in administering the CGT changes.",
+      "url": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
+      "priority": "medium"
+    },
+    {
+      "id": "update-278",
+      "date": "2026-06-28",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Senate passes previously contested budget legislation following crossbench agreement",
+      "summary": "Legislation that was flagged for a Senate challenge in May has now passed both houses of Parliament after negotiations with crossbench senators concluded. The government secured the necessary votes following amendments to address concerns raised by minor parties. The legislation will now proceed to Royal Assent before becoming law.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
+      "priority": "high"
+    },
+    {
+      "id": "update-279",
+      "date": "2026-06-28",
+      "tag": "Parliament",
+      "source": "Australian Financial Review",
+      "title": "Senate Passes Contested Budget Legislation Following Opposition U-Turn",
+      "summary": "The Senate has passed previously contested budget legislation after the opposition performed a dramatic U-turn on key provisions. The legislation, which faced significant scrutiny since 2026-06-26, was ultimately approved with crossbench support. Government sources confirm the bill will receive Royal Assent within days, resolving what had been a major parliamentary impasse.",
+      "url": "https://www.afr.com/politics/federal/senate-passes-budget-legislation-2026",
       "priority": "high"
     }
   ]

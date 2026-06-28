@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T10:21:40.999Z",
+  "lastUpdated": "2026-06-28T11:46:08.078Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -6286,42 +6286,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO confirms temporary tax relief streamlining for eligible businesses until 30 June 2026",
-      "description": "The ATO is streamlining access to temporary relief from tax obligations for eligible businesses. This cost of living measure extends administrative concessions for struggling businesses.",
-      "suggestion": "Add to budget-updates.json: ATO confirms temporary tax relief streamlining for eligible businesses — access to relief from tax obligations simplified until 30 June 2026 as part of cost of living measures",
-      "source": "https://budget.gov.au/content/02-cost-of-living.htm",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260628-212",
-      "timestamp": "2026-06-28T10:21:29.736Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "KPMG reveals CGT implementation funding breakdown: $47.5m over four years plus $3.9m ongoing",
-      "description": "Detailed breakdown of the $47.5 million implementation funding shows $3.9 million in ongoing operational costs beyond the initial four-year rollout period for Treasury and ATO CGT reform implementation.",
-      "suggestion": "Add to budget-updates.json: KPMG reveals detailed CGT implementation funding breakdown — $47.5m over four years plus $3.9m ongoing operational costs confirmed for Treasury and ATO reform rollout",
-      "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260628-805",
-      "timestamp": "2026-06-28T10:21:29.736Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "SuperGuide: 83% of new investor lending goes to established housing rather than new builds",
-      "description": "Analysis reveals that 83% of new investor lending is directed toward established properties rather than new housing construction, highlighting the structural imbalance the negative gearing reforms aim to address.",
-      "suggestion": "Add to budget-updates.json: SuperGuide analysis reveals 83% of new investor lending goes to established properties — data highlights imbalance targeted by negative gearing reforms restricting losses to new builds only",
-      "source": "https://www.superguide.com.au/super-booster/federal-budget-2026-overview",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260628-496",
-      "timestamp": "2026-06-28T10:21:29.736Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Infrastructure initiative housing delivery: Government projections vs independent estimates",
@@ -6380,30 +6344,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260628-720",
-      "timestamp": "2026-06-28T10:21:29.736Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260628-807",
-      "timestamp": "2026-06-28T10:21:29.736Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -7738,6 +7678,45 @@
       "source": "",
       "implementation_effort": "15_minutes",
       "implemented_at": "2026-06-28T07:50:19.417Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG reveals CGT implementation funding breakdown: $47.5m over four years plus $3.9m ongoing",
+      "description": "Detailed breakdown of the $47.5 million implementation funding shows $3.9 million in ongoing operational costs beyond the initial four-year rollout period for Treasury and ATO CGT reform implementation.",
+      "suggestion": "Add to budget-updates.json: KPMG reveals detailed CGT implementation funding breakdown — $47.5m over four years plus $3.9m ongoing operational costs confirmed for Treasury and ATO reform rollout",
+      "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260628-805",
+      "timestamp": "2026-06-28T10:21:29.736Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-28T11:44:51.157Z"
+    },
+    {
+      "id": "suggestion-20260628-720",
+      "timestamp": "2026-06-28T10:21:29.736Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-28T11:45:21.209Z"
+    },
+    {
+      "id": "suggestion-20260628-807",
+      "timestamp": "2026-06-28T10:21:29.736Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-28T11:46:08.077Z"
     }
   ],
   "skipped": [
@@ -8298,6 +8277,34 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-28T07:50:54.838Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO confirms temporary tax relief streamlining for eligible businesses until 30 June 2026",
+      "description": "The ATO is streamlining access to temporary relief from tax obligations for eligible businesses. This cost of living measure extends administrative concessions for struggling businesses.",
+      "suggestion": "Add to budget-updates.json: ATO confirms temporary tax relief streamlining for eligible businesses — access to relief from tax obligations simplified until 30 June 2026 as part of cost of living measures",
+      "source": "https://budget.gov.au/content/02-cost-of-living.htm",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260628-212",
+      "timestamp": "2026-06-28T10:21:29.736Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-28T11:44:10.516Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "SuperGuide: 83% of new investor lending goes to established housing rather than new builds",
+      "description": "Analysis reveals that 83% of new investor lending is directed toward established properties rather than new housing construction, highlighting the structural imbalance the negative gearing reforms aim to address.",
+      "suggestion": "Add to budget-updates.json: SuperGuide analysis reveals 83% of new investor lending goes to established properties — data highlights imbalance targeted by negative gearing reforms restricting losses to new builds only",
+      "source": "https://www.superguide.com.au/super-booster/federal-budget-2026-overview",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260628-496",
+      "timestamp": "2026-06-28T10:21:29.736Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-28T11:45:02.191Z"
     }
   ],
   "needs_manual_review": [

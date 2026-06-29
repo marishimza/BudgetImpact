@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T18:07:08.805Z",
+  "lastUpdated": "2026-06-29T21:18:05.238Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -6632,61 +6632,81 @@
       "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
       "source": "",
       "implementation_effort": "15_minutes"
-    }
-  ],
-  "implemented": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Coalition releases detailed repeal costings — $23bn impact on housing package over decade",
-      "description": "[UNVERIFIED — could not find corroborating source] The Opposition has released official costings quantifying the fiscal impact of repealing the Budget's negative gearing and CGT reforms, estimating a $23 billion impact on the housing package over ten years. This provides concrete numbers for investors assessing policy risk.",
-      "suggestion": "Add to budget-updates.json: Coalition releases detailed repeal costings — $23bn impact on housing package over decade — Opposition costings document shows significant fiscal cost to reversing negative gearing and CGT changes",
-      "source": "https://www.treasury.gov.au/repeal-costings",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260622-446",
-      "timestamp": "2026-06-22T18:09:32.714Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-22T19:21:01.345Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Greens propose 40% additional super tax on balances exceeding $10 million alongside Budget reforms",
-      "description": "The Australian Greens party has announced a new policy proposal for an additional 40% tax on superannuation balances exceeding $10 million, positioning it as complementary to the Government's Division 296 changes targeting the $3 million threshold. This introduces a third tier to super tax reform debate.",
-      "suggestion": "Add to budget-updates.json: Greens propose 40% additional super tax on balances exceeding $10 million — new policy proposal targets ultra-high balance superannuation as complement to Government's Division 296 $3m threshold reforms",
-      "source": "https://greens.org.au/super-tax-reform-2026",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260622-916",
-      "timestamp": "2026-06-22T18:09:32.714Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-22T19:21:17.494Z"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Negative gearing restrictions take effect from Budget Night (12 May 2026) vs 1 July 2027",
-      "description": "ABC News states 'Negative gearing tax perks will be restricted from budget night onwards', but William Buck and other sources clarify the restrictions apply to properties purchased after 7:30pm on 12 May 2026, with the effective date for losing existing negative gearing benefits being 1 July 2027. This creates confusion between the announcement/calculation cutoff date (7:30pm Budget Night) and the effective commencement date (1 July 2027). Media reporting may conflate these, suggesting restrictions apply immediately when in practice they target future purchases.",
-      "suggestion": "Add to fact-checks.json: claim is 'negative gearing restricted from Budget Night', verdict is partially_true because the 7:30pm cutoff applies to NEW purchases, but existing negatively-geared properties retain their status until 1 July 2027 when changes take full effect. The announcement timing differs from implementation timing.",
-      "source": "https://www.abc.net.au/news/2026-05-13/negative-gearing-capital-gains-tax-budget-changes/...",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260604-988",
-      "timestamp": "2026-06-04T16:43:50.366Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-22T19:22:08.126Z"
     },
     {
       "type": "debate_page",
       "priority": "medium",
-      "title": "Does the CGT minimum 30% floor apply to all gains or only gains above inflation?",
-      "description": "The budget introduces a minimum 30% tax rate on capital gains, but sources conflict on whether this floor applies to the entire gain or only the portion above inflation. This is a critical distinction affecting tax calculations for all investors.",
-      "suggestion": "Add to debates.json: NAB Budget Analysis and Baker McKenzie imply the 30% minimum applies broadly to capital gains, while other technical analysis suggests the floor only applies to gains above inflation (inflation-adjusted gains may face lower effective rates). Sources conflict on the technical scope of this provision.",
-      "source": "https://www.nab.com.au/content/dam/nabcomau/documents/business-banking/budget-2026-cgt.pdf",
+      "title": "Who benefits from housing supply reforms: government/industry vs housing advocates?",
+      "description": "There appears to be a conflict in perspectives on whether the $2B infrastructure initiative and negative gearing changes will deliver meaningful benefits. REIA President Jacob Caine welcomed the reforms as 'positive and necessary', but the Greens have criticized them as a 'damp squib'. More critically, Grattan Institute modelling suggests affordability improvements won't materialize until the 2030s, while government framing suggests more immediate benefits. This represents a factual dispute about the timing and magnitude of expected benefits.",
+      "suggestion": "Add to debates.json: REIA President Jacob Caine (via API Magazine) says $2B infrastructure and negative gearing reforms are 'positive and necessary steps toward addressing Australia's housing shortage', while Grattan Institute modelling indicates Budget tax reforms are 'unlikely to materially improve housing affordability until the 2030s'",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
       "implementation_effort": "30_minutes",
-      "id": "suggestion-20260604-970",
-      "timestamp": "2026-06-04T21:23:52.828Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-22T19:22:57.759Z"
+      "id": "suggestion-20260629-660",
+      "timestamp": "2026-06-29T21:18:00.164Z",
+      "status": "pending"
     },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "This claim appears frequently but oversimplifies the tax mechanism. Division 296 applies a 15% tax on the 'taxable superannuation earnings' attributable to the proportion of a balance above $3 million—not on the entire balance above $3m. For example, a $4m balance would not pay 15% × $1m = $150,000. Instead, 15% applies to the earnings attributed to the $1m portion over the threshold. The existing fact-checks state this as a flat 15% on balances exceeding $3m, which misrepresents the actual tax base.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is partially_true/misleading because Division 296 taxes superannuation earnings (not the balance) at 15%, applied only to the proportion attributable to balances exceeding the $3m threshold.",
+      "source": "https://www.ato.gov.au/tax-professionals/your-practice/clients-with-superannuation-interests/division-296-frequently-asked-questions",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260629-211",
+      "timestamp": "2026-06-29T21:18:00.164Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'The 50% CGT discount is being replaced by inflation indexation with no choice for taxpayers'",
+      "description": "Multiple sources describe the 50% discount being 'replaced' or 'eliminated' without choice. However, William Buck notes 'transitional rules and new build exemptions' exist. The ASX analysis notes CGT reform creates 'two-speed' tax treatment for different investor types. The existing fact-checks state the discount is being 'replaced' but don't verify whether transitional provisions, exemptions for certain assets, or grandfathering affect the claim that investors have 'no choice.' This needs verification against the actual legislation.",
+      "suggestion": "Add to fact-checks.json: claim is '50% CGT discount completely replaced with no choice', verdict is unclear/because while the discount is being modified, transitional rules, exemptions for new builds, and potential grandfathering provisions may affect whether all taxpayers face identical treatment.",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026/capital-gains-tax",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260629-903",
+      "timestamp": "2026-06-29T21:18:00.164Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260629-280",
+      "timestamp": "2026-06-29T21:18:00.164Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "id": "suggestion-20260629-510",
+      "timestamp": "2026-06-29T21:18:00.164Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes"
+    },
+    {
+      "id": "suggestion-20260629-393",
+      "timestamp": "2026-06-29T21:18:00.164Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "medium",
@@ -7974,20 +7994,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Does CGT minimum 30% floor apply to all gains or only gains above inflation?",
-      "description": "Multiple sources claim a 'minimum 30% tax rate on ALL gains' from July 2027, but this is disputed. The government's policy creates a floor below which CGT cannot be reduced via the 50% discount or indexation, but for long-held assets where inflation has been substantial, indexation may actually produce outcomes better than a 30% floor. The question is whether the floor catches all nominal gains or only real gains after inflation adjustment.",
-      "suggestion": "Add to debates.json: Some sources claim capital gains will face a minimum 30% tax rate on ALL gains. Other sources clarify this only applies when the 50% discount would reduce the effective rate below 30%, and inflation-adjusted cost bases may still produce effective rates above 30% for long-held assets.",
-      "source": "https://www.perpetual.com.au/insights/federal-budget-2026/",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260604-848",
-      "timestamp": "2026-06-04T16:43:50.366Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-22T19:21:34.271Z"
-    },
     {
       "type": "fact_check",
       "priority": "medium",

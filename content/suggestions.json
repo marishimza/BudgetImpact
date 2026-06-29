@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T16:50:10.728Z",
+  "lastUpdated": "2026-06-29T18:07:08.805Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -6550,54 +6550,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "id": "suggestion-20260629-319",
-      "timestamp": "2026-06-29T12:24:03.614Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260629-794",
-      "timestamp": "2026-06-29T12:24:03.614Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Venture capital tax incentives expansion confirmed from July 2027",
-      "description": "The Budget includes expansion of venture capital tax incentives effective from July 2027, supporting innovation and startup investment alongside the housing tax reform package.",
-      "suggestion": "Add new article: 'Venture capital tax incentives expanded from July 2027' covering the government's commitment to VC sector growth as part of broader tax reform agenda.",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260629-602",
-      "timestamp": "2026-06-29T16:50:03.541Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "$1,000 instant tax deduction for work-related expenses confirmed",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget 2026-27 confirms a $1,000 instant tax deduction for work-related expenses, providing simplified claiming for eligible workers alongside broader income tax measures.",
-      "suggestion": "Add new article: 'Federal Budget 2026: $1,000 Instant Tax Deduction for Work-Related Expenses Confirmed' detailing eligibility and implementation details.",
-      "source": "https://budget.gov.au/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260629-170",
-      "timestamp": "2026-06-29T16:50:03.541Z",
-      "status": "pending"
-    },
-    {
       "type": "content_update",
       "priority": "low",
       "title": "Perpetual analysis confirms CGT cost base indexation mirrors pre-1999 approach",
@@ -6632,19 +6584,6 @@
       "id": "suggestion-20260629-702",
       "timestamp": "2026-06-29T16:50:03.541Z",
       "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
-      "description": "This claim is repeated extensively in media but is technically inaccurate. According to ATO and official sources, Division 296 applies a 15% tax on the proportion of taxable superannuation EARNINGS relating to the total superannuation balance (TSB) that exceeds $3 million—not a flat 15% on the entire balance over $3m. This is a significant distinction: a person with $4m balance doesn't pay 15% on $4m (which would be $600k), but rather 15% on the notional earnings attributable to the $1m excess. This oversimplification overstates the tax burden by orders of magnitude.",
-      "suggestion": "Add to fact-checks.json: Claim '15% tax on all super balances exceeding $3m' is MISLEADING. Verdict: disputed. The legislation imposes 15% tax on the portion of taxable super earnings attributable to balances above $3m threshold, not a flat 15% on the entire balance.",
-      "source": "https://www.ato.gov.au/tax-professionals/newsroom/fact-sheets-and-media-releases/better-targeted-super-concessions/",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260629-997",
-      "timestamp": "2026-06-29T16:50:03.541Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
     },
     {
       "type": "fact_check",
@@ -7966,6 +7905,72 @@
       "timestamp": "2026-06-29T12:24:03.614Z",
       "status": "implemented",
       "implemented_at": "2026-06-29T14:01:52.002Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "This claim is repeated extensively in media but is technically inaccurate. According to ATO and official sources, Division 296 applies a 15% tax on the proportion of taxable superannuation EARNINGS relating to the total superannuation balance (TSB) that exceeds $3 million—not a flat 15% on the entire balance over $3m. This is a significant distinction: a person with $4m balance doesn't pay 15% on $4m (which would be $600k), but rather 15% on the notional earnings attributable to the $1m excess. This oversimplification overstates the tax burden by orders of magnitude.",
+      "suggestion": "Add to fact-checks.json: Claim '15% tax on all super balances exceeding $3m' is MISLEADING. Verdict: disputed. The legislation imposes 15% tax on the portion of taxable super earnings attributable to balances above $3m threshold, not a flat 15% on the entire balance.",
+      "source": "https://www.ato.gov.au/tax-professionals/newsroom/fact-sheets-and-media-releases/better-targeted-super-concessions/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260629-997",
+      "timestamp": "2026-06-29T16:50:03.541Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-06-29T18:05:35.720Z"
+    },
+    {
+      "id": "suggestion-20260629-319",
+      "timestamp": "2026-06-29T12:24:03.614Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-29T18:06:04.558Z"
+    },
+    {
+      "id": "suggestion-20260629-794",
+      "timestamp": "2026-06-29T12:24:03.614Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-29T18:06:30.745Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Venture capital tax incentives expansion confirmed from July 2027",
+      "description": "The Budget includes expansion of venture capital tax incentives effective from July 2027, supporting innovation and startup investment alongside the housing tax reform package.",
+      "suggestion": "Add new article: 'Venture capital tax incentives expanded from July 2027' covering the government's commitment to VC sector growth as part of broader tax reform agenda.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260629-602",
+      "timestamp": "2026-06-29T16:50:03.541Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-29T18:06:49.776Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "$1,000 instant tax deduction for work-related expenses confirmed",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Budget 2026-27 confirms a $1,000 instant tax deduction for work-related expenses, providing simplified claiming for eligible workers alongside broader income tax measures.",
+      "suggestion": "Add new article: 'Federal Budget 2026: $1,000 Instant Tax Deduction for Work-Related Expenses Confirmed' detailing eligibility and implementation details.",
+      "source": "https://budget.gov.au/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260629-170",
+      "timestamp": "2026-06-29T16:50:03.541Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-29T18:07:08.805Z"
     }
   ],
   "skipped": [

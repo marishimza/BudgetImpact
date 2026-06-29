@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T14:00:19.837Z",
+  "lastUpdated": "2026-06-29T18:05:35.716Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1905,6 +1905,24 @@
       ],
       "date_checked": "2026-06-29",
       "category": "Capital Gains Tax"
+    },
+    {
+      "id": "fc-099",
+      "slug": "division-296-15-percent-tax-super-balances-3-million-misleading",
+      "claim": "Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "Division 296 taxes the proportion of taxable superannuation earnings attributable to balances above the $3m threshold, not a flat 15% on the entire balance over $3m.",
+      "detailed_explanation": "According to official ATO sources, Division 296 applies a 15% tax on the proportion of taxable superannuation earnings that relates to the total superannuation balance (TSB) exceeding $3 million—not a flat 15% on the entire balance over $3m. This is a significant legal and mathematical distinction. For example, a person with a $4m balance does not pay 15% on $4m (which would be $600k), but rather 15% on the notional earnings attributable to the $1m excess portion. The $3m threshold operates as a proxy for determining how much of an individual's superannuation earnings should be subject to the additional 15% tax. This technical oversimplification in media reporting overstates the actual tax burden by orders of magnitude and misrepresents the legislative mechanism.",
+      "sources": [
+        {
+          "name": "ATO - Better Targeted Super Concessions",
+          "url": "https://www.ato.gov.au/individuals/super/in-detail/changes-to-super/better-targeted-super-concessions/",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-29",
+      "category": "superannuation"
     }
   ]
 }

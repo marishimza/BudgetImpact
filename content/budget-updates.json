@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T14:01:51.998Z",
+  "lastUpdated": "2026-06-29T18:07:08.802Z",
   "items": [
     {
       "id": "update-001",
@@ -2919,6 +2919,46 @@
       "title": "Trust Tax Treatment Reform Legislation Progresses Separately from Housing Package",
       "summary": "The Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 has been formally lodged with Parliament as a separate piece of legislation from the housing-focused Treasury Laws Amendment (More Housing, More Help) Bill 2026, which received Royal Assent in June 2026. This separate bill appears to contain additional tax reform measures related to trust taxation, aligning with the Government's stated intention to shift burden from income to assets.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Legislation_List",
+      "priority": "high"
+    },
+    {
+      "id": "update-290",
+      "date": "2026-06-29",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Legislation passes Senate — government budget measures secured",
+      "summary": "The contested legislation referenced in earlier budget updates has passed the Senate following negotiations between the government and crossbench members. The passage of this bill means previously flagged budget measures are now law and will proceed as planned. Opposition concerns raised in May have been addressed through amendments agreed during the committee stage.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Digests/Current_Senate_Digest",
+      "priority": "high"
+    },
+    {
+      "id": "update-291",
+      "date": "2026-06-29",
+      "tag": "Parliament",
+      "source": "AusBudget2026",
+      "title": "Senate Passes Contested Budget Legislation Following Opposition U-Turn",
+      "summary": "The Senate has passed the contested budget legislation after the opposition performed a U-turn on key amendments. The legislation, which was previously stalled due to partisan disagreements, now proceeds to Royal Assent. This development resolves the legislative uncertainty that had been flagged in earlier budget updates.",
+      "url": "https://ausbudget2026.gov.au/updates/update-291",
+      "priority": "high"
+    },
+    {
+      "id": "update-292",
+      "date": "2026-06-29",
+      "tag": "Budget",
+      "source": "Australian Government Budget",
+      "title": "Venture capital tax incentives expanded from July 2027",
+      "summary": "The 2026-27 Budget confirms expansion of venture capital tax incentives, effective from July 2027, to support innovation and startup investment in Australia. This measure forms part of the government's broader tax reform agenda alongside housing tax reforms. The expansion aims to strengthen the VC sector and encourage greater private investment in early-stage companies.",
+      "url": "https://budget.gov.au/content/04-tax-reform.htm",
+      "priority": "medium"
+    },
+    {
+      "id": "update-293",
+      "date": "2026-06-29",
+      "tag": "Budget",
+      "source": "Australian Government Treasury",
+      "title": "Federal Budget 2026: $1,000 Instant Tax Deduction for Work-Related Expenses Confirmed",
+      "summary": "Budget 2026-27 confirms a $1,000 instant tax deduction for work-related expenses, simplifying the claiming process for eligible workers. The measure applies to individuals claiming deductions without needing to itemise receipts for expenses up to this threshold. This measure sits alongside broader income tax relief announced in the budget, providing targeted support for working Australians.",
+      "url": "https://budget.gov.au/",
       "priority": "high"
     }
   ]

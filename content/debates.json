@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T07:49:52.655Z",
+  "lastUpdated": "2026-06-29T22:52:32.829Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2608,6 +2608,25 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2026_Australian_federal_budget"
         ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-112",
+      "slug": "coalition-repeal-grandfathered-arrangements",
+      "title": "Will Coalition repeal only affect future investors or also grandfathered arrangements?",
+      "category": "tax",
+      "type": "interpretation_difference",
+      "summary": "The Budget factsheets show grandfathering provisions that preserve the 50% CGT discount for existing property investors. However, the Coalition has stated they will 'repeal these measures' entirely, creating uncertainty about whether existing investors with grandfathered arrangements would be affected by their proposed changes.",
+      "view_a": {
+        "label": "Government maintains grandfathering protects existing investors",
+        "argument": "Budget.gov.au factsheets explicitly detail grandfathering provisions that preserve the 50% CGT discount for existing property investors. These provisions were specifically designed to protect investors who entered the market before the changes, meaning a repeal of the 'measures' may not necessarily remove grandfathered protections.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Coalition will repeal all changes including grandfathering",
+        "argument": "Coalition representatives including Tim Wilson and Angus Taylor have stated they will 'repeal these measures' entirely. The word 'repeal' suggests full reversal of all changes, including grandfathering provisions, which would restore the previous tax treatment for all investors regardless of when they entered the market.",
+        "sources": []
       },
       "verdict": null
     }

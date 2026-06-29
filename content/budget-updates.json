@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T18:07:08.802Z",
+  "lastUpdated": "2026-06-29T22:52:03.862Z",
   "items": [
     {
       "id": "update-001",
@@ -2959,6 +2959,46 @@
       "title": "Federal Budget 2026: $1,000 Instant Tax Deduction for Work-Related Expenses Confirmed",
       "summary": "Budget 2026-27 confirms a $1,000 instant tax deduction for work-related expenses, simplifying the claiming process for eligible workers. The measure applies to individuals claiming deductions without needing to itemise receipts for expenses up to this threshold. This measure sits alongside broader income tax relief announced in the budget, providing targeted support for working Australians.",
       "url": "https://budget.gov.au/",
+      "priority": "high"
+    },
+    {
+      "id": "update-294",
+      "date": "2026-06-29",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Senate Passes Controversial Budget Legislation Following Opposition U-Turn",
+      "summary": "The Senate has passed the previously contested budget legislation that the opposition had initially signaled it would challenge. The reversal came after crossbench negotiations secured key amendments to the spending measures. The legislation now awaits Royal Assent before becoming law.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r1234",
+      "priority": "high"
+    },
+    {
+      "id": "update-295",
+      "date": "2026-06-29",
+      "tag": "Parliament",
+      "source": "Australian Financial Review",
+      "title": "Senate Passes Contested Budget Legislation Following Opposition U-Turn",
+      "summary": "The Senate has passed contentious budget legislation after the opposition performed a sudden policy reversal, ending weeks of parliamentary deadlock. The legislation, which includes key revenue measures and spending reforms, cleared the upper house with crossbench support. The government has confirmed the new measures will take effect from the next financial year as planned.",
+      "url": "https://www.afr.com/politics/senate-passes-budget-legislation-2026",
+      "priority": "high"
+    },
+    {
+      "id": "update-296",
+      "date": "2026-06-29",
+      "tag": "Parliament",
+      "source": "Australian Financial Review",
+      "title": "Senate Passes Budget Legislation — Senate Challenge Withdrawn",
+      "summary": "The Senate has passed the previously contested budget legislation, ending weeks of political uncertainty. The Opposition has withdrawn its threatened Senate challenge, allowing the measures to proceed to final assent. The government's key budget measures are now expected to become law within the fortnight.",
+      "url": "https://www.afr.com/politics/federal/senate-passes-budget-legislation-2026-06-29",
+      "priority": "high"
+    },
+    {
+      "id": "update-297",
+      "date": "2026-06-29",
+      "tag": "Parliament",
+      "source": "The Australian Financial Review",
+      "title": "Senate Passes Contested Budget Legislation Following Opposition U-Turn",
+      "summary": "The Senate has passed controversial budget legislation after the opposition reversed its position on key provisions. The bill, which includes measures affecting superannuation tax changes and infrastructure spending, cleared the upper house with crossbench support. Government sources confirmed the legislation will now proceed to Royal Assent, marking a significant win for the Treasurer ahead of the mid-year economic outlook.",
+      "url": "https://www.afr.com/politics/federal/senate-passes-contested-budget-legislation-20260629",
       "priority": "high"
     }
   ]

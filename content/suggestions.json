@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T21:18:05.238Z",
+  "lastUpdated": "2026-06-29T22:52:32.834Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1988,18 +1988,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will Coalition repeal only affect future investors or also grandfathered arrangements?",
-      "description": "Budget.gov.au factsheets show grandfathering provisions preserving the 50% CGT discount for existing property investors. However, the Coalition has stated they will 'repeal these measures' entirely. The conflict is whether repeal would restore grandfathered provisions or only affect future policy changes.",
-      "suggestion": "Add to debates.json: Government sources (budget.gov.au) show grandfathering protects existing investors' CGT discount. Coalition sources (Tim Wilson, Angus Taylor via The Guardian, ABC News) state they will 'repeal' all changes. This creates factual uncertainty about whether grandfathered arrangements would survive a Coalition government.",
-      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf; https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260607-467",
-      "timestamp": "2026-06-07T21:01:38.211Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -6610,30 +6598,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "id": "suggestion-20260629-269",
-      "timestamp": "2026-06-29T16:50:03.541Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260629-496",
-      "timestamp": "2026-06-29T16:50:03.541Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "Who benefits from housing supply reforms: government/industry vs housing advocates?",
@@ -6680,30 +6644,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260629-510",
-      "timestamp": "2026-06-29T21:18:00.164Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260629-393",
-      "timestamp": "2026-06-29T21:18:00.164Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -7991,6 +7931,71 @@
       "timestamp": "2026-06-29T16:50:03.541Z",
       "status": "implemented",
       "implemented_at": "2026-06-29T18:07:08.805Z"
+    },
+    {
+      "id": "suggestion-20260629-269",
+      "timestamp": "2026-06-29T16:50:03.541Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-29T22:50:41.098Z"
+    },
+    {
+      "id": "suggestion-20260629-496",
+      "timestamp": "2026-06-29T16:50:03.541Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-29T22:51:06.410Z"
+    },
+    {
+      "id": "suggestion-20260629-510",
+      "timestamp": "2026-06-29T21:18:00.164Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-29T22:51:27.775Z"
+    },
+    {
+      "id": "suggestion-20260629-393",
+      "timestamp": "2026-06-29T21:18:00.164Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-29T22:52:03.866Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will Coalition repeal only affect future investors or also grandfathered arrangements?",
+      "description": "Budget.gov.au factsheets show grandfathering provisions preserving the 50% CGT discount for existing property investors. However, the Coalition has stated they will 'repeal these measures' entirely. The conflict is whether repeal would restore grandfathered provisions or only affect future policy changes.",
+      "suggestion": "Add to debates.json: Government sources (budget.gov.au) show grandfathering protects existing investors' CGT discount. Coalition sources (Tim Wilson, Angus Taylor via The Guardian, ABC News) state they will 'repeal' all changes. This creates factual uncertainty about whether grandfathered arrangements would survive a Coalition government.",
+      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf; https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260607-467",
+      "timestamp": "2026-06-07T21:01:38.211Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-29T22:52:32.833Z"
     }
   ],
   "skipped": [

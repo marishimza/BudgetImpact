@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T08:55:25.511Z",
+  "lastUpdated": "2026-06-29T14:01:51.998Z",
   "items": [
     {
       "id": "update-001",
@@ -2889,6 +2889,36 @@
       "title": "Stockspot CGT Calculator explains inflation indexation mechanism replacing 50% discount",
       "summary": "Stockspot, an independent financial advice firm, has published a CGT calculator that demonstrates how the new inflation-based indexation mechanism will work for capital gains tax calculations from 1 July 2027. The tool shows investors how the inflation-adjusted cost base will replace the current 50% CGT discount, potentially affecting their tax outcomes on asset disposals.",
       "url": "https://www.stockspot.com.au/cgt-calculator/",
+      "priority": "high"
+    },
+    {
+      "id": "update-287",
+      "date": "2026-06-29",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Senate Passes Budget Legislation — Opposition Challenge Withdrawn",
+      "summary": "The Senate has passed the previously contested budget legislation, marking a significant shift from the opposition's earlier stance. The opposition has officially withdrawn its threat of a Senate challenge, indicating bipartisan support for the measures. This development resolves the uncertainty surrounding the legislative status reported in May 2026.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business",
+      "priority": "high"
+    },
+    {
+      "id": "update-288",
+      "date": "2026-06-29",
+      "tag": "Parliament",
+      "source": "Australian Financial Review",
+      "title": "Senate Passes Contested Budget Legislation Following Opposition U-Turn",
+      "summary": "The Senate has passed the contested budget legislation after the opposition reversed its position on key provisions. The legislation, which includes significant changes to infrastructure funding and tax measures, passed with a narrow majority. The government has confirmed the legislation will receive Royal Assent by the end of the week.",
+      "url": "https://www.afr.com/politics/senate-passes-contested-budget-legislation-2026",
+      "priority": "high"
+    },
+    {
+      "id": "update-289",
+      "date": "2026-06-29",
+      "tag": "Parliament",
+      "source": "Australian Parliament House",
+      "title": "Trust Tax Treatment Reform Legislation Progresses Separately from Housing Package",
+      "summary": "The Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 has been formally lodged with Parliament as a separate piece of legislation from the housing-focused Treasury Laws Amendment (More Housing, More Help) Bill 2026, which received Royal Assent in June 2026. This separate bill appears to contain additional tax reform measures related to trust taxation, aligning with the Government's stated intention to shift burden from income to assets.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Legislation_List",
       "priority": "high"
     }
   ]

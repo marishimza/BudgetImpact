@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T12:24:15.646Z",
+  "lastUpdated": "2026-06-29T14:02:04.512Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -6455,19 +6455,6 @@
     },
     {
       "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
-      "description": "This claim appears repeatedly in fact-checks but may be inaccurate. While inflation indexation generally benefits very long-held assets with high cumulative inflation, the 'always' qualifier is problematic. For assets held during periods of low inflation or for moderate time periods, the 50% discount may produce equal or better outcomes. The ATO and Perpetual have released guidance on the technical differences between cost base indexation and the CGT discount, suggesting the two mechanisms interact in complex ways depending on the inflation rate and holding period.",
-      "suggestion": "Add to fact-checks.json: claim is 'inflation indexation ALWAYS produces a better outcome than 50% discount', verdict is DISPUTED because indexation benefit depends on cumulative inflation rate and holding period - for low-inflation environments or moderate holding periods, the 50% discount may be equally or more beneficial.",
-      "source": "https://perpetual.com.au; https://ato.gov.au",
-      "implementation_effort": "45_minutes",
-      "id": "suggestion-20260629-198",
-      "timestamp": "2026-06-29T06:30:54.153Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base"
-    },
-    {
-      "type": "fact_check",
       "priority": "medium",
       "title": "Claim: '$2 billion infrastructure initiative will deliver 65,000 additional homes'",
       "description": "Multiple sources cite the government's $2 billion infrastructure initiative as delivering 65,000 additional homes. However, Grattan Institute modelling and independent analysis question whether this target is achievable. The housing target appears in government materials but may represent optimistic projections rather than verified delivery capacity. The description notes 'independent modelling questions 65,000 home target feasibility' and 'Grattan Institute questions $2B infrastructure housing delivery capacity.'",
@@ -6489,54 +6476,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260629-852",
-      "timestamp": "2026-06-29T06:30:54.153Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260629-857",
-      "timestamp": "2026-06-29T06:30:54.154Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Trust Tax Treatment Reform Legislation Progresses Separately from Housing Package",
-      "description": "The Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 has been formally lodged with Parliament as a separate piece of legislation from the housing-focused Treasury Laws Amendment (More Housing, More Help) Bill 2026, which received Royal Assent in June 2026. This separate bill appears to contain additional tax reform measures related to trust taxation, aligning with the Government's stated intention to shift burden from income to assets.",
-      "suggestion": "Add to budget-updates.json: Trust tax treatment reform is progressing through a separate piece of legislation — Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament distinct from the enacted housing package",
-      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Legislation_List",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260629-510",
-      "timestamp": "2026-06-29T12:24:03.614Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO Releases Further Technical CGT Guidance for Tax Professionals",
-      "description": "The ATO has published additional technical guidance to assist tax professionals and investors in preparing for the July 2027 CGT changes. The guidance specifically distinguishes between cost base indexation methodology and the former CGT discount mechanism, with particular attention to transitional calculations for assets acquired before the change takes effect.",
-      "suggestion": "Add to budget-updates.json: ATO releases further technical CGT guidance distinguishing cost base indexation methodology from CGT discount for transitional calculations ahead of July 2027 reforms",
-      "source": "https://www.ato.gov.au/individuals-and-families/investment-income/capital-gains-tax",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260629-534",
-      "timestamp": "2026-06-29T12:24:03.614Z",
-      "status": "pending"
     },
     {
       "type": "content_update",
@@ -7905,6 +7844,59 @@
       "timestamp": "2026-06-29T06:30:54.153Z",
       "status": "implemented",
       "implemented_at": "2026-06-29T08:55:25.515Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
+      "description": "This claim appears repeatedly in fact-checks but may be inaccurate. While inflation indexation generally benefits very long-held assets with high cumulative inflation, the 'always' qualifier is problematic. For assets held during periods of low inflation or for moderate time periods, the 50% discount may produce equal or better outcomes. The ATO and Perpetual have released guidance on the technical differences between cost base indexation and the CGT discount, suggesting the two mechanisms interact in complex ways depending on the inflation rate and holding period.",
+      "suggestion": "Add to fact-checks.json: claim is 'inflation indexation ALWAYS produces a better outcome than 50% discount', verdict is DISPUTED because indexation benefit depends on cumulative inflation rate and holding period - for low-inflation environments or moderate holding periods, the 50% discount may be equally or more beneficial.",
+      "source": "https://perpetual.com.au; https://ato.gov.au",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260629-198",
+      "timestamp": "2026-06-29T06:30:54.153Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base",
+      "implemented_at": "2026-06-29T14:00:19.840Z"
+    },
+    {
+      "id": "suggestion-20260629-852",
+      "timestamp": "2026-06-29T06:30:54.153Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-29T14:00:57.877Z"
+    },
+    {
+      "id": "suggestion-20260629-857",
+      "timestamp": "2026-06-29T06:30:54.154Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-29T14:01:32.621Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Trust Tax Treatment Reform Legislation Progresses Separately from Housing Package",
+      "description": "The Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 has been formally lodged with Parliament as a separate piece of legislation from the housing-focused Treasury Laws Amendment (More Housing, More Help) Bill 2026, which received Royal Assent in June 2026. This separate bill appears to contain additional tax reform measures related to trust taxation, aligning with the Government's stated intention to shift burden from income to assets.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform is progressing through a separate piece of legislation — Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament distinct from the enacted housing package",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Legislation_List",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260629-510",
+      "timestamp": "2026-06-29T12:24:03.614Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-29T14:01:52.002Z"
     }
   ],
   "skipped": [
@@ -8538,6 +8530,20 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-29T08:54:46.142Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO Releases Further Technical CGT Guidance for Tax Professionals",
+      "description": "The ATO has published additional technical guidance to assist tax professionals and investors in preparing for the July 2027 CGT changes. The guidance specifically distinguishes between cost base indexation methodology and the former CGT discount mechanism, with particular attention to transitional calculations for assets acquired before the change takes effect.",
+      "suggestion": "Add to budget-updates.json: ATO releases further technical CGT guidance distinguishing cost base indexation methodology from CGT discount for transitional calculations ahead of July 2027 reforms",
+      "source": "https://www.ato.gov.au/individuals-and-families/investment-income/capital-gains-tax",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260629-534",
+      "timestamp": "2026-06-29T12:24:03.614Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-29T14:02:04.512Z"
     }
   ],
   "needs_manual_review": [

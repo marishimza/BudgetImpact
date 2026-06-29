@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T08:53:50.708Z",
+  "lastUpdated": "2026-06-29T14:00:19.837Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1882,6 +1882,29 @@
       ],
       "date_checked": "2026-06-29",
       "category": "tax"
+    },
+    {
+      "id": "fc-098",
+      "slug": "inflation-indexation-cgt-50-percent-discount",
+      "claim": "Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "The benefit of inflation indexation over the 50% CGT discount depends on the cumulative inflation rate and holding period. For assets held during low-inflation periods or for moderate time periods, the 50% discount may be equally or more beneficial.",
+      "detailed_explanation": "While inflation indexation adjusts the cost base of an asset for cumulative inflation since acquisition, effectively inflating away a portion of the nominal capital gain, the 50% CGT discount simply halves the taxable gain regardless of inflation. The relative benefit of each mechanism varies significantly based on context. For assets held through periods of high cumulative inflation (particularly pre-1999 assets where indexation is still available), indexation can produce superior outcomes. However, for assets acquired after 1999 where only the 50% discount applies, or for assets held during extended periods of low inflation, the discount mechanism may deliver equal or better effective tax treatment. The ATO's guidance confirms these are distinct mechanisms with different interaction effects depending on the inflation environment and holding period length.",
+      "sources": [
+        {
+          "name": "Australian Taxation Office",
+          "url": "https://www.ato.gov.au",
+          "type": "official"
+        },
+        {
+          "name": "Perpetual Investments",
+          "url": "https://perpetual.com.au",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-29",
+      "category": "Capital Gains Tax"
     }
   ]
 }

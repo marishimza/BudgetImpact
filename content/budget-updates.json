@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T22:59:09.891Z",
+  "lastUpdated": "2026-06-29T08:55:25.511Z",
   "items": [
     {
       "id": "update-001",
@@ -2869,6 +2869,26 @@
       "title": "ATO Confirms Pre-1985 Share Valuation Reset for 1 July 2027 CGT Changes",
       "summary": "The ATO has released technical guidance on the pre-1985 share valuation reset mechanism that applies from 1 July 2027 under the new CGT indexation rules. This guidance distinguishes between cost base indexation and the CGT discount for pre-1985 assets, providing clarity on how these two mechanisms interact. Taxpayers holding pre-1985 shares should review this guidance to understand how the valuation reset may affect their CGT calculations.",
       "url": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-assets-acquired-before-cgt-started",
+      "priority": "high"
+    },
+    {
+      "id": "update-285",
+      "date": "2026-06-29",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Senate Passes Contested Budget Legislation Following Opposition U-Turn",
+      "summary": "The Senate has passed the contested budget legislation after the opposition performed a U-turn on key amendments. The legislation, which had been pending since June 26, 2026, now proceeds to final stages. This development marks a significant shift in parliamentary support for the government's budget measures.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_in_Progress",
+      "priority": "high"
+    },
+    {
+      "id": "update-286",
+      "date": "2026-06-29",
+      "tag": "Budget",
+      "source": "Stockspot",
+      "title": "Stockspot CGT Calculator explains inflation indexation mechanism replacing 50% discount",
+      "summary": "Stockspot, an independent financial advice firm, has published a CGT calculator that demonstrates how the new inflation-based indexation mechanism will work for capital gains tax calculations from 1 July 2027. The tool shows investors how the inflation-adjusted cost base will replace the current 50% CGT discount, potentially affecting their tax outcomes on asset disposals.",
+      "url": "https://www.stockspot.com.au/cgt-calculator/",
       "priority": "high"
     }
   ]

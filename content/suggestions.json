@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T06:31:00.306Z",
+  "lastUpdated": "2026-06-29T08:55:25.516Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -6406,19 +6406,6 @@
       "status": "pending"
     },
     {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim appears repeatedly but may oversimplify. The official budget.gov.au states the 50% discount is replaced with 'an inflation-based discount' and 'a minimum 30% tax on gains' - but ASX analysis suggests the 30% applies specifically to 'indexed gains.' The mechanism appears to be: calculate indexed gain, then apply 30% floor to effective rate. This is different from a flat 30% tax on nominal gains for all investors. Media coverage often drops the 'indexed' qualifier, potentially misleading investors about their actual tax liability.",
-      "suggestion": "Add to fact-checks.json: Claim that '30% minimum tax applies to ALL capital gains' is partially_misleading because the 30% appears to function as a floor on the effective tax rate after inflation indexation, not a flat tax on nominal gains. An investor with low inflation or short holding periods may face different outcomes than a flat 30% headline suggests.",
-      "source": "https://www.budget.gov.au/publication/p1/p1-budget-overview.pdf",
-      "implementation_effort": "45_minutes",
-      "id": "suggestion-20260628-535",
-      "timestamp": "2026-06-28T20:52:58.846Z",
-      "status": "pending",
-      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm"
-    },
-    {
       "id": "suggestion-20260628-855",
       "timestamp": "2026-06-28T20:52:58.847Z",
       "status": "pending",
@@ -6429,54 +6416,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260628-278",
-      "timestamp": "2026-06-28T20:52:58.847Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260628-849",
-      "timestamp": "2026-06-28T20:52:58.847Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Treasury analysis quantifies inflation impact on ASX 200 share gains",
-      "description": "Treasury analysis finds inflation accounted for 56% of ASX 200 share gains over the past decade, providing data to support inflation-indexed CGT reform rationale",
-      "suggestion": "Add to budget-updates.json: Treasury analysis: Inflation accounts for 56% of ASX 200 share gains over the past decade",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260629-336",
-      "timestamp": "2026-06-29T06:30:54.153Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Stockspot CGT Calculator explains inflation indexation mechanism",
-      "description": "Independent financial advice firm explains how the new inflation-based indexation will work in practice, replacing the 50% discount from 1 July 2027",
-      "suggestion": "Add to budget-updates.json: Stockspot CGT Calculator explains inflation indexation mechanism replacing 50% discount",
-      "source": "https://www.stockspot.com.au/cgt-calculator/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260629-722",
-      "timestamp": "2026-06-29T06:30:54.153Z",
-      "status": "pending"
     },
     {
       "type": "content_update",
@@ -7871,6 +7810,46 @@
       "status": "implemented",
       "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
       "implemented_at": "2026-06-28T22:59:09.894Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim appears repeatedly but may oversimplify. The official budget.gov.au states the 50% discount is replaced with 'an inflation-based discount' and 'a minimum 30% tax on gains' - but ASX analysis suggests the 30% applies specifically to 'indexed gains.' The mechanism appears to be: calculate indexed gain, then apply 30% floor to effective rate. This is different from a flat 30% tax on nominal gains for all investors. Media coverage often drops the 'indexed' qualifier, potentially misleading investors about their actual tax liability.",
+      "suggestion": "Add to fact-checks.json: Claim that '30% minimum tax applies to ALL capital gains' is partially_misleading because the 30% appears to function as a floor on the effective tax rate after inflation indexation, not a flat tax on nominal gains. An investor with low inflation or short holding periods may face different outcomes than a flat 30% headline suggests.",
+      "source": "https://www.budget.gov.au/publication/p1/p1-budget-overview.pdf",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260628-535",
+      "timestamp": "2026-06-28T20:52:58.846Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implemented_at": "2026-06-29T08:53:50.710Z"
+    },
+    {
+      "id": "suggestion-20260628-849",
+      "timestamp": "2026-06-28T20:52:58.847Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-29T08:54:29.820Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Stockspot CGT Calculator explains inflation indexation mechanism",
+      "description": "Independent financial advice firm explains how the new inflation-based indexation will work in practice, replacing the 50% discount from 1 July 2027",
+      "suggestion": "Add to budget-updates.json: Stockspot CGT Calculator explains inflation indexation mechanism replacing 50% discount",
+      "source": "https://www.stockspot.com.au/cgt-calculator/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260629-722",
+      "timestamp": "2026-06-29T06:30:54.153Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-29T08:55:25.515Z"
     }
   ],
   "skipped": [
@@ -8476,6 +8455,34 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-28T22:59:20.605Z"
+    },
+    {
+      "id": "suggestion-20260628-278",
+      "timestamp": "2026-06-28T20:52:58.847Z",
+      "status": "skipped",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-29T08:54:04.325Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury analysis quantifies inflation impact on ASX 200 share gains",
+      "description": "Treasury analysis finds inflation accounted for 56% of ASX 200 share gains over the past decade, providing data to support inflation-indexed CGT reform rationale",
+      "suggestion": "Add to budget-updates.json: Treasury analysis: Inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260629-336",
+      "timestamp": "2026-06-29T06:30:54.153Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-29T08:54:46.142Z"
     }
   ],
   "needs_manual_review": [

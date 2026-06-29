@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T17:03:06.963Z",
+  "lastUpdated": "2026-06-29T08:53:50.708Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1864,6 +1864,24 @@
       ],
       "date_checked": "2026-06-28",
       "category": "superannuation"
+    },
+    {
+      "id": "fc-097",
+      "slug": "capital-gains-30-percent-minimum-floor-indexation",
+      "claim": "Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
+      "verdict": "partially_misleading",
+      "verdict_label": "Partially Misleading",
+      "short_explanation": "The 30% minimum tax functions as a floor on the effective tax rate after inflation indexation, not a flat 30% tax on nominal gains. Investors with low inflation or short holding periods may face different outcomes.",
+      "detailed_explanation": "The 2026-27 Budget introduces changes to capital gains tax (CGT) treatment. The 50% CGT discount is replaced with an inflation-based discount, and a minimum 30% tax rate applies to indexed gains. The mechanism works by calculating the indexed gain (adjusting for inflation) and then applying a 30% floor to the effective tax rate. This is fundamentally different from a flat 30% tax on nominal gains for all investors. An investor with low inflation or a short holding period may have a lower effective tax rate than 30%, while one with high inflation over a long period would face the 30% floor. Media coverage often omits the 'indexed' qualifier, which may mislead investors about their actual tax liability under the new rules.",
+      "sources": [
+        {
+          "name": "Budget Overview 2026-27",
+          "url": "https://www.budget.gov.au/publication/p1/p1-budget-overview.pdf",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-29",
+      "category": "tax"
     }
   ]
 }

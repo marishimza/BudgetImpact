@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T12:07:31.092Z",
+  "lastUpdated": "2026-06-30T17:51:23.089Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1959,6 +1959,24 @@
       ],
       "date_checked": "2026-06-30",
       "category": "tax"
+    },
+    {
+      "id": "fc-102",
+      "slug": "housing-measures-6-4bn-cost-unclear",
+      "claim": "housing measures cost $6.4bn over four years",
+      "verdict": "unclear",
+      "verdict_label": "Unclear",
+      "short_explanation": "The $6.4 billion figure appears in multiple media sources but lacks official confirmation on budget.gov.au as a standalone 'cost'. It may represent the gross spending package rather than net cost.",
+      "detailed_explanation": "While the $6.4 billion figure is cited across numerous media outlets, the KPMG implementation review mentions $47.5 million specifically for Treasury and ATO implementation costs. The $6.4bn figure likely refers to the total gross spending on housing measures including infrastructure, while administrative implementation costs ($47.5m) are listed separately. Additionally, CGT changes may generate offsetting revenue that reduces the net cost. Sources may be conflating different budget line items, gross costs versus net costs after projected revenue, or the total package versus individual components. Without official budget.gov.au confirmation categorising this as the definitive cost figure, the claim remains unverified.",
+      "sources": [
+        {
+          "name": "budget.gov.au",
+          "url": "https://budget.gov.au/",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-30",
+      "category": "housing"
     }
   ]
 }

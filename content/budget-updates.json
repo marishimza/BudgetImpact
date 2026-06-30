@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T12:06:47.940Z",
+  "lastUpdated": "2026-06-30T17:50:14.984Z",
   "items": [
     {
       "id": "update-001",
@@ -3049,6 +3049,26 @@
       "title": "Senate Budget Legislation Receives Royal Assent Following Resolution of Senate Deadlock",
       "summary": "The contested budget legislation that previously stalled in the Senate has now completed its parliamentary passage after the opposition party's u-turn on key amendments. The legislation, which includes provisions affecting superannuation and tax measures, received royal assent on 30 June 2026, marking the end of weeks of parliamentary negotiation. This concludes the legislative uncertainty that had surrounded several budget measures.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Legislation_List",
+      "priority": "high"
+    },
+    {
+      "id": "update-303",
+      "date": "2026-06-30",
+      "tag": "Parliament",
+      "source": "AusBudget2026",
+      "title": "Legislation passes Senate — previous opposition challenge resolved",
+      "summary": "The pending legislation previously flagged with a Senate challenge from the opposition has now been passed into law. The resolution follows extended negotiations in the Senate crossbench. This update supersedes the earlier report from 14 May 2026 regarding the opposition's stance on the matter. Budget measures tied to this legislation are now confirmed as enacted.",
+      "url": "https://ausbudget2026.example.gov.au/updates",
+      "priority": "high"
+    },
+    {
+      "id": "update-304",
+      "date": "2026-06-30",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Senate Passes Contested Budget Legislation Following Opposition U-Turn - Status Update",
+      "summary": "The Senate has passed the contested budget legislation following the opposition's reversal on key amendments. The bill, which faced significant debate over tax measures and spending allocations, now moves to Royal Assent. Government sources confirm the legislation will take effect from 1 July 2026 as originally scheduled.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
       "priority": "high"
     }
   ]

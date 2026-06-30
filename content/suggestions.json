@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T16:18:03.379Z",
+  "lastUpdated": "2026-06-30T17:51:58.532Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2062,30 +2062,6 @@
       "status": "pending"
     },
     {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Is the 50% CGT discount being eliminated or preserved with grandfathering for existing property investors?",
-      "description": "The Budget.gov.au fact sheet shows a worked example where an investor 'still receives the 50% CGT discount' after policy commencement, suggesting existing holdings are grandfathered. However, multiple other sources describe the reform as the discount being 'replaced' by inflation indexation, implying no choice and no grandfathering. This is a factual conflict about what actually happens to current investors.",
-      "suggestion": "Add to debates.json: Budget.gov.au fact sheet shows Michael 'still receives the 50% CGT discount' two years after policy commences, suggesting grandfathering for existing investors. However, perpetual.com.au and others describe CGT changes as the '50% discount being replaced by inflation indexation' with no choice mentioned, implying elimination rather than preservation.",
-      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260608-922",
-      "timestamp": "2026-06-08T12:22:25.732Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Budget housing measures cost $6.4 billion over four years'",
-      "description": "This specific dollar figure is cited across multiple media sources as the cost of housing measures. However, the KPMG source mentions $47.5 million specifically for Treasury and ATO implementation. The $6.4bn figure may refer to the total housing package including infrastructure, while other costs like CGT implementation ($47.5m) are separate administrative costs. Sources may be conflating different budget line items or the gross cost vs net cost after projected revenue from CGT changes.",
-      "suggestion": "Add to fact-checks.json: claim is 'housing measures cost $6.4bn over four years', verdict is 'unclear' because the figure appears in some sources but lacks official budget.gov.au confirmation as a standalone 'cost' - it may represent the gross spending package while CGT changes generate offsetting revenue, and implementation costs ($47.5m) are separate.",
-      "source": "https://budget.gov.au/...",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260608-136",
-      "timestamp": "2026-06-08T12:22:25.732Z",
-      "status": "pending"
-    },
-    {
       "id": "suggestion-20260608-936",
       "timestamp": "2026-06-08T12:22:25.732Z",
       "status": "pending",
@@ -2096,18 +2072,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Negative gearing cutoff: When do restrictions actually take effect?",
-      "description": "There's a factual conflict about the timing of negative gearing restrictions. The government budget website states restrictions apply from 1 July 2027, but some analyses suggest the policy cutoff was announced at 7:30pm on Budget Night (12 May 2026), which could affect different classes of investors differently.",
-      "suggestion": "Add to debates.json: budget.gov.au states negative gearing restrictions apply 'from 1 July 2027', while ABC News analysis and other sources reference a '7:30pm on Budget Night' cutoff date for established properties.",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260608-659",
-      "timestamp": "2026-06-08T17:01:57.380Z",
-      "status": "pending"
     },
     {
       "type": "debate_page",
@@ -6800,30 +6764,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260630-876",
-      "timestamp": "2026-06-30T16:18:00.587Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260630-112",
-      "timestamp": "2026-06-30T16:18:00.587Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -8125,6 +8065,71 @@
       "timestamp": "2026-06-08T06:29:03.194Z",
       "status": "implemented",
       "implemented_at": "2026-06-30T12:07:31.095Z"
+    },
+    {
+      "id": "suggestion-20260630-876",
+      "timestamp": "2026-06-30T16:18:00.587Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-30T17:49:54.900Z"
+    },
+    {
+      "id": "suggestion-20260630-112",
+      "timestamp": "2026-06-30T16:18:00.587Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-30T17:50:14.988Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the 50% CGT discount being eliminated or preserved with grandfathering for existing property investors?",
+      "description": "The Budget.gov.au fact sheet shows a worked example where an investor 'still receives the 50% CGT discount' after policy commencement, suggesting existing holdings are grandfathered. However, multiple other sources describe the reform as the discount being 'replaced' by inflation indexation, implying no choice and no grandfathering. This is a factual conflict about what actually happens to current investors.",
+      "suggestion": "Add to debates.json: Budget.gov.au fact sheet shows Michael 'still receives the 50% CGT discount' two years after policy commences, suggesting grandfathering for existing investors. However, perpetual.com.au and others describe CGT changes as the '50% discount being replaced by inflation indexation' with no choice mentioned, implying elimination rather than preservation.",
+      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260608-922",
+      "timestamp": "2026-06-08T12:22:25.732Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-30T17:50:55.005Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Budget housing measures cost $6.4 billion over four years'",
+      "description": "This specific dollar figure is cited across multiple media sources as the cost of housing measures. However, the KPMG source mentions $47.5 million specifically for Treasury and ATO implementation. The $6.4bn figure may refer to the total housing package including infrastructure, while other costs like CGT implementation ($47.5m) are separate administrative costs. Sources may be conflating different budget line items or the gross cost vs net cost after projected revenue from CGT changes.",
+      "suggestion": "Add to fact-checks.json: claim is 'housing measures cost $6.4bn over four years', verdict is 'unclear' because the figure appears in some sources but lacks official budget.gov.au confirmation as a standalone 'cost' - it may represent the gross spending package while CGT changes generate offsetting revenue, and implementation costs ($47.5m) are separate.",
+      "source": "https://budget.gov.au/...",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260608-136",
+      "timestamp": "2026-06-08T12:22:25.732Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-30T17:51:23.093Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Negative gearing cutoff: When do restrictions actually take effect?",
+      "description": "There's a factual conflict about the timing of negative gearing restrictions. The government budget website states restrictions apply from 1 July 2027, but some analyses suggest the policy cutoff was announced at 7:30pm on Budget Night (12 May 2026), which could affect different classes of investors differently.",
+      "suggestion": "Add to debates.json: budget.gov.au states negative gearing restrictions apply 'from 1 July 2027', while ABC News analysis and other sources reference a '7:30pm on Budget Night' cutoff date for established properties.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260608-659",
+      "timestamp": "2026-06-08T17:01:57.380Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-30T17:51:58.532Z"
     }
   ],
   "skipped": [

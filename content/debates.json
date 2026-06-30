@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T22:52:32.829Z",
+  "lastUpdated": "2026-06-30T17:51:58.528Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2626,6 +2626,48 @@
       "view_b": {
         "label": "Coalition will repeal all changes including grandfathering",
         "argument": "Coalition representatives including Tim Wilson and Angus Taylor have stated they will 'repeal these measures' entirely. The word 'repeal' suggests full reversal of all changes, including grandfathering provisions, which would restore the previous tax treatment for all investors regardless of when they entered the market.",
+        "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-113",
+      "slug": "50-cgt-discount-grandfathering-dispute",
+      "title": "Is the 50% CGT discount being eliminated or preserved with grandfathering for existing property investors?",
+      "category": "capital-gains-tax",
+      "type": "factual_dispute",
+      "summary": "The Budget.gov.au fact sheet includes a worked example showing an investor 'still receives the 50% CGT discount' two years after policy commencement, suggesting the discount is grandfathered for existing property investors. However, multiple other sources describe the reform as the '50% discount being replaced by inflation indexation' with no mention of choice or grandfathering, implying the discount is eliminated for all investors. This creates a factual conflict about whether existing investors retain the 50% discount or face full replacement with inflation indexation.",
+      "view_a": {
+        "label": "Discount Preserved with Grandfathering",
+        "argument": "The official Budget.gov.au fact sheet includes a worked example where investor Michael 'still receives the 50% CGT discount' two years after policy commences. This demonstrates that existing property investors holding assets before the policy start date continue to receive the 50% CGT discount on those assets, confirming grandfathering provisions protect current investors.",
+        "sources": [
+          "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
+        ]
+      },
+      "view_b": {
+        "label": "Discount Replaced with Inflation Indexation",
+        "argument": "Multiple third-party sources describe the reform as the '50% discount being replaced by inflation indexation' with no mention of investor choice or grandfathering provisions. This characterisation implies the discount is eliminated for all investors regardless of when they acquired their properties, with inflation indexation becoming the sole method for calculating capital gains.",
+        "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-114",
+      "slug": "negative-gearing-cutoff-timing",
+      "title": "Negative gearing cutoff: When do restrictions actually take effect?",
+      "category": "housing-taxation",
+      "type": "factual_dispute",
+      "summary": "A factual conflict exists between the official government budget documentation stating negative gearing restrictions apply 'from 1 July 2027', and independent analyses suggesting the policy cutoff was announced at 7:30pm on Budget Night (12 May 2026). This distinction matters for determining which property transactions are affected and when the restrictions take practical effect for different investor classes.",
+      "view_a": {
+        "label": "Budget.gov.au: Commencement 1 July 2027",
+        "argument": "The official government budget website clearly states that negative gearing restrictions apply from 1 July 2027. This is the formal legislative commencement date for the policy changes, and investors can rely on this as the effective start date for the new rules.",
+        "sources": [
+          "https://budget.gov.au/content/04-tax-reform.htm"
+        ]
+      },
+      "view_b": {
+        "label": "ABC News/Media Analysis: Budget Night 7:30pm Cutoff",
+        "argument": "ABC News and other independent analyses reference a '7:30pm on Budget Night' (12 May 2026) cutoff date, particularly for established properties. This earlier timing could have different implications for investors depending on when contracts were exchanged, potentially affecting different classes of investors inconsistently.",
         "sources": []
       },
       "verdict": null

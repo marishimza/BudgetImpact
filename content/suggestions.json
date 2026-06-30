@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T12:07:31.096Z",
+  "lastUpdated": "2026-06-30T16:18:03.379Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -6740,61 +6740,93 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Coalition releases detailed repeal costings: $23bn impact on housing package over decade",
-      "description": "The Coalition has released detailed costings showing their proposed repeal of negative gearing and CGT changes would cost $23 billion over ten years, affecting the government's housing package. This provides quantified data on the fiscal impact of potential policy reversal.",
-      "suggestion": "Add section on Coalition repeal costings with the $23bn figure and timeframe",
-      "source": "https://www.abc.net.au/news/2026-05-15/coalition-repeal-costings-housing-package",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260623-118",
-      "timestamp": "2026-06-23T10:54:39.183Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-23T12:29:42.330Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Grattan Institute: Budget tax reforms unlikely to materially improve housing affordability until 2030s",
-      "description": "Independent think tank Grattan Institute modelling suggests the 2026 Budget housing measures—including negative gearing restrictions and CGT changes—will not materially improve housing affordability until the 2030s, citing the time needed for supply responses and behavioural changes.",
-      "suggestion": "Add Grattan Institute analysis section on long-term housing affordability timeline",
-      "source": "https://grattan.edu.au/news/budget-2026-housing-reform-timeline",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260623-227",
-      "timestamp": "2026-06-23T10:54:39.183Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-23T12:30:04.257Z"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
-      "description": "Widely reported as '15% tax on all super balances over $3m'. However, the ATO official source states: '15% on the proportion of earnings relating to your TSB that exceeds the LSBT'. The tax applies to *earnings attributable to the excess balance*, not the entire balance above $3m. For a $4m balance, tax applies only to earnings on the $1m excess portion, not the entire $1m above threshold. This is a meaningful distinction for how the tax is calculated and could significantly affect the actual tax liability figures reported.",
-      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances exceeding $3m', verdict is partially_true because the 15% applies to earnings (not balance) attributable to the portion exceeding the threshold.",
-      "source": "https://www.ato.gov.au/general/new-legislation/current-law/more-information/better-targeted-super-concessions-is-law",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260605-592",
-      "timestamp": "2026-06-05T06:13:51.267Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-23T12:30:32.365Z"
     },
     {
       "type": "debate_page",
       "priority": "medium",
-      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
-      "description": "API Magazine/REIA claims the $2B infrastructure initiative is 'expected to enable around 65,000 additional homes'. However, this is a forward-looking projection from an industry body, not a confirmed delivery figure. The gap between 'expected to enable' and 'will deliver' represents a factual dispute about the reliability of this housing supply estimate.",
-      "suggestion": "Add to debates.json: REIA President Jacob Caine (via API Magazine) says the initiative 'expected to enable around 65,000 additional homes' were 'positive and necessary steps'. This conflicts with budget.gov.au's more cautious 'expected to enable' framing, and critics may question whether the 65,000 figure is achievable or just aspirational.",
-      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "title": "$2B Infrastructure Initiative Housing Delivery: Official Target vs Independent Feasibility",
+      "description": "The government projects the $2 billion infrastructure initiative will enable 65,000 additional homes, while independent analysts (Grattan Institute) question whether this target is achievable, suggesting significantly fewer homes may result. This is a factual projection conflict about policy effectiveness.",
+      "suggestion": "Add to debates.json: Government sources (budget.gov.au, Treasurer) claim the $2B infrastructure initiative will deliver 65,000 additional homes as a core housing policy objective. Grattan Institute modelling questions the infrastructure initiative's housing delivery capacity and doubts the 65,000 target feasibility.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
       "implementation_effort": "30_minutes",
-      "id": "suggestion-20260605-890",
-      "timestamp": "2026-06-05T11:18:33.321Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-23T12:31:25.517Z"
+      "id": "suggestion-20260630-971",
+      "timestamp": "2026-06-30T16:18:00.587Z",
+      "status": "pending"
     },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Budget Housing Package Cost: Government $6.4bn vs Coalition $23bn Impact",
+      "description": "The government states its housing measures cost $6.4 billion over four years, while the Coalition's detailed repeal costings project a $23 billion impact over a decade. These are different measurements (package cost vs repeal impact) that create conflicting figures about the budget's fiscal impact.",
+      "suggestion": "Add to debates.json: Government budget documents claim housing measures cost $6.4 billion over four years. Coalition release detailed repeal costings projecting a $23 billion impact on the housing package over a decade.",
+      "source": "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294; https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260630-416",
+      "timestamp": "2026-06-30T16:18:00.587Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The search results show conflicting presentations of how the 30% minimum works. Budget.gov.au describes it as 'a minimum 30 per cent tax on gains' while ASX analysis contrasts '8% tax on nominal gains' versus '30% on indexed gains' - suggesting the 30% applies to INFLATION-ADJUSTED gains, not necessarily all nominal gains. The word 'minimum' implies a floor, but it's unclear if this floor applies to all gains or only to gains above inflation. This could mislead investors about actual tax liability.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax applies to ALL gains', verdict is disputed because sources indicate the 30% minimum applies to indexed/inflation-adjusted gains, not necessarily nominal gains, and the 'minimum' framing suggests a floor that may not apply universally.",
+      "source": "https://www.budget.gov.au/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260630-467",
+      "timestamp": "2026-06-30T16:18:00.587Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'The 50% CGT discount is being replaced by inflation indexation'",
+      "description": "Search results show inconsistent terminology across sources. Budget.gov.au says 'discount based on inflation', William Buck says 'cost base indexation', stockspot.com.au says 'inflation indexation', and Perpetual analysis mentions 'mirrors pre-1999 approach'. The ATO references 'cost base indexation'. These are technically different mechanisms - cost base indexation adjusts the purchase price using a CPI-based formula, while 'inflation indexation' could imply using actual inflation rates. This inconsistency in media reporting could mislead investors about exactly how their CGT will be calculated.",
+      "suggestion": "Add to fact-checks.json: claim is '50% CGT discount replaced by inflation indexation', verdict is partially_true because the mechanism is officially 'cost base indexation' (using CPI) not general inflation indexing, and the terms are being used inconsistently across sources.",
+      "source": "https://www.ato.gov.au/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260630-276",
+      "timestamp": "2026-06-30T16:18:00.587Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260630-393",
+      "timestamp": "2026-06-30T16:18:00.587Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "id": "suggestion-20260630-876",
+      "timestamp": "2026-06-30T16:18:00.587Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes"
+    },
+    {
+      "id": "suggestion-20260630-112",
+      "timestamp": "2026-06-30T16:18:00.587Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "debate_page",
       "priority": "high",
@@ -8096,20 +8128,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "CGT discount replacement mechanism: cost base indexation vs inflation indexation",
-      "description": "There is a factual conflict about what specific mechanism replaces the 50% CGT discount. NAB Budget Analysis claims the discount is 'replaced by cost base indexation', while other sources describe 'inflation indexation'. These are technically different calculation methods with different outcomes for investors, making this a genuine factual dispute rather than just a terminology difference.",
-      "suggestion": "Add to debates.json: NAB Budget Analysis states 'CGT discount replaced by cost base indexation — implications for investors', while other sources (including multiple claims in pending suggestions) describe the replacement as 'inflation indexation'. These are distinct calculation methods that produce different CGT outcomes.",
-      "source": "https://www.nab.com.au/content/nab/en/home/lakeside/microsites/budget-2026",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260605-149",
-      "timestamp": "2026-06-05T11:18:33.321Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-23T12:30:48.209Z"
-    },
     {
       "type": "content_update",
       "priority": "medium",

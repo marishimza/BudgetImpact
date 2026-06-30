@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T22:52:32.834Z",
+  "lastUpdated": "2026-06-30T06:02:37.081Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -6644,61 +6644,107 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Coalition releases detailed repeal costings — $23bn impact on housing package over decade",
-      "description": "[UNVERIFIED — could not find corroborating source] The opposition has released detailed costings for its proposed repeal of negative gearing and CGT changes, quantifying a $23 billion impact on the housing package over ten years. This provides voters with clear fiscal comparison between government and opposition housing tax policies.",
-      "suggestion": "Add Coalition repeal costings to opposition-analysis section alongside Treasury's original $6.4bn costing",
-      "source": "https://www.liberals.org.au",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260622-593",
-      "timestamp": "2026-06-22T21:55:35.715Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-22T23:15:25.715Z"
     },
     {
       "type": "content_update",
-      "priority": "medium",
-      "title": "Greens propose 40% additional super tax on balances exceeding $10 million alongside Budget reforms",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Australian Greens have proposed an additional 40% tax on superannuation balances exceeding $10 million, positioned alongside the Government's Division 296 reforms targeting the $3 million threshold. This represents a different approach to addressing superannuation tax concessions.",
-      "suggestion": "Add Greens super tax proposal to super-tax-comparison section as alternative policy position",
-      "source": "https://greens.org.au",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260622-360",
-      "timestamp": "2026-06-22T21:55:35.715Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-22T23:15:49.589Z"
+      "priority": "high",
+      "title": "Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 lodged as separate tax reform legislation",
+      "description": "The Government has separately lodged the Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 with Parliament, distinct from the housing-focused More Housing, More Help Bill. This separate legislation is expected to contain the trust tax treatment reforms flagged by the Government as part of its strategic shift from taxing income to taxing assets.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament as separate piece of legislation from the housing package — expected to contain trust tax treatment reform details",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260630-811",
+      "timestamp": "2026-06-30T06:02:32.881Z",
+      "status": "pending",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
     },
     {
       "type": "debate_page",
       "priority": "medium",
-      "title": "Is the CGT discount being eliminated, replaced with indexation, or preserved with a choice?",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The 50% CGT discount faces different characterizations across sources—some state it is being 'replaced' by indexation, others suggest investors can choose between methods. This fundamental disagreement affects how investors plan for the July 2027 changes.",
-      "suggestion": "Add to debates.json: NAB Budget Analysis states 'CGT discount replaced by cost base indexation,' suggesting no choice. However, other sources (including government fact sheets and Baker McKenzie) indicate taxpayers may have a choice between the discount and indexation method. These descriptions are contradictory.",
-      "source": "https://www.bakermckenzie.com/en/insight/publications/2026/05/australia-budget-bites-cgt-discount-and-negative-gearing",
+      "title": "$2B Infrastructure Initiative Housing Delivery: Official 65,000 Target vs Independent Feasibility Questions",
+      "description": "The government projects its $2 billion infrastructure initiative will enable 65,000 additional homes. However, Grattan Institute modelling questions whether this target is achievable, suggesting independent analysis doubts the feasibility of this projection. This is a factual conflict about expected policy outcomes.",
+      "suggestion": "Add to debates.json: Budget.gov.au and government sources claim the $2B infrastructure initiative will deliver 65,000 additional homes. Grattan Institute independently questions the delivery capacity and feasibility of the 65,000 home target, suggesting significantly fewer homes may result.",
+      "source": "https://www.grattan.edu.au, https://budget.gov.au",
       "implementation_effort": "30_minutes",
-      "id": "suggestion-20260604-741",
-      "timestamp": "2026-06-04T21:23:52.828Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-22T23:16:21.552Z"
+      "id": "suggestion-20260630-911",
+      "timestamp": "2026-06-30T06:02:32.881Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Budget Housing Reforms: When Will Affordability Actually Improve?",
+      "description": "The government presents its housing tax reforms as addressing affordability, but independent analysis provides a significantly different timeline for when any material improvement will occur.",
+      "suggestion": "Add to debates.json: The government and Treasurer describe the budget as addressing housing affordability. Grattan Institute modelling suggests the tax reforms are unlikely to materially improve housing affordability until the 2030s, creating a factual conflict about the timeline of policy impact.",
+      "source": "https://www.grattan.edu.au, https://budget.gov.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260630-566",
+      "timestamp": "2026-06-30T06:02:32.881Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "Multiple sources claim Division 296 imposes a '15% tax on balances' over $3m, but the ATO source states: '15% on the proportion of earnings relating to your TSB that exceeds the LSBT'. This conflates the tax rate on superannuation earnings (not the balance itself). The actual mechanism is earnings-based, not a flat percentage of the total balance. This is a significant mischaracterisation of how the tax works.",
+      "suggestion": "Add to fact-checks.json: 'Division 296 imposes 15% tax on balances exceeding $3m' is partially misleading because the 15% applies to earnings on the amount exceeding $3m, not the entire balance. Verdict: disputed — the tax is on earnings, not on balances.",
+      "source": "https://www.ato.gov.au/tax-professionals/your-tax-and-super-news-updates/tax-and-super-updates/2025-26/your-tax-and-super-news-14-may-2026/better-targeted-super-concessions",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260630-381",
+      "timestamp": "2026-06-30T06:02:32.881Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
     },
     {
       "type": "fact_check",
       "priority": "medium",
-      "title": "Claim: A retired investor on a 16% marginal tax rate 'faces 8% tax on nominal gains' under the current CGT system",
-      "description": "The ASX analysis states that 'a retired investor on a 16% marginal rate selling a long-held equity portfolio currently faces 8% tax on nominal gains, as opposed to 30% on indexed gains.' This creates a dramatic comparison (8% vs 30%) that could be misleading. The 8% figure represents the effective tax rate after the 50% CGT discount (16% × 50% = 8%), but this comparison doesn't account for whether indexation or the 50% discount produces a better outcome for different holding periods and inflation scenarios.",
-      "suggestion": "Add to fact-checks.json: Verify this claim by checking whether the 8% vs 30% comparison accurately represents the change, and whether indexation always produces a higher tax burden than the 50% discount for long-held assets. The claim appears to contrast nominal gains (no indexation) with indexed gains, but may oversimplify the choice between discount and indexation.",
-      "source": "https://www.asx.com.au/au/resources/investing-in-shares/federal-budget.html",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260604-941",
-      "timestamp": "2026-06-04T21:23:52.828Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-22T23:17:34.989Z"
+      "title": "Claim: '$2 billion infrastructure initiative will deliver 65,000 additional homes'",
+      "description": "This specific figure appears consistently across government and media sources. However, multiple sources indicate independent modelling questions this target. Grattan Institute and other independent analysts have raised doubts about whether the $2B infrastructure funding can actually deliver 65,000 additional homes, suggesting the figure may be aspirational rather than evidence-based.",
+      "suggestion": "Add to fact-checks.json: The $2B infrastructure initiative's 65,000 home target is claimed by government sources but disputed by independent analysts who question feasibility. Verdict: partially_true — government projects 65,000 homes but independent analysis questions delivery capacity.",
+      "source": "https://www.budget.gov.au",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260630-612",
+      "timestamp": "2026-06-30T06:02:32.881Z",
+      "status": "pending"
     },
+    {
+      "id": "suggestion-20260630-806",
+      "timestamp": "2026-06-30T06:02:32.881Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "id": "suggestion-20260630-225",
+      "timestamp": "2026-06-30T06:02:32.881Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes"
+    },
+    {
+      "id": "suggestion-20260630-482",
+      "timestamp": "2026-06-30T06:02:32.881Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "medium",
@@ -8000,20 +8046,6 @@
   ],
   "skipped": [
     {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over the past decade",
-      "description": "Multiple sources cite Treasury data stating that 'inflation made up 56 per cent of asset price growth for ASX 200 shares held for 10 years to March 2026.' This is a specific percentage claim attributed to official government sources (Treasury, ASX, ABS) that could be verified for accuracy, methodology, and proper context. The claim uses a specific time period ('10 years to March 2026') and a specific percentage that could be misquoted or taken out of context if used to justify CGT changes.",
-      "suggestion": "Add to fact-checks.json: Verify the specific 56% figure, its calculation methodology (how inflation was measured), and whether this applies uniformly across all asset types or only shares. The claim could be partially true but oversimplified if it doesn't account for different asset classes or holding periods.",
-      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-investment-property-shares/2026-05-13",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260604-266",
-      "timestamp": "2026-06-04T21:23:52.828Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-22T23:16:39.158Z"
-    },
-    {
       "type": "content_update",
       "priority": "medium",
       "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 Receives Royal Assent",
@@ -8619,8 +8651,8 @@
   ],
   "needs_manual_review": [
     {
-      "id": "health-1782194369909-whee",
-      "timestamp": "2026-06-23T05:59:29.909Z",
+      "id": "health-1782799357081-bmvz",
+      "timestamp": "2026-06-30T06:02:37.081Z",
       "status": "needs_manual_review",
       "priority": "high",
       "type": "site_health",

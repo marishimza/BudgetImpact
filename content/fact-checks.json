@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T17:51:23.089Z",
+  "lastUpdated": "2026-06-30T23:05:21.270Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1977,6 +1977,29 @@
       ],
       "date_checked": "2026-06-30",
       "category": "housing"
+    },
+    {
+      "id": "fc-103",
+      "slug": "cgt-47-5-million-allocation",
+      "claim": "Budget allocates $47.5 million for CGT implementation",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The $47.5 million figure appears in official budget documents, but reporting varies on whether it covers CGT only or broader reform scope, and whether it represents total or annual funding.",
+      "detailed_explanation": "The $47.5 million figure for CGT reform implementation does appear in official budget documentation. However, significant discrepancies exist in how this figure is reported. Some sources cite the amount specifically for 'CGT implementation' while others reference it in the context of 'CGT and negative gearing reform implementation.' KPMG Budget Analysis indicates that a detailed breakdown exists showing ATO and Treasury resource allocation, which may differ from simplified media reporting. Additionally, the timeframe requires clarification - it is unclear whether this represents the total allocation across all years or an annual figure repeated over the four-year budget period. The discrepancy between CGT-only and broader reform scope reporting suggests the original figure may encompass more than just capital gains tax changes.",
+      "sources": [
+        {
+          "name": "Australian Government Budget",
+          "url": "https://www.budget.gov.au",
+          "type": "official"
+        },
+        {
+          "name": "KPMG Budget Analysis",
+          "url": "https://home.kpmg/au/budget",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-06-30",
+      "category": "Housing & Tax"
     }
   ]
 }

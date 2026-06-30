@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T21:23:55.438Z",
+  "lastUpdated": "2026-06-30T23:06:52.795Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2072,18 +2072,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Is the 50% CGT discount preserved or eliminated for existing property investors?",
-      "description": "The government budget fact sheet shows an example where Michael 'still receives the 50% CGT discount' for a property purchased before the policy commencement, suggesting grandfathering. However, other sources claim the discount is being 'replaced' by inflation indexation with no choice, creating a factual conflict about whether existing investors retain the discount.",
-      "suggestion": "Add to debates.json: budget.gov.au fact sheet shows Michael still receives 50% CGT discount after policy commencement, while The Guardian and ABC News report the discount is being 'replaced' by inflation indexation.",
-      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf; https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260608-286",
-      "timestamp": "2026-06-08T17:01:57.380Z",
-      "status": "pending"
     },
     {
       "id": "suggestion-20260608-302",
@@ -6766,18 +6754,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Venture capital tax incentives expanded from July 2027 under Budget 2026 measures",
-      "description": "Budget 2026 expands venture capital tax incentives from July 2027, complementing the broader tax reform package. The expansion aims to boost innovation investment alongside housing market reforms.",
-      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expansion confirmed as part of Budget 2026 tax reform package, with measures commencing from July 2027.",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260630-614",
-      "timestamp": "2026-06-30T21:23:50.020Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "$2B Infrastructure Initiative Housing Delivery: Government 65,000 Target vs Independent Feasibility Questions",
@@ -6803,19 +6779,6 @@
     },
     {
       "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: Budget allocates $47.5 million for CGT implementation",
-      "description": "Multiple sources cite $47.5 million for CGT reform implementation, but the wording varies: some say it's for 'CGT implementation' while others specify 'CGT and negative gearing reform implementation.' The timeframe also needs verification - is it $47.5 million total, or per year over four years? KPMG analysis mentions a 'breakdown confirms ATO and Treasury resource allocation' suggesting detailed figures exist that may differ from simplified media reporting.",
-      "suggestion": "Add to fact-checks.json: claim is 'Budget allocates $47.5 million for CGT implementation' is partially_verified as the figure appears in budget documents, but the exact scope (CGT only vs broader reform) and timing details may vary in media reporting.",
-      "source": "https://www.budget.gov.au and KPMG Budget Analysis",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260630-500",
-      "timestamp": "2026-06-30T21:23:50.020Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/news/2026-06-23/greens-cgt-negative-gearing-tax-changes-ndis/106831036"
-    },
-    {
-      "type": "fact_check",
       "priority": "medium",
       "title": "Claim: 'The 50% CGT discount is being replaced by inflation indexation' (implying no choice)",
       "description": "Multiple sources state the 50% CGT discount is being 'replaced' by inflation indexation with 'no choice for taxpayers.' However, the ATO and William Buck sources mention 'transitional rules and new build exemptions.' The actual mechanism may allow for some flexibility or have exceptions that simple 'replacement' language obscures. This claim appears frequently but may oversimplify the reform.",
@@ -6837,30 +6800,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260630-444",
-      "timestamp": "2026-06-30T21:23:50.020Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260630-984",
-      "timestamp": "2026-06-30T21:23:50.020Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -8160,6 +8099,59 @@
       "timestamp": "2026-06-08T17:01:57.380Z",
       "status": "implemented",
       "implemented_at": "2026-06-30T17:51:58.532Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Budget allocates $47.5 million for CGT implementation",
+      "description": "Multiple sources cite $47.5 million for CGT reform implementation, but the wording varies: some say it's for 'CGT implementation' while others specify 'CGT and negative gearing reform implementation.' The timeframe also needs verification - is it $47.5 million total, or per year over four years? KPMG analysis mentions a 'breakdown confirms ATO and Treasury resource allocation' suggesting detailed figures exist that may differ from simplified media reporting.",
+      "suggestion": "Add to fact-checks.json: claim is 'Budget allocates $47.5 million for CGT implementation' is partially_verified as the figure appears in budget documents, but the exact scope (CGT only vs broader reform) and timing details may vary in media reporting.",
+      "source": "https://www.budget.gov.au and KPMG Budget Analysis",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260630-500",
+      "timestamp": "2026-06-30T21:23:50.020Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-06-23/greens-cgt-negative-gearing-tax-changes-ndis/106831036",
+      "implemented_at": "2026-06-30T23:05:21.275Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Venture capital tax incentives expanded from July 2027 under Budget 2026 measures",
+      "description": "Budget 2026 expands venture capital tax incentives from July 2027, complementing the broader tax reform package. The expansion aims to boost innovation investment alongside housing market reforms.",
+      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expansion confirmed as part of Budget 2026 tax reform package, with measures commencing from July 2027.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260630-614",
+      "timestamp": "2026-06-30T21:23:50.020Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-30T23:05:52.690Z"
+    },
+    {
+      "id": "suggestion-20260630-444",
+      "timestamp": "2026-06-30T21:23:50.020Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-30T23:06:19.879Z"
+    },
+    {
+      "id": "suggestion-20260630-984",
+      "timestamp": "2026-06-30T21:23:50.020Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-30T23:06:39.507Z"
     }
   ],
   "skipped": [
@@ -8767,6 +8759,20 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-30T12:07:04.125Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the 50% CGT discount preserved or eliminated for existing property investors?",
+      "description": "The government budget fact sheet shows an example where Michael 'still receives the 50% CGT discount' for a property purchased before the policy commencement, suggesting grandfathering. However, other sources claim the discount is being 'replaced' by inflation indexation with no choice, creating a factual conflict about whether existing investors retain the discount.",
+      "suggestion": "Add to debates.json: budget.gov.au fact sheet shows Michael still receives 50% CGT discount after policy commencement, while The Guardian and ABC News report the discount is being 'replaced' by inflation indexation.",
+      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf; https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260608-286",
+      "timestamp": "2026-06-08T17:01:57.380Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-30T23:06:52.795Z"
     }
   ],
   "needs_manual_review": [

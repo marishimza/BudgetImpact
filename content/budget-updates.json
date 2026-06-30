@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T17:50:14.984Z",
+  "lastUpdated": "2026-06-30T23:06:39.503Z",
   "items": [
     {
       "id": "update-001",
@@ -3069,6 +3069,36 @@
       "title": "Senate Passes Contested Budget Legislation Following Opposition U-Turn - Status Update",
       "summary": "The Senate has passed the contested budget legislation following the opposition's reversal on key amendments. The bill, which faced significant debate over tax measures and spending allocations, now moves to Royal Assent. Government sources confirm the legislation will take effect from 1 July 2026 as originally scheduled.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
+      "priority": "high"
+    },
+    {
+      "id": "update-305",
+      "date": "2026-06-30",
+      "tag": "Budget",
+      "source": "budget.gov.au",
+      "title": "Venture capital tax incentives expanded from July 2027 under Budget 2026 measures",
+      "summary": "Budget 2026 has confirmed the expansion of venture capital tax incentives, with new measures commencing from 1 July 2027. The expansion forms part of the broader tax reform package aimed at boosting innovation investment and supporting the growth of Australian startups and technology companies. These incentives complement other Budget 2026 measures addressing housing market reforms and economic competitiveness.",
+      "url": "https://budget.gov.au/content/04-tax-reform.htm",
+      "priority": "medium"
+    },
+    {
+      "id": "update-306",
+      "date": "2026-06-30",
+      "tag": "Parliament",
+      "source": "ABC News",
+      "title": "Senate passes contested budget legislation following extended debate",
+      "summary": "The Senate has passed the contested budget legislation that was previously flagged for challenge by the opposition. The bill cleared both houses after weeks of negotiations and amendments. Implementation of the new measures will proceed as outlined in the May budget.",
+      "url": "https://www.abc.net.au/news/2026-06-30/senate-passes-budget-legislation",
+      "priority": "high"
+    },
+    {
+      "id": "update-307",
+      "date": "2026-06-30",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Contested Budget Legislation Enters Royal Assent Phase Following Senate Approval",
+      "summary": "The contested budget legislation that previously faced opposition hurdles has now cleared the Senate after the opposition reversal. The bill proceeds to Royal Assent, marking a significant milestone for the 2026-27 Budget implementation. Government sources confirm the legislation is expected to receive formal assent within the coming week.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=rXXXX",
       "priority": "high"
     }
   ]

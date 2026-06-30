@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T18:05:35.716Z",
+  "lastUpdated": "2026-06-30T07:47:59.274Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1923,6 +1923,24 @@
       ],
       "date_checked": "2026-06-29",
       "category": "superannuation"
+    },
+    {
+      "id": "fc-100",
+      "slug": "30-percent-minimum-tax-all-capital-gains-2027",
+      "claim": "30% minimum tax on ALL capital gains from July 2027",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The minimum 30% applies to real capital gains above inflation after cost-base indexation, not to nominal capital gains.",
+      "detailed_explanation": "The 2026-27 Budget introduces reforms replacing the CGT discount with inflation-based cost-base indexation. Under these reforms, capital gains are first adjusted for inflation before calculating tax liability. The minimum 30% tax rate applies to the real gains (gains above inflation), not to the full nominal value of the asset. A taxpayer with genuine economic losses or gains merely matching inflation would not face the 30% minimum on nominal values. Media reports stating 'tax on ALL capital gains' or '30% on all gains' oversimplify the policy — the minimum rate only applies to inflation-adjusted gains.",
+      "sources": [
+        {
+          "name": "Australian Government Budget 2026-27",
+          "url": "https://budget.gov.au/2026-27/tax-reform",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-30",
+      "category": "tax"
     }
   ]
 }

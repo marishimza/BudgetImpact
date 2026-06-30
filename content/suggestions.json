@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T06:02:37.081Z",
+  "lastUpdated": "2026-06-30T07:47:59.277Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -1988,18 +1988,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The budget.gov.au states 'introduce a minimum 30% tax on gains' but the CGT discount is being replaced by inflation indexation. This means gains are first indexed for inflation, then taxed at minimum 30%. A taxpayer with real gains (above inflation) would face 30%+ on those real gains, not on nominal gains. Media claiming 'ALL gains' or 'tax on all capital gains' oversimplifies this—the minimum 30% applies to indexed/growth gains above inflation, not nominal values.",
-      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax on ALL capital gains from July 2027', verdict is partially_true because the minimum 30% applies to real gains above inflation after cost-base indexation, not to nominal capital gains.",
-      "source": "https://budget.gov.au/2026-27/tax-reform",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260607-518",
-      "timestamp": "2026-06-07T21:01:38.211Z",
-      "status": "pending"
     },
     {
       "id": "suggestion-20260607-336",
@@ -6646,19 +6634,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 lodged as separate tax reform legislation",
-      "description": "The Government has separately lodged the Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 with Parliament, distinct from the housing-focused More Housing, More Help Bill. This separate legislation is expected to contain the trust tax treatment reforms flagged by the Government as part of its strategic shift from taxing income to taxing assets.",
-      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament as separate piece of legislation from the housing package — expected to contain trust tax treatment reform details",
-      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260630-811",
-      "timestamp": "2026-06-30T06:02:32.881Z",
-      "status": "pending",
-      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "$2B Infrastructure Initiative Housing Delivery: Official 65,000 Target vs Independent Feasibility Questions",
@@ -6684,19 +6659,6 @@
     },
     {
       "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
-      "description": "Multiple sources claim Division 296 imposes a '15% tax on balances' over $3m, but the ATO source states: '15% on the proportion of earnings relating to your TSB that exceeds the LSBT'. This conflates the tax rate on superannuation earnings (not the balance itself). The actual mechanism is earnings-based, not a flat percentage of the total balance. This is a significant mischaracterisation of how the tax works.",
-      "suggestion": "Add to fact-checks.json: 'Division 296 imposes 15% tax on balances exceeding $3m' is partially misleading because the 15% applies to earnings on the amount exceeding $3m, not the entire balance. Verdict: disputed — the tax is on earnings, not on balances.",
-      "source": "https://www.ato.gov.au/tax-professionals/your-tax-and-super-news-updates/tax-and-super-updates/2025-26/your-tax-and-super-news-14-may-2026/better-targeted-super-concessions",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260630-381",
-      "timestamp": "2026-06-30T06:02:32.881Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
-    },
-    {
-      "type": "fact_check",
       "priority": "medium",
       "title": "Claim: '$2 billion infrastructure initiative will deliver 65,000 additional homes'",
       "description": "This specific figure appears consistently across government and media sources. However, multiple sources indicate independent modelling questions this target. Grattan Institute and other independent analysts have raised doubts about whether the $2B infrastructure funding can actually deliver 65,000 additional homes, suggesting the figure may be aspirational rather than evidence-based.",
@@ -6718,30 +6680,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260630-225",
-      "timestamp": "2026-06-30T06:02:32.881Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260630-482",
-      "timestamp": "2026-06-30T06:02:32.881Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -8042,6 +7980,45 @@
       "timestamp": "2026-06-07T21:01:38.211Z",
       "status": "implemented",
       "implemented_at": "2026-06-29T22:52:32.833Z"
+    },
+    {
+      "id": "suggestion-20260630-225",
+      "timestamp": "2026-06-30T06:02:32.881Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-30T07:47:13.740Z"
+    },
+    {
+      "id": "suggestion-20260630-482",
+      "timestamp": "2026-06-30T06:02:32.881Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-30T07:47:33.027Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The budget.gov.au states 'introduce a minimum 30% tax on gains' but the CGT discount is being replaced by inflation indexation. This means gains are first indexed for inflation, then taxed at minimum 30%. A taxpayer with real gains (above inflation) would face 30%+ on those real gains, not on nominal gains. Media claiming 'ALL gains' or 'tax on all capital gains' oversimplifies this—the minimum 30% applies to indexed/growth gains above inflation, not nominal values.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum tax on ALL capital gains from July 2027', verdict is partially_true because the minimum 30% applies to real gains above inflation after cost-base indexation, not to nominal capital gains.",
+      "source": "https://budget.gov.au/2026-27/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260607-518",
+      "timestamp": "2026-06-07T21:01:38.211Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-30T07:47:59.277Z"
     }
   ],
   "skipped": [
@@ -8647,6 +8624,36 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-29T14:02:04.512Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "Multiple sources claim Division 296 imposes a '15% tax on balances' over $3m, but the ATO source states: '15% on the proportion of earnings relating to your TSB that exceeds the LSBT'. This conflates the tax rate on superannuation earnings (not the balance itself). The actual mechanism is earnings-based, not a flat percentage of the total balance. This is a significant mischaracterisation of how the tax works.",
+      "suggestion": "Add to fact-checks.json: 'Division 296 imposes 15% tax on balances exceeding $3m' is partially misleading because the 15% applies to earnings on the amount exceeding $3m, not the entire balance. Verdict: disputed — the tax is on earnings, not on balances.",
+      "source": "https://www.ato.gov.au/tax-professionals/your-tax-and-super-news-updates/tax-and-super-updates/2025-26/your-tax-and-super-news-14-may-2026/better-targeted-super-concessions",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260630-381",
+      "timestamp": "2026-06-30T06:02:32.881Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-30T07:46:32.536Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 lodged as separate tax reform legislation",
+      "description": "The Government has separately lodged the Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 with Parliament, distinct from the housing-focused More Housing, More Help Bill. This separate legislation is expected to contain the trust tax treatment reforms flagged by the Government as part of its strategic shift from taxing income to taxing assets.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament as separate piece of legislation from the housing package — expected to contain trust tax treatment reform details",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260630-811",
+      "timestamp": "2026-06-30T06:02:32.881Z",
+      "status": "skipped",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-30T07:46:43.514Z"
     }
   ],
   "needs_manual_review": [

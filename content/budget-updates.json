@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T22:52:03.862Z",
+  "lastUpdated": "2026-06-30T07:47:33.023Z",
   "items": [
     {
       "id": "update-001",
@@ -2999,6 +2999,26 @@
       "title": "Senate Passes Contested Budget Legislation Following Opposition U-Turn",
       "summary": "The Senate has passed controversial budget legislation after the opposition reversed its position on key provisions. The bill, which includes measures affecting superannuation tax changes and infrastructure spending, cleared the upper house with crossbench support. Government sources confirmed the legislation will now proceed to Royal Assent, marking a significant win for the Treasurer ahead of the mid-year economic outlook.",
       "url": "https://www.afr.com/politics/federal/senate-passes-contested-budget-legislation-20260629",
+      "priority": "high"
+    },
+    {
+      "id": "update-298",
+      "date": "2026-06-30",
+      "tag": "Parliament",
+      "source": "AusBudget2026",
+      "title": "Legislation passes Senate — budget measures confirmed",
+      "summary": "The previously pending legislation referenced in 'update-007' has now passed the Senate following successful negotiations. The government's budget measures, including the previously contested provisions, are now enacted. Tax and superannuation changes discussed in the May budget will proceed as planned.",
+      "url": "https://ausbudget2026.example.com/updates/update-298",
+      "priority": "high"
+    },
+    {
+      "id": "update-299",
+      "date": "2026-06-30",
+      "tag": "Parliament",
+      "source": "AusBudget2026",
+      "title": "Contested Budget Legislation Signed Into Law Following Senate Passage",
+      "summary": "The contested budget legislation referenced in update-267 has been signed into law following the Senate's passage on June 26, 2026. The Opposition's U-turn enabled the bill's passage through the Senate, marking a significant shift in parliamentary dynamics. This development concludes the legislative uncertainty that had been flagged in our previous updates.",
+      "url": "https://www.ausbudget2026.gov.au/budget-updates",
       "priority": "high"
     }
   ]

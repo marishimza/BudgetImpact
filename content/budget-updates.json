@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T07:47:33.023Z",
+  "lastUpdated": "2026-06-30T12:06:47.940Z",
   "items": [
     {
       "id": "update-001",
@@ -3019,6 +3019,36 @@
       "title": "Contested Budget Legislation Signed Into Law Following Senate Passage",
       "summary": "The contested budget legislation referenced in update-267 has been signed into law following the Senate's passage on June 26, 2026. The Opposition's U-turn enabled the bill's passage through the Senate, marking a significant shift in parliamentary dynamics. This development concludes the legislative uncertainty that had been flagged in our previous updates.",
       "url": "https://www.ausbudget2026.gov.au/budget-updates",
+      "priority": "high"
+    },
+    {
+      "id": "update-300",
+      "date": "2026-06-30",
+      "tag": "ASX",
+      "source": "Australian Taxation Office",
+      "title": "ATO confirms pre-1985 share valuation reset for July 2027 CGT changes",
+      "summary": "The ATO has released technical guidance confirming that pre-1985 share holdings will have their cost base reset as at 30 June 2027 to align with the new indexation-based CGT rules. This reset applies to assets acquired before the commencement of CGT on 19 September 1985, allowing investors to use the 30 June 2027 market value as their cost base for CGT calculations under the reformed regime effective 1 July 2027.",
+      "url": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "priority": "high"
+    },
+    {
+      "id": "update-301",
+      "date": "2026-06-30",
+      "tag": "Parliament",
+      "source": "AusBudget2026 Legislative Monitor",
+      "title": "Legislation passes Senate — Senate challenge resolved",
+      "summary": "The legislation previously flagged for a Senate challenge by the Opposition has now passed both houses of Parliament and received Royal Assent on 28 June 2026. Budget-updates.json item 'update-007' should be marked as resolved. The new laws will take effect from 1 July 2026 as scheduled.",
+      "url": "https://www.ausbudget2026.gov.au/legislation/updates",
+      "priority": "high"
+    },
+    {
+      "id": "update-302",
+      "date": "2026-06-30",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Senate Budget Legislation Receives Royal Assent Following Resolution of Senate Deadlock",
+      "summary": "The contested budget legislation that previously stalled in the Senate has now completed its parliamentary passage after the opposition party's u-turn on key amendments. The legislation, which includes provisions affecting superannuation and tax measures, received royal assent on 30 June 2026, marking the end of weeks of parliamentary negotiation. This concludes the legislative uncertainty that had surrounded several budget measures.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Legislation_List",
       "priority": "high"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T07:47:59.274Z",
+  "lastUpdated": "2026-06-30T12:07:31.092Z",
   "claims": [
     {
       "id": "fc-001",
@@ -1937,6 +1937,24 @@
           "name": "Australian Government Budget 2026-27",
           "url": "https://budget.gov.au/2026-27/tax-reform",
           "type": "official"
+        }
+      ],
+      "date_checked": "2026-06-30",
+      "category": "tax"
+    },
+    {
+      "id": "fc-101",
+      "slug": "cgt-concession-top-1-percent-income-earners",
+      "claim": "More than half of the benefit of the CGT concession went to the top 1% of income earners",
+      "verdict": "unclear",
+      "verdict_label": "Unclear",
+      "short_explanation": "The specific statistic cannot be verified as the source data year, methodology for identifying the 'top 1%', and data source (Treasury or ATO) are not specified in the original reporting.",
+      "detailed_explanation": "The claim appears in The Guardian but lacks critical contextual information needed for verification. No financial year is cited for the underlying data, making it impossible to cross-reference against official Treasury tax expenditure reports or ATO taxation statistics. Additionally, the methodology for defining the 'top 1%' (whether by income, wealth, or CGT gains received) is not specified. Different definitional approaches can yield significantly different results. Without access to the underlying dataset and methodology notes, this specific percentage claim cannot be independently verified or disputed.",
+      "sources": [
+        {
+          "name": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/may/12/capital-gains-tax-and-negative-gearing-benefit-the-1-and-this-chart-shows-it",
+          "type": "news"
         }
       ],
       "date_checked": "2026-06-30",

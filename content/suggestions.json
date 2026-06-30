@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T10:49:44.366Z",
+  "lastUpdated": "2026-06-30T12:07:31.096Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2000,30 +2000,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will industry warnings about reduced rental supply materialize despite government housing initiatives?",
-      "description": "The Real Estate Institute of Australia and Property Council of Australia warn that reducing the attractiveness of residential property investment could reduce rental supply over time. However, REIA President Jacob Caine also acknowledges government measures supporting new housing supply as 'positive and necessary.' This creates a factual conflict about whether the net effect of the budget's housing policies will increase or decrease rental supply.",
-      "suggestion": "Add to debates.json: Industry bodies (REIA/Property Council via slateandsage.com.au) warn that reducing property investment attractiveness could reduce rental supply over time. Government-aligned sources (REIA President via apimagazine.com.au) frame the $2B infrastructure initiative as positive steps toward addressing housing shortage. These represent conflicting factual claims about the net effect of housing policies on rental supply.",
-      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260608-729",
-      "timestamp": "2026-06-08T06:29:03.194Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'More than half of the benefit of the CGT concession went to the top 1% of income earners'",
-      "description": "This specific statistical claim appears in The Guardian but needs verification against official Treasury data or ATO statistics. The claim is often cited in debates about CGT reform fairness, but the source data (which financial year?) and methodology for identifying the 'top 1%' need examination.",
-      "suggestion": "Add to fact-checks.json: claim is a specific statistic that requires verification against Treasury/ATO data. Verdict is unclear because source data year and methodology are not specified in the article.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/12/capital-gains-tax-and-negative-gearing-benefit-the-1-and-this-chart-shows-it",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260608-119",
-      "timestamp": "2026-06-08T06:29:03.194Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -6706,19 +6682,6 @@
       "status": "pending"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO confirms pre-1985 share valuation reset for July 2027 CGT changes",
-      "description": "Technical guidance confirming pre-1985 share holdings will have their cost base reset as at 30 June 2027 to align with new indexation-based CGT rules.",
-      "suggestion": "Add to budget-updates.json: ATO releases technical guidance on pre-1985 share valuation reset mechanism — cost base reset to 30 June 2027 confirmed for assets acquired before CGT commencement.",
-      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260630-173",
-      "timestamp": "2026-06-30T10:49:30.807Z",
-      "status": "pending",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "$2B infrastructure initiative housing delivery: 65,000 official target vs independent feasibility questions",
@@ -6777,30 +6740,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260630-484",
-      "timestamp": "2026-06-30T10:49:30.807Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260630-174",
-      "timestamp": "2026-06-30T10:49:30.807Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -8101,6 +8040,59 @@
       "timestamp": "2026-06-07T21:01:38.211Z",
       "status": "implemented",
       "implemented_at": "2026-06-30T07:47:59.277Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO confirms pre-1985 share valuation reset for July 2027 CGT changes",
+      "description": "Technical guidance confirming pre-1985 share holdings will have their cost base reset as at 30 June 2027 to align with new indexation-based CGT rules.",
+      "suggestion": "Add to budget-updates.json: ATO releases technical guidance on pre-1985 share valuation reset mechanism — cost base reset to 30 June 2027 confirmed for assets acquired before CGT commencement.",
+      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260630-173",
+      "timestamp": "2026-06-30T10:49:30.807Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implemented_at": "2026-06-30T12:05:47.589Z"
+    },
+    {
+      "id": "suggestion-20260630-484",
+      "timestamp": "2026-06-30T10:49:30.807Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-30T12:06:14.280Z"
+    },
+    {
+      "id": "suggestion-20260630-174",
+      "timestamp": "2026-06-30T10:49:30.807Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-30T12:06:47.945Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'More than half of the benefit of the CGT concession went to the top 1% of income earners'",
+      "description": "This specific statistical claim appears in The Guardian but needs verification against official Treasury data or ATO statistics. The claim is often cited in debates about CGT reform fairness, but the source data (which financial year?) and methodology for identifying the 'top 1%' need examination.",
+      "suggestion": "Add to fact-checks.json: claim is a specific statistic that requires verification against Treasury/ATO data. Verdict is unclear because source data year and methodology are not specified in the article.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/12/capital-gains-tax-and-negative-gearing-benefit-the-1-and-this-chart-shows-it",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260608-119",
+      "timestamp": "2026-06-08T06:29:03.194Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-30T12:07:31.095Z"
     }
   ],
   "skipped": [
@@ -8708,6 +8700,20 @@
       "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-30T07:46:43.514Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will industry warnings about reduced rental supply materialize despite government housing initiatives?",
+      "description": "The Real Estate Institute of Australia and Property Council of Australia warn that reducing the attractiveness of residential property investment could reduce rental supply over time. However, REIA President Jacob Caine also acknowledges government measures supporting new housing supply as 'positive and necessary.' This creates a factual conflict about whether the net effect of the budget's housing policies will increase or decrease rental supply.",
+      "suggestion": "Add to debates.json: Industry bodies (REIA/Property Council via slateandsage.com.au) warn that reducing property investment attractiveness could reduce rental supply over time. Government-aligned sources (REIA President via apimagazine.com.au) frame the $2B infrastructure initiative as positive steps toward addressing housing shortage. These represent conflicting factual claims about the net effect of housing policies on rental supply.",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260608-729",
+      "timestamp": "2026-06-08T06:29:03.194Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-30T12:07:04.125Z"
     }
   ],
   "needs_manual_review": [

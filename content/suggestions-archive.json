@@ -8407,6 +8407,73 @@
       "description": "HTTP 404",
       "suggestion": "Investigate https://marishimza.github.io/BudgetImpact/$%7Bitem.url%20||%20'#'} — page failed health check. Check deployment and content files.",
       "source": "https://marishimza.github.io/BudgetImpact/$%7Bitem.url%20||%20'#'}"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Grattan Institute: Budget tax reforms unlikely to materially improve housing affordability until 2030s",
+      "description": "Independent modelling from the Grattan Institute suggests the negative gearing and CGT changes, while architecturally significant, will take a decade before meaningfully affecting housing affordability outcomes.",
+      "suggestion": "Add to budget-updates.json: Grattan Institute modelling: Budget tax reforms unlikely to materially improve housing affordability until 2030s",
+      "source": "https://grattan.edu.au/report/housing-affordability-2026-budget-analysis/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260623-535",
+      "timestamp": "2026-06-23T05:59:22.493Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-23T07:43:30.460Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is negative gearing the key driver of Australia's housing crisis?",
+      "description": "The Law Society Journal cites economists claiming negative gearing is 'the key reason' for Australia's housing and rental crisis. However, the Real Estate Institute of Australia (REIA) takes a more nuanced supply-side approach, praising measures that support new housing supply without endorsing the 'key driver' framing. This represents a factual disagreement about causation vs. symptom.",
+      "suggestion": "Add to debates.json: Law Society Journal (citing economists) claims negative gearing is 'the key reason for the housing affordability and rental crisis'. REIA President Jacob Caine focuses on supply-side measures without endorsing negative gearing as the primary cause, calling the budget measures 'positive and necessary steps toward addressing Australia's housing shortage'.",
+      "source": "https://lsj.com.au/articles/federal-budget-2026-limits-to-negative-gearing-and-capital-gains-tax-reform/; https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260605-527",
+      "timestamp": "2026-06-05T06:13:51.267Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-23T07:44:12.012Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "Multiple sources claim capital gains face a flat 'minimum 30% on ALL gains' from July 2027. However, the ASX analysis (budget.gov.au supported) shows a retired investor on 16% marginal rate currently faces 8% tax on nominal gains versus 30% on *indexed* gains under the new system. This suggests the 30% floor applies to indexed/taxable gains, not total gains. The actual operation involves: (1) cost base indexed to inflation, (2) then gains above inflation taxed at minimum 30%. For investors in lower tax brackets or where indexation significantly reduces gains, the effective rate may differ substantially from 30%. The phrase 'on ALL gains' could overstate the floor's application.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% applies to gains above inflation after indexation', verdict is partially_true because the 30% floor applies to taxable (indexed) gains, not necessarily total nominal gains, and effective rates vary by investor circumstances.",
+      "source": "https://www.asx.com.au/content/dam/asx/investors/ASX%20Budget%202026-27.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260605-750",
+      "timestamp": "2026-06-05T06:13:51.267Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-23T07:44:45.825Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 Receives Royal Assent",
+      "description": "[UNVERIFIED — could not find corroborating source] [SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The enabling legislation for negative gearing and CGT reforms has been enacted, having passed both houses of Parliament and received formal assent from the Governor-General.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally received Royal Assent — legislation now enacted into law",
+      "source": "https://www.legislation.gov.au/Details/C2026B00005",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260623-831",
+      "timestamp": "2026-06-23T05:59:22.493Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-23T07:42:43.137Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Coalition releases detailed repeal costings — $23bn impact on housing package over decade",
+      "description": "The opposition has released detailed costings showing their proposed repeal of negative gearing and CGT changes would have a $23 billion fiscal impact over ten years, affecting the budget's housing supply assumptions.",
+      "suggestion": "Add to budget-updates.json: Coalition releases detailed repeal costings — $23bn impact on housing package over decade",
+      "source": "https://www.liberal.org.au/wp-content/uploads/2026/05/Coalition-Tax-Repeal-Costings-May-2026.pdf",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260623-943",
+      "timestamp": "2026-06-23T05:59:22.493Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-23T07:42:56.802Z"
     }
   ]
 }

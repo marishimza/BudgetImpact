@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T17:51:19.052Z",
+  "lastUpdated": "2026-07-01T21:18:19.762Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -6932,49 +6932,130 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
+    },
     {
       "type": "content_update",
       "priority": "high",
-      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 Receives Royal Assent",
-      "description": "The housing reform legislation containing negative gearing and CGT changes has been enacted into law following Senate passage and Royal Assent, confirming the reforms are now locked in regardless of future political opposition.",
-      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 Receives Royal Assent — Legislation Now Enacted",
-      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search/Results?Word_Search=More+Housing+More+Help+Bill+2026",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260624-831",
-      "timestamp": "2026-06-24T16:09:47.906Z",
-      "status": "implemented",
-      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
-      "implemented_at": "2026-06-24T17:49:25.585Z"
+      "title": "$1,000 Instant Tax Deduction for Work-Related Expenses Confirmed",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Budget confirms a new $1,000 instant tax deduction for work-related expenses, providing simplified tax relief for workers claiming common deductions.",
+      "suggestion": "Add to budget-updates.json: Federal Budget introduces $1,000 Instant Tax Deduction for Work-Related Expenses",
+      "source": "https://budget.gov.au/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260701-442",
+      "timestamp": "2026-07-01T21:18:13.915Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/standard-deduction-for-work-related-expenses"
     },
     {
-      "id": "suggestion-20260624-494",
-      "timestamp": "2026-06-24T16:09:47.906Z",
-      "status": "implemented",
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasurer Describes Budget as 'Most Important and Ambitious in Decades'",
+      "description": "In the official Budget speech delivered at Parliament House on 12 May 2026, Treasurer Jim Chalmers characterised the Budget as the most important and ambitious in decades, citing global economic challenges.",
+      "suggestion": "Add to budget-updates.json: Treasurer describes Budget 2026-27 as 'most important and ambitious in decades'",
+      "source": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/2026-27-budget-speech-parliament-house-canberra",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260701-745",
+      "timestamp": "2026-07-01T21:18:13.915Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Cross-Party Endorsement: Coalition and Greens Aligned on CGT Committee Support",
+      "description": "Parliamentary record confirms cross-party support for CGT discount changes, with Coalition and Greens aligned on committee endorsement. Coalition's opposition shifted to support following negotiations.",
+      "suggestion": "Add to budget-updates.json: Cross-party support confirmed — Coalition and Greens aligned on parliamentary committee endorsement of CGT discount changes",
+      "source": "https://www.aph.gov.au/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260701-379",
+      "timestamp": "2026-07-01T21:18:13.915Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "$2B infrastructure initiative housing delivery: official target vs independent feasibility",
+      "description": "The government projects the $2B infrastructure initiative will deliver 65,000 additional homes. However, Grattan Institute modelling questions whether this target is achievable, suggesting the infrastructure funding may not translate into the claimed housing outcomes. This represents a factual conflict about policy effectiveness between government projections and independent economic analysis.",
+      "suggestion": "Add to debates.json: Government sources (budget.gov.au, Treasurer) claim the $2B infrastructure initiative will deliver 65,000 additional homes. Grattan Institute and independent analysts question the feasibility of this target, suggesting significantly fewer homes may result from the initiative.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm, https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260701-311",
+      "timestamp": "2026-07-01T21:18:13.915Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Short-term housing price impact: major bank forecasts vs industry warnings",
+      "description": "NAB revised its housing forecast following the Budget, projecting a brief correction rather than a prolonged slump. However, other industry sources and analysts have warned of a more significant and prolonged market downturn. This represents a factual conflict in short-term market projections between major financial institutions.",
+      "suggestion": "Add to debates.json: NAB revised forecast projects a brief correction not a prolonged slump following Budget tax reforms. However, CBA analysis and industry sources warn of a prolonged slump or more significant downturn, creating conflicting short-term property price impact projections.",
+      "source": "https://www.commbank.com.au/articles/newsroom/2026/05/2026-budget-updated-housing-outlook.html, https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260701-482",
+      "timestamp": "2026-07-01T21:18:13.916Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: '$2 billion infrastructure initiative will deliver 65,000 additional homes'",
+      "description": "Multiple sources cite this specific housing target as a government promise, but independent analysis (Grattan Institute) questions whether this target is achievable. The claim treats a government projection as a guaranteed outcome when actual delivery may differ significantly based on infrastructure delivery capacity, planning approval timelines, and other factors.",
+      "suggestion": "Add to fact-checks.json: claim is a government projection/target, verdict is disputed because independent analysis questions feasibility and suggests lower delivery numbers.",
+      "source": "https://www.budget.gov.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260701-781",
+      "timestamp": "2026-07-01T21:18:13.916Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 imposes 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "The ATO states the tax applies to 'the proportion of earnings relating to your TSB that exceeds the LSBT' - this is NOT a flat 15% on the entire balance over $3m. The tax is on the earnings (not the balance itself) attributable to amounts above the threshold. This is a significant technical distinction commonly misrepresented in media coverage.",
+      "suggestion": "Add to fact-checks.json: claim is technically inaccurate, verdict is disputed because Division 296 taxes earnings attributable to amounts above $3m, not a flat 15% on the entire balance over the threshold.",
+      "source": "https://www.ato.gov.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260701-588",
+      "timestamp": "2026-07-01T21:18:13.916Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260701-518",
+      "timestamp": "2026-07-01T21:18:13.916Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "id": "suggestion-20260701-131",
+      "timestamp": "2026-07-01T21:18:13.916Z",
+      "status": "pending",
       "priority": "medium",
       "type": "content_update",
       "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
       "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
       "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
       "source": "",
-      "implementation_effort": "15_minutes",
-      "implemented_at": "2026-06-24T17:50:14.769Z"
+      "implementation_effort": "15_minutes"
     },
     {
-      "type": "debate_page",
+      "id": "suggestion-20260701-836",
+      "timestamp": "2026-07-01T21:18:13.916Z",
+      "status": "pending",
       "priority": "medium",
-      "title": "Budget housing measures cost: $6.4 billion vs implementation costs of $47.5 million",
-      "description": "ABC Analysis states budget housing measures cost $6.4 billion over four years, while Budget documents allocate $47.5 million for CGT implementation. These appear to be different cost categories (total package vs administrative costs), but sources don't clearly distinguish them, creating confusion about the actual fiscal impact and scale of the reforms.",
-      "suggestion": "Add to debates.json: ABC Analysis quantifies housing package at $6.4 billion over four years. Budget documents show $47.5 million allocated for Treasury/ATO CGT implementation. Clarification needed on whether these are separate cost categories or conflicting figures.",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260605-119",
-      "timestamp": "2026-06-05T16:26:09.889Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-24T17:50:44.630Z"
-    },
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes"
+    }
+  ],
+  "implemented": [
     {
       "id": "suggestion-20260624-452",
       "timestamp": "2026-06-24T21:17:36.793Z",
@@ -8283,35 +8364,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Coalition releases detailed repeal costings: $23 billion impact on housing package over decade",
-      "description": "The Opposition has released detailed costings showing repealing the housing tax reform package would cost $23 billion in lost revenue over ten years, providing context for the political debate around the reforms.",
-      "suggestion": "Add to budget-updates.json: Coalition releases detailed repeal costings — $23bn impact on housing package over decade",
-      "source": "https://www.abc.net.au/news/2026-05-15/coalition-repeal-costings-housing-reform-23bn/10186584",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260624-145",
-      "timestamp": "2026-06-24T16:09:47.906Z",
-      "status": "skipped",
-      "corroborated_by": "https://www.abc.net.au/news/2026-05-15/coalition-to-repeal-labor-property-tax-changes/106681866",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-24T17:49:38.217Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Grattan Institute: Budget tax reforms unlikely to materially improve housing affordability until 2030s",
-      "description": "Independent modelling from the Grattan Institute suggests the negative gearing and CGT changes, while structurally important, are unlikely to significantly improve housing affordability until the 2030s, raising questions about the timeline for measuring the reforms' success.",
-      "suggestion": "Add to budget-updates.json: Grattan Institute: Budget tax reforms unlikely to materially improve housing affordability until 2030s",
-      "source": "https://grattan.edu.au/news/budget-2026-housing-reform-timeline/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260624-429",
-      "timestamp": "2026-06-24T16:09:47.906Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-24T17:49:49.732Z"
-    },
     {
       "type": "content_update",
       "priority": "high",

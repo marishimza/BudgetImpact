@@ -8808,6 +8808,75 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-24T12:15:55.017Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 Receives Royal Assent",
+      "description": "The housing reform legislation containing negative gearing and CGT changes has been enacted into law following Senate passage and Royal Assent, confirming the reforms are now locked in regardless of future political opposition.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 Receives Royal Assent — Legislation Now Enacted",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search/Results?Word_Search=More+Housing+More+Help+Bill+2026",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260624-831",
+      "timestamp": "2026-06-24T16:09:47.906Z",
+      "status": "implemented",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
+      "implemented_at": "2026-06-24T17:49:25.585Z"
+    },
+    {
+      "id": "suggestion-20260624-494",
+      "timestamp": "2026-06-24T16:09:47.906Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-24T17:50:14.769Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Budget housing measures cost: $6.4 billion vs implementation costs of $47.5 million",
+      "description": "ABC Analysis states budget housing measures cost $6.4 billion over four years, while Budget documents allocate $47.5 million for CGT implementation. These appear to be different cost categories (total package vs administrative costs), but sources don't clearly distinguish them, creating confusion about the actual fiscal impact and scale of the reforms.",
+      "suggestion": "Add to debates.json: ABC Analysis quantifies housing package at $6.4 billion over four years. Budget documents show $47.5 million allocated for Treasury/ATO CGT implementation. Clarification needed on whether these are separate cost categories or conflicting figures.",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260605-119",
+      "timestamp": "2026-06-05T16:26:09.889Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-24T17:50:44.630Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Coalition releases detailed repeal costings: $23 billion impact on housing package over decade",
+      "description": "The Opposition has released detailed costings showing repealing the housing tax reform package would cost $23 billion in lost revenue over ten years, providing context for the political debate around the reforms.",
+      "suggestion": "Add to budget-updates.json: Coalition releases detailed repeal costings — $23bn impact on housing package over decade",
+      "source": "https://www.abc.net.au/news/2026-05-15/coalition-repeal-costings-housing-reform-23bn/10186584",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260624-145",
+      "timestamp": "2026-06-24T16:09:47.906Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.abc.net.au/news/2026-05-15/coalition-to-repeal-labor-property-tax-changes/106681866",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-24T17:49:38.217Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Grattan Institute: Budget tax reforms unlikely to materially improve housing affordability until 2030s",
+      "description": "Independent modelling from the Grattan Institute suggests the negative gearing and CGT changes, while structurally important, are unlikely to significantly improve housing affordability until the 2030s, raising questions about the timeline for measuring the reforms' success.",
+      "suggestion": "Add to budget-updates.json: Grattan Institute: Budget tax reforms unlikely to materially improve housing affordability until 2030s",
+      "source": "https://grattan.edu.au/news/budget-2026-housing-reform-timeline/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260624-429",
+      "timestamp": "2026-06-24T16:09:47.906Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-24T17:49:49.732Z"
     }
   ]
 }

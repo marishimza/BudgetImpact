@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T23:06:52.795Z",
+  "lastUpdated": "2026-07-01T06:18:27.067Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -6800,77 +6800,93 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
+    },
     {
       "type": "debate_page",
-      "priority": "high",
-      "title": "CGT discount replacement: inflation indexation vs cost base indexation",
-      "description": "Credible sources conflict on the technical mechanism replacing the 50% CGT discount. NAB and Perpetual describe 'cost base indexation' (similar to 1985-1999 rules), while other sources reference 'inflation indexation'. This is a factual dispute about the actual tax calculation method, not just terminology, with significant implications for investor outcomes.",
-      "suggestion": "Add to debates.json: NAB Budget Analysis and Perpetual say the 50% CGT discount is being replaced by 'cost base indexation' (similar to 1985-1999 approach), while other credible sources describe 'inflation indexation' as the replacement mechanism.",
-      "source": "https://www.nab.com.au/content/dam/nabrws/Products-and-services/Personal-finance/Property/budget-2026-analysis.pdf, https://www.perpetual.com.au/insights/budget-2026",
+      "priority": "medium",
+      "title": "$2B infrastructure initiative housing delivery: Government 65,000 target vs independent feasibility questions",
+      "description": "The government projects $2 billion in infrastructure funding will enable 65,000 additional homes. However, independent analysts (Grattan Institute, infrastructure experts) question whether this target is achievable, with some suggesting significantly fewer homes can be delivered. This is a factual conflict about housing supply projections.",
+      "suggestion": "Add to debates.json: Government sources claim $2B infrastructure initiative will deliver 65,000 additional homes, while Grattan Institute and independent infrastructure analysts question the feasibility of this target, suggesting the actual delivery could be significantly lower.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades; https://en.wikipedia.org/wiki/2026_Australian_federal_budget",
       "implementation_effort": "30_minutes",
-      "id": "suggestion-20260623-184",
-      "timestamp": "2026-06-23T21:24:29.360Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base",
-      "implemented_at": "2026-06-23T23:03:36.730Z"
+      "id": "suggestion-20260701-890",
+      "timestamp": "2026-07-01T06:18:21.930Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Short-term housing price impact: NAB brief correction forecast vs industry prolonged slump warnings",
+      "description": "Major bank economists (NAB, CBA) forecast a brief correction in property prices following tax reforms. However, some industry groups and independent analysts warn of a more prolonged housing market slump. This represents conflicting factual predictions about market outcomes.",
+      "suggestion": "Add to debates.json: NAB and CBA forecasts project a brief correction rather than prolonged slump following negative gearing and CGT changes, while some industry analysts warn of more severe and sustained property market decline.",
+      "source": "https://williambuck.com/tools/federal-budget-2026/negative-gearing/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260701-891",
+      "timestamp": "2026-07-01T06:18:21.930Z",
+      "status": "pending"
     },
     {
       "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: Division 296 imposes 15% tax on all super balances exceeding $3 million",
-      "description": "This claim conflates the tax base. According to the ATO (ato.gov.au), Division 296 tax is 15% on 'the proportion of earnings relating to your TSB that exceeds the $3m threshold' — not on the balance itself. Media coverage often simplifies this to '15% on balances over $3m', which overstates the tax impact since only earnings (not principal) above the threshold are taxed.",
-      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because Division 296 applies 15% only to the earnings attributable to the portion of balance exceeding $3m, not the entire balance.",
-      "source": "https://ato.gov.au/Better-Targeted-Super-Concessions-is-law",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim appears extensively in fact-checks, but sources indicate Division 296 has a tiered rate structure. Hudson Financial Planning states: 'Above $10 million, the rate rises to 40%'. The Pitcher Partners source notes 'effective rate to 30%' on balances above $3m (implying 15% additional on top of the existing 15% contribution/earnings tax). Describing it as a flat 15% on ALL balances over $3m oversimplifies the progressive rate structure.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is partially_true because Division 296 imposes a 15% additional tax on the portion of earnings related to balances exceeding $3m, taking the effective rate to 30% for those balances (15+15). For balances above $10m, rates rise to 40% on that portion. It is not a flat 15% on the entire balance.",
+      "source": "https://hudsonfinancialplanning.com.au/should-i-set-up-an-smsf-after-the-2026-federal-budget",
       "implementation_effort": "30_minutes",
-      "id": "suggestion-20260623-193",
-      "timestamp": "2026-06-23T21:24:29.360Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implemented_at": "2026-06-23T23:04:01.070Z"
+      "id": "suggestion-20260701-131",
+      "timestamp": "2026-07-01T06:18:21.930Z",
+      "status": "pending"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 Receives Royal Assent — Legislation Now Enacted",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Treasury Laws Amendment (More Housing, More Help) Bill 2026, containing the negative gearing and CGT reforms, has passed both houses and received Royal Assent. The legislation implements the government's housing tax reform package including the replacement of the 50% CGT discount with inflation indexation and a 30% minimum tax, along with negative gearing restrictions on established properties.",
-      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 Receives Royal Assent — Legislation Now Enacted",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260623-414",
-      "timestamp": "2026-06-23T21:24:29.360Z",
-      "status": "implemented",
-      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
-      "implemented_at": "2026-06-23T23:04:22.808Z"
-    },
-    {
-      "type": "content_update",
+      "type": "fact_check",
       "priority": "medium",
-      "title": "Coalition Releases Detailed Repeal Costings: $23 Billion Impact on Housing Package Over Decade",
-      "description": "The Opposition has released detailed costings showing that repealing the housing tax reform package would cost $23 billion in revenue over a decade. The costings detail the impact on negative gearing and CGT changes, including implications for grandfathered arrangements for existing property investors.",
-      "suggestion": "Add to budget-updates.json: Coalition releases detailed repeal costings: $23 billion impact on housing package over decade",
-      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/bd/bd2526",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260623-832",
-      "timestamp": "2026-06-23T21:24:29.360Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-23T23:05:52.292Z"
+      "title": "Claim: 'Budget housing measures cost $6.4 billion over four years'",
+      "description": "The Coalition repeal costings claim $23 billion impact over a decade. The government figure of $6.4bn is over four years while the Coalition's $23bn is over ten years. These are measuring different things (government spending vs fiscal impact of repeal), making direct comparison misleading. However, the $6.4bn figure may also exclude some indirect costs or ongoing commitments.",
+      "suggestion": "Add to fact-checks.json: claim is 'housing measures cost $6.4bn', verdict is verified_as_stated but clarification_needed because $6.4bn is the government's housing package over four years. The Coalition's $23bn over a decade is a different metric measuring the fiscal impact of repealing the reforms, not the cost of the original package.",
+      "source": "https://www.budget.gov.au",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260701-457",
+      "timestamp": "2026-07-01T06:18:21.930Z",
+      "status": "pending"
     },
     {
-      "type": "content_update",
+      "id": "suggestion-20260701-975",
+      "timestamp": "2026-07-01T06:18:21.930Z",
+      "status": "pending",
       "priority": "medium",
-      "title": "Venture Capital Tax Incentives Expanded from July 2027 Under Budget 2026 Measures",
-      "description": "The 2026 Budget confirms expansion of venture capital tax incentives from July 2027 as part of broader tax reform measures. The expansion is designed to support innovation and startup investment alongside changes to negative gearing and CGT arrangements.",
-      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expanded from July 2027 as part of Budget 2026 measures",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260623-172",
-      "timestamp": "2026-06-23T21:24:29.360Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-23T23:06:24.006Z"
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
     },
+    {
+      "id": "suggestion-20260701-152",
+      "timestamp": "2026-07-01T06:18:21.930Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes"
+    },
+    {
+      "id": "suggestion-20260701-568",
+      "timestamp": "2026-07-01T06:18:21.930Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes"
+    }
+  ],
+  "implemented": [
     {
       "id": "suggestion-20260623-166",
       "timestamp": "2026-06-23T21:24:29.360Z",

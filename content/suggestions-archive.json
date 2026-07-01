@@ -8607,6 +8607,74 @@
       "timestamp": "2026-06-05T11:18:33.321Z",
       "status": "implemented",
       "implemented_at": "2026-06-23T17:49:48.164Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "CGT discount replacement: inflation indexation vs cost base indexation",
+      "description": "Credible sources conflict on the technical mechanism replacing the 50% CGT discount. NAB and Perpetual describe 'cost base indexation' (similar to 1985-1999 rules), while other sources reference 'inflation indexation'. This is a factual dispute about the actual tax calculation method, not just terminology, with significant implications for investor outcomes.",
+      "suggestion": "Add to debates.json: NAB Budget Analysis and Perpetual say the 50% CGT discount is being replaced by 'cost base indexation' (similar to 1985-1999 approach), while other credible sources describe 'inflation indexation' as the replacement mechanism.",
+      "source": "https://www.nab.com.au/content/dam/nabrws/Products-and-services/Personal-finance/Property/budget-2026-analysis.pdf, https://www.perpetual.com.au/insights/budget-2026",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260623-184",
+      "timestamp": "2026-06-23T21:24:29.360Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base",
+      "implemented_at": "2026-06-23T23:03:36.730Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: Division 296 imposes 15% tax on all super balances exceeding $3 million",
+      "description": "This claim conflates the tax base. According to the ATO (ato.gov.au), Division 296 tax is 15% on 'the proportion of earnings relating to your TSB that exceeds the $3m threshold' — not on the balance itself. Media coverage often simplifies this to '15% on balances over $3m', which overstates the tax impact since only earnings (not principal) above the threshold are taxed.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because Division 296 applies 15% only to the earnings attributable to the portion of balance exceeding $3m, not the entire balance.",
+      "source": "https://ato.gov.au/Better-Targeted-Super-Concessions-is-law",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260623-193",
+      "timestamp": "2026-06-23T21:24:29.360Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-06-23T23:04:01.070Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 Receives Royal Assent — Legislation Now Enacted",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Treasury Laws Amendment (More Housing, More Help) Bill 2026, containing the negative gearing and CGT reforms, has passed both houses and received Royal Assent. The legislation implements the government's housing tax reform package including the replacement of the 50% CGT discount with inflation indexation and a 30% minimum tax, along with negative gearing restrictions on established properties.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 Receives Royal Assent — Legislation Now Enacted",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260623-414",
+      "timestamp": "2026-06-23T21:24:29.360Z",
+      "status": "implemented",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
+      "implemented_at": "2026-06-23T23:04:22.808Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Coalition Releases Detailed Repeal Costings: $23 Billion Impact on Housing Package Over Decade",
+      "description": "The Opposition has released detailed costings showing that repealing the housing tax reform package would cost $23 billion in revenue over a decade. The costings detail the impact on negative gearing and CGT changes, including implications for grandfathered arrangements for existing property investors.",
+      "suggestion": "Add to budget-updates.json: Coalition releases detailed repeal costings: $23 billion impact on housing package over decade",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/bd/bd2526",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260623-832",
+      "timestamp": "2026-06-23T21:24:29.360Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-23T23:05:52.292Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Venture Capital Tax Incentives Expanded from July 2027 Under Budget 2026 Measures",
+      "description": "The 2026 Budget confirms expansion of venture capital tax incentives from July 2027 as part of broader tax reform measures. The expansion is designed to support innovation and startup investment alongside changes to negative gearing and CGT arrangements.",
+      "suggestion": "Add to budget-updates.json: Venture capital tax incentives expanded from July 2027 as part of Budget 2026 measures",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260623-172",
+      "timestamp": "2026-06-23T21:24:29.360Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-23T23:06:24.006Z"
     }
   ]
 }

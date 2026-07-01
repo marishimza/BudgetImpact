@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T16:16:23.462Z",
+  "lastUpdated": "2026-07-01T17:51:19.052Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2166,18 +2166,6 @@
       "source": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/2026-27-budget-speech-parliament-house-canberra",
       "implementation_effort": "10_minutes",
       "id": "suggestion-20260609-976",
-      "timestamp": "2026-06-09T10:52:53.140Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will the 2026 housing tax reforms cause a prolonged market slump or a brief correction?",
-      "description": "There is conflicting analysis from credible financial sources on the short-term impact of the negative gearing and CGT reforms on property prices. NAB revised its forecast to project a 'brief correction not slump', while other analysts suggest more severe outcomes are possible. This matters because investor behavior and housing affordability projections depend on these forecasts.",
-      "suggestion": "Add to debates.json: NAB Budget Analysis forecasts a brief correction from 2026 housing tax reforms, while other analyst projections suggest risk of more prolonged property price decline",
-      "source": "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260609-308",
       "timestamp": "2026-06-09T10:52:53.140Z",
       "status": "pending"
     },
@@ -6886,30 +6874,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "KPMG Budget Analysis Reveals $47.5m Implementation Funding Breakdown",
-      "description": "KPMG analysis provides detailed breakdown of $47.5 million funding allocation over four years from 2026-27 plus $3.9 million ongoing to Treasury and ATO for CGT reform implementation, with implementation timeline risks flagged.",
-      "suggestion": "Add to budget-updates.json: KPMG analysis reveals detailed $47.5m CGT implementation funding breakdown for Treasury and ATO — KPMG flags implementation timeline risks as ATO prepares for reform rollout",
-      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260701-261",
-      "timestamp": "2026-07-01T16:16:19.791Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Perpetual Confirms New CGT Indexation Mirrors Pre-1999 Approach",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Perpetual analysis confirms new CGT cost base indexation methodology mirrors the 1985-1999 approach, explaining transitional calculation methodology for assets acquired before and after the reform commencement date.",
-      "suggestion": "Add to budget-updates.json: Perpetual confirms new CGT cost base indexation mirrors pre-1999 approach — explains transitional calculation methodology for assets acquired before and after reform commencement",
-      "source": "https://www.perpetual.com.au/insights/cgt-indexation-2026",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260701-399",
-      "timestamp": "2026-07-01T16:16:19.791Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "When do negative gearing restrictions take effect for investors?",
@@ -6968,30 +6932,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260701-818",
-      "timestamp": "2026-07-01T16:16:19.791Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260701-725",
-      "timestamp": "2026-07-01T16:16:19.791Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -8275,6 +8215,71 @@
       "timestamp": "2026-06-09T06:03:37.749Z",
       "status": "implemented",
       "implemented_at": "2026-07-01T12:32:36.356Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG Budget Analysis Reveals $47.5m Implementation Funding Breakdown",
+      "description": "KPMG analysis provides detailed breakdown of $47.5 million funding allocation over four years from 2026-27 plus $3.9 million ongoing to Treasury and ATO for CGT reform implementation, with implementation timeline risks flagged.",
+      "suggestion": "Add to budget-updates.json: KPMG analysis reveals detailed $47.5m CGT implementation funding breakdown for Treasury and ATO — KPMG flags implementation timeline risks as ATO prepares for reform rollout",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260701-261",
+      "timestamp": "2026-07-01T16:16:19.791Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-01T17:49:20.960Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Perpetual Confirms New CGT Indexation Mirrors Pre-1999 Approach",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Perpetual analysis confirms new CGT cost base indexation methodology mirrors the 1985-1999 approach, explaining transitional calculation methodology for assets acquired before and after the reform commencement date.",
+      "suggestion": "Add to budget-updates.json: Perpetual confirms new CGT cost base indexation mirrors pre-1999 approach — explains transitional calculation methodology for assets acquired before and after reform commencement",
+      "source": "https://www.perpetual.com.au/insights/cgt-indexation-2026",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260701-399",
+      "timestamp": "2026-07-01T16:16:19.791Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-01T17:49:41.840Z"
+    },
+    {
+      "id": "suggestion-20260701-818",
+      "timestamp": "2026-07-01T16:16:19.791Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-07-01T17:50:24.243Z"
+    },
+    {
+      "id": "suggestion-20260701-725",
+      "timestamp": "2026-07-01T16:16:19.791Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-07-01T17:50:48.209Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the 2026 housing tax reforms cause a prolonged market slump or a brief correction?",
+      "description": "There is conflicting analysis from credible financial sources on the short-term impact of the negative gearing and CGT reforms on property prices. NAB revised its forecast to project a 'brief correction not slump', while other analysts suggest more severe outcomes are possible. This matters because investor behavior and housing affordability projections depend on these forecasts.",
+      "suggestion": "Add to debates.json: NAB Budget Analysis forecasts a brief correction from 2026 housing tax reforms, while other analyst projections suggest risk of more prolonged property price decline",
+      "source": "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260609-308",
+      "timestamp": "2026-06-09T10:52:53.140Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-01T17:51:19.052Z"
     }
   ],
   "skipped": [

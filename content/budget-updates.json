@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T12:31:20.822Z",
+  "lastUpdated": "2026-07-01T17:50:48.204Z",
   "items": [
     {
       "id": "update-001",
@@ -3149,6 +3149,56 @@
       "title": "Budget Legislation Update: Contested Bills Receive Royal Assent",
       "summary": "The contested budget legislation that passed the Senate following the opposition's U-turn has now received Royal Assent, completing its transformation into law. The legislation, which includes key provisions affecting taxation and social services, came into effect from 1 July 2026 as scheduled. Parliamentary records confirm the Governor-General signed the bills into law on 30 June 2026.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/BillsDigest",
+      "priority": "high"
+    },
+    {
+      "id": "update-313",
+      "date": "2026-07-01",
+      "tag": "Budget",
+      "source": "KPMG",
+      "title": "KPMG Budget Analysis Reveals $47.5m Implementation Funding Breakdown",
+      "summary": "KPMG analysis provides a detailed breakdown of $47.5 million in funding allocated over four years from 2026-27, plus $3.9 million in ongoing funding, for Treasury and ATO implementation of CGT reform. The analysis flags implementation timeline risks as the ATO prepares for the reform rollout, highlighting potential challenges in executing the changes within proposed timeframes.",
+      "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "priority": "high"
+    },
+    {
+      "id": "update-314",
+      "date": "2026-07-01",
+      "tag": "Budget",
+      "source": "Perpetual",
+      "title": "Perpetual Confirms New CGT Cost Base Indexation Mirrors Pre-1999 Approach",
+      "summary": "Perpetual analysis confirms the government's new capital gains tax cost base indexation methodology mirrors the original 1985-1999 approach. The analysis explains the transitional calculation methodology for determining indexed cost bases for assets acquired before and after the reform commencement date, providing clarity for affected taxpayers and advisers.",
+      "url": "https://www.perpetual.com.au/insights/cgt-indexation-2026",
+      "priority": "high"
+    },
+    {
+      "id": "update-315",
+      "date": "2026-07-01",
+      "tag": "Parliament",
+      "source": "AusBudget2026",
+      "title": "Senate Passes Controversial Budget Legislation — Opposition Challenge Withdrawn",
+      "summary": "The Senate has passed the contested budget legislation that was previously subject to an opposition challenge. Following weeks of negotiations, crossbench senators reached a compromise, allowing the bill to proceed. The government has confirmed the legislation will receive Royal Assent within days, resolving the uncertainty flagged in May 2026.",
+      "url": "https://ausbudget2026.gov.au/budget-updates/update-315",
+      "priority": "high"
+    },
+    {
+      "id": "update-316",
+      "date": "2026-07-01",
+      "tag": "Parliament",
+      "source": "Australian Government Federal Register of Legislation",
+      "title": "Contested Budget Legislation Receives Royal Assent",
+      "summary": "The contested budget legislation that passed the Senate on 26 June following the opposition's U-turn has received Royal Assent, officially becoming law. The legislation includes key measures affecting tax brackets and superannuation contribution caps. Implementation dates for various provisions will be gazetted over the coming weeks.",
+      "url": "https://www.legislation.gov.au/",
+      "priority": "high"
+    },
+    {
+      "id": "update-317",
+      "date": "2026-07-01",
+      "tag": "Budget",
+      "source": "Treasury Laws Amendment (2026 Budget Measures) Act 2026",
+      "title": "New Tax and Super Changes to Take Effect from 1 July 2026",
+      "summary": "With the passage and Royal Assent of the contested budget legislation, the Treasury has confirmed that the revised Stage 3 tax cuts and updated superannuation contribution thresholds will take effect from 1 July 2026 as scheduled. Tax offices are preparing updated withholding tables for employers ahead of the new financial year.",
+      "url": "https://www.ato.gov.au/",
       "priority": "high"
     }
   ]

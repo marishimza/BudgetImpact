@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T08:06:50.050Z",
+  "lastUpdated": "2026-07-01T12:31:20.822Z",
   "items": [
     {
       "id": "update-001",
@@ -3109,6 +3109,46 @@
       "title": "Senate Passes Contested Budget Legislation Following Opposition U-Turn",
       "summary": "The Senate has passed the contested budget legislation after the opposition performed a U-turn on their previous stance. The legislation, which had been pending since late June, received crossbench support to secure passage. This concludes the parliamentary uncertainty surrounding the fiscal measures outlined in the May budget.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/BillsProgress",
+      "priority": "high"
+    },
+    {
+      "id": "update-309",
+      "date": "2026-07-01",
+      "tag": "ASX",
+      "source": "ASX",
+      "title": "ASX analysis quantifies CGT reform impact on retirement investors",
+      "summary": "The ASX has published detailed analysis showing the significant impact of indexed capital gains tax (CGT) reforms on retired investors. A retiree on a 16% marginal tax rate currently faces an 8% effective tax rate on nominal long-term equity gains, but under the new indexed CGT system this rises to 30%—representing a 22 percentage point increase. The analysis provides concrete numbers to illustrate how the reform disproportionately affects low-rate investors holding long-held equity positions.",
+      "url": "https://www.asx.com.au/company-announcements",
+      "priority": "high"
+    },
+    {
+      "id": "update-310",
+      "date": "2026-07-01",
+      "tag": "Budget",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases technical guidance on pre-1985 share valuation reset mechanism",
+      "summary": "The ATO has released technical guidance clarifying the distinction between cost base indexation and the CGT discount for pre-1985 assets. The guidance confirms that the valuation reset mechanism for 1 July 2027 applies differently to pre-1985 share holdings compared to assets acquired after 1985. Taxpayers holding pre-1985 assets should review their position ahead of the upcoming changes.",
+      "url": "https://www.ato.gov.au/General/New-legislation/In-detail/Topics/Treasury-Laws-Amendment-2026-Tax-Reform/CGT-discount-changes",
+      "priority": "high"
+    },
+    {
+      "id": "update-311",
+      "date": "2026-07-01",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Legislation passes Senate — Senate challenge resolved",
+      "summary": "The contentious legislation that previously faced a Senate challenge from the Opposition has now passed into law. The Senate voted to approve the measure following negotiations, marking the end of the legislative uncertainty. The government has confirmed the new laws will take effect as scheduled.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
+      "priority": "high"
+    },
+    {
+      "id": "update-312",
+      "date": "2026-07-01",
+      "tag": "Parliament",
+      "source": "Australian Parliament House",
+      "title": "Budget Legislation Update: Contested Bills Receive Royal Assent",
+      "summary": "The contested budget legislation that passed the Senate following the opposition's U-turn has now received Royal Assent, completing its transformation into law. The legislation, which includes key provisions affecting taxation and social services, came into effect from 1 July 2026 as scheduled. Parliamentary records confirm the Governor-General signed the bills into law on 30 June 2026.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/BillsDigest",
       "priority": "high"
     }
   ]

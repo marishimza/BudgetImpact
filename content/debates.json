@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T08:08:38.882Z",
+  "lastUpdated": "2026-07-01T12:32:36.353Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2708,6 +2708,25 @@
       "view_b": {
         "label": "Immigration levels are the primary driver",
         "argument": "The Coalition proposes immigration caps as a direct housing affordability response, arguing that population growth from immigration places unsustainable demand pressure on housing supply. This diagnosis suggests that reducing immigration intake is necessary to bring supply and demand into balance, rather than reforming tax arrangements.",
+        "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-117",
+      "slug": "coalition-immigration-cap-budget-housing-measures",
+      "title": "Is the Coalition's immigration cap a direct response to budget housing measures or a separate policy?",
+      "category": "immigration",
+      "type": "factual_dispute",
+      "summary": "A factual dispute exists regarding whether the Coalition's immigration cap policy was announced as a direct response to Labor's budget housing measures or as a separate, pre-existing policy platform. The Guardian reports the Coalition explicitly linking immigration caps to housing affordability concerns raised by budget reforms, while other sources including the ABC present it as part of the Coalition's general policy platform unconnected to the budget response.",
+      "view_a": {
+        "label": "Direct response to budget housing measures",
+        "argument": "The Guardian reports that the Coalition explicitly linked its immigration cap proposal to Labor's budget housing measures, framing it as a direct policy response to address housing affordability concerns arising from the federal budget reforms. This interpretation suggests the immigration cap was announced specifically in reaction to the budget's negative gearing and capital gains tax changes.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Separate Coalition policy platform",
+        "argument": "The ABC and other sources present the immigration cap as a separate, pre-existing Coalition policy platform rather than a direct response to budget housing measures. This interpretation suggests the immigration cap was part of the Coalition's broader policy agenda that happens to intersect with housing affordability concerns, not a reactive measure to the budget reforms.",
         "sources": []
       },
       "verdict": null

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T11:18:21.038Z",
+  "lastUpdated": "2026-07-01T12:32:36.356Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2120,18 +2120,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Is the Coalition's immigration cap a direct response to budget housing measures or a separate policy?",
-      "description": "The Guardian reports the Coalition linking immigration caps to housing affordability concerns raised by the budget reforms, while other sources present it as general Coalition policy. This creates a factual dispute about the motivation and relationship between fiscal and immigration policy.",
-      "suggestion": "Add to debates.json: view_a from The Guardian reports Coalition linking immigration cap to budget housing measures as direct response. view_b from other sources present immigration cap as separate Coalition policy platform.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt | https://abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260609-482",
-      "timestamp": "2026-06-09T06:03:37.749Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -6827,30 +6815,6 @@
     },
     {
       "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis quantifies CGT reform impact on retirement investors",
-      "description": "Detailed analysis showing a retired investor on a 16% marginal tax rate currently faces 8% tax on nominal long-term equity gains, rising to 30% under the new indexed CGT system. Provides concrete numbers to illustrate the 22 percentage point effective rate increase.",
-      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT reform impact on retirement investors — 22 percentage point effective rate increase from 8% to 30% for low-rate investors on long-held equity gains",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260701-951",
-      "timestamp": "2026-07-01T11:18:15.831Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO releases technical guidance on pre-1985 share valuation reset mechanism",
-      "description": "ATO provides specific technical guidance distinguishing cost base indexation from the CGT discount for pre-1985 assets. Confirms valuation reset for 1 July 2027 changes applies differently to pre-1985 holdings compared to assets acquired after 1985.",
-      "suggestion": "Add to budget-updates.json: ATO releases technical guidance distinguishing cost base indexation from CGT discount for pre-1985 assets",
-      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260701-211",
-      "timestamp": "2026-07-01T11:18:15.831Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
       "priority": "low",
       "title": "Australian Shareholders Association criticises lack of consultation on CGT indexation reform",
       "description": "ASA calls for capital gains averaging mechanism alongside indexation to address income bunching concerns, and criticises the lack of consultation before announcing major CGT reform. Advocates for both indexation and averaging to prevent bunching of gains in single tax years.",
@@ -6920,30 +6884,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260701-745",
-      "timestamp": "2026-07-01T11:18:15.831Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260701-182",
-      "timestamp": "2026-07-01T11:18:15.831Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -8215,6 +8155,71 @@
       "timestamp": "2026-06-09T06:03:37.749Z",
       "status": "implemented",
       "implemented_at": "2026-07-01T08:08:38.887Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ASX analysis quantifies CGT reform impact on retirement investors",
+      "description": "Detailed analysis showing a retired investor on a 16% marginal tax rate currently faces 8% tax on nominal long-term equity gains, rising to 30% under the new indexed CGT system. Provides concrete numbers to illustrate the 22 percentage point effective rate increase.",
+      "suggestion": "Add to budget-updates.json: ASX analysis quantifies CGT reform impact on retirement investors — 22 percentage point effective rate increase from 8% to 30% for low-rate investors on long-held equity gains",
+      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260701-951",
+      "timestamp": "2026-07-01T11:18:15.831Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-01T12:29:53.462Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO releases technical guidance on pre-1985 share valuation reset mechanism",
+      "description": "ATO provides specific technical guidance distinguishing cost base indexation from the CGT discount for pre-1985 assets. Confirms valuation reset for 1 July 2027 changes applies differently to pre-1985 holdings compared to assets acquired after 1985.",
+      "suggestion": "Add to budget-updates.json: ATO releases technical guidance distinguishing cost base indexation from CGT discount for pre-1985 assets",
+      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260701-211",
+      "timestamp": "2026-07-01T11:18:15.831Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-01T12:30:22.690Z"
+    },
+    {
+      "id": "suggestion-20260701-745",
+      "timestamp": "2026-07-01T11:18:15.831Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-07-01T12:30:45.044Z"
+    },
+    {
+      "id": "suggestion-20260701-182",
+      "timestamp": "2026-07-01T11:18:15.831Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-07-01T12:31:20.827Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the Coalition's immigration cap a direct response to budget housing measures or a separate policy?",
+      "description": "The Guardian reports the Coalition linking immigration caps to housing affordability concerns raised by the budget reforms, while other sources present it as general Coalition policy. This creates a factual dispute about the motivation and relationship between fiscal and immigration policy.",
+      "suggestion": "Add to debates.json: view_a from The Guardian reports Coalition linking immigration cap to budget housing measures as direct response. view_b from other sources present immigration cap as separate Coalition policy platform.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt | https://abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260609-482",
+      "timestamp": "2026-06-09T06:03:37.749Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-01T12:32:36.356Z"
     }
   ],
   "skipped": [

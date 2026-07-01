@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T06:18:27.067Z",
+  "lastUpdated": "2026-07-01T08:08:38.887Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2087,18 +2087,6 @@
     },
     {
       "type": "debate_page",
-      "priority": "medium",
-      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
-      "description": "The budget and REIA claim the $2B infrastructure initiative will enable ~65,000 additional homes, but this is an optimistic projection from interested parties without independent verification of delivery capacity, timeline feasibility, or land supply constraints.",
-      "suggestion": "Add to debates.json: budget.gov.au and REIA claim the $2B infrastructure initiative will enable around 65,000 additional homes; no independent modelling confirms this figure is achievable given infrastructure lead times, planning approvals, and land availability constraints.",
-      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260608-630",
-      "timestamp": "2026-06-08T21:43:40.608Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
       "priority": "low",
       "title": "Is the Coalition's immigration cap proposal a direct response to the budget housing measures or separate policy?",
       "description": "The Coalition calls negative gearing and CGT changes 'toxic' and vows repeal, while simultaneously proposing immigration caps. The debate is whether immigration levels are the primary housing driver (Coalition position) or tax arrangements are (Government position).",
@@ -2106,18 +2094,6 @@
       "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
       "implementation_effort": "30_minutes",
       "id": "suggestion-20260608-209",
-      "timestamp": "2026-06-08T21:43:40.608Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'More than half of the benefit of the CGT concession went to the top 1% of income earners'",
-      "description": "This claim appears in The Guardian with the qualifier 'the most recent data shows' but doesn't cite the specific data source or year. While ATO data generally supports high-income earners receive disproportionate CGT benefits, the specific 'top 1%' and 'more than half' figures should be verified against official ATO statistics to confirm the claim's accuracy and currency.",
-      "suggestion": "Add to fact-checks.json: claim is 'More than half of CGT concession benefit goes to top 1%', verdict is partially_verified because ATO data generally confirms disproportionate benefit distribution but the specific 'more than half' figure and time period should be confirmed against official sources.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/13/capital-gains-tax-and-negative-gearing-benefit-the-1-percent-and-this-chart-shows-it",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260608-352",
       "timestamp": "2026-06-08T21:43:40.608Z",
       "status": "pending"
     },
@@ -2144,18 +2120,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Is immigration or negative gearing the primary driver of Australia's housing crisis?",
-      "description": "The Law Society Journal cites economists claiming negative gearing and CGT arrangements are the key reason for housing affordability and rental crisis. Meanwhile, the Coalition's immigration cap proposal suggests immigration levels are a primary driver. These represent fundamentally different diagnoses of Australia's housing problem with different policy implications.",
-      "suggestion": "Add to debates.json: view_a from LSJ.com.au says economists claim negative gearing and CGT discount are 'the key reason for the housing affordability and rental crisis'. view_b from The Guardian/ABC reports the Coalition's immigration cap as a direct housing affordability response, suggesting immigration levels are a primary driver.",
-      "source": "https://lsj.com.au/articles/federal-budget-2026-limits-to-negative-gearing-and-capital-gains-tax-reform/ | https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260609-699",
-      "timestamp": "2026-06-09T06:03:37.749Z",
-      "status": "pending"
     },
     {
       "type": "debate_page",
@@ -6860,30 +6824,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260701-152",
-      "timestamp": "2026-07-01T06:18:21.930Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260701-568",
-      "timestamp": "2026-07-01T06:18:21.930Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -8168,6 +8108,45 @@
       "source": "",
       "implementation_effort": "15_minutes",
       "implemented_at": "2026-06-30T23:06:39.507Z"
+    },
+    {
+      "id": "suggestion-20260701-568",
+      "timestamp": "2026-07-01T06:18:21.930Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-07-01T08:06:50.054Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "description": "The budget and REIA claim the $2B infrastructure initiative will enable ~65,000 additional homes, but this is an optimistic projection from interested parties without independent verification of delivery capacity, timeline feasibility, or land supply constraints.",
+      "suggestion": "Add to debates.json: budget.gov.au and REIA claim the $2B infrastructure initiative will enable around 65,000 additional homes; no independent modelling confirms this figure is achievable given infrastructure lead times, planning approvals, and land availability constraints.",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260608-630",
+      "timestamp": "2026-06-08T21:43:40.608Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-01T08:07:44.155Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is immigration or negative gearing the primary driver of Australia's housing crisis?",
+      "description": "The Law Society Journal cites economists claiming negative gearing and CGT arrangements are the key reason for housing affordability and rental crisis. Meanwhile, the Coalition's immigration cap proposal suggests immigration levels are a primary driver. These represent fundamentally different diagnoses of Australia's housing problem with different policy implications.",
+      "suggestion": "Add to debates.json: view_a from LSJ.com.au says economists claim negative gearing and CGT discount are 'the key reason for the housing affordability and rental crisis'. view_b from The Guardian/ABC reports the Coalition's immigration cap as a direct housing affordability response, suggesting immigration levels are a primary driver.",
+      "source": "https://lsj.com.au/articles/federal-budget-2026-limits-to-negative-gearing-and-capital-gains-tax-reform/ | https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260609-699",
+      "timestamp": "2026-06-09T06:03:37.749Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-01T08:08:38.887Z"
     }
   ],
   "skipped": [
@@ -8789,6 +8768,34 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-30T23:06:52.795Z"
+    },
+    {
+      "id": "suggestion-20260701-152",
+      "timestamp": "2026-07-01T06:18:21.930Z",
+      "status": "skipped",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-07-01T08:05:52.789Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'More than half of the benefit of the CGT concession went to the top 1% of income earners'",
+      "description": "This claim appears in The Guardian with the qualifier 'the most recent data shows' but doesn't cite the specific data source or year. While ATO data generally supports high-income earners receive disproportionate CGT benefits, the specific 'top 1%' and 'more than half' figures should be verified against official ATO statistics to confirm the claim's accuracy and currency.",
+      "suggestion": "Add to fact-checks.json: claim is 'More than half of CGT concession benefit goes to top 1%', verdict is partially_verified because ATO data generally confirms disproportionate benefit distribution but the specific 'more than half' figure and time period should be confirmed against official sources.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/capital-gains-tax-and-negative-gearing-benefit-the-1-percent-and-this-chart-shows-it",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260608-352",
+      "timestamp": "2026-06-08T21:43:40.608Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-07-01T08:08:09.012Z"
     }
   ],
   "needs_manual_review": [

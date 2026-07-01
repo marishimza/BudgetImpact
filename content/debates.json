@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T17:51:58.528Z",
+  "lastUpdated": "2026-07-01T08:08:38.882Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2668,6 +2668,46 @@
       "view_b": {
         "label": "ABC News/Media Analysis: Budget Night 7:30pm Cutoff",
         "argument": "ABC News and other independent analyses reference a '7:30pm on Budget Night' (12 May 2026) cutoff date, particularly for established properties. This earlier timing could have different implications for investors depending on when contracts were exchanged, potentially affecting different classes of investors inconsistently.",
+        "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-115",
+      "slug": "will-the-2b-infrastructure-initiative-actually-deliver-65000-additional-homes",
+      "title": "Will the $2B infrastructure initiative actually deliver 65,000 additional homes?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "The $2B infrastructure initiative is claimed by budget.gov.au and REIA to enable around 65,000 additional homes, but no independent modelling confirms this figure is achievable given infrastructure lead times, planning approvals, and land availability constraints.",
+      "view_a": {
+        "label": "Government/Industry Projection",
+        "argument": "The $2B infrastructure initiative is designed to unlock land and accelerate housing supply. The combined investment and policy settings will enable approximately 65,000 additional homes through coordinated infrastructure delivery.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Skeptical Analysis",
+        "argument": "The 65,000 home figure relies on optimistic assumptions about infrastructure delivery timelines, planning approval processes, and land availability. No independent verification confirms these homes can be delivered within projected timeframes.",
+        "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-116",
+      "slug": "immigration-negative-gearing-housing-crisis-debate",
+      "title": "Is immigration or negative gearing the primary driver of Australia's housing crisis?",
+      "category": "housing",
+      "type": "policy_disagreement",
+      "summary": "Two fundamentally different diagnoses of Australia's housing affordability crisis present competing explanations: one side points to tax arrangements around negative gearing and capital gains tax as the structural cause, while the other argues immigration levels are the primary demand-side driver. These competing views have distinct policy implications for how the government should address housing affordability and rental stress.",
+      "view_a": {
+        "label": "Tax policy is the key driver",
+        "argument": "Economists cited in the Law Society Journal assert that negative gearing arrangements and the capital gains tax discount are 'the key reason' for Australia's housing affordability and rental crisis. This view positions tax policy as the structural driver of property investment distortion, where favourable tax treatment incentivises property speculation over productive investment, inflating prices and reducing rental supply.",
+        "sources": [
+          "https://lsj.com.au/articles/federal-budget-2026-limits-to-negative-gearing-and-capital-gains-tax-reform/"
+        ]
+      },
+      "view_b": {
+        "label": "Immigration levels are the primary driver",
+        "argument": "The Coalition proposes immigration caps as a direct housing affordability response, arguing that population growth from immigration places unsustainable demand pressure on housing supply. This diagnosis suggests that reducing immigration intake is necessary to bring supply and demand into balance, rather than reforming tax arrangements.",
         "sources": []
       },
       "verdict": null

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T21:18:19.762Z",
+  "lastUpdated": "2026-07-01T23:08:30.848Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -6768,18 +6768,6 @@
     {
       "type": "fact_check",
       "priority": "medium",
-      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim appears extensively in fact-checks, but sources indicate Division 296 has a tiered rate structure. Hudson Financial Planning states: 'Above $10 million, the rate rises to 40%'. The Pitcher Partners source notes 'effective rate to 30%' on balances above $3m (implying 15% additional on top of the existing 15% contribution/earnings tax). Describing it as a flat 15% on ALL balances over $3m oversimplifies the progressive rate structure.",
-      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is partially_true because Division 296 imposes a 15% additional tax on the portion of earnings related to balances exceeding $3m, taking the effective rate to 30% for those balances (15+15). For balances above $10m, rates rise to 40% on that portion. It is not a flat 15% on the entire balance.",
-      "source": "https://hudsonfinancialplanning.com.au/should-i-set-up-an-smsf-after-the-2026-federal-budget",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260701-131",
-      "timestamp": "2026-07-01T06:18:21.930Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
       "title": "Claim: 'Budget housing measures cost $6.4 billion over four years'",
       "description": "The Coalition repeal costings claim $23 billion impact over a decade. The government figure of $6.4bn is over four years while the Coalition's $23bn is over ten years. These are measuring different things (government spending vs fiscal impact of repeal), making direct comparison misleading. However, the $6.4bn figure may also exclude some indirect costs or ongoing commitments.",
       "suggestion": "Add to fact-checks.json: claim is 'housing measures cost $6.4bn', verdict is verified_as_stated but clarification_needed because $6.4bn is the government's housing package over four years. The Coalition's $23bn over a decade is a different metric measuring the fiscal impact of repealing the reforms, not the cost of the original package.",
@@ -6934,43 +6922,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "$1,000 Instant Tax Deduction for Work-Related Expenses Confirmed",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Budget confirms a new $1,000 instant tax deduction for work-related expenses, providing simplified tax relief for workers claiming common deductions.",
-      "suggestion": "Add to budget-updates.json: Federal Budget introduces $1,000 Instant Tax Deduction for Work-Related Expenses",
-      "source": "https://budget.gov.au/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260701-442",
-      "timestamp": "2026-07-01T21:18:13.915Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/standard-deduction-for-work-related-expenses"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Treasurer Describes Budget as 'Most Important and Ambitious in Decades'",
-      "description": "In the official Budget speech delivered at Parliament House on 12 May 2026, Treasurer Jim Chalmers characterised the Budget as the most important and ambitious in decades, citing global economic challenges.",
-      "suggestion": "Add to budget-updates.json: Treasurer describes Budget 2026-27 as 'most important and ambitious in decades'",
-      "source": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/2026-27-budget-speech-parliament-house-canberra",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260701-745",
-      "timestamp": "2026-07-01T21:18:13.915Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Cross-Party Endorsement: Coalition and Greens Aligned on CGT Committee Support",
-      "description": "Parliamentary record confirms cross-party support for CGT discount changes, with Coalition and Greens aligned on committee endorsement. Coalition's opposition shifted to support following negotiations.",
-      "suggestion": "Add to budget-updates.json: Cross-party support confirmed — Coalition and Greens aligned on parliamentary committee endorsement of CGT discount changes",
-      "source": "https://www.aph.gov.au/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260701-379",
-      "timestamp": "2026-07-01T21:18:13.915Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "$2B infrastructure initiative housing delivery: official target vs independent feasibility",
@@ -7029,30 +6980,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260701-131",
-      "timestamp": "2026-07-01T21:18:13.916Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260701-836",
-      "timestamp": "2026-07-01T21:18:13.916Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -8361,6 +8288,46 @@
       "timestamp": "2026-06-09T10:52:53.140Z",
       "status": "implemented",
       "implemented_at": "2026-07-01T17:51:19.052Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "$1,000 Instant Tax Deduction for Work-Related Expenses Confirmed",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Budget confirms a new $1,000 instant tax deduction for work-related expenses, providing simplified tax relief for workers claiming common deductions.",
+      "suggestion": "Add to budget-updates.json: Federal Budget introduces $1,000 Instant Tax Deduction for Work-Related Expenses",
+      "source": "https://budget.gov.au/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260701-442",
+      "timestamp": "2026-07-01T21:18:13.915Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/standard-deduction-for-work-related-expenses",
+      "implemented_at": "2026-07-01T23:07:21.864Z"
+    },
+    {
+      "id": "suggestion-20260701-131",
+      "timestamp": "2026-07-01T21:18:13.916Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-07-01T23:08:03.697Z"
+    },
+    {
+      "id": "suggestion-20260701-836",
+      "timestamp": "2026-07-01T21:18:13.916Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-07-01T23:08:30.848Z"
     }
   ],
   "skipped": [
@@ -8953,6 +8920,34 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-07-01T08:08:09.012Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Treasurer Describes Budget as 'Most Important and Ambitious in Decades'",
+      "description": "In the official Budget speech delivered at Parliament House on 12 May 2026, Treasurer Jim Chalmers characterised the Budget as the most important and ambitious in decades, citing global economic challenges.",
+      "suggestion": "Add to budget-updates.json: Treasurer describes Budget 2026-27 as 'most important and ambitious in decades'",
+      "source": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/2026-27-budget-speech-parliament-house-canberra",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260701-745",
+      "timestamp": "2026-07-01T21:18:13.915Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-07-01T23:07:31.193Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Cross-Party Endorsement: Coalition and Greens Aligned on CGT Committee Support",
+      "description": "Parliamentary record confirms cross-party support for CGT discount changes, with Coalition and Greens aligned on committee endorsement. Coalition's opposition shifted to support following negotiations.",
+      "suggestion": "Add to budget-updates.json: Cross-party support confirmed — Coalition and Greens aligned on parliamentary committee endorsement of CGT discount changes",
+      "source": "https://www.aph.gov.au/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260701-379",
+      "timestamp": "2026-07-01T21:18:13.915Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-07-01T23:07:40.135Z"
     }
   ],
   "needs_manual_review": [

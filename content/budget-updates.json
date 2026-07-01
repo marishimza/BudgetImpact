@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T17:50:48.204Z",
+  "lastUpdated": "2026-07-01T23:08:30.844Z",
   "items": [
     {
       "id": "update-001",
@@ -3199,6 +3199,36 @@
       "title": "New Tax and Super Changes to Take Effect from 1 July 2026",
       "summary": "With the passage and Royal Assent of the contested budget legislation, the Treasury has confirmed that the revised Stage 3 tax cuts and updated superannuation contribution thresholds will take effect from 1 July 2026 as scheduled. Tax offices are preparing updated withholding tables for employers ahead of the new financial year.",
       "url": "https://www.ato.gov.au/",
+      "priority": "high"
+    },
+    {
+      "id": "update-318",
+      "date": "2026-07-01",
+      "tag": "Budget",
+      "source": "Budget.gov.au",
+      "title": "$1,000 Instant Tax Deduction for Work-Related Expenses Confirmed",
+      "summary": "The Budget confirms a new $1,000 instant tax deduction for work-related expenses, providing simplified tax relief for workers claiming common deductions. This measure allows employees to claim up to $1,000 without needing to keep receipts for individual expenses. The instant deduction is designed to reduce compliance costs and streamline the tax return process for everyday work-related costs.",
+      "url": "https://budget.gov.au/",
+      "priority": "high"
+    },
+    {
+      "id": "update-319",
+      "date": "2026-07-01",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Senate passes legislation following Opposition concerns — legislation now enacted",
+      "summary": "The Senate has passed the previously contested legislation, resolving the opposition's concerns that had prompted a Senate challenge. The government secured sufficient crossbench support to ensure the bill's passage into law. Relevant agencies will now proceed with implementation of the enacted measures.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r1234",
+      "priority": "high"
+    },
+    {
+      "id": "update-320",
+      "date": "2026-07-01",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Senate Passes Contested Budget Legislation Following Opposition U-Turn",
+      "summary": "The Senate has passed contested budget legislation after the opposition reversed its position on key provisions. The legislation, which includes significant changes to tax and spending measures, passed with crossbench support. This marks a major development in the budget implementation process.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
       "priority": "high"
     }
   ]

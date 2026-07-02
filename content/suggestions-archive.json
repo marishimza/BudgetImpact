@@ -9084,6 +9084,75 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-25T12:15:25.570Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: '$2 billion infrastructure initiative will deliver 65,000 additional homes'",
+      "description": "Multiple sources cite this specific figure as government projections. However, the Grattan Institute and independent analysts have questioned whether this target is achievable, with concerns about delivery capacity and methodology. The official claim doesn't account for potential delays or infrastructure constraints that could significantly reduce actual home delivery.",
+      "suggestion": "Add to fact-checks.json: claim is '$2B initiative will deliver 65,000 homes', verdict is disputed because independent modelling (Grattan Institute) questions whether this target is achievable, with delivery potentially falling significantly short of projections.",
+      "source": "https://www.grattan.edu.au (referenced in multiple search results as questioning $2B infrastructure delivery capacity)",
+      "implementation_effort": "1_hour",
+      "id": "suggestion-20260625-430",
+      "timestamp": "2026-06-25T16:17:26.084Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.smh.com.au/politics/federal/chalmers-doubles-down-on-housing-with-2-billion-for-roads-and-pipes-20260509-p5zv9w.html",
+      "implemented_at": "2026-06-25T18:06:00.273Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the 2026 negative gearing and CGT reforms maintain or reduce rental supply?",
+      "description": "The Real Estate Institute of Australia and Property Council of Australia warn that reducing property investment attractiveness could reduce rental supply over time. However, REIA President Jacob Caine separately welcomed the government's $2 billion infrastructure initiative as a positive step that could enable 65,000 additional homes. This creates a factual conflict about whether the overall package will increase or decrease rental supply.",
+      "suggestion": "Add to debates.json: view_a from REIA/Property Council (slateandsage.com.au) says reducing investment attractiveness could reduce rental supply over time; view_b from REIA President Jacob Caine (apimagazine.com.au) says the $2bn infrastructure initiative enabling 65,000 homes is a positive step toward addressing the rental shortage",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors; https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260606-190",
+      "timestamp": "2026-06-06T09:53:52.170Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-25T18:06:46.178Z"
+    },
+    {
+      "id": "suggestion-20260625-588",
+      "timestamp": "2026-06-25T16:17:26.084Z",
+      "status": "skipped",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-25T18:06:14.089Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "description": "This specific statistic from Treasury/ABC/ASX analysis appears in multiple sources but the methodology and timeframe should be verified. The claim uses a specific percentage (56%) that could be misquoted or oversimplified if cited without context about which decade, which index, or what assets it applies to.",
+      "suggestion": "Add to fact-checks.json: claim is '56% of ASX 200 share gains over 10 years were due to inflation', verdict is verified because budget.gov.au and ABC sources cite Treasury data showing inflation made up 56% of asset price growth for ASX 200 shares held for 10 years to March 2026. However, verify whether this figure applies specifically to that timeframe and whether it applies equally to all investors.",
+      "source": "https://www.abc.net.au/news/2026-05-13/capital-gains-tax-changes-budget-property-shares/2026-05-13",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260606-236",
+      "timestamp": "2026-06-06T09:53:52.170Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-25T18:07:04.121Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Budget allocates $47.5 million for CGT implementation to Treasury and ATO over four years",
+      "description": "KPMG source states this specific dollar figure but verification against official budget papers would confirm whether this allocation is accurate and what exactly it covers.",
+      "suggestion": "Add to fact-checks.json: claim is '$47.5 million over four years from 2026-27 for Treasury and ATO CGT implementation', verdict is partially_verified because KPMG cites this figure but official budget.gov.au source only confirms the policy direction without detailing the specific administrative cost allocation. Cross-reference with budget Paper No. 2 for actual appropriations.",
+      "source": "https://kpmg.com/au/en/home/insights/2026/05/australian-federal-budget-2026-27.html",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260606-391",
+      "timestamp": "2026-06-06T09:53:52.170Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-25T18:07:17.654Z"
     }
   ]
 }

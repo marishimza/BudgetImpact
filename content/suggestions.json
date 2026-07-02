@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T20:53:58.497Z",
+  "lastUpdated": "2026-07-02T23:01:03.379Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -7114,43 +7114,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Trust Tax Treatment Reform: Second Piece of Tax Reform Legislation Lodged Separately",
-      "description": "The Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 has been formally lodged with Parliament, representing a separate legislative vehicle for trust tax treatment reforms. This confirms the Government's broader strategy to shift the taxation burden from income to assets, progressing independently from the housing package legislation that has already received Royal Assent.",
-      "suggestion": "Add to budget-updates.json: Trust tax treatment reform progressing as separate legislation — Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament as distinct from enacted housing package",
-      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Legislation_List",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260702-466",
-      "timestamp": "2026-07-02T20:53:53.416Z",
-      "status": "pending",
-      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Perpetual Analysis: CGT Cost Base Indexation Mirrors Pre-1999 Approach — Transitional Calculation Methodology Explained",
-      "description": "Perpetual has released detailed analysis confirming that the new CGT cost base indexation mechanism closely mirrors the pre-1999 approach used between 1985 and 1999. The analysis explains the transitional calculation methodology, noting that while the inflation indexation methodology is similar, there are technical differences in how the calculations will apply for assets acquired during the transition period.",
-      "suggestion": "Add to budget-updates.json: Perpetual analysis confirms new CGT cost base indexation mirrors 1985-1999 approach with specific transitional calculation methodology — technical differences exist between old and new systems for transition period assets",
-      "source": "https://www.perpetual.com.au/insights-and-news/insights/2026/cgt-reform-analysis",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260702-205",
-      "timestamp": "2026-07-02T20:53:53.416Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO Technical Guidance: Distinguishing Cost Base Indexation from CGT Discount for Pre-1985 Assets",
-      "description": "The ATO has released technical guidance specifically clarifying the distinction between cost base indexation and the CGT discount mechanism as it applies to pre-1985 share holdings. The guidance addresses the pre-1985 share valuation reset confirmed for 1 July 2027, providing detailed instructions for tax professionals on calculating indexed cost bases versus applying any remaining discount entitlements.",
-      "suggestion": "Add to budget-updates.json: ATO releases technical guidance distinguishing cost base indexation from CGT discount for pre-1985 assets — clarifies valuation reset mechanism and calculation differences for tax professionals",
-      "source": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-technical-guidance",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260702-417",
-      "timestamp": "2026-07-02T20:53:53.416Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "CGT minimum 30% floor: Applies to all gains or only gains above inflation?",
@@ -7209,30 +7172,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260702-246",
-      "timestamp": "2026-07-02T20:53:53.417Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260702-616",
-      "timestamp": "2026-07-02T20:53:53.417Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -8606,6 +8545,45 @@
       "timestamp": "2026-06-10T06:16:01.921Z",
       "status": "implemented",
       "implemented_at": "2026-07-02T17:48:15.557Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO Technical Guidance: Distinguishing Cost Base Indexation from CGT Discount for Pre-1985 Assets",
+      "description": "The ATO has released technical guidance specifically clarifying the distinction between cost base indexation and the CGT discount mechanism as it applies to pre-1985 share holdings. The guidance addresses the pre-1985 share valuation reset confirmed for 1 July 2027, providing detailed instructions for tax professionals on calculating indexed cost bases versus applying any remaining discount entitlements.",
+      "suggestion": "Add to budget-updates.json: ATO releases technical guidance distinguishing cost base indexation from CGT discount for pre-1985 assets — clarifies valuation reset mechanism and calculation differences for tax professionals",
+      "source": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-technical-guidance",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260702-417",
+      "timestamp": "2026-07-02T20:53:53.416Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-02T22:59:36.575Z"
+    },
+    {
+      "id": "suggestion-20260702-246",
+      "timestamp": "2026-07-02T20:53:53.417Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-07-02T22:59:51.772Z"
+    },
+    {
+      "id": "suggestion-20260702-616",
+      "timestamp": "2026-07-02T20:53:53.417Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-07-02T23:01:03.379Z"
     }
   ],
   "skipped": [
@@ -9125,6 +9103,35 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-07-02T17:47:27.201Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Trust Tax Treatment Reform: Second Piece of Tax Reform Legislation Lodged Separately",
+      "description": "The Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 has been formally lodged with Parliament, representing a separate legislative vehicle for trust tax treatment reforms. This confirms the Government's broader strategy to shift the taxation burden from income to assets, progressing independently from the housing package legislation that has already received Royal Assent.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform progressing as separate legislation — Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament as distinct from enacted housing package",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Legislation_List",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260702-466",
+      "timestamp": "2026-07-02T20:53:53.416Z",
+      "status": "skipped",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-07-02T22:59:06.298Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Perpetual Analysis: CGT Cost Base Indexation Mirrors Pre-1999 Approach — Transitional Calculation Methodology Explained",
+      "description": "Perpetual has released detailed analysis confirming that the new CGT cost base indexation mechanism closely mirrors the pre-1999 approach used between 1985 and 1999. The analysis explains the transitional calculation methodology, noting that while the inflation indexation methodology is similar, there are technical differences in how the calculations will apply for assets acquired during the transition period.",
+      "suggestion": "Add to budget-updates.json: Perpetual analysis confirms new CGT cost base indexation mirrors 1985-1999 approach with specific transitional calculation methodology — technical differences exist between old and new systems for transition period assets",
+      "source": "https://www.perpetual.com.au/insights-and-news/insights/2026/cgt-reform-analysis",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260702-205",
+      "timestamp": "2026-07-02T20:53:53.416Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-07-02T22:59:15.356Z"
     }
   ],
   "needs_manual_review": [

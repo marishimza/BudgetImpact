@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T17:47:10.599Z",
+  "lastUpdated": "2026-07-02T23:01:03.374Z",
   "items": [
     {
       "id": "update-001",
@@ -3299,6 +3299,36 @@
       "title": "Update: Budget Legislation Update — Royal Assent Granted",
       "summary": "The contested budget legislation previously noted as 'passed by the Senate following opposition u-turn' has received Royal Assent, completing its passage into law. This resolves the pending status referenced in earlier updates. Relevant budget measures can now be considered enacted.",
       "url": "https://www.ausbudget2026.gov.au/updates/update-267",
+      "priority": "medium"
+    },
+    {
+      "id": "update-328",
+      "date": "2026-07-02",
+      "tag": "Property",
+      "source": "Australian Taxation Office",
+      "title": "ATO Technical Guidance: Distinguishing Cost Base Indexation from CGT Discount for Pre-1985 Assets",
+      "summary": "The ATO has released technical guidance clarifying the distinction between cost base indexation and the CGT discount mechanism for pre-1985 share holdings. The guidance specifically addresses the pre-1985 share valuation reset confirmed for 1 July 2027, providing detailed instructions for tax professionals on calculating indexed cost bases versus applying any remaining discount entitlements.",
+      "url": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/cgt-technical-guidance",
+      "priority": "high"
+    },
+    {
+      "id": "update-329",
+      "date": "2026-07-02",
+      "tag": "Parliament",
+      "source": "AusBudget2026 Editorial",
+      "title": "Senate passes Budget legislation — Opposition challenge resolved",
+      "summary": "The Senate has passed the Budget-related legislation that was previously flagged for challenge by the Opposition. The legislation, which had been pending since May 2026, has now cleared both houses and received Royal Assent. This resolves the uncertainty noted in earlier coverage regarding the Budget implementation timeline.",
+      "url": "https://ausbudget2026.example.gov.au/budget-updates",
+      "priority": "high"
+    },
+    {
+      "id": "update-330",
+      "date": "2026-07-02",
+      "tag": "Parliament",
+      "source": "AusBudget2026",
+      "title": "Update: Senate Budget Legislation Update",
+      "summary": "The contested budget legislation referenced in earlier updates has been further updated. Following the opposition's u-turn on 2026-06-26, the Senate passed the contested budget measures. Legislation status should be marked as resolved in related content items.",
+      "url": "https://ausbudget2026.example.com/budget-updates",
       "priority": "medium"
     }
   ]

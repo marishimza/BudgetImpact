@@ -8948,6 +8948,75 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-06-24T23:02:02.013Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO releases technical guidance on pre-1985 share valuation reset for July 2027 CGT changes",
+      "description": "ATO confirms pre-1985 share holdings will receive a valuation reset to market value as at 30 June 2025 under the new CGT indexation regime taking effect 1 July 2027. Technical guidance distinguishes between cost base indexation and CGT discount methods for these assets.",
+      "suggestion": "Add to budget-updates.json: ATO confirms pre-1985 share valuation reset for 1 July 2027 CGT changes — technical guidance distinguishes indexation methods",
+      "source": "https://www.ato.gov.au/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260625-638",
+      "timestamp": "2026-06-25T05:58:35.623Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-25T07:39:07.574Z"
+    },
+    {
+      "id": "suggestion-20260625-332",
+      "timestamp": "2026-06-25T05:58:35.623Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-25T07:39:38.003Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "CGT discount replacement: inflation indexation vs cost base indexation vs preserved choice",
+      "description": "Official budget fact sheet examples show the 50% CGT discount still applying in some scenarios, while multiple professional sources claim the discount is being 'replaced' by indexation. NAB specifically cites 'cost base indexation' while other sources mention inflation indexation. This creates factual uncertainty about whether taxpayers get a choice or face a mandatory replacement mechanism.",
+      "suggestion": "Add to debates.json: Official budget.gov.au fact sheet (May 12, 2026) shows the 50% CGT discount still applying in worked examples, while NAB Budget Analysis states 'CGT discount replaced by cost base indexation' and other sources claim 'inflation indexation' replacement — creating conflict over the actual mechanism (mandatory replacement vs preserved choice, and which indexation method applies)",
+      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf vs https://www.nab.com.au/news/budget-2026-what-it-means-for-your-money",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260605-512",
+      "timestamp": "2026-06-05T21:17:32.295Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-25T07:40:21.029Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Labor-Greens deal secures Senate passage for housing tax reforms",
+      "description": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026 passes Senate after Labor and Greens reach agreement. Coalition's earlier opposition challenge withdrawn. Legislation receives Royal Assent, confirming negative gearing restrictions and CGT discount reforms as law.",
+      "suggestion": "Add to budget-updates.json: Labor-Greens deal confirms CGT and negative gearing reforms will pass Parliament — Legislation now enacted with Royal Assent confirmed",
+      "source": "https://www.abc.net.au/news/2026-06-25/federal-politics-live-blog-teal-political-party/106839082",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260625-515",
+      "timestamp": "2026-06-25T05:58:35.623Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.abc.net.au/news/2026-06-24/self-managed-super-sector-blindsided-by-labor-greens-tax-deal/106833362",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-25T07:37:16.511Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO confirms indexed thresholds for Division 296 super tax commencement 1 July 2026",
+      "description": "ATO releases final indexed thresholds for Better Targeted Super Concessions (Division 296) showing the $3m Total Superannuation Balance threshold and 15% tax on earnings above threshold applies for 2026-27 financial year. Draft legislation with CGT relief provisions for SMSFs also confirmed.",
+      "suggestion": "Add to budget-updates.json: Division 296 Better Targeted Super Concessions confirmed as enacted law — 15% tax applies from 1 July 2026 on earnings above $3m threshold",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260625-938",
+      "timestamp": "2026-06-25T05:58:35.623Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-06-25T07:38:43.589Z"
     }
   ]
 }

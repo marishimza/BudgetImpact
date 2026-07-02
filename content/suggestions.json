@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T05:51:16.613Z",
+  "lastUpdated": "2026-07-02T07:27:34.665Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2166,18 +2166,6 @@
       "source": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/2026-27-budget-speech-parliament-house-canberra",
       "implementation_effort": "10_minutes",
       "id": "suggestion-20260609-976",
-      "timestamp": "2026-06-09T10:52:53.140Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will the Coalition's pledge to repeal negative gearing and CGT changes affect investor behaviour and market stability?",
-      "description": "The Coalition has vowed to repeal the measures if elected, with Shadow Treasurer Tim Wilson stating they will seek to 'defeat the changes' and repeal them 'if necessary'. This creates uncertainty about whether grandfathered arrangements will survive a change of government, which directly affects investment decisions and property market stability. Credible sources present conflicting views on whether this political uncertainty will drive investors to act before or after the policy takes effect.",
-      "suggestion": "Add to debates.json: Coalition (The Guardian) vows to repeal negative gearing and CGT changes 'if necessary', creating uncertainty about grandfathered arrangements under potential future government",
-      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260609-132",
       "timestamp": "2026-06-09T10:52:53.140Z",
       "status": "pending"
     },
@@ -6983,31 +6971,6 @@
     },
     {
       "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases detailed indexation calculation methodology for pre-1985 CGT assets",
-      "description": "Technical ATO guidance released ahead of July 2027 details how investors holding pre-1985 assets should calculate their reset indexed cost base, including worked examples for shares and property. The reset mechanism allows assets acquired before CGT commenced to use 1 July 2027 as their indexed acquisition date rather than the original purchase date.",
-      "suggestion": "Add to budget-updates.json: ATO releases detailed indexation calculation methodology for pre-1985 CGT assets",
-      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260702-531",
-      "timestamp": "2026-07-02T05:51:13.422Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ATO technical guidance clarifies cost base indexation vs CGT discount distinction for tax professionals",
-      "description": "The ATO has released technical guidance distinguishing between the new cost base indexation method (which adjusts the original cost for inflation) and the abolished CGT discount (which reduced taxable gains by 50%). The guidance clarifies these are mutually exclusive mechanisms and explains how the 30% minimum tax floor interacts with indexation.",
-      "suggestion": "Add to budget-updates.json: ATO technical guidance clarifies cost base indexation vs CGT discount distinction for tax professionals",
-      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260702-364",
-      "timestamp": "2026-07-02T05:51:13.422Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
       "priority": "low",
       "title": "Tax practitioner readiness concerns as ATO releases final CGT indexation guidance with 12-month implementation window",
       "description": "As the ATO releases practical guidance for CGT indexation calculations ahead of July 2027 reforms, tax professionals face a compressed 12-month window to update systems and train staff. The guidance includes detailed worked examples for common asset types including shares, managed funds, and residential investment properties.",
@@ -7065,30 +7028,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260702-917",
-      "timestamp": "2026-07-02T05:51:13.422Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260702-861",
-      "timestamp": "2026-07-02T05:51:13.422Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -8424,6 +8363,45 @@
       "source": "",
       "implementation_effort": "15_minutes",
       "implemented_at": "2026-07-01T23:08:30.848Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO technical guidance clarifies cost base indexation vs CGT discount distinction for tax professionals",
+      "description": "The ATO has released technical guidance distinguishing between the new cost base indexation method (which adjusts the original cost for inflation) and the abolished CGT discount (which reduced taxable gains by 50%). The guidance clarifies these are mutually exclusive mechanisms and explains how the 30% minimum tax floor interacts with indexation.",
+      "suggestion": "Add to budget-updates.json: ATO technical guidance clarifies cost base indexation vs CGT discount distinction for tax professionals",
+      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260702-364",
+      "timestamp": "2026-07-02T05:51:13.422Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-02T07:25:49.630Z"
+    },
+    {
+      "id": "suggestion-20260702-917",
+      "timestamp": "2026-07-02T05:51:13.422Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-07-02T07:26:29.472Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the Coalition's pledge to repeal negative gearing and CGT changes affect investor behaviour and market stability?",
+      "description": "The Coalition has vowed to repeal the measures if elected, with Shadow Treasurer Tim Wilson stating they will seek to 'defeat the changes' and repeal them 'if necessary'. This creates uncertainty about whether grandfathered arrangements will survive a change of government, which directly affects investment decisions and property market stability. Credible sources present conflicting views on whether this political uncertainty will drive investors to act before or after the policy takes effect.",
+      "suggestion": "Add to debates.json: Coalition (The Guardian) vows to repeal negative gearing and CGT changes 'if necessary', creating uncertainty about grandfathered arrangements under potential future government",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260609-132",
+      "timestamp": "2026-06-09T10:52:53.140Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-02T07:27:34.665Z"
     }
   ],
   "skipped": [
@@ -8986,6 +8964,35 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-07-01T23:07:40.135Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases detailed indexation calculation methodology for pre-1985 CGT assets",
+      "description": "Technical ATO guidance released ahead of July 2027 details how investors holding pre-1985 assets should calculate their reset indexed cost base, including worked examples for shares and property. The reset mechanism allows assets acquired before CGT commenced to use 1 July 2027 as their indexed acquisition date rather than the original purchase date.",
+      "suggestion": "Add to budget-updates.json: ATO releases detailed indexation calculation methodology for pre-1985 CGT assets",
+      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260702-531",
+      "timestamp": "2026-07-02T05:51:13.422Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-07-02T07:25:12.724Z"
+    },
+    {
+      "id": "suggestion-20260702-861",
+      "timestamp": "2026-07-02T05:51:13.422Z",
+      "status": "skipped",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-07-02T07:26:46.824Z"
     }
   ],
   "needs_manual_review": [

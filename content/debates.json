@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T17:51:19.048Z",
+  "lastUpdated": "2026-07-02T07:27:34.661Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2750,6 +2750,29 @@
         "argument": "Other analysts and financial commentators suggest more severe outcomes are possible. These analysts argue the combination of negative gearing changes and CGT reforms could trigger a more sustained property price decline as investor behavior shifts and market sentiment deteriorates.",
         "sources": [
           "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-119",
+      "slug": "coalition-pledge-repeal-negative-gearing-cgt-investor-behaviour",
+      "title": "Will the Coalition's pledge to repeal negative gearing and CGT changes affect investor behaviour and market stability?",
+      "category": "debate_page",
+      "type": "projection_disagreement",
+      "summary": "The Coalition has vowed to repeal Labor's negative gearing and capital gains tax changes if elected, creating uncertainty about the durability of these reforms. Shadow Treasurer Tim Wilson has stated the Coalition will seek to 'defeat the changes' and repeal them 'if necessary', raising questions about whether potential changes of government will affect investor decisions and property market stability.",
+      "view_a": {
+        "label": "Uncertainty will significantly affect investor behaviour",
+        "argument": "The Coalition's explicit commitment to repeal the negative gearing and CGT changes creates substantial policy uncertainty that will influence investor behaviour. Property investors are likely to adopt a wait-and-see approach, delaying investment decisions until the political outcome is clear. Some investors may rush to complete transactions before any changes take effect, while others may hold off purchasing until the policy landscape stabilises. This uncertainty undermines the intended market stabilisation goals of the reforms and could create artificial volatility in property transaction volumes.",
+        "sources": [
+          "https://www.abc.net.au/news/2026-05-13/coalition-pledges-to-repeal-negative-gearing-cgt-changes/10667234"
+        ]
+      },
+      "view_b": {
+        "label": "Limited impact on investor behaviour and market stability",
+        "argument": "The proposed reforms include grandfathering arrangements that protect existing investors from adverse changes, which mitigates the impact of political uncertainty. Many property investors operate with long-term investment horizons and are less influenced by short-term policy fluctuations. Additionally, fundamental factors such as rental yields, population growth, and interest rates continue to drive property investment decisions more significantly than political rhetoric. Market stability is more likely to be affected by broader economic conditions than by the possibility of future policy reversal.",
+        "sources": [
+          "https://www.abc.net.au/news/2026-05-13/coalition-pledges-to-repeal-negative-gearing-cgt-changes/10667234"
         ]
       },
       "verdict": null

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T23:08:30.844Z",
+  "lastUpdated": "2026-07-02T07:26:29.467Z",
   "items": [
     {
       "id": "update-001",
@@ -3229,6 +3229,26 @@
       "title": "Senate Passes Contested Budget Legislation Following Opposition U-Turn",
       "summary": "The Senate has passed contested budget legislation after the opposition reversed its position on key provisions. The legislation, which includes significant changes to tax and spending measures, passed with crossbench support. This marks a major development in the budget implementation process.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
+      "priority": "high"
+    },
+    {
+      "id": "update-321",
+      "date": "2026-07-02",
+      "tag": "Property",
+      "source": "Australian Taxation Office",
+      "title": "ATO technical guidance clarifies cost base indexation vs CGT discount distinction for tax professionals",
+      "summary": "The ATO has released technical guidance distinguishing between the new cost base indexation method (which adjusts the original cost for inflation) and the abolished CGT discount (which previously reduced taxable gains by 50%). The guidance clarifies these are mutually exclusive mechanisms and explains how the 30% minimum tax floor interacts with indexation for property investors and tax professionals.",
+      "url": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "priority": "medium"
+    },
+    {
+      "id": "update-322",
+      "date": "2026-07-02",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Legislation passes Senate — budget measures now law",
+      "summary": "The contested legislation referenced in earlier budget updates has now passed through the Senate following renewed negotiations between the government and crossbench senators. The budget measures previously flagged as potentially blocked have been enacted into law. Tax and superannuation changes outlined in the May budget are now operational.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/bd2526",
       "priority": "high"
     }
   ]

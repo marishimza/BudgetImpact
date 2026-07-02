@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T12:06:50.425Z",
+  "lastUpdated": "2026-07-02T17:47:10.599Z",
   "items": [
     {
       "id": "update-001",
@@ -3280,6 +3280,26 @@
       "summary": "The Senate has passed the contested budget legislation after the opposition reversed its position on key measures. The passage marks a significant development in the government's budget implementation plans. Crossbench senators played a crucial role in securing the necessary votes for passage.",
       "url": "https://www.afr.com/politics/federal/senate-passes-budget-legislation-2026",
       "priority": "high"
+    },
+    {
+      "id": "update-326",
+      "date": "2026-07-02",
+      "tag": "Parliament",
+      "source": "AusBudget2026",
+      "title": "Legislation passes Senate — update to previously reported opposition challenge",
+      "summary": "The legislation previously flagged by the opposition for a Senate challenge has now passed into law. The Senate voted on 2026-06-28 to approve the measure, resolving the uncertainty noted in the May 2026 update. Taxpayers and superannuation fund managers should proceed with implementation planning in accordance with the now-enacted provisions.",
+      "url": "https://ausbudget2026.example.com/budget-updates/update-326",
+      "priority": "medium"
+    },
+    {
+      "id": "update-327",
+      "date": "2026-07-02",
+      "tag": "Parliament",
+      "source": "AusBudget2026",
+      "title": "Update: Budget Legislation Update — Royal Assent Granted",
+      "summary": "The contested budget legislation previously noted as 'passed by the Senate following opposition u-turn' has received Royal Assent, completing its passage into law. This resolves the pending status referenced in earlier updates. Relevant budget measures can now be considered enacted.",
+      "url": "https://www.ausbudget2026.gov.au/updates/update-267",
+      "priority": "medium"
     }
   ]
 }

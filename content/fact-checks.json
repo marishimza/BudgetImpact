@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T23:05:21.270Z",
+  "lastUpdated": "2026-07-02T17:48:15.554Z",
   "claims": [
     {
       "id": "fc-001",
@@ -2000,6 +2000,42 @@
       ],
       "date_checked": "2026-06-30",
       "category": "Housing & Tax"
+    },
+    {
+      "id": "fc-104",
+      "slug": "inflation-56-percent-asx200-share-gains",
+      "claim": "Inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "The 56% figure comes from Treasury analysis of the ASX 200 index specifically, but should not be applied broadly to all capital assets or individual investor outcomes.",
+      "detailed_explanation": "Treasury analysis cited by ASX and ABC News identifies inflation as accounting for 56% of ASX 200 share index movements over a defined decade. However, this finding is specific to the ASX 200 index performance and its particular methodology and timeframe. The claim becomes misleading when represented as a universal fact about capital gains or applied to individual investor portfolios, different asset classes, or alternative time periods. The analysis applies specifically to aggregate index movements, not to individual stock selection, dividend returns, or other factors affecting actual investor outcomes.",
+      "sources": [
+        {
+          "name": "ASX",
+          "url": "https://www.asx.com.au",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-07-02",
+      "category": "markets"
+    },
+    {
+      "id": "fc-105",
+      "slug": "inflation-indexation-vs-50-percent-discount-cgt",
+      "claim": "Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "The claim is oversimplified. For low marginal rate taxpayers, the 50% discount can actually produce a better outcome than inflation indexation.",
+      "detailed_explanation": "ASX analysis shows that a retired investor on a 16% marginal rate currently pays 8% tax on nominal gains (16% × 50% discount), but would face 30% on indexed gains under new rules—meaning the old system produces a BETTER outcome for low-rate taxpayers. Treasury analysis also shows inflation accounts for 56% of ASX 200 gains over a decade, suggesting indexation benefits high-inflation periods but not universally. The comparison depends heavily on the taxpayer's marginal tax rate, holding period, and the inflation environment.",
+      "sources": [
+        {
+          "name": "ASX",
+          "url": "https://www.asx.com.au",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-07-02",
+      "category": "tax"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T16:02:13.489Z",
+  "lastUpdated": "2026-07-02T17:48:15.558Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2194,18 +2194,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources repeat this claim, but the budget.gov.au states 'minimum 30% tax on gains' - the key question is whether the 30% floor applies to the full nominal gain, or only to gains after inflation indexation is applied. If indexation reduces the taxable gain, the effective rate comparison with the old 50% discount system changes significantly. The ASX analysis mentions '30% on indexed gains' which suggests the floor may not apply to the full nominal gain.",
-      "suggestion": "Add to fact-checks.json: claim is '30% minimum applies to ALL capital gains', verdict is partially_true because the floor applies to indexed gains, but the interaction between the 30% floor and inflation indexation may mean some gains face a different effective rate than implied by 'on ALL gains'.",
-      "source": "https://www.budget.gov.au/view/budget-papers.html",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260609-750",
-      "timestamp": "2026-06-09T16:26:13.389Z",
-      "status": "pending"
-    },
-    {
       "id": "suggestion-20260609-684",
       "timestamp": "2026-06-09T16:26:13.389Z",
       "status": "pending",
@@ -2216,18 +2204,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over the past decade",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This specific percentage appears in Treasury analysis cited by ASX and ABC News. However, media coverage may oversimplify this as applying broadly to all capital gains, when it specifically relates to ASX 200 share index movements over one decade. The claim could be misrepresented as a universal fact about all assets, when it's limited to a specific index and timeframe.",
-      "suggestion": "Add to fact-checks.json: claim is 'inflation accounts for 56% of ASX 200 share gains over the past decade', verdict is partially_true because the 56% figure applies specifically to ASX 200 index performance over a defined decade, not to all capital assets or investor outcomes. The methodology and timeframe are specific to Treasury analysis of that index.",
-      "source": "https://www.asx.com.au",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260609-939",
-      "timestamp": "2026-06-09T21:31:38.656Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -2252,18 +2228,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim appears in fact-checks but may be oversimplified or inaccurate. The ASX analysis shows a retired investor on a 16% marginal rate currently pays 8% tax on nominal gains (16% × 50% discount), but would face 30% on indexed gains under new rules—meaning the old system produces a BETTER outcome for low-rate taxpayers. Treasury analysis also shows inflation accounts for 56% of ASX 200 gains over a decade, suggesting indexation benefits high-inflation periods but not universally.",
-      "suggestion": "Add to fact-checks.json: claim is 'inflation indexation always produces better outcome', verdict is disputed because for low marginal rate taxpayers (e.g., 16%), the 50% discount results in 8% effective tax versus potentially 30% minimum under new rules, making the old system more favorable in some cases.",
-      "source": "https://www.asx.com.au",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260610-542",
-      "timestamp": "2026-06-10T06:16:01.921Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -7148,30 +7112,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260702-191",
-      "timestamp": "2026-07-02T16:02:05.683Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260702-302",
-      "timestamp": "2026-07-02T16:02:05.683Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -8520,6 +8460,58 @@
       "timestamp": "2026-06-09T16:26:13.389Z",
       "status": "implemented",
       "implemented_at": "2026-07-02T12:07:41.631Z"
+    },
+    {
+      "id": "suggestion-20260702-191",
+      "timestamp": "2026-07-02T16:02:05.683Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-07-02T17:40:22.991Z"
+    },
+    {
+      "id": "suggestion-20260702-302",
+      "timestamp": "2026-07-02T16:02:05.683Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-07-02T17:47:10.604Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This specific percentage appears in Treasury analysis cited by ASX and ABC News. However, media coverage may oversimplify this as applying broadly to all capital gains, when it specifically relates to ASX 200 share index movements over one decade. The claim could be misrepresented as a universal fact about all assets, when it's limited to a specific index and timeframe.",
+      "suggestion": "Add to fact-checks.json: claim is 'inflation accounts for 56% of ASX 200 share gains over the past decade', verdict is partially_true because the 56% figure applies specifically to ASX 200 index performance over a defined decade, not to all capital assets or investor outcomes. The methodology and timeframe are specific to Treasury analysis of that index.",
+      "source": "https://www.asx.com.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260609-939",
+      "timestamp": "2026-06-09T21:31:38.656Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-02T17:47:53.879Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim appears in fact-checks but may be oversimplified or inaccurate. The ASX analysis shows a retired investor on a 16% marginal rate currently pays 8% tax on nominal gains (16% × 50% discount), but would face 30% on indexed gains under new rules—meaning the old system produces a BETTER outcome for low-rate taxpayers. Treasury analysis also shows inflation accounts for 56% of ASX 200 gains over a decade, suggesting indexation benefits high-inflation periods but not universally.",
+      "suggestion": "Add to fact-checks.json: claim is 'inflation indexation always produces better outcome', verdict is disputed because for low marginal rate taxpayers (e.g., 16%), the 50% discount results in 8% effective tax versus potentially 30% minimum under new rules, making the old system more favorable in some cases.",
+      "source": "https://www.asx.com.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260610-542",
+      "timestamp": "2026-06-10T06:16:01.921Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-02T17:48:15.557Z"
     }
   ],
   "skipped": [
@@ -9067,6 +9059,20 @@
       "implementation_effort": "15_minutes",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-07-02T07:26:46.824Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a new minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources repeat this claim, but the budget.gov.au states 'minimum 30% tax on gains' - the key question is whether the 30% floor applies to the full nominal gain, or only to gains after inflation indexation is applied. If indexation reduces the taxable gain, the effective rate comparison with the old 50% discount system changes significantly. The ASX analysis mentions '30% on indexed gains' which suggests the floor may not apply to the full nominal gain.",
+      "suggestion": "Add to fact-checks.json: claim is '30% minimum applies to ALL capital gains', verdict is partially_true because the floor applies to indexed gains, but the interaction between the 30% floor and inflation indexation may mean some gains face a different effective rate than implied by 'on ALL gains'.",
+      "source": "https://www.budget.gov.au/view/budget-papers.html",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260609-750",
+      "timestamp": "2026-06-09T16:26:13.389Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-07-02T17:47:27.201Z"
     }
   ],
   "needs_manual_review": [

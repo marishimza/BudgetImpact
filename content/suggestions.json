@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T10:29:29.787Z",
+  "lastUpdated": "2026-07-02T12:07:41.632Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2192,30 +2192,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "CGT discount: eliminated, replaced with indexation, or preserved with choice?",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Conflicting factual claims about whether the 50% CGT discount is being eliminated, replaced by inflation indexation, or preserved with a choice for taxpayers. This matters for investors planning asset sales and understanding their actual tax obligations.",
-      "suggestion": "Add to debates.json: budget.gov.au fact sheet says Michael 'still receives the 50% CGT discount' (preserved), while ABC News says government is restricting 'capital gains tax discounts' and multiple analyses describe the discount being 'replaced' by indexation",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260609-748",
-      "timestamp": "2026-06-09T16:26:13.389Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will the $2B infrastructure initiative deliver 65,000 additional homes?",
-      "description": "Conflicting factual claims about whether the government's $2 billion infrastructure initiative will produce 65,000 additional homes as claimed by REIA President, versus other projections suggesting lower delivery. This matters for evaluating budget housing policy effectiveness.",
-      "suggestion": "Add to debates.json: REIA President Jacob Caine says the initiative 'expected to enable around 65,000 additional homes', while other credible analyses question whether this figure is achievable or overly optimistic",
-      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260609-618",
-      "timestamp": "2026-06-09T16:26:13.389Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -7031,19 +7007,6 @@
     },
     {
       "type": "content_update",
-      "priority": "high",
-      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 Receives Royal Assent",
-      "description": "Confirm that the Treasury Laws Amendment (More Housing, More Help) Bill 2026 has received Royal Assent and is now enacted law, following Senate passage after the Coalition withdrew its opposition challenge.",
-      "suggestion": "Add confirmed legislation status: Treasury Laws Amendment (More Housing, More Help) Bill 2026 has received Royal Assent — CGT discount reform and negative gearing changes now enacted into law.",
-      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Legislation_List",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260702-492",
-      "timestamp": "2026-07-02T10:29:21.735Z",
-      "status": "pending",
-      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
-    },
-    {
-      "type": "content_update",
       "priority": "medium",
       "title": "ATO Releases Practical Guidance for CGT Indexation Calculations Ahead of July 2027",
       "description": "The ATO has released practical guidance to help investors and tax professionals prepare for the July 2027 CGT reforms, including technical guidance on calculating indexed cost bases and distinguishing between cost base indexation and the former CGT discount for pre-1985 assets.",
@@ -7125,30 +7088,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260702-256",
-      "timestamp": "2026-07-02T10:29:21.735Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260702-167",
-      "timestamp": "2026-07-02T10:29:21.735Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -8484,6 +8423,72 @@
       "timestamp": "2026-06-09T10:52:53.140Z",
       "status": "implemented",
       "implemented_at": "2026-07-02T07:27:34.665Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 Receives Royal Assent",
+      "description": "Confirm that the Treasury Laws Amendment (More Housing, More Help) Bill 2026 has received Royal Assent and is now enacted law, following Senate passage after the Coalition withdrew its opposition challenge.",
+      "suggestion": "Add confirmed legislation status: Treasury Laws Amendment (More Housing, More Help) Bill 2026 has received Royal Assent — CGT discount reform and negative gearing changes now enacted into law.",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Legislation_List",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260702-492",
+      "timestamp": "2026-07-02T10:29:21.735Z",
+      "status": "implemented",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
+      "implemented_at": "2026-07-02T12:05:54.604Z"
+    },
+    {
+      "id": "suggestion-20260702-256",
+      "timestamp": "2026-07-02T10:29:21.735Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-07-02T12:06:21.941Z"
+    },
+    {
+      "id": "suggestion-20260702-167",
+      "timestamp": "2026-07-02T10:29:21.735Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-07-02T12:06:50.430Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "CGT discount: eliminated, replaced with indexation, or preserved with choice?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Conflicting factual claims about whether the 50% CGT discount is being eliminated, replaced by inflation indexation, or preserved with a choice for taxpayers. This matters for investors planning asset sales and understanding their actual tax obligations.",
+      "suggestion": "Add to debates.json: budget.gov.au fact sheet says Michael 'still receives the 50% CGT discount' (preserved), while ABC News says government is restricting 'capital gains tax discounts' and multiple analyses describe the discount being 'replaced' by indexation",
+      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260609-748",
+      "timestamp": "2026-06-09T16:26:13.389Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-02T12:07:17.108Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the $2B infrastructure initiative deliver 65,000 additional homes?",
+      "description": "Conflicting factual claims about whether the government's $2 billion infrastructure initiative will produce 65,000 additional homes as claimed by REIA President, versus other projections suggesting lower delivery. This matters for evaluating budget housing policy effectiveness.",
+      "suggestion": "Add to debates.json: REIA President Jacob Caine says the initiative 'expected to enable around 65,000 additional homes', while other credible analyses question whether this figure is achievable or overly optimistic",
+      "source": "https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260609-618",
+      "timestamp": "2026-06-09T16:26:13.389Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-02T12:07:41.631Z"
     }
   ],
   "skipped": [

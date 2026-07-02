@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T07:26:29.467Z",
+  "lastUpdated": "2026-07-02T12:06:50.425Z",
   "items": [
     {
       "id": "update-001",
@@ -3249,6 +3249,36 @@
       "title": "Legislation passes Senate — budget measures now law",
       "summary": "The contested legislation referenced in earlier budget updates has now passed through the Senate following renewed negotiations between the government and crossbench senators. The budget measures previously flagged as potentially blocked have been enacted into law. Tax and superannuation changes outlined in the May budget are now operational.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/bd2526",
+      "priority": "high"
+    },
+    {
+      "id": "update-323",
+      "date": "2026-07-02",
+      "tag": "Parliament",
+      "source": "Australian Parliament House",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 Receives Royal Assent",
+      "summary": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has received Royal Assent, completing its passage into law. The legislation introduces significant changes to capital gains tax (CGT) discount arrangements and negative gearing rules following the Coalition's withdrawal of its opposition challenge in the Senate. Property investors and housing market participants should note the reforms are now operative under Commonwealth law.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Legislation_List",
+      "priority": "high"
+    },
+    {
+      "id": "update-324",
+      "date": "2026-07-01",
+      "tag": "Parliament",
+      "source": "Australian Parliament House",
+      "title": "Senate passes legislation following opposition challenge — bill receives Royal Assent",
+      "summary": "The legislation previously subject to opposition Senate challenge has now cleared both houses of Parliament and received Royal Assent. The government's budget measures tied to this legislation can now proceed as planned. Stakeholders should note the effective dates as outlined in the amended bill.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
+      "priority": "high"
+    },
+    {
+      "id": "update-325",
+      "date": "2026-07-02",
+      "tag": "Parliament",
+      "source": "Australian Financial Review",
+      "title": "Senate Passes Contested Budget Legislation Following Opposition U-Turn",
+      "summary": "The Senate has passed the contested budget legislation after the opposition reversed its position on key measures. The passage marks a significant development in the government's budget implementation plans. Crossbench senators played a crucial role in securing the necessary votes for passage.",
+      "url": "https://www.afr.com/politics/federal/senate-passes-budget-legislation-2026",
       "priority": "high"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T07:27:34.661Z",
+  "lastUpdated": "2026-07-02T12:07:41.628Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2773,6 +2773,50 @@
         "argument": "The proposed reforms include grandfathering arrangements that protect existing investors from adverse changes, which mitigates the impact of political uncertainty. Many property investors operate with long-term investment horizons and are less influenced by short-term policy fluctuations. Additionally, fundamental factors such as rental yields, population growth, and interest rates continue to drive property investment decisions more significantly than political rhetoric. Market stability is more likely to be affected by broader economic conditions than by the possibility of future policy reversal.",
         "sources": [
           "https://www.abc.net.au/news/2026-05-13/coalition-pledges-to-repeal-negative-gearing-cgt-changes/10667234"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-120",
+      "slug": "cgt-discount-eliminated-replaced-indexation-preserved",
+      "title": "CGT discount: eliminated, replaced with indexation, or preserved with choice?",
+      "category": "taxation",
+      "type": "factual_dispute",
+      "summary": "Conflicting claims about the 2026 Budget's treatment of the 50% capital gains tax (CGT) discount: whether it is being eliminated entirely, replaced by inflation indexation, or preserved with taxpayers given a choice between the discount and indexation. This dispute affects how investors and property owners understand their actual tax obligations when selling assets.",
+      "view_a": {
+        "label": "Discount preserved with taxpayer choice",
+        "argument": "Government budget fact sheets confirm the 50% CGT discount remains intact. Taxpayers retain access to the discount and are given a choice—they can continue using the 50% discount or opt for inflation indexation instead, which may be more beneficial depending on their circumstances and the asset's holding period.",
+        "sources": [
+          "https://budget.gov.au/2026-26/fact-sheets"
+        ]
+      },
+      "view_b": {
+        "label": "Discount eliminated or replaced by indexation",
+        "argument": "The 2026 Budget restricts capital gains tax discounts. Multiple independent analyses describe the 50% discount being replaced by inflation indexation, effectively reducing the tax advantage for investors and property owners who previously relied on the flat 50% reduction. The government's own communications emphasise indexation as the new approach.",
+        "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-121",
+      "slug": "will-2b-infrastructure-initiative-deliver-65000-homes",
+      "title": "Will the $2B infrastructure initiative deliver 65,000 additional homes?",
+      "category": "housing",
+      "type": "projection_disagreement",
+      "summary": "The Real Estate Institute of Australia (REIA) President Jacob Caine claims the government's $2 billion infrastructure initiative will enable around 65,000 additional homes. However, other credible analyses question whether this figure is achievable or overly optimistic, raising concerns about the effectiveness of budget housing policy.",
+      "view_a": {
+        "label": "REIA President: 65,000 homes achievable",
+        "argument": "REIA President Jacob Caine has stated that the $2 billion infrastructure initiative is 'expected to enable around 65,000 additional homes'. The REIA supports this projection based on the link between infrastructure investment and housing supply, arguing that strategic infrastructure spending removes bottlenecks and unlocks development capacity in key areas.",
+        "sources": [
+          "https://www.reia.com.au"
+        ]
+      },
+      "view_b": {
+        "label": "Analysts question 65,000 figure as optimistic",
+        "argument": "Other credible analyses and economic commentators have questioned whether the $2 billion infrastructure initiative can realistically deliver 65,000 additional homes. Critics point to historical underdelivery of similar programs, infrastructure bottlenecks that persist despite funding, and the complexity of coordinating state, local, and private development approvals. These analysts suggest more conservative delivery figures are likely.",
+        "sources": [
+          "https://www.theaustralian.com.au"
         ]
       },
       "verdict": null

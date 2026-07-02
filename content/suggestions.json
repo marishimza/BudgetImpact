@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T12:07:41.632Z",
+  "lastUpdated": "2026-07-02T16:02:13.489Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -7088,62 +7088,93 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament",
-      "description": "Bills Search Results page shows Tax Reform No. 1 Bill 2026 (bId=r7493) has been formally introduced to Parliament, separate from the Housing Bill, suggesting the Government is progressing CGT and trust reforms through a dedicated tax reform bill rather than combining all measures in one piece of legislation.",
-      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament — separate from Housing Bill, suggesting dual-track legislative approach for CGT and trust tax reforms",
-      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7493",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260625-887",
-      "timestamp": "2026-06-25T10:35:25.616Z",
-      "status": "implemented",
-      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
-      "implemented_at": "2026-06-25T12:13:35.721Z"
     },
     {
-      "type": "content_update",
+      "type": "debate_page",
       "priority": "medium",
-      "title": "ATO releases Division 296 indexed thresholds and CGT relief details for SMSFs",
-      "description": "The ATO has confirmed the indexed thresholds for Division 296 (Better Targeted Super Concessions) and released CGT relief provisions specifically applicable to self-managed superannuation funds affected by the new high-balance super tax.",
-      "suggestion": "Add to budget-updates.json: ATO releases Division 296 indexed thresholds and CGT relief details for SMSFs — confirms 15% tax mechanics and transitional relief provisions",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260625-527",
-      "timestamp": "2026-06-25T10:35:25.616Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-25T12:14:11.058Z"
+      "title": "$2B infrastructure initiative housing delivery: official target vs independent feasibility",
+      "description": "The Government claims the $2 billion infrastructure initiative will deliver 65,000 additional homes. However, Grattan Institute modelling questions whether this target is achievable, suggesting independent analysis produces lower estimates than Government projections. This represents a factual conflict between Government modelling and independent assessment of housing supply capacity.",
+      "suggestion": "Add to debates.json: Government sources (budget.gov.au, Treasury) project 65,000 additional homes from the $2B infrastructure initiative. Grattan Institute modelling questions delivery feasibility and whether the 65,000 target is realistic given infrastructure-housing linkage challenges.",
+      "source": "https://www.grattan.edu.au/news/2026-budget-tax-reforms-unlikely-to-materially-improve-housing-affordability-until-2030s",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260702-765",
+      "timestamp": "2026-07-02T16:02:05.683Z",
+      "status": "pending"
     },
     {
-      "id": "suggestion-20260625-205",
-      "timestamp": "2026-06-25T10:35:25.617Z",
-      "status": "implemented",
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Budget housing measures cost: Government $6.4bn vs Coalition $23bn fiscal impact",
+      "description": "The Government states the housing measures cost $6.4 billion over four years. The Coalition's costings claim the measures would have a $23 billion impact over a decade if maintained. These figures may measure different things (ongoing cost vs net impact), but are presented as conflicting valuations of the same policy package.",
+      "suggestion": "Add to debates.json: Government budget papers value housing measures at $6.4 billion over four years. Coalition costings project $23 billion impact over a decade. This reflects different timeframes and measurement approaches but creates factual conflict in reported costs.",
+      "source": "https://www.abc.net.au/news/2026-05-13/tax-reform-coalition-fight-budget-response/106673294",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260702-345",
+      "timestamp": "2026-07-02T16:02:05.683Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: Treasury analysis shows inflation accounts for 56% of ASX 200 share gains over the past decade",
+      "description": "This specific statistic (56%) appears repeatedly across multiple media sources citing 'Treasury analysis' but the exact source document, methodology, and timeframe are unclear. The claim lacks proper attribution and the figure could be misquoted or taken out of context.",
+      "suggestion": "Add to fact-checks.json: claim is '56% of ASX 200 gains over decade due to inflation', verdict is unclear because the specific Treasury source document, exact methodology, precise timeframe, and whether this applies to total returns or just capital gains have not been verified from official Treasury publications.",
+      "source": "Multiple media sources including ASX.com.au and australianshareholders.com.au reference this statistic",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260702-206",
+      "timestamp": "2026-07-02T16:02:05.683Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: The 50% CGT discount is being 'replaced by inflation indexation' with no choice for taxpayers",
+      "description": "Search results show inconsistent terminology: budget.gov.au says 'discount based on inflation', williambuck.com.au says 'cost base indexation', and ATO guidance refers to 'cost base indexation approach' similar to pre-1999. The distinction between 'inflation indexation' (adjusting for CPI) and 'cost base indexation' (indexing the purchase cost) could be materially different for tax calculations.",
+      "suggestion": "Add to fact-checks.json: claim is 'CGT discount replaced by inflation indexation', verdict is disputed because official sources use 'cost base indexation' terminology which differs technically from 'inflation indexation', and the mechanism (cost basis adjustment vs tax rate modification) may be oversimplified in media reporting.",
+      "source": "budget.gov.au (tax reform page), williambuck.com.au, ato.gov.au, perpetuals.com.au",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260702-439",
+      "timestamp": "2026-07-02T16:02:05.683Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260702-907",
+      "timestamp": "2026-07-02T16:02:05.683Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "id": "suggestion-20260702-191",
+      "timestamp": "2026-07-02T16:02:05.683Z",
+      "status": "pending",
       "priority": "medium",
       "type": "content_update",
       "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
       "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
       "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
       "source": "",
-      "implementation_effort": "15_minutes",
-      "implemented_at": "2026-06-25T12:14:37.068Z"
+      "implementation_effort": "15_minutes"
     },
     {
-      "type": "debate_page",
+      "id": "suggestion-20260702-302",
+      "timestamp": "2026-07-02T16:02:05.683Z",
+      "status": "pending",
       "priority": "medium",
-      "title": "Does CGT minimum 30% floor apply to ALL gains or only gains above inflation?",
-      "description": "Multiple sources assert a 'minimum 30% tax rate on ALL gains' from July 2027, while other analyses suggest the floor may only apply to gains above inflation-adjusted cost base. This is a substantive factual difference: a taxpayer with modest nominal gains could face very different effective tax rates depending on which interpretation is correct.",
-      "suggestion": "Add to debates.json: Multiple sources claim 'minimum 30% tax rate on ALL gains' from July 2027, while other analyses suggest the floor applies only to gains above indexed cost base — creating factual conflict over whether modest nominal gains are caught by the minimum",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860 vs https://www.perpetual.com.au/insights/federal-budget-2026/",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260605-827",
-      "timestamp": "2026-06-05T21:17:32.295Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-25T12:15:11.593Z"
-    },
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "fact_check",
       "priority": "high",
@@ -8492,20 +8523,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will 2026 housing tax reforms increase or decrease rental supply?",
-      "description": "Industry bodies express conflicting views on whether restricting negative gearing and CGT changes will help or harm rental supply. REIA's leadership endorses the measures while its broader membership warns of reduced rental supply.",
-      "suggestion": "Add to debates.json: view_a from REIA/Property Council (slateandsage.com.au) warns that reducing property investment attractiveness 'could reduce rental supply over time'; view_b from REIA President Jacob Caine (apimagazine.com.au) says the measures including $2B infrastructure 'were positive and necessary steps toward addressing Australia's housing shortage'",
-      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors and https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260606-195",
-      "timestamp": "2026-06-06T05:47:03.121Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-25T12:15:25.570Z"
-    },
     {
       "id": "suggestion-20260625-588",
       "timestamp": "2026-06-25T16:17:26.084Z",

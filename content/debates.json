@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T12:07:41.628Z",
+  "lastUpdated": "2026-07-03T06:58:28.337Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2818,6 +2818,27 @@
         "sources": [
           "https://www.theaustralian.com.au"
         ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-122",
+      "slug": "when-negative-gearing-restrictions-take-effect",
+      "title": "When do negative gearing restrictions take effect for existing investors?",
+      "category": "tax-reform",
+      "type": "factual_dispute",
+      "summary": "Conflicting dates exist regarding when negative gearing restrictions commence. The official budget website states changes take effect from 1 July 2027, while some media and analysis sources reference Budget Night (12 May 2026) as a grandfathering cutoff date for existing investments.",
+      "view_a": {
+        "label": "Policy Commences 1 July 2027",
+        "argument": "The official budget.gov.au website explicitly states that negative gearing changes take effect 'from 1 July 2027', limiting the tax deduction to newly constructed residential properties. This is the legally operative commencement date for the policy, and grandfathering arrangements for existing investors would logically be determined relative to this date or transitional provisions announced alongside it.",
+        "sources": [
+          "https://budget.gov.au/content/04-tax-reform.htm"
+        ]
+      },
+      "view_b": {
+        "label": "Budget Night Cutoff 12 May 2026",
+        "argument": "Multiple sources reference a 'Budget Night cutoff' of 12 May 2026 as the relevant date for determining grandfathering eligibility. Under this interpretation, investors who purchased established properties before Budget Night may be grandfathered from the restrictions, while those who purchased after may not. This distinction is critical for investors who acquired properties between 12 May 2026 and 30 June 2027.",
+        "sources": []
       },
       "verdict": null
     }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T05:44:12.800Z",
+  "lastUpdated": "2026-07-03T06:58:28.342Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2252,30 +2252,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "CGT discount: eliminated/replaced versus preserved for existing investors",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] There is a factual conflict about whether the 50% CGT discount is being eliminated, replaced with indexation, or preserved for existing investors. Budget.gov.au's fact sheet suggests the 50% discount is preserved for grandfathered properties, while NAB Budget Analysis explicitly states the discount is 'replaced' by cost base indexation. ASX analysis describes a 'two-speed' system. This matters for investors trying to understand their tax obligations.",
-      "suggestion": "Add to debates.json: budget.gov.au fact sheet says existing investors 'still receives the 50 per cent CGT discount' for properties meeting grandfathering conditions; NAB Budget Analysis says 'CGT discount replaced by cost base indexation'; ASX analysis confirms 'two-speed' tax treatment for different investor types",
-      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf; https://www.nab.com.au/content/dam/nab/common/budget-2026-analysis.pdf; https://www.asx.com.au/content/dam/asx/investor-resources/cgt-reform-analysis.pdf",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260610-443",
-      "timestamp": "2026-06-10T11:31:18.196Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "When do negative gearing restrictions take effect for existing investors?",
-      "description": "There is conflicting information about the commencement date of negative gearing restrictions. Budget.gov.au explicitly states changes take effect 'from 1 July 2027' limiting negative gearing to new builds. However, multiple sources reference a 'Budget Night cutoff' or restrictions effective from 12 May 2026. This distinction matters for investors who purchased established properties before and after Budget Night to determine grandfathering eligibility.",
-      "suggestion": "Add to debates.json: budget.gov.au states 'from 1 July 2027' for new policy commencement; some sources reference 'Budget Night' (12 May 2026) as cutoff date for grandfathering existing investments",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260610-495",
-      "timestamp": "2026-06-10T11:31:18.196Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -7175,19 +7151,6 @@
     },
     {
       "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
-      "description": "The ATO has published technical guidance to help investors and tax professionals prepare for the upcoming CGT reforms. The guidance distinguishes between cost base indexation and CGT discount mechanisms, particularly for pre-1985 assets where a valuation reset has been confirmed for 1 July 2027. The guidance helps practitioners understand how to apply inflation indexation to cost bases under the new rules replacing the 50% discount.",
-      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations",
-      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260703-310",
-      "timestamp": "2026-07-03T05:44:06.068Z",
-      "status": "pending",
-      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf"
-    },
-    {
-      "type": "content_update",
       "priority": "medium",
       "title": "ASX analysis: Retired investor on 16% marginal rate faces 22 percentage point CGT increase under reform package",
       "description": "An ASX analysis quantifies the impact of CGT reform on retirement investors. Under current rules, a retired investor on a 16% marginal tax rate selling long-held equities faces only 8% tax on nominal gains after the 50% discount. Under the new rules with inflation indexation and 30% minimum tax floor, the same investor faces 30% on indexed gains — a 22 percentage point effective tax rate increase on real gains.",
@@ -7269,30 +7232,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260703-991",
-      "timestamp": "2026-07-03T05:44:06.068Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
-      "id": "suggestion-20260703-102",
-      "timestamp": "2026-07-03T05:44:06.068Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     }
   ],
   "implemented": [
@@ -8679,6 +8618,59 @@
       "source": "",
       "implementation_effort": "15_minutes",
       "implemented_at": "2026-07-02T23:01:03.379Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "description": "The ATO has published technical guidance to help investors and tax professionals prepare for the upcoming CGT reforms. The guidance distinguishes between cost base indexation and CGT discount mechanisms, particularly for pre-1985 assets where a valuation reset has been confirmed for 1 July 2027. The guidance helps practitioners understand how to apply inflation indexation to cost bases under the new rules replacing the 50% discount.",
+      "suggestion": "Add to budget-updates.json: ATO releases practical guidance for CGT indexation calculations",
+      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260703-310",
+      "timestamp": "2026-07-03T05:44:06.068Z",
+      "status": "implemented",
+      "corroborated_by": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf",
+      "implemented_at": "2026-07-03T06:56:54.458Z"
+    },
+    {
+      "id": "suggestion-20260703-991",
+      "timestamp": "2026-07-03T05:44:06.068Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-07-03T06:57:18.661Z"
+    },
+    {
+      "id": "suggestion-20260703-102",
+      "timestamp": "2026-07-03T05:44:06.068Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-07-03T06:57:38.704Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "When do negative gearing restrictions take effect for existing investors?",
+      "description": "There is conflicting information about the commencement date of negative gearing restrictions. Budget.gov.au explicitly states changes take effect 'from 1 July 2027' limiting negative gearing to new builds. However, multiple sources reference a 'Budget Night cutoff' or restrictions effective from 12 May 2026. This distinction matters for investors who purchased established properties before and after Budget Night to determine grandfathering eligibility.",
+      "suggestion": "Add to debates.json: budget.gov.au states 'from 1 July 2027' for new policy commencement; some sources reference 'Budget Night' (12 May 2026) as cutoff date for grandfathering existing investments",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260610-495",
+      "timestamp": "2026-06-10T11:31:18.196Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-03T06:58:28.342Z"
     }
   ],
   "skipped": [
@@ -9184,6 +9176,20 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-07-02T22:59:15.356Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "CGT discount: eliminated/replaced versus preserved for existing investors",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] There is a factual conflict about whether the 50% CGT discount is being eliminated, replaced with indexation, or preserved for existing investors. Budget.gov.au's fact sheet suggests the 50% discount is preserved for grandfathered properties, while NAB Budget Analysis explicitly states the discount is 'replaced' by cost base indexation. ASX analysis describes a 'two-speed' system. This matters for investors trying to understand their tax obligations.",
+      "suggestion": "Add to debates.json: budget.gov.au fact sheet says existing investors 'still receives the 50 per cent CGT discount' for properties meeting grandfathering conditions; NAB Budget Analysis says 'CGT discount replaced by cost base indexation'; ASX analysis confirms 'two-speed' tax treatment for different investor types",
+      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf; https://www.nab.com.au/content/dam/nab/common/budget-2026-analysis.pdf; https://www.asx.com.au/content/dam/asx/investor-resources/cgt-reform-analysis.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260610-443",
+      "timestamp": "2026-06-10T11:31:18.196Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-07-03T06:57:58.871Z"
     }
   ],
   "needs_manual_review": [

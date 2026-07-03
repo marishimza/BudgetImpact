@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T23:01:03.374Z",
+  "lastUpdated": "2026-07-03T06:57:38.698Z",
   "items": [
     {
       "id": "update-001",
@@ -3330,6 +3330,36 @@
       "summary": "The contested budget legislation referenced in earlier updates has been further updated. Following the opposition's u-turn on 2026-06-26, the Senate passed the contested budget measures. Legislation status should be marked as resolved in related content items.",
       "url": "https://ausbudget2026.example.com/budget-updates",
       "priority": "medium"
+    },
+    {
+      "id": "update-331",
+      "date": "2026-07-03",
+      "tag": "Property",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases practical guidance for CGT indexation calculations ahead of July 2027",
+      "summary": "The ATO has published technical guidance to help investors and tax professionals prepare for upcoming CGT reforms. The guidance distinguishes between cost base indexation and CGT discount mechanisms, particularly for pre-1985 assets where a valuation reset has been confirmed for 1 July 2027. It helps practitioners understand how to apply inflation indexation to cost bases under the new rules replacing the 50% discount.",
+      "url": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "priority": "high"
+    },
+    {
+      "id": "update-332",
+      "date": "2026-07-03",
+      "tag": "Parliament",
+      "source": "Australian Parliament House",
+      "title": "Senate passes contentious legislation following extended debate",
+      "summary": "The Senate has voted to pass legislation that was previously flagged for challenge by the opposition. The bill, which had been pending since May 2026, cleared the upper house after weeks of negotiations and amendments. The government secured crossbench support to secure passage of the measure.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation",
+      "priority": "high"
+    },
+    {
+      "id": "update-333",
+      "date": "2026-07-03",
+      "tag": "Parliament",
+      "source": "AusBudget2026 Monitoring",
+      "title": "Senate Budget Legislation Update: Royalty Levy Measures Now Law",
+      "summary": "The contested budget legislation referenced in previous updates has now been fully enacted following final assent. The government's controversial mineral royalty levy proposals and associated budget measures passed both houses after extended negotiations. Stakeholders should note the legislation is now operational and any transitional provisions have commenced.",
+      "url": "https://ausbudget2026.example.gov.au/updates/update-267",
+      "priority": "high"
     }
   ]
 }

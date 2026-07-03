@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T12:07:33.321Z",
+  "lastUpdated": "2026-07-03T15:49:13.649Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -7292,64 +7292,119 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Coalition releases repeal costings — $23 billion impact on housing package over decade",
-      "description": "The Opposition has released detailed costings for its proposed repeal of negative gearing and CGT changes, quantifying the impact at $23 billion over ten years compared to the Government's $6.4 billion package. The costings also address whether a Coalition repeal would affect only future investors or also grandfathered arrangements.",
-      "suggestion": "Add to budget-updates.json: Coalition releases detailed repeal costings — $23bn impact on housing package over decade",
-      "source": "https://www.abc.net.au/news/2026-06-25/federal-politics-live-blog-teal-political-party/106839082",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260626-863",
-      "timestamp": "2026-06-26T10:44:09.651Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.smh.com.au/politics/federal/labor-claims-coalition-has-12-5b-black-hole-in-tax-costings-20260515-p5zxdo.html",
-      "implemented_at": "2026-06-26T12:07:49.619Z"
     },
     {
       "type": "content_update",
       "priority": "high",
-      "title": "Housing reform legislation receives Royal Assent — Treasury Laws Amendment (More Housing, More Help) Bill 2026 enacted",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Treasury Laws Amendment (More Housing, More Help) Bill 2026 has received Royal Assent, formally enacting the negative gearing and CGT reforms into law. The legislation was passed by the Senate following earlier opposition challenges and cross-party negotiations.",
-      "suggestion": "Add to budget-updates.json: Legislation landmark as Treasury Laws Amendment (More Housing, More Help) Bill 2026 receives Royal Assent — housing tax reforms now law",
-      "source": "https://www.abc.net.au/news/2026-06-25/federal-politics-live-blog-teal-political-party/106839082",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260626-742",
-      "timestamp": "2026-06-26T10:44:09.651Z",
-      "status": "implemented",
-      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
-      "implemented_at": "2026-06-26T12:21:11.976Z"
+      "title": "Tax Reform No. 1 Bill 2026 lodged separately from housing package",
+      "description": "A second piece of tax reform legislation, the Treasury Laws Amendment (Tax Reform No. 1) Bill 2026, has been formally lodged with Parliament separately from the main housing package, signalling trust tax treatment reform is progressing as a distinct component of the government's asset taxation shift strategy.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform progressing separately from housing legislation — Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament, indicating second tranche of asset taxation reforms following CGT and negative gearing package.",
+      "source": "https://budget.gov.au/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260703-599",
+      "timestamp": "2026-07-03T15:48:56.264Z",
+      "status": "pending",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
     },
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "Grattan Institute: Budget tax reforms unlikely to materially improve housing affordability until 2030s",
-      "description": "Independent analysis from the Grattan Institute projects that the Budget's housing tax reforms, including negative gearing and CGT changes, are unlikely to materially improve housing affordability until the 2030s. The Institute also questions whether the $2 billion infrastructure initiative can deliver its target of 65,000 additional homes.",
-      "suggestion": "Add to budget-updates.json: Grattan Institute: Budget tax reforms unlikely to materially improve housing affordability until 2030s — questions $2B infrastructure housing delivery",
-      "source": "https://www.abc.net.au/news/2026-06-25/federal-politics-live-blog-teal-political-party/106839082",
+      "title": "Tax practitioner readiness concerns flagged as ATO releases final CGT indexation guidance",
+      "description": "With only 12 months until July 2027 implementation, tax practitioners are raising concerns about readiness to apply the new inflation-based cost base indexation methodology. The ATO has released practical guidance but industry bodies warn of implementation risks given the complexity of the changes.",
+      "suggestion": "Add to budget-updates.json: Industry bodies flag tax practitioner readiness concerns as ATO releases final CGT indexation guidance with 12-month implementation window remaining before July 2027 commencement.",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260626-230",
-      "timestamp": "2026-06-26T10:44:09.651Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-26T12:22:18.390Z"
+      "id": "suggestion-20260703-466",
+      "timestamp": "2026-07-03T15:48:56.264Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Perpetual confirms new CGT cost base indexation mirrors 1985-1999 approach",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Analysis from Perpetual confirms the new inflation-linked cost base indexation methodology introduced in Budget 2026 closely mirrors the pre-1999 approach previously used in Australia, with transitional calculation provisions for assets acquired between 1985 and 1999.",
+      "suggestion": "Add to budget-updates.json: Perpetual analysis confirms new CGT cost base indexation methodology mirrors 1985-1999 approach, with ATO technical guidance clarifying transitional calculation provisions for pre-1999 asset acquisitions.",
+      "source": "https://www.superguide.com.au/super-booster/federal-budget-2026-overview",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260703-332",
+      "timestamp": "2026-07-03T15:48:56.264Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "$2B infrastructure initiative housing delivery: Government 65,000 target vs independent feasibility questions",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The government claims its $2 billion infrastructure initiative will deliver 65,000 additional homes, while independent analysts (Grattan Institute) question whether this target is achievable. This is a factual conflict about projected housing supply outcomes.",
+      "suggestion": "Add to debates.json: view_a from budget.gov.au states the initiative will enable '65,000 additional homes', while view_b from Grattan Institute independently questions the delivery capacity and feasibility of meeting this target",
+      "source": "https://www.grattan.edu.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260703-267",
+      "timestamp": "2026-07-03T15:48:56.264Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Short-term housing price impact: NAB brief correction forecast vs industry prolonged slump warnings",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Major bank economists (NAB) project a brief correction following the tax reforms, while industry groups warn of a prolonged market slump. This represents a factual disagreement about market impact projections.",
+      "suggestion": "Add to debates.json: view_a from NAB Budget Analysis forecasts 'brief correction not prolonged slump', while view_b from industry groups warn of 'prolonged slump' based on their property market assessments",
+      "source": "https://www.nab.com.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260703-772",
+      "timestamp": "2026-07-03T15:48:56.264Z",
+      "status": "pending"
     },
     {
       "type": "fact_check",
       "priority": "high",
-      "title": "Claim: The $2 billion infrastructure initiative will deliver 65,000 additional homes",
-      "description": "This claim appears frequently in budget coverage. Multiple sources including Grattan Institute modelling and independent analysis question whether this target is achievable. The claim conflates infrastructure spending with guaranteed housing delivery, and the 65,000 figure may represent an aspirational target rather than a confirmed projection.",
-      "suggestion": "Add to fact-checks.json: claim that the $2B infrastructure initiative will deliver 65,000 additional homes, verdict is DISPUTED because independent modelling (Grattan Institute) questions whether this housing target is achievable, and the $2B may be tied to housing supply milestones rather than guaranteeing 65,000 homes.",
-      "source": "https://www.abc.net.au/news/2026-05-13/budget-capital-gains-tax-changes-explained/",
-      "implementation_effort": "45_minutes",
-      "id": "suggestion-20260626-820",
-      "timestamp": "2026-06-26T10:44:09.651Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.smh.com.au/politics/federal/chalmers-doubles-down-on-housing-with-2-billion-for-roads-and-pipes-20260509-p5zv9w.html",
-      "implemented_at": "2026-06-26T12:23:42.890Z"
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "Multiple sources repeat this claim, but it mischaracterises the tax mechanism. Division 296 applies a 15% tax on the 'proportion of earnings relating to your TSB that exceeds $3m' (ATO source), not a flat 15% on the entire balance above the threshold. An individual with a $4m balance would not pay 15% on $1m—only on the earnings attributable to the amount exceeding $3m. This is a significant overstatement that could mislead high-balance SMSF members about their actual tax liability.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because Division 296 taxes the earnings proportion exceeding the threshold, not the balance itself",
+      "source": "https://www.ato.gov.au/tax-professionals/newsroom/housing-and-tax-reform/housing-tax-reform/your-tax-and-super/super-reforms-coming-from-1-july-2026",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260703-841",
+      "timestamp": "2026-07-03T15:48:56.265Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
     },
+    {
+      "id": "suggestion-20260703-607",
+      "timestamp": "2026-07-03T15:48:56.265Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    },
+    {
+      "id": "suggestion-20260703-923",
+      "timestamp": "2026-07-03T15:48:56.265Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes"
+    },
+    {
+      "id": "suggestion-20260703-371",
+      "timestamp": "2026-07-03T15:48:56.265Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "high",
@@ -8747,21 +8802,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: Division 296 imposes a flat 15% tax on all superannuation balances exceeding $3 million",
-      "description": "Multiple sources state Division 296 imposes a '15% tax on all super balances over $3m'. However, the ATO source clarifies that the tax is '15% on the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning the 15% applies only to the earnings attributable to the portion of the balance above $3m, NOT a flat 15% on the entire balance. This is a significant distinction that dramatically overstates the tax impact for someone with a $4m balance (they would not owe 15% × $4m = $600k).",
-      "suggestion": "Add to fact-checks.json: claim that Division 296 imposes a flat 15% tax on all super balances over $3m, verdict is DISPUTED because Division 296 actually applies 15% tax only on the taxable superannuation earnings attributable to the balance above the $3m threshold, not on the entire balance.",
-      "source": "https://www.ato.gov.au/Better-Targeted-Super-Concessions-is-law",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260626-152",
-      "timestamp": "2026-06-26T10:44:09.651Z",
-      "status": "skipped",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-26T12:20:05.343Z"
-    },
     {
       "type": "content_update",
       "priority": "high",

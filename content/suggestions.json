@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T15:49:13.649Z",
+  "lastUpdated": "2026-07-03T17:19:43.180Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -7294,43 +7294,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Tax Reform No. 1 Bill 2026 lodged separately from housing package",
-      "description": "A second piece of tax reform legislation, the Treasury Laws Amendment (Tax Reform No. 1) Bill 2026, has been formally lodged with Parliament separately from the main housing package, signalling trust tax treatment reform is progressing as a distinct component of the government's asset taxation shift strategy.",
-      "suggestion": "Add to budget-updates.json: Trust tax treatment reform progressing separately from housing legislation — Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament, indicating second tranche of asset taxation reforms following CGT and negative gearing package.",
-      "source": "https://budget.gov.au/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260703-599",
-      "timestamp": "2026-07-03T15:48:56.264Z",
-      "status": "pending",
-      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Tax practitioner readiness concerns flagged as ATO releases final CGT indexation guidance",
-      "description": "With only 12 months until July 2027 implementation, tax practitioners are raising concerns about readiness to apply the new inflation-based cost base indexation methodology. The ATO has released practical guidance but industry bodies warn of implementation risks given the complexity of the changes.",
-      "suggestion": "Add to budget-updates.json: Industry bodies flag tax practitioner readiness concerns as ATO releases final CGT indexation guidance with 12-month implementation window remaining before July 2027 commencement.",
-      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260703-466",
-      "timestamp": "2026-07-03T15:48:56.264Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Perpetual confirms new CGT cost base indexation mirrors 1985-1999 approach",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Analysis from Perpetual confirms the new inflation-linked cost base indexation methodology introduced in Budget 2026 closely mirrors the pre-1999 approach previously used in Australia, with transitional calculation provisions for assets acquired between 1985 and 1999.",
-      "suggestion": "Add to budget-updates.json: Perpetual analysis confirms new CGT cost base indexation methodology mirrors 1985-1999 approach, with ATO technical guidance clarifying transitional calculation provisions for pre-1999 asset acquisitions.",
-      "source": "https://www.superguide.com.au/super-booster/federal-budget-2026-overview",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260703-332",
-      "timestamp": "2026-07-03T15:48:56.264Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "$2B infrastructure initiative housing delivery: Government 65,000 target vs independent feasibility questions",
@@ -7355,19 +7318,6 @@
       "status": "pending"
     },
     {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
-      "description": "Multiple sources repeat this claim, but it mischaracterises the tax mechanism. Division 296 applies a 15% tax on the 'proportion of earnings relating to your TSB that exceeds $3m' (ATO source), not a flat 15% on the entire balance above the threshold. An individual with a $4m balance would not pay 15% on $1m—only on the earnings attributable to the amount exceeding $3m. This is a significant overstatement that could mislead high-balance SMSF members about their actual tax liability.",
-      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because Division 296 taxes the earnings proportion exceeding the threshold, not the balance itself",
-      "source": "https://www.ato.gov.au/tax-professionals/newsroom/housing-and-tax-reform/housing-tax-reform/your-tax-and-super/super-reforms-coming-from-1-july-2026",
-      "implementation_effort": "20_minutes",
-      "id": "suggestion-20260703-841",
-      "timestamp": "2026-07-03T15:48:56.265Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
-    },
-    {
       "id": "suggestion-20260703-607",
       "timestamp": "2026-07-03T15:48:56.265Z",
       "status": "pending",
@@ -7378,18 +7328,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "id": "suggestion-20260703-923",
-      "timestamp": "2026-07-03T15:48:56.265Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes"
     },
     {
       "id": "suggestion-20260703-371",
@@ -8799,6 +8737,73 @@
       "timestamp": "2026-06-10T16:55:01.644Z",
       "status": "implemented",
       "implemented_at": "2026-07-03T12:07:33.321Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Tax Reform No. 1 Bill 2026 lodged separately from housing package",
+      "description": "A second piece of tax reform legislation, the Treasury Laws Amendment (Tax Reform No. 1) Bill 2026, has been formally lodged with Parliament separately from the main housing package, signalling trust tax treatment reform is progressing as a distinct component of the government's asset taxation shift strategy.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform progressing separately from housing legislation — Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament, indicating second tranche of asset taxation reforms following CGT and negative gearing package.",
+      "source": "https://budget.gov.au/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260703-599",
+      "timestamp": "2026-07-03T15:48:56.264Z",
+      "status": "implemented",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
+      "implemented_at": "2026-07-03T17:18:09.140Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Tax practitioner readiness concerns flagged as ATO releases final CGT indexation guidance",
+      "description": "With only 12 months until July 2027 implementation, tax practitioners are raising concerns about readiness to apply the new inflation-based cost base indexation methodology. The ATO has released practical guidance but industry bodies warn of implementation risks given the complexity of the changes.",
+      "suggestion": "Add to budget-updates.json: Industry bodies flag tax practitioner readiness concerns as ATO releases final CGT indexation guidance with 12-month implementation window remaining before July 2027 commencement.",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260703-466",
+      "timestamp": "2026-07-03T15:48:56.264Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-03T17:18:28.738Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Perpetual confirms new CGT cost base indexation mirrors 1985-1999 approach",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Analysis from Perpetual confirms the new inflation-linked cost base indexation methodology introduced in Budget 2026 closely mirrors the pre-1999 approach previously used in Australia, with transitional calculation provisions for assets acquired between 1985 and 1999.",
+      "suggestion": "Add to budget-updates.json: Perpetual analysis confirms new CGT cost base indexation methodology mirrors 1985-1999 approach, with ATO technical guidance clarifying transitional calculation provisions for pre-1999 asset acquisitions.",
+      "source": "https://www.superguide.com.au/super-booster/federal-budget-2026-overview",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260703-332",
+      "timestamp": "2026-07-03T15:48:56.264Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-03T17:18:42.162Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "Multiple sources repeat this claim, but it mischaracterises the tax mechanism. Division 296 applies a 15% tax on the 'proportion of earnings relating to your TSB that exceeds $3m' (ATO source), not a flat 15% on the entire balance above the threshold. An individual with a $4m balance would not pay 15% on $1m—only on the earnings attributable to the amount exceeding $3m. This is a significant overstatement that could mislead high-balance SMSF members about their actual tax liability.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because Division 296 taxes the earnings proportion exceeding the threshold, not the balance itself",
+      "source": "https://www.ato.gov.au/tax-professionals/newsroom/housing-and-tax-reform/housing-tax-reform/your-tax-and-super/super-reforms-coming-from-1-july-2026",
+      "implementation_effort": "20_minutes",
+      "id": "suggestion-20260703-841",
+      "timestamp": "2026-07-03T15:48:56.265Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implemented_at": "2026-07-03T17:19:12.032Z"
+    },
+    {
+      "id": "suggestion-20260703-923",
+      "timestamp": "2026-07-03T15:48:56.265Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-07-03T17:19:43.180Z"
     }
   ],
   "skipped": [

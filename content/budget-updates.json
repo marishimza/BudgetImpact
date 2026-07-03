@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T12:06:26.646Z",
+  "lastUpdated": "2026-07-03T17:19:43.176Z",
   "items": [
     {
       "id": "update-001",
@@ -3379,6 +3379,46 @@
       "title": "Senate Passes Contested Budget Legislation Following Opposition U-Turn",
       "summary": "The Senate has passed the contested budget legislation following the opposition's dramatic U-turn on key measures. The government secured the necessary crossbench support after agreeing to modifications to the revenue measures. This resolves the parliamentary deadlock that had delayed implementation of several budget initiatives.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_in_Progress",
+      "priority": "high"
+    },
+    {
+      "id": "update-336",
+      "date": "2026-07-03",
+      "tag": "Parliament",
+      "source": "budget.gov.au",
+      "title": "Tax Reform No. 1 Bill 2026 lodged separately from housing package",
+      "summary": "The Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 has been formally lodged with Parliament separately from the main housing package, signalling trust tax treatment reform is progressing as a distinct component of the government's asset taxation shift strategy. This second tranche of legislation follows the earlier CGT and negative gearing reforms, indicating a structured approach to broader asset taxation changes. The separate lodgement suggests the government is sequencing its tax reform agenda with targeted legislative pathways.",
+      "url": "https://budget.gov.au/",
+      "priority": "medium"
+    },
+    {
+      "id": "update-337",
+      "date": "2026-07-03",
+      "tag": "Budget",
+      "source": "KPMG Australia",
+      "title": "Tax practitioner readiness concerns flagged as ATO releases final CGT indexation guidance",
+      "summary": "With only 12 months remaining before the July 2027 commencement date, tax practitioners are expressing significant concerns about their readiness to apply the new inflation-based cost base indexation methodology for capital gains tax. The ATO has released final practical guidance on the changes, but industry bodies are warning of substantial implementation risks given the complexity of the new calculations. Practitioners are urging additional support and clearer guidance to ensure accurate application of the revised CGT provisions.",
+      "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "priority": "high"
+    },
+    {
+      "id": "update-338",
+      "date": "2026-07-03",
+      "tag": "Property",
+      "source": "SuperGuide",
+      "title": "Perpetual confirms new CGT cost base indexation mirrors 1985-1999 approach",
+      "summary": "Analysis from Perpetual confirms the new inflation-linked cost base indexation methodology introduced in Budget 2026 closely mirrors the pre-1999 approach previously used in Australia. The ATO has released technical guidance clarifying transitional calculation provisions for assets acquired between 1985 and 1999 to ensure smooth implementation of the updated rules.",
+      "url": "https://www.superguide.com.au/super-booster/federal-budget-2026-overview",
+      "priority": "medium"
+    },
+    {
+      "id": "update-339",
+      "date": "2026-07-03",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Senate passes budget legislation — opposition challenge resolved",
+      "summary": "The Senate has passed the disputed budget legislation, resolving the opposition's earlier challenge. The government secured the necessary crossbench support to pass the bill after weeks of negotiations. This marks the end of the parliamentary uncertainty that had surrounded the budget measures since May.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Digests/2026",
       "priority": "high"
     }
   ]

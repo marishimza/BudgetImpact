@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T12:05:15.996Z",
+  "lastUpdated": "2026-07-03T17:19:12.028Z",
   "claims": [
     {
       "id": "fc-001",
@@ -2049,6 +2049,24 @@
         {
           "name": "Australian Taxation Office",
           "url": "https://www.ato.gov.au/General/Your-income-and-tax/Super/In-detail/Super-members/Super-tax/",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-07-03",
+      "category": "superannuation"
+    },
+    {
+      "id": "fc-107",
+      "slug": "division-296-not-flat-tax-on-balances",
+      "claim": "Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "Division 296 taxes the earnings proportion exceeding the threshold, not the balance itself",
+      "detailed_explanation": "Division 296 of the Income Tax Assessment Act 1997 applies a 15% tax on the 'proportion of earnings relating to your total superannuation balance (TSB) that exceeds $3 million'. This is fundamentally different from taxing the entire balance above $3 million. For example, an individual with a $4 million balance would not pay 15% tax on $1 million—only on the earnings attributable to the amount exceeding $3 million. This mischaracterisation significantly overstates the actual tax liability for high-balance SMSF members.",
+      "sources": [
+        {
+          "name": "Australian Taxation Office",
+          "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/super/growing-your-superannuation/super-reforms",
           "type": "official"
         }
       ],

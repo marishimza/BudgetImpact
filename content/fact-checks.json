@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T17:48:15.554Z",
+  "lastUpdated": "2026-07-03T12:05:15.996Z",
   "claims": [
     {
       "id": "fc-001",
@@ -2036,6 +2036,24 @@
       ],
       "date_checked": "2026-07-02",
       "category": "tax"
+    },
+    {
+      "id": "fc-106",
+      "slug": "division-296-15-percent-tax-on-excess-super-balance",
+      "claim": "Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million",
+      "verdict": "partially_true",
+      "verdict_label": "Partially True",
+      "short_explanation": "Division 296 does introduce a 15% tax, but it applies to the earnings proportion attributable to balances exceeding the $3m threshold—not a flat 15% on the entire balance above $3m.",
+      "detailed_explanation": "Division 296 of the Treasury Laws Amendment (Better Targeted Super Concessions) Act 2023 introduces an additional 15% tax on 'the proportion of earnings relating to your Total Superannuation Balance (TSB) that exceeds the Low Tax Threshold (LSBT) of $3 million'. This is a technical but significant distinction from the commonly cited claim. The tax is calculated on the earnings attributable to the excess balance, not levied as a flat 15% on the entire amount above $3m. For example, if you have a $4m balance, only the earnings on the $1m excess portion would attract the additional 15% tax, not the entire $4m. The $3m threshold itself remains tax-advantaged. This mechanism is designed to limit superannuation tax concessions for high-balance accounts while preserving the existing concessional treatment of balances up to $3m.",
+      "sources": [
+        {
+          "name": "Australian Taxation Office",
+          "url": "https://www.ato.gov.au/General/Your-income-and-tax/Super/In-detail/Super-members/Super-tax/",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-07-03",
+      "category": "superannuation"
     }
   ]
 }

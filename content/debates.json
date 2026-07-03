@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T06:58:28.337Z",
+  "lastUpdated": "2026-07-03T12:07:33.317Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2839,6 +2839,29 @@
         "label": "Budget Night Cutoff 12 May 2026",
         "argument": "Multiple sources reference a 'Budget Night cutoff' of 12 May 2026 as the relevant date for determining grandfathering eligibility. Under this interpretation, investors who purchased established properties before Budget Night may be grandfathered from the restrictions, while those who purchased after may not. This distinction is critical for investors who acquired properties between 12 May 2026 and 30 June 2027.",
         "sources": []
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-123",
+      "slug": "negative-gearing-grandfathering-cutoff-date",
+      "title": "When do negative gearing restrictions actually take effect?",
+      "category": "tax",
+      "type": "factual_dispute",
+      "summary": "The Budget 2026-27 negative gearing reforms have a grandfathering cutoff date that sources describe differently. The government budget website states restrictions apply 'from 1 July 2027', but the policy also includes a '7:30pm on Budget Night' cutoff for established properties purchased before that time. Sources conflict on whether the effective date for investor planning purposes is Budget Night or the start of financial year.",
+      "view_a": {
+        "label": "Budget Night cutoff applies",
+        "argument": "The negative gearing reforms use the '7:30pm on Budget Night' (12 May 2026) as the critical grandfathering cutoff. Properties purchased before this announcement are protected under existing arrangements. For investors, Budget Night is the effective date that determines whether they qualify for grandfathering protections.",
+        "sources": [
+          "https://budget.gov.au/content/04-tax-reform.htm"
+        ]
+      },
+      "view_b": {
+        "label": "1 July 2027 is the effective date",
+        "argument": "The government budget website explicitly states that negative gearing will be limited to new builds 'from 1 July 2027'. This is the commencement date of the new rules, making 1 July 2027 the relevant date for determining when restrictions take effect for planning purposes.",
+        "sources": [
+          "https://budget.gov.au/content/04-tax-reform.htm"
+        ]
       },
       "verdict": null
     }

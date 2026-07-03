@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T06:57:38.698Z",
+  "lastUpdated": "2026-07-03T12:06:26.646Z",
   "items": [
     {
       "id": "update-001",
@@ -3359,6 +3359,26 @@
       "title": "Senate Budget Legislation Update: Royalty Levy Measures Now Law",
       "summary": "The contested budget legislation referenced in previous updates has now been fully enacted following final assent. The government's controversial mineral royalty levy proposals and associated budget measures passed both houses after extended negotiations. Stakeholders should note the legislation is now operational and any transitional provisions have commenced.",
       "url": "https://ausbudget2026.example.gov.au/updates/update-267",
+      "priority": "high"
+    },
+    {
+      "id": "update-334",
+      "date": "2026-07-03",
+      "tag": "Parliament",
+      "source": "Australian Parliament House",
+      "title": "Senate passes key budget legislation following Opposition backdown",
+      "summary": "The Senate has passed the previously contested budget legislation after the Opposition withdrew its challenge. The legislation, which was the subject of update-007, cleared both houses on 3 July 2026. The government's priority bills related to the 2026-27 budget are now enacted into law.",
+      "url": "https://www.aph.gov.au",
+      "priority": "high"
+    },
+    {
+      "id": "update-335",
+      "date": "2026-07-03",
+      "tag": "Parliament",
+      "source": "Parliament of Australia",
+      "title": "Senate Passes Contested Budget Legislation Following Opposition U-Turn",
+      "summary": "The Senate has passed the contested budget legislation following the opposition's dramatic U-turn on key measures. The government secured the necessary crossbench support after agreeing to modifications to the revenue measures. This resolves the parliamentary deadlock that had delayed implementation of several budget initiatives.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_in_Progress",
       "priority": "high"
     }
   ]

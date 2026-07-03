@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T12:07:33.317Z",
+  "lastUpdated": "2026-07-03T22:57:30.017Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2861,6 +2861,29 @@
         "argument": "The government budget website explicitly states that negative gearing will be limited to new builds 'from 1 July 2027'. This is the commencement date of the new rules, making 1 July 2027 the relevant date for determining when restrictions take effect for planning purposes.",
         "sources": [
           "https://budget.gov.au/content/04-tax-reform.htm"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-124",
+      "slug": "coalition-immigration-cap-budget-housing-measures-response",
+      "title": "Is the Coalition's immigration cap a direct response to budget housing measures or separate policy?",
+      "category": "housing",
+      "type": "interpretation_difference",
+      "summary": "The Coalition announced an immigration cap proposal alongside their opposition to the budget's negative gearing and CGT changes. Sources conflict on whether these represent coordinated policy positions addressing the housing crisis, or separate political strategies unconnected to the tax reforms.",
+      "view_a": {
+        "label": "Coordinated policy response",
+        "argument": "The immigration cap and opposition to negative gearing/CGT changes represent a cohesive Coalition strategy. The opposition is responding to housing affordability concerns created by budget measures, with the immigration cap positioned as a complementary policy to address housing demand alongside tax reform opposition.",
+        "sources": [
+          "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt"
+        ]
+      },
+      "view_b": {
+        "label": "Separate political strategy",
+        "argument": "The immigration cap is a distinct policy platform announced separately from tax reform opposition. The Coalition's immigration stance represents independent policy thinking rather than a coordinated response to budget housing measures, suggesting opportunistic political positioning rather than policy coherence.",
+        "sources": [
+          "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt"
         ]
       },
       "verdict": null

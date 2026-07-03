@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T17:19:12.028Z",
+  "lastUpdated": "2026-07-03T22:57:51.320Z",
   "claims": [
     {
       "id": "fc-001",
@@ -2072,6 +2072,24 @@
       ],
       "date_checked": "2026-07-03",
       "category": "superannuation"
+    },
+    {
+      "id": "fc-108",
+      "slug": "inflation-indexation-vs-cgt-50-percent-discount",
+      "claim": "Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets",
+      "verdict": "disputed",
+      "verdict_label": "Disputed",
+      "short_explanation": "ASX analysis demonstrates that indexation does not always outperform the 50% CGT discount, particularly for low-rate taxpayers",
+      "detailed_explanation": "Analysis by the ASX shows that for a retired investor on a 16% marginal tax rate, the current 50% CGT discount results in an effective tax rate of just 8% on nominal gains. Under the proposed indexation system, the same investor could face a 30% effective tax rate on indexed gains. This reveals that the blanket claim of indexation always producing better outcomes is flawed, as the relative benefit depends heavily on individual circumstances, particularly marginal tax rates and inflation levels during the holding period.",
+      "sources": [
+        {
+          "name": "ASX",
+          "url": "https://www.asx.com.au",
+          "type": "analysis"
+        }
+      ],
+      "date_checked": "2026-07-03",
+      "category": "tax"
     }
   ]
 }

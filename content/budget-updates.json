@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T17:19:43.176Z",
+  "lastUpdated": "2026-07-03T22:57:07.895Z",
   "items": [
     {
       "id": "update-001",
@@ -3419,6 +3419,16 @@
       "title": "Senate passes budget legislation — opposition challenge resolved",
       "summary": "The Senate has passed the disputed budget legislation, resolving the opposition's earlier challenge. The government secured the necessary crossbench support to pass the bill after weeks of negotiations. This marks the end of the parliamentary uncertainty that had surrounded the budget measures since May.",
       "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Digests/2026",
+      "priority": "high"
+    },
+    {
+      "id": "update-340",
+      "date": "2026-07-03",
+      "tag": "Parliament",
+      "source": "The Australian Financial Review",
+      "title": "Senate Passes Contested Budget Legislation Following Opposition U-Turn",
+      "summary": "The Senate has passed contentious budget legislation after the opposition reversed its position on key amendments. The government's signature savings measure, which had been stalled for weeks, received crossbench support following late-night negotiations. Treasury officials confirmed the legislation will take effect from 1 July 2026 as originally planned.",
+      "url": "https://www.afr.com/politics/federal/senate-passes-budget-legislation-20260703",
       "priority": "high"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T20:53:29.935Z",
+  "lastUpdated": "2026-07-03T22:58:10.954Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2278,42 +2278,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Is the Coalition's immigration cap a direct response to budget housing measures or separate policy?",
-      "description": "The Coalition has announced an immigration cap proposal alongside their opposition to the budget's negative gearing and CGT changes. Sources conflict on whether this represents a coordinated policy response to the housing crisis created by budget measures, or whether it is political positioning unrelated to the tax reforms.",
-      "suggestion": "Add to debates.json: The Guardian reports Coalition opposition leader labeled the changes 'toxic' and vows repeal, while separate reporting suggests the Coalition's immigration cap is a distinct policy platform. Sources conflict on whether these represent coordinated policy positions or separate political strategies.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260610-835",
-      "timestamp": "2026-06-10T16:55:01.644Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim appears in existing fact-checks, but the ASX analysis shows a retired investor on 16% marginal rate faces only 8% tax on nominal gains (16% × 50% discount) under current rules, versus potentially 30% on indexed gains under the new system. This contradicts the 'always better' framing and suggests indexation may not always produce better outcomes for low-rate taxpayers with long-held assets during high-inflation periods.",
-      "suggestion": "Add to fact-checks.json: claim is 'inflation indexation always produces a better CGT outcome', verdict is disputed because the ASX analysis shows low-rate investors may face higher effective tax rates under indexation (30%) than under the 50% discount (8% effective rate).",
-      "source": "https://www.asx.com.au",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260610-725",
-      "timestamp": "2026-06-10T16:55:01.644Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Negative gearing has been fully abolished/removed for all investors'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple fact-checks repeat this claim, but the williambuck.com source specifies the restrictions apply to 'established properties purchased after 7:30pm on 12 May 2026'. This implies NEW builds purchased before the cutoff may still retain negative gearing benefits. The claim of 'full abolition for all investors' may be oversimplified.",
-      "suggestion": "Add to fact-checks.json: claim is 'negative gearing fully abolished for all investors', verdict is partially_true because the restrictions apply to established properties purchased after Budget Night, but new builds may have different treatment.",
-      "source": "https://www.williambuck.com",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260610-103",
-      "timestamp": "2026-06-10T16:55:01.644Z",
-      "status": "pending"
-    },
-    {
       "id": "suggestion-20260610-285",
       "timestamp": "2026-06-10T16:55:01.644Z",
       "status": "pending",
@@ -2324,18 +2288,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Is the Coalition's immigration cap proposal a direct response to budget housing measures or separate policy?",
-      "description": "The Coalition has announced an immigration cap alongside opposing the budget's negative gearing and CGT changes. The question is whether this represents a coordinated housing affordability response or a separate policy position being leveraged politically.",
-      "suggestion": "Add to debates.json: Coalition (Angus Taylor via Guardian/ABC) says immigration cap directly addresses housing pressure from budget measures; contrasting view (Johnsons MME) positions Coalition tax policy as 'status quo' separate from immigration policy, suggesting disconnected rather than coordinated approach.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260610-736",
-      "timestamp": "2026-06-10T21:52:39.397Z",
-      "status": "pending"
     },
     {
       "type": "fact_check",
@@ -7330,18 +7282,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "id": "suggestion-20260703-371",
-      "timestamp": "2026-07-03T15:48:56.265Z",
-      "status": "pending",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
-      "implementation_effort": "15_minutes"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "CGT discount replacement mechanism: cost base vs inflation indexation",
@@ -8824,6 +8764,45 @@
       "source": "",
       "implementation_effort": "15_minutes",
       "implemented_at": "2026-07-03T17:19:43.180Z"
+    },
+    {
+      "id": "suggestion-20260703-371",
+      "timestamp": "2026-07-03T15:48:56.265Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-07-03T22:57:07.901Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the Coalition's immigration cap a direct response to budget housing measures or separate policy?",
+      "description": "The Coalition has announced an immigration cap proposal alongside their opposition to the budget's negative gearing and CGT changes. Sources conflict on whether this represents a coordinated policy response to the housing crisis created by budget measures, or whether it is political positioning unrelated to the tax reforms.",
+      "suggestion": "Add to debates.json: The Guardian reports Coalition opposition leader labeled the changes 'toxic' and vows repeal, while separate reporting suggests the Coalition's immigration cap is a distinct policy platform. Sources conflict on whether these represent coordinated policy positions or separate political strategies.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260610-835",
+      "timestamp": "2026-06-10T16:55:01.644Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-03T22:57:30.020Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This claim appears in existing fact-checks, but the ASX analysis shows a retired investor on 16% marginal rate faces only 8% tax on nominal gains (16% × 50% discount) under current rules, versus potentially 30% on indexed gains under the new system. This contradicts the 'always better' framing and suggests indexation may not always produce better outcomes for low-rate taxpayers with long-held assets during high-inflation periods.",
+      "suggestion": "Add to fact-checks.json: claim is 'inflation indexation always produces a better CGT outcome', verdict is disputed because the ASX analysis shows low-rate investors may face higher effective tax rates under indexation (30%) than under the 50% discount (8% effective rate).",
+      "source": "https://www.asx.com.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260610-725",
+      "timestamp": "2026-06-10T16:55:01.644Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-03T22:57:51.323Z"
     }
   ],
   "skipped": [
@@ -9286,6 +9265,34 @@
       "corroborated_by": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-07-03T12:05:28.255Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Negative gearing has been fully abolished/removed for all investors'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple fact-checks repeat this claim, but the williambuck.com source specifies the restrictions apply to 'established properties purchased after 7:30pm on 12 May 2026'. This implies NEW builds purchased before the cutoff may still retain negative gearing benefits. The claim of 'full abolition for all investors' may be oversimplified.",
+      "suggestion": "Add to fact-checks.json: claim is 'negative gearing fully abolished for all investors', verdict is partially_true because the restrictions apply to established properties purchased after Budget Night, but new builds may have different treatment.",
+      "source": "https://www.williambuck.com",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260610-103",
+      "timestamp": "2026-06-10T16:55:01.644Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-07-03T22:57:59.856Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the Coalition's immigration cap proposal a direct response to budget housing measures or separate policy?",
+      "description": "The Coalition has announced an immigration cap alongside opposing the budget's negative gearing and CGT changes. The question is whether this represents a coordinated housing affordability response or a separate policy position being leveraged politically.",
+      "suggestion": "Add to debates.json: Coalition (Angus Taylor via Guardian/ABC) says immigration cap directly addresses housing pressure from budget measures; contrasting view (Johnsons MME) positions Coalition tax policy as 'status quo' separate from immigration policy, suggesting disconnected rather than coordinated approach.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260610-736",
+      "timestamp": "2026-06-10T21:52:39.397Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-07-03T22:58:10.954Z"
     }
   ],
   "needs_manual_review": [

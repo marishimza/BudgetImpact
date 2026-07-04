@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T06:43:07.457Z",
+  "lastUpdated": "2026-07-04T10:00:45.308Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -7376,50 +7376,107 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
+    },
     {
       "type": "content_update",
       "priority": "high",
-      "title": "KPMG reveals detailed $47.5m CGT implementation funding breakdown for Treasury and ATO",
-      "description": "KPMG analysis provides detailed breakdown of the $47.5 million over four years from 2026-27 plus $3.9 million per year ongoing allocation to Treasury and ATO for CGT reform implementation. Flags implementation timeline risks as ATO prepares guidance for July 2027 changes.",
-      "suggestion": "Add to budget-updates.json: Budget allocates $47.5 million over four years from 2026-27 plus $3.9 million per year ongoing to Treasury and ATO for CGT reform implementation. KPMG flags implementation timeline risks as tax office prepares practical guidance and systems for inflation-indexed CGT calculations.",
-      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "title": "ATO releases technical guidance distinguishing cost base indexation from CGT discount for pre-1985 assets",
+      "description": "The ATO has published technical guidance clarifying the distinction between the new cost base indexation method and the existing CGT discount mechanism, particularly for pre-1985 share holdings. This guidance is essential for tax practitioners preparing for July 2027 reforms.",
+      "suggestion": "Add to budget-updates.json: ATO releases technical guidance distinguishing cost base indexation from CGT discount for pre-1985 assets — clarifies transitional calculation methodology",
+      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260627-774",
-      "timestamp": "2026-06-27T05:47:22.503Z",
-      "status": "implemented",
-      "corroborated_by": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implemented_at": "2026-06-27T06:49:11.675Z"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] This absolute claim appears frequently but is mathematically false in certain scenarios. The outcome depends on: (1) the inflation rate during the holding period, (2) the taxpayer's marginal tax rate, and (3) how long the asset is held. For high-income earners with short holding periods and low inflation, the 50% discount may still be more favorable. Treasury analysis citing 'inflation accounts for 56% of ASX 200 gains over decade' supports indexation benefit, but doesn't prove it 'always' beats the discount.",
-      "suggestion": "Add to fact-checks.json: claim is 'inflation indexation always produces a better CGT outcome than 50% discount', verdict is disputed because the relative benefit depends on inflation rates, holding period, and marginal tax rate - not universally better.",
-      "source": "https://budget.gov.au/2026-27/tax-reform",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260627-935",
-      "timestamp": "2026-06-27T05:47:22.503Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base",
-      "implemented_at": "2026-06-27T06:49:34.875Z"
+      "id": "suggestion-20260704-752",
+      "timestamp": "2026-07-04T10:00:37.487Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base"
     },
     {
       "type": "content_update",
       "priority": "medium",
-      "title": "Fool.com.au analysis: How new capital gains tax affects ASX shares",
-      "description": "Fool.com.au analysis examines specific impact of 2026 Budget CGT changes on ASX share investors, providing practical guidance on how the shift from 50% discount to inflation-based indexation and 30% minimum tax floor affects equity portfolio taxation.",
-      "suggestion": "Add to budget-updates.json: Analysis examines how Budget 2026 CGT changes specifically affect ASX share investors, noting the shift from 50% CGT discount to inflation-based cost base indexation plus 30% minimum tax floor creates different outcomes depending on asset holding period and inflation environment.",
-      "source": "https://www.fool.com.au/2026/05/13/how-will-the-new-capital-gains-tax-affect-asx-shares/",
+      "title": "KPMG reveals detailed $47.5m CGT implementation funding breakdown for Treasury and ATO",
+      "description": "KPMG analysis reveals the detailed breakdown of the $47.5 million in implementation funding allocated to Treasury and the ATO over four years from 2026-27 (plus $3.9 million per year ongoing) for CGT and negative gearing reform rollout.",
+      "suggestion": "Add to budget-updates.json: KPMG reveals detailed $47.5m CGT implementation funding breakdown for Treasury and ATO — $3.9m ongoing after initial four-year period",
+      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
       "implementation_effort": "15_minutes",
-      "id": "suggestion-20260627-986",
-      "timestamp": "2026-06-27T05:47:22.503Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-27T06:50:09.997Z"
+      "id": "suggestion-20260704-486",
+      "timestamp": "2026-07-04T10:00:37.487Z",
+      "status": "pending"
     },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The Treasury Laws Amendment (More Housing, More Help) Bill 2026, containing the negative gearing and CGT changes, has been formally lodged with Parliament following Budget Night. This marks the formal legislative commencement of the reforms.",
+      "suggestion": "Add to budget-updates.json: Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament — negative gearing and CGT changes enter legislative process",
+      "source": "https://budget.gov.au/",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260704-195",
+      "timestamp": "2026-07-04T10:00:37.487Z",
+      "status": "pending",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "CGT discount replacement: inflation indexation vs cost base indexation mechanism",
+      "description": "Sources conflict on the technical mechanism for replacing the 50% CGT discount. Some report it as 'inflation indexation', while others (including NAB Budget Analysis) specify 'cost base indexation'. This matters for tax calculations as these are technically different methods with different outcomes.",
+      "suggestion": "Add to debates.json: NAB Budget Analysis states 'CGT discount replaced by cost base indexation — implications for investors', while multiple news sources report '50% CGT discount is being replaced by inflation indexation'. The budget.gov.au fact sheet examples use cost base indexing (1985-1999 approach confirmed by Perpetual analysis), creating conflict with media reporting of 'inflation indexation' terminology.",
+      "source": "https://www.nab.com.au/content/dam/nab/common/documents/microsites/budget-2026/NAB-Budget-Analysis-2026.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260704-849",
+      "timestamp": "2026-07-04T10:00:37.487Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Division 296 super tax: 15% on all earnings above $3m vs proportional excess calculation",
+      "description": "Some sources incorrectly state Division 296 imposes '15% tax on all superannuation balances exceeding $3m', while the budget fact sheet and CSC analysis clarify it applies '15% tax to the proportion of earnings...above $3m'. This is a significant factual difference — a proportional excess tax vs a blanket tax rate.",
+      "suggestion": "Add to debates.json: CSC states '15% tax applies to the proportion of earnings of total super balances above $3m', while multiple pending claim sources say '15% tax on all superannuation balances exceeding $3m'. The actual legislation applies 15% only to the excess over $3m, not to the entire balance.",
+      "source": "https://www.csc.gov.au/news-and-insights/2026/may-13-federal-budget-2026",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260704-411",
+      "timestamp": "2026-07-04T10:00:37.487Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources state this as fact, yet Perpetual's analysis confirms the new cost base indexation method mirrors the pre-1999 approach, which historically could produce HIGHER tax for very long-held assets than the 50% discount. The claim appears in existing fact-checks as verified, but technical analysis suggests this is an oversimplification that may be inaccurate for certain asset holding periods.",
+      "suggestion": "Add to fact-checks.json: claim is 'inflation indexation always produces better CGT outcome than 50% discount', verdict is disputed because historical data shows cost base indexation can result in higher CGT than the 50% discount for assets held for extended periods, depending on inflation rates and holding period.",
+      "source": "https://www.perpetual.com.au/insights/australian-federal-budget-2026-27",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260704-418",
+      "timestamp": "2026-07-04T10:00:37.487Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 imposes 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "Media commonly phrases this as a flat 15% on the entire balance over $3m. However, ATO and Pitcher Partners sources indicate Division 296 applies 15% tax on the PROPORTION OF EARNINGS relating to the taxable superannuation balance that exceeds $3m, not a flat 15% on the entire balance above the threshold. This is a significant technical distinction.",
+      "suggestion": "Add to fact-checks.json: claim is 'Division 296 imposes 15% tax on all super balances over $3m', verdict is partially_true but misleading because the 15% tax applies only to the proportion of earnings attributable to the balance exceeding $3m, not the entire excess balance.",
+      "source": "https://www.ato.gov.au/tax-professionals/newsroom/better-targeted-super-concessions",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260704-490",
+      "timestamp": "2026-07-04T10:00:37.487Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260704-199",
+      "timestamp": "2026-07-04T10:00:37.487Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "fact_check",
       "priority": "high",
@@ -8828,35 +8885,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "ASX analysis quantifies CGT reform impact on retired investors: 8% vs 30% effective rate",
-      "description": "ASX analysis provides concrete example showing a retired investor on a 16% marginal tax rate faces 8% tax on nominal gains under current CGT rules, versus 30% on indexed gains under announced changes. This 22 percentage point increase is more severe than simple marginal rate calculations suggest.",
-      "suggestion": "Add to budget-updates.json: ASX analysis reveals that retired investors on low marginal tax rates face disproportionately large CGT increases under reform - a 16% marginal rate investor currently pays just 8% on nominal gains but would face 30% on indexed gains, representing a 22 percentage point effective tax rate increase.",
-      "source": "https://www.asx.com.au/blog/investor-update/2026/what-the-federal-budget-means-for-investors",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260627-387",
-      "timestamp": "2026-06-27T05:47:22.503Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-27T06:49:46.410Z"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
-      "description": "This claim misrepresents how Division 296 actually works. The ATO states the 15% tax applies to 'the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning it taxes the earnings on the excess balance, not a flat 15% on the entire balance over $3m. Someone with $4m balance doesn't pay 15% × $4m, but rather 15% on the earnings attributable to the $1m portion exceeding $3m. This is a significant distinction that affects the actual tax liability.",
-      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because the tax applies only to earnings attributable to the excess amount, not the entire balance.",
-      "source": "https://www.ato.gov.au/General/New-legislation/In-detail/Super-proposed-changes/Better-targeted-super-concessions",
-      "implementation_effort": "45_minutes",
-      "id": "suggestion-20260627-148",
-      "timestamp": "2026-06-27T05:47:22.503Z",
-      "status": "skipped",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-27T06:50:27.428Z"
-    },
     {
       "type": "fact_check",
       "priority": "high",

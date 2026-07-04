@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T06:43:07.453Z",
+  "lastUpdated": "2026-07-04T11:23:34.667Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2907,6 +2907,30 @@
         "argument": "ABC News and other media reports reference Budget Night (12 May 2026) as the critical cutoff date for new investments to be grandfathered from the negative gearing restrictions. This suggests the policy intent was to prevent investors from entering new negatively geared arrangements after the budget announcement.",
         "sources": [
           "Financial news outlets covering the housing policy"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-126",
+      "slug": "cgt-discount-cost-base-indexation-vs-inflation-indexation",
+      "title": "Is the CGT discount being replaced by cost base indexation or inflation indexation?",
+      "category": "tax",
+      "type": "factual_dispute",
+      "summary": "NAB Budget Analysis and other financial sources make conflicting claims about which indexation mechanism replaces the 50% CGT discount. This is a factual conflict about the reform mechanism with different tax implications for investors. Cost base indexation and inflation indexation are technically different mechanisms that produce different outcomes for asset valuations and capital gains calculations.",
+      "view_a": {
+        "label": "Cost Base Indexation",
+        "argument": "NAB Budget Analysis states that the 50% CGT discount is being replaced by cost base indexation. Under this mechanism, the cost base of assets is adjusted to reflect changes in the consumer price index (CPI) from the date of purchase, thereby reducing the nominal capital gain that is subject to tax. This approach effectively removes the discount while preserving the existing CGT calculation framework.",
+        "sources": [
+          "NAB Budget Analysis"
+        ]
+      },
+      "view_b": {
+        "label": "Inflation Indexation",
+        "argument": "Other financial sources claim the CGT discount is being replaced by inflation indexation, which is technically a different mechanism. Inflation indexation would adjust gains specifically for inflation effects, distinguishing between real and nominal returns. This approach has different implications for investors as it could result in different taxable amounts compared to cost base indexation, particularly for assets held for long periods or during high-inflation environments.",
+        "sources": [
+          "Perpetual Budget Analysis",
+          "Other financial commentators"
         ]
       },
       "verdict": null

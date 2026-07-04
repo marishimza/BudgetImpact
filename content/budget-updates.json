@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T22:57:07.895Z",
+  "lastUpdated": "2026-07-04T11:22:51.303Z",
   "items": [
     {
       "id": "update-001",
@@ -3429,6 +3429,36 @@
       "title": "Senate Passes Contested Budget Legislation Following Opposition U-Turn",
       "summary": "The Senate has passed contentious budget legislation after the opposition reversed its position on key amendments. The government's signature savings measure, which had been stalled for weeks, received crossbench support following late-night negotiations. Treasury officials confirmed the legislation will take effect from 1 July 2026 as originally planned.",
       "url": "https://www.afr.com/politics/federal/senate-passes-budget-legislation-20260703",
+      "priority": "high"
+    },
+    {
+      "id": "update-341",
+      "date": "2026-07-04",
+      "tag": "Budget",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases technical guidance distinguishing cost base indexation from CGT discount for pre-1985 assets",
+      "summary": "The ATO has published technical guidance clarifying the distinction between the new cost base indexation method and the existing CGT discount mechanism, particularly for pre-1985 share holdings. This guidance is essential for tax practitioners preparing for July 2027 reforms. The guidance provides detailed examples on how indexation applies to assets acquired before 1985 and how it interacts with the 50% CGT discount.",
+      "url": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "priority": "high"
+    },
+    {
+      "id": "update-342",
+      "date": "2026-07-04",
+      "tag": "Parliament",
+      "source": "Australian Government Budget",
+      "title": "Treasury Laws Amendment (More Housing, More Help) Bill 2026 formally lodged with Parliament",
+      "summary": "The Treasury Laws Amendment (More Housing, More Help) Bill 2026, containing the government's negative gearing and capital gains tax changes, has been formally lodged with Parliament following Budget Night. This marks the formal legislative commencement of the housing affordability reforms announced in the budget. Property investors and industry stakeholders will now monitor the bill's progress through the parliamentary process.",
+      "url": "https://budget.gov.au/",
+      "priority": "high"
+    },
+    {
+      "id": "update-343",
+      "date": "2026-07-04",
+      "tag": "Budget",
+      "source": "KPMG",
+      "title": "KPMG reveals detailed $47.5m CGT implementation funding breakdown for Treasury and ATO",
+      "summary": "KPMG analysis provides a detailed breakdown of the $47.5 million in implementation funding allocated to Treasury and the ATO over four years from 2026-27 for CGT and negative gearing reform rollout. The funding includes $3.9 million per year ongoing after the initial four-year implementation period concludes.",
+      "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
       "priority": "high"
     }
   ]

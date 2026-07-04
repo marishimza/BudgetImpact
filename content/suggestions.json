@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T22:58:10.954Z",
+  "lastUpdated": "2026-07-04T05:38:29.341Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -7340,36 +7340,106 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO releases technical guidance on pre-1985 share valuation reset mechanism",
+      "description": "Technical guidance from ATO explains the pre-1985 share valuation reset mechanism ahead of 1 July 2027 CGT changes, clarifying how cost base indexation applies to assets acquired before 1985 under the new rules.",
+      "suggestion": "Add to budget-updates.json: ATO has released technical guidance explaining the pre-1985 share valuation reset mechanism for CGT indexation calculations. The guidance clarifies how investors holding shares acquired before 1 January 1985 can reset their cost base to market value as at 30 June 2027, and how this interacts with the new indexation-based discount framework replacing the 50% CGT discount.",
+      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260704-242",
+      "timestamp": "2026-07-04T05:38:21.812Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Tax practitioner readiness concerns flagged as ATO releases final CGT indexation guidance",
+      "description": "As ATO releases final technical guidance on CGT indexation calculations, tax practitioners flag concerns about readiness given the 12-month implementation window before July 2027 commencement.",
+      "suggestion": "Add to budget-updates.json: Tax practitioners have raised concerns about readiness to implement CGT indexation reforms following the ATO's release of final technical guidance. With the 12-month window before July 2027 commencement, professional bodies are calling for additional support materials and clarification on transitional calculations, particularly for complex portfolios and assets held across multiple tax years.",
+      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260704-439",
+      "timestamp": "2026-07-04T05:38:21.812Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "low",
+      "title": "Grattan Institute modelling questions $2B infrastructure housing delivery capacity",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Independent analysis from Grattan Institute questions whether the $2 billion infrastructure funding tied to housing supply milestones can actually deliver the claimed 65,000 additional homes, citing infrastructure bottlenecks and planning constraints.",
+      "suggestion": "Add to budget-updates.json: Grattan Institute modelling has questioned the $2 billion infrastructure initiative's ability to deliver 65,000 additional homes as claimed by the government. Independent analysis suggests infrastructure bottlenecks, planning approval timelines, and construction capacity constraints may significantly limit the actual housing output from the program, which ties funding to housing supply milestones.",
+      "source": "https://grattan.edu.au",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260704-712",
+      "timestamp": "2026-07-04T05:38:21.812Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "CGT discount replacement: inflation indexation vs cost base indexation",
+      "description": "Multiple credible sources describe the CGT discount replacement mechanism differently - some say 'inflation indexation' replaces the 50% discount, others say 'cost base indexation' mirroring the pre-1999 approach. This is a factual disagreement about the technical mechanism, not just interpretation.",
+      "suggestion": "Add to debates.json: NAB Budget Analysis says CGT discount replaced by 'cost base indexation' with implications for investors. Perpetual analysis confirms new CGT indexation 'mirrors pre-1999 approach' (which was cost base indexation). However, multiple other sources describe the replacement as 'inflation indexation' without mentioning cost base. This creates a factual conflict about which indexation method is being used.",
+      "source": "https://www.nab.com.au/content/nab-www/nab-com-au/home/perspectives/2026-budget-analysis.html; https://www.perpetual.com.au/insights/2026-budget-analysis",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260704-670",
+      "timestamp": "2026-07-04T05:38:21.812Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "$2B infrastructure initiative housing delivery: 65,000 official target vs independent feasibility",
+      "description": "The government projects the $2B infrastructure initiative will deliver 65,000 additional homes. However, Grattan Institute and other independent analysts question whether this target is achievable, suggesting realistic delivery may be significantly lower.",
+      "suggestion": "Add to debates.json: Government sources (budget.gov.au, Treasurer's statements) project 65,000 additional homes from the $2B infrastructure initiative. Grattan Institute modelling questions the infrastructure initiative housing delivery capacity and 65,000 target feasibility. Infrastructure initiative housing targets: official 65,000 vs independent estimates - creates factual conflict about what the initiative will actually deliver.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://grattan.edu.au/news/budget-2026-housing-reforms-unlikely-to-improve-affordability-until-2030s",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260704-850",
+      "timestamp": "2026-07-04T05:38:21.812Z",
+      "status": "pending"
+    },
     {
       "type": "fact_check",
       "priority": "high",
-      "title": "Claim: Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million",
-      "description": "Multiple sources claim Division 296 imposes a flat 15% tax on super balances over $3m. However, the ATO source states: '15% on the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning it's a 15% tax on EARNINGS (not the balance itself), and only on the portion of earnings attributable to the excess balance. This is a significant distinction that could mislead taxpayers into thinking they're paying 15% on $3m+ of their super balance.",
-      "suggestion": "Add to fact-checks.json: claim is '15% tax on super balances over $3m', verdict is partially_true because Division 296 imposes 15% tax on taxable superannuation EARNINGS attributable to balances exceeding $3m, not a flat 15% on the entire balance.",
-      "source": "https://ato.gov.au/Better-Targeted-Super-Concessions",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260626-647",
-      "timestamp": "2026-06-26T21:13:24.840Z",
-      "status": "implemented",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implemented_at": "2026-06-26T23:00:56.303Z"
+      "title": "Claim: '$2 billion infrastructure initiative will deliver 65,000 additional homes'",
+      "description": "Multiple sources cite this specific housing target, but search results indicate independent modelling and the Grattan Institute question whether this target is achievable. Grattan Institute modelling reportedly doubts the 65,000 home target feasibility, and Coalition repeal costings ($23bn impact) suggest skepticism about delivery. This specific number could be an optimistic projection rather than a guaranteed outcome.",
+      "suggestion": "Add to fact-checks.json: claim is '$2B infrastructure initiative will deliver 65,000 additional homes', verdict is disputed because independent analysis questions feasibility and delivery timeline is uncertain.",
+      "source": "https://www.budget.gov.au",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260704-181",
+      "timestamp": "2026-07-04T05:38:21.812Z",
+      "status": "pending",
+      "corroborated_by": "https://www.smh.com.au/politics/federal/chalmers-doubles-down-on-housing-with-2-billion-for-roads-and-pipes-20260509-p5zv9w.html"
     },
     {
-      "id": "suggestion-20260626-139",
-      "timestamp": "2026-06-26T21:13:24.840Z",
-      "status": "implemented",
+      "type": "fact_check",
       "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes",
-      "implemented_at": "2026-06-26T23:01:35.885Z"
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "The claim phrasing implies a 15% flat tax on the entire balance above $3m. However, the ATO source states the tax is '15% on the proportion of earnings relating to your TSB that exceeds the LSBT.' This is a 15% tax on the earnings attributable to the excess balance, NOT a 15% tax on the entire balance above $3m. This is a significant oversimplification that could mislead people about the actual tax impact.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is partially_true because Division 296 imposes 15% tax on the earnings relating to the proportion of balance exceeding $3m threshold, not a 15% tax on the entire excess balance.",
+      "source": "https://www.ato.gov.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260704-188",
+      "timestamp": "2026-07-04T05:38:21.812Z",
+      "status": "pending"
     },
+    {
+      "id": "suggestion-20260704-590",
+      "timestamp": "2026-07-04T05:38:21.812Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "content_update",
       "priority": "high",
@@ -8806,49 +8876,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases technical guidance on pre-1985 share valuation reset mechanism",
-      "description": "The ATO has released technical guidance clarifying the pre-1985 share valuation reset for the July 2027 CGT changes. This guidance helps investors and tax professionals understand how pre-1985 assets will be treated under the new indexation rules, distinguishing between cost base indexation and the former CGT discount approach.",
-      "suggestion": "Add ATO technical guidance on pre-1985 share valuation reset for July 2027 CGT changes",
-      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260626-508",
-      "timestamp": "2026-06-26T21:13:24.840Z",
-      "status": "skipped",
-      "corroborated_by": "https://www.ato.gov.au/law/view/document?docid=TXR/TR9430/NAT/ATO/00001",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-26T23:00:32.970Z"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Perpetual analysis: New CGT cost base indexation mirrors 1985-1999 approach with transitional calculation methodology",
-      "description": "Perpetual's wealth analysis confirms the new CGT cost base indexation method mirrors the pre-1999 approach used from 1985-1999, explaining the transitional calculation methodology for assets acquired before and after the reform date. This technical detail helps investors understand how their CGT liability will be calculated under the new rules.",
-      "suggestion": "Add Perpetual analysis on CGT indexation method and transitional calculation methodology",
-      "source": "https://www.perpetual.com.au/insights/federal-budget-2026/",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260626-745",
-      "timestamp": "2026-06-26T21:13:24.840Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-26T23:01:05.790Z"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'A retired investor on a 16% marginal rate faces 8% tax on nominal gains' under current CGT system",
-      "description": "The ASX analysis states a retired investor on a 16% marginal rate faces 8% tax on nominal gains under the current CGT system, implying the new rules would impose 30% tax. This claim may oversimplify the transition rules and doesn't clarify that the 50% discount applies to the gain (not the nominal gain), and that indexation may produce different outcomes depending on inflation levels and holding period.",
-      "suggestion": "Add to fact-checks.json: claim is 'retired investor on 16% rate faces 8% tax on nominal gains', verdict is partially_true because the 50% discount applies to the capital gain (not nominal gain), and the actual tax rate depends on total gain amount, holding period, and inflation. The comparison to 30% on indexed gains may not be accurate for all scenarios.",
-      "source": "https://www.asx.com.au/compathy/2026-federal-budget-investors",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260606-996",
-      "timestamp": "2026-06-06T20:54:34.315Z",
-      "status": "skipped",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-26T23:01:49.429Z"
-    },
     {
       "type": "content_update",
       "priority": "medium",

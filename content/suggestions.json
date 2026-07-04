@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T16:59:35.409Z",
+  "lastUpdated": "2026-07-04T20:43:54.585Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -7436,74 +7436,106 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Tax Reform No. 1 Bill 2026 formally lodged — trust tax treatment changes progress separately from housing package",
+      "description": "The Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 has been formally lodged with Parliament separately from the Treasury Laws Amendment (More Housing, More Help) Bill 2026, signalling trust tax treatment reform as a distinct piece of legislation within the Government's broader asset taxation shift strategy.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform progressing as separate legislation — Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Legislation_SubjectIndex?page=1&count=10",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260704-398",
+      "timestamp": "2026-07-04T20:43:48.133Z",
+      "status": "pending",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG reveals detailed CGT implementation funding breakdown: $47.5m over four years plus $3.9m ongoing",
+      "description": "KPMG Budget Analysis provides detailed breakdown of the $47.5 million in CGT and negative gearing reform implementation funding allocated to Treasury and ATO over four years from 2026-27, plus $3.9 million in ongoing funding.",
+      "suggestion": "Add to budget-updates.json: KPMG analysis reveals detailed CGT implementation funding breakdown — $47.5m over four years plus $3.9m ongoing for Treasury and ATO",
+      "source": "https://kpmg.com/au/en/home/insights/2026/05/federal-budget-2026-analysis.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260704-433",
+      "timestamp": "2026-07-04T20:43:48.133Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Labor-Greens deal confirms CGT and negative gearing reforms will pass Parliament with sufficient Senate support",
+      "description": "Following extended Senate negotiations, a formal Labor-Greens agreement confirms the housing reform package including negative gearing restrictions and CGT discount changes will receive sufficient crossbench support to pass Parliament, ensuring the reforms proceed as legislated.",
+      "suggestion": "Add to budget-updates.json: Labor-Greens deal confirms CGT and negative gearing reforms will pass Parliament with sufficient Senate support",
+      "source": "https://www.theguardian.com/australia-news/2026/may/15/senate-housing-reform-vote",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260704-801",
+      "timestamp": "2026-07-04T20:43:48.133Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "CGT discount replacement: inflation indexation vs cost base indexation",
+      "description": "Sources conflict on what mechanism replaces the 50% CGT discount. Some claim it will be 'inflation indexation' while NAB Budget Analysis and Perpetual confirm it uses 'cost base indexation' mirroring the pre-1999 approach. This is a factual dispute about the technical calculation method that affects how investors compute capital gains tax.",
+      "suggestion": "Add to debates.json: NAB and Perpetual state the CGT discount is replaced by cost base indexation (method from 1985-1999), while other sources claim it is inflation indexation. The mechanism determines how asset cost bases are adjusted for inflation versus how gains are calculated.",
+      "source": "https://www.williambuck.com/tools/federal-budget-2026/negative-gearing/",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260704-623",
+      "timestamp": "2026-07-04T20:43:48.133Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Division 296 super tax: proportional earnings tax vs flat rate on excess balance",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] There is conflicting information about how Division 296 actually works. The official CSC source (Commonwealth Superannuation Corporation) states it applies to 'the proportion of earnings' above thresholds. However, multiple sources claim it is a '15% tax on all superannuation balances exceeding $3 million' — which describes a flat rate on excess balance, not an earnings-based calculation. This is a factual conflict about the tax's fundamental operation.",
+      "suggestion": "Add to debates.json: CSC states Division 296 applies 15% tax to 'proportion of earnings' above $3m threshold (earnings-based), while multiple sources claim it imposes '15% tax on all superannuation balances exceeding $3 million' (balance-based). These describe fundamentally different tax calculation methods.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260704-969",
+      "timestamp": "2026-07-04T20:43:48.133Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "This claim is widely repeated but is technically misleading. The ATO states that Division 296 applies '15% on the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning the 15% tax is on the earnings attributable to the excess balance above $3m, not a flat 15% on the entire balance. This is a significant distinction that could lead to overestimation of the tax impact.",
+      "suggestion": "Add to fact-checks.json: claim is '15% on entire balance over $3m', verdict is disputed because Division 296 taxes 15% on earnings attributable to the excess balance, not a flat percentage on total superannuation balances",
+      "source": "https://www.ato.gov.au/tax-professionals/your-practice/corporate/in-detail/ato-response/royal-commission-into-aged-care-quality-and-safety---superannuation-measures#:~:text=Division%20296%20tax%20is%20imposed%20on%20the%20taxable%20superannuation%20earnings%20of%20individuals%20whose%20total%20superannuation%20balance%20exceeds%20the%20low%2Drate%20balance%20cap",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260704-233",
+      "timestamp": "2026-07-04T20:43:48.133Z",
+      "status": "pending"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: '$2 billion infrastructure initiative will deliver 65,000 additional homes'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources cite this specific figure as a certainty, but the Grattan Institute and independent analysts have questioned whether this target is achievable. The claim presents government projections as established fact without acknowledging delivery risks or alternative estimates.",
+      "suggestion": "Add to fact-checks.json: claim is '$2B infrastructure will deliver 65,000 homes (certain)', verdict is unclear because while the budget allocates $2B with a 65,000 home target, independent analysis (Grattan Institute) questions feasibility",
+      "source": "https://www.budget.gov.au/content-0/mediarelease/2026-27/factsheets/housing-fact-sheet.pdf",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260704-483",
+      "timestamp": "2026-07-04T20:43:48.133Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260704-128",
+      "timestamp": "2026-07-04T20:43:48.133Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
     }
   ],
   "implemented": [
-    {
-      "id": "suggestion-20260627-129",
-      "timestamp": "2026-06-27T15:08:48.401Z",
-      "status": "implemented",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes",
-      "implemented_at": "2026-06-27T17:04:30.846Z"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will restricting negative gearing to new builds increase or decrease rental supply?",
-      "description": "Real estate industry bodies (REIA and Property Council) warn that reducing the attractiveness of residential property investment could reduce rental supply over time. Meanwhile, the government frames its policy as focusing tax support on new supply to address housing shortages. This represents a factual conflict about the directional impact of the policy on rental availability.",
-      "suggestion": "Add to debates.json: view_a from REIA/Property Council via slateandsage.com.au says restricting negative gearing could REDUCE rental supply over time; view_b from budget.gov.au says limiting negative gearing to new builds will FOCUS TAX SUPPORT ON NEW SUPPLY to address housing shortage",
-      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260607-520",
-      "timestamp": "2026-06-07T10:22:22.741Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-27T17:05:07.143Z"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Negative gearing has been fully abolished for all investors'",
-      "description": "Multiple sources indicate negative gearing is NOT fully abolished. It is limited to NEW BUILDS only from 1 July 2027. Properties purchased BEFORE 7:30pm on Budget Night (12 May 2026) remain grandfathered with existing negative gearing intact. This is a significant oversimplification.",
-      "suggestion": "Add to fact-checks.json: claim is 'fully abolished', verdict is disputed because negative gearing is only restricted to new builds from 1 July 2027, with grandfathering for existing property investors.",
-      "source": "https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260607-458",
-      "timestamp": "2026-06-07T10:22:22.741Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-27T17:06:02.764Z"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
-      "description": "This claim appears in multiple fact-checks but the ASX analysis shows a retired investor on 16% marginal rate faces 8% tax on nominal gains under current 50% discount vs 30% on indexed gains under new rules - clearly demonstrating the 50% discount can be better.",
-      "suggestion": "Add to fact-checks.json: claim is 'inflation indexation always better', verdict is disputed because for high-growth assets the 50% discount produces lower effective tax rates than inflation indexation.",
-      "source": "https://www.asx.com.au/content/dam/asx/community/investing-tools-resources/commentary/2026/what-the-federal-budget-means-for-investors.pdf",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260607-747",
-      "timestamp": "2026-06-07T10:22:22.741Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-27T17:06:24.990Z"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Is the 50% CGT discount preserved or eliminated under 2026 Budget reforms?",
-      "description": "Government factsheet shows a worked example where a property investor 'still receives the 50% CGT discount' after the reforms, while multiple news sources describe the 50% discount as being 'replaced' by inflation indexation. This is a factual conflict about what actually happens to existing CGT arrangements.",
-      "suggestion": "Add to debates.json: budget.gov.au factsheet preserves 50% CGT discount for existing property scenarios (grandfathered), while ABC/Guardian/LSJ report it as being 'replaced' by indexation",
-      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf vs https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260607-173",
-      "timestamp": "2026-06-07T15:19:36.293Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-27T17:07:33.352Z"
-    },
     {
       "id": "suggestion-20260627-321",
       "timestamp": "2026-06-27T20:51:04.069Z",

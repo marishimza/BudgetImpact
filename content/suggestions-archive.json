@@ -9635,6 +9635,71 @@
       "timestamp": "2026-06-07T06:14:42.262Z",
       "status": "implemented",
       "implemented_at": "2026-06-27T11:26:22.563Z"
+    },
+    {
+      "id": "suggestion-20260627-129",
+      "timestamp": "2026-06-27T15:08:48.401Z",
+      "status": "implemented",
+      "priority": "medium",
+      "type": "content_update",
+      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
+      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
+      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
+      "source": "",
+      "implementation_effort": "15_minutes",
+      "implemented_at": "2026-06-27T17:04:30.846Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will restricting negative gearing to new builds increase or decrease rental supply?",
+      "description": "Real estate industry bodies (REIA and Property Council) warn that reducing the attractiveness of residential property investment could reduce rental supply over time. Meanwhile, the government frames its policy as focusing tax support on new supply to address housing shortages. This represents a factual conflict about the directional impact of the policy on rental availability.",
+      "suggestion": "Add to debates.json: view_a from REIA/Property Council via slateandsage.com.au says restricting negative gearing could REDUCE rental supply over time; view_b from budget.gov.au says limiting negative gearing to new builds will FOCUS TAX SUPPORT ON NEW SUPPLY to address housing shortage",
+      "source": "https://www.slateandsage.com.au/blog/federal-budget-2026-property-tax-changes-buyers-investors",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260607-520",
+      "timestamp": "2026-06-07T10:22:22.741Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-27T17:05:07.143Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Negative gearing has been fully abolished for all investors'",
+      "description": "Multiple sources indicate negative gearing is NOT fully abolished. It is limited to NEW BUILDS only from 1 July 2027. Properties purchased BEFORE 7:30pm on Budget Night (12 May 2026) remain grandfathered with existing negative gearing intact. This is a significant oversimplification.",
+      "suggestion": "Add to fact-checks.json: claim is 'fully abolished', verdict is disputed because negative gearing is only restricted to new builds from 1 July 2027, with grandfathering for existing property investors.",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026/negative-gearing",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260607-458",
+      "timestamp": "2026-06-07T10:22:22.741Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-27T17:06:02.764Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Inflation indexation always produces a better CGT outcome than the 50% discount for long-held assets'",
+      "description": "This claim appears in multiple fact-checks but the ASX analysis shows a retired investor on 16% marginal rate faces 8% tax on nominal gains under current 50% discount vs 30% on indexed gains under new rules - clearly demonstrating the 50% discount can be better.",
+      "suggestion": "Add to fact-checks.json: claim is 'inflation indexation always better', verdict is disputed because for high-growth assets the 50% discount produces lower effective tax rates than inflation indexation.",
+      "source": "https://www.asx.com.au/content/dam/asx/community/investing-tools-resources/commentary/2026/what-the-federal-budget-means-for-investors.pdf",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260607-747",
+      "timestamp": "2026-06-07T10:22:22.741Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-27T17:06:24.990Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Is the 50% CGT discount preserved or eliminated under 2026 Budget reforms?",
+      "description": "Government factsheet shows a worked example where a property investor 'still receives the 50% CGT discount' after the reforms, while multiple news sources describe the 50% discount as being 'replaced' by inflation indexation. This is a factual conflict about what actually happens to existing CGT arrangements.",
+      "suggestion": "Add to debates.json: budget.gov.au factsheet preserves 50% CGT discount for existing property scenarios (grandfathered), while ABC/Guardian/LSJ report it as being 'replaced' by indexation",
+      "source": "https://budget.gov.au/content/factsheets/download/tax-explainers-negative-gearing-capital-gains-tax.pdf vs https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260607-173",
+      "timestamp": "2026-06-07T15:19:36.293Z",
+      "status": "implemented",
+      "implemented_at": "2026-06-27T17:07:33.352Z"
     }
   ]
 }

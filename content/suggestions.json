@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T05:38:29.341Z",
+  "lastUpdated": "2026-07-04T06:43:07.457Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2302,18 +2302,6 @@
       "status": "pending"
     },
     {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: The 50% CGT discount is being replaced by 'inflation indexation' with no choice for taxpayers",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources use different terminology - 'inflation indexation' (stockspot.com.au, budget.gov.au) versus 'cost base indexation' (perpetual.com.au, NAB analysis cited in pending suggestions). These may be the same mechanism described differently, or could represent different calculation methods. The phrasing 'with no choice for taxpayers' is definitive but the actual policy may allow some flexibility.",
-      "suggestion": "Add to fact-checks.json: claim is that indexation method is fixed with no taxpayer choice, verdict is disputed because terminology varies between 'inflation indexation' and 'cost base indexation' across official and industry sources.",
-      "source": "https://www.perpetual.com.au",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260610-459",
-      "timestamp": "2026-06-10T21:52:39.397Z",
-      "status": "pending"
-    },
-    {
       "id": "suggestion-20260610-507",
       "timestamp": "2026-06-10T21:52:39.397Z",
       "status": "pending",
@@ -2324,18 +2312,6 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "When do negative gearing restrictions actually take effect?",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The government budget website states restrictions begin 1 July 2027, but some media reports reference Budget Night (12 May 2026) as the cutoff for grandfathering. This is a factual conflict about the implementation timeline that affects investors' planning decisions.",
-      "suggestion": "Add to debates.json: budget.gov.au states negative gearing limits apply 'from 1 July 2027', while ABC News and other sources reference the 12 May 2026 Budget Night as the critical cutoff date for new investments",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260611-944",
-      "timestamp": "2026-06-11T06:41:07.116Z",
-      "status": "pending"
     },
     {
       "type": "debate_page",
@@ -7343,30 +7319,6 @@
     },
     {
       "type": "content_update",
-      "priority": "medium",
-      "title": "ATO releases technical guidance on pre-1985 share valuation reset mechanism",
-      "description": "Technical guidance from ATO explains the pre-1985 share valuation reset mechanism ahead of 1 July 2027 CGT changes, clarifying how cost base indexation applies to assets acquired before 1985 under the new rules.",
-      "suggestion": "Add to budget-updates.json: ATO has released technical guidance explaining the pre-1985 share valuation reset mechanism for CGT indexation calculations. The guidance clarifies how investors holding shares acquired before 1 January 1985 can reset their cost base to market value as at 30 June 2027, and how this interacts with the new indexation-based discount framework replacing the 50% CGT discount.",
-      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260704-242",
-      "timestamp": "2026-07-04T05:38:21.812Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Tax practitioner readiness concerns flagged as ATO releases final CGT indexation guidance",
-      "description": "As ATO releases final technical guidance on CGT indexation calculations, tax practitioners flag concerns about readiness given the 12-month implementation window before July 2027 commencement.",
-      "suggestion": "Add to budget-updates.json: Tax practitioners have raised concerns about readiness to implement CGT indexation reforms following the ATO's release of final technical guidance. With the 12-month window before July 2027 commencement, professional bodies are calling for additional support materials and clarification on transitional calculations, particularly for complex portfolios and assets held across multiple tax years.",
-      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260704-439",
-      "timestamp": "2026-07-04T05:38:21.812Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
       "priority": "low",
       "title": "Grattan Institute modelling questions $2B infrastructure housing delivery capacity",
       "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Independent analysis from Grattan Institute questions whether the $2 billion infrastructure funding tied to housing supply milestones can actually deliver the claimed 65,000 additional homes, citing infrastructure bottlenecks and planning constraints.",
@@ -7400,19 +7352,6 @@
       "id": "suggestion-20260704-850",
       "timestamp": "2026-07-04T05:38:21.812Z",
       "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: '$2 billion infrastructure initiative will deliver 65,000 additional homes'",
-      "description": "Multiple sources cite this specific housing target, but search results indicate independent modelling and the Grattan Institute question whether this target is achievable. Grattan Institute modelling reportedly doubts the 65,000 home target feasibility, and Coalition repeal costings ($23bn impact) suggest skepticism about delivery. This specific number could be an optimistic projection rather than a guaranteed outcome.",
-      "suggestion": "Add to fact-checks.json: claim is '$2B infrastructure initiative will deliver 65,000 additional homes', verdict is disputed because independent analysis questions feasibility and delivery timeline is uncertain.",
-      "source": "https://www.budget.gov.au",
-      "implementation_effort": "45_minutes",
-      "id": "suggestion-20260704-181",
-      "timestamp": "2026-07-04T05:38:21.812Z",
-      "status": "pending",
-      "corroborated_by": "https://www.smh.com.au/politics/federal/chalmers-doubles-down-on-housing-with-2-billion-for-roads-and-pipes-20260509-p5zv9w.html"
     },
     {
       "type": "fact_check",
@@ -8873,6 +8812,19 @@
       "timestamp": "2026-06-10T16:55:01.644Z",
       "status": "implemented",
       "implemented_at": "2026-07-03T22:57:51.323Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "When do negative gearing restrictions actually take effect?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The government budget website states restrictions begin 1 July 2027, but some media reports reference Budget Night (12 May 2026) as the cutoff for grandfathering. This is a factual conflict about the implementation timeline that affects investors' planning decisions.",
+      "suggestion": "Add to debates.json: budget.gov.au states negative gearing limits apply 'from 1 July 2027', while ABC News and other sources reference the 12 May 2026 Budget Night as the critical cutoff date for new investments",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260611-944",
+      "timestamp": "2026-06-11T06:41:07.116Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-04T06:43:07.456Z"
     }
   ],
   "skipped": [
@@ -9320,6 +9272,63 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-07-03T22:58:10.954Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO releases technical guidance on pre-1985 share valuation reset mechanism",
+      "description": "Technical guidance from ATO explains the pre-1985 share valuation reset mechanism ahead of 1 July 2027 CGT changes, clarifying how cost base indexation applies to assets acquired before 1985 under the new rules.",
+      "suggestion": "Add to budget-updates.json: ATO has released technical guidance explaining the pre-1985 share valuation reset mechanism for CGT indexation calculations. The guidance clarifies how investors holding shares acquired before 1 January 1985 can reset their cost base to market value as at 30 June 2027, and how this interacts with the new indexation-based discount framework replacing the 50% CGT discount.",
+      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260704-242",
+      "timestamp": "2026-07-04T05:38:21.812Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-07-04T06:42:01.105Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Tax practitioner readiness concerns flagged as ATO releases final CGT indexation guidance",
+      "description": "As ATO releases final technical guidance on CGT indexation calculations, tax practitioners flag concerns about readiness given the 12-month implementation window before July 2027 commencement.",
+      "suggestion": "Add to budget-updates.json: Tax practitioners have raised concerns about readiness to implement CGT indexation reforms following the ATO's release of final technical guidance. With the 12-month window before July 2027 commencement, professional bodies are calling for additional support materials and clarification on transitional calculations, particularly for complex portfolios and assets held across multiple tax years.",
+      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260704-439",
+      "timestamp": "2026-07-04T05:38:21.812Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-07-04T06:42:08.729Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: '$2 billion infrastructure initiative will deliver 65,000 additional homes'",
+      "description": "Multiple sources cite this specific housing target, but search results indicate independent modelling and the Grattan Institute question whether this target is achievable. Grattan Institute modelling reportedly doubts the 65,000 home target feasibility, and Coalition repeal costings ($23bn impact) suggest skepticism about delivery. This specific number could be an optimistic projection rather than a guaranteed outcome.",
+      "suggestion": "Add to fact-checks.json: claim is '$2B infrastructure initiative will deliver 65,000 additional homes', verdict is disputed because independent analysis questions feasibility and delivery timeline is uncertain.",
+      "source": "https://www.budget.gov.au",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260704-181",
+      "timestamp": "2026-07-04T05:38:21.812Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.smh.com.au/politics/federal/chalmers-doubles-down-on-housing-with-2-billion-for-roads-and-pipes-20260509-p5zv9w.html",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-07-04T06:42:23.744Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: The 50% CGT discount is being replaced by 'inflation indexation' with no choice for taxpayers",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources use different terminology - 'inflation indexation' (stockspot.com.au, budget.gov.au) versus 'cost base indexation' (perpetual.com.au, NAB analysis cited in pending suggestions). These may be the same mechanism described differently, or could represent different calculation methods. The phrasing 'with no choice for taxpayers' is definitive but the actual policy may allow some flexibility.",
+      "suggestion": "Add to fact-checks.json: claim is that indexation method is fixed with no taxpayer choice, verdict is disputed because terminology varies between 'inflation indexation' and 'cost base indexation' across official and industry sources.",
+      "source": "https://www.perpetual.com.au",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260610-459",
+      "timestamp": "2026-06-10T21:52:39.397Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-07-04T06:42:44.966Z"
     }
   ],
   "needs_manual_review": [

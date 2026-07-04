@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T22:57:30.017Z",
+  "lastUpdated": "2026-07-04T06:43:07.453Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2884,6 +2884,29 @@
         "argument": "The immigration cap is a distinct policy platform announced separately from tax reform opposition. The Coalition's immigration stance represents independent policy thinking rather than a coordinated response to budget housing measures, suggesting opportunistic political positioning rather than policy coherence.",
         "sources": [
           "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-125",
+      "slug": "when-do-negative-gearing-restrictions-take-effect",
+      "title": "When do negative gearing restrictions actually take effect?",
+      "category": "tax-reform",
+      "type": "factual_dispute",
+      "summary": "A factual conflict exists between the official government budget website and media reporting regarding the effective date for negative gearing restrictions. The budget.gov.au website states the restrictions begin on 1 July 2027, while ABC News and other media outlets reference Budget Night (12 May 2026) as the critical cutoff date for grandfathering new investments.",
+      "view_a": {
+        "label": "1 July 2027 start date",
+        "argument": "The official government budget website (budget.gov.au) clearly states that negative gearing restrictions apply from 1 July 2027. This is the authoritative government source and represents the official commencement date for the new rules.",
+        "sources": [
+          "https://budget.gov.au/content/04-tax-reform.htm"
+        ]
+      },
+      "view_b": {
+        "label": "12 May 2026 Budget Night cutoff",
+        "argument": "ABC News and other media reports reference Budget Night (12 May 2026) as the critical cutoff date for new investments to be grandfathered from the negative gearing restrictions. This suggests the policy intent was to prevent investors from entering new negatively geared arrangements after the budget announcement.",
+        "sources": [
+          "Financial news outlets covering the housing policy"
         ]
       },
       "verdict": null

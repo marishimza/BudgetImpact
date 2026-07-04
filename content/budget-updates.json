@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T11:22:51.303Z",
+  "lastUpdated": "2026-07-04T16:59:18.375Z",
   "items": [
     {
       "id": "update-001",
@@ -3459,6 +3459,26 @@
       "title": "KPMG reveals detailed $47.5m CGT implementation funding breakdown for Treasury and ATO",
       "summary": "KPMG analysis provides a detailed breakdown of the $47.5 million in implementation funding allocated to Treasury and the ATO over four years from 2026-27 for CGT and negative gearing reform rollout. The funding includes $3.9 million per year ongoing after the initial four-year implementation period concludes.",
       "url": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
+      "priority": "high"
+    },
+    {
+      "id": "update-344",
+      "date": "2026-07-04",
+      "tag": "Parliament",
+      "source": "Australian Parliament House",
+      "title": "Tax Reform No. 1 Bill 2026 formally lodged — trust tax treatment changes progressing separately",
+      "summary": "The Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 has been formally lodged with Parliament, marking a significant step forward for trust tax treatment reform. The bill is being progressed as a distinct piece of legislation separate from the Treasury Laws Amendment (More Housing, More Help) Bill 2026, indicating the government's commitment to addressing trust taxation issues through dedicated legislation. This separation allows the housing package to advance independently while trust tax reforms undergo their own parliamentary examination process.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Legislation_List",
+      "priority": "high"
+    },
+    {
+      "id": "update-345",
+      "date": "2026-07-04",
+      "tag": "Property",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases technical guidance distinguishing cost base indexation from CGT discount for pre-1985 assets",
+      "summary": "The ATO has released technical guidance clarifying the distinction between cost base indexation and the CGT discount mechanism, particularly for pre-1985 assets where the valuation reset applies from 1 July 2027. The guidance assists tax professionals in determining the appropriate cost base methodology when applying the new valuation reset for assets acquired before 20 September 1985. This technical clarification is essential for practitioners preparing client tax positions ahead of the upcoming reforms.",
+      "url": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
       "priority": "high"
     }
   ]

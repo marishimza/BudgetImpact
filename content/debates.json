@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T11:23:34.667Z",
+  "lastUpdated": "2026-07-04T16:58:24.284Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2931,6 +2931,31 @@
         "sources": [
           "Perpetual Budget Analysis",
           "Other financial commentators"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-127",
+      "slug": "2b-infrastructure-initiative-will-it-deliver-65000-homes-or-significantly-fewer",
+      "title": "$2B infrastructure initiative: Will it deliver 65,000 homes or significantly fewer?",
+      "category": "Housing",
+      "type": "projection_disagreement",
+      "summary": "A factual conflict exists between government projections and independent analysis regarding whether the $2 billion infrastructure initiative will deliver the claimed 65,000 additional homes. Government and property industry sources support this target, while independent analysts question its feasibility.",
+      "view_a": {
+        "label": "Government and industry: 65,000 homes achievable",
+        "argument": "Government sources and the property industry maintain that the $2 billion infrastructure initiative is designed to unlock land and fund essential infrastructure to support the construction of 65,000 additional homes. The initiative is part of a coordinated strategy to address housing supply and is based on established infrastructure-to-housing delivery frameworks.",
+        "sources": [
+          "https://budget.gov.au/content/04-tax-reform.htm",
+          "https://www.csc.gov.au/news-and-insights/2026/may-13-federal-budget-2026"
+        ]
+      },
+      "view_b": {
+        "label": "Independent analysis: significantly fewer homes likely",
+        "argument": "Grattan Institute modelling and independent analysis question whether the $2 billion infrastructure initiative can realistically deliver 65,000 additional homes. Analysis suggests that infrastructure funding alone does not guarantee construction outcomes, with bottlenecks in planning approval processes, skilled labour shortages, and developer capacity constraints likely to limit actual delivery to a significantly lower figure than the government projection.",
+        "sources": [
+          "Grattan Institute modelling",
+          "Independent analysis (referenced across multiple budget assessments)"
         ]
       },
       "verdict": null

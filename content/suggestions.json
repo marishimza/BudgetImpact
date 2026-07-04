@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T14:58:51.368Z",
+  "lastUpdated": "2026-07-04T16:59:35.409Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2358,18 +2358,6 @@
       "source": "https://www.australianshareholders.com.au/federal-budget-2026-2027-what-it-means-for-australian-investors",
       "implementation_effort": "10_minutes",
       "id": "suggestion-20260611-693",
-      "timestamp": "2026-06-11T12:05:08.347Z",
-      "status": "pending"
-    },
-    {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Capital gains will face a minimum 30% tax rate on ALL gains from July 2027'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The phrase 'on ALL gains' is potentially misleading. The budget.gov.au states 'introduce a minimum 30% tax on gains' — meaning 30% is a floor/tax rate minimum, not that all gains are taxed at exactly 30%. Under inflation indexation, real indexed gains could face different effective rates. The ASX analysis shows a 16% marginal rate investor faces '8% tax on nominal gains, as opposed to 30% on indexed gains' — suggesting the floor applies differently depending on inflation adjustment. The 'ALL gains' phrasing conflates a rate floor with a universal application.",
-      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax applies to ALL capital gains', verdict is 'partially_true' because the 30% is a minimum/tax floor, not a universal rate on all nominal gains — inflation indexation means indexed gains face different effective taxation depending on the asset and holding period.",
-      "source": "https://www.budget.gov.au/tax-reform",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260611-340",
       "timestamp": "2026-06-11T12:05:08.347Z",
       "status": "pending"
     },
@@ -7415,32 +7403,6 @@
     },
     {
       "type": "content_update",
-      "priority": "high",
-      "title": "Tax Reform No. 1 Bill 2026 formally lodged — trust tax treatment changes progressing separately",
-      "description": "The Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 has been formally lodged with Parliament separately from the Treasury Laws Amendment (More Housing, More Help) Bill 2026, indicating trust tax treatment reform is progressing as a distinct piece of legislation.",
-      "suggestion": "Add separate news item confirming Tax Reform No. 1 Bill 2026 progress — trust tax treatment reform progressing separately from housing package as second piece of Budget tax legislation.",
-      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Legislation_List",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260704-951",
-      "timestamp": "2026-07-04T14:58:44.770Z",
-      "status": "pending",
-      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
-    },
-    {
-      "type": "content_update",
-      "priority": "high",
-      "title": "ATO releases technical guidance distinguishing cost base indexation from CGT discount for pre-1985 assets",
-      "description": "The ATO has released technical guidance clarifying the distinction between cost base indexation and the CGT discount mechanism, particularly for pre-1985 assets where the valuation reset applies from 1 July 2027.",
-      "suggestion": "Add news item: ATO releases technical guidance distinguishing cost base indexation from CGT discount — clarifies pre-1985 asset valuation reset mechanism for tax professionals preparing for July 2027 reforms.",
-      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260704-748",
-      "timestamp": "2026-07-04T14:58:44.770Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base"
-    },
-    {
-      "type": "content_update",
       "priority": "medium",
       "title": "Labor-Greens deal confirms CGT and negative gearing reforms will pass Parliament",
       "description": "A formal agreement between the Labor Government and the Greens party confirms sufficient crossbench support for the housing reform package, ensuring the Treasury Laws Amendment (More Housing, More Help) Bill 2026 will pass Parliament.",
@@ -7450,32 +7412,6 @@
       "id": "suggestion-20260704-350",
       "timestamp": "2026-07-04T14:58:44.770Z",
       "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "high",
-      "title": "Division 296 super tax: flat 15% on all balances vs proportional earnings tax on excess",
-      "description": "There's a factual conflict about how the Division 296 super tax is calculated. Government/ATO sources indicate it's a proportional tax on earnings above the $3m threshold, while numerous secondary sources claim it applies a flat 15% on the entire balance exceeding $3m. This is a significant difference - a flat tax on the excess balance vs a tax on earnings/returns would produce very different outcomes for affected members.",
-      "suggestion": "Add to debates.json: budget.gov.au/csc.gov.au sources state the tax applies to 'the proportion of earnings of total super balances above $3m' (proportional earnings approach), while multiple secondary sources including some listed in pending suggestions claim it 'imposes a 15% tax on all superannuation balances exceeding $3 million' (flat balance approach). These describe materially different calculation methods.",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://www.csc.gov.au/news-and-insights/2026/may-13-federal-budget-2026",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260704-966",
-      "timestamp": "2026-07-04T14:58:44.770Z",
-      "status": "pending",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
-    },
-    {
-      "type": "debate_page",
-      "priority": "high",
-      "title": "$2B infrastructure initiative: Will it deliver 65,000 homes or significantly fewer?",
-      "description": "There is a factual conflict between government projections and independent analysis on whether the $2 billion infrastructure initiative can actually deliver 65,000 additional homes. The government and property industry sources claim this target is achievable, while Grattan Institute and other independent analyses question the feasibility and suggest significantly fewer homes may result.",
-      "suggestion": "Add to debates.json: Government sources (budget.gov.au, API Magazine citing REIA) claim the $2B infrastructure initiative will deliver 65,000 additional homes. Grattan Institute modelling and independent analysis (referenced in multiple pending suggestions) question the delivery capacity and feasibility of the 65,000 target, suggesting significantly fewer homes may eventuate.",
-      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades; https://www.csc.gov.au/news-and-insights/2026/may-13-federal-budget-2026",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260704-154",
-      "timestamp": "2026-07-04T14:58:44.771Z",
-      "status": "pending",
-      "corroborated_by": "https://www.smh.com.au/politics/federal/chalmers-doubles-down-on-housing-with-2-billion-for-roads-and-pipes-20260509-p5zv9w.html"
     },
     {
       "type": "fact_check",
@@ -8896,6 +8832,48 @@
       "timestamp": "2026-06-11T06:41:07.116Z",
       "status": "implemented",
       "implemented_at": "2026-07-04T11:23:34.671Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "$2B infrastructure initiative: Will it deliver 65,000 homes or significantly fewer?",
+      "description": "There is a factual conflict between government projections and independent analysis on whether the $2 billion infrastructure initiative can actually deliver 65,000 additional homes. The government and property industry sources claim this target is achievable, while Grattan Institute and other independent analyses question the feasibility and suggest significantly fewer homes may result.",
+      "suggestion": "Add to debates.json: Government sources (budget.gov.au, API Magazine citing REIA) claim the $2B infrastructure initiative will deliver 65,000 additional homes. Grattan Institute modelling and independent analysis (referenced in multiple pending suggestions) question the delivery capacity and feasibility of the 65,000 target, suggesting significantly fewer homes may eventuate.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://www.apimagazine.com.au/news/article/federal-budget-makes-most-sweeping-changes-to-property-landscape-in-decades; https://www.csc.gov.au/news-and-insights/2026/may-13-federal-budget-2026",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260704-154",
+      "timestamp": "2026-07-04T14:58:44.771Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.smh.com.au/politics/federal/chalmers-doubles-down-on-housing-with-2-billion-for-roads-and-pipes-20260509-p5zv9w.html",
+      "implemented_at": "2026-07-04T16:58:24.289Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Tax Reform No. 1 Bill 2026 formally lodged — trust tax treatment changes progressing separately",
+      "description": "The Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 has been formally lodged with Parliament separately from the Treasury Laws Amendment (More Housing, More Help) Bill 2026, indicating trust tax treatment reform is progressing as a distinct piece of legislation.",
+      "suggestion": "Add separate news item confirming Tax Reform No. 1 Bill 2026 progress — trust tax treatment reform progressing separately from housing package as second piece of Budget tax legislation.",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Legislation_List",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260704-951",
+      "timestamp": "2026-07-04T14:58:44.770Z",
+      "status": "implemented",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
+      "implemented_at": "2026-07-04T16:58:52.399Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "ATO releases technical guidance distinguishing cost base indexation from CGT discount for pre-1985 assets",
+      "description": "The ATO has released technical guidance clarifying the distinction between cost base indexation and the CGT discount mechanism, particularly for pre-1985 assets where the valuation reset applies from 1 July 2027.",
+      "suggestion": "Add news item: ATO releases technical guidance distinguishing cost base indexation from CGT discount — clarifies pre-1985 asset valuation reset mechanism for tax professionals preparing for July 2027 reforms.",
+      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "implementation_effort": "10_minutes",
+      "id": "suggestion-20260704-748",
+      "timestamp": "2026-07-04T14:58:44.770Z",
+      "status": "implemented",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base",
+      "implemented_at": "2026-07-04T16:59:18.386Z"
     }
   ],
   "skipped": [
@@ -9385,6 +9363,35 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-07-04T11:23:53.984Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "Division 296 super tax: flat 15% on all balances vs proportional earnings tax on excess",
+      "description": "There's a factual conflict about how the Division 296 super tax is calculated. Government/ATO sources indicate it's a proportional tax on earnings above the $3m threshold, while numerous secondary sources claim it applies a flat 15% on the entire balance exceeding $3m. This is a significant difference - a flat tax on the excess balance vs a tax on earnings/returns would produce very different outcomes for affected members.",
+      "suggestion": "Add to debates.json: budget.gov.au/csc.gov.au sources state the tax applies to 'the proportion of earnings of total super balances above $3m' (proportional earnings approach), while multiple secondary sources including some listed in pending suggestions claim it 'imposes a 15% tax on all superannuation balances exceeding $3 million' (flat balance approach). These describe materially different calculation methods.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm; https://www.csc.gov.au/news-and-insights/2026/may-13-federal-budget-2026",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260704-966",
+      "timestamp": "2026-07-04T14:58:44.770Z",
+      "status": "skipped",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-07-04T16:57:45.052Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Capital gains will face a minimum 30% tax rate on ALL gains from July 2027'",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The phrase 'on ALL gains' is potentially misleading. The budget.gov.au states 'introduce a minimum 30% tax on gains' — meaning 30% is a floor/tax rate minimum, not that all gains are taxed at exactly 30%. Under inflation indexation, real indexed gains could face different effective rates. The ASX analysis shows a 16% marginal rate investor faces '8% tax on nominal gains, as opposed to 30% on indexed gains' — suggesting the floor applies differently depending on inflation adjustment. The 'ALL gains' phrasing conflates a rate floor with a universal application.",
+      "suggestion": "Add to fact-checks.json: claim is 'minimum 30% tax applies to ALL capital gains', verdict is 'partially_true' because the 30% is a minimum/tax floor, not a universal rate on all nominal gains — inflation indexation means indexed gains face different effective taxation depending on the asset and holding period.",
+      "source": "https://www.budget.gov.au/tax-reform",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260611-340",
+      "timestamp": "2026-06-11T12:05:08.347Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-07-04T16:59:35.409Z"
     }
   ],
   "needs_manual_review": [

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T16:58:24.284Z",
+  "lastUpdated": "2026-07-04T22:53:58.275Z",
   "debates": [
     {
       "id": "debate-001",
@@ -2956,6 +2956,27 @@
         "sources": [
           "Grattan Institute modelling",
           "Independent analysis (referenced across multiple budget assessments)"
+        ]
+      },
+      "verdict": null
+    },
+    {
+      "id": "debate-128",
+      "slug": "coalition-pledge-repeal-negative-gearing-cgt-investor-behaviour-property-market",
+      "title": "Will the Coalition's pledge to repeal negative gearing and CGT changes affect investor behaviour and property market stability?",
+      "category": "tax_policy",
+      "type": "policy_disagreement",
+      "summary": "The Coalition has committed to repealing Labor's negative gearing and CGT changes, calling them 'toxic'. This has created significant debate over whether this political opposition will cause property investors to pause purchasing decisions, sell properties before reforms take effect, or maintain confidence expecting repeal if the Coalition wins government.",
+      "view_a": {
+        "label": "Investor Uncertainty",
+        "argument": "The Coalition's Tim Wilson has described the changes as 'toxic' and committed to repealing them, suggesting significant investor uncertainty. The explicit political opposition creates doubt about the long-term stability of tax settings, potentially causing investors to delay purchasing decisions or reconsider property investments until the policy landscape becomes clearer.",
+        "sources": []
+      },
+      "view_b": {
+        "label": "Confidence Preserved",
+        "argument": "Johnsons MME analysis suggests that returning tax settings to current conditions through the Coalition's repeal pledge encourages status quo investments. The prospect of reversal may preserve investor confidence by signalling that current favourable tax treatment will be maintained, potentially preventing a rush to sell or a pullback from the property market.",
+        "sources": [
+          "https://www.johnsonsmme.com.au"
         ]
       },
       "verdict": null

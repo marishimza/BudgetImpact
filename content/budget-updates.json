@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T16:59:18.375Z",
+  "lastUpdated": "2026-07-04T22:53:12.304Z",
   "items": [
     {
       "id": "update-001",
@@ -3479,6 +3479,36 @@
       "title": "ATO releases technical guidance distinguishing cost base indexation from CGT discount for pre-1985 assets",
       "summary": "The ATO has released technical guidance clarifying the distinction between cost base indexation and the CGT discount mechanism, particularly for pre-1985 assets where the valuation reset applies from 1 July 2027. The guidance assists tax professionals in determining the appropriate cost base methodology when applying the new valuation reset for assets acquired before 20 September 1985. This technical clarification is essential for practitioners preparing client tax positions ahead of the upcoming reforms.",
       "url": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "priority": "high"
+    },
+    {
+      "id": "update-346",
+      "date": "2026-07-04",
+      "tag": "Parliament",
+      "source": "Australian Parliament",
+      "title": "Tax Reform No. 1 Bill 2026 formally lodged — trust tax treatment changes progress separately from housing package",
+      "summary": "The Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 has been formally lodged with Parliament as a distinct piece of legislation separate from the Treasury Laws Amendment (More Housing, More Help) Bill 2026. This signals the Government's strategy to progress trust tax treatment reform as its own dedicated reform measure within the broader asset taxation shift. Tax practitioners and trust structures should monitor this legislation closely as it moves through the parliamentary process.",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Legislation_SubjectIndex?page=1&count=10",
+      "priority": "high"
+    },
+    {
+      "id": "update-347",
+      "date": "2026-05-01",
+      "tag": "Budget",
+      "source": "KPMG",
+      "title": "KPMG reveals detailed CGT implementation funding breakdown: $47.5m over four years plus $3.9m ongoing",
+      "summary": "KPMG Budget Analysis provides a detailed breakdown of the $47.5 million allocated for CGT and negative gearing reform implementation funding over four years from 2026-27. The funding has been distributed to Treasury and the ATO to support the rollout of these housing tax reforms, with an additional $3.9 million in ongoing operational funding secured beyond the initial four-year period.",
+      "url": "https://kpmg.com/au/en/home/insights/2026/05/federal-budget-2026-analysis.html",
+      "priority": "high"
+    },
+    {
+      "id": "update-348",
+      "date": "2026-05-15",
+      "tag": "Parliament",
+      "source": "The Guardian",
+      "title": "Labor-Greens deal confirms CGT and negative gearing reforms will pass Parliament with sufficient Senate support",
+      "summary": "Following extended Senate negotiations, a formal Labor-Greens agreement confirms the housing reform package including negative gearing restrictions and CGT discount changes will receive sufficient crossbench support to pass Parliament, ensuring the reforms proceed as legislated.",
+      "url": "https://www.theguardian.com/australia-news/2026/may/15/senate-housing-reform-vote",
       "priority": "high"
     }
   ]

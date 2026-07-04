@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T20:43:54.585Z",
+  "lastUpdated": "2026-07-04T22:53:58.280Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -2362,18 +2362,6 @@
       "status": "pending"
     },
     {
-      "type": "fact_check",
-      "priority": "medium",
-      "title": "Claim: 'Negative gearing has been fully abolished for all investors'",
-      "description": "Multiple sources indicate this is inaccurate. The williambuck.com source specifies: 'Negative gearing for established residential properties will be abolished from 1 July 2027 for properties purchased after 7:30pm on 12 May 2026.' The commbank.com.au states: 'From 1 July 2027, negative gearing for residential property will be limited to new builds that add to housing supply. Investors who acquire established dwellings after the announcement will no longer...' This means: (1) New builds adding supply remain eligible, (2) Properties purchased before Budget Night may be grandfathered, (3) The change takes effect July 2027, not immediately. 'Fully abolished' overstates the scope.",
-      "suggestion": "Add to fact-checks.json: claim is 'negative gearing fully abolished for all investors', verdict is 'partially_true' because negative gearing remains available for new builds that add to housing supply, and restrictions apply only to established properties purchased after Budget Night (7:30pm 12 May 2026) from 1 July 2027.",
-      "source": "https://www.williambuck.com/federal-budget-analysis-2026",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260611-735",
-      "timestamp": "2026-06-11T12:05:08.347Z",
-      "status": "pending"
-    },
-    {
       "id": "suggestion-20260611-444",
       "timestamp": "2026-06-11T12:05:08.347Z",
       "status": "pending",
@@ -2394,30 +2382,6 @@
       "source": "https://www.theguardian.com/australia-news/2026/may/12/australia-federal-budget-2026-tax-reform-capital-gains-cgt-changes-negative-gearing-housing-first-time-home-buyers-investors-explained",
       "implementation_effort": "10_minutes",
       "id": "suggestion-20260611-353",
-      "timestamp": "2026-06-11T17:34:04.231Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Budget allocates $47.5 million over four years for CGT and negative gearing reform implementation",
-      "description": "KPMG confirms official budget funding allocation for Treasury and ATO to implement CGT and negative gearing reforms, with $3.9 million per year ongoing after the initial four-year period.",
-      "suggestion": "Add to budget-updates.json: Budget confirms $47.5 million over four years from 2026-27 (and $3.9 million per year ongoing) allocated to Treasury and ATO for implementation of CGT discount and negative gearing changes.",
-      "source": "https://kpmg.com/au/en/insights/australian-federal-budget.html",
-      "implementation_effort": "10_minutes",
-      "id": "suggestion-20260611-508",
-      "timestamp": "2026-06-11T17:34:04.231Z",
-      "status": "pending"
-    },
-    {
-      "type": "debate_page",
-      "priority": "medium",
-      "title": "Will the Coalition's pledge to repeal negative gearing and CGT changes affect investor behaviour and property market stability?",
-      "description": "The Coalition has committed to repealing the budget's negative gearing and CGT changes, calling them 'toxic'. This creates uncertainty for property investors about the future tax treatment of their investments. Debate exists over whether the Coalition's political opposition will cause investors to pause purchasing decisions, sell properties before reforms take effect, or maintain confidence expecting repeal if they win government.",
-      "suggestion": "Add to debates.json: view_a from The Guardian (Coalition's Tim Wilson) says the changes are 'toxic' and 'we'll repeal these measures if necessary', suggesting significant investor uncertainty. view_b from Johnsons MME analysis notes 'status quo investments encouraged by returning tax settings to current conditions' under Coalition policy, implying investor confidence may be preserved by the repeal pledge.",
-      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260611-508",
       "timestamp": "2026-06-11T17:34:04.231Z",
       "status": "pending"
     },
@@ -7438,43 +7402,6 @@
       "implementation_effort": "5_minutes"
     },
     {
-      "type": "content_update",
-      "priority": "high",
-      "title": "Tax Reform No. 1 Bill 2026 formally lodged — trust tax treatment changes progress separately from housing package",
-      "description": "The Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 has been formally lodged with Parliament separately from the Treasury Laws Amendment (More Housing, More Help) Bill 2026, signalling trust tax treatment reform as a distinct piece of legislation within the Government's broader asset taxation shift strategy.",
-      "suggestion": "Add to budget-updates.json: Trust tax treatment reform progressing as separate legislation — Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament",
-      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Legislation_SubjectIndex?page=1&count=10",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260704-398",
-      "timestamp": "2026-07-04T20:43:48.133Z",
-      "status": "pending",
-      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "KPMG reveals detailed CGT implementation funding breakdown: $47.5m over four years plus $3.9m ongoing",
-      "description": "KPMG Budget Analysis provides detailed breakdown of the $47.5 million in CGT and negative gearing reform implementation funding allocated to Treasury and ATO over four years from 2026-27, plus $3.9 million in ongoing funding.",
-      "suggestion": "Add to budget-updates.json: KPMG analysis reveals detailed CGT implementation funding breakdown — $47.5m over four years plus $3.9m ongoing for Treasury and ATO",
-      "source": "https://kpmg.com/au/en/home/insights/2026/05/federal-budget-2026-analysis.html",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260704-433",
-      "timestamp": "2026-07-04T20:43:48.133Z",
-      "status": "pending"
-    },
-    {
-      "type": "content_update",
-      "priority": "medium",
-      "title": "Labor-Greens deal confirms CGT and negative gearing reforms will pass Parliament with sufficient Senate support",
-      "description": "Following extended Senate negotiations, a formal Labor-Greens agreement confirms the housing reform package including negative gearing restrictions and CGT discount changes will receive sufficient crossbench support to pass Parliament, ensuring the reforms proceed as legislated.",
-      "suggestion": "Add to budget-updates.json: Labor-Greens deal confirms CGT and negative gearing reforms will pass Parliament with sufficient Senate support",
-      "source": "https://www.theguardian.com/australia-news/2026/may/15/senate-housing-reform-vote",
-      "implementation_effort": "15_minutes",
-      "id": "suggestion-20260704-801",
-      "timestamp": "2026-07-04T20:43:48.133Z",
-      "status": "pending"
-    },
-    {
       "type": "debate_page",
       "priority": "medium",
       "title": "CGT discount replacement: inflation indexation vs cost base indexation",
@@ -8906,6 +8833,59 @@
       "status": "implemented",
       "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base",
       "implemented_at": "2026-07-04T16:59:18.386Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "high",
+      "title": "Tax Reform No. 1 Bill 2026 formally lodged — trust tax treatment changes progress separately from housing package",
+      "description": "The Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 has been formally lodged with Parliament separately from the Treasury Laws Amendment (More Housing, More Help) Bill 2026, signalling trust tax treatment reform as a distinct piece of legislation within the Government's broader asset taxation shift strategy.",
+      "suggestion": "Add to budget-updates.json: Trust tax treatment reform progressing as separate legislation — Treasury Laws Amendment (Tax Reform No. 1) Bill 2026 formally lodged with Parliament",
+      "source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Legislation_SubjectIndex?page=1&count=10",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260704-398",
+      "timestamp": "2026-07-04T20:43:48.133Z",
+      "status": "implemented",
+      "corroborated_by": "https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/speeches/second-reading-speech-treasury-laws-amendment-tax-reform-no-1",
+      "implemented_at": "2026-07-04T22:52:23.346Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "KPMG reveals detailed CGT implementation funding breakdown: $47.5m over four years plus $3.9m ongoing",
+      "description": "KPMG Budget Analysis provides detailed breakdown of the $47.5 million in CGT and negative gearing reform implementation funding allocated to Treasury and ATO over four years from 2026-27, plus $3.9 million in ongoing funding.",
+      "suggestion": "Add to budget-updates.json: KPMG analysis reveals detailed CGT implementation funding breakdown — $47.5m over four years plus $3.9m ongoing for Treasury and ATO",
+      "source": "https://kpmg.com/au/en/home/insights/2026/05/federal-budget-2026-analysis.html",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260704-433",
+      "timestamp": "2026-07-04T20:43:48.133Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-04T22:52:43.394Z"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Labor-Greens deal confirms CGT and negative gearing reforms will pass Parliament with sufficient Senate support",
+      "description": "Following extended Senate negotiations, a formal Labor-Greens agreement confirms the housing reform package including negative gearing restrictions and CGT discount changes will receive sufficient crossbench support to pass Parliament, ensuring the reforms proceed as legislated.",
+      "suggestion": "Add to budget-updates.json: Labor-Greens deal confirms CGT and negative gearing reforms will pass Parliament with sufficient Senate support",
+      "source": "https://www.theguardian.com/australia-news/2026/may/15/senate-housing-reform-vote",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260704-801",
+      "timestamp": "2026-07-04T20:43:48.133Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-04T22:53:12.308Z"
+    },
+    {
+      "type": "debate_page",
+      "priority": "medium",
+      "title": "Will the Coalition's pledge to repeal negative gearing and CGT changes affect investor behaviour and property market stability?",
+      "description": "The Coalition has committed to repealing the budget's negative gearing and CGT changes, calling them 'toxic'. This creates uncertainty for property investors about the future tax treatment of their investments. Debate exists over whether the Coalition's political opposition will cause investors to pause purchasing decisions, sell properties before reforms take effect, or maintain confidence expecting repeal if they win government.",
+      "suggestion": "Add to debates.json: view_a from The Guardian (Coalition's Tim Wilson) says the changes are 'toxic' and 'we'll repeal these measures if necessary', suggesting significant investor uncertainty. view_b from Johnsons MME analysis notes 'status quo investments encouraged by returning tax settings to current conditions' under Coalition policy, implying investor confidence may be preserved by the repeal pledge.",
+      "source": "https://www.theguardian.com/australia-news/2026/may/13/coalition-response-to-labor-federal-budget-reforms-negative-gearing-capital-gains-tax-cgt",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260611-508",
+      "timestamp": "2026-06-11T17:34:04.231Z",
+      "status": "implemented",
+      "implemented_at": "2026-07-04T22:53:58.280Z"
     }
   ],
   "skipped": [
@@ -9424,6 +9404,20 @@
       "status": "skipped",
       "status_reason": "MiniMax did not return a valid JSON array of new items",
       "implemented_at": "2026-07-04T16:59:35.409Z"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'Negative gearing has been fully abolished for all investors'",
+      "description": "Multiple sources indicate this is inaccurate. The williambuck.com source specifies: 'Negative gearing for established residential properties will be abolished from 1 July 2027 for properties purchased after 7:30pm on 12 May 2026.' The commbank.com.au states: 'From 1 July 2027, negative gearing for residential property will be limited to new builds that add to housing supply. Investors who acquire established dwellings after the announcement will no longer...' This means: (1) New builds adding supply remain eligible, (2) Properties purchased before Budget Night may be grandfathered, (3) The change takes effect July 2027, not immediately. 'Fully abolished' overstates the scope.",
+      "suggestion": "Add to fact-checks.json: claim is 'negative gearing fully abolished for all investors', verdict is 'partially_true' because negative gearing remains available for new builds that add to housing supply, and restrictions apply only to established properties purchased after Budget Night (7:30pm 12 May 2026) from 1 July 2027.",
+      "source": "https://www.williambuck.com/federal-budget-analysis-2026",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260611-735",
+      "timestamp": "2026-06-11T12:05:08.347Z",
+      "status": "skipped",
+      "status_reason": "MiniMax did not return a valid JSON array of new items",
+      "implemented_at": "2026-07-04T22:53:31.901Z"
     }
   ],
   "needs_manual_review": [

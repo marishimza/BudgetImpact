@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T22:53:12.304Z",
+  "lastUpdated": "2026-07-05T07:20:54.207Z",
   "items": [
     {
       "id": "update-001",
@@ -3509,6 +3509,26 @@
       "title": "Labor-Greens deal confirms CGT and negative gearing reforms will pass Parliament with sufficient Senate support",
       "summary": "Following extended Senate negotiations, a formal Labor-Greens agreement confirms the housing reform package including negative gearing restrictions and CGT discount changes will receive sufficient crossbench support to pass Parliament, ensuring the reforms proceed as legislated.",
       "url": "https://www.theguardian.com/australia-news/2026/may/15/senate-housing-reform-vote",
+      "priority": "high"
+    },
+    {
+      "id": "update-349",
+      "date": "2026-07-05",
+      "tag": "Property",
+      "source": "Australian Taxation Office",
+      "title": "ATO releases technical guidance clarifying cost base indexation applies to whole asset, not just gain",
+      "summary": "The ATO has released technical guidance clarifying that cost base indexation adjusts the acquisition cost upward for inflation, with capital gains calculated as the sale price minus the indexed cost base. This methodology differs from the previous 50% discount approach, which only reduced the taxable portion of gains. The guidance applies to assets acquired before 1 July 2025 and provides clarity on how indexation affects the entire calculation rather than just the gain portion.",
+      "url": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
+      "priority": "high"
+    },
+    {
+      "id": "update-350",
+      "date": "2026-07-05",
+      "tag": "Budget",
+      "source": "Perpetual",
+      "title": "Perpetual analysis: Transitional rules allow cost base indexation election for assets held before 8:30pm 12 May 2026",
+      "summary": "Perpetual confirms transitional provisions allow investors who acquired assets before the Budget announcement to elect between the old 50% CGT discount rules and the new cost base indexation methodology when calculating capital gains tax. This election provides flexibility for existing holdings while establishing new rules for future acquisitions. Investors with long-held assets may benefit from comparing outcomes under both methods to determine the most advantageous approach for their circumstances.",
+      "url": "https://www.perpetual.com.au/insights/cgt-indexation-reform-analysis",
       "priority": "high"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T22:57:51.320Z",
+  "lastUpdated": "2026-07-05T07:20:07.493Z",
   "claims": [
     {
       "id": "fc-001",
@@ -2090,6 +2090,24 @@
       ],
       "date_checked": "2026-07-03",
       "category": "tax"
+    },
+    {
+      "id": "fc-109",
+      "slug": "division-296-tax-on-super-earnings-not-balance",
+      "claim": "15% tax on all super balances over $3m",
+      "verdict": "partially_misleading",
+      "verdict_label": "Partially misleading",
+      "short_explanation": "Division 296 taxes superannuation earnings at 15%, not the balance itself. The tax applies proportionally to earnings attributed to the portion of balance above $3m threshold.",
+      "detailed_explanation": "Division 296 of the Treasury Laws Amendment (Better Targeted Super Concessions) Act 2023 introduces a 15% tax on 'taxable superannuation earnings' (TSE), not a flat 15% levy on superannuation balances. The tax is calculated as: 15% × (TSB − LSBT) / TSB × TSE, where TSB is Total Superannuation Balance and LSBT is the Low Taxed Balance Threshold of $3 million. This means only the portion of earnings that corresponds to the proportion of balance exceeding $3m is taxed. For example, if someone has a $6m balance and $300,000 in earnings, only 50% of those earnings would be subject to the 15% tax, resulting in $22,500 rather than $45,000. The ATO confirms it applies to 'the proportion of earnings relating to your TSB that exceeds the LSBT.'",
+      "sources": [
+        {
+          "name": "Australian Taxation Office",
+          "url": "https://www.ato.gov.au/Tax-professionals/Newsroom/Superannuation/Better-targeted-super-concessions",
+          "type": "official"
+        }
+      ],
+      "date_checked": "2026-07-05",
+      "category": "superannuation"
     }
   ]
 }

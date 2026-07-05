@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T22:53:58.280Z",
+  "lastUpdated": "2026-07-05T05:55:57.752Z",
   "pending": [
     {
       "id": "suggestion-20260517-320",
@@ -7460,48 +7460,108 @@
       "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
       "source": "",
       "implementation_effort": "5_minutes"
-    }
-  ],
-  "implemented": [
-    {
-      "id": "suggestion-20260627-321",
-      "timestamp": "2026-06-27T20:51:04.069Z",
-      "status": "implemented",
-      "priority": "medium",
-      "type": "content_update",
-      "title": "Possible update needed: \"Opposition flags Senate challenge — legislation not yet passed into law\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-007\" if legislation status has changed since 2026-05-14.",
-      "source": "",
-      "implementation_effort": "15_minutes",
-      "implemented_at": "2026-06-27T22:58:41.119Z"
     },
     {
-      "id": "suggestion-20260627-766",
-      "timestamp": "2026-06-27T20:51:04.069Z",
-      "status": "implemented",
-      "priority": "medium",
       "type": "content_update",
-      "title": "Possible update needed: \"Senate Passes Contested Budget Legislation Following Opposition U-Turn\"",
-      "description": "This news item references pending legislation that may have been resolved. Recent search results mention this topic.",
-      "suggestion": "Review and update budget-updates.json item \"update-267\" if legislation status has changed since 2026-06-26.",
-      "source": "",
+      "priority": "high",
+      "title": "ATO releases technical guidance clarifying cost base indexation applies to whole asset, not just gain",
+      "description": "Technical guidance distinguishes that cost base indexation adjusts the acquisition cost upward for inflation, with gains then calculated as sale price minus indexed cost base — rather than the previous 50% discount which only reduced the taxable portion of gains.",
+      "suggestion": "Add to budget-updates.json: ATO technical guidance clarifies cost base indexation methodology — indexation adjusts the cost base itself, meaning the gain is calculated as sale price minus the inflation-adjusted cost base, not as a discount on an already-calculated nominal gain.",
+      "source": "https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax",
       "implementation_effort": "15_minutes",
-      "implemented_at": "2026-06-27T22:59:01.737Z"
+      "id": "suggestion-20260705-560",
+      "timestamp": "2026-07-05T05:55:51.508Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/cost-base-of-asset"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "ATO confirms Division 296 applies to earnings proportion, not entire balance above threshold",
+      "description": "Technical clarification on Division 296 mechanics — the 15% additional tax applies only to the taxable superannuation earnings that relate to the proportion of total superannuation balance exceeding $3 million, not a flat 15% on all earnings or the entire balance above threshold.",
+      "suggestion": "Add to budget-updates.json: ATO confirms Division 296 tax is calculated proportionally — 15% applies only to earnings attributed to the portion of total superannuation balance exceeding $3 million threshold, requiring segregation of earnings between exempt and taxable portions.",
+      "source": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260705-585",
+      "timestamp": "2026-07-05T05:55:51.508Z",
+      "status": "pending"
+    },
+    {
+      "type": "content_update",
+      "priority": "medium",
+      "title": "Perpetual analysis: Transitional rules allow cost base indexation election for assets held before 8:30pm 12 May 2026",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Analysis confirms transitional provisions allow investors who acquired assets before Budget announcement to elect between old 50% discount rules and new cost base indexation methodology when calculating CGT — providing flexibility for existing holdings while establishing new rules for future acquisitions.",
+      "suggestion": "Add to budget-updates.json: Perpetual confirms transitional rules provide optional election between old 50% CGT discount and new cost base indexation for pre-announcement assets — investors with long-held assets may benefit from comparing outcomes under both methods.",
+      "source": "https://www.perpetual.com.au/insights/cgt-indexation-reform-analysis",
+      "implementation_effort": "15_minutes",
+      "id": "suggestion-20260705-957",
+      "timestamp": "2026-07-05T05:55:51.508Z",
+      "status": "pending"
+    },
+    {
+      "type": "debate_page",
+      "priority": "high",
+      "title": "Division 296 super tax: Is it a 15% rate on super balances or on earnings above thresholds?",
+      "description": "Many sources incorrectly state Division 296 imposes '15% tax on all superannuation balances exceeding $3 million'. However, the official CSC government source states it applies to 'the proportion of earnings of total super balances above $3m' at 15%, and '25% applies to the proportion over $10m in the retirement phase'. This is a factual difference between tax on balances vs tax on earnings, which significantly affects how the tax is calculated and who is affected.",
+      "suggestion": "Add to debates.json: Official CSC source states Division 296 applies 15% tax to the proportion of EARNINGS (not balances) above $3m threshold and 25% on earnings above $10m in retirement phase. Multiple other credible sources (wealthlab.com.au, superguide.com.au, various accounting firms) claim it applies a flat 15% tax on BALANCES exceeding $3 million, which misrepresents the actual mechanism.",
+      "source": "https://www.csc.gov.au/news-and-insights/2026/may-13-federal-budget-2026",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260705-806",
+      "timestamp": "2026-07-05T05:55:51.508Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
     },
     {
       "type": "debate_page",
       "priority": "medium",
-      "title": "Does the CGT minimum 30% floor apply to all gains or only gains above inflation?",
-      "description": "Multiple sources claim capital gains will face a minimum 30% tax rate on 'ALL gains' from July 2027. However, other sources suggest this interpretation may be incorrect - the minimum floor may only apply to gains above inflation, not nominal gains. This is a factual conflict about the actual operation of the new CGT rules.",
-      "suggestion": "Add to debates.json: Sources disagree on whether the 30% minimum CGT floor applies to ALL capital gains or only gains above inflation",
-      "source": "https://www.abc.net.au/news/2026-05-12/budget-2026-government-breaks-promise-negative-gearing-cgt/106669860 vs https://www.perpetual.com.au/insights/federal-budget-2026/",
+      "title": "$2B infrastructure initiative: Can it deliver 65,000 additional homes or significantly fewer?",
+      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] The government claims the $2 billion infrastructure initiative will enable approximately 65,000 additional homes. However, Grattan Institute and independent analyses question the feasibility of this target and suggest significantly fewer homes may be delivered. This represents a factual conflict about whether government projections are realistic.",
+      "suggestion": "Add to debates.json: Government sources (budget.gov.au, budget fact sheets) claim the $2B infrastructure initiative will deliver 65,000 additional homes. Grattan Institute and independent modelling question the feasibility of this target, suggesting the initiative may deliver significantly fewer than 65,000 homes.",
+      "source": "https://budget.gov.au/content/04-tax-reform.htm",
       "implementation_effort": "30_minutes",
-      "id": "suggestion-20260607-714",
-      "timestamp": "2026-06-07T15:19:36.293Z",
-      "status": "implemented",
-      "implemented_at": "2026-06-27T22:59:25.603Z"
+      "id": "suggestion-20260705-117",
+      "timestamp": "2026-07-05T05:55:51.508Z",
+      "status": "pending"
     },
+    {
+      "type": "fact_check",
+      "priority": "high",
+      "title": "Claim: 'Division 296 imposes a 15% tax on all superannuation balances exceeding $3 million'",
+      "description": "This wording implies a flat 15% levy on the entire balance above $3m. However, multiple sources indicate Division 296 is a 15% tax on 'taxable superannuation earnings' (not the balance itself), applied proportionally to the portion of earnings attributable to the balance exceeding $3m. The ATO states it applies to 'the proportion of earnings relating to your TSB that exceeds the LSBT.' This is a meaningful distinction - it's an earnings tax, not a balance tax.",
+      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is partially_misleading because Division 296 taxes superannuation earnings (15%), not the balance itself. The tax applies proportionally to earnings attributed to the portion of balance above $3m threshold.",
+      "source": "https://www.ato.gov.au/Tax-professionals/Newsroom/Superannuation/Better-targeted-super-concessions",
+      "implementation_effort": "30_minutes",
+      "id": "suggestion-20260705-605",
+      "timestamp": "2026-07-05T05:55:51.508Z",
+      "status": "pending",
+      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law"
+    },
+    {
+      "type": "fact_check",
+      "priority": "medium",
+      "title": "Claim: 'The $2 billion infrastructure initiative will deliver 65,000 additional homes'",
+      "description": "Multiple government sources cite 65,000 homes as the target. However, the Grattan Institute is cited as questioning whether this target is achievable, and multiple pending suggestions flag independent modelling as questioning the feasibility of 65,000 homes. The 'additional homes' claim may conflate the infrastructure funding with actual housing delivery, which depends on state/territory cooperation, planning approvals, and construction capacity.",
+      "suggestion": "Add to fact-checks.json: claim is '$2B infrastructure initiative will deliver 65,000 additional homes', verdict is disputed/unverified because while 65,000 is the government's stated target, independent analysis (Grattan Institute) questions whether the initiative can deliver this number. Housing delivery depends on factors beyond infrastructure funding.",
+      "source": "https://budget.gov.au/index.htm",
+      "implementation_effort": "45_minutes",
+      "id": "suggestion-20260705-708",
+      "timestamp": "2026-07-05T05:55:51.508Z",
+      "status": "pending"
+    },
+    {
+      "id": "suggestion-20260705-688",
+      "timestamp": "2026-07-05T05:55:51.508Z",
+      "status": "pending",
+      "priority": "medium",
+      "type": "timeline_update",
+      "title": "Mark \"Foreign Resident Notification Legislation Pending\" as past (date 2026-05-01 has passed)",
+      "description": "[UNVERIFIED — could not find corroborating source] Timeline event \"Foreign Resident Notification Legislation Pending\" is still marked \"upcoming\" but its date (2026-05-01) has passed.",
+      "suggestion": "In timeline.json, update event id \"t-010\" — change status from \"upcoming\" to \"past\".",
+      "source": "",
+      "implementation_effort": "5_minutes"
+    }
+  ],
+  "implemented": [
     {
       "type": "debate_page",
       "priority": "high",
@@ -8889,36 +8949,6 @@
     }
   ],
   "skipped": [
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'Division 296 imposes 15% tax on all superannuation balances exceeding $3 million'",
-      "description": "Media coverage commonly describes this as a flat 15% tax on balances over $3m. However, the ATO source clarifies it is '15% on the proportion of earnings relating to your TSB that exceeds the LSBT' - meaning the 15% applies only to the earnings attributable to the amount above $3m, not the entire balance above the threshold. This is a significant oversimplification that misrepresents how the tax is calculated.",
-      "suggestion": "Add to fact-checks.json: claim is '15% tax on all super balances over $3m', verdict is disputed because ATO confirms the 15% rate applies only to the earnings portion attributable to the balance exceeding $3m threshold, not a flat 15% on the entire balance above $3m.",
-      "source": "https://www.ato.gov.au/about-us/media-centre/recent-changes/better-targeted-super-concessions-is-law/",
-      "implementation_effort": "30_minutes",
-      "id": "suggestion-20260627-950",
-      "timestamp": "2026-06-27T20:51:04.069Z",
-      "status": "skipped",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/self-managed-super-funds-smsf/smsf-newsroom/better-targeted-super-concessions-is-law",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-27T22:58:04.633Z"
-    },
-    {
-      "type": "fact_check",
-      "priority": "high",
-      "title": "Claim: 'The 50% CGT discount is being replaced by inflation indexation'",
-      "description": "[SOURCE URL MAY NOT CONTAIN CLAIM — verify before publishing] Multiple sources use conflicting terminology. Budget.gov.au and The Guardian use 'inflation indexation' while NAB and Perpetual use 'cost base indexation'. These are technically different methods - inflation indexation adjusts cost base for CPI inflation only, while cost base indexation may use a different methodology. This semantic difference could lead to different tax outcomes and has appeared in media without clarification.",
-      "suggestion": "Add to fact-checks.json: claim is 'replaced by inflation indexation', verdict is partially_true because budget.gov.au confirms inflation-based indexation but NAB and Perpetual reference 'cost base indexation' suggesting potential inconsistency in how the policy is described across official and analysis sources.",
-      "source": "https://budget.gov.au/publications/pdfs/tax-reform.pdf",
-      "implementation_effort": "45_minutes",
-      "id": "suggestion-20260627-598",
-      "timestamp": "2026-06-27T20:51:04.069Z",
-      "status": "skipped",
-      "corroborated_by": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/calculating-your-cgt/indexing-the-cost-base",
-      "status_reason": "MiniMax did not return a valid JSON array of new items",
-      "implemented_at": "2026-06-27T22:58:16.097Z"
-    },
     {
       "type": "debate_page",
       "priority": "medium",
